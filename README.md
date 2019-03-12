@@ -79,15 +79,32 @@ Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9
 
 ----------------------------------------------------------------
 
-### Machine Learning with Scikit-Learn
+## Machine Learning with Scikit-Learn
 
-- End-to-End Machine Learning project  
-- Classification
-- Training models
-- Support Vector Machines
-- Decision Trees
-- Ensemble Learning and Random Forest 
+### Why Scikit-Learn
+
+Scikit-Learn one of the most complete, mature and well-documented library for Machine Learning tasks.
+It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
+I post here some explanations of the concepts, examples of applied theory and real project cases, divided by category.
+I tried to create the next steps preferring contents from the coherent context and authors, when possible.
+When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _________".
+
+### End-to-End Machine Learning project 
+
+### Classification
+### Training models
+### Support Vector Machines
+### Decision Trees
+### Ensemble Learning and Random Forest 
 
 -----------------------------------------------------------------
 
-### Neural Networks with TensorFlow
+## Neural Networks with TensorFlow
+### Why TensorFlow?
+### Up and Running with TensorFlow
+### ANN - Artificial Neural Networks 
+### CNN - Convolutional Neural Networks
+### RNN - Recurrent Neural Networks
+### Training Networks: Best practices 
+### AutoEncoders
+### Reinforcement Learning
