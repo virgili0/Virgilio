@@ -6,7 +6,7 @@ You will understand both theory and be able to apply it in practice, with hands-
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement Machine Learning concepts.
 
-I **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow", which inspired me and has driven most of the organization and hierarchy of the content listed above.
+I **strongly recommend** to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed above.
 
 A part from this, **every content** listed here is open source and free, most of that coming from the world-renowned universities in the world. 
 
@@ -86,10 +86,14 @@ Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9
 Scikit-Learn one of the most complete, mature and well-documented library for Machine Learning tasks.
 It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
 I post here some explanations of the concepts, examples of applied theory and real project cases, divided by category.
-I tried to create the next steps preferring contents from the coherent context and authors, when possible.
+
+When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
+I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
 When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _________".
 
 ### End-to-End Machine Learning project 
+
+For a first taste
 
 ### Classification
 ### Training models
