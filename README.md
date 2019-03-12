@@ -3,8 +3,10 @@
 
 This repository is intended to provide a complete and organic learning path to getting started with Machine Learning.
 You will understand both theory and be able to apply it in practice, with hands-on project.
-It does not require any previous knowledge, but being confident with programming and high  school math is necessary to understand and implement Machine Learning concepts.
-I also **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow", which inspired me and has driven most of the organization and hierarchy of the content listed above.
+
+It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement Machine Learning concepts.
+
+I **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow", which inspired me and has driven most of the organization and hierarchy of the content listed above.
 
 
 ### I organized the Path in 3 sections:
@@ -34,15 +36,12 @@ I also **strongly recommend** to buy this phenomenal book: "Hands-On Machine Lea
 - Reinforcement Learning
 
 ### - Utilities
-- Other Resources
-
-ciao allora
-
-
+- Machine Learning Projects 
+- Data Science Tools
+- Blogs / Youtube Channels / Websites worth taking a look!
 
 
-Let's get started!
-
+So let's get started!
 
 ---------------------------------------------------------------
 
@@ -50,7 +49,13 @@ Let's get started!
 
 - Python
 
+According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
+
+Python is one of the most used and loved programming languages, and it's necessary to know it to get things done in Machine Learning,  
+
+
+
 
 - The math you need
 - The machine learning Landscape
