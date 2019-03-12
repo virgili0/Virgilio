@@ -83,15 +83,16 @@ Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9
 
 ## Machine Learning with Scikit-Learn
 
-### Why Scikit-Learn
-
-Scikit-Learn one of the most complete, mature and well-documented library for Machine Learning tasks.
-It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
-I post here some explanations of the concepts, examples of applied theory and real project cases, divided by category.
-
 When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
 I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
-When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _________".
+When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
+
+
+### Why Scikit-Learn
+
+[Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
+
+
 
 ### End-to-End Machine Learning project 
 
