@@ -55,7 +55,7 @@ According to Sun Tzu:
 Python is one of the most used and loved programming languages, and it's necessary to get things done in the Machine Learning field. Like most of the frameworks of the bigger Data Science field, TensorFlow and Scikit-Learn are written in Python.  
 
 If you don't know the basics, just start from [here] (https://pythonprogramming.net/introduction-learn-python-3-tutorials/).
-
+This site was built using [GitHub Pages](https://pages.github.com/).
 
 
 
