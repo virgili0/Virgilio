@@ -52,7 +52,7 @@ So let's get started!
 According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
 
-Python is one of the most used and loved programming languages, and it's necessary to know it to get things done in Machine Learning,  
+Python is one of the most used and loved programming languages, and it's necessary to know it to get things done in Machine Learnis the ing: is the   
 
 
 
