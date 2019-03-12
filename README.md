@@ -60,7 +60,7 @@ If you don't know the basics, just start from [here](https://pythonprogramming.n
 Else if you know the syntax and you want to have a more solid Python background (recommended) take this Intermediate Python Course from [here](https://pythonprogramming.net/introduction-intermediate-python-tutorial/).\
 If you are looking for tons of exercises to get your hands dirty and get experience with Python, check [here](https://www.w3resource.com/python-exercises/) and [here](https://www.practicepython.org/).
 
-Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), an important module for math operations, giving you [Tensors](https://www.kdnuggets.com/2018/05/wtf-tensor.html), the most used data type in ML (especially when dealing with Neural Nets).
+Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), an important module for math operations, that allows you to import in Python the [Tensors](https://www.kdnuggets.com/2018/05/wtf-tensor.html), which is the most used data type in ML (especially when dealing with Neural Nets).
 [Differences between matrix and tensor](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
 
 ### The math you need
