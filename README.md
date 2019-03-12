@@ -1,4 +1,4 @@
-# Machin-Learning Study-Path
+# Machine-Learning Study-Path
 ## A complete ML study path, centered around TensorFlow and Scikit-Learn
 
 This repository is intended to provide a complete and organic learning path to getting started with Machine Learning.
@@ -67,8 +67,8 @@ Who tells that the math behind Machine Learning is hard... it's not so wrong! Bu
 
 With these three resources, you'll get out the most of what you really need to understand things deeply.
 
-A top course about linear algebra is [here](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/).
-Integrate with basic probabilities and statistic concepts [here](https://www.edx.org/course/introduction-to-probability-0).
+A top course about linear algebra is [here](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/).\
+Integrate with basic probabilities and statistic concepts [here](https://www.edx.org/course/introduction-to-probability-0).\
 The most of the remaining math you need [here](https://explained.ai/matrix-calculus/index.html#sec4.5).
 
 
