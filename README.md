@@ -13,4 +13,4 @@ Let's get started!
 
 > If you don't know Python, learn it yesterday!
 
-Here's a good Course   to get started wth
+- Here's a good Course   to get started wth
