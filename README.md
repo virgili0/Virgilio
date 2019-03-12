@@ -52,7 +52,11 @@ So let's get started!
 According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
 
-Python is one of the most used and loved programming languages, and it's necessary to know it to get things done in Machine Learnis the ing: is the   
+Python is one of the most used and loved programming languages, and it's necessary to get things done in the Machine Learning field. Like most of the frameworks of the bigger Data Science field, TensorFlow and Scikit-Learn are written in Python.  
+
+If you don't know the basics, just start from [here] (https://pythonprogramming.net/introduction-learn-python-3-tutorials/).
+
+
 
 
 
