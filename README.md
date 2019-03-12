@@ -35,8 +35,9 @@ I also **strongly recommend** to buy this phenomenal book: "Hands-On Machine Lea
 
 ### - Utilities
 - Other Resources
+
 ciao allora
--
+
 
 
 
