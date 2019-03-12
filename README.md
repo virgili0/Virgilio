@@ -47,9 +47,9 @@ So let's get started!
 
 ---------------------------------------------------------------
 
-### Prerequisites
+## Prerequisites
 
-- Python
+### - Python
 
 According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
@@ -61,7 +61,7 @@ Else if you know the syntax and you want to have a more solid Python background 
 If you are looking for tons of exercises to get your hands dirty and get experience with Python, check [here](https://www.w3resource.com/python-exercises/) and [here](https://www.practicepython.org/).
 
 
-- The math you need
+### - The math you need
 
 Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, if you are not familiar with these concepts, check them, because they are the reason behind everything.
 
@@ -72,8 +72,7 @@ Integrate with basic probabilities and statistic concepts [here](https://www.edx
 The most of the remaining math you need [here](https://explained.ai/matrix-calculus/index.html#sec4.5).
 
 
-
-- The machine learning Landscape
+### - The machine learning Landscape
 
 ----------------------------------------------------------------
 
