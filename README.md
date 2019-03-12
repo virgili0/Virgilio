@@ -9,14 +9,14 @@ It does not require any previous knowledge, but being confident with programming
 I **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow", which inspired me and has driven most of the organization and hierarchy of the content listed above.
 
 
-### I organized the Path in 3 sections:
+#### I organized the Path in 4 sections:
 
-### Prerequisites
+#### Prerequisites
 - Python
 - The Math you need
 - The Machine Learning landscape
 
-### Machine learning with Scikit-Learn
+#### Machine learning with Scikit-Learn
 - Why Scikit-Learn?
 - End-to-End Machine Learning project  
 - Classification
@@ -25,7 +25,7 @@ I **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning
 - Decision Trees
 - Ensemble Learning and Random Forest 
 
-### Neural Networks with TensorFlow
+#### Neural Networks with TensorFlow
 - Why TensorFlow?
 - Up and Running with TensorFlow
 - ANN - Artificial Neural Networks 
@@ -35,7 +35,7 @@ I **strongly recommend** to buy this phenomenal book: "Hands-On Machine Learning
 - AutoEncoders
 - Reinforcement Learning
 
-### Utilities
+#### Utilities
 - Machine Learning Projects 
 - Data Science Tools
 - Blogs / Youtube Channels / Websites worth taking a look!
