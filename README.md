@@ -91,18 +91,19 @@ When not possible, I collected both theory and examples, further some pointers t
 ### Why Scikit-Learn
 
 [Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
-
+We'll learn and use other modules along the road, for a quick usage just look at their official documentation. 
 
 
 ### End-to-End Machine Learning project 
 
 For a first taste, i suggest you to go through this Kaggle notebook, which is the most classic example of ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will be all explained comprehensively later. Is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question forumlation...)
 
-The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and in general Data Science projects, dataset and offers interesting challenges and ML model experiments.
+The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and general Data Science projects, which provides a lot of free datasets and offers interesting challenges and ML model experiments.
 
 [This](https://www.kaggle.com/startupsci/titanic-data-science-solutions) is the notebook: Read it, trying to get the big picture of the process, because some details, functions and code will be clearer later.
 
 ### Classification
+
 ### Training models
 ### Support Vector Machines
 ### Decision Trees
