@@ -212,9 +212,9 @@ Now you're most likely familiar with **TensorFlow as a tool**, and it's time to 
  
 ### ANN - Artificial Neural Networks 
 _First look (in order):_
-- [This video](https://www.youtube.com/watch?v=v2tKoymKIuE)
+- [This video](https://www.youtube.com/watch?v=v2tKoymKIuE).
 - [This is your bible](http://neuralnetworksanddeeplearning.com/chap1.html), understand it totally.
-- [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.\
+- [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.
 - [This](https://www.youtube.com/watch?v=o64FV-ez6Gw&t=540s) is a really fast-talking guy implementing a Neural Network library from scratch, super useful to understand how is implemented the core of NN in Python. You can imagine that each existing framework is just an enormous expansione of this concept-library.
 
 _Second pass:_
@@ -222,8 +222,38 @@ _Second pass:_
 Take this heavy but comprehensive [chapter of the book](https://www.deeplearningbook.org/contents/mlp.html).
 
 ### CNN - Convolutional Neural Networks
+_First look (in order):_
+
+_Second pass:_
+- [CNN Chapter](https://www.deeplearningbook.org/contents/convnets.html).
+ 
 ### RNN - Recurrent Neural Networks
+_First look (in order):_
+
+_Second pass:_
+- [RNN Chapter](https://www.deeplearningbook.org/contents/rnn.html)
+
 ### Training Networks: Best practices 
+_First look (in order):_
+
+_Second pass:_
+- [Regularizaton Chapter](https://www.deeplearningbook.org/contents/regularization.html).
+- [Optimization Chapter](https://www.deeplearningbook.org/contents/optimization.html).
+- [Pratical Methodology Chapter](https://www.deeplearningbook.org/contents/guidelines.html).
+
+
 ### AutoEncoders
+_First look (in order):_
+
+_Second pass:_
+ 
 ### Reinforcement Learning
+_First look (in order):_
+
+_Second pass:_
+ 
 ### Next steps
+_First look (in order):_
+
+_Second pass:_
+ 
