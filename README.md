@@ -189,14 +189,14 @@ Now you're most likely familiar with **TensorFlow as a tool**, and it's time to 
 ### ANN - Artificial Neural Networks 
 The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
-```
-3 phases iterative cycle:
 
-- 1 Get an idea of the main concepts through an entire Stanford course, don't stop too much on math explanations.
+> 3 phases iterative cycle:
 
-- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+>- 1 Get an idea of the main concepts through an entire Stanford course, don't stop too much on math explanations.
 
-- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
+>- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+
+>- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it >to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
 
 This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
