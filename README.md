@@ -157,13 +157,17 @@ TensorFlow is the de-facto standard for the major industry-sized company that ne
 
 ### Up and Running with TensorFlow
 Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to get install the Tensorflow library you just need to open a terminal inside you Python installation folder and run this command. 
-´ ´ ´ 
+
+``` 
 python pip install tensorflow
-´ ´ ´ 
+```
+
 If you encounter some problems, it may be because you don't have the last version of pip. So n the same folder run:
-´ ´ ´ 
-python -m pip install --upgrade pip
-´ ´ ´ 
+
+```
+ python -m pip install --upgrade pip
+```
+ 
 ### ANN - Artificial Neural Networks 
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
