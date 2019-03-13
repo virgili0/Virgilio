@@ -64,6 +64,7 @@ If you are looking for tons of exercises to get your hands dirty and get experie
 
 Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), an important module for math operations, that allows you to import in Python the [Tensor](https://www.kdnuggets.com/2018/05/wtf-tensor.html) data type, which is the most used in ML (especially when dealing with Neural Nets).
 [It's not a matrix!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
+This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/).
 
 ### The math you need
 Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, if you are not familiar with these concepts, check them, because they are the reason behind everything.
@@ -142,17 +143,27 @@ The idea of Ensemble Learning is to leverage all the different features, pro and
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both link come with a bunch of useful techniques touse in practice. 
 
 ### Wrapping up and looking forward
-Now, if you followed all the steps and explored all the resources i posted, you're likely to be mode confident with Machine Learning and have a general idea of the things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithm we've seen are widely used in the Data Science and Analytics field, but there are some complex tasks where they fail or give really poor performances. Now we are ready to go fall in the **deep** rabbit hole, trying to understand how Neural Network and in general Deep Learning can help tackling big problem with millions of parameters and variables. 
+Now, if you followed all the steps and explored all the resources i posted, you're likely to be mode confident with Machine Learning and have a general idea of the things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithm we've seen are widely used in the Data Science and Analytics field, but there are some complex tasks where they fail or give really poor performances. Now we are ready to fall down in the **deep** rabbit hole, trying to understand how Neural Network and in general Deep Learning can help tackling big problem with millions of parameters and variables. 
 [Why use Deep Learning over classical ML algorithms?](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
 
 -----------------------------------------------------------------
 
 ## Neural Networks with TensorFlow
+In this section we'll follow a track that will bring us to zero knowledge of neural network to fully understand them, thanks to the Stanford University Depp Learning course and some tutorials i've searched over the internet. Some of them come from Google, other from Stanford or Cambridge university, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kind of ML tasks.
 
 ### Why TensorFlow?
-Created by the Google Brain team, TensorFlow is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
+Created by the [Google Brain](https://ai.google/research/teams/brain) team, [TensorFlow](https://www.tensorflow.org/) is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
+TensorFlow is the de-facto standard for the major industry-sized company that need to implement Machine Learning algorithms. Is built for scaling, with really cool features to parallelize training over multiple GPU's or devices.
 
 ### Up and Running with TensorFlow
+Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to get install the Tensorflow library you just need to open a terminal inside you Python installation folder and run this command. 
+´ ´ ´ 
+python pip install tensorflow
+´ ´ ´ 
+If you encounter some problems, it may be because you don't have the last version of pip. So n the same folder run:
+´ ´ ´ 
+python -m pip install --upgrade pip
+´ ´ ´ 
 ### ANN - Artificial Neural Networks 
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
