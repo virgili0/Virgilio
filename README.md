@@ -58,6 +58,8 @@ According to Sun Tzu:
 
 Python is one of the most used and loved programming languages, and it's necessary to get things done in the Machine Learning field. Like most of the frameworks of the bigger Data Science field, TensorFlow is married with Python and Scikit-Learn is written in Python.  
 
+First, let's [install Python](https://realpython.com/installing-python/) on your machine!
+
 If you don't know the basics, just start from [here](https://pythonprogramming.net/introduction-learn-python-3-tutorials/).\
 Else if you know the syntax and you want to have a more solid Python background (recommended) take this Intermediate Python Course from [here](https://pythonprogramming.net/introduction-intermediate-python-tutorial/).\
 If you are looking for tons of exercises to get your hands dirty and get experience with Python, check [here](https://www.w3resource.com/python-exercises/) and [here](https://www.practicepython.org/).
@@ -65,6 +67,8 @@ If you are looking for tons of exercises to get your hands dirty and get experie
 Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), an important module for math operations, that allows you to import in Python the [Tensor](https://www.kdnuggets.com/2018/05/wtf-tensor.html) data type, which is the most used in ML (especially when dealing with Neural Nets).
 [It's not a matrix!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
 This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/).
+
+I also recommend you to install [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for our experiments.
 
 ### The math you need
 Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, if you are not familiar with these concepts, check them, because they are the reason behind everything.
@@ -87,6 +91,17 @@ When we learn something new, especially if wide and complex, is necessary to avo
 I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
 When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
 
+To install Scikit-Learn 
+
+``` 
+python pip install tensorflow
+```
+
+If you encounter some problems, it may be because you don't have the last version of pip. So n the same folder run:
+
+```
+ python -m pip install --upgrade pip
+```
 
 ### Why Scikit-Learn
 [Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
@@ -160,12 +175,6 @@ Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/
 
 ``` 
 python pip install tensorflow
-```
-
-If you encounter some problems, it may be because you don't have the last version of pip. So n the same folder run:
-
-```
- python -m pip install --upgrade pip
 ```
  
 ### ANN - Artificial Neural Networks 
