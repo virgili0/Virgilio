@@ -212,9 +212,9 @@ Now you're most likely familiar with **TensorFlow as a tool**, and it's time to 
  
 ### ANN - Artificial Neural Networks 
 First look:
--Artificial Neural Networks are the quitessence of the deep learning and they, with CNN and RNN variants or improvements of them
+- Artificial Neural Networks are the quitessence of the deep learning and they, with CNN and RNN variants or improvements of them
 Starting from this (heavy but comprehensive) [chapter of the book](https://www.deeplearningbook.org/contents/mlp.html).
--ddd
+- ddd
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
 ### Training Networks: Best practices 
