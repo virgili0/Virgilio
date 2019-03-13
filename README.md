@@ -107,9 +107,9 @@ The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML 
 This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
 Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxnhp5UyS1UjZsXP0Kj&index=2) the theoretical lesson from Andrew NG and then go through these examples, from the simplest to the most complete.\
 [This](https://www.geeksforgeeks.org/ml-normal-equation-in-linear-regression/) is the math behind Linear Regression.\
-[Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)\
-[Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)\
-[Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
+- [Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)\
+- [Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)\
+- [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
 ### Classification
 Classification is one of the most important ML tasks, and want to predict an outcome classifying it among differente possibilities. For example, given handwritten numbers, classify them with the lowest error possible.
