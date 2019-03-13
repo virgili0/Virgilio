@@ -121,9 +121,10 @@ You can use a lot of different ML models to classify things, even neural network
 ### Training models
 Here i grouped some of the techniques used in ML tasks to train the models.
 In this Google Crash Course you find:
-- [Gradient Descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent).
-- [Learning Rate](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate).
-- [SGD](https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent).
+- [Gradient Descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent)
+- [Learning Rate](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate)
+- [SGD](https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent)
+- [Regularization](https://www.youtube.com/watch?v=Q81RR3yKn30)
 
 ### Support Vector Machines
 ### Decision Trees
