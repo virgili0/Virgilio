@@ -170,13 +170,15 @@ These are [some use cases] (https://www.digitaldoughnut.com/articles/2017/march/
 The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
 
+> After taking the TensorFlow section
 > 3 phases iterative cycle:
 
->- 1 Get an idea of the main concepts through an entire [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't stop too much on math explanations.
+>- 1 Get an idea of the main concepts through an **entire pass* of this** [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't care too much on math explanations, focus on the **what and why**
 
 >- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+>with the links and resources of the topic section of the guide.
 
->- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it >to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
+>- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you can fully understand all  > the formulas, connecting them and getting also the "math flow" of the course.
 
 This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
