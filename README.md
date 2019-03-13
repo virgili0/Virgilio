@@ -107,8 +107,8 @@ The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML 
 This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
 Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxnhp5UyS1UjZsXP0Kj&index=2) the theoretical lesson from Andrew NG and then go through these examples, from the simplest to the most complete.\
 [This](https://www.geeksforgeeks.org/ml-normal-equation-in-linear-regression/) is the math behind Linear Regression.\
-- [Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)\
-- [Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)\
+- [Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)
+- [Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)
 - [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
 ### Classification
@@ -127,7 +127,18 @@ In this Google Crash Course you find:
 - [Regularization](https://www.youtube.com/watch?v=Q81RR3yKn30)
 
 ### Support Vector Machines
+This is another classical algorithm to create ML models.
+[Here](https://www.youtube.com/watch?v=_PwhiWxHK8o) you have the explanation of the theory, and [here](https://www.youtube.com/watch?v=g8D5YL6cOSE) a more pratical approach. Chech both.
+[Here](https://scikit-learn.org/stable/modules/svm.html) is a very good explanation + practice application in Scikit-Learn.
+
 ### Decision Trees
+Decision Trees are one of the most simple but effective idea behind predicting outcomes, and they're used in many ways (i.e. Random Forest). Check [here](https://www.youtube.com/watch?v=eKD5gxPPeY0&list=PLBv09BD7ez_4temBw7vLA19p3tdQH6FYO) and go through the playlist to get a theoretical overview of Decision Trees (ID3).
+[Here](https://scikit-learn.org/stable/modules/tree.html) you have the pratical application of ID3.
+Here you have a some end-to-end examples, with  Scikit-Learn:
+- [Example 1](https://www.youtube.com/watch?v=9YcMzsFvfxU) 
+- [Example 2](https://www.youtube.com/watch?v=RmajweUFKvM)
+- [Example 3](http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/)
+
 ### Ensemble Learning and Random Forest 
 
 -----------------------------------------------------------------
