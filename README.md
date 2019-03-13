@@ -20,7 +20,8 @@ A part from this, **every content** listed here is open source and free, most of
 
 #### Machine learning with Scikit-Learn
 - Why Scikit-Learn?
-- End-to-End Machine Learning project  
+- End-to-End Machine Learning project 
+- Linear Regression 
 - Classification
 - Training models
 - Support Vector Machines
@@ -102,8 +103,15 @@ The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML 
 
 [This](https://www.kaggle.com/startupsci/titanic-data-science-solutions) is the notebook: Read it, trying to get the big picture of the process, because some details, functions and code will be clearer later.
 
-### Classification
+### Linear Regression
+This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
+Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxnhp5UyS1UjZsXP0Kj&index=2) the theoretical lesson from Andrew NG and then go through these examples, from the simplest to the most complete.\
+[This](https://www.geeksforgeeks.org/ml-normal-equation-in-linear-regression/) is the math behind Linear Regression.\
+[Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)\
+[Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)\
+[Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
+### Classification
 ### Training models
 ### Support Vector Machines
 ### Decision Trees
