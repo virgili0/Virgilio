@@ -27,6 +27,7 @@ A part from this, **every content** listed here is open source and free, most of
 - Support Vector Machines
 - Decision Trees
 - Ensemble Learning and Random Forest 
+- Wrapping up and looking forward
 
 #### Neural Networks with TensorFlow
 - Why TensorFlow?
@@ -37,6 +38,7 @@ A part from this, **every content** listed here is open source and free, most of
 - Training Networks: Best practices 
 - AutoEncoders
 - Reinforcement Learning
+- Next steps
 
 #### Utilities
 - Machine Learning Projects 
@@ -106,7 +108,7 @@ The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML 
 ### Linear Regression
 This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
 Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxnhp5UyS1UjZsXP0Kj&index=2) the theoretical lesson from Andrew NG and then go through these examples, from the simplest to the most complete.
-[This](https://www.geeksforgeeks.org/ml-normal-equation-in-linear-regression/) is the math behind Linear Regression.\
+[This](https://www.geeksforgeeks.org/ml-normal-equation-in-linear-regression/) is the math behind Linear Regression.
 - [Example 1](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)
 - [Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)
 - [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
@@ -145,6 +147,10 @@ The idea of Ensemble Learning is to leverage all the different features, pro and
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both link come with a bunch of useful techniques touse in practice. 
 
+### Wrapping up and looking forward
+Now, if you followed all the steps and explored all the resources i posted, you're likely to be mode confident with Machine Learning and have a general idea of the things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithm we've seen are widely used in the Data Science and Analytics field, but there are some complex tasks where they fail or give really poor performances. Now we are ready to go fall in the **deep** rabbit hole, trying to understand how Neural Network and in general Deep Learning can help tackling big problem with millions of parameters and variables. 
+[Why use Deep Learning over classical ML algorithms?](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
+
 -----------------------------------------------------------------
 
 ## Neural Networks with TensorFlow
@@ -156,3 +162,4 @@ The idea of Ensemble Learning is to leverage all the different features, pro and
 ### Training Networks: Best practices 
 ### AutoEncoders
 ### Reinforcement Learning
+### Next steps
