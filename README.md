@@ -179,9 +179,35 @@ python pip install tensorflow
 ```
 
 The first read i recommend you is [this](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/).
-The second thing to do is to follow this [Introduction to TensorFlow](https://www.youtube.com/watch?v=tYYVSEHq-io) directly from the **awesome** [Google Education].
+The second thing to do is to follow this [Introduction to TensorFlow](https://www.youtube.com/watch?v=tYYVSEHq-io) directly from the **awesome** [Google Education](https://ai.google/education/) page.
+Again, some theoretical concepts might be unclear, but focus on how the TensorFlow library and process are conceived. 
+[This](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d) is a good resume of the latter.
+[This](https://www.youtube.com/watch?v=k5c-vg4rjBw&t=246s) is about the TensorFlow 2.0 update. 
+
+Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
 ### ANN - Artificial Neural Networks 
+The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
+I came up with this approach, but you can tweak it as you prefer, because every brain is different.
+```
+3 phases iterative cycle:
+
+- 1 Get an idea of the main concepts through an entire Stanford course, don't stop too much on math explanations.
+
+- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+
+- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
+
+This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
+
+In each section i've put content for the first time you arrive there (during the 2 phase), and some content for next time you arrive here (after the 3 phase probably)
+```
+
+The next sections follow more o less the track proposed from [this Stanford awesome course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv). 
+I **strongly suggest you** to follow the entire course once, and then try to get more comfortable with each topic (e.g. ANN, CNN...).
+
+
+
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
 ### Training Networks: Best practices 
