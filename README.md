@@ -188,6 +188,8 @@ The structure follows the track proposed by the Stanford awesome course. You fin
 
 [This] is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a differente point of view on the things, besides listening 2X the best professors of the world exploring each topic.  
 
+This is the **[Book]**(https://www.deeplearningbook.org/) I refer to in each section.
+
 ### Why TensorFlow?
 Created by the [Google Brain](https://ai.google/research/teams/brain) team, [TensorFlow](https://www.tensorflow.org/) is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
 TensorFlow is the de-facto standard for the major industry-sized company that need to implement Machine Learning algorithms. Is built for scaling, with really cool features to parallelize training over multiple GPU's or devices.
@@ -209,6 +211,10 @@ Again, some theoretical concepts might be unclear, but focus on how the TensorFl
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
 ### ANN - Artificial Neural Networks 
+First look:
+-Artificial Neural Networks are the quitessence of the deep learning and they, with CNN and RNN variants or improvements of them
+Starting from this (heavy but comprehensive) [chapter of the book](https://www.deeplearningbook.org/contents/mlp.html).
+-ddd
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
 ### Training Networks: Best practices 
