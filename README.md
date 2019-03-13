@@ -1,7 +1,7 @@
 # Machine-Learning Study-Path
 ## A complete ML study path, centered around TensorFlow and Scikit-Learn
 
-This repository is intended to provide a complete and organic learning path to getting started with Machine Learning.
+This repository is intended to provide a **complete and organic learning path** to getting started with Machine Learning.
 You will understand both theory and be able to apply it in practice, with hands-on project.
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement Machine Learning concepts.
@@ -182,6 +182,7 @@ The first read i recommend you is [this](https://jacobbuckman.com/post/tensorflo
 The second thing to do is to follow this [Introduction to TensorFlow](https://www.youtube.com/watch?v=tYYVSEHq-io) directly from the **awesome** [Google Education](https://ai.google/education/) page.
 Again, some theoretical concepts might be unclear, but focus on how the TensorFlow library and process are conceived. 
 [This](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d) is a good resume of the latter.
+[Another beginner tutorial from google](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
 [This](https://www.youtube.com/watch?v=k5c-vg4rjBw&t=246s) is about the TensorFlow 2.0 update. 
 
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
@@ -202,11 +203,7 @@ This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want,
 
 In each section i've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3 phase).
 
-The structure follows the track proposed by the Stanford awesome course.
-
-I **strongly suggest you** to follow the entire course once, and then try to get more comfortable with each topic (e.g. ANN, CNN...).
-
-
+The structure follows the track proposed by the Stanford awesome course. You find the slides [here](http://cs231n.stanford.edu/slides/2018/).
 
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
