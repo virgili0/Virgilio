@@ -167,6 +167,25 @@ Now, if you followed all the steps and explored all the resources i posted, you'
 In this section we'll follow a track that will bring us to zero knowledge of neural network to fully understand them, thanks to the Stanford University Depp Learning course and some tutorials i've searched over the internet. Some of them come from Google, other from Stanford or Cambridge university, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kind of ML tasks.
 These are [some use cases] (https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
 
+The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
+I came up with this approach, but you can tweak it as you prefer, because every brain is different.
+
+> 3 phases iterative cycle:
+
+>- 1 Get an idea of the main concepts through an entire [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't stop too much on math explanations.
+
+>- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+
+>- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it >to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
+
+This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
+
+In each section i've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3 phase).
+
+The structure follows the track proposed by the Stanford awesome course. You find the slides [here](http://cs231n.stanford.edu/slides/2018/).
+
+[This] is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a differente point of view on the things, besides listening 2X the best professors of the world exploring each topic.  
+
 ### Why TensorFlow?
 Created by the [Google Brain](https://ai.google/research/teams/brain) team, [TensorFlow](https://www.tensorflow.org/) is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
 TensorFlow is the de-facto standard for the major industry-sized company that need to implement Machine Learning algorithms. Is built for scaling, with really cool features to parallelize training over multiple GPU's or devices.
@@ -188,23 +207,6 @@ Again, some theoretical concepts might be unclear, but focus on how the TensorFl
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
 ### ANN - Artificial Neural Networks 
-The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
-I came up with this approach, but you can tweak it as you prefer, because every brain is different.
-
-> 3 phases iterative cycle:
-
->- 1 Get an idea of the main concepts through an entire [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't stop too much on math explanations.
-
->- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
-
->- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it >to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
-
-This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
-
-In each section i've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3 phase).
-
-The structure follows the track proposed by the Stanford awesome course. You find the slides [here](http://cs231n.stanford.edu/slides/2018/).
-
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
 ### Training Networks: Best practices 
