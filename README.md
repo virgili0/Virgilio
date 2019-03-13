@@ -201,7 +201,7 @@ I came up with this approach, but you can tweak it as you prefer, because every 
 This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
 In each section i've put content for the first time you arrive there (during the 2 phase), and some content for next time you arrive here (after the 3 phase probably)
-```
+
 
 The next sections follow more o less the track proposed from [this Stanford awesome course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv). 
 I **strongly suggest you** to follow the entire course once, and then try to get more comfortable with each topic (e.g. ANN, CNN...).
