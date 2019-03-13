@@ -112,6 +112,12 @@ Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxn
 [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
 ### Classification
+Classification is one of the most important ML tasks, and want to predict an outcome classifying it among differente possibilities. For example, given handwritten numbers, classify them with the lowest error possible.
+The simplest case is binary classification (Yes or No, Survived or Not Survived), have a look [here](https://machinelearningmastery.com/make-predictions-scikit-learn/).\ 
+Check [here](https://towardsdatascience.com/building-a-logistic-regression-in-python-301d27367c24) a brief explanation of the theory of logistic regression algorithm for classification, and check [here](https://www.youtube.com/watch?v=VCJdg7YBbAQ) for a deeper comprehension (using the Titanic dataset).
+You can use a lot of different ML models to classify things, even neural networks! For now, just take a look [here](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html), where you see an example of comparison among different models accuracy and recall.
+[Here](https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b) you have an article about the metrics used to **evaluate** your classifiers.
+
 ### Training models
 ### Support Vector Machines
 ### Decision Trees
