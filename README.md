@@ -119,6 +119,12 @@ You can use a lot of different ML models to classify things, even neural network
 [Here](https://medium.com/thalus-ai/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b) you have an article about the metrics used to **evaluate** your classifiers.
 
 ### Training models
+Here i grouped some of the techniques used in ML tasks to train the models.
+In this Google Crash Course you find:
+- [Gradient Descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/gradient-descent).
+- [Learning Rate](https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate).
+- [SGD](https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent).
+
 ### Support Vector Machines
 ### Decision Trees
 ### Ensemble Learning and Random Forest 
