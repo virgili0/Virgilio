@@ -192,18 +192,18 @@ I came up with this approach, but you can tweak it as you prefer, because every 
 
 > 3 phases iterative cycle:
 
->- 1 Get an idea of the main concepts through an entire Stanford course, don't stop too much on math explanations.
+>- 1 Get an idea of the main concepts through an entire [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't stop too much on math explanations.
 
 >- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
 
 >- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you'll need to often stop it >to understand the math notation and implications, and get to the entire "flow" of the course, with the new knowledge of the 2 phase.
 
-This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
+This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
-In each section i've put content for the first time you arrive there (during the 2 phase), and some content for next time you arrive here (after the 3 phase probably)
+In each section i've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3 phase).
 
+The structure follows the track proposed by the Stanford awesome course.
 
-The next sections follow more o less the track proposed from [this Stanford awesome course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv). 
 I **strongly suggest you** to follow the entire course once, and then try to get more comfortable with each topic (e.g. ANN, CNN...).
 
 
