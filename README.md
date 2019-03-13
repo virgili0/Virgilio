@@ -218,8 +218,7 @@ _First look (in order):_
 - [This](https://www.youtube.com/watch?v=o64FV-ez6Gw&t=540s) is a really fast-talking guy implementing a Neural Network library from scratch, super useful to understand how is implemented the core of NN in Python. You can imagine that each existing framework is just an enormous expansione of this concept-library.
 
 _Second pass:_
-- Artificial Neural Networks are the quitessence of the deep learning and CNN or RNN variants of them.
-Take this heavy but comprehensive [chapter of the book](https://www.deeplearningbook.org/contents/mlp.html).
+- [ANN Chapter](https://www.deeplearningbook.org/contents/mlp.html).
 
 ### CNN - Convolutional Neural Networks
 _First look (in order):_
@@ -232,6 +231,9 @@ _Second pass:_
  
 ### RNN - Recurrent Neural Networks
 _First look (in order):_
+- [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) a gentle but detailed explanation.
+- [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) a video with a more pratical approach.
+- [Here](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767) a 7 pages blog post regarding the TensorFlow implementation.
 
 _Second pass:_
 - [RNN Chapter](https://www.deeplearningbook.org/contents/rnn.html)
