@@ -178,7 +178,7 @@ I came up with this approach, but you can tweak it as you prefer, because every 
 >- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
 >with the links and resources of the topic section of the guide.
 
->- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you can fully understand all  > the formulas, connecting them and getting also the "math flow" of the course.
+>- 3 After iterating the 2 phase for each topic, walk again through the entire Stanford course. This time you can fully understand all  the formulas, connecting them and catching also the "math flow" of the course.
 
 This iterative process (1-2-2-2-2.....-3) can be repeated may times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
