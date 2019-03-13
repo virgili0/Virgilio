@@ -97,7 +97,7 @@ We'll learn and use other modules along the road, for a quick usage just look at
 
 ### End-to-End Machine Learning project 
 
-For a first taste, i suggest you to go through this Kaggle notebook, which is the most classic example of ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will be all explained comprehensively later. Is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question forumlation...)
+For a first taste, i suggest you to go through this Kaggle notebook, which is the most classic example of ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will be all explained comprehensively later. Is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question formulation...).
 
 The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and general Data Science projects, which provides a lot of free datasets and offers interesting challenges and ML model experiments.
 
@@ -140,6 +140,10 @@ Here you have a some end-to-end examples, with  Scikit-Learn:
 - [Example 3](http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/)
 
 ### Ensemble Learning and Random Forest 
+The idea of Ensemble Learning is to leverage all the different features, pro and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
+[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you find a bunch of techniques to create an ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Altough the idea is simple, this ensemble model came up really effective tackling even some "hard" classification problems, or with a lot of data.  
+
+[Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn.
 
 -----------------------------------------------------------------
 
