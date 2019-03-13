@@ -53,7 +53,6 @@ So let's get started!
 ## Prerequisites
 
 ### Python
-
 According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
 
@@ -67,7 +66,6 @@ Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/
 [It's not a matrix!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
 
 ### The math you need
-
 Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, if you are not familiar with these concepts, check them, because they are the reason behind everything.
 
 With these three resources, you'll get out the most of what you really need to understand things deeply.
@@ -78,27 +76,23 @@ The most of the remaining math you need [here](https://explained.ai/matrix-calcu
 
 
 ### The machine learning Landscape
-
 Directly from the book cited earlier, this is the most concise and illuminating overview of **what is** and **when you need** machine learning. Let's stop use buzzwords!
 Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/ch01.html).
 
 ----------------------------------------------------------------
 
 ## Machine Learning with Scikit-Learn
-
 When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
 I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
 When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
 
 
 ### Why Scikit-Learn
-
 [Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
 We'll learn and use other modules along the road, for a quick usage just look at their official documentation. 
 
 
 ### End-to-End Machine Learning project 
-
 For a first taste, i suggest you to go through this Kaggle notebook, which is the most classic example of ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will be all explained comprehensively later. Is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question formulation...).
 
 The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and general Data Science projects, which provides a lot of free datasets and offers interesting challenges and ML model experiments.
@@ -154,7 +148,10 @@ Now, if you followed all the steps and explored all the resources i posted, you'
 -----------------------------------------------------------------
 
 ## Neural Networks with TensorFlow
+
 ### Why TensorFlow?
+Created by the Google Brain team, TensorFlow is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
+
 ### Up and Running with TensorFlow
 ### ANN - Artificial Neural Networks 
 ### CNN - Convolutional Neural Networks
