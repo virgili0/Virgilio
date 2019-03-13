@@ -211,14 +211,16 @@ Again, some theoretical concepts might be unclear, but focus on how the TensorFl
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
 ### ANN - Artificial Neural Networks 
-_First look:_
+_First look (in order):_
 - [This video](https://www.youtube.com/watch?v=v2tKoymKIuE)
-- [This Google tutorial](https://www.tensorflow.org/tutorials/keras/basic_classification).
-- [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.
+- [This is your bible](http://neuralnetworksanddeeplearning.com/chap1.html), understand it totally.
+- [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.\
+- [This Google tutorial](https://www.tensorflow.org/tutorials/keras/basic_classification
+
 _Second pass:_
-- Artificial Neural Networks are the quitessence of the deep learning and they, with CNN and RNN variants or improvements of them
+- Artificial Neural Networks are the quitessence of the deep learning and CNN or RNN variants of them.
 Take this heavy but comprehensive [chapter of the book](https://www.deeplearningbook.org/contents/mlp.html).
-- 
+
 ### CNN - Convolutional Neural Networks
 ### RNN - Recurrent Neural Networks
 ### Training Networks: Best practices 
