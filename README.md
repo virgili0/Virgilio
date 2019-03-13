@@ -10,6 +10,9 @@ I **strongly recommend** to buy [**this**](https://www.amazon.it/Hands-Machine-L
 
 A part from this, **every content** listed here is open source and free, most of that coming from the world-renowned universities and open source associations. 
 
+When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
+I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
+When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
 
 #### I organized the Path in 4 sections:
 
@@ -87,9 +90,6 @@ Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9
 ----------------------------------------------------------------
 
 ## Machine Learning with Scikit-Learn
-When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
-I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
-When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
 
 To install Scikit-Learn 
 
@@ -165,17 +165,21 @@ Now, if you followed all the steps and explored all the resources i posted, you'
 
 ## Neural Networks with TensorFlow
 In this section we'll follow a track that will bring us to zero knowledge of neural network to fully understand them, thanks to the Stanford University Depp Learning course and some tutorials i've searched over the internet. Some of them come from Google, other from Stanford or Cambridge university, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kind of ML tasks.
+These are [some use cases] (https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
 
 ### Why TensorFlow?
 Created by the [Google Brain](https://ai.google/research/teams/brain) team, [TensorFlow](https://www.tensorflow.org/) is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
 TensorFlow is the de-facto standard for the major industry-sized company that need to implement Machine Learning algorithms. Is built for scaling, with really cool features to parallelize training over multiple GPU's or devices.
 
 ### Up and Running with TensorFlow
-Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to get install the Tensorflow library you just need to open a terminal inside you Python installation folder and run this command. 
+Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to install the Tensorflow library you just need to open a terminal inside you Python installation folder and run this command. 
 
 ``` 
 python pip install tensorflow
 ```
+
+The first read i recommend you is [this](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/).
+The second thing to do is to follow this [Introduction to TensorFlow](https://www.youtube.com/watch?v=tYYVSEHq-io) directly from the **awesome** [Google Education].
  
 ### ANN - Artificial Neural Networks 
 ### CNN - Convolutional Neural Networks
