@@ -61,9 +61,11 @@ According to Sun Tzu:
 
 Python is one of the most used and loved programming languages, and it's necessary to get things done in the Machine Learning field. Like most of the frameworks of the bigger Data Science field, TensorFlow is married with Python and Scikit-Learn is written in Python.  
 
-First, let's [install Python](https://realpython.com/installing-python/) on your machine!
+First, let's [install Python 3](https://realpython.com/installing-python/) on your machine!
 
-If you don't know the basics, just start from [here](https://pythonprogramming.net/introduction-learn-python-3-tutorials/).\
+We are ready to start our journey! 
+
+If you don't know the basics of Python, just start from [here](https://pythonprogramming.net/introduction-learn-python-3-tutorials/).\
 Else if you know the syntax and you want to have a more solid Python background (recommended) take this Intermediate Python Course from [here](https://pythonprogramming.net/introduction-intermediate-python-tutorial/).\
 If you are looking for tons of exercises to get your hands dirty and get experience with Python, check [here](https://www.w3resource.com/python-exercises/) and [here](https://www.practicepython.org/).
 
@@ -74,7 +76,7 @@ This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutoria
 I also recommend you to install [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for our experiments.
 
 ### The math you need
-Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, if you are not familiar with these concepts, check them, because they are the reason behind everything.
+Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main math concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, even if you are not familiar with these concepts, check them, because they are the reason behind everything.
 
 With these three resources, you'll get out the most of what you really need to understand things deeply.
 
@@ -104,7 +106,7 @@ If you encounter some problems, it may be because you don't have the last versio
 ```
 
 ### Why Scikit-Learn
-[Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions and for the data science process. 
+[Scikit-Learn](https://scikit-learn.org/stable/) one of the most complete, mature and well-documented library for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions for the data science process. 
 We'll learn and use other modules along the road, for a quick usage just look at their official documentation. 
 
 
@@ -124,7 +126,7 @@ Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxn
 - [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
 ### Classification
-Classification is one of the most important ML tasks, and want to predict an outcome classifying it among differente possibilities. For example, given handwritten numbers, classify them with the lowest error possible.
+Classification is one of the most important ML tasks, and it consists of predicting **an outcome given an input**, classifying it among differente possibilities. For example, given handwritten numbers, guess what the number is, with the lowest error rate possible.
 The simplest case is binary classification (Yes or No, Survived or Not Survived), have a look [here](https://machinelearningmastery.com/make-predictions-scikit-learn/).
 Check [here](https://towardsdatascience.com/building-a-logistic-regression-in-python-301d27367c24) a brief explanation of the theory of logistic regression algorithm for classification, and check [here](https://www.youtube.com/watch?v=VCJdg7YBbAQ) for a deeper comprehension (using the Titanic dataset).
 You can use a lot of different ML models to classify things, even neural networks! For now, just take a look [here](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html), where you see an example of comparison among different models accuracy and recall.
@@ -140,7 +142,7 @@ In this Google Crash Course you find:
 
 ### Support Vector Machines
 This is another classical algorithm to create ML models.
-[Here](https://www.youtube.com/watch?v=_PwhiWxHK8o) you have the explanation of the theory, and [here](https://www.youtube.com/watch?v=g8D5YL6cOSE) a more pratical approach. Chech both.
+[Here](https://www.youtube.com/watch?v=_PwhiWxHK8o) you have the explanation of the theory, and [here](https://www.youtube.com/watch?v=g8D5YL6cOSE) a more pratical approach. Check both.
 [Here](https://scikit-learn.org/stable/modules/svm.html) is a very good explanation + practice application in Scikit-Learn.
 
 ### Decision Trees
@@ -153,7 +155,7 @@ Here you have a some end-to-end examples, with  Scikit-Learn:
 
 ### Ensemble Learning and Random Forest 
 The idea of Ensemble Learning is to leverage all the different features, pro and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
-[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Altough the idea is simple, this ensemble model came up really effective tackling even some "hard" classification problems, or with a lot of data.  
+[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you find the basics of the ensemble learning approach, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Altough the idea is simple, this ensemble model came up really effective tackling even some "hard" classification problems, or with a lot of data.  
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both link come with a bunch of useful techniques touse in practice. 
 
