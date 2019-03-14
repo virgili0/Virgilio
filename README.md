@@ -173,7 +173,7 @@ I came up with this approach, but you can tweak it as you prefer, because every 
 > After taking the TensorFlow section
 > 3 phases iterative cycle:
 
->- 1 Get an idea of the main concepts through an **entire pass* of this** [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't care too much on math explanations, focus on the **what and why**
+>- 1 Get an idea of the main concepts through **an entire pass** of this [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't care too much on math explanations, focus on the **what and why**
 
 >- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
 >with the links and resources of the topic section of the guide.
