@@ -269,9 +269,9 @@ _Second pass:_
 
 ### AutoEncoders
 _First look (in order):_
-- First read [here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning).
-- Then read [this](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f).
-- Then you can take [this](https://www.youtube.com/watch?v=vfnxKO2rMq4) lecture from Andrew NG.
+- [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
+- [This](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f) is your second recommended read.
+- [This](https://www.youtube.com/watch?v=vfnxKO2rMq4) is a lecture from Andrew NG.
 - I give also you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html).
 
 _Second pass:_
@@ -282,9 +282,9 @@ _Second pass:_
  
 ### Reinforcement Learning
 _First look (in order):_
-- Take a look at [this](https://www.youtube.com/watch?v=2pWv7GOvuf0) video.
-- Go through [this](https://skymind.ai/wiki/deep-reinforcement-learning) article, is well explained.
-- Interesting read [here](https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c).
+- [Here](https://www.youtube.com/watch?v=2pWv7GOvuf0) you have an explanation video.
+- [This](https://skymind.ai/wiki/deep-reinforcement-learning) article is well explaining RL.
+- [Here] (https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c) is an interesting read.
 - Some examples: [1](https://adventuresinmachinelearning.com/reinforcement-learning-tensorflow/), [2](https://medium.com/tensorflow/deep-reinforcement-learning-playing-cartpole-through-asynchronous-advantage-actor-critic-a3c-7eab2eea5296), [3](https://www.youtube.com/watch?v=t1A3NTttvBA), [4](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow).
 
 _Second pass:_
