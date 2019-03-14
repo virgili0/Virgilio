@@ -2,17 +2,17 @@
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
 
 This repository is intended to provide a **complete and organic learning path** to getting started with Machine Learning.
-You will understand both theory and be able to apply it in practice, with hands-on project.
+You will understand both theory and be able to apply it in practice, with hands-on projects.
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement Machine Learning concepts.
 
-I **strongly recommend** to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed above.
+I **strongly recommend** to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed below.
 
-A part from this, **every content** listed here is open source and free, most of that coming from the world-renowned universities and open source associations. 
+Apart from this, **everything** listed here is open source and free, most of it coming from the world-renowned universities and open source associations. 
 
-When we learn something new, especially if wide and complex, is necessary to avoid confusion, so 
+When we learn something new, especially if wide and complex, it is necessary to avoid confusion, so 
 I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
-When not possible, I collected both theory and examples, further some pointers to resources like "best practices for _______".
+When not possible, I collected both theory and examples, as well as some pointers to resources like "best practices for _______".
 
 #### I organized the Path in 4 sections:
 
