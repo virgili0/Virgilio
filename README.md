@@ -268,10 +268,16 @@ _Second pass:_
 
 ### AutoEncoders
 _First look (in order):_
+First read [here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning).
+Then read [this](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f).
+Then you can take [this](https://www.youtube.com/watch?v=vfnxKO2rMq4) lecture from Andrew NG.
+I give also you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html).
 
 _Second pass:_
+[AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
  
  _Tips & Best practices:_
+ [1](https://stats.stackexchange.com/questions/257163/architecture-of-autoencoders), [2](https://stats.stackexchange.com/questions/193780/how-much-noise-for-denoising-autoencoder), [3](https://www.reddit.com/r/MachineLearning/comments/6aw8ik/d_reddit_do_you_use_autoencoders_in_practice/), [4](https://www.reddit.com/r/MachineLearning/comments/89f17m/d_current_best_practices_for_vaes/), [5](https://www.reddit.com/r/MachineLearning/comments/5k8h07/p_insights_into_variational_autoencoders_for/).
  
 ### Reinforcement Learning
 _First look (in order):_
