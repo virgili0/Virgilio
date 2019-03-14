@@ -226,13 +226,14 @@ _Tips & Best practices:_
 ### CNN - Convolutional Neural Networks
 _First look (in order):_
 - [Here](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) is an awesome deep explanation. 
-- [Here](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8) annother super good one.
+- [Here](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8) another super good one.
 - [Here](https://www.datacamp.com/community/tutorials/cnn-tensorflow-python) is serious CNN tutorial with TensorFlow.
 
 _Second pass:_
 - [CNN Chapter](https://www.deeplearningbook.org/contents/convnets.html).
 
 _Tips & Best practices:_
+[1](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), [2](https://www.topbots.com/14-design-patterns-improve-convolutional-neural-network-cnn-architecture/), [3](https://arxiv.org/abs/1709.02601), [4](https://de.mathworks.com/matlabcentral/answers/362024-convolutional-neural-networks-what-is-the-best-practice-training-approach-using-graphics-cards), [5](http://www.academia.edu/4057996/Best_Practices_for_Convolutional_Neural_Networks_Applied_to_Visual_Document_Analysis), [6](https://www.microsoft.com/en-us/research/publication/best-practices-for-convolutional-neural-networks-applied-to-visual-document-analysis/), [7](https://missinglink.ai/guides/neural-network-concepts/neural-networks-image-recognition-methods-best-practices-applications/).
 
 ### RNN - Recurrent Neural Networks
 _First look (in order):_
