@@ -1,5 +1,5 @@
 # Machine-Learning Study-Path
-## A complete ML study path, centered around TensorFlow and Scikit-Learn
+## A complete ML study path, focused on TensorFlow and Scikit-Learn
 
 This repository is intended to provide a **complete and organic learning path** to getting started with Machine Learning.
 You will understand both theory and be able to apply it in practice, with hands-on project.
