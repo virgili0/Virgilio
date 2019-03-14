@@ -216,6 +216,7 @@ _First look (in order):_
 - [This is your bible](http://neuralnetworksanddeeplearning.com/chap1.html), understand it totally.
 - [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.
 - [This](https://www.youtube.com/watch?v=o64FV-ez6Gw&t=540s) is a really fast-talking guy implementing a Neural Network library from scratch, super useful to understand how is implemented the core of NN in Python. You can imagine that each existing framework is just an enormous expansione of this concept-library.
+- [This](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) is a step-by-step backpropagation example with calculus.
 
 _Second pass:_
 - [ANN Chapter](https://www.deeplearningbook.org/contents/mlp.html).
@@ -284,16 +285,72 @@ _Second pass:_
 _First look (in order):_
 - [Here](https://www.youtube.com/watch?v=2pWv7GOvuf0) you have an explanation video.
 - [This](https://skymind.ai/wiki/deep-reinforcement-learning) article is well explaining RL.
-- [Here] (https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c) is an interesting read.
+- [Here](https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c) is an interesting read.
 - Some examples: [1](https://adventuresinmachinelearning.com/reinforcement-learning-tensorflow/), [2](https://medium.com/tensorflow/deep-reinforcement-learning-playing-cartpole-through-asynchronous-advantage-actor-critic-a3c-7eab2eea5296), [3](https://www.youtube.com/watch?v=t1A3NTttvBA), [4](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow).
 
 _Second pass:_
+[The go-to guide](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html?utm_campaign=Data%20Machina&utm_medium=email&utm_source=Revue%20newsletter).
 [Paper](https://arxiv.org/pdf/1710.02298.pdf) with state of art RL architecture.
 [Complete free book on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html).
  
  _Tips & Best practices:_
  [1](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0), [2](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12).
- 
-### Next steps
 
- 
+
+## Utilities
+
+**Hey You**.
+During the last few years i collected tons of articles, web apps, reddit thread, best practices, projects and repositories, and I want to share with you each single bit of information, trying to organize them by type of resource (blogs or projects ideas, and so on). 
+
+### Machine Learning Projects 
+
+- [Enormous and awesome collection](https://github.com/FavioVazquez/ds-cheatsheets) of Data Science Cheat Sheets
+- [Infinite collection](https://docs.google.com/document/d/e/2PACX-1vRRC3ZIcvjFqEYEgnN9pptoWONr2mSGZJ4hSdL8Jpf2IpXdxjTc-d3jrpb98h59xJnZ3h1frUDydoxc/pub) of actual Data Science / ML projects
+- [Infinite collection](https://github.com/jtoy/awesome-tensorflow) of tutorials and Ml projects in TensorFlow
+- [Other TensorFlow examples](https://github.com/aymericdamien/TensorFlow-Examples)
+
+### Tools
+
+- [Google Data Visualization Facets](https://pair-code.github.io/facets/)
+- [Interactive Neural Network](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.95549&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
+### Youtube Channels
+
+- [Enthought](https://www.youtube.com/user/EnthoughtMedia/videos)
+- [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+- [Microsoft](https://www.youtube.com/channel/UCFtEEv80fQVKkD4h1PF-Xqw)
+- [TensorFlow Official channel](https://www.youtube.com/channel/UC0rqucBdTuFTjJiefW5t-IQ)
+- [Engineering Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ)
+- [The Tech Lead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw)
+
+### Blogs 
+
+- [How to build a data science portfolio](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html?utm_campaign=Data%20Machina&utm_medium=email&utm_source=Revue%20newsletter)
+- [Distill blog](https://distill.pub/)  
+- [Keras](https://www.youtube.com/user/EnthoughtMedia/videos)
+- [Paolo Galeone blog](https://pgaleone.eu/)
+- [TensorFlow official blog](https://medium.com/tensorflow)
+- [KD Nuggets](https://www.kdnuggets.com/)
+- [Incredible Graphic explanations](http://colah.github.io/)
+
+### Websites worth taking a look!
+
+- [A monster collection of Data related free course](https://github.com/kmario23/deep-learning-drizzle)
+- [Machine Learning Map](http://www.saedsayad.com/data_mining_map.htm) 
+- [Data modeling for Business Intelligence](https://www.1keydata.com/datawarehousing/data-modeling-levels.html)
+- [Statistics explained](http://www.statsoft.com/Textbook/Elementary-Statistics-Concepts#Two%20basic%20features%20of%20every%20relation%20between%20variables)
+- [Visualizing data - Turorials](https://datascienceplus.com/category/visualizing-data/?tdo_tag=Python)
+- [Fast.ai](https://www.fast.ai/)
+- [Open.ai](https://openai.com/blog/better-language-models/)
+- [Explained.ai](https://explained.ai/)
+- [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
+- [Python ML Tutorials](https://www.python-course.eu/machine_learning.php)
+- [For Italian Learners!](https://www.deeplearningitalia.com/)
+- [Immersive math](http://immersivemath.com/ila/)
+
+
+### Subreddits you want to follow!
+
+- [10 awesomee subreddits related to data sciece](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
+- [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
