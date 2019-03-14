@@ -261,6 +261,7 @@ I put also here a list of the various topic to explore when talking about _how t
 - Avoiding Overfitting through Regularization: [1](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a), [2](https://codeburst.io/what-is-regularization-in-machine-learning-aed5a1c36590), [3](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/), [4](https://machinelearningmastery.com/weight-regularization-to-reduce-overfitting-of-deep-learning-models/).
 
 _Second pass:_
+- [Google best practices](https://developers.google.com/machine-learning/guides/rules-of-ml/).
 - [Regularizaton Chapter](https://www.deeplearningbook.org/contents/regularization.html).
 - [Optimization Chapter](https://www.deeplearningbook.org/contents/optimization.html).
 - [Pratical Methodology Chapter](https://www.deeplearningbook.org/contents/guidelines.html).
@@ -268,10 +269,10 @@ _Second pass:_
 
 ### AutoEncoders
 _First look (in order):_
-First read [here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning).
-Then read [this](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f).
-Then you can take [this](https://www.youtube.com/watch?v=vfnxKO2rMq4) lecture from Andrew NG.
-I give also you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html).
+- First read [here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning).
+- Then read [this](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f).
+- Then you can take [this](https://www.youtube.com/watch?v=vfnxKO2rMq4) lecture from Andrew NG.
+- I give also you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html).
 
 _Second pass:_
 [AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
@@ -281,10 +282,17 @@ _Second pass:_
  
 ### Reinforcement Learning
 _First look (in order):_
+- Take a look at [this](https://www.youtube.com/watch?v=2pWv7GOvuf0) video.
+- Go through [this](https://skymind.ai/wiki/deep-reinforcement-learning) article, is well explained.
+- Interesting read [here](https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c).
+- Some examples: [1](https://adventuresinmachinelearning.com/reinforcement-learning-tensorflow/), [2](https://medium.com/tensorflow/deep-reinforcement-learning-playing-cartpole-through-asynchronous-advantage-actor-critic-a3c-7eab2eea5296), [3](https://www.youtube.com/watch?v=t1A3NTttvBA), [4](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow).
 
 _Second pass:_
+[Paper](https://arxiv.org/pdf/1710.02298.pdf) with state of art RL architecture.
+[Complete free book on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html).
  
  _Tips & Best practices:_
+ [1](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0), [2](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12).
  
 ### Next steps
 
