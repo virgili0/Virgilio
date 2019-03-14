@@ -165,7 +165,7 @@ Now, if you followed all the steps and explored all the resources i posted, you'
 
 ## Neural Networks with TensorFlow
 In this section we'll follow a track that will bring us to zero knowledge of neural network to fully understand them, thanks to the Stanford University Deep Learning course and some tutorials i've searched over the internet. Some of them come from Google, other from Stanford or Cambridge university, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kind of ML tasks.
-These are [some use cases] (https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
+These are [some use cases](https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
 
 The theory and the applications of the Neural Networks are not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
