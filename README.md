@@ -94,7 +94,7 @@ Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9
 To install Scikit-Learn 
 
 ``` 
-python pip install tensorflow
+python pip install -U scikit-learn
 ```
 
 If you encounter some problems, it may be because you don't have the last version of pip. So n the same folder run:
