@@ -196,7 +196,7 @@ The structure follows the track proposed by the Stanford awesome course. You fin
 
 [This] is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a differente point of view on the things, besides listening 2X the best professors of the world exploring each topic.  
 
-This is the **[Book]**(https://www.deeplearningbook.org/) I refer to in each section.
+This is the [**Book**](https://www.deeplearningbook.org/) I refer to in each section.
 
 ### Why TensorFlow?
 Created by the [Google Brain](https://ai.google/research/teams/brain) team, [TensorFlow](https://www.tensorflow.org/) is an open source library for numerical computation and large-scale machine learning. TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor. It uses Python to provide a convenient front-end API for building applications with the framework, while executing those applications in high-performance C++.
