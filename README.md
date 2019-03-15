@@ -357,6 +357,7 @@ During the last few years i collected tons of articles, web apps, reddit thread,
 - [For Italian Learners!](https://www.deeplearningitalia.com/)
 - [Immersive math](http://immersivemath.com/ila/)  
 - [DeepLizard](http://deeplizard.com/)
+- [Common Statistical Fallacies](https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/)
 
 
 ### Subreddits you want to follow!
