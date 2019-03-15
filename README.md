@@ -364,6 +364,19 @@ During the last few years i collected tons of articles, web apps, reddit thread,
 - [10 awesomee subreddits related to data sciece](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
 - [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
 
-## Next Steps
+## Next Steps Roadmap
+
+Thanks to the great success of this guide,  i've decided to expand it a lot and make more similar for different topics.
+Some of the extensions i'm addig here next weeks are:
+
+- Machine Learning mindset framework (how to think like a data scientist)
+- Data processing and preparation
+- Extending the parameters optimization section
+- Add a section for the Keras Library
+- Add a section for the TensorFlow 2.0 
+- Add a section to "How to deploy my model on AWS"
+- Add a section to "How to deploy my model on Azure"
+
+Later on, i'll do an entire guide on AWS, strongly linked with this one :)
 
 ### ... Coming Soon! Stay tuned :)
