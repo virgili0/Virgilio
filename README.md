@@ -349,7 +349,8 @@ During the last few years i collected tons of articles, web apps, reddit thread,
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
 - [Python ML Tutorials](https://www.python-course.eu/machine_learning.php)
 - [For Italian Learners!](https://www.deeplearningitalia.com/)
-- [Immersive math](http://immersivemath.com/ila/)
+- [Immersive math](http://immersivemath.com/ila/)  
+- [DeepLizard](http://deeplizard.com/)
 
 
 ### Subreddits you want to follow!
