@@ -369,6 +369,7 @@ During the last few years i collected tons of articles, web apps, reddit thread,
 Thanks to the great success of this guide,  i've decided to expand it a lot and make more similar for different topics.
 Some of the extensions i'm addig here next weeks are:
 
+- Unsupervised Learning
 - Machine Learning mindset framework (how to think like a data scientist)
 - Data processing and preparation
 - Feature Selection
