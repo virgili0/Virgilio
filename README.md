@@ -18,6 +18,7 @@ When not possible, I collected both theory and examples, further some pointers t
 
 #### Prerequisites
 - Python
+- Jupyter Notebook
 - The Math you need
 - The Machine Learning landscape
 
@@ -74,6 +75,11 @@ Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/
 This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/).
 
 I also recommend you to install [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for our experiments.
+
+### Jupyter Notebook
+Directly from [here](https://jupyter.org/): "The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
+Working with data means -> a lot of expriments. And to document experiments, and organize them in a valuable way to get insights, you definitely need to use Jupyter Notebook during your journey. [Why](http://blendedlearning.blogs.brynmawr.edu/what-are-jupyter-notebooks-why-would-i-want-to-use-them/)?
+
 
 ### The math you need
 Who tells that the math behind Machine Learning is hard... it's not so wrong! But you have to consider that every time you're going to use it, it will be handled by the machine for you! So, the important is to grasp the main math concepts and recognize limits and applications of those. No one is going to ask you to calculate a gradient by hand! So, even if you are not familiar with these concepts, check them, because they are the reason behind everything.
