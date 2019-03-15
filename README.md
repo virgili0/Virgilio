@@ -356,3 +356,7 @@ During the last few years i collected tons of articles, web apps, reddit thread,
 
 - [10 awesomee subreddits related to data sciece](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
 - [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
+
+## Next Steps
+
+### ... Coming Soon! Stay tuned :)
