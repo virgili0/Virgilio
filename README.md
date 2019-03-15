@@ -371,6 +371,8 @@ Some of the extensions i'm addig here next weeks are:
 
 - Machine Learning mindset framework (how to think like a data scientist)
 - Data processing and preparation
+- Feature Selection
+- Features Engineering
 - Extending the parameters optimization section
 - Add a section for the Keras Library
 - Add a section for the TensorFlow 2.0 
@@ -379,4 +381,4 @@ Some of the extensions i'm addig here next weeks are:
 
 Later on, i'll do an entire guide on AWS, strongly linked with this one :)
 
-### ... Coming Soon! Stay tuned :)
+### ... Coming Very Soon! Stay tuned :)
