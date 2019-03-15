@@ -194,7 +194,7 @@ In each section i've put content for the first time you arrive there (during the
 
 The structure follows the track proposed by the Stanford awesome course. You find the slides [here](http://cs231n.stanford.edu/slides/2018/).
 
-[This] is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a differente point of view on the things, besides listening 2X the best professors of the world exploring each topic.  
+[This](http://introtodeeplearning.com/) is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a differente point of view on the things, besides listening 2X the best professors of the world exploring each topic.  
 
 This is the [**Book**](https://www.deeplearningbook.org/) I refer to in each section.
 
