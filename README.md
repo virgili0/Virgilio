@@ -44,6 +44,7 @@ When not possible, I collected both theory and examples, as well as some pointer
 - Training Networks: Best practices 
 - AutoEncoders
 - Reinforcement Learning
+- Unsupervised Learning
 - Next steps
 
 #### Utilities
@@ -309,11 +310,29 @@ _Second pass:_
  _Tips & Best practices:_
  [1](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0), [2](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12).
 
+### Unsupervised Learning
+_First look (in order):_
+- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductionary video.
+- [This](https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03) article explains Unsupervised Learning really well.
+- [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference among Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
 
+The two most important techniques here are [Association Rules Exploration](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining) and [Clustering](https://www.geeksforgeeks.org/clustering-in-machine-learning/). I provide examples and tutorials for both.
+
+Association Rules tutorials and examples: [1](https://www.learndatasci.com/tutorials/k-means-clustering-algorithms-python-intro/), [2](https://towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097), [3](https://pythonprogramming.net/flat-clustering-machine-learning-python-scikit-learn/), [4](https://www.datacamp.com/community/tutorials/k-means-clustering-python), [5](https://stackabuse.com/hierarchical-clustering-with-python-and-scikit-learn/).
+
+Clustering tutorials and examples: [1](https://pbpython.com/market-basket-analysis.html), [2](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/), [3](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/), [4](http://intelligentonlinetools.com/blog/2018/02/10/how-to-create-data-visualization-for-association-rules-in-data-mining/), [5](https://www.kaggle.com/datatheque/association-rules-mining-market-basket-analysis), [6](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html).
+
+_Second pass:_
+[Stanford slides](https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/unsupervised.pdf).
+[MIT slides](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf).
+
+ _Tips & Best practices:_
+ [1](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68), [2](https://dzone.com/articles/10-interesting-use-cases-for-the-k-means-algorithm), [3](https://medium.com/@blazetamareborn/practicing-clustering-techniques-on-survey-dataset-f7d7a322e6ff), [4](https://www.analyticsindiamag.com/most-popular-clustering-algorithms-used-in-machine-learning/), [5](https://www.analyticsvidhya.com/blog/2017/02/test-data-scientist-clustering/).
+ 
 ## Utilities
 
 **Hey You**.
-During the last few years I collected tons of articles, web apps, reddit threads, best practices, projects and repositories, and I want to share with you each single bit of information, trying to organize them by type of resource (blogs or projects ideas, and so on). 
+During the last few years I collected tons of articles, web apps, reddit threads, best practices, projects and repositories, and I want to share with you each single bit of information, organizing them by type of resource (blogs or projects ideas, and so on). 
 
 ### Machine Learning Projects 
 
@@ -349,6 +368,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 
 ### Websites worth taking a look!
 
+- [The best machine learning **short** book i've ever read](https://www.ibm.com/downloads/cas/GB8ZMQZ3)
 - [A monster collection of Data related free course](https://github.com/kmario23/deep-learning-drizzle)
 - [Machine Learning Map](http://www.saedsayad.com/data_mining_map.htm) 
 - [Data modeling for Business Intelligence](https://www.1keydata.com/datawarehousing/data-modeling-levels.html)
@@ -363,6 +383,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [Immersive math](http://immersivemath.com/ila/)  
 - [DeepLizard](http://deeplizard.com/)
 - [Common Statistical Fallacies](https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/)
+- [Scikit-Learn pratical recipes](http://gael-varoquaux.info/scikit-learn-tutorial/)
 
 
 ### Subreddits you want to follow!
@@ -375,16 +396,16 @@ During the last few years I collected tons of articles, web apps, reddit threads
 Thanks to the great success of this guide,  i've decided to expand it a lot and make more similar for different topics.
 Some of the extensions i'm addig here next weeks are:
 
-- Unsupervised Learning
+- Unsupervised Learning : **done**
 - Machine Learning mindset framework (how to think like a data scientist)
-- Data processing and preparation
+- Data processing and preparation with Pandas
 - Feature Selection
 - Features Engineering
 - Extending the parameters optimization section
-- Add a section for the Keras Library
-- Add a section for the TensorFlow 2.0 
-- Add a section to "How to deploy my model on AWS"
-- Add a section to "How to deploy my model on Azure"
+- Keras Library
+- TensorFlow 2.0 
+- How to deploy my model on AWS
+- How to deploy my model on Azure
 
 Later on, i'll do an entire guide on AWS, strongly linked with this one :)
 
