@@ -1,4 +1,4 @@
-# [LIVE EVENT WHERE I EXPLAIN YOU HOW TO USE THE GUIDE EFFECTIVELY AND HOW I CONCEIVED IT](https://www.facebook.com/events/981682452022767/)
+# [LIVE EVENT WHERE I EXPLAIN YOU HOW TO USE THE GUIDE EFFECTIVELY AND HOW I CONCEIVED IT, SUBSCRIBE THE GROUP, SUNDAY 17 at 16 (italian time zone)](https://www.facebook.com/events/981682452022767/)
 
 # March 2019 Machine Learning Study Path
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
