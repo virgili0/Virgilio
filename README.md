@@ -33,7 +33,7 @@ When not possible, I collected both theory and examples, as well as some pointer
 - Support Vector Machines
 - Decision Trees
 - Ensemble Learning and Random Forest 
-- Unsupervised Learning
+- Unsupervised Learning --- **new**
 - Wrapping up and looking forward
 
 #### Neural Networks with TensorFlow
