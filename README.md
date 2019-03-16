@@ -33,6 +33,7 @@ When not possible, I collected both theory and examples, as well as some pointer
 - Support Vector Machines
 - Decision Trees
 - Ensemble Learning and Random Forest 
+- Unsupervised Learning
 - Wrapping up and looking forward
 
 #### Neural Networks with TensorFlow
@@ -44,7 +45,6 @@ When not possible, I collected both theory and examples, as well as some pointer
 - Training Networks: Best practices 
 - AutoEncoders
 - Reinforcement Learning
-- Unsupervised Learning
 - Next steps
 
 #### Utilities
@@ -169,6 +169,25 @@ The idea of Ensemble Learning is to leverage all the different features, pros an
 [Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Altough the idea is simple, this ensemble model turned out to be really effective tackling even some "hard" classification problems, or with a lot of data.
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both links come with a bunch of useful techniques to use in practice. 
+
+### Unsupervised Learning
+_First look (in order):_
+- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductionary video.
+- [This](https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03) article explains Unsupervised Learning really well.
+- [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference among Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+
+The two most important techniques here are [Association Rules Exploration](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining) and [Clustering](https://www.geeksforgeeks.org/clustering-in-machine-learning/). I provide examples and tutorials for both.
+
+Association Rules tutorials and examples: [1](https://www.learndatasci.com/tutorials/k-means-clustering-algorithms-python-intro/), [2](https://towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097), [3](https://pythonprogramming.net/flat-clustering-machine-learning-python-scikit-learn/), [4](https://www.datacamp.com/community/tutorials/k-means-clustering-python), [5](https://stackabuse.com/hierarchical-clustering-with-python-and-scikit-learn/).
+
+Clustering tutorials and examples: [1](https://pbpython.com/market-basket-analysis.html), [2](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/), [3](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/), [4](http://intelligentonlinetools.com/blog/2018/02/10/how-to-create-data-visualization-for-association-rules-in-data-mining/), [5](https://www.kaggle.com/datatheque/association-rules-mining-market-basket-analysis), [6](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html).
+
+_Second pass:_
+[Stanford slides](https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/unsupervised.pdf).
+[MIT slides](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf).
+
+ _Tips & Best practices:_
+ [1](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68), [2](https://dzone.com/articles/10-interesting-use-cases-for-the-k-means-algorithm), [3](https://medium.com/@blazetamareborn/practicing-clustering-techniques-on-survey-dataset-f7d7a322e6ff), [4](https://www.analyticsindiamag.com/most-popular-clustering-algorithms-used-in-machine-learning/), [5](https://www.analyticsvidhya.com/blog/2017/02/test-data-scientist-clustering/).
 
 ### Wrapping up and looking forward
 Now, if you followed all the steps and explored all the resources I posted, you're likely to be more confident with Machine Learning and have a general idea of things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithms we've seen are widely used in the Data Science and Analytics fields, but there are some complex tasks where they fail or give really poor performances. Now we are ready to fall down in the **deep** rabbit hole, trying to understand how Neural Networks and in general Deep Learning can help tackling big problems with millions of parameters and variables. 
@@ -309,25 +328,6 @@ _Second pass:_
  
  _Tips & Best practices:_
  [1](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0), [2](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12).
-
-### Unsupervised Learning
-_First look (in order):_
-- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductionary video.
-- [This](https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03) article explains Unsupervised Learning really well.
-- [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference among Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
-
-The two most important techniques here are [Association Rules Exploration](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining) and [Clustering](https://www.geeksforgeeks.org/clustering-in-machine-learning/). I provide examples and tutorials for both.
-
-Association Rules tutorials and examples: [1](https://www.learndatasci.com/tutorials/k-means-clustering-algorithms-python-intro/), [2](https://towardsdatascience.com/an-introduction-to-clustering-algorithms-in-python-123438574097), [3](https://pythonprogramming.net/flat-clustering-machine-learning-python-scikit-learn/), [4](https://www.datacamp.com/community/tutorials/k-means-clustering-python), [5](https://stackabuse.com/hierarchical-clustering-with-python-and-scikit-learn/).
-
-Clustering tutorials and examples: [1](https://pbpython.com/market-basket-analysis.html), [2](http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/association_rules/), [3](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/), [4](http://intelligentonlinetools.com/blog/2018/02/10/how-to-create-data-visualization-for-association-rules-in-data-mining/), [5](https://www.kaggle.com/datatheque/association-rules-mining-market-basket-analysis), [6](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html).
-
-_Second pass:_
-[Stanford slides](https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/unsupervised.pdf).
-[MIT slides](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf).
-
- _Tips & Best practices:_
- [1](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68), [2](https://dzone.com/articles/10-interesting-use-cases-for-the-k-means-algorithm), [3](https://medium.com/@blazetamareborn/practicing-clustering-techniques-on-survey-dataset-f7d7a322e6ff), [4](https://www.analyticsindiamag.com/most-popular-clustering-algorithms-used-in-machine-learning/), [5](https://www.analyticsvidhya.com/blog/2017/02/test-data-scientist-clustering/).
  
 ## Utilities
 
