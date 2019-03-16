@@ -213,12 +213,13 @@ Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/
 python pip install tensorflow
 ```
 
-The first read I recommend you is [this](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/).
+The first read I recommend you is [this](https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html).
 The second thing to do is to follow this [Introduction to TensorFlow](https://www.youtube.com/watch?v=tYYVSEHq-io) directly from the **awesome** [Google Education](https://ai.google/education/) page.
 Again, some theoretical concepts might be unclear, but focus on how the TensorFlow library and processes are conceived. 
 [This](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d) is a good resume of the latter.
 [Another beginner tutorial from google](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
 [This](https://www.youtube.com/watch?v=k5c-vg4rjBw&t=246s) is about the TensorFlow 2.0 update. 
+These [1](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/) and [2](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-2/) explain the "hard" things to grasp of TensorFlow. Higly recommended.
 
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
