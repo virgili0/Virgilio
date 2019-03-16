@@ -182,7 +182,7 @@ These are [some use cases](https://www.digitaldoughnut.com/articles/2017/march/t
 The theory and the applications of the Neural Networks is not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
 
-> After taking the TensorFlow section
+> After taking the TensorFlow section, apply this
 > 3-step iterative cycle:
 
 >- 1 Get an idea of the main concepts through an **entire pass of this** [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't worry too much about the math explanations, focus on the **what and why**.
