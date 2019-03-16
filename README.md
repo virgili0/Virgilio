@@ -119,11 +119,11 @@ We'll learn and use other modules along the road, for a quick usage just look at
 
 
 ### End-to-End Machine Learning project 
-For a first taste, I suggest you go through [this](https://www.kaggle.com/startupsci/titanic-data-science-solutions) Kaggle notebook, which has a classical example of an ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will all be explained comprehensively later. It is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question formulation...).
+For a first taste, I suggest you go through [this](https://www.kaggle.com/startupsci/titanic-data-science-solutions) Kaggle notebook, which has a classical example of an ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will all be explained comprehensively later. It is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question formulation...). 
 
 The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and general Data Science projects, which provides a lot of free datasets and offers interesting challenges and ML model experiments.
 
-[This](https://www.kaggle.com/startupsci/titanic-data-science-solutions) is the notebook: Read it, trying to get the big picture of the process, because some details, functions and code will be clearer later.
+Remember: Read it, trying to get the big picture of the process, because some details, functions and code will be clearer later.
 
 ### Linear Regression
 This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
