@@ -407,6 +407,6 @@ Some of the extensions i'm adding here during the next weeks are:
 - How to deploy my model on AWS
 - How to deploy my model on Azure
 
-Later on, i'll do an entire guide on AWS, strongly linked with this one :)
+Later on, i'll do an entire guide on Cloud Computing with AWS and Azure!
 
 ### ... Coming Very Soon! Stay tuned :)
