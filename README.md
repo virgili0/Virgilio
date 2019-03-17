@@ -1,4 +1,4 @@
-# [SUBSCRIBE THIS AMAZING FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
+# [SUBSCRIBE THIS BEST PRACTICES FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
 
 # March 2019 Machine Learning Study Path
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
