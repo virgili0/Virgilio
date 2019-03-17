@@ -394,7 +394,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 ## Next Steps Roadmap
 
 Thanks to the great success of this guide,  i've decided to expand it a lot and make more similar for different topics.
-Some of the extensions i'm addig here next weeks are:
+Some of the extensions i'm adding here during the next weeks are:
 
 - Unsupervised Learning : **done**
 - Machine Learning mindset framework (how to think like a data scientist)
