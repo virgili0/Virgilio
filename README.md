@@ -1,4 +1,4 @@
-# [LIVE EVENT WHERE I EXPLAIN YOU HOW TO USE THE GUIDE EFFECTIVELY AND HOW I CONCEIVED IT, SUBSCRIBE THE GROUP, SUNDAY 17 at 16 (italian time zone)](https://www.facebook.com/groups/mathfordatascience/)
+# [SUBSCRIBE THIS AMAZING FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
 
 # March 2019 Machine Learning Study Path
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
