@@ -384,7 +384,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [DeepLizard](http://deeplizard.com/)
 - [Common Statistical Fallacies](https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/)
 - [Scikit-Learn pratical recipes](http://gael-varoquaux.info/scikit-learn-tutorial/)
-helo
+
 
 
 ### Subreddits you want to follow!
