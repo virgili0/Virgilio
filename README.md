@@ -8,7 +8,7 @@ It does not require any previous knowledge, but being confident with programming
 
 ![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
 
-# March 2019 Machine Learning Study Path
+# Machine Learning Engineer 
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
 
 I **strongly recommend** you to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed below.
