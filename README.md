@@ -6,6 +6,7 @@ You will understand both theory and be able to apply it in practice, with hands-
 ## [Machine Learning Career  --  ALREADY OUT](https://github.com/clone95/Machine-Learning-Study-Path-March-2019/tree/master/Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## [Business Intelligence Career --  Coming Soon]
 ## [Cloud Computing Career --  Coming Soon]
+## [Specializations -- Coming Soon]
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement most of the concepts.
 
