@@ -27,6 +27,10 @@ In fact, they does not require any previous knowledge, but being confident with 
 
 Every source listed here is **free or open source**. 
 
+Click on "watch", I'm updating this in the free time and weekends.
+
+I think in 2 or 3 weeks the second guide (Business Intelligence) will be out. Yo!
+
 
 ## [Machine Learning Career  --  ALREADY OUT](https://github.com/clone95/Machine-Learning-Study-Path-March-2019/tree/master/Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## [Business Intelligence Career --  Coming Soon]
