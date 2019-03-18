@@ -29,6 +29,8 @@ Every source listed here is **free or open source**.
 
 Click on "watch", I'm updating this in the free time and weekends.
 
+If you want to contect me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
+
 I think in 2 or 3 weeks the second guide (Business Intelligence) will be out. Yo!
 
 
