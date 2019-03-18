@@ -3,7 +3,7 @@
 This repository is intended to provide three **complete and organic learning paths** to getting started with Machine Learning, Business Intelligence and Cloud Computing.
 You will understand both theory and be able to apply it in practice, with hands-on projects.
 
-## [Machine Learning Career  --  ALREADY OUT](Career-Paths/Machine-Learning-Engineer-Career-Path/master/README.md)  
+## [Machine Learning Career  --  ALREADY OUT](https://github.com/clone95/Machine-Learning-Study-Path-March-2019/tree/master/Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement most of the concepts.
 
