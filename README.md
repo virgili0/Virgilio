@@ -7,7 +7,7 @@ How many times, trying to approach a new topic or subject, you felt baffled, dis
 Hi, i'm Giacomo. 
 
 I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
-My boss asked me if it was possible to create a study path for me and newcomers, and i've put a lot of efforts to share my 3-4 years of walking around the internet and collecting sources, projects, awesome tools, tutorial, links, best practices in the ML field, and **organizing them in a awesome and useable way**.
+My boss asked me if it was possible to create a study path for me and newcomers, and i've put a lot of efforts to share my 3-4 years of walking around the internet and collecting **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organizing them in a awesome and useable way**.
 
 
 This repository is intended to provide three **complete and organic learning paths** for the following fields:
