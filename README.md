@@ -1,11 +1,16 @@
 # [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
+Studying through the Internet means swimming inside an infinite ocean of informations. 
+
+How many times, trying to approach a new topic or subject, you felt baffled, disoriented and without a real "path" to follow, to ensure yourself a deep knowledge and the ability to apply it?
+
 Hi, i'm Giacomo. 
 
-I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna, and I want to share my learning path and my love for the technology with you.
+I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
+My boss asked me if it was possible to create a study path for me and newcomers, and i've put a lot of efforts to share my 3-4 years of walking around the internet and collecting sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organizing them in a awesome and useable way.
+
 
 This repository is intended to provide three **complete and organic learning paths** for the following fields:
-
 
 - Machine Learning
 
