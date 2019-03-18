@@ -6,11 +6,13 @@ I'm an Italian student currently having a stage in a shiny Machine Learning and 
 
 This repository is intended to provide three **complete and organic learning paths** for the following fields:
 
+
 - Machine Learning
 
-- Business Intelligence
+- Business Intelligence (coming soon)
 
-- Cloud Computing
+- Cloud Computing (coming soon)
+
 
 You will understand both theory and be able to apply it in practice, with hands-on projects.
 
