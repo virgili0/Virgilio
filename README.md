@@ -1,4 +1,6 @@
-# [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
+# [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
+
+![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
 
 # March 2019 Machine Learning Study Path
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
