@@ -6,10 +6,7 @@ You will understand both theory and be able to apply it in practice, with hands-
 
 It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement most of the concepts.
 
-## Business Intelligence Career COMING SOON
-## Cloud Computing Career COMING SOON
-## Specializations COMING SOON
-## And More!
+This is the roadmap of the coming guides. Stay tuned!
 
 ![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
 
