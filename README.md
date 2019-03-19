@@ -34,7 +34,7 @@ If you want to contect me for whatever reason, just e-mail me at giacomo.ciarlin
 I think in 2 or 3 weeks the second guide (Business Intelligence) will be out. Yo!
 
 
-## [Machine Learning Career  --  ALREADY OUT](https://github.com/clone95/Machine-Learning-Study-Path-March-2019/tree/master/Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
+## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## [Business Intelligence Career --  Coming Soon]
 ## [Cloud Computing Career --  Coming Soon]
 ## [Specializations -- Coming Soon]
