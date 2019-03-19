@@ -268,6 +268,7 @@ _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
 - [Here](https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn) is another interesting explanation.
 - [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) is a video with a more pratical approach.
+- [Here](http://setosa.io/ev/image-kernels/) you have an amazing interactive demo.
 - [Here](https://becominghuman.ai/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow-1907a5bbb1fa), a guide to implement RNN in TensorFlow.
 - [Here](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767), a 7-page long blog post regarding the TensorFlow implementation.
 
