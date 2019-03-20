@@ -360,6 +360,8 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [TensorFlow official blog](https://medium.com/tensorflow)
 - [KD Nuggets](https://www.kdnuggets.com/)
 - [Incredible Graphic explanations](http://colah.github.io/)
+- [Towards Data Science] (https://towardsdatascience.com)
+- [Machine Learning Mastery] (https://machinelearningmastery.com/blog/)
 
 ### Websites worth taking a look!
 
