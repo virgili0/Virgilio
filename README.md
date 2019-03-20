@@ -26,7 +26,7 @@ In fact, they do not require any previous knowledge, but being confident with pr
 
 Every source listed here is **free or open source**. 
 
-I tried to be concise to _avoid information overhead_, less is more.
+I tried to be concise to _avoid information overhead_.
 
 I tried to organize the content hierarchically and by level of complexity, in order to give you a _coherent idea_ of how things work.   
 
