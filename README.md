@@ -75,5 +75,5 @@ So, stay tuned because I'm building this section during weekends and free time, 
 
 As usual, feel free to suggest improvements and collaborations :)
 
-# About Career Paths
+
 
