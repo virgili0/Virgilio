@@ -1,10 +1,10 @@
 # Data Preprocessing
 
-Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more magic) is the process of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics and machine learning applications.
+Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics and machine learning applications.
 
-Real-world data is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
+[Real-world data](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
 
-It' the core ability of any data scientist or data engineer, and you must be able to manipulate, clean, and structure data during you everyday work (besides expecting that this will take the most of your daily-time!).
+It's the [core ability](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) of any data scientist or data engineer, and you must _be able to manipulate, clean, and structure_ your data during the everyday work (besides expecting that this will take the most of your [daily-time](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html)!).
 
 There are a lot of differente data types out there, and they deserve different treatments.
 
@@ -41,7 +41,7 @@ The concepts through which we're going are are the following:
 - Iteratively Cleanse and Filter
 - Sanity Check
 
-Let's Start!
+**Let's Start!**
 
 ### - Data Quality 
 ### - Work Hard To Produce High Quality Data
