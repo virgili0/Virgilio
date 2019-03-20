@@ -48,7 +48,7 @@ First, [**data is King**](https://www.edq.com/glossary/data-quality-importance/)
 Your goal is plan a collecting data infrastructure that fixes problems beforehand. This means to care to a lot about plannig well your database schemas (do I need [third-normal form](https://social.technet.microsoft.com/Forums/Lync/en-US/7bf4ca30-a1bc-415d-97e6-ce0ac3137b53/normalized-3nf-vs-denormalizedstar-schema-data-warehouse-?forum=sqldatawarehousing) or not?), how do you collect data from sensors (phisical or conceptuals) and so on. These are problems if you're building a system up from ground, but most of the times in  you're gonna facing real-world problems that someone wants to solve with _already avaiable_ data.  
 
 ### - Business Questions
-Asking the [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
+Asking the [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
 
 ### - Data Profiling
 
