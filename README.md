@@ -9,7 +9,6 @@ Hi, i'm Giacomo.
 I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
 My boss asked me if it was possible to create a study path for me and newcomers, and I've put a lot of efforts to share my 3-4 years of walking around the internet and collecting **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organizing them in an awesome and usable way**.
 
-
 This repository is intended to provide three **complete and organic learning paths** for the following fields:
 
 - Machine Learning
@@ -26,6 +25,8 @@ If carefully followed they will bring you to a complete awareness and expendable
 In fact, they do not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement most of the concepts.
 
 Every source listed here is **free or open source**. 
+
+I tried to be concise and direct everywhere, to _avoid information overhead_.
 
 Click on "watch", I'm updating this in the free time and weekends.
 
@@ -64,7 +65,7 @@ I've planned two type of Specializations:
   - Impactful Presentations  [Coming Soon]
   - Pragmatic Decision Making  [Coming Soon]
 
-The former are about Data (you don't say?) and they truly are _the core toolkit_ of everyone working with data. To work with data is an art by some point of view, and rules of thumb and best practices will help you understanding the right way to treat them, but also you need to  develop a "sense" of what to do with the data, and this "sense" is mostly driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
+The former are about Data (you wouldn't have said that?) and they truly are _the core toolkit_ of everyone working with data. To work with data is an art by some point of view, and rules of thumb and best practices will help you understanding the right way to treat them, but also you need to  develop a "sense" of what to do with the data, and this "sense" is mostly driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
 
 The latter are about... everything that's not written in technical books. Take and master them, because they are the real _value enabler_ for you. You can be the best developer or engineer of the world, but If you can't communicate your data to your audience, or use data to suggest practical action in the real world, you're useless for a company. 
 
