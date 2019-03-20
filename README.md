@@ -28,6 +28,8 @@ Every source listed here is **free or open source**.
 
 I tried to be concise and direct everywhere, to _avoid information overhead_.
 
+I tried to organize the content hierarchically and by level of complexity, in order to give you a _coherent idea_ of how things work.   
+
 Click on "watch", I'm updating this in the free time and weekends.
 
 If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
