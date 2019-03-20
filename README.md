@@ -41,7 +41,9 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## [Business Intelligence Career --  Coming Soon]
 ## [Cloud Computing Career --  Coming Soon]
-## [Specializations -- Coming Soon]
+
+## [Specializations] 
+### - [Data Preprocessing]()
 
 
 This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
