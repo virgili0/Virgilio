@@ -74,6 +74,11 @@ Each times you're facing a data related problem, try understand what data you ne
 ### - Start Small
 It's stupid to handle GBs od data each time you want to try a data preparation step. Just use [small subsets](https://sdtimes.com/bi/data-gets-big-best-practices-data-preparation-scale/) of the data (but take care that they are representative and you catch all the problems). Remember, if you want to experiment with string cleaning, you don't need to launch your script on 10M rows. 
 
+### - The Toolkit
+The tools we're gonna use are Python3 and hid [Pandas library](https://pandas.pydata.org/), the de-facto standard to handle data.
+The heavy lifting here is done by the [DataFrame class](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), which comes with a bunch of useful functions for your daily data tasks.
+Hopefully you already know Python, if not start from there (do the steps I suggest you in the ML guide requirements), and then take this [Beginner Pandas tutorial](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html). Don't worry if now some ideas are not totally clear, but try to get the big picture of the commond [Pandas operations](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/). 
+
 ### - Data Cleaning
 [Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. In the next sections we'll explore all the common data cleaning situations.
 
