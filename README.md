@@ -44,13 +44,13 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## [Business Intelligence Career --  Coming Soon]
 ## [Cloud Computing Career --  Coming Soon]
 
-## [Specializations] 
-### - Data Preprocessing  [***ALREADY OUT***](Specializations/DataPreprocessing.md)
-### - Data Collection  [Coming Soon - Next]
-### - Data Visualization  [Coming Soon]
-### - Effective Communication  [Coming Soon]
-### - Impactful Presentations  [Coming Soon]
-### - Pragmatic Decision Making  [Coming Soon]
+# [Specializations] 
+## - Data Preprocessing  -- [**ALREADY OUT**](Specializations/DataPreprocessing.md)
+## - Data Collection  [Coming Soon - Next]
+## - Data Visualization  [Coming Soon]
+## - Effective Communication  [Coming Soon]
+## - Impactful Presentations  [Coming Soon]
+## - Pragmatic Decision Making  [Coming Soon]
 
 
 This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
