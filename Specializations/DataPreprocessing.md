@@ -10,6 +10,8 @@ There are a lot of different data types out there, and they deserve [different t
 
 As usual the structure I've planned to get you started consists of having a [general overview](https://searchbusinessanalytics.techtarget.com/definition/data-preparation), and then dive deep into each data processing situation you can encounter. 
 
+[Here](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) you have a gentle end-to-end panoramic view of the entire process.
+
 The concepts through which we're going are are the following:
 
 - Don't Joke With Data
