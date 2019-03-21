@@ -84,10 +84,15 @@ Hopefully you already know Python, if not start from there (do the steps I sugge
 
 ###   - Get Rid of Extra Spaces
 One of the first things you want to do is [remove extra spaces](https://stackoverflow.com/questions/43332057/pandas-strip-white-space). Take care! Some space can carry informations, but it heavily depends on the situation. For example, in "Complete Name" : "Giacomo Ciarlini" in nice to have a space so we can later split this into "Name" : "Giacomo" and "Surname" : "Ciarlini". I want you to notice that in general, a part from recommending and suggestion customization systems, unique identifiers like names or IDs are something you can generally drop. Often, they do not carry information. 
-
+_Bonus tip_: learn how to use [Regex](https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/) for pattern matchin, this is one of the powerful tools each data guy need to master.
 
 ###   - Select and Treat All Blank Cells
+Often real-world data is incomplete, and is necessary to handle this situation. [These](https://code.likeagirl.io/how-to-use-python-to-remove-or-modify-empty-values-in-a-csv-dataset-34426c816347) are two ways of dealing with it. [Here](https://hackersandslackers.com/pandas-dataframe-drop/) you have a more in-depth tutorial.
+
 ###   - Convert Values Type
+[Different data types](https://pbpython.com/pandas_dtypes.html) carries different information, and you need to care about this.
+[Here](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) is a good tutorial on how to convert type values. Remember that Python has some shortcut for doing this (executing str(3) will give you back the "3" string) but I recommend you to learn how to do it with Pandas.
+
 ###   - Remove Duplicates
 ###   - Change Text to Lower/Upper Case
 ###   - Normalize Data
