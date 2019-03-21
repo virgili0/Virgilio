@@ -58,7 +58,8 @@ During this informal meeting, ask the data:
 - how have you been collected (with noise, missing values...)?
 - how many friends of yours are there and where can I find them? (data dimensions and retrieving from storages)
 
-Eventually you may find the data too much quiet, maybe the're just shy, anyway you need to [ask these questions to the business user](https://business-analysis-excellence.com/business-requirements-meeting/)!
+Eventually you may find the data too much quiet, maybe the're just shy! 
+Anyway you're going to [ask these questions to the business user](https://business-analysis-excellence.com/business-requirements-meeting/)!
 
 
 ### - Who To Leave Behind
