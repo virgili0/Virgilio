@@ -38,24 +38,18 @@ If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlin
 
 I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
 
-
-
+# Careers
 ## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
-## [Business Intelligence Career --  Coming Soon]
-## [Cloud Computing Career --  Coming Soon]
+## Business Intelligence Career --  Coming Soon
+## Cloud Computing Career --  Coming Soon
 
-# [Specializations] 
+# Specializations
 ## - [Data Preprocessing  -- **ALREADY OUT**](Specializations/DataPreprocessing.md)
 ## - Data Collection  [Coming Soon - Next]
 ## - Data Visualization  [Coming Soon]
 ## - Effective Communication  [Coming Soon]
 ## - Impactful Presentations  [Coming Soon]
 ## - Pragmatic Decision Making  [Coming Soon]
-
-
-This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
-
-![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
 
 # About Specializations
 
@@ -87,3 +81,10 @@ As usual, feel free to suggest improvements and collaborations :)
 Everyone can committ his own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a partiular technology/language/methodology! I've alreay planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
 
 You can [**alredy find here**](Tools/Latex.md) a cool Latex guide for beginners!
+
+
+This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
+
+![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
+
+
