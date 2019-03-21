@@ -18,6 +18,8 @@ This repository is intended to provide three **complete and organic learning pat
 - Cloud Computing (coming soon)
 
 
+Also I organize and collect for you some **Specializations**. They are optional but highly recommended, and you need them in order to expand day-by-day your skillset and your expertise.
+
 You will both understand theory and be able to apply it in practice, with hands-on projects.
 
 If carefully followed they will bring you to a complete awareness and expendable skill from scratch. 
@@ -41,7 +43,14 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## [Business Intelligence Career --  Coming Soon]
 ## [Cloud Computing Career --  Coming Soon]
-## [Specializations -- Coming Soon]
+
+# [Specializations] 
+## - [Data Preprocessing  -- **ALREADY OUT**](Specializations/DataPreprocessing.md)
+## - Data Collection  [Coming Soon - Next]
+## - Data Visualization  [Coming Soon]
+## - Effective Communication  [Coming Soon]
+## - Impactful Presentations  [Coming Soon]
+## - Pragmatic Decision Making  [Coming Soon]
 
 
 This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
@@ -50,14 +59,12 @@ This is the **roadmap** of the coming guides (the **Machine Learning one is alre
 
 # About Specializatons
 
-In this section of the repo I organize and collect for you some **Specializations**. They are optional but highly recommended, and you need them in order to expand day-by-day your skillset and your expertise.
-
 You can take them in order or choosing the one that most fits to you and your inclinations, but **I recommend you** to walk through them all at least once.
 
-I've planned two type of Specializations: 
+I've planned two types of Specializations: 
 
 - Data Specializations 
-  - Data Preprocessing  [**Now under construction**]
+  - Data Preprocessing  [Already Out!]
   - Data Collection  [Coming Soon - Next]
   - Data Visualization  [Coming Soon]
   
@@ -75,5 +82,5 @@ So, stay tuned because I'm building this section during weekends and free time, 
 
 As usual, feel free to suggest improvements and collaborations :)
 
-# About Career Paths
+
 
