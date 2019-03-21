@@ -96,19 +96,31 @@ Often real-world data is incomplete, and is necessary to handle this situation. 
 [Here](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) is a good tutorial on how to convert type values. Remember that Python has some shortcut for doing this (executing str(3) will give you back the "3" string) but I recommend you to learn how to do it with Pandas.
 
 ###   - Remove Duplicates
+You don't want duplicate dat, they both are noise and occupy space! Learn [how to handle them simply](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) with Pandas.
+
 ###   - Change Text to Lower/Upper Case
-###   - Normalize Data
+You want to _Capitalize_ names, or maybe make them uniform (some people can enter data with or without capital letters!). Check [here](https://www.geeksforgeeks.org/python-pandas-series-str-lower-upper-and-title/) for the Pandas way to do it.
+
 ###   - Spell Check
-###   - Standardize Data
-###   - Delete all Formatting
+You want to correct wrong words, for the sake of evenness. Check [here](https://www.tutorialspoint.com/python/python_spelling_check.htm) for a good Python module to do it. Also, this is agood starting point to [implement it](https://stackoverflow.com/questions/46409475/spell-checker-in-pandas). 
+
+###   - Reshape your data
+Maybe you're going to feed your data into a neural network, or show them in a colorful bars plot. Anyway, you need to transform your data and give them right shape for your data pipeline. [Here](https://towardsdatascience.com/seven-clean-steps-to-reshape-your-data-with-pandas-or-how-i-use-python-where-excel-fails-62061f86ef9c) is a very good tutorial for this taks. 
+
 ###   - Dealing with Special Characters
+UTF-encoding is the standard to follow, but remember that not everyone follow the rules (otherwise, we'd not need [crime predictive analytics](http://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1633&context=etd_projects). You can learn [here](https://stackoverflow.com/questions/45596529/replacing-special-characters-in-pandas-dataframe) how to deal with strange accents or special characters.
+
 ###   - Normalizing Date Formats
-###   - Finding and Replacing Patterns
+I think there could be one hundred ways to write down a date. You need to decide your format and make them uniform across you dataset, and [here](https://medium.com/jbennetcodes/dealing-with-datetimes-like-a-pro-in-pandas-b80d3d808a7f) you learn how to do it.
+
 ###   - Verification to enrich data
+Sometimes can be useful to engineer some data, for example: suppose you're dealing with e-ecommerce data, and you have the prices of each object sold. You may want to add a new column in your dataset, with a label carrying handy information like a Price_level [low, medium, high] based on some bounds you can decide. This is really simple in Pandas, check [here](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column). Another example is to add a Gender column to easily explore data and gain  insights.
+
 ###   - Data Cleaning Tools
 ### - Data Exploration
 ### - Merge Data Sets
 ### - Data Discretization
+### - Data Normalization
 ### - Data Scaling
 ### - Data Integration
 ### - Iteratively Cleanse and Filter
