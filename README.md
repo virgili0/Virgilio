@@ -45,7 +45,7 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## [Cloud Computing Career --  Coming Soon]
 
 ## [Specializations] 
-### - Data Preprocessing  [**Now under construction**](Specializations/DataPreprocessing.md)
+### - Data Preprocessing  [***ALREADY OUT***](Specializations/DataPreprocessing.md)
 ### - Data Collection  [Coming Soon - Next]
 ### - Data Visualization  [Coming Soon]
 ### - Effective Communication  [Coming Soon]
