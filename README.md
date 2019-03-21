@@ -82,5 +82,6 @@ So, stay tuned because I'm building this section during weekends and free time, 
 
 As usual, feel free to suggest improvements and collaborations :)
 
+# About Tools
 
-
+Everyone can committ his own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a partiular technology/language/methodology! I've alreay planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
