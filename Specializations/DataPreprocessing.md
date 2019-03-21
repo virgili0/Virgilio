@@ -114,9 +114,9 @@ UTF-encoding is the standard to follow, but remember that not everyone follow th
 I think there could be one hundred ways to write down a date. You need to decide your format and make them uniform across you dataset, and [here](https://medium.com/jbennetcodes/dealing-with-datetimes-like-a-pro-in-pandas-b80d3d808a7f) you learn how to do it.
 
 ###   - Verification to enrich data
-Sometimes can be useful to engineer some data, for example: suppose you're dealing with e-ecommerce data, and you have the prices of each object sold. You may want to add a new column in your dataset, with a label carrying handy information like a Price_level [low, medium, high] based on some bounds you can decide. This is really simple in Pandas, check [here](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column). Another example is to add a Gender column to easily explore data and gain  insights.
+Sometimes can be useful to engineer some data, for example: suppose you're dealing with e-ecommerce data, and you have the prices of each object sold. You may want to add a new column in your dataset, with a label carrying handy information like a Price_level [low, medium, high] based on upper and lower bounds you can decide. This is really simple in Pandas, check [here](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column). Another example is to add a Gender column (M, F) to easily explore data and gain insights in a customers dataset.
 
-###   - Data Cleaning Tools
+### - Data Cleaning Tools
 ### - Data Exploration
 ### - Merge Data Sets
 ### - Data Discretization
