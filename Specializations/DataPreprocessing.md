@@ -1,6 +1,6 @@
 # Data Preprocessing
 
-Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics and machine learning applications.
+Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more like magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics and machine learning applications.
 
 [Real-world data](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
 
