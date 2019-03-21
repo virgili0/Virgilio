@@ -83,6 +83,7 @@ Hopefully you already know Python, if not start from there (do the steps I sugge
 [Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. In the next sections we'll explore all the common data cleaning situations.
 
 ###   - Get Rid of Extra Spaces
+One of the first things you want to do is [remove extra spaces](https://stackoverflow.com/questions/43332057/pandas-strip-white-space). Take care! Some space can carry informations, but it heavily depends on the situation. For example, in "Complete Name" : "Giacomo Ciarlini" in nice to have a space so we can later split this into "Name" : "Giacomo"
 
 
 ###   - Select and Treat All Blank Cells
