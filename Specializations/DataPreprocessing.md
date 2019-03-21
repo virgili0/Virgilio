@@ -51,14 +51,15 @@ Your goal is plan a collecting data infrastructure that fixes problems beforehan
 Asking the [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
 
 ### - Data Profiling
-According to the (cold as ice) [Wikipedia definition](https://en.wikipedia.org/wiki/Data_profiling): "Data profiling is the process of examining the data available from an existing information source (e.g. a database or a file) and collecting statistics and informative data summaries."
-So Wikipedia is subtly suggesting us to take a coffee with the data. 
+According to the (cold as ice) [Wikipedia definition](https://en.wikipedia.org/wiki/Data_profiling): "Data profiling is the process of examining the data available from an existing information source (e.g. a database or a file) and collecting statistics and informative data summaries."\
+So Wikipedia is subtly suggesting us to take a coffee with the data. \
+
 During this informal meeting, ask the data:
 - which business problem are you meant to solve? (what is important, and what is not) 
 - how have you been collected (with noise, missing values...)?
 - how many friends of yours are there and where can I find them? (data dimensions and retrieving from storages)
 
-Eventually you may find the data too much quiet, maybe the're just shy! 
+Eventually you may find the data too much quiet, maybe the're just shy! \
 Anyway you're going to [ask these questions to the business user](https://business-analysis-excellence.com/business-requirements-meeting/)!
 
 
