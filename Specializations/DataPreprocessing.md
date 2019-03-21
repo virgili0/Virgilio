@@ -74,9 +74,11 @@ Each times you're facing a data related problem, try understand what data you ne
 It's stupid to handle GBs od data each time you want to try a data preparation step. Just use [small subsets](https://sdtimes.com/bi/data-gets-big-best-practices-data-preparation-scale/) of the data (but take care that they are representative and you catch all the problems). Remember, if you want to experiment with string cleaning, you don't need to launch your script on 10M rows. 
 
 ### - Data Cleaning
-Data cleaning is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth.
+[Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. 
 
 ###   - Get Rid of Extra Spaces
+
+
 ###   - Select and Treat All Blank Cells
 ###   - Convert Values Type
 ###   - Remove Duplicates
