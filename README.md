@@ -18,7 +18,7 @@ This repository is intended to provide three **complete and organic learning pat
 - Cloud Computing (coming soon)
 
 
-Also I organize and collect for you some **Specializations**. They are optional but highly recommended, and you need them in order to expand day-by-day your skillset and your expertise.
+Also I organize and collect for you some **Specializations** and some **Tools** in-depth guides. They are optional but highly recommended, and you need them in order to expand day-by-day your skillset and your expertise.
 
 You will both understand theory and be able to apply it in practice, with hands-on projects.
 
@@ -50,6 +50,9 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## - Effective Communication  [Coming Soon]
 ## - Impactful Presentations  [Coming Soon]
 ## - Pragmatic Decision Making  [Coming Soon]
+
+# Tools
+## - [Latex](Tools/Latex.md)
 
 # About Specializations
 
