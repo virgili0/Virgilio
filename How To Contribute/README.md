@@ -36,5 +36,4 @@ Let's get started with X!
 
 That's it!
 
-Soon i'm also uploading here a "guide" about how to write a guide! So you can become effective if you aren't already, 
-and spread the knowledge you have about whatever you like :)
+Soon i'm also uploading here a "guide" about how to write a guide! So, you'll be able to spread the knowledge you have about whatever you like :)
