@@ -2,7 +2,7 @@
 # Machine Learning Engineer 
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
 
-I **strongly recommend** you to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed below.
+I **strongly recommend** you to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by O'Reilly, which inspired me and has driven most of the organization and hierarchy of the content listed below.
 
 Apart from this, **everything** listed here is open source and free, most of it coming from the world-renowned universities and open source associations. 
 
@@ -44,7 +44,7 @@ When not possible, I collected both theory and examples, as well as some pointer
 #### Utilities
 - Machine Learning Projects 
 - Data Science Tools
-- Blogs / Youtube Channels / Websites worth taking a look!
+- Blogs / YouTube Channels / Websites worth taking a look!
 
 
 So let's get started!
@@ -71,11 +71,11 @@ Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/
 A tensor [is not a matrix!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
 This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/).
 
-I also recommend you to install the [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for your experiments.
+I also recommend you to install the [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for your experiments.
 
 ### Jupyter Notebook
 Directly from [here](https://jupyter.org/): "The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
-Working with data means -> a lot of expriments. And to document experiments, and organize them in a valuable way to get insights, you definitely need to use Jupyter Notebook during your journey. [Why](http://blendedlearning.blogs.brynmawr.edu/what-are-jupyter-notebooks-why-would-i-want-to-use-them/)?
+Working with data means -> a lot of experiments. And to document experiments, and organize them in a valuable way to get insights, you definitely need to use Jupyter Notebook during your journey. [Why](http://blendedlearning.blogs.brynmawr.edu/what-are-jupyter-notebooks-why-would-i-want-to-use-them/)?
 
 
 ### The math you need
@@ -147,12 +147,12 @@ In this Google Crash Course you find:
 
 ### Support Vector Machines
 This is another classical algorithm to create ML models.
-[Here](https://www.youtube.com/watch?v=_PwhiWxHK8o) you have the explanation of the theory, and [here](https://www.youtube.com/watch?v=g8D5YL6cOSE) a more pratical approach. Check both.
+[Here](https://www.youtube.com/watch?v=_PwhiWxHK8o) you have the explanation of the theory, and [here](https://www.youtube.com/watch?v=g8D5YL6cOSE) a more practical approach. Check both.
 [Here](https://scikit-learn.org/stable/modules/svm.html) is a very good explanation + practice application in Scikit-Learn.
 
 ### Decision Trees
 Decision Trees are one of the most simple but effective ideas behind predicting outcomes, and they're used in many ways (i.g. Random Forest). Check [here](https://www.youtube.com/watch?v=eKD5gxPPeY0&list=PLBv09BD7ez_4temBw7vLA19p3tdQH6FYO) and go through the playlist to get a theoretical overview of Decision Trees (ID3).
-[Here](https://scikit-learn.org/stable/modules/tree.html) you have the pratical application of ID3.
+[Here](https://scikit-learn.org/stable/modules/tree.html) you have the practical application of ID3.
 Here you have some end-to-end examples with Scikit-Learn:
 - [Example 1](https://www.youtube.com/watch?v=9YcMzsFvfxU) 
 - [Example 2](https://www.youtube.com/watch?v=RmajweUFKvM)
@@ -160,13 +160,13 @@ Here you have some end-to-end examples with Scikit-Learn:
 
 ### Ensemble Learning and Random Forest 
 The idea of Ensemble Learning is to leverage all the different features, pros and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
-[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Altough the idea is simple, this ensemble model turned out to be really effective tackling even some "hard" classification problems, or with a lot of data.
+[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Although the idea is simple, this ensemble model turned out to be really effective tackling even some "hard" classification problems, or with a lot of data.
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both links come with a bunch of useful techniques to use in practice. 
 
 ### Unsupervised Learning
 _First look (in order):_
-- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductionary video.
+- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductory video.
 - [This](https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03) article explains Unsupervised Learning really well.
 - [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference among Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
 
@@ -193,7 +193,7 @@ Now, if you followed all the steps and explored all the resources I posted, you'
 In this section we'll follow a track that will take us from zero knowledge about neural networks to fully understanding them, thanks to the Stanford University Deep Learning course and some tutorials I've searched over the internet. Some of them come from Google, others from Stanford or Cambridge universities, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kinds of ML tasks.
 These are [some use cases](https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
 
-The theory and the applications of the Neural Networks is not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, offical forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
+The theory and the applications of the Neural Networks is not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, official forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
 
 > After taking the TensorFlow section, apply this
@@ -221,7 +221,7 @@ Created by the [Google Brain](https://ai.google/research/teams/brain) team, [Ten
 TensorFlow is the de-facto standard for the major industry-sized companies that need to implement Machine Learning algorithms. It is built for scaling, with really cool features to parallelize training over multiple GPU's or devices.
 
 ### Up and Running with TensorFlow
-Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to install the Tensorflow library you just need to open a terminal inside you Python installation folder and run this command. 
+Assuming you have [Python stored in the variable PATH](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/), to install the TensorFlow library you just need to open a terminal inside you Python installation folder and run this command. 
 
 ``` 
 python pip install tensorflow
@@ -233,7 +233,7 @@ Again, some theoretical concepts might be unclear, but focus on how the TensorFl
 [This](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d) is a good resume of the latter.
 [Another beginner tutorial from google](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0).
 [This](https://www.youtube.com/watch?v=k5c-vg4rjBw&t=246s) is about the TensorFlow 2.0 update. 
-These [1](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/) and [2](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-2/) explain the "hard" things to grasp of TensorFlow. Higly recommended.
+These [1](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/) and [2](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-2/) explain the "hard" things to grasp of TensorFlow. Highly recommended.
 
 Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
  
@@ -268,7 +268,7 @@ _Tips & Best practices:_
 _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
 - [Here](https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn) is another interesting explanation.
-- [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) is a video with a more pratical approach.
+- [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) is a video with a more practical approach.
 - [Here](https://becominghuman.ai/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow-1907a5bbb1fa), a guide to implement RNN in TensorFlow.
 - [Here](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767), a 7-page long blog post regarding the TensorFlow implementation.
 
@@ -291,9 +291,9 @@ I also put here a list of the various topics to explore when talking about _how 
 
 _Second pass:_
 - [Google best practices](https://developers.google.com/machine-learning/guides/rules-of-ml/).
-- [Regularizaton Chapter](https://www.deeplearningbook.org/contents/regularization.html).
+- [Regularization Chapter](https://www.deeplearningbook.org/contents/regularization.html).
 - [Optimization Chapter](https://www.deeplearningbook.org/contents/optimization.html).
-- [Pratical Methodology Chapter](https://www.deeplearningbook.org/contents/guidelines.html).
+- [Practical Methodology Chapter](https://www.deeplearningbook.org/contents/guidelines.html).
  
 
 ### AutoEncoders
@@ -370,7 +370,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [Machine Learning Map](http://www.saedsayad.com/data_mining_map.htm) 
 - [Data modeling for Business Intelligence](https://www.1keydata.com/datawarehousing/data-modeling-levels.html)
 - [Statistics explained](http://www.statsoft.com/Textbook/Elementary-Statistics-Concepts#Two%20basic%20features%20of%20every%20relation%20between%20variables)
-- [Visualizing data - Turorials](https://datascienceplus.com/category/visualizing-data/?tdo_tag=Python)
+- [Visualizing data - Tutorials](https://datascienceplus.com/category/visualizing-data/?tdo_tag=Python)
 - [Fast.ai](https://www.fast.ai/)
 - [Open.ai](https://openai.com/blog/better-language-models/)
 - [Explained.ai](https://explained.ai/)
@@ -380,13 +380,13 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [Immersive math](http://immersivemath.com/ila/)  
 - [DeepLizard](http://deeplizard.com/)
 - [Common Statistical Fallacies](https://www.geckoboard.com/learn/data-literacy/statistical-fallacies/)
-- [Scikit-Learn pratical recipes](http://gael-varoquaux.info/scikit-learn-tutorial/)
+- [Scikit-Learn practical recipes](http://gael-varoquaux.info/scikit-learn-tutorial/)
 
 
 
 ### Subreddits you want to follow!
 
-- [10 awesomee subreddits related to data sciece](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
+- [10 awesome subreddits related to data science](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
 - [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
 
 ## Next Steps Roadmap

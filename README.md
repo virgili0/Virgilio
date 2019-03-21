@@ -57,7 +57,7 @@ This is the **roadmap** of the coming guides (the **Machine Learning one is alre
 
 ![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
 
-# About Specializatons
+# About Specializations
 
 You can take them in order or choosing the one that most fits to you and your inclinations, but **I recommend you** to walk through them all at least once.
 
@@ -82,8 +82,5 @@ So, stay tuned because I'm building this section during weekends and free time, 
 
 As usual, feel free to suggest improvements and collaborations :)
 
-# About Tools
-
-Everyone can committ his own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a partiular technology/language/methodology! I've alreay planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
 
 
