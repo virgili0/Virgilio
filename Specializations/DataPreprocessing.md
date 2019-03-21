@@ -57,8 +57,6 @@ Asking the [right business questions](https://www.datapine.com/blog/data-analysi
 According to the (cold as ice) [Wikipedia definition](https://en.wikipedia.org/wiki/Data_profiling): "Data profiling is the process of examining the data available from an existing information source (e.g. a database or a file) and collecting statistics and informative data summaries."\
 So Wikipedia is subtly suggesting us to take a coffee with the data. 
 
-_Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/downloads/di_loreto_data_profiling_tutorial_monday_am.pdf), [2](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Data-profiling-tutorials-use-cases-and-exercise/td-p/145347)
-
 During this informal meeting, ask the data questions like:
 - which business problem are you meant to solve? (what is important, and what is not) 
 - how have you been collected (with noise, missing values...)?
@@ -66,6 +64,8 @@ During this informal meeting, ask the data questions like:
 
 Eventually, you may find the data too much quiet, maybe they're just shy! \
 Anyway, you're going to [ask these questions to the business user](https://business-analysis-excellence.com/business-requirements-meeting/)!
+
+_Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/downloads/di_loreto_data_profiling_tutorial_monday_am.pdf), [2](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Data-profiling-tutorials-use-cases-and-exercise/td-p/145347)
 
 ### - Who To Leave Behind
 During the data profiling process, it's common to realize that often some of your data are [useless](https://ambisense.net/why-useless-data-is-worse-than-no-data/). Your data may have too much noise or they are partial, and most likely you don't all of them to answer your business problems.
