@@ -18,6 +18,7 @@ The concepts through which we're going are are the following:
 - Data Profiling
 - Who To Leave Behind
 - Start Small
+- The Toolkit
 - Data Cleaning
   - Get Rid of Extra Spaces
   - Select and Treat All Blank Cells
