@@ -52,7 +52,7 @@ Asking the [right business questions](https://www.datapine.com/blog/data-analysi
 
 ### - Data Profiling
 According to the (cold as ice) [Wikipedia definition](https://en.wikipedia.org/wiki/Data_profiling): "Data profiling is the process of examining the data available from an existing information source (e.g. a database or a file) and collecting statistics and informative data summaries."\
-So Wikipedia is subtly suggesting us to take a coffee with the data. \
+So Wikipedia is subtly suggesting us to take a coffee with the data. 
 
 During this informal meeting, ask the data:
 - which business problem are you meant to solve? (what is important, and what is not) 
