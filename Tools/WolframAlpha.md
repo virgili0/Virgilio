@@ -62,12 +62,20 @@ To find the inverse, you use [`Inverse[{{a, b}, {c, d}}]`](https://www.wolframal
 
 To ask for the eigenvalues (resp. the eigenvectors) you would type in [`Eigenvalues[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Eigenvalues%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D) (resp. [`Eigenvectors[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Eigenvectors%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D)), even though asking for one usually also gives the other.
 
-Of course that all of this can be done with bigger matrices, and matrices with actual numbers, not just parameters! For example, we can compute the eigenvalues of some 5 by 5 matrix, say [`Eigenvalues[{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}}]`](https://www.wolframalpha.com/input/?i=Eigenvalues%5B%7B%7B1,2,3,4,5%7D,%7B6,7,8,9,10%7D,%7B11,12,13,14,15%7D,%7B16,17,18,19,20%7D,%7B21,22,23,24,25%7D%7D%5D) are `0, 0, 0, -3.642, 68.64`.
+Of course that all of this can be done with bigger matrices, and matrices with actual numbers, not just parameters! For example, we can compute the eigenvalues of some 5 by 5 matrix, say [`Eigenvalues[{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}}]`](https://www.wolframalpha.com/input/?i=Eigenvalues%5B%7B%7B1,2,3,4,5%7D,%7B6,7,8,9,10%7D,%7B11,12,13,14,15%7D,%7B16,17,18,19,20%7D,%7B21,22,23,24,25%7D%7D%5D) gives `0, 0, 0, -3.642, 68.64`.
 
 Probably more relevant for university courses, but WA also diagonalizes matrices/finds their Jordan canonical form. For that, use [`JordanDecomposition[{{1, 2}, {0, 3}}]`](https://www.wolframalpha.com/input/?i=JordanDecomposition%5B%7B%7B1,+2%7D,+%7B0,+3%7D%7D%5D) which also gives the similarity matrix and the matrix in diagonal/Jordan canonical form.
 
 ### Computing series and summations
-To be added soon!
+Another thing that Wolfram  Alpha can do is compute summations and series; both with known values and with unknown values. For example, I never know by heart what is the formula to compute the sum of the first terms of a geometric series like `1 + x + x^2 + x^3 + ... + x^n`. WA can help me by just inputing [`sum x^i with i from 0 to n`](https://www.wolframalpha.com/input/?i=sum+x%5Ei+with+i+from+0+to+n), which gives the formula I always forget! But then again, we would be better off using Mathematica's syntax, which for sums/series is through the function `Sum[]`. The first argument is the expression you want to sum, the second argument is the range of the dummy variable! For example, [`Sum[x^i, {i, 0, n}]`](https://www.wolframalpha.com/input/?i=Sum%5Bx%5Ei,+%7Bi,+0,+n%7D%5D) gives the same result as before.
+
+We can also sum, for example, the first 20 factorials with [`Sum[Factorial[n], {n, 1, 20}]`](https://www.wolframalpha.com/input/?i=Sum%5BFactorial%5Bn%5D,+%7Bn,+1,+20%7D%5D) (which gives `2561327494111820313` by the way).
+
+Infinite sums, which are called series, are computed by replacing the upper limit of the dummy variable with `infty`. So if we input [`Sum[1/n, {n, 1, infty}]`](https://www.wolframalpha.com/input/?i=Sum%5B1%2Fn,+%7Bn,+1,+infty%7D%5D) our dear WA lets us know that the [harmonic series diverges](http://mathspp.blogspot.com/2018/10/twitter-proof-sum-of-inverses-diverges.html).
+
+Another interesting example is [`Sum[1/n^2, {n, 1, infty}]`](https://www.wolframalpha.com/input/?i=Sum%5B1%2Fn%5E2,+%7Bn,+1,+infty%7D%5D), which actually gives `pi^2/6`.
+
+Finite/infinite products work the same way, except that we use the function `Product[]`. For example, there is an interesting product formula that gives `pi/2`, and the first 100 terms of that product show that it is close: [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, 100}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+100%7D%5D).
 
 ### Finding derivatives
 To be added soon!
