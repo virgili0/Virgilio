@@ -9,7 +9,7 @@ Template
   
 Intro:\
     what is X\
-    why is important\
+    why is it important\
     who I am\
     prerequisites\
     
