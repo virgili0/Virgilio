@@ -157,6 +157,7 @@ Here you have some end-to-end examples with Scikit-Learn:
 - [Example 1](https://www.youtube.com/watch?v=9YcMzsFvfxU) 
 - [Example 2](https://www.youtube.com/watch?v=RmajweUFKvM)
 - [Example 3](http://dataaspirant.com/2017/02/01/decision-tree-algorithm-python-with-scikit-learn/)
+- [Example 4](https://mathspp.blogspot.com/2018/08/teaching-robot-how-to-vacuum-clean-with.html) couples decision trees with genetic algorithms.
 
 ### Ensemble Learning and Random Forest 
 The idea of Ensemble Learning is to leverage all the different features, pros and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
@@ -301,7 +302,7 @@ _First look (in order):_
 - [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
 - [This](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f) is your second recommended read.
 - [This](https://www.youtube.com/watch?v=vfnxKO2rMq4) is a lecture from Andrew NG.
-- I also give you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html).
+- I also give you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html), [5](https://mathspp.blogspot.com/2019/03/generating-natural-looking-digits-with.html)
 
 _Second pass:_
 [AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
@@ -314,6 +315,7 @@ _First look (in order):_
 - [Here](https://www.youtube.com/watch?v=2pWv7GOvuf0) you have an explanation video.
 - [This](https://skymind.ai/wiki/deep-reinforcement-learning) article explains RL really well.
 - [Here](https://towardsdatascience.com/what-to-expect-from-reinforcement-learning-a22e8c16f40c) is an interesting read.
+- [This post](https://mathspp.blogspot.com/2018/09/markov-decision-processes-basics.html) couples an intuitive example with some formal definitions.
 - Some examples: [1](https://adventuresinmachinelearning.com/reinforcement-learning-tensorflow/), [2](https://medium.com/tensorflow/deep-reinforcement-learning-playing-cartpole-through-asynchronous-advantage-actor-critic-a3c-7eab2eea5296), [3](https://www.youtube.com/watch?v=t1A3NTttvBA), [4](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow).
 
 _Second pass:_
@@ -362,10 +364,11 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [Incredible Graphic explanations](http://colah.github.io/)
 - [Towards Data Science](https://towardsdatascience.com)
 - [Machine Learning Mastery](https://machinelearningmastery.com/blog/)
+- [Mathspp blog](http://mathspp.blogspot.com/)
 
 ### Websites worth taking a look!
 
-- [The best machine learning **short** book i've ever read](https://www.ibm.com/downloads/cas/GB8ZMQZ3)
+- [The best machine learning **short** book I've ever read](https://www.ibm.com/downloads/cas/GB8ZMQZ3)
 - [A monster collection of Data related free course](https://github.com/kmario23/deep-learning-drizzle)
 - [Machine Learning Map](http://www.saedsayad.com/data_mining_map.htm) 
 - [Data modeling for Business Intelligence](https://www.1keydata.com/datawarehousing/data-modeling-levels.html)
