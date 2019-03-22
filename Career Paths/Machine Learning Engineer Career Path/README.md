@@ -108,17 +108,17 @@ If you encounter some problems, it may be because you don't have the latest vers
 ```
 
 ### Why Scikit-Learn
-[Scikit-Learn](https://scikit-learn.org/stable/) is one of the most complete, mature and well-documented libraries for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models and offers facility functions for the data science process. 
+[Scikit-Learn](https://scikit-learn.org/stable/) is one of the most complete, mature and well-documented libraries for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models that offers facility functions for the data science process. 
 
-We'll learn and use other modules along the road, for a quick usage just look at their official documentation. 
+We'll learn and use other modules along the road. For a quick usage just look at their official documentation. 
 
 
 ### End-to-End Machine Learning project 
-For a first taste, I suggest you go through [this](https://www.kaggle.com/startupsci/titanic-data-science-solutions) Kaggle notebook, which has a classical example of an ML task. The goal is trying to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will all be explained comprehensively later. It is nice to get the picture of the "applied" project, going through the classical steps of the applied Machine Learning (problem framing, data exploration, question formulation...). 
+For a first taste, I suggest you go through [this](https://www.kaggle.com/startupsci/titanic-data-science-solutions) Kaggle notebook, which has a classical example of an ML task. The goal is to try to predict if a Titanic passenger would have been most likely to survive or not. Many things will be unclear for now, but don't worry, they will all be explained comprehensively later. It is nice to get the picture of the "applied" project, going through the classical steps of applied Machine Learning (problem framing, data exploration, question formulation...). 
 
 The notebook is on [Kaggle](https://www.kaggle.com/), the go-to platform for ML and general Data Science projects, which provides a lot of free datasets and offers interesting challenges and ML model experiments.
 
-Remember: Read it, trying to get the big picture of the process, because some details, functions and code will be clearer later.
+Remember: Read the notebook and try to understand the big picture of the process. Some details, functions and code will be clearer later.
 
 ### Linear Regression
 This is the simplest form of Machine Learning, and the starting point for everyone interested in predicting outcomes from a dataset.
@@ -149,7 +149,7 @@ This is another classical algorithm to create ML models.
 [Here](https://scikit-learn.org/stable/modules/svm.html) is a very good explanation + practice application in Scikit-Learn.
 
 ### Decision Trees
-Decision Trees are one of the most simple but effective ideas behind predicting outcomes, and they're used in many ways (i.g. Random Forest). Check [here](https://www.youtube.com/watch?v=eKD5gxPPeY0&list=PLBv09BD7ez_4temBw7vLA19p3tdQH6FYO) and go through the playlist to get a theoretical overview of Decision Trees (ID3).
+Decision Trees are one of the most simple but effective ideas behind predicting outcomes, and they're used in many ways (e.g. Random Forest). Check [here](https://www.youtube.com/watch?v=eKD5gxPPeY0&list=PLBv09BD7ez_4temBw7vLA19p3tdQH6FYO) and go through the playlist to get a theoretical overview of Decision Trees (ID3).
 [Here](https://scikit-learn.org/stable/modules/tree.html) you have the practical application of ID3.
 Here you have some end-to-end examples with Scikit-Learn:
 - [Example 1](https://www.youtube.com/watch?v=9YcMzsFvfxU) 
@@ -158,7 +158,7 @@ Here you have some end-to-end examples with Scikit-Learn:
 
 ### Ensemble Learning and Random Forest 
 The idea of Ensemble Learning is to leverage all the different features, pros and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
-[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Although the idea is simple, this ensemble model turned out to be really effective tackling even some "hard" classification problems, or with a lot of data.
+[Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Although the idea is simple, this ensemble model turned out to be really effective in tackling even some "hard" classification problems, or with a lot of data.
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both links come with a bunch of useful techniques to use in practice. 
 
@@ -182,7 +182,7 @@ _Second pass:_
  [1](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68), [2](https://dzone.com/articles/10-interesting-use-cases-for-the-k-means-algorithm), [3](https://medium.com/@blazetamareborn/practicing-clustering-techniques-on-survey-dataset-f7d7a322e6ff), [4](https://www.analyticsindiamag.com/most-popular-clustering-algorithms-used-in-machine-learning/), [5](https://www.analyticsvidhya.com/blog/2017/02/test-data-scientist-clustering/).
 
 ### Wrapping up and looking forward
-Now, if you followed all the steps and explored all the resources I posted, you're likely to be more confident with Machine Learning and have a general idea of things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithms we've seen are widely used in the Data Science and Analytics fields, but there are some complex tasks where they fail or give really poor performances. Now we are ready to fall down in the **deep** rabbit hole, trying to understand how Neural Networks and in general Deep Learning can help tackling big problems with millions of parameters and variables. 
+Now, if you followed all the steps and explored all the resources I posted, you're likely to be more confident with Machine Learning and have a general idea of things. Of course you need to explore and learn more, because this field is changing and enhancing techniques and approaches day-by-day! All the algorithms we've seen are widely used in the Data Science and Analytics fields, but there are some complex tasks where they fail or give really poor performances. Now we are ready to dive into the rabbit hole and try to understand how Neural Networks and Deep Learning can help tackle problems with millions of variables. 
 [Why use Deep Learning over classical ML algorithms?](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
 
 -----------------------------------------------------------------
@@ -191,7 +191,7 @@ Now, if you followed all the steps and explored all the resources I posted, you'
 In this section we'll follow a track that will take us from zero knowledge about neural networks to fully understanding them, thanks to the Stanford University Deep Learning course and some tutorials I've searched over the internet. Some of them come from Google, others from Stanford or Cambridge universities, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kinds of ML tasks.
 These are [some use cases](https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) of using TensorFlow for ML tasks. 
 
-The theory and the applications of the Neural Networks is not too easy to get at a first look. Because of that, you'll need to pass again through tutorials and videos, to ensure a fully comprehension of the coming topics. Because of that, I spent a decent amount of time trying to understand (reading paths like this, articles, official forums, related subreddits) which was **the most effective way** to deeply learn the concepts, formulas, tradeoffs...
+It is not easy to understand the theory and application of Neural Networks at first glance. You will need to go through tutorials repeatedly to fully comprehend the topic. I have spent a decent amount of time trying to understand them. Reading articles, official forums, learning paths (like this) and related subreddits was **the most effective way** to deeply learn the concepts, formulae, tradeoffs...
 I came up with this approach, but you can tweak it as you prefer, because every brain is different.
 
 > After taking the TensorFlow section, apply this
@@ -199,10 +199,10 @@ I came up with this approach, but you can tweak it as you prefer, because every 
 
 >- 1 Get an idea of the main concepts through an **entire pass of this** [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't worry too much about the math explanations, focus on the **what and why**.
 
->- 2 Deeply explore **one topic at time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+>- 2 Deeply explore **one topic at a time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
 >with the links and resources of the topic section of the guide.
 
->- 3 After iterating the 2nd step for each topic, walk again through the entire Stanford course. This time you can fully understand all the formulas, connecting them and catching also the "math flow" of the course.
+>- 3 After iterating the 2nd step for each topic, go through the entire Stanford course again. This time you can fully understand all the formulae, connecting them and catching also the "math flow" of the course.
 
 This iterative process (1-2-2-2-2.....-3) can be repeated as many times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
