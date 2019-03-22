@@ -56,7 +56,7 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 
 # About Specializations
 
-You can take them in order or choosing the one that most fits you, but **I recommend you** to walk through them all at least once.
+You can take them in order or choosing the one that fits you the most, but **I recommend you** to walk through them all at least once.
 
 I've planned two types of Specializations: 
 
