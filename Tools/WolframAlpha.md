@@ -75,7 +75,7 @@ Infinite sums, which are called series, are computed by replacing the upper limi
 
 Another interesting example is [`Sum[1/n^2, {n, 1, infty}]`](https://www.wolframalpha.com/input/?i=Sum%5B1%2Fn%5E2,+%7Bn,+1,+infty%7D%5D), which actually gives `pi^2/6`.
 
-Finite/infinite products work the same way, except that we use the function `Product[]`. For example, there is an interesting product formula that gives `pi/2`, and the first 100 terms of that product show that it is close: [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, 100}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+100%7D%5D).
+Finite/infinite products work the same way, except that we use the function `Product[]`. For example, there is an interesting product formula that gives `pi/2`, and the first 100 terms of that product show that it is close: [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, 100}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+100%7D%5D) is close to [`Pi/2`](https://www.wolframalpha.com/input/?i=pi%2F2) (more on this example in the limits section).
 
 ### Finding derivatives
 To be added soon!
