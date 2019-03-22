@@ -9,15 +9,17 @@ This little guide will focus on teaching some of the WA's mathematical capabilit
 
   - [Basic calculations](#basic-calculations)
   - [Plotting functions](#plotting-functions)
-  - [Solving polynomial equations](#solving-polynomial-equations)
+  - [Solving equations](#solving-equations)
   - [Computing series and summations](#computing-series-and-summations)
   - [Finding derivatives](#finding-derivatives)
   - [Computing integrals](#computing-integrals)
   - [Finding limits](#finding-limits)
   
-Some things to bear in mind: whenever you input something into WA, you get the link of your query, so that you can actually share what you asked and the answer given pretty easily. For example, following [this link](https://www.wolframalpha.com/input/?i=Who+is+the+US+president) you can see what WA told me when I asked him who the US president is. Another important thing to notice is that you don't have to follow a strict syntax when asking things to WA, even though the more you can facilitate WA's life, the better.
+Whenever you input something into WA, you get the link of your query, so that you can actually share what you asked and the answer given pretty easily. For example, following [this link](https://www.wolframalpha.com/input/?i=Who+is+the+US+president) you can see what WA told me when I asked him who the US president is. Through this guide, blue letters with a gray background give a link to a WA query. So if you click this -> [`What is the 345th decimal place of pi`](https://www.wolframalpha.com/input/?i=What+is+the+345th+decimal+place+of+pi) you will see what WA answered me when I asked for the 345th decimal place of pi (it's 5, by the way).
 
-Also note that the language WA developed, Mathematica, uses `[]` for function calls, instead of `()`, and all function names are capitalized, so `Sqrt[n]` would give you the usual square root function, that in many languages would probably be used as `sqrt(n)`.
+Another important thing to notice is that you don't have to follow a strict syntax when asking things to WA, even though the more you can facilitate WA's life, the better.
+
+Also note that Mathematica - the language developed by the creators of WA -, uses `[]` for function calls, instead of `()`, and all function names are capitalized, so `Sqrt[n]` would give you the usual square root function, that in many languages would probably be used as `sqrt(n)`. This is relevant because WA supports a subset of Mathematica's functions.
   
 ### Basic calculations
 WolframAlpha can, of course, be used as a pretty advanced calculator. Typing in `2^100` will give you the well-known answer of `1267650600228229401496703205376`. Some useful operators to know include:
@@ -26,6 +28,7 @@ WolframAlpha can, of course, be used as a pretty advanced calculator. Typing in 
   - To find the remainder of a division, either type in `x mod m` or use `Mod[x, y]`
   - The square root is `Sqrt[x]`, and the `n`-th root of `x` is given by `Root[x, n]`, so the [cubic root of 8](https://www.wolframalpha.com/input/?i=Root%5B8,+3%5D) would be found by typing in `Root[8, 3]`
   - The factorial operator can be written as `n!` or as `Factorial[n]`
+  - The logarithm and the exponential function are respectively written as `Log[x]` and `Exp[x]`
 
 ### Plotting functions
 There are several different types of plots you can ask WA to do, but perhaps the most basic one would be to plot a simple function from the reals to the reals, like [plotting x^2](https://www.wolframalpha.com/input/?i=plot+x%5E2), which can be done by typing in `plot x^2` or `plot Power[x, 2]`.\
@@ -37,8 +40,12 @@ To plot more than one function, we can give a list of functions as first argumen
 
 To plot functions of two variables, we can use the function `Plot3D`, so if we type in [`Plot3D[x^2 + y^2 + x*y, {x, -2, 2}, {y, -2, 0}]`](https://www.wolframalpha.com/input/?i=Plot3D%5Bx%5E2+%2B+y%5E2+%2B+x*y,+%7Bx,+-2,+2%7D,+%7By,+-2,+0%7D%5D) we will be plotting the function `x^2 + y^2 + xy` when `x` varies between -2 and 2 and when `y` varies between -2 and 0.
 
-### Solving polynomial equations
-To be added soon!
+### Solving equations
+Solving equations can be done very easily. In fact, just typing in [`solve x^2 + x - 1 = 0 for x`](https://www.wolframalpha.com/input/?i=solve+x%5E2+%2B+x+-+1+%3D+0+for+x) gives you what you would expect. Using Mathematica notation, you would type [`Solve[x^2 + x - 1 == 0, x]`](https://www.wolframalpha.com/input/?i=Solve%5Bx%5E2+%2B+x+-+1+%3D%3D+0,+x%5D).
+
+A great thing of WA and of Mathematica as well is their ability to do symbolic calculations, which also means your equations can have parameters or other unknowns, and WA will try to give you the answer in terms of those parameters. For example, we can ask WA for the general formula to solve a polynomial equation of degree 4 with [`Solve[x^4 + b*x^3 + c*x^2 + d*x + e == 0, x]`](https://www.wolframalpha.com/input/?i=Solve%5Bx%5E4+%2B+b+x%5E3+%2B+c+x%5E2+%2B+d+x+%2B+e+%3D%3D+0,+x%5D) which returns the nasty formulas.
+
+The equations you want to solve do not need to be polynomial ones! For example, [`Solve[Log[x] + Exp[x] == 1, x]`](https://www.wolframalpha.com/input/?i=Solve%5B+Log%5Bx%5D+%2B+Exp%5Bx%5D+%3D%3D+1,+x%5D) gives the value of the number `x` that solves the equation `Log[x] + Exp[x] == 1`.
 
 ### Computing series and summations
 To be added soon!
