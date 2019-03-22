@@ -4,11 +4,9 @@
 
 I **strongly recommend** you to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by O'Reilly, which inspired me and has driven most of the organization and hierarchy of the content listed below.
 
-Apart from this, **everything** listed here is open source and free, most of it coming from the world-renowned universities and open source associations. 
+Apart from this, **everything** listed here is open source and free, from world-renowned universities and open source associations. 
 
-When we learn something new, especially if wide and complex, it is necessary to avoid confusion, so 
-I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
-When not possible, I collected both theory and examples, as well as some pointers to resources like "best practices for _______".
+It is necessary to avoid confusion when we learn something new, especially when the topic is as wide and complex as Machine Learning. When possible, I tried to create the next steps of the path preferring content from the same author or context. Otherwise, I collected both theory and examples, as well as pointers to best resources. The examples and resources are listed as “best practices for _____”.
 
 #### I organized the Path in 4 sections:
 
@@ -85,8 +83,8 @@ Whoever tells you that the math behind Machine Learning is hard... is not so wro
 With these three resources, you'll get out the most of what you really need to understand deeply.
 
 A top course about linear algebra is [here](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/).\
-Integrate with basic probabilities and statistic concepts [here](https://www.edx.org/course/introduction-to-probability-0).\
-The most of the remaining math you need [here](https://explained.ai/matrix-calculus/index.html#sec4.5).
+Integration with basic probabilities and statistical concepts [here](https://www.edx.org/course/introduction-to-probability-0).\
+The most of the remaining math you need is [here](https://explained.ai/matrix-calculus/index.html#sec4.5).
 
 
 ### The machine learning Landscape
