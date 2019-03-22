@@ -90,3 +90,6 @@ To be added soon!
 To find if a number is prime, you can use the function `PrimeQ[]`, for example type [`PrimeQ[4234523457]`](https://www.wolframalpha.com/input/?i=PrimeQ%5B4234523457%5D) to conclude that 4234523457 is not a prime number because `4234523457 = 3×53×97×463×593`.
 
 Similarly, use the function `Prime[]` to find out the `n`-th prime. For example, type [`Prime[4234523457]`](https://www.wolframalpha.com/input/?i=Prime%5B4234523457%5D) to find out that the 4234523457th prime is `102951556637`.
+
+---
+Brought to you by the editor of the [Mathspp Blog](https://mathspp.blogspot.com/).
