@@ -4,7 +4,7 @@ Studying through the Internet means swimming inside an infinite ocean of informa
 
 How many times, trying to approach a new topic or subject, have you felt baffled, disoriented and without a real "path" to follow, to ensure yourself a deep knowledge and the ability to apply it?
 
-Hi, i'm Giacomo. 
+Hi, I'm Giacomo. 
 
 I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
 My boss asked me if it was possible to create a study path for me and newcomers, and I've contributed lots of effort to share my 3-4 years of walking around the internet and collecting **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organizing them in an awesome and usable way**.
@@ -18,7 +18,7 @@ This repository is intended to provide three **complete and organic learning pat
 - Cloud Computing (coming soon)
 
 
-Also I organize and collect for you some **Specializations** and some **Tools** in-depth guides. They are optional but highly recommended. You will need them to expand day-by-day your skillset and expertise.
+Also, I organize and collect for you some **Specializations** and some **Tools** in-depth guides. They are optional but highly recommended. You will need them to expand your day-by-day skill set and expertise.
 
 You will learn to understand and apply theory with hands-on projects.
 
@@ -30,9 +30,9 @@ Every source listed here is **free or open source**.
 
 I tried to be concise to _avoid information overhead_.
 
-I tried to organize the content hierarchically and by level of complexity to give you a _coherent idea_ of how things work.   
+I tried to organize the content hierarchically and by the level of complexity to give you a _coherent idea_ of how things work.   
 
-Click on "watch", I'm updating this in the free time and weekends.
+Click on "watch", I'm updating this in the free time and on weekends.
 
 If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
 
@@ -56,7 +56,7 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 
 # About Specializations
 
-You can take them in order or choosing the one that most fits to you, but **I recommend you** to walk through them all at least once.
+You can take them in order or choose the one that fits you the most, but **I recommend you** to walk through them all at least once.
 
 I've planned two types of Specializations: 
 
@@ -66,24 +66,24 @@ I've planned two types of Specializations:
   - Data Visualization  [Coming Soon]
   
 
-- SoftSkills Specializations 
+- Soft Skills Specializations 
   - Effective Communication  [Coming Soon]
   - Impactful Presentations  [Coming Soon]
   - Pragmatic Decision Making  [Coming Soon]
 
-The former is about Data (you wouldn't have said that?) and is _the core toolkit_ for everyone working with data. Working with data is an artform, and the rules of thumb and best practices will help you understanding the way to deal with them. You need to develop a "sense" of what to do with the data, and this "sense" is primarily driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
+The former is about Data (you wouldn't have said that?) and is _the core toolkit_ for everyone working with data. Working with data is an art form, and the rules of thumb and best practices will help you understand the way to deal with them. You need to develop a "sense" of what to do with the data, this "sense" is primarily driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
 
 The latter is about... everything that's not written in technical books. Use and master them, because they are the real _value enabler_ for you. You can be the best developer or engineer in the world, but if you can't communicate your data to your audience, or use data to suggest practical action in the real world, you're useless for a company. 
 
-So, stay tuned because I'm building this section during weekends and free time, and I hope to provide you **one specialization each week!**
+So, stay tuned because I'm building this section on weekends and free time, and I hope to provide you **one specialization each week!**
 
 As usual, feel free to suggest improvements and collaborations :)
 
 # About Tools
 
-Everyone can committ their own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a partiular technology/language/methodology! I've alreay planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
+Everyone can commit their own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a particular technology/language/methodology! I've already planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
 
-You can [**alredy find here**](Tools/Latex.md) a cool Latex guide for beginners!
+You can [**already find here**](Tools/Latex.md) a cool Latex guide for beginners!
 
 
 This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
