@@ -14,6 +14,7 @@ This little guide will focus on teaching some of the WA's mathematical capabilit
   - [Finding derivatives](#finding-derivatives)
   - [Computing integrals](#computing-integrals)
   - [Finding limits](#finding-limits)
+  - [Matrix algebra](#matrix-algebra)
   
 Whenever you input something into WA, you get the link of your query, so that you can actually share what you asked and the answer given pretty easily. For example, following [this link](https://www.wolframalpha.com/input/?i=Who+is+the+US+president) you can see what WA told me when I asked him who the US president is. Through this guide, blue letters with a gray background give a link to a WA query. So if you click this -> [`What is the 345th decimal place of pi`](https://www.wolframalpha.com/input/?i=What+is+the+345th+decimal+place+of+pi) you will see what WA answered me when I asked for the 345th decimal place of pi (it's 5, by the way).
 
@@ -47,6 +48,8 @@ A great thing of WA and of Mathematica as well is their ability to do symbolic c
 
 The equations you want to solve do not need to be polynomial ones! For example, [`Solve[Log[x] + Exp[x] == 1, x]`](https://www.wolframalpha.com/input/?i=Solve%5B+Log%5Bx%5D+%2B+Exp%5Bx%5D+%3D%3D+1,+x%5D) gives the value of the number `x` that solves the equation `Log[x] + Exp[x] == 1`.
 
+Systems of equations can also be solved. Just like you would give a list of functions to the `Plot[]`, now we give a list of equations to the `Solve[]`. For example, we want to solve the two equations `Log[x] + y == 1` and `Log[x] + Log[y] == 2`, which we do by typing in [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, {x,y} ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+%7Bx,y%7D+%5D). Two **important** things to notice here! First, the result that WA gives includes a function `W` that most people won't know; WA helps people by writing slightly to the right what each component of the solution is, so WA actually says here that _"W(z) is the product log function"_, which we can then google for. Second, notice how the second argument of `Solve[]` was `{x,y}` and **not** `x`! We need to tell WA all the variables we have; if we only write `x`, then WA is trying to solve a different problem: [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, x ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+x+%5D)
+
 ### Computing series and summations
 To be added soon!
 
@@ -57,4 +60,7 @@ To be added soon!
 To be added soon!
 
 ### Finding limits
+To be added soon!
+
+### Matrix algebra
 To be added soon!
