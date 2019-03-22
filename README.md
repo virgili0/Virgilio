@@ -1,13 +1,13 @@
-# [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
+# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
-Studying through the Internet means swimming inside an infinite ocean of information. 
+Studying through the Internet means swimming in an infinite ocean of information. 
 
-How many times, trying to approach a new topic or subject, have you felt baffled, disoriented and without a real "path" to follow, to ensure yourself a deep knowledge and the ability to apply it?
+Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
 
 Hi, i'm Giacomo. 
 
 I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
-My boss asked me if it was possible to create a study path for me and newcomers, and I've contributed lots of effort to share my 3-4 years of walking around the internet and collecting **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organizing them in an awesome and usable way**.
+My boss asked me if it was possible to create a study path for newcomers and myself, and I've contributed all my years of browsing around the internet for resources here. I have collected **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organized them in an awesome and usable way**.
 
 This repository is intended to provide three **complete and organic learning paths** for the following fields:
 
@@ -18,7 +18,7 @@ This repository is intended to provide three **complete and organic learning pat
 - Cloud Computing (coming soon)
 
 
-Also I organize and collect for you some **Specializations** and some **Tools** in-depth guides. They are optional but highly recommended. You will need them to expand day-by-day your skillset and expertise.
+I have organized and collected in-depth guides about some **Specializations** and **Tools**. They are optional but highly recommended. You will need them to expand your skillset and expertise.
 
 You will learn to understand and apply theory with hands-on projects.
 
@@ -83,7 +83,7 @@ As usual, feel free to suggest improvements and collaborations :)
 
 Everyone can committ their own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a partiular technology/language/methodology! I've alreay planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
 
-You can [**alredy find here**](Tools/Latex.md) a cool Latex guide for beginners!
+You can [**already find here**](Tools/Latex.md) a cool Latex guide for beginners!
 
 
 This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
