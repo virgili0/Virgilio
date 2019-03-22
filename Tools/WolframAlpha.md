@@ -10,11 +10,12 @@ This little guide will focus on teaching some of the WA's mathematical capabilit
   - [Basic calculations](#basic-calculations)
   - [Plotting functions](#plotting-functions)
   - [Solving equations](#solving-equations)
+  - [Matrix algebra](#matrix-algebra)
   - [Computing series and summations](#computing-series-and-summations)
   - [Finding derivatives](#finding-derivatives)
   - [Computing integrals](#computing-integrals)
   - [Finding limits](#finding-limits)
-  - [Matrix algebra](#matrix-algebra)
+  - [Miscellaneous](#miscellaneous)
   
 Whenever you input something into WA, you get the link of your query, so that you can actually share what you asked and the answer given pretty easily. For example, following [this link](https://www.wolframalpha.com/input/?i=Who+is+the+US+president) you can see what WA told me when I asked him who the US president is. Through this guide, blue letters with a gray background give a link to a WA query. So if you click this -> [`What is the 345th decimal place of pi`](https://www.wolframalpha.com/input/?i=What+is+the+345th+decimal+place+of+pi) you will see what WA answered me when I asked for the 345th decimal place of pi (it's 5, by the way).
 
@@ -50,6 +51,21 @@ The equations you want to solve do not need to be polynomial ones! For example, 
 
 Systems of equations can also be solved. Just like you would give a list of functions to the `Plot[]`, now we give a list of equations to the `Solve[]`. For example, we want to solve the two equations `Log[x] + y == 1` and `Log[x] + Log[y] == 2`, which we do by typing in [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, {x,y} ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+%7Bx,y%7D+%5D). Two **important** things to notice here! First, the result that WA gives includes a function `W` that most people won't know; WA helps people by writing slightly to the right what each component of the solution is, so WA actually says here that _"W(z) is the product log function"_, which we can then google for. Second, notice how the second argument of `Solve[]` was `{x,y}` and **not** `x`! We need to tell WA all the variables we have; if we only write `x`, then WA is trying to solve a different problem: [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, x ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+x+%5D)
 
+### Matrix algebra
+Matrices are used a lot, and sometimes we just need some place to go to check a determinant, the eigenvalues or the eigenvectors of a matrix, or maybe even invert it. You may need that, and when you do, WA has got your back.
+
+In WA, matrices are lists of lists. The outer lists collects all the rows, and the inner lists have the elements of each row, so the identity matrix of dimension 2 would be represented as [`{ {1, 0}, {0, 1} }`](https://www.wolframalpha.com/input/?i=%7B%7B1,+0%7D,+%7B0,+1%7D%7D) (by just inputing the matrix WA will automatically give you plenty of information about the matrix).
+
+To find the determinant or the trace of a matrix, you would respectively use the functions `Det[]` and `Trace[]`, so for example [`Det[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Det%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D) gives the determinant of a general 2 by 2 matrix, and [`Trace[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Trace%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D) gives its trace.
+
+To find the inverse, you use [`Inverse[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Inverse%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D).
+
+To ask for the eigenvalues (resp. the eigenvectors) you would type in [`Eigenvalues[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Eigenvalues%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D) (resp. [`Eigenvectors[{{a, b}, {c, d}}]`](https://www.wolframalpha.com/input/?i=Eigenvectors%5B%7B%7Ba,+b%7D,+%7Bc,+d%7D%7D%5D)), even though asking for one usually also gives the other.
+
+Of course that all of this can be done with bigger matrices, and matrices with actual numbers, not just parameters! For example, we can compute the eigenvalues of some 5 by 5 matrix, say [`Eigenvalues[{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}}]`](https://www.wolframalpha.com/input/?i=Eigenvalues%5B%7B%7B1,2,3,4,5%7D,%7B6,7,8,9,10%7D,%7B11,12,13,14,15%7D,%7B16,17,18,19,20%7D,%7B21,22,23,24,25%7D%7D%5D) are `0, 0, 0, -3.642, 68.64`.
+
+Probably more relevant for university courses, but WA also diagonalizes matrices/finds their Jordan canonical form. For that, use [`JordanDecomposition[{{1, 2}, {0, 3}}]`](https://www.wolframalpha.com/input/?i=JordanDecomposition%5B%7B%7B1,+2%7D,+%7B0,+3%7D%7D%5D) which also gives the similarity matrix and the matrix in diagonal/Jordan canonical form.
+
 ### Computing series and summations
 To be added soon!
 
@@ -62,5 +78,7 @@ To be added soon!
 ### Finding limits
 To be added soon!
 
-### Matrix algebra
-To be added soon!
+### Miscellaneous
+To find if a number is prime, you can use the function `PrimeQ[]`, for example type [`PrimeQ[4234523457]`](https://www.wolframalpha.com/input/?i=PrimeQ%5B4234523457%5D) to conclude that 4234523457 is not a prime number because `4234523457 = 3×53×97×463×593`.
+
+Similarly, use the function `Prime[]` to find out the `n`-th prime. For example, type [`Prime[4234523457]`](https://www.wolframalpha.com/input/?i=Prime%5B4234523457%5D) to find out that the 4234523457th prime is `102951556637`.
