@@ -6,7 +6,7 @@ Have you ever felt overwhelmed when trying to approach a new subject without a r
 
 Hi, I'm Giacomo. 
 
-I'm an Italian student currently working at a Machine Learning / AI startup in Bologna.
+I'm an Italian student currently working at a Machine Learning/AI startup in Bologna.
 My boss asked me if it was possible to create a study path for newcomers and myself, so I have contributed all my years of browsing around the internet for resources here. I have collected **sources, projects, tools, tutorials, links, best practices, and organized them in an useful way**.
 
 This repository is intended to provide three **complete learning paths** for the following fields:
