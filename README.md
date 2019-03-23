@@ -19,7 +19,7 @@ This repository is intended to provide three **complete learning paths** for the
 
 
 
-I have collected in-depth guides about **Specializations** and **Tools**. They are optional but highly recommended, because will need them to expand your skillset and expertise.
+I have collected in-depth guides about **Specializations** and **Tools**. They are optional but highly recommended, because you will need them to expand your skillset and expertise.
 
 
 By carefully following this guide, you will learn to understand and apply theory with hands-on projects.
