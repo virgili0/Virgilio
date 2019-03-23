@@ -28,9 +28,7 @@ You do not require any prior knowledge of machine learning, but be confident wit
 
 Every source listed here is **free or open source**. 
 
-I tried to be concise to _avoid information overhead_.
-
-I organized the content hierarchically and by the level of complexity to give you a _coherent idea_ of how things work.   
+I tried to be concise to _avoid information overhead_. The content is organized hierarchically and by level of complexity to give you a _coherent idea_ of how things work.   
 
 Click on "watch" to see new updates that I post in my free time or on the weekends.
 
