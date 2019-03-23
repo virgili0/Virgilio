@@ -53,7 +53,9 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## - Pragmatic Decision Making  [Coming Soon]
 
 # Tools
-## - [Latex](Tools/Latex.md)
+## - [Latex](Tools/Latex.md) 
+## - [Wolfram Alpha](Tools/WolframAlpha.md)
+## - A Lot More Coming Soon!
 
 # About Specializations
 
