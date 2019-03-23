@@ -39,12 +39,12 @@ If you want to contact me, email me at giacomo.ciarlini@student.unife.it
 The second guide (Business Intelligence) should be out in 2 or 3 weeks!
 
 # Career Guides
-## - [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
+## - [Machine Learning Career](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## - Business Intelligence Career --  Coming Soon
 ## - Cloud Computing Career --  Coming Soon
 
 # Specializations
-## - [Data Preprocessing  -- **ALREADY OUT**](Specializations/DataPreprocessing.md)
+## - [Data Preprocessing](Specializations/DataPreprocessing.md)
 ## - Data Collection  [Coming Soon - Next]
 ## - Data Visualization  [Coming Soon]
 ## - Effective Communication  [Coming Soon]
