@@ -81,7 +81,7 @@ As usual, feel free to suggest improvements and collaborations :)
 
 # About Tools
 
-Everyone can commit their own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a particular technology/language/methodology! I've already planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
+Anyone can commit their own guides as long as they follow the style I've chosen. Also I'm proud to announce that very soon the Tools Sections will host several guides about every particular technology/language/methodology! I've already planned a guide on Latex and one about ElasticSearch! So stay tuned!
 
 You can [**already find here**](Tools/Latex.md) a cool Latex guide for beginners!
 
