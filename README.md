@@ -55,7 +55,7 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 # Tools
 ## - [Latex](Tools/Latex.md) 
 ## - [Wolfram Alpha](Tools/WolframAlpha.md)
-## - [GeoGebra](Tools/Geogebra.md)
+## - [GeoGebra](Tools/GeoGebra.md)
 ## - A Lot More Coming Soon!
 
 # About Specializations
