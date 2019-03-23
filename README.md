@@ -35,7 +35,7 @@ I tried to organize the content hierarchically and by the level of complexity to
 
 Click on "watch", I'm updating this in the free time and on weekends.
 
-If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
+If you want to contact me for whatever reason, just text me on Telegram @Clone95. 
 
 I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
 
