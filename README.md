@@ -6,10 +6,10 @@ Have you ever felt overwhelmed when trying to approach a new subject without a r
 
 Hi, I'm Giacomo. 
 
-I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
-My boss asked me if it was possible to create a study path for newcomers and myself, and I've contributed all my years of browsing around the internet for resources here. I have collected **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organized them in an awesome and usable way**.
+I'm an Italian student currently working at a Machine Learning / AI startup in Bologna.
+My boss asked me if it was possible to create a study path for newcomers and myself, so I have contributed all my years of browsing around the internet for resources here. I have collected **sources, projects, tools, tutorials, links, best practices, and organized them in an useful way**.
 
-This repository is intended to provide three **complete and organic learning paths** for the following fields:
+This repository is intended to provide three **complete learning paths** for the following fields:
 
 - Machine Learning
 
@@ -19,30 +19,29 @@ This repository is intended to provide three **complete and organic learning pat
 
 
 
-I have organized and collected in-depth guides about some **Specializations** and **Tools**. They are optional but highly recommended. You will need them to expand your skillset and expertise.
+I have collected in-depth guides about **Specializations** and **Tools**. They are optional but highly recommended, because will need them to expand your skillset and expertise.
 
-You will learn to understand and apply theory with hands-on projects.
 
-By carefully following this guide, you will gain complete awareness and expendable skills from scratch. 
+By carefully following this guide, you will gain learn to understand and apply theory with hands-on projects.
 
-You do not require any prior knowledge of machine learning, but be confident with programming and high school-level math to understand and implement most of the concepts.
+You do not require any prior knowledge of machine learning, but be confident with programming and high school math to understand and implement most of the concepts.
 
 Every source listed here is **free or open source**. 
 
 I tried to be concise to _avoid information overhead_.
 
-I tried to organize the content hierarchically and by the level of complexity to give you a _coherent idea_ of how things work.   
+I organized the content hierarchically and by the level of complexity to give you a _coherent idea_ of how things work.   
 
-Click on "watch", I'm updating this in the free time and on weekends.
+Click on "watch" to see new updates that I post in my free time or on the weekends.
 
-If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
+If you want to contact me, email me at giacomo.ciarlini@student.unife.it 
 
-I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
+The second guide (Business Intelligence) should be out in 2 or 3 weeks!
 
-# Careers
-## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
-## Business Intelligence Career --  Coming Soon
-## Cloud Computing Career --  Coming Soon
+# Career Guides
+## - [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
+## - Business Intelligence Career --  Coming Soon
+## - Cloud Computing Career --  Coming Soon
 
 # Specializations
 ## - [Data Preprocessing  -- **ALREADY OUT**](Specializations/DataPreprocessing.md)
@@ -57,7 +56,7 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 
 # About Specializations
 
-You can take them in order or choose the one that fits you the most, but **I recommend you** to walk through them all at least once.
+You can read them in order or choose the one that fits you the most, but **I recommend you** to walk through all of them at least once.
 
 I've planned two types of Specializations: 
 
@@ -72,11 +71,11 @@ I've planned two types of Specializations:
   - Impactful Presentations  [Coming Soon]
   - Pragmatic Decision Making  [Coming Soon]
 
-The former is about Data (you wouldn't have said that?) and is _the core toolkit_ for everyone working with data. Working with data is an art form, and the rules of thumb and best practices will help you understand the way to deal with them. You need to develop a "sense" of what to do with the data, this "sense" is primarily driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
+Data specialization is _the core toolkit_ for everyone working with data. Working with data is an art form, and the rules of thumb  will help you understand the way to deal with data. You need to develop a "sense" of what to do with the data, this "sense" is primarily driven by situation and experience. As a result, these specializations will be strongly focused on exercises and practice.
 
-The latter is about... everything that's not written in technical books. Use and master them, because they are the real _value enabler_ for you. You can be the best developer or engineer in the world, but if you can't communicate your data to your audience, or use data to suggest practical action in the real world, you're useless for a company. 
+Soft skills specialization is about everything that's not written in technical books. Use them and master it, because they are the real _value enabler_ for you. You can be the best developer or engineer in the world, but if you can't communicate your data to your audience, or use data to suggest practical action in the real world, you're useless for a company. 
 
-So, stay tuned because I'm building this section on weekends and free time, and I hope to provide you **one specialization each week!**
+Stay tuned because I'm still building this section and hoping to provide you **one specialization each week!**
 
 As usual, feel free to suggest improvements and collaborations :)
 
