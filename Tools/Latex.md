@@ -1,6 +1,9 @@
 # LaTeX
 LaTeX is a markup language (or, as said in the [official website](https://www.latex-project.org/about/), "a document preparation system for high-quality typesetting") used to create wonderful papers and presentations. Almost all papers you will read during your career are written using LaTeX. So, let's see how it works!
 
+## Why LaTeX?
+For years now LaTeX has been the go-to tool whenever someone needs to create a document that will contain mathematical formulas. LaTeX is used a lot to write scientific papers and it is also used by bloggers and scientific content creators in the internet. You can even use LaTeX syntax on facebook messenger! (which only renders if you are on your computer)
+
 ## Installation
 There are several LaTeX distributios, you can see a complete list [here](http://www.tug.org/interest.html#free).
 
@@ -11,7 +14,7 @@ Under MacOs, [MacTex](http://www.tug.org/mactex/).
 After the installation, you need an editor to write your LaTeX document. You can use whatever editor you want (notepad, vim, nano, gedit and so on) but I recommend you to choose [Texmaker](http://www.xm1math.net/texmaker/) which is free and cross platform. It is also worth saying that Visual Studio Code with some dedicated extensions (such as [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)) is pretty good to use.
 
 ## Writing a document
-There are tons of on-line guides about LaTeX. Among them:
+There are tons of on-line guides about LaTeX to get you started. Among them:
 - A comprehensive guide can be found [here](https://en.wikibooks.org/wiki/LaTeX).
 - Another cool guide [here](https://www.latex-tutorial.com/tutorials/).
 - [This one](http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf) is perfect for beginners.
@@ -24,6 +27,13 @@ There are already lots of templates made. You can find some of them [here](https
 To draw awesome graphs and charts, you can use the package [TikZ](https://en.wikipedia.org/wiki/PGF/TikZ).
 
 Also a good site to keep in mind when facing a problem with LaTeX is [StackOverflow](https://tex.stackexchange.com/) with the LaTeX dedicated section.
+
+### Tools to increase productivity
+The LaTeX syntax can seem daunting at first, with plenty of new commands for all the mathematical symbols you know and need to use.
+  - [This website](https://www.codecogs.com/latex/eqneditor.php) allows one to write a formula online, and it also has plenty of symbols in which you can just click, generating the code you need. You can also preview your formula, so that it is easier for you to make sure everything is being properly written.
+  - Whenever you need a symbol but you don't know the command, use [this site](http://detexify.kirelabs.org/classify.html). All you have to do is draw the symbol and then suggestions will appear on the right.
+  - Creating tables in LaTeX can be particularly annoying. I usually do it [here](https://www.tablesgenerator.com/) and then ask the site to generate the appropriate code.
+  - [MathJax](https://www.mathjax.org/) is one of the ways in which you can get LaTeX to render, say, in your blog! (example [here](http://mathspp.blogspot.com/2018/11/twitter-proof-roots-go-hand-in-hand.html), where the formulas are rendered with MathJax)
 
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
