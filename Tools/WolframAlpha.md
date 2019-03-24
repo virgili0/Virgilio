@@ -104,4 +104,4 @@ To find if a number is prime, you can use the function `PrimeQ[]`, for example t
 Similarly, use the function `Prime[]` to find out the `n`-th prime. For example, type [`Prime[4234523457]`](https://www.wolframalpha.com/input/?i=Prime%5B4234523457%5D) to find out that the 4234523457th prime is `102951556637`.
 
 ---
-Brought to you by the editor of the [Mathspp Blog](https://mathspp.blogspot.com/).
+Brought to you by the editor of the [Mathspp Blog](https://mathspp.blogspot.com/), [RojerGS](https://github.com/RojerGS).
