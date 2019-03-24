@@ -37,3 +37,5 @@ The LaTeX syntax can seem daunting at first, with plenty of new commands for all
 
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
+
+Expanded upon by the editor of the [Mathspp Blog](https://mathspp.blogspot.com), [RojerGS](https://github.com/RojerGS)
