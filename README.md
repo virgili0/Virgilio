@@ -1,5 +1,7 @@
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
+### Update: big evolutions are planned, and I'm creating a Telegram group with contributors, if you want to join just e-mail me at giacomo.ciarlini@student.unife.it
+
 Studying through the Internet means swimming in an infinite ocean of information. 
 
 Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
@@ -35,7 +37,7 @@ I tried to organize the content hierarchically and by the level of complexity to
 
 Click on "watch", I'm updating this in the free time and on weekends.
 
-If you want to contact me for whatever reason, just e-mail me at giacomo.ciarlini@student.unife.it 
+If you want to contact me for whatever reason, just text me on Telegram @Clone95. 
 
 I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
 
@@ -53,7 +55,10 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## - Pragmatic Decision Making  [Coming Soon]
 
 # Tools
-## - [Latex](Tools/Latex.md)
+## - [Latex](Tools/Latex.md) 
+## - [Wolfram Alpha](Tools/WolframAlpha.md)
+## - [GeoGebra](Tools/GeoGebra.md)
+## - A Lot More Coming Soon!
 
 # About Specializations
 
