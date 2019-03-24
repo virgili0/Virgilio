@@ -1,6 +1,6 @@
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
-### Update: big evolutions are planned, andI'm creating a Telegram group with contributors, if you want to join just e-mail me at giacomo.ciarlini@student.unife.it
+### Update: big evolutions are planned, and I'm creating a Telegram group with contributors, if you want to join just e-mail me at giacomo.ciarlini@student.unife.it
 
 Studying through the Internet means swimming in an infinite ocean of information. 
 
