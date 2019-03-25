@@ -78,7 +78,19 @@ Another interesting example is [`Sum[1/n^2, {n, 1, infty}]`](https://www.wolfram
 Finite/infinite products work the same way, except that we use the function `Product[]`. For example, there is an interesting product formula that gives `pi/2`, and the first 100 terms of that product show that it is close: [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, 100}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+100%7D%5D) is close to [`Pi/2`](https://www.wolframalpha.com/input/?i=pi%2F2) (more on this example in the limits section).
 
 ### Finding derivatives
-To be added soon!
+Differentiating a function is something that can get really nasty. Thankfully, WA does it for us with little effort! We can get some basic derivatives with [`differentiate cos(sin(x)) wrt x`](https://www.wolframalpha.com/input/?i=differentiate+cos(sin(x))+wrt+x). The equivalent Mathematica command would be [`D[Cos[Sin[x]], x]`](https://www.wolframalpha.com/input/?i=D%5BCos%5BSin%5Bx%5D%5D,+x%5D), where the `D` stands for differentiation, probably. Notice that the first argument is the function you want to differentiate, and the second argument is the variable with respect to which you want to differentiate.
+
+Higher-order derivatives can be done by specifying the variable and the order: [`D[x^5, {x, 5}]`](https://www.wolframalpha.com/input/?i=D%5Bx%5E5,+%7Bx,+5%7D%5D) gives the fifth derivative of the function `x^5`.
+
+Functions of several variables can also be differentiated easily, as WA and Mathematica will treat as constants everything that is not the variable specified. For example, [`D[x^2 + y^2, x]`](https://www.wolframalpha.com/input/?i=D%5Bx%5E2+%2B+y%5E2,+x%5D) gives `2x`, obviously.
+
+To find mixed partial derivatives, just put the function as the first argument, and then all the variables you want to differentiate with respect to, in order. For example, if you want to find the mixed partial derivative of `f` with respect to `a`, then `b`, then `c`, do [`D[f[a,b,c], a, b, c]`](https://www.wolframalpha.com/input/?i=D%5Bf%5Ba,b,c%5D,+a,+b,+c%5D). Notice how for this last one, WA returns the symbolic expression, as `f` was just some generic function. This means we can also get WA to tell us the rules of differentiation. For example, we can ask WA to differentiate the product `f(x)g(x)`: [`D[f[x] * g[x], x]`](https://www.wolframalpha.com/input/?i=D%5Bf%5Bx%5D+*+g%5Bx%5D,+x%5D) that gives the product rule `(fg)' = f'g + fg'`.
+
+Typical operations on (usually scalar) functions that include derivatives can be computed with WA as well. In the following list I assume we are working with some function `f(x, y, z)` of three variables. The number of variables can be easily changed!
+  - Gradient of `f` can be computed with [`gradient f[x,y,z]`](https://www.wolframalpha.com/input/?i=gradient+f%5Bx,y,z%5D) in WA and `D[f[x,y,z], {{x,y,z}}]` in Mathematica
+  - The divergence of the vector function `(f1(x,y,z), f2(x,y,z), f3(x,y,z))` can be found with [`divergence {f1[x,y,z], f2[x,y,z], f3[x,y,z]}`](https://www.wolframalpha.com/input/?i=divergence+%7Bf1%5Bx,y,z%5D,+f2%5Bx,y,z%5D,+f3%5Bx,y,z%5D%7D) in WA and `Div[{f1[x, y, z], f2[x, y, z], f3[x, y, z]}, {x, y, z}]` in Mathematica
+  - The curl is similar, expect that we replace `divergence` with `curl` for the WA computation and use the function `Curl[]` in Mathematica, instead of `Div`
+  - Laplacian of `f` can be computed with [`laplacian f[x,y,z]`](https://www.wolframalpha.com/input/?i=laplacian+f%5Bx,y,z%5D) in WA and `Laplacian[f[x, y, z], {x, y, z}]` in Mathematica
 
 ### Computing integrals
 To be added soon!
@@ -92,4 +104,4 @@ To find if a number is prime, you can use the function `PrimeQ[]`, for example t
 Similarly, use the function `Prime[]` to find out the `n`-th prime. For example, type [`Prime[4234523457]`](https://www.wolframalpha.com/input/?i=Prime%5B4234523457%5D) to find out that the 4234523457th prime is `102951556637`.
 
 ---
-Brought to you by the editor of the [Mathspp Blog](https://mathspp.blogspot.com/).
+Brought to you by the editor of the [Mathspp Blog](https://mathspp.blogspot.com/), [RojerGS](https://github.com/RojerGS).
