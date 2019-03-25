@@ -5,7 +5,7 @@
 Studying through the Internet means swimming in an infinite ocean of information. 
 
 Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
-
+ 
 Hi, I'm Giacomo. 
 
 I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
