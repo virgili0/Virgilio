@@ -20,12 +20,11 @@ This repository is intended to provide three **complete and organic learning pat
 - Cloud Computing (coming soon)
 
 
-
 I have organized and collected in-depth guides about some **Specializations** and **Tools**. They are optional but highly recommended. You will need them to expand your skillset and expertise.
 
 You will learn to understand and apply theory with hands-on projects.
 
-By carefully following this guide, you will gain complete awareness and expendable skills from scratch. 
+By carefully following these guides, you will gain complete awareness and expendable skills from scratch. 
 
 You do not require any prior knowledge of machine learning, but be confident with programming and high school-level math to understand and implement most of the concepts.
 
