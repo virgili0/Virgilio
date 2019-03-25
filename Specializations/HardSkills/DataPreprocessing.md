@@ -139,7 +139,7 @@ Sometimes can be useful to engineer some data, for example: suppose you're deali
 _Best practices and exercises:_ [1](http://www.inweb.org.br/w3c/dataenrichment/), [2](https://solutionsreview.com/data-integration/best-practices-for-data-enrichment-after-etl/), [3](http://www.inweb.org.br/w3c/dataenrichment/)
 
 ### - Data Discretization
-Many Machine Learning and Data Analysis methods cannot handle continuous data, and dealing with them can be computationally prohibitive. [Here](https://www.youtube.com/watch?v=TF3_6lwITQg) you find a good video explaining why and how you need to data.
+Many Machine Learning and Data Analysis methods cannot handle continuous data, and dealing with them can be computationally prohibitive. [Here](https://www.youtube.com/watch?v=TF3_6lwITQg) you find a good video explaining why and how you need to discretize data.
 
 _Best practices and exercises:_ [1](https://www.researchgate.net/post/What_are_the_best_methods_for_discretization_of_continuous_features), [2](https://towardsdatascience.com/discretisation-using-decision-trees-21910483fa4b), [3](https://docs.microsoft.com/en-us/sql/analysis-services/data-mining/discretization-methods-data-mining)
 
