@@ -10,6 +10,7 @@ This little guide will focus on teaching some of the WA's mathematical capabilit
   - [Basic calculations](#basic-calculations)
   - [Plotting functions](#plotting-functions)
   - [Solving equations](#solving-equations)
+  - [Solving inequalities](#solving-inequalities)
   - [Matrix algebra](#matrix-algebra)
   - [Computing series and summations](#computing-series-and-summations)
   - [Finding derivatives](#finding-derivatives)
@@ -53,6 +54,9 @@ A great thing of WA and of Mathematica as well is their ability to do symbolic c
 The equations you want to solve do not need to be polynomial ones! For example, [`Solve[Log[x] + Exp[x] == 1, x]`](https://www.wolframalpha.com/input/?i=Solve%5B+Log%5Bx%5D+%2B+Exp%5Bx%5D+%3D%3D+1,+x%5D) gives the value of the number `x` that solves the equation `Log[x] + Exp[x] == 1`.
 
 Systems of equations can also be solved. Just like you would give a list of functions to the `Plot[]`, now we give a list of equations to the `Solve[]`. For example, we want to solve the two equations `Log[x] + y == 1` and `Log[x] + Log[y] == 2`, which we do by typing in [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, {x,y} ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+%7Bx,y%7D+%5D). Two **important** things to notice here! First, the result that WA gives includes a function `W` that most people won't know; WA helps people by writing slightly to the right what each component of the solution is, so WA actually says here that _"W(z) is the product log function"_, which we can then google for. Second, notice how the second argument of `Solve[]` was `{x,y}` and **not** `x`! We need to tell WA all the variables we have; if we only write `x`, then WA is trying to solve a different problem: [`Solve[ {Log[x] + y == 1, Log[y] + Log[x] == 2}, x ]`](https://www.wolframalpha.com/input/?i=Solve%5B+%7BLog%5Bx%5D+%2B+y+%3D%3D+1,+Log%5By%5D+%2B+Log%5Bx%5D+%3D%3D+2%7D,+x+%5D)
+
+### Solving inequalities
+To solve inequalities you do it in a similar way to equations, but instead use the function `Reduce[]`. As an example, we solve the simultaneous system of inequalities `x y > 3` and `x + y < 0` by typing in [`Reduce[{x + y < 0, x y > 3}, {x,y}]`](https://www.wolframalpha.com/input/?i=Reduce%5B%7Bx+%2B+y+%3C+0,+x+y+%3E+3%7D,+%7Bx,y%7D%5D)
 
 ### Matrix algebra
 Matrices are used a lot, and sometimes we just need some place to go to check a determinant, the eigenvalues or the eigenvectors of a matrix, or maybe even invert it. You may need that, and when you do, WA has got your back.
