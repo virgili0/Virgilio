@@ -22,13 +22,15 @@ Whenever you input something into WA, you get the link of your query, so that yo
 Another important thing to notice is that you don't have to follow a strict syntax when asking things to WA, even though the more you can facilitate WA's life, the better.
 
 Also note that Mathematica - the language developed by the creators of WA -, uses `[]` for function calls, instead of `()`, and all function names are capitalized, so `Sqrt[n]` would give you the usual square root function, that in many languages would probably be used as `sqrt(n)`. This is relevant because WA supports a subset of Mathematica's functions.
+
+One final **very important** hint is that if you have Mathematica, you can get step-by-step solutions to limits, integrals and derivatives (only to name a few) by starting a command with `==`.
   
 ### Basic calculations
 WolframAlpha can, of course, be used as a pretty advanced calculator. Typing in `2^100` will give you the well-known answer of `1267650600228229401496703205376`. Some useful operators to know include:
   - The usual addition `+`, subtraction `-`, multiplication `*` and division `/`
   - The power operator `^`, used as `x^y`, which can also be used as `Power[x, y]`
   - To find the remainder of a division, either type in `x mod m` or use `Mod[x, y]`
-  - The square root is `Sqrt[x]`, and the `n`-th root of `x` is given by `Root[x, n]`, so the [cubic root of 8](https://www.wolframalpha.com/input/?i=Root%5B8,+3%5D) would be found by typing in `Root[8, 3]`
+  - The square root is `Sqrt[x]`, and the `n`-th root of `x` is given by `Root[x, n]`, so the cubic root of 8 would be found by typing in [`Root[8, 3]`](https://www.wolframalpha.com/input/?i=Root%5B8,+3%5D)
   - The factorial operator can be written as `n!` or as `Factorial[n]`
   - The logarithm and the exponential function are respectively written as `Log[x]` and `Exp[x]`
   - Trigonometric functions have the usual names, but capitalized; for example, `Tan[x]`, `Sin[x]`, `ArcCos[x]` are respectively the tangent, sine and arc-cosine functions
@@ -101,6 +103,8 @@ Of course the variable of integration can be any variable and the bounds can be 
 To find anti-derivatives, you just omit the bounds of the variable. For example, to find an anti-derivative of `cos(sin(x))tan(x)` we could type in [`Integrate[Cos[Sin[x]]Tan[x], x]`](https://www.wolframalpha.com/input/?i=Integrate%5BCos%5BSin%5Bx%5D%5DTan%5Bx%5D,+x%5D) and we get a very long answer. Sometimes WA can't find an anti-derivative, and it will let you know that.
 
 If all we need is an (accurate) numerical value and we don't need WA to give us the exact answer (which it will try to give always and whenever possible) we can explicitly use the function `NIntegrate[]` instead of `Integrate`: [`NIntegrate[Cos[1/x + Pi/2]^5, {x,1,infty}]`](https://www.wolframalpha.com/input/?i=NIntegrate%5BCos%5B1%2Fx+%2B+Pi%2F2%5D%5E5,+%7Bx,1,infty%7D%5D).
+
+As a final remark, note that if you use WA/Mathematica to check if you are doing your antiderivatives correctly, remember that sometimes a function has more than one antiderivative. If you were trying to find the antiderivative of a function `h` and arrived at some function `f` but then WA got to a different function `g`, it doesn't necessarily mean you got it wrong! Just try deriving your function `f` and see if that gives `h`, as it should!
 
 ### Finding limits
 To find a limit of an expression or function, just type it as you would expect it: [`limit of 1/x as x goes to -infty`](https://www.wolframalpha.com/input/?i=limit+of+1%2Fx+as+x+goes+to+-infty). The function one may want to use here is `Limit[]`. It works like almost all other function we've seen. The first argument is the expression and the second argument is the variable; the only thing to be careful here is the way in which we tell WA to where the variable is converging. The previous example would be written [`Limit[1/x, x -> -infty]`](https://www.wolframalpha.com/input/?i=Limit%5B1%2Fx,+x+-%3E+-infty%5D).
