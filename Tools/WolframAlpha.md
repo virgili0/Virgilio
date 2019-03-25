@@ -93,10 +93,20 @@ Typical operations on (usually scalar) functions that include derivatives can be
   - Laplacian of `f` can be computed with [`laplacian f[x,y,z]`](https://www.wolframalpha.com/input/?i=laplacian+f%5Bx,y,z%5D) in WA and `Laplacian[f[x, y, z], {x, y, z}]` in Mathematica
 
 ### Computing integrals
-To be added soon!
+Unfortunately, computing integrals with WolframAlpha is very difficult... Not! It works just like anything else. You just type it in in WA and you get an answer: [`integrate exp(-x^2) with x from 0 to infinity`](https://www.wolframalpha.com/input/?i=integrate+exp(-x%5E2)+with+x+from+0+to+infinity). Mathematica's way of doing things would be [`Integrate[ Exp[-x^2], {x, 0, infty}]`](https://www.wolframalpha.com/input/?i=Integrate%5B+Exp%5B-x%5E2%5D,+%7Bx,+0,+infty%7D%5D).
+
+Of course the variable of integration can be any variable and the bounds can be changed as well, and they can include plus and minus infinity.
+
+To find anti-derivatives, you just omit the bounds of the variable. For example, to find an anti-derivative of `cos(sin(x))tan(x)` we could type in [`Integrate[Cos[Sin[x]]Tan[x], x]`](https://www.wolframalpha.com/input/?i=Integrate%5BCos%5BSin%5Bx%5D%5DTan%5Bx%5D,+x%5D) and we get a very long answer. Sometimes WA can't find an anti-derivative, and it will let you know that.
+
+If all we need is an (accurate) numerical value and we don't need WA to give us the exact answer (which it will try to give always and whenever possible) we can explicitly use the function `NIntegrate[]` instead of `Integrate`: [`NIntegrate[Cos[1/x + Pi/2]^5, {x,1,infty}]`](https://www.wolframalpha.com/input/?i=NIntegrate%5BCos%5B1%2Fx+%2B+Pi%2F2%5D%5E5,+%7Bx,1,infty%7D%5D).
 
 ### Finding limits
-To be added soon!
+To find a limit of an expression or function, just type it as you would expect it: [`limit of 1/x as x goes to -infty`](https://www.wolframalpha.com/input/?i=limit+of+1%2Fx+as+x+goes+to+-infty). The function one may want to use here is `Limit[]`. It works like almost all other function we've seen. The first argument is the expression and the second argument is the variable; the only thing to be careful here is the way in which we tell WA to where the variable is converging. The previous example would be written [`Limit[1/x, x -> -infty]`](https://www.wolframalpha.com/input/?i=Limit%5B1%2Fx,+x+-%3E+-infty%5D).
+
+It is often useful to also define the direction from which the variable approaches the limiting value. For example we know that the limit of `1/x` when `x` goes to 0 changes as `x` approaches 0 from the left or from the right. So we can actually check that [`Limit[1/x, x -> 0^+]`](https://www.wolframalpha.com/input/?i=Limit%5B1%2Fx,+x+-%3E+0%5E%2B%5D) is different from [`Limit[1/x, x -> 0^-]`](https://www.wolframalpha.com/input/?i=Limit%5B1%2Fx,+x+-%3E+0%5E-%5D) where the exponent notation `0^+` and `0^-` is used to define the side from which we approach 0 here.
+
+Also, in the [summations and series](#computing-series-and-summations) I mentioned that a certain product could be used to compute `pi/2`. The product I am talking about is [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, infty}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+infty%7D%5D) and if you follow the link you will see that WA can't actually give you the exact value. Instead, it gave me the value of the product if I only go up to 5 terms and it gave me a **closed** formula for the product up to `n`: [`Product[(4i^2)/((2i-1)*(2i+1)), {i, 1, n}]`](https://www.wolframalpha.com/input/?i=Product%5B(4i%5E2)%2F((2i-1)*(2i%2B1)),+%7Bi,+1,+n%7D%5D). Now I will use the `Limit[]` function to prove that I am actually not lying! If I put that closed formula inside the `Limit` function and ask `n` to go to infinity like so: [`Limit[(Pi Gamma[1 + n]^2)/(2 Gamma[1/2 + n] Gamma[3/2 + n]), n -> infty]`](https://www.wolframalpha.com/input/?i=Limit%5B(Pi+Gamma%5B1+%2B+n%5D%5E2)%2F(2+Gamma%5B1%2F2+%2B+n%5D+Gamma%5B3%2F2+%2B+n%5D),+n+-%3E+infty%5D), we get the desired `pi/2`.
 
 ### Miscellaneous
 To find if a number is prime, you can use the function `PrimeQ[]`, for example type [`PrimeQ[4234523457]`](https://www.wolframalpha.com/input/?i=PrimeQ%5B4234523457%5D) to conclude that 4234523457 is not a prime number because `4234523457 = 3×53×97×463×593`.
