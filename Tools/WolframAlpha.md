@@ -31,6 +31,7 @@ WolframAlpha can, of course, be used as a pretty advanced calculator. Typing in 
   - The square root is `Sqrt[x]`, and the `n`-th root of `x` is given by `Root[x, n]`, so the [cubic root of 8](https://www.wolframalpha.com/input/?i=Root%5B8,+3%5D) would be found by typing in `Root[8, 3]`
   - The factorial operator can be written as `n!` or as `Factorial[n]`
   - The logarithm and the exponential function are respectively written as `Log[x]` and `Exp[x]`
+  - Trigonometric functions have the usual names, but capitalized; for example, `Tan[x]`, `Sin[x]`, `ArcCos[x]` are respectively the tangent, sine and arc-cosine functions
 
 ### Plotting functions
 There are several different types of plots you can ask WA to do, but perhaps the most basic one would be to plot a simple function from the reals to the reals, like [plotting x^2](https://www.wolframalpha.com/input/?i=plot+x%5E2), which can be done by typing in `plot x^2` or `plot Power[x, 2]`.\
