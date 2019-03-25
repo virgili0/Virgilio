@@ -41,7 +41,7 @@ If you want to contact me for whatever reason, just text me on Telegram @Clone95
 I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
 
 # Careers
-## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
+## [Machine Learning Career  --  ALREADY OUT](Careers/Machine%20Learning%20Engineer%20Career%20Path)  
 ## Business Intelligence Career --  Coming Soon
 ## Cloud Computing Career --  Coming Soon
 
