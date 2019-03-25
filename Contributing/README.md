@@ -1,6 +1,6 @@
 Hi, if you're here it means that you want to contribute to this awesome project, and help people anywhere in the world 
 getting started with the subject or tool you love!
-
+ 
 I provide you a template to follow and some tips to help you following my style.
 
 Template
