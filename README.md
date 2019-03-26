@@ -1,12 +1,12 @@
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/RoadMap.png "1") 
 
-## What is this place?
+## What Is This Place?
 
 Studying in the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
 Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
 
-Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Divine_Comedy). 
+Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil). 
 
 Like I did with Dante, just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more. 
 
@@ -24,9 +24,9 @@ Every source listed here is free or open source.
 
 My biggest interest is Data Science since I tried to predict the fall of Jerusalem, but you know, at that time we didn't have so much computational power!
 
-## What can you find here?
+## What Can You Find Here?
 
-I've packed for you several types of guides: 
+I've packed several types of guides for you: 
 
 - Careers: complete learning paths that guide you through mastering a new skill from scratch.
 - Topics: comprehensive guides about a specific topic, methodology and real-world application organized by sub-field.
@@ -37,7 +37,7 @@ I've packed for you several types of guides:
 
 If you find this repository useful, I ask you to leave a star, share it with your friends and colleagues and click on "watch", because this is being updated daily!
 
-## What is my purpose?
+## What Is My Purpose?
 
 My objective is mostly to help people out there getting started with innovative fields and technologies, and even if you've never tried to write code, or you need a deep math review, I'll give you this kind of basis as well. So, you can be a student, a worker in another field or a manager, and you'll find here everything you need to be prepared for the disrupting and unpredictable transformation of the market and society that will happen for sure during the next years.
 
