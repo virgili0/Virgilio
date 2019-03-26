@@ -2,7 +2,7 @@
 
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
-### What is this place?
+## What is this place?
 
 Studying in the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
@@ -12,7 +12,7 @@ Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Divine_Comedy).
 
 Like I did with Dante, just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more. 
 
-### How Did I Do This?
+## How Did I Do This?
 
 I've tried to be concise to avoid information overhead.
 
@@ -26,7 +26,7 @@ Every source listed here is free or open source.
 
 My biggest interest is Data Science since I tried to predict the fall of Jerusalem, but you know, at that time we didn't have so much computational power!
 
-### What can you find here?
+## What can you find here?
 
 I've packed for you several types of guides: 
 
@@ -39,7 +39,7 @@ I've packed for you several types of guides:
 
 If you find this repository useful, I ask you to leave a star, share it with your friends and colleagues and click on "watch", because this is being updated daily!
 
-### What is my purpose?
+## What is my purpose?
 
 My objective is mostly to help people out there getting started with innovative fields and technologies, and even if you've never tried to write code, or you need a deep math review, I'll give you this kind of basis as well. So, you can be a student, a worker in another field or a manager, and you'll find here everything you need to be prepared for the disrupting and unpredictable transformation of the market and society that will happen for sure during the next years.
 
