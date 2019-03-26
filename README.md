@@ -1,3 +1,5 @@
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/RoadMap.png "1") 
+
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
 ### What is this place?
