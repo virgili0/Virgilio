@@ -42,7 +42,7 @@ If you find this repository useful, I ask you to leave a star, share it with you
 My objective is mostly to help people out there getting started with innovative fields and technologies, and even if you've never tried to write code, or you need a deep math review, I'll give you this kind of basis as well. So, you can be a student, a worker in another field or a manager, and you'll find here everything you need to be prepared for the disrupting and unpredictable transformation of the market and society that will happen for sure during the next years.
 
 # Careers
-## [Machine Learning Career](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
+## [Machine Learning Career](Careers/Machine%20Learning%20Engineer%20Career%20Path)  
 ## Business Intelligence Career --  Coming Soon
 ## Cloud Computing Career --  Coming Soon
 
