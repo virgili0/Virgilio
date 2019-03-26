@@ -1,52 +1,53 @@
-# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
+# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
 
-### Update: big evolutions are planned, and I'm creating a Telegram group with contributors, if you want to join just e-mail me at giacomo.ciarlini@student.unife.it
+### What is this place?
 
-Studying through the Internet means swimming in an infinite ocean of information. 
+Studying in the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
 Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
- 
-Hi, I'm Giacomo. 
 
-I'm an Italian student currently having a stage in a shiny Machine Learning and AI startup in Bologna.
-My boss asked me if it was possible to create a study path for newcomers and myself, and I've contributed all my years of browsing around the internet for resources here. I have collected **sources, projects, awesome tools, tutorial, links, best practices in the ML field, and organized them in an awesome and usable way**.
+Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Divine_Comedy). 
 
-This repository is intended to provide three **complete and organic learning paths** for the following fields:
+Like I did with Dante, just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more. 
 
-- Machine Learning
+### How Did I Do This?
 
-- Business Intelligence (coming soon)
+I've tried to be concise to avoid information overhead.
 
-- Cloud Computing (coming soon)
+I organized the contents hierarchically and by the level of complexity to give you a coherent idea of how things work.   
 
+You will learn to understand and apply theory with hands-on projects and by carefully following my hints and tips, you will master new skills from scratch. 
 
-I have organized and collected in-depth guides about some **Specializations** and **Tools**. They are optional but highly recommended. You will need them to expand your skillset and expertise.
+You do not require any prior knowledge of the topics, but be confident with programming and high school-level math to understand and implement most of the concepts.
 
-You will learn to understand and apply theory with hands-on projects.
+Every source listed here is free or open source. 
 
-By carefully following these guides, you will gain complete awareness and expendable skills from scratch. 
+My biggest interest is Data Science since I tried to predict the fall of Jerusalem, but you know, at that time we didn't have so much computational power!
 
-You do not require any prior knowledge of machine learning, but be confident with programming and high school-level math to understand and implement most of the concepts.
+### What can you find here?
 
-Every source listed here is **free or open source**. 
+I've packed for you several types of guides: 
 
-I tried to be concise to _avoid information overhead_.
+- Careers: complete learning paths that guide you through mastering a new skill from scratch.
+- Topics: comprehensive guides about a specific topic, methodology and real-world application organized by sub-field.
+- Specializations: vertical guides on individual skills.
+- Tools: in-depth guides on a single tool or technology.
+- Research: Up-to-date review and explanation of state-of-the-art papers and technical documents.
+- Meta: these are mostly guides on how to study and approach new concepts. 
 
-I tried to organize the content hierarchically and by the level of complexity to give you a _coherent idea_ of how things work.   
+If you find this repository useful, I ask you to leave a star, share it with your friends and colleagues and click on "watch", because this is being updated daily!
 
-Click on "watch", I'm updating this in the free time and on weekends.
+### What is my purpose?
 
-If you want to contact me for whatever reason, just text me on Telegram @Clone95. 
-
-I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo!
+My objective is mostly to help people out there getting started with innovative fields and technologies, and even if you've never tried to write code, or you need a deep math review, I'll give you this kind of basis as well. So, you can be a student, a worker in another field or a manager, and you'll find here everything you need to be prepared for the disrupting and unpredictable transformation of the market and society that will happen for sure during the next years.
 
 # Careers
-## [Machine Learning Career  --  ALREADY OUT](Careers/Machine%20Learning%20Engineer%20Career%20Path)  
+## [Machine Learning Career  --  ALREADY OUT](Career%20Paths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## Business Intelligence Career --  Coming Soon
 ## Cloud Computing Career --  Coming Soon
 
 # Specializations
-## - [Data Preprocessing  -- **ALREADY OUT**](Specializations/HardSkills/DataPreprocessing.md)
+## - [Data Preprocessing  -- ALREADY OUT](Specializations/HardSkills/DataPreprocessing.md)
 ## - Data Collection  [Coming Soon - Next]
 ## - Data Visualization  [Coming Soon]
 ## - Effective Communication  [Coming Soon]
@@ -59,40 +60,22 @@ I think the second guide (Business Intelligence) will be out in 2 or 3 weeks. Yo
 ## - [GeoGebra](Tools/GeoGebra.md)
 ## - A Lot More Coming Soon!
 
+# Research
+
 # About Specializations
 
-You can take them in order or choose the one that fits you the most, but **I recommend you** to walk through them all at least once.
+You can take them in order or choose the one that fits you the most, but I recommend you to walk through them all at least once.
 
-I've planned two types of Specializations: 
+I've planned two types of Specializations: Hard skills and Soft skills
 
-- Data Specializations 
-  - Data Preprocessing  [Already Out!]
-  - Data Collection  [Coming Soon - Next]
-  - Data Visualization  [Coming Soon]
-  
+The former is about technical processes that are the core toolkit for everyone working with data. Working with data is an art form, and the rules of thumb and best practices will help you understand the way to deal with them. You need to develop a "sense" of what to do with the data and this "sense" is primarily driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
 
-- Soft Skills Specializations 
-  - Effective Communication  [Coming Soon]
-  - Impactful Presentations  [Coming Soon]
-  - Pragmatic Decision Making  [Coming Soon]
+The latter is about... everything that's not written in technical books. Use and master them, because they are the real value enabler for you. You can be the best developer or engineer in the world, but if you can't communicate your suggestions and discoveries to your audience, or use data to suggest practical actions in the real world, you're useless for a company. 
 
-The former is about Data (you wouldn't have said that?) and is _the core toolkit_ for everyone working with data. Working with data is an art form, and the rules of thumb and best practices will help you understand the way to deal with them. You need to develop a "sense" of what to do with the data, this "sense" is primarily driven by the situation and the experience. Because of that, these specializations will be strongly focused on exercises and practice.
+# About Topics
 
-The latter is about... everything that's not written in technical books. Use and master them, because they are the real _value enabler_ for you. You can be the best developer or engineer in the world, but if you can't communicate your data to your audience, or use data to suggest practical action in the real world, you're useless for a company. 
-
-So, stay tuned because I'm building this section on weekends and free time, and I hope to provide you **one specialization each week!**
-
-As usual, feel free to suggest improvements and collaborations :)
+Single topics will be split by field and they can touch real-world applications, methodologies, technological stacks, best practices and more. 
 
 # About Tools
 
-Everyone can commit their own guides, following the style I've chosen, and I'm proud to tell you that very soon the Tools Sections will host several guides about everything you need to know about a particular technology/language/methodology! I've already planned with some contributors a guide on Latex and one about ElasticSearch! So stay tuned!
-
-You can [**already find here**](Tools/Latex.md) a cool Latex guide for beginners!
-
-
-This is the **roadmap** of the coming guides (the **Machine Learning one is already out**).
-
-![Figure 1-1](https://raw.github.com/clone95/Machine-Learning-Study-Path-March-2019/master/RoadMap.PNG "1") 
-
-
+The Tools section will host several guides about everything you need to know about a particular technology/language/methodology! They will give you a means of thoroughly exploring and mastering the tool at hand.
