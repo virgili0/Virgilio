@@ -1,7 +1,5 @@
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/RoadMap.png "1") 
 
-# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
-
 ## What is this place?
 
 Studying in the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
@@ -81,3 +79,5 @@ Single topics will be split by field and they can touch real-world applications,
 # About Tools
 
 The Tools section will host several guides about everything you need to know about a particular technology/language/methodology! They will give you a means of thoroughly exploring and mastering the tool at hand.
+
+# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
