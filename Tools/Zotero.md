@@ -6,7 +6,7 @@ Zotero tool was originally an extension for the [Firefox](https://www.clubic.com
 #### Windows
 Launch the setup program that you have downloaded.
 #### OS
-After opening the.dmg file that you have downloaded, drop Zotero in the Applications folder. You can then launch Zotero from Spotlight, Launchpad or the Applications folder, and add it to your Dock like any other program.
+After opening the `.dmg` file that you have downloaded, drop Zotero in the Applications folder. You can then launch Zotero from Spotlight, Launchpad or the Applications folder, and add it to your Dock like any other program.
 #### Linux
 To start Zotero, download the tarball, unzip it and open Zotero from the repository.
 
