@@ -34,7 +34,7 @@ The LaTeX syntax can seem daunting at first, with plenty of new commands for all
   - Whenever you need a symbol but you don't know the command, use [this site](http://detexify.kirelabs.org/classify.html). All you have to do is draw the symbol and then suggestions will appear on the right.
   - Creating tables in LaTeX can be particularly annoying. I usually do it [here](https://www.tablesgenerator.com/) and then ask the site to generate the appropriate code.
   - [MathJax](https://www.mathjax.org/) is one of the ways in which you can get LaTeX to render, say, in your blog! (example [here](http://mathspp.blogspot.com/2018/11/twitter-proof-roots-go-hand-in-hand.html), where the formulas are rendered with MathJax)
-
+  - [Mathpix Snipping Tool](https://mathpix.com/) helps you to convert images to LaTeX by just taking a screenshort of desired math formula. It can also recognize arrays and various math fonts.
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
 
