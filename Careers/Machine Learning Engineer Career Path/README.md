@@ -128,7 +128,7 @@ Check [here](https://www.youtube.com/watch?v=W46UTQ_JDPk&list=PLoR5VjrKytrCv-Vxn
 - [Example 2](https://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/)
 - [Example 3](https://www.geeksforgeeks.org/linear-regression-python-implementation/)
 
-_Put your hads on_: [This](https://web.sonoma.edu/users/w/wilsonst/courses/math_131/regproj/default.html) is a really good exercise, take it before going to the next section. 
+_Put your hands on_: [This](https://web.sonoma.edu/users/w/wilsonst/courses/math_131/regproj/default.html) is a really good exercise, take it before going to the next section. 
 
 ### Classification
 Classification is one of the most important ML tasks, when wanting to predict an outcome out of different possibilities. For example, given handwritten digits, classify them with the lowest error possible.
