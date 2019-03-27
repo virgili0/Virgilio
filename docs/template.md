@@ -7,7 +7,7 @@ Please remember to:
  - include examples whenever possible.
  - use internal links for easier navigation; an internal link to a section can be made by using the `#` sign, followed by the section name, with hyphens `-` instead of spaces (so section "Who am I" can be referenced with `#who-am-i`).
  - provide relevant links if you list some prerequisites.
- 
+ - provide a small challenge each step of the guide, it's too easy and not effective to just walk around among topics! 
 ------
 
 # Title of the guide about X
