@@ -80,7 +80,7 @@ According to SpiderMan's uncle:
 > From great power comes great responsibility.
 
 The data can be of help or your enemies during a presentation, depending on how you use them and especially you show them graphically. Don't put too much data in your presentation (remember, Less is More)!
-First, take this [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte), then find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf) you great examples of what I'm saying. 
+Take this [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte), then find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf) great examples of what I'm saying. 
 
 ## How to present the content
 
