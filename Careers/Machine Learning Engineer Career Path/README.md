@@ -90,6 +90,7 @@ The most of the remaining math you need is [here](https://explained.ai/matrix-ca
 ### The machine learning Landscape
 Directly from the book cited earlier, this is the most concise and illuminating overview of **what is** and **when you need** machine learning. Let's stop using buzzwords!
 Check it [here](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/ch01.html).
+Also this is [a must](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
 
 ----------------------------------------------------------------
 
