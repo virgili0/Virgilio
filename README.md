@@ -59,10 +59,11 @@ My objective is mostly to help people out there getting started with innovative 
 ### - [Latex](Tools/Latex.md) 
 ### - [Wolfram Alpha](Tools/WolframAlpha.md)
 ### - [GeoGebra](Tools/GeoGebra.md)
-### - [Zotero](Tools/Zotero.md)
 ### - A Lot More Coming Soon!
 
 # Research
+### - [Zotero](Tools/Zotero.md)
+### - State-of-art papers [Coming Soon]
 
 # About Specializations
 
