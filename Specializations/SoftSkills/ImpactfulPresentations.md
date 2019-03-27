@@ -2,7 +2,7 @@
 
 ## Why do you need to impress your audience?
 
-In my days, in 50 B.C., data scientists were called [haruspexes](https://en.wikipedia.org/wiki/Haruspex). 
+In my day, in 50 B.C., data scientists were called [haruspexes](https://en.wikipedia.org/wiki/Haruspex). 
 The state-of-art technique they used to represent data and make decisions based on it was to spread the entrails of a bird on a sacred table and try to interpret them. 
 "Such a small stomach? Aha! I'm going to tell the general now that it's time to attack decisively!"
 
