@@ -40,10 +40,10 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
 
 # Index
 - [How to the build the content](#How-to-build-the-content)
- - [Develop high quality content](#Develop-high-quality-content)
- - [Build a 3steps structure](#Build-a-3steps-structure)
- - [Less is more](#Less-is-more)
- - [Leverage data power wisely](#Leverage data power wisely)
+   - [Develop high quality content](#Develop-high-quality-content)
+   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Less is more](#Less-is-more)
+   - [Leverage data power wisely](#Leverage data power wisely)
 - [How to present the content](#How-to-present-the-content)
  - [Don’t read](#Don’t-read)
  - [Build a 3steps structure](#Build-a-3steps-structure)
