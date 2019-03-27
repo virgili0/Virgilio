@@ -47,11 +47,11 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
    - [Leverage data power wisely](#Leverage-data-power-wisely)
    
 - [How to present the content](#How-to-present-the-content)
+   - [Connect with your audience](#Connect-with-your-audience) 
    - [Don’t read](#Don’t-read)
    - [Be intriguing](#Be-intriguing)
    - [Use humor](#Use-humor)
-   - [Build a 3steps structure](#Build-a-3steps-structure)
-   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [The Pragmatic Storyteller](#The-Pragmatic-Storyteller)
  
 Let's dive right in!
 
@@ -89,7 +89,7 @@ find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf)
 
 ## How to present the content
 
-### Connect to the audience
+### Connect with your audience
 First, you need to [create a link](https://www.forbes.com/sites/lisaroepe/2017/03/14/6-ways-to-connect-with-your-audience-during-a-presentation/#73e158396516) between you and you audience. In this way they'll follow you, because they trust that you're useful for them and you genuinely want them to learn something. I like to call this process ["building trust"](https://www.trainingjournal.com/articles/opinion/how-build-trust-audience-when-making-presentation). 
 
 ### Don’t read
@@ -105,9 +105,35 @@ bewitch and convince them. [Here](https://www.inc.com/sims-wyeth/how-to-capture-
 If you're here, it's mostly because I've been intriguing and catched you attention. A big part in this game has been played by humor.
 [Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speechs.
 
+### The Pragmatic Storyteller
+A sunny morning, in the 44 B.C.
+"Good morning, noble court legislators. Today I want to tell you a personal story. At the age of 7, my father took me to the Colosseum in Rome for the first time to see the gladiators fight.  Like all children, I was very excited about that day, I saw all the older boys playing the game of gladiators with fake swords and talk about the furious fights between men, lions and elephants!
+Tens of thousands of people were there for the same reason, seeing two prisoners fighting in blood until one of them wins.
+I was feeling different sensations in the air: the excitement in the audience, who wants to vent their repressed violence, the fear in the eyes of the fighters, who know that everyone will fight with the utmost commitment, because it is at stake his life.
+The clash begins, the crowd screams and enjoys seeing this show that I can only consider terrifying. In the end the strongest physically wins and kills mercilessly the other.
+Dear noble legislators, today I'm 50 years old and I'm here to ask you: is this the symbol we want for the Roman civilization?\ How do we differ from the barbarians beyond the Alps?\
+How can we consider ourselves a refined people rich in culture, if we fall into easy vices like that of gratuitous violence?\ For these reasons, appealing to your intelligence, _I suggest you to abolish the violent games in the coliseum, for the sake of the image of our civilization._
 
-### Further reading
-You should definitely check this if you liked **x**, or read this if you liked **y**.
+This was my personal Virgilio's story that was talking, not me.
+
+You can notice several things:
+- Coherent flow (I didn't improvise.)
+   - Setting
+   - Story 
+   - Emotions and sensations (you need to reproduce them in your audience)
+   - Motivations for the conclusion
+   - Conclusion
+- Use of the first person
+- Rhetorical questions
+- Naturalness
+- Confidence with the public that grows with the story, while we show spontaneity and humility
+- In the end, a wrap-up of reasons and the practical suggestion
+
+The more authentic, visceral and suggestive you are, the more your audience will trust you and remember
+the concepts.
+
+[Here](https://www.articulatemarketing.com/blog/22-rules-of-storytelling-from-pixar) you find a great list of to-dos from Pixar.
+[Here](https://visme.co/blog/visual-storytelling-rules/) you find the rules of thumb of visual parts of storytelling.
 
 ----
-Written by _clone95
+Written by _clone95_
