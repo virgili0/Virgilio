@@ -100,7 +100,7 @@ If you're here, it's mostly because I've been intrigued and caught your attentio
 [Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speeches.
 
 ### The Pragmatic Storyteller
-A sunny morning, in the 44 B.C.\
+A sunny morning, in the 44 B.C.
 > "Good morning, noble court legislators. Today I want to tell you a personal story. At the age of 7, my father took me to the Colosseum in Rome for the first time to see the gladiators fight.  Like all children, I was very excited about that day, I saw all the older boys playing the game of gladiators with fake swords and talk about the furious fights between men, lions, and elephants!
 Tens of thousands of people were there for the same reason, seeing two prisoners fighting in blood until one of them wins.
 I was feeling different sensations in the air: the excitement in the audience, who wants to vent their repressed violence, the fear in the eyes of the fighters, who know that everyone will fight with the utmost commitment because it is at stake his life.
@@ -108,7 +108,7 @@ The clash begins, the crowd screams and enjoys seeing this show that I can only 
 Dear noble legislators, today I'm 50 years old and I'm here to ask you: is this the symbol we want for the Roman civilization?\ How do we differ from the barbarians beyond the Alps?\
 How can we consider ourselves a refined people rich in culture, if we fall into easy vices like that of gratuitous violence?\ For these reasons, appealing to your intelligence, _I suggest you abolish the violent games in the Colosseum, for the sake of the image of our civilization._
 
-This was my personal Virgilio's story that was talking, not me.
+This was **the personal Virgilio's story** that was talking, not me.
 
 You can notice several things:
 - Coherent flow (I didn't improvise.)
