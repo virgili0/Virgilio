@@ -7,7 +7,7 @@ The state-of-art technique they used to represent data and make decisions based 
 "Such a small stomach? Aha! I'm going to tell the general now that it's time to attack decisively!"
 
 But they always had that problem that they couldn't exceed an average success of 50 percent!
-Today, fortunately, we have more effective tools and de-facto the core field "Data Science" is just looking at the factual evidence of the past to try to make better decisions in the present that affect the future. In the age of data-driven decisions, it is increasingly important to have a clear representation of them and how they advise us to act in practice. 
+Today, fortunately, we have more effective tools and the core field "Data Science" is looking at the factual evidence of the past to try to make better decisions in the present that affect the future. In the age of data-driven decisions, it is increasingly important to have a clear representation of them and how they advise us to act in practice. 
 
 Let us give a few examples:
 
