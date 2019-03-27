@@ -127,7 +127,7 @@ The more authentic, visceral and suggestive you are, the more your audience will
 the concepts.
 
 [Here](https://www.articulatemarketing.com/blog/22-rules-of-storytelling-from-pixar) you find a great list of to-dos from Pixar.
-[Here](https://visme.co/blog/visual-storytelling-rules/) you find the rules of thumb of visual parts of storytelling.
+[Here](https://visme.co/blog/visual-storytelling-rules/) you find the rules of thumb of visual storytelling.
 
 ----
 Written by _clone95_
