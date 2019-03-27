@@ -27,18 +27,18 @@ chatbot application. So, if you don't know Python, make yourself a gift and [lea
 
 
 # Index
-- Learning DialogFlow(#Learning-DialogFlow)
-  - The GUI approach(#The-GUI-approach) 
-  - A deeper approach(#A-deeper-approach)
-  - Our first agent(#Our-first-agent)
-  - Experimenting the API(#Experimenting-the-API)
-- Hands-on Project(#Hands-on-Project)
-  - Up and running with Flask and webhooks(#Up-and-running-with-Flask-and-webhooks)
-  - Our agent, but with API calls(#Our-agent,-but-with-API-calls)
-  - Handling webhooks with Flask(#Handling-webhooks-with-Flask)
-  - Deploying our chatbot(#Deploying-our-chatbot)
-  - Chatbot tips and best practices(Chatbot-tips-and-best-practices)
-  - Project Ideas(#Project-Ideas)
+- [Learning DialogFlow](#Learning-DialogFlow)
+  - [The GUI approach](#The-GUI-approach) 
+  - [A deeper approach](#A-deeper-approach)
+  - [Our first agent](#Our-first-agent)
+  - [Experimenting the API](#Experimenting-the-API)
+- [Hands-on Project](#Hands-on-Project)
+  - [Up and running with Flask and webhooks](#Up-and-running-with-Flask-and-webhooks)
+  - [Our agent, but with API calls](#Our-agent,-but-with-API-calls)
+  - [Handling webhooks with Flask](#Handling-webhooks-with-Flask)
+  - [Deploying our chatbot](#Deploying-our-chatbot)
+  - [Chatbot tips and best practices](#Chatbot-tips-and-best-practices)
+  - [Project Ideas](#Project-Ideas)
 
 ## Learning DialogFlow
 ### The GUI approach 
