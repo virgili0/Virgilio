@@ -40,19 +40,24 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
 
 # Index
 - [How to the build the content](#How-to-build-the-content)
+   - [Know your audience](#Know-your-audience)
    - [Develop high quality content](#Develop-high-quality-content)
    - [Build a 3steps structure](#Build-a-3steps-structure)
    - [Less is more](#Less-is-more)
    - [Leverage data power wisely](#Leverage data power wisely)
 - [How to present the content](#How-to-present-the-content)
- - [Don’t read](#Don’t-read)
- - [Build a 3steps structure](#Build-a-3steps-structure)
- - [Build a 3steps structure](#Build-a-3steps-structure)
- - [Build a 3steps structure](#Build-a-3steps-structure)
- - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Don’t read](#Don’t-read)
+   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Build a 3steps structure](#Build-a-3steps-structure)
  
 Let's dive right in!
- 
+
+## How to build the content
+
+### Know your audience
+
 ### Develop high quality content
 The content is the nucleus of your presentation. While all the other ideas below will help you make your content more effective, a great presentation starts and ends with great content. So don't shorten your audience by shortening the effort you spend developing your content. You will need to invest many hours of research, writing and asking feedbacks if you want to create a presentation that your audience will love. You want to refine your material as more as you can, but don't over prepare 
 everythint, otherwise you'll seem too much rigid and artificial: we'll see that one of the key points in this guide 
@@ -77,6 +82,8 @@ According to SpiderMan's uncle:
 The data can be of help or your enemies during a presentation, depending on how you use them and especially you show them graphically. Don't put too much data in your presentation (remember, Less is More)!
 First, take this [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte), then 
 find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf) you great examples of what I'm saying. 
+
+## How to present the content
 
 ### Don’t read
 Really, don't do it. Reading slides will bore your audience and you'll seem less confident.
