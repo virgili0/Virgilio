@@ -17,20 +17,41 @@ there ([here](https://chatbotsmagazine.com/choosing-the-best-chatbot-platform-10
 platforms), DialogFlow has the best tradeoffs in particular for a beginner. [Here](https://chatbotsjournal.com/25-chatbot-platforms-a-comparative-table-aeefc932eaff) you find 
 another comparative table.
 I've chosen DialogFlow because:
-- Powered by Google. it incorporates Google's machine learning expertise and products such as Google Cloud Speech-to-Text.
+- Incorporates Google's machine learning expertise and products such as Google Cloud Speech-to-Text.
 - Is a Google service that runs on Google Cloud Platform, letting you scale to hundreds of millions of users.
-- Is really beginner-friendly, intuitive, and has a complete and well-done documentation.
+- Is really beginner-friendly, intuitive, and has a complete and clear documentation.
   
-
-
-
 ## Prerequisites 
 This guide will use [Python](https://www.python.org/) and his [Flask](http://flask.pocoo.org/) lightweight library to let you build a complete and deployable 
 chatbot application. So, if you don't know Python, make yourself a gift and [learn it!](https://automatetheboringstuff.com/)
 
 
+# Index
+- Learning DialogFlow(#Learning-DialogFlow)
+  - The GUI approach(#The-GUI-approach) 
+  - A deeper approach(#A-deeper-approach)
+  - Our first agent(#Our-first-agent)
+  - Experimenting the API(#Experimenting-the-API)
+- Hands-on Project(#Hands-on-Project)
+  - Up and running with Flask and webhooks(#Up-and-running-with-Flask-and-webhooks)
+  - Our agent, but with API calls(#Our-agent,-but-with-API-calls)
+  - Handling webhooks with Flask(#Handling-webhooks-with-Flask)
+  - Deploying our chatbot(#Deploying-our-chatbot)
+  - Chatbot tips and best practices(Chatbot-tips-and-best-practices)
+  - Project Ideas(#Project-Ideas)
 
-
+## Learning DialogFlow
+### The GUI approach 
+### A deeper approach
+### Our first agent
+### Experimenting the API
+### Hands-on Project
+### Up and running with Flask and webhooks
+### Our agent, but with API calls
+### Handling webhooks with Flask
+### Deploying our chatbot
+### Chatbot tips and best practices
+### Project Ideas
 
 
 
