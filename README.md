@@ -52,11 +52,7 @@ My objective is mostly to help people out there getting started with innovative 
 ## - Data Visualization  [Coming Soon]
 
 ## - Effective Communication [Coming Soon]
-## - [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
-=======
-## - Effective Communication  [Coming Soon]
-## - [Impactful Presentations](Specializations/HardSkills/ImpactfulPresentations.md)
-
+## - [Impactful Presentations -- **NEW**](Specializations/SoftSkills/ImpactfulPresentations.md)
 ## - Pragmatic Decision Making  [Coming Soon]
 
 # Tools
