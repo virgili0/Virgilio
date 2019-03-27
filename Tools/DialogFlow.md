@@ -55,38 +55,5 @@ chatbot application. So, if you don't know Python, make yourself a gift and [lea
 
 
 
-
-## Prerequisites
-
-
-# Index
- - [Section A](#section-a)
-   - [Subsection A1](#subsection-a1)
-   - [Subsection A2](#subsection-a2)
- - [Section B](#section-b)
- - ...
- 
-Let's dive right in!
- 
-### Section A
-Section A is great because it is the first section of them all!
-
-And this would be another very interesting paragrah!
- 
-#### Subsection A1
-In particular, I just went deeper into subsection A1!
-
-#### Subsection A2
-And of course there is subsection A2...
-
-### Section B
-Which is then followed by Section B.
-
-### Conclusions
-We concluded that _x_, _y_ and _z_.
-
-### Further reading
-You should definitely check this if you liked **x**, or read this if you liked **y**.
-
 ----
-Written by _author_
+Written by _clone95_
