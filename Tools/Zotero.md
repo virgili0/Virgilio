@@ -33,7 +33,7 @@ Once a website is compatible, in order to add a reference in your bibliography, 
 It is possible that you may want to import references into Zotero that are not available on compatible sites. In order to do this, you will have to fill in the various fields yourself and create a record manually.
 Afterwards, you must create an empty record and fill in the fields, then select the type of document among those proposed. Finally, all you have to do is fill in the fields.
 
-### Tricks and tips
+## Tricks and tips
 A few tips and tricks as well as some small options not developed in this guide.
 
 - If you want to know to which collection(s) a reference belongs, select it in the middle column and press `Crtl` (PC) or `Alt` (Mac). Collections containing this reference are then highlighted in yellow;
