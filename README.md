@@ -2,7 +2,7 @@
 
 ## What Is This Place?
 
-Studying in the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
+Studying through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
 Have you ever felt overwhelmed when trying to approach a new subject without a real “path” to follow? Were you hindered from obtaining deep knowledge and the ability to apply it?
 
