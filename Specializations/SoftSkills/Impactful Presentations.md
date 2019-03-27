@@ -112,7 +112,7 @@ Tens of thousands of people were there for the same reason, seeing two prisoners
 I was feeling different sensations in the air: the excitement in the audience, who wants to vent their repressed violence, the fear in the eyes of the fighters, who know that everyone will fight with the utmost commitment, because it is at stake his life.
 The clash begins, the crowd screams and enjoys seeing this show that I can only consider terrifying. In the end the strongest physically wins and kills mercilessly the other.
 Dear noble legislators, today I'm 50 years old and I'm here to ask you: is this the symbol we want for the Roman civilization?\ How do we differ from the barbarians beyond the Alps?\
-How can we consider ourselves a refined people rich in culture, if we fall into easy vices like that of gratuitous violence?\ For these reasons, appealing to your intelligence, _I suggest you to abolish the violent games in the coliseum, for the sake of the image of our civilization._
+How can we consider ourselves a refined people rich in culture, if we fall into easy vices like that of gratuitous violence?\ For these reasons, appealing to your intelligence, _I suggest you to abolish the violent games in the Colosseum, for the sake of the image of our civilization._
 
 This was my personal Virgilio's story that was talking, not me.
 
