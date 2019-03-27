@@ -44,11 +44,12 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
    - [Develop high quality content](#Develop-high-quality-content)
    - [Build a 3steps structure](#Build-a-3steps-structure)
    - [Less is more](#Less-is-more)
-   - [Leverage data power wisely](#Leverage data power wisely)
+   - [Leverage data power wisely](#Leverage-data-power-wisely)
+   
 - [How to present the content](#How-to-present-the-content)
    - [Don’t read](#Don’t-read)
-   - [Build a 3steps structure](#Build-a-3steps-structure)
-   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Be intriguing](#Be-intriguing)
+   - [Use humor](#Use-humor)
    - [Build a 3steps structure](#Build-a-3steps-structure)
    - [Build a 3steps structure](#Build-a-3steps-structure)
  
@@ -57,6 +58,8 @@ Let's dive right in!
 ## How to build the content
 
 ### Know your audience
+Are you talking to managers or developers? Are you educating your sellers, or are you the same seller who has to convince a customer?
+In any case, the first rule is [**Know your audience**](https://www.asme.org/career-education/articles/public-speaking/public-speaking-know-your-audience).
 
 ### Develop high quality content
 The content is the nucleus of your presentation. While all the other ideas below will help you make your content more effective, a great presentation starts and ends with great content. So don't shorten your audience by shortening the effort you spend developing your content. You will need to invest many hours of research, writing and asking feedbacks if you want to create a presentation that your audience will love. You want to refine your material as more as you can, but don't over prepare 
@@ -78,7 +81,8 @@ Well-designed slides help the speaker to emphasize his or her point of view and 
 
 ### Leverage data power wisely
 According to SpiderMan's uncle:
-> from great power comes great responsibility.
+> From great power comes great responsibility.
+
 The data can be of help or your enemies during a presentation, depending on how you use them and especially you show them graphically. Don't put too much data in your presentation (remember, Less is More)!
 First, take this [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte), then 
 find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf) you great examples of what I'm saying. 
@@ -89,6 +93,16 @@ find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf)
 Really, don't do it. Reading slides will bore your audience and you'll seem less confident.
 [Here's](https://www.techwell.com/2013/10/give-better-presentation-don-t-read-your-slides) why.
 [Here's](https://academia.stackexchange.com/questions/76370/why-do-most-people-think-its-a-bad-idea-to-read-from-slides) a mine full of other reasons.
+
+### Be intriguing
+The best way to attract people is to grab their attention. Doing this it's not so easy, but with some psychological tricks you can 
+bewitch and convince them. [Here](https://www.inc.com/sims-wyeth/how-to-capture-and-hold-audience-attention.html) you have a really good explanation of what I'm saying.
+
+### Use humor
+If you're here, it's mostly because I've been intriguing and catched you attention. A big part in this game has been played by humor.
+[Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speechs.
+
+### Connect points
 
 ### Further reading
 You should definitely check this if you liked **x**, or read this if you liked **y**.
