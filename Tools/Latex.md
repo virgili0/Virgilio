@@ -42,7 +42,9 @@ Now that you know how to produce a (simple) LaTeX document, you may feel the nee
 
 ### Displaying Math
 
-The [`amsmath` package](https://ctan.org/pkg/amsmath) provides miscellaneous enhancements for improving the information structure and printed output of documents that contain mathematical formulas, as stated in [this useful guide](http://texdoc.net/texmf-dist/doc/latex/amsmath/amsldoc.pdf).
+The [`amsmath` package](https://ctan.org/pkg/amsmath) provides miscellaneous enhancements for improving the information structure and printed output of documents that contain mathematical formulas, as stated in [this useful guide](http://texdoc.net/texmf-dist/doc/latex/amsmath/amsldoc.pdf). 
+
+Extra mathematical fonts and symbols can be used by including the [`amssymb` package](https://ctan.org/pkg/amsfonts). A recap can be found [here](http://milde.users.sourceforge.net/LUCR/Math/mathpackages/amssymb-symbols.pdf).
 
 ### Code Blocks
 
@@ -60,7 +62,7 @@ If you find tedious manually writing truth tables, [here](http://www.siafoo.net/
 
 ### Automata
 
-To traw finite state machines with LaTeX you can use the `tikz-automata` package, [here](https://www3.nd.edu/~kogge/courses/cse30151-fa17/Public/other/tikz_tutorial.pdf) a quick tutorial. You can also automatically generate the code using [this website](https://notendur.hi.is/aee11/automataLatexGen/).
+To draw finite state machines with LaTeX you can use the `tikz-automata` package, [here](https://www3.nd.edu/~kogge/courses/cse30151-fa17/Public/other/tikz_tutorial.pdf) a quick tutorial. You can also automatically generate the code using [this website](https://notendur.hi.is/aee11/automataLatexGen/).
 
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
