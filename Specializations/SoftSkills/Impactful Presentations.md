@@ -89,6 +89,9 @@ find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf)
 
 ## How to present the content
 
+### Connect to the audience
+First, you need to [create a link](https://www.forbes.com/sites/lisaroepe/2017/03/14/6-ways-to-connect-with-your-audience-during-a-presentation/#73e158396516) between you and you audience. In this way they'll follow you, because they trust that you're useful for them and you genuinely want them to learn something. I like to call this process ["building trust"](https://www.trainingjournal.com/articles/opinion/how-build-trust-audience-when-making-presentation). 
+
 ### Don’t read
 Really, don't do it. Reading slides will bore your audience and you'll seem less confident.
 [Here's](https://www.techwell.com/2013/10/give-better-presentation-don-t-read-your-slides) why.
@@ -102,7 +105,6 @@ bewitch and convince them. [Here](https://www.inc.com/sims-wyeth/how-to-capture-
 If you're here, it's mostly because I've been intriguing and catched you attention. A big part in this game has been played by humor.
 [Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speechs.
 
-### Connect points
 
 ### Further reading
 You should definitely check this if you liked **x**, or read this if you liked **y**.
