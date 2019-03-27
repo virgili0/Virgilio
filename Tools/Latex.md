@@ -35,7 +35,34 @@ The LaTeX syntax can seem daunting at first, with plenty of new commands for all
   - Creating tables in LaTeX can be particularly annoying. I usually do it [here](https://www.tablesgenerator.com/) and then ask the site to generate the appropriate code.
   - [MathJax](https://www.mathjax.org/) is one of the ways in which you can get LaTeX to render, say, in your blog! (example [here](http://mathspp.blogspot.com/2018/11/twitter-proof-roots-go-hand-in-hand.html), where the formulas are rendered with MathJax)
   - [Mathpix Snipping Tool](https://mathpix.com/) helps you to convert images to LaTeX by just taking a screenshort of desired math formula. It can also recognize arrays and various math fonts.
+
+## Useful Packages
+
+Now that you know how to produce a (simple) LaTeX document, you may feel the need to write or draw particular content. To do so, you can use specific packages. All you need to do is to include them at the beginning of your document with the command `\usepackage{name_of_the_package}`.
+
+### Displaying Math
+
+The [`amsmath` package](https://ctan.org/pkg/amsmath) provides miscellaneous enhancements for improving the information structure and printed output of documents that contain mathematical formulas, as stated in [this useful guide](http://texdoc.net/texmf-dist/doc/latex/amsmath/amsldoc.pdf).
+
+### Code Blocks
+
+The [`listings` package](https://ctan.org/pkg/listings) allows to insert programming code in your LaTeX document. You can highlight code, or specify your language of choice and let the package automatically colour special words, comments, etc for you. [Here](https://www.overleaf.com/learn/latex/Code_listing) a guide with examples.
+
+Based on the previous package, [`pythonhighlight`](https://ctan.org/pkg/pythonhighlight) is a simple Python highlighting style to be used with LaTeX. You can find the very simple instructions [here](https://github.com/olivierverdier/python-latex-highlighting).
+
+To write pseudocode, you can use [algorithms](https://ctan.org/pkg/algorithms), which consists in two packages: `al­go­rithm` and `al­go­rith­mic`. [Here](https://math-linux.com/latex-26/faq/latex-faq/article/how-to-write-algorithm-and-pseudocode-in-latex-usepackage-algorithm-usepackage-algorithmic) you can find examples and useful commands.
+
+### Logic
+
+For natural deductions there's the [`bussproofs` package](https://ctan.org/pkg/bussproofs). You can find the user guide with examples [here](https://www.math.ucsd.edu/~sbuss/ResearchWeb/bussproofs/BussGuide2_Smith2012.pdf).
+
+If you find tedious manually writing truth tables, [here](http://www.siafoo.net/snippet/249) you'll find an incredibly useful Pyhton script. It automatically generates the LaTeX code of a compiled truth table given one or more propositional logic formulas. (Note: remember that in Python you can write *p* &rarr; *q* as `not p or q` as they are logically equivalent).
+
+### Automata
+
+To traw finite state machines with LaTeX you can use the `tikz-automata` package, [here](https://www3.nd.edu/~kogge/courses/cse30151-fa17/Public/other/tikz_tutorial.pdf) a quick tutorial. You can also automatically generate the code using [this website](https://notendur.hi.is/aee11/automataLatexGen/).
+
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
 
-Expanded upon by the editor of the [Mathspp Blog](https://mathspp.blogspot.com), [RojerGS](https://github.com/RojerGS)
+Expanded upon by the editor of the [Mathspp Blog](https://mathspp.blogspot.com), [RojerGS](https://github.com/RojerGS), and by Lara Vignotto ([mail](mailto:lara.vignotto@gmail.com), [github](https://github.com/laravignotto))
