@@ -41,6 +41,8 @@ chatbot application. So, if you don't know Python, make yourself a gift and [lea
   - [Project Ideas](#Project-Ideas)
 
 ## Learning DialogFlow
+The thing I love about DialogFlow is that's beginner friendly. In fact the first thing I suggest you to do is going through
+
 ### The GUI approach 
 ### A deeper approach
 ### Our first agent
