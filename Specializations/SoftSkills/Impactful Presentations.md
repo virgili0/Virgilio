@@ -39,31 +39,49 @@ During this guide I consider that you're presenting with the tech support of sim
 No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMinto/dp/0273710516) if you have time!
 
 # Index
- - [Develop great content](#Develop-great-content)
-   - [Subsection A1](#subsection-a1)
-   - [Subsection A2](#subsection-a2)
- - [Section B](#section-b)
- - ...
+- [How to the build the content](#How-to-build-the-content)
+ - [Develop high quality content](#Develop-high-quality-content)
+ - [Build a 3steps structure](#Build-a-3steps-structure)
+ - [Less is more](#Less-is-more)
+ - [Leverage data power wisely](#Leverage data power wisely)
+- [How to present the content](#How-to-present-the-content)
+ - [Don’t read](#Don’t-read)
+ - [Build a 3steps structure](#Build-a-3steps-structure)
+ - [Build a 3steps structure](#Build-a-3steps-structure)
+ - [Build a 3steps structure](#Build-a-3steps-structure)
+ - [Build a 3steps structure](#Build-a-3steps-structure)
  
 Let's dive right in!
  
-### Develop great content
+### Develop high quality content
+The content is the nucleus of your presentation. While all the other ideas below will help you make your content more effective, a great presentation starts and ends with great content. So don't shorten your audience by shortening the effort you spend developing your content. You will need to invest many hours of research, writing and asking feedbacks if you want to create a presentation that your audience will love. You want to refine your material as more as you can, but don't over prepare 
+everythint, otherwise you'll seem too much rigid and artificial: we'll see that one of the key points in this guide 
+will be "be authentic".
 
-Section A is great because it is the first section of them all!
+### Build a 3steps structure
+Although not all presentations fit easily into the 3-act structure, it is generally a good general method to follow.
 
-And this would be another very interesting paragrah!
- 
-#### Subsection A1
-In particular, I just went deeper into subsection A1!
+Step 1 - The first Step is the introduction, the setting of the presentation. This is the moment when you capture the audience's attention, giving them the expectation of what will come out of it and a reason to keep listening.
 
-#### Subsection A2
-And of course there is subsection A2...
+Step 2 - The intermediate Step is the moment when you support their interest. You are usually detailing a problem and offering a solution while you educate and inform along the way. It is here where you truly build your case and sell the benefits. This is where you want to provide compelling examples, data, statistics, etc. to support your points.
 
-### Section B
-Which is then followed by Section B.
+Step 3 - The final Step is where you solve the problem, summarizes it and reminds the audience of the highlights of your presentation. Then leave the audience with a call to action and a list of practical points. What is supposed to be taken away from your presentation by the audience? This should be clearly defined in the closing Step. In addition, a final story or illustration and questions from the audience are a great way to end the presentation and help people remember the sense of your discourse.
 
-### Conclusions
-We concluded that _x_, _y_ and _z_.
+### Less is more
+Packing slides with information does not necessarily make them more effective. In fact, you often get the opposite effect by producing confusing slides that take away, rather than adding value to a  presentation.
+Well-designed slides help the speaker to emphasize his or her point of view and the audience to understand the key steps of a presentation. Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).
+
+### Leverage data power wisely
+According to SpiderMan's uncle:
+> from great power comes great responsibility.
+The data can be of help or your enemies during a presentation, depending on how you use them and especially you show them graphically. Don't put too much data in your presentation (remember, Less is More)!
+First, take this [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte), then 
+find [here](http://mkweb.bcgsc.ca/talks/datavisualization/datavisualization.pdf) you great examples of what I'm saying. 
+
+### Don’t read
+Really, don't do it. Reading slides will bore your audience and you'll seem less confident.
+[Here's](https://www.techwell.com/2013/10/give-better-presentation-don-t-read-your-slides) why.
+[Here's](https://academia.stackexchange.com/questions/76370/why-do-most-people-think-its-a-bad-idea-to-read-from-slides) a mine full of other reasons.
 
 ### Further reading
 You should definitely check this if you liked **x**, or read this if you liked **y**.
