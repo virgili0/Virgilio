@@ -50,8 +50,8 @@ My objective is mostly to help people out there getting started with innovative 
 ## - [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
 ## - Data Collection  [Coming Soon - Next]
 ## - Data Visualization  [Coming Soon]
-## - Effective Communication  [Coming Soon]
-## - Impactful Presentations  [Coming Soon]
+## - Effective Communication [Coming Soon]
+## - [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
 ## - Pragmatic Decision Making  [Coming Soon]
 
 # Tools
