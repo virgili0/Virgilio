@@ -76,9 +76,14 @@ Now that you're really comfortable with the DialogFlow concepts, we can dive dee
 Assuming that you have Python3 installed, install the [Python SDK](https://dialogflow-python-client-v2.readthedocs.io/en/latest/index.html) going in the folder where you want to put your configuration files, launch a shell and digit
 
 ```
-pip3 install dialogflow
+pip install dialogflow
 ```
 
+If it doesn't work, maybe is because you have an old installation of Python 2. In that case, digit
+
+```
+pip3 install dialogflow
+```
 
 ### A deeper approach
 ### Hands-on Project
