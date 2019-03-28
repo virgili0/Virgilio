@@ -81,7 +81,7 @@ Although not all presentations fit easily into the 3-act structure, it is genera
 ### Less is more
 Packing slides with information do not necessarily make them more effective. In fact, you often get the opposite effect by producing confusing slides that take away, rather than adding value to a  presentation.
 Well-designed slides help the speaker to emphasize his or her point of view and the audience to understand the key steps of a presentation.\
-Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).
+Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).\
 [The Hemingway Editor](http://www.hemingwayapp.com/) will help a lot you writing in a good style, preferring conciseness and fluency.
 
 ### Leverage data power wisely
@@ -118,6 +118,7 @@ Dear noble legislators, today I'm 50 years old and I'm here to ask you: is this 
 How can we consider ourselves a refined people rich in culture, if we fall into easy vices like that of gratuitous violence? For these reasons, appealing to your intelligence, _I suggest you abolish the violent games in the Colosseum, for the sake of the image of our civilization._
 
 This was **the personal Virgilio's story** that was talking, not me.
+This was Storytelling.
 
 You can notice several things:
 - Coherent flow (I didn't improvise.)
@@ -131,6 +132,8 @@ You can notice several things:
 - Naturalness
 - Confidence with the public that grows with the story, while we show spontaneity and humility
 - In the end, a wrap-up of reasons and the practical suggestion
+
+Apply [StoryTelling](https://blog.hubspot.com/marketing/storytelling) in a coherent fashion.
 
 The more authentic, visceral and suggestive you are, the more your audience will trust you and remember
 the concepts.
