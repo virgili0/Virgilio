@@ -1,7 +1,7 @@
 
 # ChatBots with DialogFlow, Python and Flask
 
-## We have 9.94847 percent probability of death, Luke
+## We have 99.94847 percent probability of death, Luke
 In simple terms, a [Chatbot](https://medium.com/swlh/what-is-a-chatbot-and-how-to-use-it-for-your-business-976ec2e0a99f) is a computer program that simulates human conversation (in the form of texts and audio) 
 which we would perceive as being intelligent and useful. 
 Tehir most impotant application are personal or enterprise virtual assistants.
