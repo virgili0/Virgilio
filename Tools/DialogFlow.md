@@ -104,15 +104,14 @@ management.list_intents(parent)
 It should return you a JSON with all the informations requested (in this case, your existing intents) .
 JSON is the new de-facto standard for information rappresentation, so [get comfortable](https://www.w3schools.com/whatis/whatis_json.asp) with it!
 
-So, you have these files with wrapper for the low level functions (in this case, the low level function in the intent_management.py is called at line 40 inthe list_intent() function).
+So, you have these files with wrapper for the low level functions (in this case, the low level function in the intent_management.py is called at line 40 inside the list_intent() function).
 
-these files are really useful to get started, but in the end you want to have the most possible expressiveness and flexibility. So you want to master the lower level funcsiont
-
+These files are really useful to get started, but in the end you want to have the most possible expressiveness and flexibility. So you want to master the lower level functions.
 
 ### A deeper approach
 
+Try now to re-produce the Intent we have created with the lower level functions of the dialogflow modulee. You have here all the informations you need, the [documentation](https://cloud.google.com/dialogflow-enterprise/docs/reference/rest/v2-overview) is really well done! In general, each time you want to communicate with the API you need to build a JSON (your request) and you'll receive a JSON (the response). 
 
-### Hands-on Project
 ### Up and running with Flask and webhooks
 ### Our agent, but with API calls
 ### Handling webhooks with Flask
