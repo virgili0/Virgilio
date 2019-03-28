@@ -45,7 +45,7 @@ chatbot application. So, if you don't know Python, make yourself a gift and [lea
 The thing I love about DialogFlow is that's beginner friendly. In fact, the approach  we'll follow te learn how to deploy real chat-bots is the following:
 - A first gentle approach through the Graphical User Interface to understand he concepts (intents, entitites, context...)
 - A more "coding" approach, using the Python Client for [RESTful](https://it.wikipedia.org/wiki/Representational_State_Transfer) API call to reproduce the same Agent but with code (and not clicks in the GUI).
-- When we're able to build agents with Python API calls, we'll use them to create and End-to-End chatbot project that you'll deploy on Facebook Messenger
+- When we're able to build agents with Python API calls, we'll use them to create and End-to-End chatbot project that you'll deploy on several channels (Slack, Facebook, Telegram...)
 Let's start!
 
 ### The GUI approach 
@@ -122,20 +122,24 @@ Dialogflow's APIs allows you to take action on your own systems based on convers
 
 Here you can see a clear schema.
 
+![Figure 1-1](https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png "1") 
+
 Basically you want to have a .py file that builds the agent (with API calls), then you agent is ready to take in queries form the user and send them (once recognized the user query) to a backend application (your webhook). In our case, the app in the backend (the webhook) is built with Flask.
 
 **Fulfillment** is code that's deployed as a webhook that lets your Dialogflow agent call business logic on an intent-by-intent basis. During a conversation, fulfillment allows you to use the information extracted by Dialogflow's natural language processing to generate dynamic responses or trigger actions on your back-end.
 
 Most Dialogflow agents make use of fulfillment to do things like: generate dynamic responses based on information looked up from a database, place orders based on products a customer has asked for, implement the rules and winning conditions for a game.
 
-
-
-![Figure 1-1](https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png "1") 
-
-
 ### Our agent, but with API calls
-### Handling webhooks with Flask
+It's time to get our hands dirty again!
+This time we're adding the backend application acting undder the hood, and not the static answers anymore.
+[Here](https://www.pragnakalp.com/dialogflow-fulfillment-webhook-tutorial/) you have a consistent and complete tutorial on how to run the Flask application on your machine (using Ngrok to expose he webhook on your machine, to the Web). 
+Now that you have the entire stack working, you can start creating any type of application!
+
 ### Deploying our chatbot
+The smartes way to deploy your agent is through common communication channels like Facebook Messenger or Telegram.
+[Here](https://hub.packtpub.com/creating-and-deploying-a-chatbot-using-dialogflow-tutorial/) you find a very comprehensive tutorial on how to deploy your chatbot application to the real worlds. It's easy, isn't it?
+
 ### Chatbot tips and best practices
 ### Project Ideas
 
