@@ -114,7 +114,7 @@ Try now to re-produce the Intent we have created with the lower level functions 
 
 ### Up and running with Flask and webhooks
 
-Dialogflow's APIs allow you to take action on your own systems based on conversational input, embed your conversational interface into your app or website, and dynamically change your agent's behavior. Dialogflow APIs center around three primary use cases:
+Dialogflow's APIs allows you to take action on your own systems based on conversational input, embed your conversational interface into your app or website, and dynamically change your agent's behavior. Dialogflow APIs center around three primary use cases:
 
 - Fulfillment: take action on your own systems based on conversational input. You can do things like querying a database or API to provide info to your users with any integration (Actions on Google, Slack, etc.)
 - Detect Intent API: Embed your conversational interface built with Dialogflow into your app, website or device. Call this API with a user's query to get back how your DIalogflow agent's response
@@ -122,7 +122,11 @@ Dialogflow's APIs allow you to take action on your own systems based on conversa
 
 Here you can see a clear schema.
 
-Basically you want to have a .py file that builds the agent (with API calls), then you agent is ready to take in queries form the user and send them (once recognized the user query) to a backend application (your webhook). Your webhook can for example look inside a database for information, handle complex logic, in general the backend through fulfillment puts informations inside the response to the the bot (the lower gray block in attached to the webhook). In our case, the app inthe backend (the webhook) is built with Flask.
+Basically you want to have a .py file that builds the agent (with API calls), then you agent is ready to take in queries form the user and send them (once recognized the user query) to a backend application (your webhook). In our case, the app in the backend (the webhook) is built with Flask.
+
+**Fulfillment** is code that's deployed as a webhook that lets your Dialogflow agent call business logic on an intent-by-intent basis. During a conversation, fulfillment allows you to use the information extracted by Dialogflow's natural language processing to generate dynamic responses or trigger actions on your back-end.
+
+Most Dialogflow agents make use of fulfillment to do things like: generate dynamic responses based on information looked up from a database, place orders based on products a customer has asked for, implement the rules and winning conditions for a game.
 
 
 
