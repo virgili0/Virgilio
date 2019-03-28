@@ -40,7 +40,7 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
 - [How to build the content](#How-to-build-the-content)
    - [Know your audience](#Know-your-audience)
    - [Develop high quality content](#Develop-high-quality-content)
-   - [Build a 3steps structure](#Build-a-3steps-structure)
+   - [Build a structure](#Build-a-structure)
    - [Less is more](#Less-is-more)
    - [Leverage data power wisely](#Leverage-data-power-wisely)
    
@@ -58,12 +58,19 @@ Let's dive right in!
 ### Know your audience
 Are you talking to managers or developers? Are you educating your sellers, or are you the same seller who has to convince a customer?
 In any case, the first rule is [**Know your audience**](https://www.asme.org/career-education/articles/public-speaking/public-speaking-know-your-audience).
+If you know your audience, their tastes, their interests, you can build your presentation in the best and most targeted way. [Here](https://www.ethos3.com/2009/10/5-ways-to-get-to-know-your-audience/) you find 5 more ways to do it.  
 
 ### Develop high-quality content
 The content is the nucleus of your presentation. While all the other ideas below will help you make your content more effective, a great presentation starts and ends with great content. So don't shorten your audience by shortening the effort you spend developing your content. You will need to invest many hours of research, writing and asking feedbacks if you want to create a presentation that your audience will love. You want to refine your material as more as you can, but don't over prepare everything, otherwise, you'll seem too much rigid and artificial: we'll see that one of the key points in this guide will be "be authentic".
 
-### Build a 3steps structure
-Although not all presentations fit easily into the 3-act structure, it is generally a good general method to follow.
+### Build a structure
+I strongly advise you to build an organic structure that you then follow in your presentation.
+
+[Here](https://virtualspeech.com/blog/how-to-structure-your-presentation) you find a good overview of "how to build a structure".
+[Here](https://visme.co/blog/presentation-structure/) you find 7 common structures.
+A simple and well-known structure is the 3-act one.
+
+Although not all presentations fit easily into the 3-act structure, it is generally a good general method to follow (with the necessary adjustments according to the situation).
 
 Step 1 - The first Step is the introduction, the setting of the presentation. This is the moment when you capture the audience's attention, giving them the expectation of what will come out of it and a reason to keep listening.
 
@@ -74,6 +81,7 @@ Step 3 - The final Step is where you solve the problem, summarizes it and remind
 ### Less is more
 Packing slides with information do not necessarily make them more effective. In fact, you often get the opposite effect by producing confusing slides that take away, rather than adding value to a  presentation.
 Well-designed slides help the speaker to emphasize his or her point of view and the audience to understand the key steps of a presentation. Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).
+[The Hemingway Editor](http://www.hemingwayapp.com/) will help a lot you writing in a good style, preferring conciseness and fluency.
 
 ### Leverage data power wisely
 According to SpiderMan's uncle:
