@@ -141,8 +141,17 @@ The smartes way to deploy your agent is through common communication channels li
 [Here](https://hub.packtpub.com/creating-and-deploying-a-chatbot-using-dialogflow-tutorial/) you find a very comprehensive tutorial on how to deploy your chatbot application to the real worlds. It's easy, isn't it?
 
 ### Chatbot tips and best practices
+I've collected here for you some best articles and StackOverflow questions containing best practices.
+
+- [1](https://dzone.com/articles/best-practices-for-lively-chatbots), [2](https://miningbusinessdata.com/automatically-generate-dialogflow-faq-chatbot-csv-file/), [3](https://www.comm100.com/blog/chatbot-best-worst-practices.html), [4](https://chatbotsmagazine.com/11-more-best-ux-practices-for-building-chatbots-67362d1104d9), [5](https://thebrainfiles.wearebrain.com/chatbot-best-practice-learnings-and-insights-from-companies-like-abn-amro-booking-com-6e4c329c60a5), [6](https://www.marutitech.com/8-best-practices-bot-development/), [7](https://stackoverflow.com/questions/52426295/dialogflow-intent-lifespan-best-practice-and-performance)
+
+[Here](https://medium.com/the-mission/how-to-effectively-run-a-chatbot-development-project-a445d2d1170f) and [here](https://botpress.io/blog/successful-chatbot-projects-avoid-these-mistakes/) you find two guides on how to plan a chat for you business.
+
 ### Project Ideas
 
+I've packed here for you a list of links with a lot of project ideas. Have fun!
+
+- [1](https://chatbotsmagazine.com/80-chatbot-ideas-for-enterprise-bots-4bb73281f593), [2](https://www.messengerpeople.com/best-of-8-chatbot-projects-you-will-love-to-discover/), [3](https://www.quora.com/What-are-some-cool-ideas-where-chat-bots-can-be-put-to-use), [4](https://www.wordstream.com/blog/ws/2017/10/04/chatbots), [5](https://www.ideas2it.com/blogs/50-chatbot-use-cases/)
 
 
 ----
