@@ -85,7 +85,7 @@ If it doesn't work, maybe is because you have an old installation of Python 2. I
 pip3 install dialogflow
 ```
 
-Now go [here](https://github.com/googleapis/dialogflow-python-client-v2/tree/master/samples) and be happy. A lot of work is already done in these examples, and with them you can already do a lot of things. I save the folder "examples" with all those file inside.
+Now go [here](https://github.com/googleapis/dialogflow-python-client-v2/tree/master/samples) and be happy. A lot of work is already done in these examples, and with them you can already do a lot of things. I create the folder "examples" where I put those python files.
 Now follow the "Before you begin" instructions [here](https://dialogflow-python-client-v2.readthedocs.io/en/latest/).
 Create a new agent in the project and add and intent from the GUI.
 Connect to that agent initializing the dialogflow client from you python script and read the Intents already existent in the Agent.
@@ -114,7 +114,18 @@ Try now to re-produce the Intent we have created with the lower level functions 
 
 ### Up and running with Flask and webhooks
 
+Dialogflow's APIs allow you to take action on your own systems based on conversational input, embed your conversational interface into your app or website, and dynamically change your agent's behavior. Dialogflow APIs center around three primary use cases:
+
+- Fulfillment: take action on your own systems based on conversational input. You can do things like querying a database or API to provide info to your users with any integration (Actions on Google, Slack, etc.)
+- Detect Intent API: Embed your conversational interface built with Dialogflow into your app, website or device. Call this API with a user's query to get back how your DIalogflow agent's response
+- Agent API: Dynamically change your agent's behavior by editing your agent's intents, entities and contexts. Do anything you can through Dialogflow console programmatically with Dialogflow's agent APIs.
+
+Here you can see a clear schema.
+
+Basically you want to have a .py file that builds the agent (with API calls), then you agent is ready to take in queries form the user and send them (once recognized the user query) to a backend application (your webhook). Your webhook can for example look inside a database for information, handle complex logic, in general the backend through fulfillment puts informations inside the response to the the bot (the lower gray block in attached to the webhook). In our case, the app inthe backend (the webhook) is built with Flask.
+
 ![Figure 1-1](https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png "1") 
+
 
 ### Our agent, but with API calls
 ### Handling webhooks with Flask
