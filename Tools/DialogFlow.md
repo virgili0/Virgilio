@@ -73,21 +73,45 @@ When you're done, let's go for the next step!
 
 ### Experimenting the API
 Now that you're really comfortable with the DialogFlow concepts, we can dive deep down the rabbit hole and et up the environment for developing a chatbot with Python. This will bring us al the power of the code to build and handle a lot of chatbots (and many more things).
-Assuming that you have Python3 installed, install the [Python SDK](https://dialogflow-python-client-v2.readthedocs.io/en/latest/index.html) going in the folder where you want to put your configuration files, launch a shell and digit
+Assuming that you have Python3 installed, install the [Python SDK](https://dialogflow-python-client-v2.readthedocs.io/en/latest/index.html) going in the folder where you want to put your configuration files, launch a shell and digit:
 
 ```
 pip install dialogflow
 ```
 
-If it doesn't work, maybe is because you have an old installation of Python 2. In that case, digit
+If it doesn't work, maybe is because you have an old installation of Python 2. In that case, digit:
 
 ```
 pip3 install dialogflow
 ```
 
+Now go [here](https://github.com/googleapis/dialogflow-python-client-v2/tree/master/samples) and be happy. A lot of work is already done in these examples, and with them you can already do a lot of things. I save the folder "examples" with all those file inside.
+Now follow the "Before you begin" instructions [here](https://dialogflow-python-client-v2.readthedocs.io/en/latest/).
+Create a new agent in the project and add and intent from the GUI.
+Connect to that agent initializing the dialogflow client from you python script and read the Intents already existent in the Agent.
+It will be like:
+
+```
+from examples import intent_management
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = <your path>/<your credentials file>.json"
+projectID = <your project id>
+
+client = dialogflow.IntentsClient()
+parent = client.project_agent_path(projectID)
+management.list_intents(parent)
+```
+
+It should return you a JSON with all the informations requested (in this case, your existing intents) .
+JSON is the new de-facto standard for information rappresentation, so [get comfortable](https://www.w3schools.com/whatis/whatis_json.asp) with it!
+
+So, you have these files with wrapper for the low level functions (in this case, the low level function in the intent_management.py is called at line 40 inthe list_intent() function).
+
+these files are really useful to get started, but in the end you want to have the most possible expressiveness and flexibility. So you want to master the lower level funcsiont
 
 
 ### A deeper approach
+
+
 ### Hands-on Project
 ### Up and running with Flask and webhooks
 ### Our agent, but with API calls
