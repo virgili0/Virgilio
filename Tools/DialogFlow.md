@@ -57,13 +57,13 @@ You won't have problem during this phase, you don't have to code anything, just 
 If you've followed the guide with attention, you're now able to create a simple chatbot from the GUI.
 So let's get our hands dirty and create or first agent! 
 
-- Create a new Agent and develop it from the GUI, until he's able to reproduce this Intent with FollowUpIntents:
+- Create a new Agent and develop it from the GUI, until he's able to reproduce this "I'm lost" Intent with FollowUpIntents:
 
-Bot: Hi! I'm Virgilio! How can I help you?
-Human: Tell me which is the best _Data Science_ project in _Italy_.
-B: Without a doubt, the best project about _Data Science_ in _Italy_ is _Virgilio_! Do you want to reach it?
-H: Yes.
-B: Here's the link, you're welcome :) 
+Bot: Hi! I'm Virgilio! How can I help you?\
+Human: Tell me which is the best _Data Science_ project in _Italy_.\
+B: Without a doubt, the best project about _Data Science_ in _Italy_ is _Virgilio_! Do you want to reach it?\
+H: Yes.\
+B: Here's the link, you're welcome :) \
 B: [ ...drops the link ]
 
 That's it, for now. Try to reproduce the conversation, you can try your agent from the top-right bar in the GUI.
