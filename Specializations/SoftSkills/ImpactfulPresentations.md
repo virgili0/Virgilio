@@ -138,6 +138,7 @@ Apply [StoryTelling](https://blog.hubspot.com/marketing/storytelling) in a coher
 The more authentic, visceral and suggestive you are, the more your audience will trust you and remember
 the concepts.
 
+[Here](https://www.youtube.com/watch?v=Nj-hdQMa3uA) a brief Ted Talk about this.
 [Here](https://www.articulatemarketing.com/blog/22-rules-of-storytelling-from-pixar) you find a great list of storytelling best practices from Pixar.
 [Here](https://visme.co/blog/visual-storytelling-rules/) you find the rules of thumb of visual storytelling.
 
