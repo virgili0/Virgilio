@@ -13,7 +13,7 @@ says to personalize the interaction and build off previous interaction, giving
 a [satisfying and futuristic customer experience](https://mobilemonkey.com/chatbots/chatbot-examples).
 
 ## Why Dialogflow
-[DialogFlow](https://dialogflow.com/) is the beginner friendly chatbot platform from mother Google, and albeit there are several platforms out 
+[DialogFlow](https://dialogflow.com/) is the beginner friendly chatbot platform from Google, and albeit there are several platforms out 
 there ([here](https://chatbotsmagazine.com/choosing-the-best-chatbot-platform-101-a-beginners-guide-e841b41192c7) a cool guide on choosing the right 
 platforms), DialogFlow has the best tradeoffs in particular for a beginner. [Here](https://chatbotsjournal.com/25-chatbot-platforms-a-comparative-table-aeefc932eaff) you find 
 another comparative table.
