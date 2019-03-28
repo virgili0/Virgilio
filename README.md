@@ -61,6 +61,9 @@ My objective is mostly to help people out there getting started with innovative 
 ### - [GeoGebra](Tools/GeoGebra.md)
 ### - A Lot More Coming Soon!
 
+# Topics
+### - [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
+
 # Research
 ### - [Zotero](Research/Zotero.md)
 ### - State-of-art papers [Coming Soon]
