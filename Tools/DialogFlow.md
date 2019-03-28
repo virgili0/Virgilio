@@ -67,11 +67,19 @@ B: Here's the link, you're welcome :) \
 B: [ ...drops the link ]
 
 That's it, for now. Try to reproduce the conversation, you can try your agent from the top-right bar in the GUI.
-Notice that you have two entities here. Which ones?
+Notice that you have three entities here. Which ones?
 Remember that you can use both system entities (like hour, date, languages, places...), and custom entities!
 When you're done, let's go for the next step!
 
 ### Experimenting the API
+Now that you're really comfortable with the DialogFlow concepts, we can dive deep down the rabbit hole and et up the environment for developing a chatbot with Python. This will bring us al the power of the code to build and handle a lot of chatbots (and many more things).
+Assuming that you have Python3 installed, install the [Python SDK](https://dialogflow-python-client-v2.readthedocs.io/en/latest/index.html) going in the folder where you want to put your configuration files, launch a shell and digit
+
+```
+pip3 install dialogflow
+```
+
+
 ### A deeper approach
 ### Hands-on Project
 ### Up and running with Flask and webhooks
