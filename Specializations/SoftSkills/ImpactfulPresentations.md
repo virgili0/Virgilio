@@ -72,11 +72,11 @@ A simple and well-known structure is the 3-act one.
 
 Although not all presentations fit easily into the 3-act structure, it is generally a good general method to follow (with the necessary adjustments according to the situation).
 
-Step 1 - The first Step is the introduction, the setting of the presentation. This is the moment when you capture the audience's attention, giving them the expectation of what will come out of it and a reason to keep listening.
+**1** - The first Step is the introduction, the setting of the presentation. This is the moment when you capture the audience's attention, giving them the expectation of what will come out of it and a reason to keep listening.
 
-Step 2 - The intermediate Step is the moment when you support their interest. You are usually detailing a problem and offering a solution while you educate and inform along the way. It is here where you truly build your case and sell the benefits. This is where you want to provide compelling examples, data, statistics, etc. to support your points.
+**2** - The intermediate Step is the moment when you support their interest. You are usually detailing a problem and offering a solution while you educate and inform along the way. It is here where you truly build your case and sell the benefits. This is where you want to provide compelling examples, data, statistics, etc. to support your points.
 
-Step 3 - The final Step is where you solve the problem, summarizes it and reminds the audience of the highlights of your presentation. Then leave the audience with a call to action and a list of practical points. What is supposed to be taken away from your presentation by the audience? This should be clearly defined in the closing Step. Also, a final story or illustration and questions from the audience are a great way to end the presentation and help people remember the sense of your discourse.
+**3** - The final Step is where you solve the problem, summarizes it and reminds the audience of the highlights of your presentation. Then leave the audience with a call to action and a list of practical points. What is supposed to be taken away from your presentation by the audience? This should be clearly defined in the closing Step. Also, a final story or illustration and questions from the audience are a great way to end the presentation and help people remember the sense of your discourse.
 
 ### Less is more
 Packing slides with information do not necessarily make them more effective. In fact, you often get the opposite effect by producing confusing slides that take away, rather than adding value to a  presentation.
