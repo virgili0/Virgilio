@@ -80,7 +80,8 @@ Although not all presentations fit easily into the 3-act structure, it is genera
 
 ### Less is more
 Packing slides with information do not necessarily make them more effective. In fact, you often get the opposite effect by producing confusing slides that take away, rather than adding value to a  presentation.
-Well-designed slides help the speaker to emphasize his or her point of view and the audience to understand the key steps of a presentation.\ Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).
+Well-designed slides help the speaker to emphasize his or her point of view and the audience to understand the key steps of a presentation.\
+Follow the principle of ["Less is More"](https://www.presentation-guru.com/when-it-comes-to-presentations-less-is-more/).
 [The Hemingway Editor](http://www.hemingwayapp.com/) will help a lot you writing in a good style, preferring conciseness and fluency.
 
 ### Leverage data power wisely
