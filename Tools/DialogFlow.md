@@ -124,6 +124,8 @@ Here you can see a clear schema.
 
 Basically you want to have a .py file that builds the agent (with API calls), then you agent is ready to take in queries form the user and send them (once recognized the user query) to a backend application (your webhook). Your webhook can for example look inside a database for information, handle complex logic, in general the backend through fulfillment puts informations inside the response to the the bot (the lower gray block in attached to the webhook). In our case, the app inthe backend (the webhook) is built with Flask.
 
+
+
 ![Figure 1-1](https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png "1") 
 
 
