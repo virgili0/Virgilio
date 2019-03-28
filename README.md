@@ -62,7 +62,7 @@ My objective is mostly to help people out there getting started with innovative 
 ### - A Lot More Coming Soon!
 
 # Research
-### - [Zotero](Tools/Zotero.md)
+### - [Zotero](Research/Zotero.md)
 ### - State-of-art papers [Coming Soon]
 
 # About Specializations
