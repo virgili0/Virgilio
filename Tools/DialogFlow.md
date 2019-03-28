@@ -113,6 +113,9 @@ These files are really useful to get started, but in the end you want to have th
 Try now to re-produce the Intent we have created with the lower level functions of the dialogflow modulee. You have here all the informations you need, the [documentation](https://cloud.google.com/dialogflow-enterprise/docs/reference/rest/v2-overview) is really well done! In general, each time you want to communicate with the API you need to build a JSON (your request) and you'll receive a JSON (the response). 
 
 ### Up and running with Flask and webhooks
+
+![Figure 1-1](https://raw.githubusercontent.com/dialogflow/resources/master/images/overview.png "1") 
+
 ### Our agent, but with API calls
 ### Handling webhooks with Flask
 ### Deploying our chatbot
