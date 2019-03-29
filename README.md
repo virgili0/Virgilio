@@ -53,7 +53,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ### Math for Data Science  --  Coming Soon
 
 # Complete Learning Paths
-## [Machine Learning Study Path](Careers/Machine%20Learning%20Engineer%20Career%20Path)  
+## [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
 ## Business Intelligence Study Path --  Coming Soon
 ## Cloud Computing Study Path --  Coming Soon
 
