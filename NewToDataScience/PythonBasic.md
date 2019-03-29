@@ -15,12 +15,12 @@ This guide will take you _from zero coding knowledge_ to a solid Python skill an
 
 After this basic path, you'll be prepared to tackle the more advanced topics! 
 
-I'm not going to re-invent the wheel so, for our purposes, [**THIS**](https://automatetheboringstuff.com/) free book is the perfect choice.
-I'm going  to explore each of the chapter of the book, and for each one, I want you to read the entire chapter from the book and challenge yourself with the exercise I'll suggest you.
+I'm not going to re-invent the wheel so, for our purposes, [**THIS**](https://automatetheboringstuff.com/) free book is the perfect track to follow. You can [buy](https://nostarch.com/automatestuff) it too.
+
+In this guide the first chapters of the book are addressed. After reading a chapter, do at least 15-20 progressive exercises, trying to look for alternative solutions.
 
 We're gonna install Python (the interpreter of the code you will write) and Pycharm (a development environment that will simplify your coding life).
 
-First, let's [install Python 3](https://realpython.com/installing-python/) on our machine!
 [Here](http://keyseronline.net/TGC/PythonInstallInstructions.pdf) you have in-depth guide on how install Python and Pycharm on every operating system.
 
 Now you're ready to go!
