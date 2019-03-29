@@ -84,7 +84,14 @@ In this chapter of the book you'll also find **loops**.\
 In this chapter of the book you'll also find **loops**.\
 ....
 
-You can go now with the [**Chapter 2**](https://automatetheboringstuff.com/chapter2/) of the book. Flow control is one the of the most core concepts of programming, so be sure of understanding it.
+The ideas behind loops, is that you don't need to write so much lines of code in order to execute many times the same command.\
+You have several types of loops:
+
+- **for** loop when you know the number of times you want to repeat a command
+- **while** loop when you don't know that
+- **do while** loop when you don't know that but you want to execute the line at least one time.   
+
+Go now with the [**Chapter 2**](https://automatetheboringstuff.com/chapter2/) of the book. Flow control is one the of the most core concepts of programming, so be sure of understanding it.
 
 _Challenge yourself_: 
 - [Here](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) you have more or less 20 exercises about flow control. Be sure of tackling them all before going on.
