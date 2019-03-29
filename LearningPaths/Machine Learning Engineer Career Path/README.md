@@ -11,7 +11,7 @@ It is necessary to avoid confusion when we learn something new, especially when 
 #### I organized the Path in 4 sections:
 
 #### Prerequisites
-- Python
+- Python  
 - Jupyter Notebook
 - The Math you need
 - The Machine Learning landscape
