@@ -1,5 +1,5 @@
-![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map1.png "1") 
-![Figure 1-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map2.png "2") 
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/1.png "1") 
+![Figure 1-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/2.png "2") 
 
 ## What Is This Place?
 
