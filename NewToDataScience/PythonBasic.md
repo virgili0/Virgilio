@@ -49,7 +49,7 @@ The first thing you want to do is to read the [**Chapter 0**](https://automateth
 
 ## Python Basics
 As you can see, one of the most loved aspects of Python is the syntax.
-Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) thinking "I want a programming language that is as close as possible to the plain english". So, most of the times, when you don't know the name of something, just try to think about the plain literal english name of that thing, and probably the Python name will be that one!  
+Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) thinking "I want a programming language that is as close as possible to the plain English". So, most of the times, when you don't know the name of something, just try to think about the plain literal english name of that thing, and probably the Python name will be that one!  
 
 Before diving in the Python Syntax basics, I want you to read [this](https://dev.to/lucpattyn/basic-programming-concepts-for-beginners-2o73) introduction to basic programming concepts. If you're a total beginner go there, if not you can skip it.
 
@@ -61,7 +61,35 @@ Starting walking around the documentation as a begineer is a really good practic
 
 Until now we've scratched just the surface of the Python power: the next step is to understant the Flow Control, one of the most important concepts of programming.
 
-## Flow Control
+## Flow Control 
+You control the flow of you program with conditions and loops.
+
+An **if statement** verifies a condition, that can be True or False, and provides a different behavior for the two cases.
+If the condition is True, the program will execute the lines inside the If, otherwise it will simply skip them.
+
+>**If**  Virgilio  **is** awesome......
+>> Print Ciao!
+
+The If statement above, written in Python, becomes:
+> If Virgilio == "awesome":
+>> Print("Ciao!")
+
+It can have an optional **else statement**, to specify what to do if the condition is False. 
+
+As you can see, Python is really similar to plain English.
+
+In this chapter of the book you'll also find **loops**.\
+In this chapter of the book you'll also find **loops**.\
+In this chapter of the book you'll also find **loops**.\
+In this chapter of the book you'll also find **loops**.\
+....
+
+You can go now with the [**Chapter 2**](https://automatetheboringstuff.com/chapter2/) of the book. Flow control is one the of the most core concepts of programming, so be sure of understanding it.
+
+_Challenge yourself_: 
+- [Here](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) you have more or less 20 exercises about flow control. Be sure of tackling them all before going on.
+
+## Functions
 
 ----
 Written by _clone95_
