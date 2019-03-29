@@ -25,7 +25,7 @@ It is necessary to avoid confusion when we learn something new, especially when 
 - Support Vector Machines
 - Decision Trees
 - Ensemble Learning and Random Forest 
-- Unsupervised Learning --- **new**
+- Unsupervised Learning 
 - Wrapping up and looking forward
 
 #### Neural Networks with TensorFlow
