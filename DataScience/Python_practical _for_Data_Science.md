@@ -23,7 +23,7 @@ After following this guide, readers should familiarize themselves with the follo
 
 *   Creating and installing Python modules;
 *   Modification and use of Jupyter notebooks;
-*   Data visualization with `Matplotlib` and `Seaborn`;
+*   Data visualization with `Matplotlib`;
 *   Handling tables with `Numpy`;
 *   Handling a dataset with `Pandas`.
 
