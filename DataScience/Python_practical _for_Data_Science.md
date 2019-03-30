@@ -8,7 +8,7 @@ Explore best practices and fundamental knowledge that will allow you to perform 
 
 ## **What is Data Science?**
 
-Essentially, [Data Science](https://en.wikipedia.org/wiki/Data_science) is about* extracting knowledge* from *massive amounts of data* to generate information. This is essentially done using several disciplines such as Mathematics and Computer Science such as statistics, probabilistic models, machine learning, data storage, computer programming, and so on.
+Essentially, [Data Science](https://en.wikipedia.org/wiki/Data_science) is about _extracting knowledge_  from  _massive amounts of data_ to generate information. This is essentially done using several disciplines such as Mathematics and Computer Science such as statistics, probabilistic models, machine learning, data storage, computer programming, and so on.
 
 For more information, We invite readers to take a look at [this book](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X).
 
