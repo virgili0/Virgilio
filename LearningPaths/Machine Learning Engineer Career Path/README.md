@@ -1,4 +1,4 @@
-# (CHECK HERE THE HOMEPAGE](https://github.com/clone95/Virgilio/tree/master)
+# [CHECK HERE THE HOMEPAGE](https://github.com/clone95/Virgilio/tree/master)
 # Machine Learning Engineer 
 ## A complete ML study path, focused on TensorFlow and Scikit-Learn
 
