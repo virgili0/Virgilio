@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Explore best practices and fundamental knowledge that will allow you to perform data analysis using Python. In this guide, you will learn how to use Jupyter notebooks and Python libraries such as Pandas, Matplotlib or Numpy to easily and transparently explore and analyze your dataset.
+Explore best practices and fundamental knowledge that will allow you to perform data analysis using Python. In this guide, you will learn how to use Jupyter notebooks and Python libraries such as Pandas, Matplotlib or Numpy in order to explore and analyze your dataset.
 
 
 ## **What is Data Science?**
