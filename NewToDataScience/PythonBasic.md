@@ -53,10 +53,10 @@ Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) t
 
 Before diving in the Python Syntax basics, I want you to read [this](https://dev.to/lucpattyn/basic-programming-concepts-for-beginners-2o73) introduction to basic programming concepts. If you're a total beginner go there, if not you can skip it.
 
-Now take your time and read the [**Chapter 1**](https://automatetheboringstuff.com/chapter1/) of the book. Be sure to understand each step, but it won't hard probably. Here you'll become confident with basic arithmetic operations and data types.
+Now take your time and read the [**Chapter 1**](https://automatetheboringstuff.com/chapter1/) of the book. Be sure to understand each step, but it won't be hard probably. Here you'll become confident with basic arithmetic operations and data types.
 
 [Here](https://realpython.com/python-data-types/) you find a deeper overview of data types, and [here](https://docs.python.org/3/library/datatypes.html) you find the data types section of the [**official Python documentation**](https://docs.python.org/3.7/).
-Starting walking around the documentation as a beginner is a really good practice, even if a lot of things will be unclear. In fact be able to explore the documentation of something is the key to learn it autonomously.
+Starting walking around inside the documentation as a beginner is a really good practice, even if a lot of things will be unclear. In fact be able to explore the documentation of something is the key to learn it autonomously.
 [Here](http://blog.techtalentsouth.com/8-tips-to-reading-documentation-a-newbies-guide) you have some tips to read documentations effectively.
 
 Until now we've scratched just the surface of the Python power: the next step is to understand the Flow Control, one of the most important concepts of programming.
@@ -84,29 +84,22 @@ In this chapter of the book you'll also find **loops**.\
 In this chapter of the book you'll also find **loops**.\
 ....
 
-The ideas behind loops, is that you don't need to write so much lines of code in order to execute many times the same command.\
+The idea behind **loops** is that you don't need to write so much lines of code in order to execute many times the same line (or group of lines).\
 You have several types of loops:
 
 - **for** loop when you know the number of times you want to repeat a command
 - **while** loop when you don't know that
 - **do while** loop when you don't know that but you want to execute the line at least one time.   
 
-Go now with the [**Chapter 2**](https://automatetheboringstuff.com/chapter2/) of the book. Flow control is one the of the most core concepts of programming, so be sure of understanding it.
+Go now with the [**Chapter 2**](https://automatetheboringstuff.com/chapter2/) of the book. Flow control is one the of the core concepts of programming, so be sure of understanding it.
 
 _Challenge yourself_: 
 - [Here](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) you have more or less 20 exercises about flow control. Be sure of tackling them all before going on.
 
 ## Functions
-Functions are "self contained" modules of code that accomplish a specific task. Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over and over again. Functions can be "called" from the inside of other functions.
+Functions are "self contained" modules of code that accomplish a specific task. Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over again. Functions can be "called" from the inside of other functions.
 
 A good **rule of thumb** is: if you realize that you're going to do something more than 3 times, write a function instead, and call it how many times as you want!
-
-Imagine the function like a machine where you put something in (the  "argument"), it makes some computations, and then spits out something else(the "returned" value).
-
-You can have multiple arguments and multiple return values.
-
-In general, you're not obliged to give parameters, and you're not obliged to expect a return value. 
-The next example shows you a function without arguments and without return value.
 
 You can write:
 >print("Publio Virgilio Marone\n")\
@@ -131,9 +124,21 @@ or you can define a function "print ciao" and then call it 3 times!
 >\> Publio Virgilio Marone\
 >\> Publio Virgilio Marone 
 
+
+_Imagine the function_ like a machine where you put something in (the  "argument"), it makes some computations, and then spits out something else(the "returned" value).
+
+You can have multiple arguments and multiple return values.
+
+In general, you're not obliged to give parameters, and you're not obliged to expect a return value. 
+
+For example, this function _takes in 2 arguments_ and _gives you back_ the two squares of those:
+>def squares(x, y):
+>>return x**2, y\**2
+
 Now go through the [**Chapter 3**](https://automatetheboringstuff.com/chapter3/) of the book, it explains functions really well. 
 
-_Challenge yourself_: [Here](https://www.w3resource.com/python-exercises/python-functions-exercises.php) you find a lot of exercises about functions. Feel comfortable with functions before going ahead.
+_Challenge yourself_: 
+- [Here](https://www.w3resource.com/python-exercises/python-functions-exercises.php) you find a lot of exercises about functions. Feel comfortable with functions before going ahead.
 
 ## Structured Data
 You've already seen different data types, like integers, floats, strings and Booleans. These are the most simple ones, and they are often called primitive data types. But you know, the world is complex and most of the time you need more complex structures in order to represent your problem and solve it.
@@ -142,13 +147,14 @@ The most important complex data types you need to master are:
 - Lists\
 In Python, a list is..... a list of elements! They can hold different primitive value types, and you can access to each element through an **index**, that is, the position of the element in the list. In Python, like the most part of programming languages, indexes start from 0 (and not 1!). So the first element of a list is in the position 0, the second in the position 1, and so on. 
 You can get an element of a list with list[index].
+Understand deeply the concept of slicing, is really powerful and handy.\
 Check here the [**Chapter 4**](https://automatetheboringstuff.com/chapter4/) about lists.  
 Exercises [here](https://www.w3resource.com/python-exercises/list/).
 
 - Tuples\
 Tuples are simply the list's cousin. They're like lists, but they are immutable, that is, you cannot modify them after the creation.
-Why do we need to use tuples, if they seem like lists, just more close-minded? Often in programming, there are things that you **want** they remain the same over time, and in that case go for tuples and you'll be sure about that.
-In the same [**Chapter 4**](https://automatetheboringstuff.com/chapter4/) you find a deep tuples explanation.
+Why do we need to use tuples, if they seem like lists, just more close-minded? Often in programming, there are things that you **want** they remain the same over time, and in that case go for tuples and you'll be sure about that.\
+In the same [**Chapter 4**](https://automatetheboringstuff.com/chapter4/) you find a deep tuples explanation.\
 [Exercises](https://www.w3resource.com/python-exercises/tuple/) here.
 
 - Dictionaries\
