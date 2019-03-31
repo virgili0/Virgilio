@@ -74,11 +74,11 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ### A Lot More Coming Soon!
 
 # Topics
-### - [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
+### [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
 
 # Research
-### - [Zotero](Research/Zotero.md)
-### - State-of-art papers [Coming Soon]
+### [Zotero](Research/Zotero.md)
+### State-of-art papers [Coming Soon]
 
 # About Specializations
 
