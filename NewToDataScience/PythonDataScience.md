@@ -35,7 +35,7 @@ We will propose a hierarchical content according to the following plan:
 
 
 1.   [Setup your work environment](#1.-setup-your-work-environment);
-2.   [Get started with Numpy library](#2.-get-started-with-numpy-library);
+2.   [Get started with Python](#2.-get-started-with-python);
 3.   [Manipulate data using Numpy and Matplotlib](#3.--manipulate-data-using-numpy-and-matplotlib);
 4.   [Deal with a large amount of data using Pandas library](#4.-deal-with-a-large-amount-of-data-using-pandas-library).
 
@@ -117,7 +117,7 @@ All Python commands must be typed in the field beside the `In [ ]` label.  To do
 To test it, type for example `2 + 5` in the empty cell located in the center of the window. Then click on this button:
 ![Test](https://i.ibb.co/0VQWxHS/2.jpg)
 
-### 2.   Get started with Numpy library
+### 2.   Get started with Python
 
 In this section, we remember the basics of Python programming. In addition, we will not make a list of everything we need to master, but we will simulate a whole problem. Well, we first heard about the  [Monty Hall problem](https://www.montyhallproblem.com/). The game involves a presenter against a competitor (the player). This player is positioned in front of three closed doors. There is a car behind one of them and a goat behind each of the others. First, it must indicate a door. Then the presenter must open a door that is neither the one chosen by the candidate nor the one hiding the car. The competitor then has the right to open the door or he initially chose, or to open the third door.
 
