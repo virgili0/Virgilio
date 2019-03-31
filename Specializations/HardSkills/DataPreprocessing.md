@@ -15,7 +15,6 @@ As usual the structure I've planned to get you started consists of having a [gen
 The concepts through which we're going are the following:
 
 - Don't Joke With Data
-- Work Hard To Produce Good Data
 - Business Questions
 - Data Profiling
 - Who To Leave Behind
@@ -27,22 +26,16 @@ The concepts through which we're going are the following:
   - Convert Values Type
   - Remove Duplicates
   - Change Text to Lower/Upper Case
-  - Normalize Data
   - Spell Check
-  - Standardize Data
-  - Delete all Formatting
   - Dealing with Special Characters
   - Normalizing Dates
-  - Finding and Replacing Patterns
   - Verification To Enrich Data
+  - Data Discretization
+  - Feature Scaling
   - Data Cleaning Tools
-- Data Exploration
-- Merge Data Sets
-- Data Discretization
-- Data Scaling
-- Data Integration
-- Iteratively Cleanse and Filter
+- Merge Data Sets and Integration
 - Sanity Check
+- Automate These Boring Stuffs!
 
 **Let's Start!**
 
