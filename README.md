@@ -58,20 +58,20 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ## Cloud Computing Study Path --  Coming Soon
 
 # Specializations
-## - [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
-## - Data Collection  [Coming Soon - Next]
-## - Data Visualization  [Coming Soon]
+## [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
+## Data Collection  [Coming Soon - Next]
+## Data Visualization  [Coming Soon]
 
-## - Effective Communication [Coming Soon]
-## - [Impactful Presentations -- **NEW**](Specializations/SoftSkills/ImpactfulPresentations.md)
-## - Pragmatic Decision Making  [Coming Soon]
+## Effective Communication [Coming Soon]
+## [Impactful Presentations -- **NEW**](Specializations/SoftSkills/ImpactfulPresentations.md)
+## Pragmatic Decision Making  [Coming Soon]
 
 # Tools
-### - [Latex](Tools/Latex.md) 
-### - [Wolfram Alpha](Tools/WolframAlpha.md)
-### - [GeoGebra](Tools/GeoGebra.md)
-### - [RegeX](Tools/Regex.ipynb)
-### - A Lot More Coming Soon!
+### [Latex](Tools/Latex.md) 
+### [Wolfram Alpha](Tools/WolframAlpha.md)
+### [GeoGebra](Tools/GeoGebra.md)
+### [RegeX](Tools/Regex.ipynb)
+### A Lot More Coming Soon!
 
 # Topics
 ### - [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
