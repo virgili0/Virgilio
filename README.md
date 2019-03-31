@@ -45,11 +45,11 @@ My objective is mostly to help people out there getting started with innovative 
 My prices: I'm here for you, for free. If you find me helpful in some way, I just ask you to leave a star, click on "watch", and share me everythime you have the occasion to do it. Let's start our journey!
 
 # New To Data Science?
-### Basic Python  --  Coming Soon
+### [Basic Python](NewToDataScience/PythonBasic.md)
 ### Basic Math  --  Coming Soon
 ### Advanced Python  --  Coming Soon
 ### Advanced Math  --  Coming Soon
-### Python for Data Science  --  Coming Soon
+### [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
 ### Math for Data Science  --  Coming Soon
 
 # Complete Learning Paths
