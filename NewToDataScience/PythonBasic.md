@@ -6,7 +6,7 @@
 Hi, **I'm Virgilio**, you probably already know me.\
 Welcome to your first step into Data Science!
 
-### Why do I want you to learn Python? 
+Why do I want you to learn Python? 
 
 Python is simple to understand, is simple to read, is powerful and flexible, can help you in everyday tasks (even if you're not a programmer!) and automatize a lot of boring stuff. Moreover, is the core Data Science tool, and most of the frameworks we'll need in the next guides are written in Python or have rich Python wrappers. What are you waiting for?
 
