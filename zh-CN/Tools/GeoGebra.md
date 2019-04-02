@@ -2,7 +2,7 @@
 [GeoGebra](https://www.geogebra.org) (GG) 是一个功能强大的动态数学应用程序，适用于所有级别的教育，它将几何，代数，电子表格，图示器，统计和无穷小计算结合到一个易于使用的单一软件。 GeoGebra 社区正以指数级增长，数百万用户遍布许多国家。 GeoGebra 已成为全球高等数学，科学支持，技术，工程和数学以及教学和学习创新软件的领先提供商。
 
 ## 安装
-GeoGebra 应用程序可以离线使用 [iOS](https://itunes.apple.com/us/app/geogebra-graphing-calculator/id1146717204) ，[Android](https://play.google.com/store/apps/details?id=org.geogebra.android) ，[Windows](https://www.geogebra.org/download) ，Mac，Chromebook 和 Linux。
+GeoGebra 应用程序可以在 [iOS](https://itunes.apple.com/us/app/geogebra-graphing-calculator/id1146717204) ，[Android](https://play.google.com/store/apps/details?id=org.geogebra.android) ，[Windows](https://www.geogebra.org/download) ，Mac，Chromebook 和 Linux 上离线使用。
 
 我们还建议您所有安装人员都必须遵守非商业许可。如果您打算在多个设备上安装 GeoGebra，您可能会对 GeoGebra 大批量生产 感兴趣。
 

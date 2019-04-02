@@ -1,19 +1,19 @@
 # 数据预处理
 
-数据预处理(也称为数据准备，但 “预处理” 听起来更像是魔术) 是[迭代过程](http://www.jsoftware.us/vol12/306-JSW15277.pdf) 的收集，组合，结构化和组织数据，以便将其作为数据可视化，分析和机器学习应用程序的一部分进行分析。
+数据预处理(也称为数据准备，但 “预处理” 听起来更像是魔术) 是 [迭代过程](http://www.jsoftware.us/vol12/306-JSW15277.pdf) 的收集，组合，结构化和组织数据，以便将其作为数据可视化，分析和机器学习应用程序的一部分进行分析。
 
-[真实世界数据](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) 通常不完整，不一致和 / 或缺乏某些行为或趋势，以及很可能包含很多错误。数据预处理是解决此类问题的可靠方法。
+[真实世界数据](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) 通常不完整，不一致，缺乏某些行为或趋势，以及很可能包含很多错误。数据预处理是解决此类问题的可靠方法。
 
 这是任何数据科学家或数据工程师的 [核心能力](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) ，你必须 _能够在日常工作中操作，清理和构造_ 您的数据(除了期望这将充分利用您的 [日常时间](https://www.infoworld.com/article/3228245/the-80-20-data -science-dilemma.html) ！) 。
 
-有很多不同的数据类型，它们值得做出 [不同的处理](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/) 。
+有很多不同的数据类型，它们需要做出 [不同的处理](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/) 。
 像往常一样，我计划让你入门的结构包括 [一般概述](https://searchbusinessanalytics.techtarget.com/definition/data-preparation) ，然后深入了解你可能遇到的每个数据处理情况。
 
-[这里](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) 您可以获得整个过程的温和端到端概览视图。
+[这里](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) 您可以轻松地查看整个过程的端到端全景图。
 
-我们要走的概念如下：
+我们要浏览的概念如下：
 
-- 不要玩数据
+- 不要把数据当玩笑
 - 商业问题
 - 数据分析
 - 谁将落后
@@ -23,14 +23,14 @@
     - 摆脱额外的空格
     - 选择并处理所有空白单元格
     - 转换值类型
-     删除重复项
+    - 删除重复项
     - 将文本更改为小写 / 大写
     - 拼写检查
     - 处理特殊字符
     - 规范日期
     - 验证丰富数据
     - 数据离散化
-    - 特征缩放
+    - 特征缩放
     - 数据清理工具
 - 合并数据集和集成
 - 完整性检查
@@ -38,20 +38,20 @@
 
 ** 开始吧！**
 
-### - 不要和数据玩笑
+### - 不要把数据当玩笑
 首先，[**数据是王**](https://www.edq.com/glossary/data-quality-importance/) 。在 [数据驱动时代](https://www.venturi-group.com/qa-with-helen-mannion/) 中，有 [数据质量问题](https://www.ringlead.com/blog/7-common-data-quality-issues/) 意味着在现在和将来为公司损失巨大的价值。所以，尊重你的国王并关心他。最直接的方法是计划和 [努力工作](https://nektardata.com/high-quality-data/) 来生成高质量的数据。
 您的目标是规划一个预先解决问题的收集数据基础架构。这意味着要非常关心如何规划您的数据库模式(我需要 [第三范式](https://social.technet.microsoft.com/Forums/Lync/en-US/7bf4ca30-a1bc-415d-97e6-ce0ac3137b53/normalized-3nf-vs-denormalizedstar-schema-data-warehouse-?forum=sqldatawarehousing) 或不？ )，如何从传感器(物理或概念) 等收集数据。如果你是从地面建立一个系统，这些都是问题，但你大部分时间都会遇到有人想要解决 [_可用_](https://www.wired.com/insights/2013/05/more-data-more-problems-is-big-data-always-right/) 数据的现实问题。
 
 ### - 商业问题
-询问 [正确的商业问题](https://www.datapine.com/blog/data-analysis-questions/) 很难，但它有关于你解决特定问题 [影响最大](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) 的表现。记住，你想 [解决问题](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2) ，而不是创建新的！
+询问 [正确的商业问题](https://www.datapine.com/blog/data-analysis-questions/) 很难，但它有关于你解决特定问题 [影响最大](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) 的表现。记住，你想 [解决问题](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2) ，而不是创造新的问题！
 
 ### - 数据分析
-根据(冰冷的) [维基百科定义](https://en.wikipedia.org/wiki/Data_profiling) ：“数据分析是检查现有信息源(例如数据库或数据库) 可用数据的过程文件) 并收集统计数据和信息数据摘要。“
+根据(冰冷的) [维基百科定义](https://en.wikipedia.org/wiki/Data_profiling) ：“数据分析是检查现有信息源（例如数据库或文件）可用数据并收集统计数据和信息数据摘要的过程。“
 所以维基百科巧妙地建议我们用数据来喝咖啡。
 
 在这次非正式会议期间，询问以下数据问题：
 - 您打算解决哪个业务问题？ (什么是重要的，什么不是)
-- 你是如何被收集的(有噪音，缺失价......) ？
+- 你是如何被收集的(有噪音，缺失值......) ？
 - 你们有多少朋友在那里，我在哪里可以找到他们？ (数据维度和从存储中检索)
 
 最终，你可能会发现数据太安静了，也许他们只是害羞！
@@ -72,7 +72,7 @@ _最佳实践和练习：_ [1](https://www.iqint.org/idq2013/presentations/downl
 ### - 工具包
 我们将要使用的工具是 Python3 和他的 [Pandas 库](https://pandas.pydata.org/) ，它是操纵数据集的事实上的标准。
 这里繁重的工作是由 [DataFrame 类](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) 完成的，它为您提供了许多有用的功能日常数据任务。
-希望你已经知道 Python，如果不是从那里开始(按照我在 ML 指南要求中建议的步骤) ，然后采取这个 [初学者Pandas 教程](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)。不要担心，如果现在一些想法不完全清楚，但试图了解常见的 [Pandas 操作](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/)。
+希望你已经知道 Python，如果不是从那里开始(按照我在 ML 指南要求中建议的步骤) ，然后采取这个 [初学者 Pandas 教程](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)。不要担心，如果现在一些想法不完全清楚，但试图了解常见的 [Pandas 操作](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/)。
 
 _最佳实践和练习：_ [1](https://github.com/guipsamora/pandas_exercises), [2](https://www.w3resource.com/python-exercises/pandas/index.php), [3](https://www.machinelearningplus.com/python/101-pandas-exercises-python/), [4](https://www.kaggle.com/pistak/pandas-tutorial-with-interactive-exercises), [5](http://disi.unitn.it/~teso/courses/sciprog/python_pandas_exercises.html)
 
@@ -80,8 +80,8 @@ _最佳实践和练习：_ [1](https://github.com/guipsamora/pandas_exercises), 
 [数据清理](https://en.wikipedia.org/wiki/Data_cleansing) 是获取数据的一般过程，在你清楚了解它们之后，你需要实现更换字符的实际过程，去掉不完整的行，填充缺失值等等。在接下来的部分中，我们将探讨所有常见的数据清理情况。
 
 ### - 摆脱额外的空格
-您要做的第一件事就是 [删除多余空格](https://stackoverflow.com/questions/43332057/pandas-strip-white-space) 。照顾自己！有些空格可以携带信息，但在很大程度上取决于具体情况。例如，在“完整名称” 中：“Giacomo Ciarlini”很高兴有空格，所以我们可以稍后将其分为 “名称”：“Giacomo” 和“Surname”：“Ciarlini”。我希望您注意到，除了推荐和建议定制系统之外，名称或 ID 等唯一标识符通常可以放弃。通常，他们不携带信息。
-_奖金提示_：学习如何使用 [Regex](https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/) 进行模式匹配，这是每个数据人需要的强大工具之一主。
+您要做的第一件事就是 [删除多余空格](https://stackoverflow.com/questions/43332057/pandas-strip-white-space) 。小心点！有些空格可能携带信息，但在很大程度上取决于具体情况。例如，在“完整名称” 中：“Giacomo Ciarlini” 很高兴有空格，所以我们可以稍后将其分为 "Name": "Giacomo" 和"Surname": "Ciarlini"。我希望您注意到，除了推荐和建议定制系统之外，名称或 ID 等唯一标识符通常可以放弃。通常，他们不携带信息。
+_额外提示_：学习如何使用 [正则(Regex)](https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/) 进行模式匹配，这是每个数据人需要的强大工具之一主。
 
 _最佳实践和练习：_ [1](https://www.quora.com/How-do-you-remove-all-whitespace-from-a-Python-string), [2](https://towardsdatascience.com/5-methods-to-remove-the-from-your-data-in-python-and-the-fastest-one-281489382455), [3](https://www.tutorialspoint.com/How-to-remove-all-leading-whitespace-in-string-in-Python)
 
@@ -98,7 +98,7 @@ _最佳实践和练习：_ [1](https://www.kaggle.com/nirmal51194/data-cleaning-
 [这里](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) 是一个关于如何转换类型值的好教程。请记住，Python 有一些快捷方式可以执行此操作(执行 str(3) 将返回 “3” 字符串) 但我建议您学习如何使用 Pandas。
 
 ### - 删除重复项
-你不想复制数据，它们都是噪音和占据空格！用 Pandas 学习 [如何处理它们](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) 。
+你不想复制数据，它们都是噪音并占据空间！用 Pandas 学习 [如何处理它们](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) 。
 
 ### - 将文本更改为小写 / 大写
 你想_首字母大写_名称，或者可能使它们统一(有些人可以输入带或不带大写字母的数据！) 。检查 [这里](https://www.geeksforgeeks.org/python-pandas-series-str-lower-upper-and-title/) 以获得 Pandas 的方法。

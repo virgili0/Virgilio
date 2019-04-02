@@ -3,17 +3,18 @@
 
 ## 安装
 Zotero 工具最初是 [Firefox](https://www.clubic.com/telecharger-fiche11003-mozilla-firefox.html) 浏览器的扩展，后来作为 [Windows](https://www.zotero.org/download/) ，[OS](https://www.zotero.org/download/) 和 [Linux](https://www.zotero.org/download/) 独立版本适配 [Chrome](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc) 和 [Opera](https://addons.opera.com/en/extensions/details/zotero-connector/?display=en) 。
+
 #### Windows
 启动已下载的安装程序。
 #### OS
 打开已下载的 `.dmg` 文件后，将 Zotero 拖放到 Applications 文件夹中。然后，您可以从 Spotlight，Launchpad 或 Applications 文件夹启动 Zotero，并像任何其他程序一样将其添加到 Dock 中。
 #### Linux
-要启动 Zotero，请下载 tar 包，解压缩并从 repo 中打开 Zotero。
+要启动 Zotero，请下载 tar 包，解压缩并从库中打开 Zotero。
 
 _安装完成后，请确保您还安装了适合您的浏览器_ 的 Zotero 连接器。
 
 ## 功能特点
-Zotero 的优势在于它可以对保存的页面或部分进行分类，其中您可以添加关键字和类别(文章，博客文章，书籍章节......) 。还可以突出显示句子并在页面上添加注释作为注释。动态搜索引擎终于出现了(在您键入时显示结果)。
+Zotero 的优势在于它可以对保存的页面或部分进行分类，其中您可以添加关键字和类别(文章，博客文章，书籍章节......) 。还可以突出显示句子并在页面上添加注释作为注释。动态搜索引擎入终于实现了(在您键入时显示结果)。
 该工具相对容易学习和使用，已成为许多大学，工程学院和研究中心的经典之作。
 
 ## 将参考文献添加到您的参考书目中
