@@ -51,7 +51,7 @@ Python [诞生](https://en.wikipedia.org/wiki/Python_(programming_language)) 思
 
 现在花点时间阅读本书的 [**第 1 章**](https://automatetheboringstuff.com/chapter1/) 。一定要了解每一步，但可能并不难。在这里，你将对基本算术运算和数据类型充满信心。
 
-[这里](https://realpython.com/python-data-types/) 你可以更深入地了解数据类型，[这里](https://docs.python.org/3/library/datatypes.html ) 你找到 [**官方 Python 文档**](https://docs.python.org/3.7/) 的数据类型部分。
+[这里](https://realpython.com/python-data-types/) 你可以更深入地了解数据类型，[这里](https://docs.python.org/3/library/datatypes.html ) 你找到 [**官方 Python 文档（中文）**](https://docs.python.org/zh-cn/3.7/#) 的数据类型部分。
 作为初学者开始在文档内部走动是一个非常好的练习，即使很多事情都不清楚。事实上，能够探索某些东西的文档是自主学习它的关键。
 [这里](http://blog.techtalentsouth.com/8-tips-to-reading-documentation-a-newbies-guide) 你有一些有效阅读文档的技巧。
 
