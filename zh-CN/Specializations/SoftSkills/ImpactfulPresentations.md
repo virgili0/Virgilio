@@ -25,10 +25,10 @@
 我们必须沟通的经理(经理，客户，同事，部门)
 没有意识到查看数据做出决策的紧迫性！
 
-通过本指南，我想向您介绍有效呈现数据的关键原则以及可以从中得出的结论。 
+通过本指南，我想向你介绍有效呈现数据的关键原则以及可以从中得出的结论。 
 记得！ 你提出的每一个决定都会有一定的风险，即不是正确的（现实世界是基于不可预测和混乱的机制和交互），但所有这一切的重点是尽可能远离 由 haruspex 和他们的弱的和随机取得 50％ 的成功。
 
-在本指南中，我认为您正在展示简单幻灯片的技术支持。
+在本指南中，我认为你正在展示简单幻灯片的技术支持。
 
 ## 先决条件
 没有人！但如果你有时间，请阅读 [本书](https://www.amazon.it/Pyramid-Principle-BarbaraMinto/dp/0273710516) ！
@@ -42,7 +42,7 @@
     - [明智地利用数据能力](#明智地利用数据能力)
 
 - [如何呈现内容](#如何呈现内容)
-    - [与您的受众联系](#与您的受众联系)
+    - [与你的受众联系](#与你的受众联系)
     - [不读](#不读)
     - [有趣](#有趣)
 - [使用幽默](#使用幽默)
@@ -53,17 +53,17 @@
 ## 如何构建内容
 
 ### 了解你的受众
-你在跟经理人或开发人员说话吗？您是在教育您的卖家，还是您必须说服客户的同一卖家？
+你在跟经理人或开发人员说话吗？你是在教育你的卖家，还是你必须说服客户的同一卖家？
 无论如何，第一条规则是 [**了解你的受众**](https://www.asme.org/career-education/articles/public-speaking/public-speaking-know-your-audience) 。
-如果您了解自己的受众，他们的品味和兴趣，您可以以最佳和最有针对性的方式构建您的演示文稿。 [这里](https://www.ethos3.com/2009/10/5-ways-to-get-to-know-your-audience/) 您还可以找到 5 种方法。
+如果你了解自己的受众，他们的品味和兴趣，你可以以最佳和最有针对性的方式构建你的演示文稿。 [这里](https://www.ethos3.com/2009/10/5-ways-to-get-to-know-your-audience/) 你还可以找到 5 种方法。
 
 ### 开发高质量的内容
-内容是演示文稿的核心。虽然下面的所有其他想法将帮助您提高内容的效率，但精彩的演示文稿会以精彩的内容开始和结束。因此，请不要通过缩短开发内容的工作量来缩短受众群体。如果您想创建一个受众喜爱的演示文稿，您将需要投入大量时间进行研究，撰写和提出反馈。你想要尽可能地改进你的材料，但不要过度准备一切，否则，你会显得过于僵化和人为：我们会看到本指南中的一个关键点是 “真实的”。
+内容是演示文稿的核心。虽然下面的所有其他想法将帮助你提高内容的效率，但精彩的演示文稿会以精彩的内容开始和结束。因此，请不要通过缩短开发内容的工作量来缩短受众群体。如果你想创建一个受众喜爱的演示文稿，你将需要投入大量时间进行研究，撰写和提出反馈。你想要尽可能地改进你的材料，但不要过度准备一切，否则，你会显得过于僵化和人为：我们会看到本指南中的一个关键点是 “真实的”。
 
 ### 构建结构
-我强烈建议您建立一个有机结构，然后在演示文稿中遵循。
+我强烈建议你建立一个有机结构，然后在演示文稿中遵循。
 
-[这里](https://virtualspeech.com/blog/how-to-structure-your-presentation) 您可以很好地了解 “如何构建结构”。
+[这里](https://virtualspeech.com/blog/how-to-structure-your-presentation) 你可以很好地了解 “如何构建结构”。
 [这里](https://visme.co/blog/presentation-structure/) 你找到了 7 个常见的结构。
 一个简单而着名的结构是 3-act 结构。
 
@@ -71,9 +71,9 @@
 
 **1** - 第一步是介绍，演示文稿的设置。这是你吸引受众注意力的那一刻，让他们期待从中获得什么，以及继续倾听的理由。
 
-**2** - 中间步骤是您支持他们的兴趣的时刻。您通常会详细说明问题，并在您一路教育和提供信息的同时提供解决方案。在这里，您真正建立自己的案例并出售优惠。您可以在此处提供引人注目的示例，数据，统计信息等，以支持您的观点。
+**2** - 中间步骤是你支持他们的兴趣的时刻。你通常会详细说明问题，并在你一路教育和提供信息的同时提供解决方案。在这里，你真正建立自己的案例并出售优惠。你可以在此处提供引人注目的示例，数据，统计信息等，以支持你的观点。
 
-**3** - 最后一步是您解决问题，总结并提醒受众您的演示文稿的亮点。然后给受众留下行动号召和实用点列表。受众应该从你的演讲中带走什么？这应该在结束步骤中明确定义。此外，最后的故事或插图以及受众提出的问题是结束演示并帮助人们记住您的话语感的好方法。
+**3** - 最后一步是你解决问题，总结并提醒受众你的演示文稿的亮点。然后给受众留下行动号召和实用点列表。受众应该从你的演讲中带走什么？这应该在结束步骤中明确定义。此外，最后的故事或插图以及受众提出的问题是结束演示并帮助人们记住你的话语感的好方法。
 
 ### 少即是多
 包含信息的幻灯片不一定能使它们更有效。实际上，通常会产生相反的效果，产生令人困惑的幻灯片，而不是为演示文稿增加价值。
@@ -85,13 +85,13 @@
 据蜘蛛侠的叔叔说：
 > 从伟大的力量来承担巨大的责任。
 
-根据您使用它们的方式，数据可以在演示期间提供帮助或您的敌人，尤其是您以图形方式显示它们。不要在演示文稿中放入太多数据(请记住，Less is More) ！
+根据你使用它们的方式，数据可以在演示期间提供帮助或你的敌人，尤其是你以图形方式显示它们。不要在演示文稿中放入太多数据(请记住，Less is More) ！
 拿这个 [awesome read](https://moz.com/blog/data-visualization-principles-lessons-from-tufte) ，然后找 [这里](http://mkweb.bcgsc.ca/talks/datavisualization/ datavisualization.pdf) 我所说的很好的例子。
 
 ## 如何呈现内容
 
-### 与您的受众联系
-首先，您需要 [创建一个链接](https://www.forbes.com/sites/lisaroepe/2017/03/14/6-ways-to-connect-with-your-audience-during-a-presentation/#73e158396516) 你和你的受众之间。通过这种方式，他们会跟随你，因为他们相信你对他们有用，你真的希望他们学到一些东西。我喜欢称这个过程为 “建立信任”(https://www.trainingjournal.com/articles/opinion/how-build-trust-audience-when-making-presentation) 。
+### 与你的受众联系
+首先，你需要 [创建一个链接](https://www.forbes.com/sites/lisaroepe/2017/03/14/6-ways-to-connect-with-your-audience-during-a-presentation/#73e158396516) 你和你的受众之间。通过这种方式，他们会跟随你，因为他们相信你对他们有用，你真的希望他们学到一些东西。我喜欢称这个过程为 “建立信任”(https://www.trainingjournal.com/articles/opinion/how-build-trust-audience-when-making-presentation) 。
 
 ### 不读
 真的，不要这样做。阅读幻灯片会让受众感到厌烦，你似乎也不那么自信了。
@@ -103,7 +103,7 @@
 
 ### 使用幽默
 如果你在这里，那主要是因为我引起了你的注意并引起你的注意。这个游戏的很大一部分是由幽默扮演的。
-[这里](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) 你可以学习如何在你的作品中嵌入幽默，[这里](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) 您可以在演讲中学习如何做到这一点。
+[这里](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) 你可以学习如何在你的作品中嵌入幽默，[这里](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) 你可以在演讲中学习如何做到这一点。
 
 ### 实用的故事讲述者
 一个阳光明媚的早晨，在公元前 44 年。
@@ -118,7 +118,7 @@
 
 这是在讲故事。
 
-您可以注意到以下几点：
+你可以注意到以下几点：
 - 连贯的流量(我没有即兴发挥。)
     - 设置
     - 故事
@@ -133,10 +133,10 @@
 
 以连贯的方式应用 [StoryTelling](https://blog.hubspot.com/marketing/storytelling) 。
 
-您越真实，内心和暗示，您的受众就越会信任您并记住
+你越真实，内心和暗示，你的受众就越会信任你并记住
 概念。
 [这里](https://www.youtube.com/watch?v=Nj-hdQMa3uA) 简要介绍一下 Ted。
-[这里](https://www.articulatemarketing.com/blog/22-rules-of-storytelling-from-pixar) 您可以找到皮克斯的一个很棒的讲故事最佳实践列表。
+[这里](https://www.articulatemarketing.com/blog/22-rules-of-storytelling-from-pixar) 你可以找到皮克斯的一个很棒的讲故事最佳实践列表。
 [这里](https://visme.co/blog/visual-storytelling-rules/) 你找到了视觉叙事的经验法则。
 
 ----
