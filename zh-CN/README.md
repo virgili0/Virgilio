@@ -68,10 +68,10 @@
 ### [Latex](Tools/Latex.md)
 ### [Wolfram Alpha](Tools/WolframAlpha.md)
 ### [GeoGebra](Tools/GeoGebra.md)
-### [RegeX](Tools/Regex.ipynb)
-### 很快就要来了！
+### [正则表达式](Tools/Regex.ipynb)
+### 即将推出
 
-# 话题
+# 主题
 ### [DialogFlow 和 Flask 打造 ChatBot](Topics/DialogFlow.md)
 
 # 研究
