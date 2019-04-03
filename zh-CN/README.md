@@ -97,3 +97,7 @@
 “工具” 部分将提供有关你需要了解的特定技术 / 语言 / 方法的所有指南！它们将为你提供彻底探索和掌握手头工具的方法。
 
 # [订阅我们新闻发布和更新的FACEBOOK组](https://www.facebook.com/groups/mathfordatascience/)
+
+# 翻译人员
+
+[@jiaxianhua](https://github.com/iOSDevLog) (iOSDevLog)
