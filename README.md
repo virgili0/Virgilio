@@ -1,4 +1,4 @@
-![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.png "1") 
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_eng.png "1") 
 
 [简体中文](zh-CN/README.md)
 
