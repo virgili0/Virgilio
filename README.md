@@ -79,7 +79,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 
 # Research
 ### [Zotero](Research/Zotero.md)
-### State-of-art papers [Coming Soon]
+### [State-of-Art Papers Explained](Research/Papers.md)
 
 # About Specializations
 
