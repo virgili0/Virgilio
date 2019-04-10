@@ -1,4 +1,4 @@
-# Basic Python
+# 基础 Python
 
 ## 本指南的范围和结果
 
@@ -29,7 +29,7 @@ Python 易于理解，易于阅读，功能强大且灵活，可以帮助你完�
 # 索引
 - [简介](#简介)
 - [Python 基础知识](#Python-基础知识)
-- [流量控制](#流量控制)
+- [流程控制](#流程控制)
 - [函数](#函数)
 - [结构化数据](#结构化数据)
 - [操纵字符串](#操纵字符串)
@@ -57,7 +57,7 @@ Python [诞生](https://en.wikipedia.org/wiki/Python_(programming_language)) 思
 
 到目前为止，我们只是抓住了 Python 能力的表面：下一步是理解流控制，这是编程中最重要的概念之一。
 
-## 流量控制
+## 流程控制
 你可以使用条件和循环来控制程序的流程。
 
 **if 语句** 验证条件，可以是 True 或 False，并为这两种情况提供不同的行为。
@@ -91,7 +91,7 @@ Python [诞生](https://en.wikipedia.org/wiki/Python_(programming_language)) 思
 现在阅读本书的 [**第 2 章**](https://automatetheboringstuff.com/chapter2/) 。流控制是编程的核心概念之一，因此请务必理解它。
 
 _挑战自己_：
-- [这里](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) 你有大约 20 个关于流量控制的练习。在继续之前一定要解决所有问题。
+- [这里](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) 你有大约 20 个关于流程控制的练习。在继续之前一定要解决所有问题。
 
 ## 函数
 函数是完成特定任务的 “自包含” 代码模块。函数通常 “接收” 数据，处理数据并 “返回” 结果。一旦写入函数，就可以反复使用它。可以从其他函数内部 “调用” 函数。
