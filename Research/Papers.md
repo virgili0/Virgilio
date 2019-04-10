@@ -11,7 +11,7 @@ The networks allows for the pose estimation to be obtained in about 50 milliseco
 
 * **February - [SC-FEGAN: Face-Editing GAN](https://arxiv.org/pdf/1902.06838.pdf)**
 
-This AI is a able to generate realistic images from a set of controllable patterns. It builds on a couple of previous papers in the field - the first is the paper that generates an image from a sparse description (such as a written sentence, and the second is the paper which allows for facial features on images to be customised (such as merging two different faces).
+This AI is a able to generate realistic images from a set of controllable patterns. It builds on a couple of previous papers in the field - the first is the paper that generates an image from a sparse description (such as a written sentence), and the second is the paper which allows for facial features on images to be customised (such as merging two different faces).
 
 This technique allows us to edit more specific factors - for example, put a smile on someone’s face or remove the sunglasses of an individual. Colour can also be changed - for example, the colour of one’s eye can be manipulated. It is extremely fast, and takes just 50 milliseconds to create these images with 512 x 512 images. 
 

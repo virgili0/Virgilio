@@ -76,7 +76,7 @@
 
 # 研究
 ### [Zotero](Research/Zotero.md)
-### 最新论文 [即将推出]
+### [最新论文解释](Research/Papers.md)
 
 # 关于专业化
 
