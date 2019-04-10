@@ -1,6 +1,4 @@
-![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.png "1") 
-
-[简体中文](zh-CN/README.md)
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_eng.png "1") 
 
 ## What Is This Place?
 
@@ -11,6 +9,8 @@ Have you ever felt overwhelmed when trying to approach a new subject without a r
 Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil). 
 
 Like I did with Dante, just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more. 
+
+You can read me in **[简体中文](zh-CN/README.md)**.
 
 ## How Did I Do This?
 
@@ -79,7 +79,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 
 # Research
 ### [Zotero](Research/Zotero.md)
-### State-of-art papers [Coming Soon]
+### [State-of-Art Papers Explained](Research/Papers.md)
 
 # About Specializations
 
