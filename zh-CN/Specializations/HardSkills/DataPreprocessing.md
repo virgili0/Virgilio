@@ -4,7 +4,7 @@
 
 [真实世界数据](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) 通常不完整，不一致，缺乏某些行为或趋势，以及很可能包含很多错误。数据预处理是解决此类问题的可靠方法。
 
-这是任何数据科学家或数据工程师的 [核心能力](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) ，你必须 _能够在日常工作中操作，清理和构造_ 你的数据(除了期望这将充分利用你的 [日常时间](https://www.infoworld.com/article/3228245/the-80-20-data -science-dilemma.html) ！) 。
+这是任何数据科学家或数据工程师的 [核心能力](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) ，你必须 _能够在日常工作中操作，清理和构造_ 你的数据(除了期望这将充分利用你的 [日常时间](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html) ！) 。
 
 有很多不同的数据类型，它们需要做出 [不同的处理](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/) 。
 像往常一样，我计划让你入门的结构包括 [一般概述](https://searchbusinessanalytics.techtarget.com/definition/data-preparation) ，然后深入了解你可能遇到的每个数据处理情况。
