@@ -10,7 +10,7 @@ Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil).
 
 Like I did with Dante, just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more. 
 
-You can read me **[简体中文](zh-CN/README.md)**.
+You can read me in **[简体中文](zh-CN/README.md)**.
 
 ## How Did I Do This?
 
