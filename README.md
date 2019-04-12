@@ -68,10 +68,11 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ## Pragmatic Decision Making  [Coming Soon]
 
 # Tools
-### [Latex](Tools/Latex.md) 
+### [Latex](Tools/Latex.md)
 ### [Wolfram Alpha](Tools/WolframAlpha.md)
 ### [GeoGebra](Tools/GeoGebra.md)
 ### [RegeX](Tools/Regex.ipynb)
+### [MLDemos](Tools/MLDemos/README.md)
 ### A Lot More Coming Soon!
 
 # Topics
