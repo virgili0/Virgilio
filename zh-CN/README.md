@@ -100,4 +100,4 @@
 
 # 翻译人员
 
-[@jiaxianhua](https://github.com/iOSDevLog) (iOSDevLog)
+[@jiaxianhua](https://github.com/iOSDevLog) (iOSDevLog) [@TaoTianli](https://github.com/taotianli)
