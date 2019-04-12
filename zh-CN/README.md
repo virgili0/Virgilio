@@ -69,6 +69,7 @@
 ### [Wolfram Alpha](Tools/WolframAlpha.md)
 ### [GeoGebra](Tools/GeoGebra.md)
 ### [正则表达式](Tools/Regex.ipynb)
+### [MLDemos](Tools/MLDemos/README.md)
 ### 即将推出
 
 # 主题
