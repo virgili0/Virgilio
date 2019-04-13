@@ -69,6 +69,7 @@
 ### [Wolfram Alpha](Tools/WolframAlpha.md)
 ### [GeoGebra](Tools/GeoGebra.md)
 ### [正则表达式](Tools/Regex.ipynb)
+### [MLDemos](Tools/MLDemos/README.md)
 ### 即将推出
 
 # 主题
@@ -100,4 +101,4 @@
 
 # 翻译人员
 
-[@jiaxianhua](https://github.com/iOSDevLog) (iOSDevLog)
+[@jiaxianhua](https://github.com/iOSDevLog) (iOSDevLog) [@TaoTianli](https://github.com/taotianli)
