@@ -12,6 +12,8 @@ Like I did with Dante, just some centuries ago, I'll be your mentor and referenc
 
 You can read me in **[简体中文](zh-CN/README.md)**.
 
+If you like Virgilio, [**fill this form**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new feee guide comes out.
+
 ## How Did I Do This?
 
 I've tried to be concise to avoid information overhead.
