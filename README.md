@@ -79,6 +79,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 
 # Topics
 ### [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
+### [Computer Vision for Beginner](Topics/Computer%20Vision/ComputerVisionForBeginner.ipynb)
 
 # Research
 ### [Zotero](Research/Zotero.md)
