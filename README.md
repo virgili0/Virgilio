@@ -78,7 +78,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ### A Lot More Coming Soon!
 
 # Topics
-### [Chatbots with DialogFlow and Flask](Topics/DialogFlow.md)
+### [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
 ### [Computer Vision - Face Detection with OpenCV](Topics/Computer%20Vision/ComputerVisionForBeginner.ipynb)
 
 # Research
