@@ -80,6 +80,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 # Topics
 ### [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
 ### [Computer Vision - Face Detection with OpenCV](Topics/Computer%20Vision/ComputerVisionForBeginner.ipynb)
+### [Computer Vision - Feature Detection and Object Classification with OpenCV](Topics/Computer%20Vision/MiddleLevelofComputerVision.ipynb)
 
 # Research
 ### [Zotero](Research/Zotero.md)
