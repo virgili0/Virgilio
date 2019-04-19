@@ -66,7 +66,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ## Data Visualization  [Coming Soon]
 
 ## Effective Communication [Coming Soon]
-## [Impactful Presentations -- **NEW**](Specializations/SoftSkills/ImpactfulPresentations.md)
+## [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
 ## Pragmatic Decision Making  [Coming Soon]
 
 # Tools
