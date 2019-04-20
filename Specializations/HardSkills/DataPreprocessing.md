@@ -164,4 +164,6 @@ _Best practices and exercises:_ [1](https://blog.panoply.io/5-data-preparation-t
 ### Conclusions
 Now you're ready to take your data and play with them in a variety of ways, and you have a nice panoramic overview of the entire process. You can refer to this page when you clean data, to check if you're not missing some steps. Remember that probably each situation requires a subset of these steps.
 
+-------------------------
+Written by _clone 95_
 
