@@ -63,7 +63,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 # Specializations
 ## [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
 ## Data Collection  [Coming Soon - Next]
-## Data Visualization  (Specializations/HardSkills/DataVisualization.md)
+## [Data Visualization](Specializations/HardSkills/DataVisualization.md)
 
 ## Effective Communication [Coming Soon]
 ## [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
