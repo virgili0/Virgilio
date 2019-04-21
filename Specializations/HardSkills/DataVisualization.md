@@ -271,11 +271,11 @@ I really love data visualization and during the last years, I've collected a lot
 - [Storytelling with Data blog](http://www.storytellingwithdata.com/)
 
 ### Wrapping up and looking forward
-What I've tried to here is to list a map of the most useful resources about data visualization (I've searched and compared a lot of them), trying to give you a reference point of the subject.\ 
+What I've tried to here is to list a map of the most useful resources about data visualization (I've searched and compared a lot of them), trying to give you a reference point of the subject.\
 As I suggested to you earlier, the only way to become really comfortable with something is to face it in the first person. So the best tip I can give you is "find your project". 
 
 - Choose an argument that interests you in some way. You can find a lot o free public dataset to experiment with. Check your country websites or enter [Kaggle](https://www.kaggle.com/) or  [UCI](https://archive.ics.uci.edu/ml/index.php) to find a lot of them. 
-- Plot the data in every way you can experiment, applying the techniques you will see.
+- Plot the data in every way you can experiment, applying the techniques you have seen.
 - Inspire yourself watching how people visualized similar datasets. Search in Kaggle for "Visualization" and you'll be stunned by the number of examples.
 
 It's better to be proficient in one tool and barely know other ones, than being the jack of all trades but masters of none. So, I suggest you choose the tool that inspires you more and diving deep into that. In fact, the tools we've seen overlap with each other in many ways, but they are different in scale and approach.
