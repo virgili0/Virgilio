@@ -370,6 +370,7 @@ During the last few years I collected tons of articles, web apps, reddit threads
 
 ### Websites worth taking a look!
 
+- [A super curated list of Data Science resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/README.md)
 - [The best machine learning **short** book I've ever read](https://www.ibm.com/downloads/cas/GB8ZMQZ3)
 - [A monster collection of Data related free course](https://github.com/kmario23/deep-learning-drizzle)
 - [Machine Learning Map](http://www.saedsayad.com/data_mining_map.htm) 
@@ -394,22 +395,6 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [10 awesome subreddits related to data science](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
 - [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
 
-## Next Steps Roadmap
 
-Thanks to the great success of this guide,  i've decided to expand it a lot and make more similar for different topics.
-Some of the extensions i'm adding here during the next weeks are:
 
-- Unsupervised Learning : **done**
-- Machine Learning mindset framework (how to think like a data scientist)
-- Data processing and preparation with Pandas
-- Feature Selection
-- Features Engineering
-- Extending the parameters optimization section
-- Keras Library
-- TensorFlow 2.0 
-- How to deploy my model on AWS
-- How to deploy my model on Azure
 
-Later on, i'll do an entire guide on Cloud Computing with AWS and Azure!
-
-### ... Coming Very Soon! Stay tuned :)
