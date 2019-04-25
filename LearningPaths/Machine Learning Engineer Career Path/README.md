@@ -256,6 +256,7 @@ _Tips & Best practices:_
 
 ### CNN - Convolutional Neural Networks
 _First look (in order):_
+- [Here](http://cs231n.github.io/convolutional-networks/)'s your reference, love it!
 - [Here](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) is an awesome deep explanation. 
 - [Here](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8) another super good one.
 - [Here](https://developers.google.com/machine-learning/practica/image-classification/) is a serious CNN tutorial from Google.
