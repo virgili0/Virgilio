@@ -1,7 +1,6 @@
-# ☁️☁️Deep-learning-in-cloud☁️☁️
-Ever had a laptop 💻 which is not powerful enough to run your models , forget about it and use **Cloud GPUs** ☁️ to train your model faster and cheaper cuz its raining 💦 Cloud GPUs
+# Deep learning in cloud
 
-
+Ever had a laptop which is not powerful enough to run your models? Forget about it and use **Cloud GPUs** to train your model faster and cheaper!
 
 * Also get to know where you can [**deploy**](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/README.md#deploy-your-model-as-a-web-app) your model to serve millions of people
 
@@ -82,16 +81,4 @@ If you are a student or researcher you can get extra credts , contact the provid
 * Information given above is best to my searching ability , you may recheck with the provider for pricing and other info
 * [license](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/LICENSE)
 
-* Check out my other repo where I put together Awesome google colab notebook - [link](https://github.com/zszazi/awesome-collection-of-google-colab-notebooks)
 
-
-
-
-
-
- **PS**:Motivation for this repo - Cuz I dont have a GPU laptop so I keep on looking for free gpu providers and have bookmarked a lot of them , now I am sharing these with you
- 
- 
- 
- 
-  <p align="center"> Made with ❤️ for awesome AI community </p>
