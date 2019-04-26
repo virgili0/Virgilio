@@ -1,5 +1,5 @@
-# ☁️☁️Deep-learning-in-cloud☁️☁️
-Ever had a laptop 💻 which is not powerful enough to run your models , forget about it and use **Cloud GPUs** ☁️ to train your model faster and cheaper cuz its raining 💦 Cloud GPUs
+# Deep-learning-in-cloud
+Ever had a laptop which is not powerful enough to run your models , forget about it and use **Cloud GPUs** ☁️ to train your model faster and cheaper cuz its raining Cloud GPUs
 
 
 
@@ -11,7 +11,7 @@ Last updated : 20 April 2019
 
  |# | Cloud vendor   |      Website      |  Pricing | Free Trial / Free Credits | 
 | ---|----------|---------| -------- | ----------|
-|1 | Google Colaboratory❤️ | https://colab.research.google.com | FREE | FREE FOREVER* | 
+|1 | Google Colaboratory | https://colab.research.google.com | FREE | FREE FOREVER* | 
 |2 | Kaggle Kernels |   https://www.kaggle.com |  FREE | FREE FOREVER* |
 |3| Tensorpad | https://www.tensorpad.com |  1080ti at $0.49/hour | 5 free GPU hours |
 |4| FloydHub | https://www.floydhub.com | https://www.floydhub.com/pricing | free 2 GPU powerups in 14 days [trial plan](https://docs.floydhub.com/faqs/plans/#what-is-in-the-trial-plan) |
@@ -49,7 +49,7 @@ Last updated : 20 April 2019
 
 
 # Deploy your model as a Web app
-Have an idea and want to serve to world 🌎 , create a Webapp and deploy it as a flask , Django  etc
+Have an idea and want to serve to world, create a Webapp and deploy it as a flask, Django  etc
 
  |# | Vendor   |      Website      |  Pricing | Free Trial / Free Credits |
 | ---|----------|---------| -------- | ----------|
@@ -95,3 +95,6 @@ If you are a student or researcher you can get extra credts , contact the provid
  
  
   <p align="center"> Made with ❤️ for awesome AI community </p>
+  
+  ___
+  Written by *zszazi*
