@@ -213,7 +213,7 @@ This iterative process (1-2-2-2-2.....-3) can be repeated as many times as you w
 
 In each section I've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3rd step).
 
-The structure follows the track proposed by the awesome Stanford course. You can find the slides [here](http://cs231n.stanford.edu/slides/2018/).
+The structure follows the track proposed by the awesome Stanford course. You can find the slides [here](http://cs231n.github.io/).
 
 [This](http://introtodeeplearning.com/) is an alternative course from MIT, more or less the same contents. It's worth watching it to compare and have a different point of view on the things you are learning, besides listening 2X to the best professors of the world exploring each topic.  
 
