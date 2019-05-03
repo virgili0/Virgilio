@@ -49,7 +49,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 
 # New To Data Science?
 ### [Basic Python](NewToDataScience/PythonBasic.md)
-### Basic Math  --  Coming Soon
+### Basic Math  --  UNDER CONSTRUCTION 
 ### Advanced Python  --  Coming Soon
 ### Advanced Math  --  Coming Soon
 ### [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
