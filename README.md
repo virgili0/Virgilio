@@ -81,6 +81,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ### [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
 ### [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
 ### [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
+### [Demystification and clarification of the key concepts of Artificial Intelligence and Machine Learning](Tools/Demystification.md)(Topics/Deep%20learning%20in%20cloud)
 
 # Research
 ### [Zotero](Research/Zotero.md)
