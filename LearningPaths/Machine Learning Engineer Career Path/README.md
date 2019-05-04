@@ -238,7 +238,9 @@ Again, some theoretical concepts might be unclear, but focus on how the TensorFl
 [This](https://www.youtube.com/watch?v=k5c-vg4rjBw&t=246s) is about the TensorFlow 2.0 update. 
 These [1](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/) and [2](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-2/) explain the "hard" things to grasp of TensorFlow. Highly recommended.
 
-Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale Neural Networks. 
+A fundamental tool to know very well is **TensorBoard**. [Here](https://www.datacamp.com/community/tutorials/tensorboard-tutorial)'s a get started tutorial. TensorBoard gives you insights and data about _how things are going_ during training inside your neural network.
+
+Now you're most likely familiar with **TensorFlow as a tool**, and it's time to understand **how to use** it to build large scale neural networks. Check the official [Google's user guide](https://www.tensorflow.org/tensorboard/r1/overview) too.
  
 ### ANN - Artificial Neural Networks 
 _First look (in order):_
