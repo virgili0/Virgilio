@@ -8,7 +8,7 @@ However, the biological analogy is limited, since it is not necessary for the se
 Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of programming a machine so that it can learn to perform a task from the data, rather than through programming.
 Deep Learning is a subset of the Machine Learning field a further ensemble of techniques and algorithms that exploit neural networks for the solution of problems such as Computer Vision or Natural Language Understanding. 
 
-![Figure 1-1](https://github.com/clone95/Virgilio/tree/master/Tools/sets.PNG "1") 
+![Figure 1-1](https://github.com/clone95/Virgilio/tree/master/Topics/sets.PNG "1") 
 
 ## Definition
 
