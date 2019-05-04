@@ -1,12 +1,14 @@
 ## What is Artificial Intelligence, Machine Learning and Deep Learning
 
-With this high-level guide, I want to clarify ideas about terms that involve terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the Jargon of these incredible themes in continuous evolution. You will understand the hierarchy and contexts in which to read any news or fact that mentions AI or Machine Learning.
+With this high-level guide, I want to clarify ideas about terms that involve terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the [Jargon](https://en.wikipedia.org/wiki/Jargon) of these incredible themes in continuous evolution. You will understand the hierarchy and contexts in which to read any news or fact that mentions AI or Machine Learning.
 
 The term Machine Learning is often confused with the term Artificial Intelligence (AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of Machine Learning (abbreviated to ML). The objective of the AI field is to create "intelligent" agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
 If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears...), the intelligence is that of our brain and the actuators can be the hands, feet or more generally the muscles. 
 However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of programming a machine so that it can learn to perform a task from the data, rather than through programming.
 Deep Learning is a subset of the Machine Learning field a further ensemble of techniques and algorithms that exploit neural networks for the solution of problems such as Computer Vision or Natural Language Understanding. 
+
+![Figure 1-1](https://github.com/clone95/Virgilio/tree/master/Tools/sets.PNG "1") 
 
 ## Definition
 
