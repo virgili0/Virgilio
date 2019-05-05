@@ -99,3 +99,7 @@ Below is a figure that represents three different situations where a model must 
 - Underfitting, the model is too simple (for example, a linear model) and fails to grasp the complexity of the dataset
 - Fitting appropriate, the model grasps the general "idea" of how the data is distracted, which does not try to change too much to represent each point
 - Overfitting, the model modifies itself heavily to represent every point, but consequently "memorizes" the data of training, struggling, therefore, to generalize later.
+
+------------------
+
+Written by _clone95_
