@@ -82,6 +82,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 ### [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
 ### [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
 ### [Demystification and clarification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+### [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
 
 # Research
 ### [Zotero](Research/Zotero.md)
