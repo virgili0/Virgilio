@@ -87,3 +87,7 @@ Now you should be more comfortable with high-level ideas of the concepts of AI a
 You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
 If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
 
+------------------
+
+Written by _clone95_
+
