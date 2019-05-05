@@ -19,7 +19,13 @@ The most common learning mode is **supervised learning**. It consists of trainin
 An example of a "labeled" data could be the image of a car (the actual data) with the assigned car model (the label).
 Once an ML system has been trained on the data and their labels, the system can input a new image and output its (supposed) label! The metrics to measure the system's "skill" in assigning the right label are various and will be examined in more detail in different guides.   
 
-The two most common tasks that can be tackled with supervised learning are classification and regression. A **classification** problem consists of assigning a discrete label to new input. It can be a numerical value or a category (e.g. given a picture to say if it represents a dog or a cat), but in any case, it is contained in a well-defined set of options. A problem of **regression** instead consists in assigning a continuous value to the new data, for example the temperature given a moment of the year (obviously the temperature is an assigned value is a finite for practical reasons, for example, 29.34°, but the idea of regression is that the output is included in a continuous interval and not a finite set).
+The two most common tasks that can be tackled with supervised learning are classification and regression. A **classification** problem consists of assigning a discrete label to new input. It can be a numerical value or a category (e.g. given a picture to say if it represents a dog or a cat), but in any case, it is contained in a well-defined set of options.
+
+![Figure 1-1](./classification.png) 
+
+A problem of **regression** instead consists in assigning a continuous value to the new data, for example the temperature given a moment of the year (obviously the temperature is an assigned value is a finite for practical reasons, for example, 29.34°, but the idea of regression is that the output is included in a continuous interval and not a finite set).
+
+![Figure 1-1](./regression.png) 
 
 The example we'll use to explain the difference between model-based model and instance-based model is a typical example of a regression problem (in this case linear because the straight function approximates well my distribution of points).
  
@@ -55,14 +61,15 @@ Model-based systems aim to create a representation of knowledge (a model), which
  given a series of coordinates (datum: X, Y) that constitutes our "knowledge" try to, given the X of a new point, understand which Y is the most appropriate. 
 A strategy could be to compare the value of X of the point with that of the known points, take the nearest known point in terms of distance, and assign its Y to the new point.
 
-------
+![Figure 1-1](./instance.png) 
 
 However, this approach is very simplistic and is based on the strong assumption that the position of a new point is determined univocally by its closest neighbor.
 The system learns its knowledge "by heart" and applies it blindly to new cases, applying some measure of similarity (in this case, the distance relative to the dimension X) concerning those stored.
 The other approach that can be used to generalize new cases starting from the old ones, could be to create a "representation" or "idea" of how the data I have been made (the grey dots in figure 4) and use this "idea" (the model) to produce the Y of the new points. 
 A model is, therefore, a set of parameters that, when properly adjusted, can provide a good estimate of Y, given the X of a new point. In our case, we imagine that our model is the straight line that best approximates the series of gray points. Our parameters are the slope and the intercept of the line, and the training process of the model consists in understanding what are the numerical values of these two parameters. 
 
- ------
+![Figure 1-1](./model.png) 
+
 A Machine Learning model, here in its simplest version (two parameters), sometimes consists of tens of thousands or even millions of parameters. To train them, and therefore find the "good values" of the parameters, a lot of computing power is needed, and the optimization of the process of training the models is a heartfelt and urgent topic of research.
 
 ## Main challenges of Machine Learning
