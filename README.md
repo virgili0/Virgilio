@@ -79,7 +79,7 @@ My prices: I'm here for you, for free. If you find me helpful in some way, I jus
 
 # Topics
 ## High Level Topics
-### [1 - Demystification and clarification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+### [1 - Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
 ### [2 - Introduction to ML systems](Topics/MLSystems.md)
 ### [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
 ## Low Level Topics
