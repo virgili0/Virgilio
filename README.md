@@ -26,7 +26,7 @@ You do not require any prior knowledge of the topics, but be confident with prog
 
 Every source listed here is free or open source. 
 
-My biggest interest is Data Science since I tried to predict the fall of Jerusalem, but you know, at that time we didn't have so much computational power!
+My biggest interest is Data Science since I tried to predict the fall of Rome, but you know, at that time we didn't have so much computational power!
 
 ## What Can You Find Here?
 
