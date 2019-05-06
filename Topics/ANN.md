@@ -36,3 +36,13 @@ In practice, a single artificial neuron is useless in solving problems, because 
 In the image, the network has an input layer with 3 neurons, a hidden layer with 4, and an out with 2 (binary classification). In this case the network has, without counting the inputs, [3 x 5]+[5 x 2] + 5 (bias hidden) + 2 (bias output) = 27 modifiable parameters. Modern networks with hundreds of millions of parameters are organized in approximately 15-25 levels. 
 Another name used for multi-layer neural networks is MPL (Multi-Layer Perceptron).
 This kind of neural network is called a feed-forward neural network because the data is only propagated "forward". There are other types of networks (RNN) whose neurons instead see the passage of the same data several times, and implement the concept of "memory" of the network. These are widely used in the recognition of human language, where subjects change from sentence to sentence, but often the context remains the same and must be "remembered" by the network as new sentences are interpreted. 
+
+Hopefully you're now familiar with the concept of Artificial Neural Network. In the next high level guides we'll see how to build and train this kind of network to tackle classification problems.
+
+If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
+
+
+------------------
+
+Written by _clone95_
+
