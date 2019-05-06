@@ -31,7 +31,7 @@ To encode the concept of "activation threshold" we use a number called bias that
 ## Introduction to neural networks
 In practice, a single artificial neuron is useless in solving problems, because it is too simple a model. But by structuring many copies of this neuron into hierarchical levels, complex structures can be created that are able, for example, to capture the complexity of an image and classify it. The term neural network refers to a series of neurons connected together in an acyclic graph, organized into layers. The most basic layer is made up of a certain number of neurons that are connected to all the neurons of the next layer (but not to the neurons on the same layer) and is called fully-connected layer. A neural network that has at least one layer in addition to input and output is called a deep neural network, where the hidden layers are the internal ones.
 
-![Figure 1-1](./net.png) 
+![Figure 1-1](./net1.png) 
 
 In the image, the network has an input layer with 3 neurons, a hidden layer with 4, and an out with 2 (binary classification). In this case the network has, without counting the inputs, [3 x 5]+[5 x 2] + 5 (bias hidden) + 2 (bias output) = 27 modifiable parameters. Modern networks with hundreds of millions of parameters are organized in approximately 15-25 levels. 
 Another name used for multi-layer neural networks is MPL (Multi-Layer Perceptron).
