@@ -58,7 +58,7 @@
 # 专业化
 ## [数据预处理](Specializations/HardSkills/DataPreprocessing.md)
 ## 数据收集 [即将推出 - 下一步]
-## 数据可视化 [即将推出]
+## [数据可视化](Specializations/HardSkills/DataVisualization.md)
 
 ## 有效沟通 [即将推出]
 ## [有效陈述 - **新**](Specializations/SoftSkills/ImpactfulPresentations.md)

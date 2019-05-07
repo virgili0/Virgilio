@@ -43,7 +43,7 @@ def read_mds(dir_path):
     return md_file_list
 
 if __name__ == '__main__':
-    md_file = 'MLsystems.md'
+    md_file = 'Specializations/HardSkills/DataVisualization.md'
     print(md_file)
     md_list = open_md(md_file)
     transform_list = transform_md(md_list)
