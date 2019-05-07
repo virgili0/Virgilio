@@ -17,18 +17,18 @@
 我们要走的概念如下：
 
 - [勒苟拉斯(Legolas)，你的精灵眼睛怎么看？](#勒苟拉斯(Legolas)，你的精灵眼睛怎么看？)
-- [语境的重要性](#The-importance-of-context)
+- [语境的重要性](#语境的重要性)
 - [数据墨水比](#数据墨水比)
-- [选择有效的视觉](#Choose-an-Effective-Visual)
-- [关注观众的注意力](#Focus-your-Audience's-Attention)
-- [像设计师一样思考](#Think-like-a-Designer)
-- [探索模型视觉](#Exploring-Model-Visuals)
-  - [折线图](#Line-Graph)
-  - [带注释的折线图](#Annotated-Line-Graph)
-  - [堆积条](#Stacked-Bars)
-  - [正和负堆积条](# 正和负堆积条)
-  - [水平堆积条](#Horizo​​ntal-Stacked-Bars)
-- [数据可视化工具](# 数据可视化工具)
+- [选择有效的视觉](#选择有效的视觉)
+- [关注观众的注意力](#关注观众的注意力)
+- [像设计师一样思考](#像设计师一样思考)
+- [探索模型视觉](#探索模型视觉)
+  - [折线图](折线图)
+  - [带注释的折线图](#带注释的折线图)
+  - [堆叠条形图(Stacked Bars)](#堆叠条形图)
+  - [正负堆叠条形图](#正负堆叠条形图)
+  - [水平堆叠条形图](#水平堆叠条形图)
+- [数据可视化工具](#数据可视化工具)
   - [Microsoft Excel](#Microsoft-Excel)
   - [MatplotLib](#MatplotLib)
   - [Seaborn](#Seaborn)
@@ -36,10 +36,10 @@
   - [Tableau](#Tableau)
   - [Power Bi](#Power-Bi)
 - [获取灵感](#获取灵感)
-- [用数据讲故事](#Storytelling-with-Data)
-- [常见的可视化错误](#Common-Visualization-Mistakes)
-- [附加资源](#Additional-Resources)
-- [结束并期待](#Wrapping-up-looking-forward)
+- [用数据讲故事](#用数据讲故事)
+- [常见的可视化错误](#常见的可视化错误)
+- [附加资源](#附加资源)
+- [结束并期待](#结束并期待)
 
 #### **开始吧！**
 ------------------------------------------------
@@ -129,7 +129,7 @@ Tufte 的书强调这一点，毫不留情地称之为 “信息/墨水比”。
 
 [这里](http://www.storytellingwithdata.com/blog/2018/1/22/88-annotated-line-graphs) 你只找到 88 个例子 :-)
 
-#### 堆叠条形图(Stacked Bars)
+#### 堆叠条形图
 
 可能是比较数量最有效的图表，它们的使用时间超过 [270 年前](https://gizmodo.com/these-250-year-old-charts-and-graphs-were-the-very-firs-1445388576) ！
 [这里](https://www.smashingmagazine.com/2017/03/understanding-stacked-bar-charts/) 你可以找到使用它们的完整指南。
@@ -146,7 +146,7 @@ Tufte 的书强调这一点，毫不留情地称之为 “信息/墨水比”。
 [这里](https://apexcharts.com/javascript-chart-demos/bar-charts/) 关于使用它们的指南。
 [这里](https://depictdatastudio.com/when-to-use-horizo​​ntal-bar-charts-vs-vertical-column-charts/) 一篇有趣的文章，介绍何时选择水平或垂直条形图。
 
-### 用数据讲故事
+**用数据讲故事**
 
 当你看到一部精彩的剧本，观看一部迷人的电影或阅读一本精彩的书时，你就会体验到故事的魔力。一个好故事吸引你的注意力，带你踏上旅程，唤起情感反应。在其中，你发现自己不想转身离开或放下它。直到 一天，一周，甚至一个月完成它后 - 你可以轻松地向朋友描述它。
 
@@ -238,18 +238,30 @@ Bokeh 用于交互式可视化 - 如果你的数据非常复杂（或者你尚�
 [这里](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) 官方教程。它涵盖了你需要知道的所有内容，并通过它。它也包含练习。
 [这里](http://bokeh.pydata.org/en/latest/docs/user_guide.html) 官方用户指南。
 
-另一个有用的附加教程列表：[1](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4) ，[2](https// realpython.com/python-data-visualization-bokeh/) ，[3](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4)
+另一个有用的附加教程列表：[1](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), [2](https://realpython.com/python-data-visualization-bokeh/), [3](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4)
 
-其他示例：[1](https://www.journaldev.com/19527/bokeh-python-data-visualization) ，[2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh)  ，[3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/) ，[4](https://www.geeksforgeeks.org/python -data-visualization-using-bokeh/) ，[5](https://github.com/bokeh/bokeh/tree/master/examples)
+其他示例：[1](https://www.journaldev.com/19527/bokeh-python-data-visualization), [2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh), [3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/), [4](https://www.geeksforgeeks.org/python-data-visualization-using-bokeh/), [5](https://github.com/bokeh/bokeh/tree/master/examples)
+
+#### Tableau
+
+[Tableau](https://www.tableau.com/zh-cn) 利用数据实力，释放员工潜能，选择为商业智能领域带来变革的分析平台。
+
+此部分为您提供有关开始使用 Tableau 的基础知识。
+
+- 有关如何开始操作的演练，请参见[构建基本视图以浏览数据](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/getstarted_buildmanual_ex1basic.htm)。
+- 有关如何使用 Tableau 的深入教程，请参见 [Tableau Desktop 入门指南](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/zh-cn/get-started-tutorial-home.html)。
+- 有关基本图表和视图类型的示例，请参见[在数据视图中生成常用图表类型](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/dataview_examples.htm)和[选择适合于您的正确图表](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/what_chart_example.htm)。
+- 有关如何构建和使用地图的信息，请参阅[Tableau 中的地图和地理数据分析](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/maps.htm)。
+- 如果您正在使用 Tableau Online 和 Tableau Server 浏览数据并编辑视图，请参见[在 Web 上使用 Tableau](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/web_author_home.htm)。
 
 #### Power BI
 
 [Power Bi](https://powerbi.microsoft.com/it-it/) 是 Microsoft 的一款超酷工具，主要用于商业智能，用于在数据之间建立关系，在精彩的交互式仪表板中清理和可视化它们。我喜欢 Power BI 的东西是个人使用免费，对企业来说非常便宜。它也非常容易使用。
 查看 [这个](https://www.youtube.com/watch?v=gqO0EiCn4cY) 初学者教程，然后探讨官方 [指导式学习](https://docs.microsoft.com/zh-cn/power-bi/guided-learning/)，他们有很多分步教程和侧面项目来挑战自我。
 
-需要遵循的额外资源：[1](https://www.youtube.com/user/mspowerbi) ，[2](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) ，[3](https //www.youtube.com/channel/UC-h-wArcxJC8zBOD-UxfCOg) ，[4](https://www.youtube.com/channel/UCaTn-yDjPDvf-1CtJJHTNcQ) ，[5](https// www.youtube.com/user/ModernExcel)
+需要遵循的额外资源：[1](https://www.youtube.com/user/mspowerbi), [2](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w), [3](https://www.youtube.com/channel/UC-h-wArcxJC8zBOD-UxfCOg), [4](https://www.youtube.com/channel/UCaTn-yDjPDvf-1CtJJHTNcQ), [5](https://www.youtube.com/user/ModernExcel)
 
-最佳实践：[1](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/) ，[2](https://docs.microsoft.com/it -it / power-bi / visuals / power-bi-visualization-best-practices) ，[3](https://community.powerbi.com/t5/Community-Blog/Best-Practices-For-Power-BI- Desktop-Development / ba-p / 521710) ，[4](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/) ，[5](https://powerpivotpro.com/2017/06/top-5-power-bi-visual-design-practices-transforming-good-great/)
+最佳实践：[1](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/), [2](https://docs.microsoft.com/it-it/power-bi/visuals/power-bi-visualization-best-practices), [3](https://community.powerbi.com/t5/Community-Blog/Best-Practices-For-Power-BI-Desktop-Development/ba-p/521710), [4](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/), [5](https://powerpivotpro.com/2017/06/top-5-power-bi-visual-design-practices-transforming-good-great/)
 
 ### 获取灵感
 
