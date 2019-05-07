@@ -1,286 +1,312 @@
-# Data Visualization 
+# 数据可视化
 
-It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
-The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
-So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
+智人难以在非洲大草原中生存：人类或动物可以随时杀死你。
+人类的大脑已经在这种疯狂且不可预测的环境中进化，并且 “巧合地” 选择进化以通过 **视觉投入大量计算能力来捕捉和理解世界**（[超过 60％](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)。
+因此, 清晰有效的数据可视化是你在数据科学领域中的最佳武器之一, 这是很微不足道的。
 
-The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
+为本启发我写本指南路的是必买书之一的 [**用数据讲故事**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1) 。到目前为止，这是我读过的最好的数据可视化书。
 
-You can find [here](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) the free PDF. 
+你可以在 [这里](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) 找到免费的 PDF。
 
-Another piece of dense knowledge, with exceptional conciseness and "father" of every data visualization book: [**The Visual Display of Quantitative Information**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142).
+另一个密集的知识，具有非凡的简洁性和每个数据可视化书之 “父”：[**定量信息的视觉显示**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142) 。
 
-I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
+我假设你知道 [基础 Python](https://github.com/clone95/Virgilio/blob/master/zh-CN/NewToDataScience/PythonBasic.md) 。
 
-Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
+此处列出的每个内容 **都不是** 特定于工具的（除了 “工具” 之外，你有没有想象过？) 。
 
-The concepts through which we're going are the following:
+我们要走的概念如下：
 
-- [Legolas, how do your elf eyes see?](#Legolas,-how-do-your-elf-eyes-see?)
-- [The Importance of Context](#The-importance-of-context)
-- [The Data / Ink Ratio](#The-Information-/-Ink-Ratio)
-- [Choose an Effective Visual](#Choose-an-Effective-Visual)
-- [Focus your Audience’s Attention](#Focus-your-Audience’s-Attention)
-- [Think like a Designer](#Think-like-a-Designer)
-- [Exploring Model Visuals](#Exploring-Model-Visuals)
-  - [Line Graph](#Line-Graph)
-  - [Annotated Line Graph](#Annotated-Line-Graph)
-  - [Stacked Bars](#Stacked-Bars)
-  - [Positive and Negative Stacked Bars](#Positive-and-Negative-Stacked-Bars)
-  - [Horizontal Stacked Bars](#Horizontal-Stacked-Bars)
-- [Data Visualization tools](#Data-Visualization-tools)
+- [勒苟拉斯(Legolas)，你的精灵眼睛怎么看？](#勒苟拉斯(Legolas)，你的精灵眼睛怎么看？)
+- [语境的重要性](#The-importance-of-context)
+- [数据墨水比](#数据墨水比)
+- [选择有效的视觉](#Choose-an-Effective-Visual)
+- [关注观众的注意力](#Focus-your-Audience's-Attention)
+- [像设计师一样思考](#Think-like-a-Designer)
+- [探索模型视觉](#Exploring-Model-Visuals)
+  - [折线图](#Line-Graph)
+  - [带注释的折线图](#Annotated-Line-Graph)
+  - [堆积条](#Stacked-Bars)
+  - [正和负堆积条](# 正和负堆积条)
+  - [水平堆积条](#Horizo​​ntal-Stacked-Bars)
+- [数据可视化工具](# 数据可视化工具)
   - [Microsoft Excel](#Microsoft-Excel)
   - [MatplotLib](#MatplotLib)
   - [Seaborn](#Seaborn)
   - [Bokeh](#Bokeh)
   - [Tableau](#Tableau)
   - [Power Bi](#Power-Bi)
-- [Take Inspiration](#Take-Inspiration)
-- [Storytelling with Data](#Storytelling-with-Data)
-- [Common Visualization Mistakes](#Common-Visualization-Mistakes)
-- [Additional Resources](#Additional-Resources)
-- [Wrapping up and looking forward](#Wrapping-up-and-looking-forward)
+- [获取灵感](#获取灵感)
+- [用数据讲故事](#Storytelling-with-Data)
+- [常见的可视化错误](#Common-Visualization-Mistakes)
+- [附加资源](#Additional-Resources)
+- [结束并期待](#Wrapping-up-looking-forward)
 
-#### **Let's Start!**
+#### **开始吧！**
 ------------------------------------------------
 
+### 勒苟拉斯(Legolas)，你的精灵眼睛怎么看？
 
+我对数据可视化有什么打算？
+让我们考虑 [Tableau](https://www.tableau.com/zh-cn/learn/articles/data-visualization) 定义：
+> 数据可视化是指信息和数据的图形化表示。使用图表、图形和地图等可视化元素，数据可视化是查看和了解数据中趋势、异常值和模式的便利方式。
+> 在大数据领域，数据可视化工具和技术对于分析海量信息并制定数据驱动型决策而言至关重要。
 
-### Legolas, how do your elf eyes see?
-What do I intend with Data Visualization?\
-Let's consider the [Tableau](https://www.tableau.com/learn/articles/data-visualization) definition:
->Data visualization is a graphical representation of information. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
-In the world of Big Data, data visualization tools and technologies are essential to analyze massive amounts of information and make data-driven decisions."
+根据 [维基百科](https://en.wikipedia.org/wiki/Data_visualization) ：
 
-And according to [Wikipedia](https://en.wikipedia.org/wiki/Data_visualization):
+> 有效的可视化帮助用户分析和推理数据和证据。它使复杂数据更易于访问，易于理解和使用。用户可能具有特定的分析任务，例如进行比较或理解因果关系，并且图形的设计原则应遵循任务。
 
->Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding causality, and the design principle of the graphic should follow the task.
+因此，数据可视化的 **目标** 是 _传达数据事实_ 以推动明智的商业决策。通常这些决策必须由高管，理事会或经理采取，也许他们不知道数据背后的所有技术内容！
 
-So, the **goal** of Data Visualization is to _communicate data facts_ to drive wise business decisions. Often these decisions have to be taken by executives, councils or managers and maybe they don't know all the technical stuff behind data!
+你应该熟悉的另一个有趣的概念是数据驱动型公司，这是一种越来越有说服力的组织与之结合的商业模式。
 
-Another interesting concept you should be familiar with, is the Data-Driven company, a business model that more and more convincing organization to marry it.
+[这里](https://triggerbee.com/data-driven-marketing) 你找到了一个很好的数据驱动公司定义和 [这里](https://www.businessmodelsinc.com/big-data-business-models/) 一篇有趣的文章。
 
-[Here](https://triggerbee.com/data-driven-marketing) you find a nice definition of Data-Driven company and [here](https://www.businessmodelsinc.com/big-data-business-models/) an interesting article about it.
+作为一名数据科学家，你是多个业务职能部门之间的接口：产品，调研，技术人员和管理人员，你的主要目标是说服人们根据数据做出正确的决策。
 
-As a data scientist, you are the interface among several business functions: product, research, techies and managers, and your main goal is to convince people into taking the right decisions, based on data.
+通常，你打算从底层技术细节中抽象出数据的表示，并将其提供给其他人。
+像往常一样，你所指的目标是决定沟通数据以及如何沟通的基础。
 
-Often you intend to abstract the representation of the data from the underlying technical details and make them available for others. 
-As usual, the target you refer to is fundamental in the decision of what data to communicate, and how.
+这种说法的自然结果是你需要考虑背景的重要性。
 
-The natural consequence of this statement is that you need to consider the importance of context. 
+### 语境的重要性
 
-### The Importance of Context
-As in any other field of communication, knowing your audience is critical to understand what you need to communicate.\
-[Here](https://www.watershedlrs.com/blog/data-storytelling-know-your-audience) you find an article with some tips to know your audience.\
-Basically, the more you know about your audience interests, jobs, and individual situations, the more you can intercept their business needs and desires.
-The more you can be specific about who your audience is, the more effective your position will be for successful communication.\
-Avoid a general audience, such as "external stakeholders" or "anyone in the product department", trying to communicate to too many different individuals with different needs at once, you risk not communicating to any of them as effectively as you would if you narrowed your target audience.\
-If _you must_ remain general for some reason, try to simplify the most you can, and check [here](https://www.anl.gov/education/writing-a-general-audience-abstract) for some useful tips.\
-[Here](https://www.techchange.org/2015/05/21/audience-matters-in-data-visualization/) you have some other reason why your data presentation should be driven by the target audience.\
-Once you've clear in mind your target, you can start developing the content you want to present.
+与任何其他沟通领域一样，了解你的受众对于了解你需要沟通的内容至关重要。
+[这里](https://www.watershedlrs.com/blog/data-storytelling-know-your-audience) 你会找到一篇文章，其中包含一些了解你的受众的提示。
+基本上，你对自己的受众兴趣，工作和个人情况了解得越多，就越能够拦截他们的业务需求和愿望。
+你对自己的受众群体的具体了解越多，你对成功沟通的立场就越有效。
+避免普通受众，例如 “外部利益相关者” 或 “产品部门中的任何人”，试图同时与不同需求的太多不同个体进行沟通，你可能无法像在缩小范围时那样有效地与任何人沟通你的目标受众。
+如果由于某种原因 _必须_ 保持一般性，请尽量简化，并查看 [这里](https://www.anl.gov/education/writing-a-general-audience-abstract) 获取一些有用的提示。
+[这里](https://www.techchange.org/2015/05/21/audience-matters-in-data-visualization/) 你还有其他原因可以说明你的数据展示应该由目标受众推动。
+一旦清楚了解目标，就可以开始开发想要呈现的内容。
 
+### 数据墨水比
 
-### The Data / Ink Ratio
-The human brain has limited resources and overkilling it with numbers and notions can only lead to negative effects. People become bored easily, especially if your charts are hard to read or they offer _too much_ information. 
-As most of the concepts I taught you in the [Impactful presentation guide](https://github.com/clone95/Virgilio/blob/master/Specializations/SoftSkills/ImpactfulPresentations.md), Less Is More is one of the principles you need to follow strictly.
-The Tufte's book stresses this out mercilessly calling it "Information / Ink Ratio".
-[Here](https://www.darkhorseanalytics.com/blog/data-looks-better-naked) you find an interesting journey of a chart, that brings it to un-readable to the state-of-art of minimalism.\ The general lesson here is to get rid of everything is not needed to communicate the core of your data: extra lines, numbers, legends, names, points and so on. 
+人类的大脑资源有限，而且数字和概念过度使用只会导致负面影响。人们很容易感到厌倦，特别是如果你的图表难以阅读或者他们提供了很多信息。
+正如我在 [有影响力的演示指南](https://github.com/clone95/Virgilio/blob/master/Specializations/SoftSkills/ImpactfulPresentations.md) 中教给你的大部分概念，Less Is More 是你的原则之一需要严格遵守。
+Tufte 的书强调这一点，毫不留情地称之为 “信息/墨水比”。
+[这里](https://www.darkhorseanalytics.com/blog/data-looks-better-naked) 你会发现一个有趣的图表之旅，这使得它对极简主义的最新技术不可读。这里的一般教训就是摆脱不需要传达数据核心的一切：额外的线条，数字，图例，名称，点等等。
 
-The more noise you can avoid, the more your information will flow gently to your audience and the more they'll remember it.
+你可以避免的噪音越多，你的信息就会越轻柔地流向你的观众，他们就会记得越多。
 
-**Data/Ink Ratio = Amount of Ink used on Data / Amount of Ink used** 
+**数据墨水比（data-lik Ratio） = 图表中用于数据的墨水量 / 总墨水量**
 
-Some additional resources to learn how to optimize the Data / Ink Ratio:
+了解如何优化数据-墨水比的一些附加资源：
+
 - [1](https://thedoublethink.com/tuftes-principles-for-visualizing-quantitative-information/), [2](https://medium.com/@sudharsanasai/declutter-your-chart-with-data-ink-ratio-6f6908727842), [3](http://davidgiard.com/2011/05/12/DataVisualizationPart5DataInk.aspx), [4](https://www.blue-granite.com/blog/data-visualization-remove-chart-clutter-and-focus-on-the-insights), [5](https://www.idashboards.com/blog/2016/05/19/spring-cleaning-eliminate-the-data-clutter/), [6](http://www.storytellingwithdata.com/blog/2016/3/1/declutter-your-data-visualizations)
 
+### 选择有效的视觉效果
 
-### Choose an Effective Visual
-As a warrior choose his weapon depending on the context, you have to wisely choose the chart to use to represent each number you want to communicate.\
-[Here](https://chartio.com/learn/dashboards-and-charts/what-are-common-chart-types-and-how-to-use-them/) is a list of the most common shapes and ideas to present data.\
-As you can see, there are many different graphs and other types of visual displays of information, but a handful will work for the majority of your needs ([please don't use cake charts](https://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T)!).\
-[Here](https://support.geckoboard.com/hc/en-us/articles/115002929972-How-to-choose-the-right-data-visualization) and [here](https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization) you have a detailed checklist easy to follow, in order to decide which type of chart suits best for your case.
+作为战士根据上下文选择他的武器，你必须明智地选择用于表示你想要传达的每个数字的图表。
+[这里](https://chartio.com/learn/dashboards-and-charts/what-are-common-chart-types-and-how-to-use-them/) 是最常见形状的列表，提出数据的想法。
+正如你所看到的，有许多不同的图形和其他类型的视觉信息显示，但少数将满足你的大多数需求（[请不要使用饼状图](https://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T)!)。
 
-### Focus your Audience’s Attention
-Within the brain, there are three types of memory that are important to understand as we design visual communications: [iconic](https://en.wikipedia.org/wiki/Iconic_memory) memory, [short‐term](https://en.wikipedia.org/wiki/Short-term_memory) memory, and [long‐term](https://en.wikipedia.org/wiki/Long-term_memory) memory. What we need to leverage well for our presentations is the iconic one. In fact, she's responsible for the most part of the first impression about what we see, and has by far the most important impact on our perception.\
-[Here](https://brevitaz.com/data-visualisations/) you find a good explanation about how to understand how to leverage iconic memory.\
-[Here](https://www.clarityinsights.com/blog/perception-communication) another good read about this topic.
+[这里](https://support.geckoboard.com/hc/en-us/articles/115002929972-How-to-choose-the-right-data-visualization) 和 [这里](https//blog.hubspot .com / marketing / of-graph-for-data-visualization) 一个易于遵循的详细清单，以确定哪种类型的图表最适合你的情况。
 
-### Think like a Designer
-The most important principle in design is that "the design of _____ should be driven by its function".\
-Imagine a [gladius](https://it.wikipedia.org/wiki/Gladius_hispaniensis), the bread-and-butter weapon of the Roman army: you can _easily understand_ what's his purpose, even if no one told you!\
-Read [here](https://www.team-consulting.com/insights/design-drivers-what-drives-great-design/) a gentle introduction to design theory, really recommended!\
-[Here](http://guides.lib.berkeley.edu/data-visualization/design) you find useful design guidelines, and [here](https://uxdesign.cc/designing-a-dashboard-how-to-make-sure-it-will-show-useful-data-23af7e233d21) how to design an effective dashboard. 
+### 关注受众的注意力
 
-### Exploring Model visuals
-#### Line Graph
-Despite its simplicity is the most effective chart you can show (remember, less is more!). Probably the most part of the data you have can be presented through a line graph.\
-[Here](https://www.smartdraw.com/line-graph/) you find how to use its power with awareness. 
+在大脑中，有三种类型的记忆在我们设计视觉通信时很重要：[图像](https://en.wikipedia.org/wiki/Iconic_memory) 记忆，[短期](https://zh.wikipedia.org/wiki/%E7%9F%AD%E6%9C%9F%E8%AE%B0%E5%BF%86) 记忆(iconic memory) 和 [长期](https://zh.wikipedia.org/wiki/%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86) 记忆。我们需要很好地利用我们的演讲是标志性的。事实上，它对我们所看到的第一印象的大部分负责，并且迄今为止对我们的感知产生了最重要的影响。
+[这里](https://brevitaz.com/data-visualisations/) 你可以找到有关如何利用图像记忆的良好解释。
+[这里](https://www.clarityinsights.com/blog/perception-communication) 另一篇关于这个主题的好读物。
 
-#### Annotated Line Graph
-Like the previous one, but with annotations that can help readability.\
-[Here](http://www.storytellingwithdata.com/blog/2018/1/22/88-annotated-line-graphs) you find only 88 examples of that :-)
+### 像设计师一样思考
 
-#### Stacked Bars
-Probably the most effective chart to compare quantities, they were used more than [270 years ago](https://gizmodo.com/these-250-year-old-charts-and-graphs-were-the-very-firs-1445388576)!\
-[Here](https://www.smashingmagazine.com/2017/03/understanding-stacked-bar-charts/) you find complete guidelines to use them. 
-[Here](https://peltiertech.com/excel-3d-charts-charts-with-no-value/) you can understand why is important to keep them as simple as possible, without 3D effects. Really interesting and in-depth read.
+设计中最重要的原则是 “_____的设计应该由其功能驱动”。
+想象一下 [剑(gladius)](https://it.wikipedia.org/wiki/Gladius_hispaniensis) ，罗马军队实用的的武器：即使没有人告诉你，你也可以轻松地理解他的目的是什么！
 
-#### Positive and Negative Stacked Bars
-With negative values, you can easily show bad-vs-good performance or in-vs-out flows.\
-[Here](https://peltiertech.com/diverging-stacked-bar-charts/) a detailed explanation about how and when to use them.
+阅读 [这里](https://www.team-consulting.com/insights/design-drivers-what-drives-great-design/) 温和的设计理论介绍，真的值得推荐！
+你可以在 [这里](http://guides.lib.berkeley.edu/data-visualization/design) 找到有用的设计指南，[这里](https://uxdesign.cc/designing-a-dashboard-how-to -make-sure-it-will-show-useful-data-23af7e233d21) 如何设计有效的仪表板。
 
-#### Horizontal Stacked Bars
-You don't need to be a fan of the Flat Earth "theory" to use Horizontal bar chart! They're similar to their vertical cousins, but orienting the chart horizontally means the category names along the left are easy to read in the horizontal text.\
-[Here](https://apexcharts.com/javascript-chart-demos/bar-charts/) a guide about using them.
-[Here](https://depictdatastudio.com/when-to-use-horizontal-bar-charts-vs-vertical-column-charts/) an interesting article that explains when to choose horizontal or vertical bars. 
+### 探索模型视觉效果
 
-### Storytelling with Data
-When you see a great play, watch a captivating movie, or read a fantastic book, you’ve experienced the magic of the story. A good story grabs your attention and takes you on a journey, evoking an emotional response. In the middle of it, you find yourself not wanting to turn away or put it down. After finishing it—a day, a week, or even a month later—you could easily describe it to a friend.
+#### 折线图
 
-If you reach this goal in your audience, you've arrived, and you have won the first prize! 
+尽管它的简单性是你可以展示的最有效的图表（记住，少即是多！)。你可能通过折线图显示大部分数据。
+[这里](https://www.smartdraw.com/line-graph/) 你会发现如何在意识中使用它的力量。
 
-- **Find a subject you care about**. It is this genuine caring, and not your games with language, which will be the most compelling and seductive element in your style.
-- **Keep it simple**. Great masters wrote sentences which were almost childlike when their subjects were most profound. “To be or not to be?” asks Shakespeare’s Hamlet. The longest word is three letters.
-- **Choose who to leave behind**. If a sentence or a chart, no matter how excellent, does not illuminate your subject in some new and useful way, scratch it out.
-- **Don't fool people with data**. [These](https://venngage.com/blog/misleading-graphs/) are clear examples of what I'm saying.  
-- **Be clear**. If I broke punctuation, or I bend the meaning of the words (technical and not), I would simply won't be understood.
-- **Pity the readers**. Our audience requires us to be sympathetic and patient teachers, ever willing to simplify and clarify.
-- **Be suggestive**. Try to summon pictures, sounds, and feeling during your stories.
-- **Have a great End**. Leave your audience with a sentence that will be the remainder of your presentation, the most internal core of your topic. The things you want your audience this about when they remember your presentation. 
+#### 带注释的折线图
 
-For other tips and suggestions about storytelling, check my other [Impactful presentation guide](https://github.com/clone95/Virgilio/blob/master/Specializations/SoftSkills/ImpactfulPresentations.md).
+与前一个一样，但注释可以帮助提高可读性。
 
-Sorry, I'm a [DRY principle](https://it.wikipedia.org/wiki/Don%27t_repeat_yourself) hopeless fan.
+[这里](http://www.storytellingwithdata.com/blog/2018/1/22/88-annotated-line-graphs) 你只找到 88 个例子 :-)
 
+#### 堆叠条形图(Stacked Bars)
 
-### Data Visualization tools
-I this section I introduce you to the most accessible and well-known tools, that will give you an expendable skill in Data Visualization. 
+可能是比较数量最有效的图表，它们的使用时间超过 [270 年前](https://gizmodo.com/these-250-year-old-charts-and-graphs-were-the-very-firs-1445388576) ！
+[这里](https://www.smashingmagazine.com/2017/03/understanding-stacked-bar-charts/) 你可以找到使用它们的完整指南。
+[这里](https://peltiertech.com/excel-3d-charts-charts-with-no-value/) 你可以理解为什么在没有 3D 效果的情况下保持它们尽可能简单是很重要的。非常有趣并且值得深入详尽的阅读。
+
+#### 正负堆叠条形图
+
+使用负值，你可以轻松显示不良与良好的性能或内外流量。
+[这里](https://peltiertech.com/diverging-stacked-bar-charts/) 详细解释了如何以及何时使用它们。
+
+#### 水平堆叠条形图
+
+你不需要成为 Flat Earth “理论” 的粉丝就可以使用水平条形图！它们与垂直表兄弟相似，但水平定向图表意味着左侧的类别名称在水平文本中易于阅读。
+[这里](https://apexcharts.com/javascript-chart-demos/bar-charts/) 关于使用它们的指南。
+[这里](https://depictdatastudio.com/when-to-use-horizo​​ntal-bar-charts-vs-vertical-column-charts/) 一篇有趣的文章，介绍何时选择水平或垂直条形图。
+
+### 用数据讲故事
+
+当你看到一部精彩的剧本，观看一部迷人的电影或阅读一本精彩的书时，你就会体验到故事的魔力。一个好故事吸引你的注意力，带你踏上旅程，唤起情感反应。在其中，你发现自己不想转身离开或放下它。直到 一天，一周，甚至一个月完成它后 - 你可以轻松地向朋友描述它。
+
+如果你在观众中达到了这个目标, 你完成了, 你已经获得了一等奖!
+
+- **找到你关注的主题**。这是真正的关注，而不是你的语言游戏，这将是你风格中最引人注目和诱人的元素。
+- **把事情简单化**。伟大的大师写的主题是最深刻的句子几乎都是孩子般的。 “生存还是毁灭(To be or not to be)?” 莎士比亚的哈姆雷特问道。最长的单词是三个字母。
+- **选择留下谁**。如果一个句子或图表，无论多么优秀，都不能以一种新的有用的方式阐明你的主题，请将其划掉。
+- **不要欺骗有数据的人**。 [这些](https://venngage.com/blog/misleading-graphs/) 是我所说的清晰的例子。
+- **清楚**。如果我打破了标点符号，或者我弯曲了词语的含义（技术性而非弯曲性) ，我就不会被理解。
+- **怜惜读者**。我们的听众要求我们成为富有同情心和耐心的教师, 永远愿意简化和澄清。
+- **暗示**。尝试在故事中召唤图片，声音和感觉。
+- **有一个伟大的结局**。为你的观众留下一个句子，该句子将是你演示文稿的其余部分，是你主题的最内部核心。在你记住演示文稿时，你希望观众了解的内容。
+
+有关讲故事的其他提示和建议，请查看我的其他 [有效陈述](https://github.com/clone95/Virgilio/blob/master/zh-CN/Specializations/SoftSkills/ImpactfulPresentations.md) 。
+
+对不起，我是 [DRY 原则](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1) 无望的粉丝。
+
+### 数据可视化工具
+
+本节我将向你介绍最易于使用和众所周知的工具，这些工具将为你提供数据可视化方面的技能。
 
 #### Microsoft Excel
-Do a favor to yourself, learn [**Excel now!**](https://www.youtube.com/watch?v=-ujVQzTtxSg&list=PLWPirh4EWFpEpO6NjjWLbKSCb-wx3hMql)\
-Excel is the swiss-knife for a lot of basic data management, computation, and representation.\
-Despite its scalability limits, it's still one of the tools that _support companies_ today.\
-Take [this](https://www.youtube.com/watch?v=RwUSUjRGKVM) course about data visualization with Microsoft Excel.  
-[Here](https://www.keynotesupport.com/excel-basics/excel-charts-beginners.shtml) you have another good one.\
-[Here](https://www.webucator.com/tutorial/intermediate-microsoft-excel/visualizing-your-data.cfm) you have some exercises to test your skill.\
-[Here](https://policyviz.com/2017/07/25/my-top-10-data-visualization-excel-websites/) a list of cool websites about Excel visualizations.
+
+帮助自己，现在就学 [**Excel**](https://www.youtube.com/watch?v=-ujVQzTtxSg&list=PLWPirh4EWFpEpO6NjjWLbKSCb-wx3hMql)
+
+Excel 是许多基本数据管理，计算和表示的瑞士军刀。
+尽管存在可扩展性限制，但它仍然是今天支持公司的工具之一。
+参加 [这个](https://www.youtube.com/watch?v=RwUSUjRGKVM) 关于使用 Microsoft Excel 进行数据可视化的课程。
+[这里](https://www.keynotesupport.com/excel-basics/excel-charts-beginners.shtml) 另一个好的。
+[这里](https://www.webucator.com/tutorial/intermediate-microsoft-excel/visualizing-your-data.cfm) 一些练习来测试你的技能。
+[这里](https://policyviz.com/2017/07/25/my-top-10-data-visualization-excel-websites/) 有关 Excel 可视化的很酷网站列表。
 
 #### Matplotlib
 
-[Matplotlib](https://matplotlib.org/) is one of the most used libraries for graphical representation in Python and a lot of other libraries are built on the top of it.
-My personal opinion about it is that it's not too easy to understand and implement, but today is still relevant to grasp the most out of the tutorials on the Internet. You also have a lot of examples in [StackOverflow](https://stackoverflow.com/).\
-The [official beginner's guide](https://matplotlib.org/users/beginner.html) is really complete and contains everything you need to get started and then proficient with the library.\
-[Here](https://matplotlib.org/Matplotlib.pdf) you have the complete documentation.\
-[Here](https://pythonspot.com/matplotlib/) another bunch of chart-specific tutorials.\
-[Here](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/) an ensemble of the 50 most useful visualizations with code.\
-[Here](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) you find advanced charts and the code to realize them.
-[Here](https://www.cheatography.com/gabriellerab/cheat-sheets/matplotlib-pyplot/) an handy cheat-sheet.
+[Matplotlib](https://matplotlib.org/) 是 Python 中最常用的图形表示库之一，其中许多其他库都是基于它构建的。
 
-Challenge yourself:
+我个人对此的看法是，理解和实施起来并不容易，但目前仍需掌握互联网上的教程。在 [StackOverflow](https://stackoverflow.com/) 中也有很多示例。
+[官方初学者指南](https://matplotlib.org/users/beginner.html) 非常完整，包含了入门所需的一切，然后精通库。
+[这里](https://matplotlib.org/Matplotlib.pdf) 有完整的文档。
+[这里](https://pythonspot.com/matplotlib/) 另一堆特定于图表的教程。
+[这里](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/) 包含 50 个最有用的可视化代码和代码的集合。
+[这里](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) 你可以找到高级图表和代码来实现他们。
+[这里](https://www.cheatography.com/gabriellerab/cheat-sheets/matplotlib-pyplot/) 一个方便的速查表。
+
+挑战自我：
+
 - [1](http://www.ceda.ac.uk/static/media/uploads/ncas-reading-2015/matplotlib_exercises_solutions.pdf), [2](https://pynative.com/python-matplotlib-exercise/), [3](https://anaconda.org/gwinnen/matplotlib-exercises/notebook), [4](https://www.w3resource.com/graphics/matplotlib/)
 
-Best Practices
+最佳实践
+
 - [1](https://www.scivision.dev/best-practices-for-matplotlib-plots/), [2](https://www.quora.com/What-are-some-best-practices-for-matplotlib-to-improve-the-quality-and-appearance-of-your-graphs-and-plots), [3](https://stackoverflow.com/questions/18059269/best-practices-to-write-function-embedding-matplotlib-plot-call), [4](https://matplotlib.org/tutorials/introductory/lifecycle.html)
 
 #### Seaborn
-As your brain is fascinated by the beauty in humans, art, or cute puppies, it is by beautiful visualizations. A common library **built on top of Matplotlib** is [Seaborn](https://seaborn.pydata.org/). It's used to enhance Matplotlib charts, so you need to become comfortable with the "mother library" first.\
-Follow [this](https://www.youtube.com/playlist?list=PL998lXKj66MpNd0_XkEXwzTGPxY2jYM2d) Youtube tutorial, it covers the most you need to get started with it.\
-Then read [this](https://stepupanalytics.com/introduction-to-python-for-data-visualization-with-seaborn/) long and complete blog post.\
-[Here](https://www.kaggle.com/kanncaa1/seaborn-tutorial-for-beginners) you find another long tutorial for beginners. 
 
-Challenge yourself: [1](https://anaconda.org/gwinnen/seaborn-exercises/notebook), [2](http://unsupervisedlearning.co.uk/2017/11/08/seaborn-exercises-solutions/), [3](https://www.codecademy.com/courses/learn-seaborn/lessons/seaborn-distributions/exercises/box-plots-ii), [4](https://anaconda.org/gwinnen/seaborn-exercises/notebook)
+当你的大脑被人类，艺术或可爱的小狗的美丽所吸引时，它就是通过美丽的可视化。[Seaborn](https://seaborn.pydata.org/)  是建立在 Matplotlib **之上的公共库**。它用于增强 Matplotlib 图表，因此你需要首先熟悉 “母库”。
+关注 [这个](https://www.youtube.com/playlist?list=PL998lXKj66MpNd0_XkEXwzTGPxY2jYM2d) Youtube 教程，它涵盖了你开始使用它所需的最多内容。
+然后阅读 [这个](https://stepupanalytics.com/introduction-to-python-for-data-visualization-with-seaborn/) 这篇漫长而完整的博客文章。
+[这里](https://www.kaggle.com/kanncaa1/seaborn-tutorial-for-beginners) 你找到了另一个初学者的长篇教程。
 
-Best practices: [1](http://walkerke.github.io/geog30323/slides/data-visualization/), [2](https://mode.com/resources/analytics-dispatch/data-visualization-best-practices/), [3](https://www.datacamp.com/courses/improving-your-data-visualizations-in-python), 
+挑战自我：[1](https://anaconda.org/gwinnen/seaborn-exercises/notebook), [2](http://unsupervisedlearning.co.uk/2017/11/08/seaborn-exercises-solutions/), [3](https://www.codecademy.com/courses/learn-seaborn/lessons/seaborn-distributions/exercises/box-plots-ii), [4](https://anaconda.org/gwinnen/seaborn-exercises/notebook)
 
-Additional examples: [1](https://python-graph-gallery.com/category/seaborn/), [2](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html), [3](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850), [4](https://www.kaggle.com/mchirico/plotly-seaborn-examples)
+最佳实践：[1](http://walkerke.github.io/geog30323/slides/data-visualization/), [2](https://mode.com/resources/analytics-dispatch/data-visualization-best-practices/), [3](https://www.datacamp.com/courses/improving-your-data-visualizations-in-python)
+
+其他示例：[1](https://python-graph-gallery.com/category/seaborn/), [2](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html), [3](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850), [4](https://www.kaggle.com/mchirico/plotly-seaborn-examples)
 
 #### Bokeh
-From the [Bokeh](http://bokeh.pydata.org/en/latest/) documentation:
 
->Bokeh is an interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of versatile graphics, and to extend this capability with high-performance interactivity over very large or streaming datasets. Bokeh can help anyone who would like to quickly and easily create interactive plots, dashboards, and data applications.
+来自 [Bokeh](http://bokeh.pydata.org/en/latest/) 文档：
 
-Bokeh prides itself on being a library for interactive data visualization.
+> Bokeh 是一个交互式可视化库，面向现代 Web 浏览器进行演示。它的目标是提供优雅，简洁的多功能图形构造，并通过非常大或流数据集的高性能交互来扩展此功能。 Bokeh 可以帮助任何想要快速轻松地创建交互式图表，仪表板和数据应用程序的人。
 
-Unlike popular counterparts in the Python visualization space, like Matplotlib and Seaborn, Bokeh renders its graphics using HTML and JavaScript. This makes it a great candidate for building interactive web-based dashboards and applications. 
+Bokeh 自豪地成为交互式数据可视化的库。
 
-But what's the real difference among Bokeh, Matplotlib and Seaborn?
+与 Python 可视化领域中的流行对手不同，如 Matplotlib 和 Seaborn，Bokeh 使用 HTML 和 JavaScript 渲染其图形。这使其成为构建基于 Web 的交互式仪表板和应用程序的理想选择。
 
-As a comment in this Reddit [thread](https://www.reddit.com/r/Python/comments/4tuwoz/how_do_you_decide_between_the_plotting_libraries/) says: 
+但是 Bokeh，Matplotlib 和 Seaborn 之间的真正区别是什么？
 
-Each library has its own distinct purpose:
+作为此 Reddit [线程](https://www.reddit.com/r/Python/comments/4tuwoz/how_do_you_decide_between_the_plotting_libraries/) 中的评论说：
 
-Matplotlib is for basic plotting -- bars, pies, lines, scatter plots, etc.
+每个库都有自己独特的目的：
 
-Seaborn is for statistical visualization -- use it if you're creating heatmaps or somehow summarizing your data and still want to show the distribution of your data
+Matplotlib 用于基本绘图 - 条形图，饼状图，线条，散点图等。
 
-Bokeh is for interactive visualization -- if your data is so complex (or you haven't yet found the "message" in your data), then use Bokeh to create interactive visualizations that will allow your viewers to explore the data themselves.
+Seaborn 用于统计可视化 - 如果你正在创建热图或以某种方式汇总数据并仍希望显示数据分布，请使用它
 
-[Here](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) you have the official tutorial. It covers pretty everything you need to know, go through it. It contains exercises too.\
-[Here](http://bokeh.pydata.org/en/latest/docs/user_guide.html) you have the official user guide.
+Bokeh 用于交互式可视化 - 如果你的数据非常复杂（或者你尚未在数据中找到 “消息”) ，则使用 Bokeh 创建交互式可视化，以便你的查看者自己探索数据。
 
-Another list of useful additional tutorials: [1](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), [2](https://realpython.com/python-data-visualization-bokeh/), [3](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4)
+[这里](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb) 官方教程。它涵盖了你需要知道的所有内容，并通过它。它也包含练习。
+[这里](http://bokeh.pydata.org/en/latest/docs/user_guide.html) 官方用户指南。
 
-Additional examples: [1](https://www.journaldev.com/19527/bokeh-python-data-visualization), [2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh), [3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/), [4](https://www.geeksforgeeks.org/python-data-visualization-using-bokeh/), [5](https://github.com/bokeh/bokeh/tree/master/examples)
+另一个有用的附加教程列表：[1](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4) ，[2](https// realpython.com/python-data-visualization-bokeh/) ，[3](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4)
+
+其他示例：[1](https://www.journaldev.com/19527/bokeh-python-data-visualization) ，[2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh)  ，[3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/) ，[4](https://www.geeksforgeeks.org/python -data-visualization-using-bokeh/) ，[5](https://github.com/bokeh/bokeh/tree/master/examples)
 
 #### Power BI
-[Power Bi](https://powerbi.microsoft.com/it-it/) is a super cool tool from Microsoft, used mostly in Business Intelligence to build relationships among data, cleaning and visualizing them in wonderful interactive dashboards. The thing that I love of Power BI is that's free for personal usage and very cheap for enterprise purposes. It's also super easy to use.\
-Check [this](https://www.youtube.com/watch?v=gqO0EiCn4cY) tutorial for beginners and then explore the official [Guided Learning](https://docs.microsoft.com/en-us/power-bi/guided-learning/), they have a lot of step-by-step tutorials and side projects to challenge yourself. 
 
-Good additional resources to follow: [1](https://www.youtube.com/user/mspowerbi), [2](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w), [3](https://www.youtube.com/channel/UC-h-wArcxJC8zBOD-UxfCOg), [4](https://www.youtube.com/channel/UCaTn-yDjPDvf-1CtJJHTNcQ), [5](https://www.youtube.com/user/ModernExcel)
+[Power Bi](https://powerbi.microsoft.com/it-it/) 是 Microsoft 的一款超酷工具，主要用于商业智能，用于在数据之间建立关系，在精彩的交互式仪表板中清理和可视化它们。我喜欢 Power BI 的东西是个人使用免费，对企业来说非常便宜。它也非常容易使用。
+查看 [这个](https://www.youtube.com/watch?v=gqO0EiCn4cY) 初学者教程，然后探讨官方 [指导式学习](https://docs.microsoft.com/zh-cn/power-bi/guided-learning/)，他们有很多分步教程和侧面项目来挑战自我。
 
-Best practices: [1](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/), [2](https://docs.microsoft.com/it-it/power-bi/visuals/power-bi-visualization-best-practices), [3](https://community.powerbi.com/t5/Community-Blog/Best-Practices-For-Power-BI-Desktop-Development/ba-p/521710), [4](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/), [5](https://powerpivotpro.com/2017/06/top-5-power-bi-visual-design-practices-transforming-good-great/)
+需要遵循的额外资源：[1](https://www.youtube.com/user/mspowerbi) ，[2](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) ，[3](https //www.youtube.com/channel/UC-h-wArcxJC8zBOD-UxfCOg) ，[4](https://www.youtube.com/channel/UCaTn-yDjPDvf-1CtJJHTNcQ) ，[5](https// www.youtube.com/user/ModernExcel)
 
-### Take Inspiration
-The best way you can get self-confident with data visualization is to watch, watch, and watch data visualization.
-I put here plenty of resources where you can take inspiration and ideas from.
+最佳实践：[1](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/) ，[2](https://docs.microsoft.com/it -it / power-bi / visuals / power-bi-visualization-best-practices) ，[3](https://community.powerbi.com/t5/Community-Blog/Best-Practices-For-Power-BI- Desktop-Development / ba-p / 521710) ，[4](https://www.c-sharpcorner.com/article/power-bi-best-practices-part-3/) ，[5](https://powerpivotpro.com/2017/06/top-5-power-bi-visual-design-practices-transforming-good-great/)
 
-Websites: [1](https://www.idashboards.com/blog/2018/07/06/get-inspired-19-inspiring-data-viz-designs/), [2](https://medium.com/@Infogram/18-data-visualization-resources-for-education-and-inspiration-529c6f528983), [3](https://www.pinterest.it/stevenschillema/data-visualization-inspiration/?lp=true), [4](https://www.designyourway.net/blog/inspiration/data-visualization-designs-that-should-inspire-you-23-infographics/), [5](https://www.awwwards.com/websites/data-visualization/), [6](https://mode.com/resources/analytics-dispatch/data-visualization-examples/), [7](https://visme.co/blog/examples-data-visualizations/), [8](https://datavizproject.com/)
+### 获取灵感
 
-Bonus point!
-Try [Google Facets](https://pair-code.github.io/facets/), a super useful web-tool for fast visualizations. It's really EASY to use, and you can upload your dataset and get the first insights from it. It's also awesome for showing data to not-technical people.
+你可以通过数据可视化获得自信的最佳方式是观看，观看和观看数据可视化。
+我在这里放了很多资源，你可以从中获取灵感和想法。
 
-### Storytelling with Data
-I can't stress more on this point. When you prepare data visualizations, focus on a story to tell to your audience.\
-This approach has several [proven and positive](https://www.dataplusscience.com/files/Kosara_Computer_2013.pdf) effects.\
-[**Definitely check this**](https://www.slideshare.net/kris77chan/edward-segel-interactivestorytelling), is the best resource I've ever found on this concept applied in data visualization.\
-[Here](http://www.nickdiakopoulos.com/2013/04/12/storytelling-with-data-what-are-the-impacts-on-the-audience/) you find a good article that explains _why_.\
-[Here](https://www.slideshare.net/kris77chan/edward-segel-interactivestorytelling)'s a great presentation about storytelling with data.\
-[Here](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#202002b852ad) another interesting read.
+网站：[1](https://www.idashboards.com/blog/2018/07/06/get-inspired-19-inspiring-data-viz-designs/), [2](https://medium.com/@Infogram/18-data-visualization-resources-for-education-and-inspiration-529c6f528983), [3](https://www.pinterest.it/stevenschillema/data-visualization-inspiration/?lp=true), [4](https://www.designyourway.net/blog/inspiration/data-visualization-designs-that-should-inspire-you-23-infographics/), [5](https://www.awwwards.com/websites/data-visualization/), [6](https://mode.com/resources/analytics-dispatch/data-visualization-examples/), [7](https://visme.co/blog/examples-data-visualizations/), [8](https://datavizproject.com/)
 
-### Common Visualization Mistakes
-From an old Chinese statement:
-> Look at the other's mistakes, and correct your ones.
+奖励点！
+试试 [Google Facets](https://pair-code.github.io/facets/) ，这是一款非常实用的网页工具，可用于快速可视化。它真的很容易使用，你可以上传你的数据集并从中获得第一个见解。向非技术人员展示数据也很棒。
 
-To know what are the most frequent mistakes is fundamental to master a skill, so I list here for you a bunch of resources that will give you the awareness of the "Don't"s in data visualization:
+### 用数据讲故事
+
+在这一点上, 我再怎么强调也不为过。准备数据可视化时, 请关注要向受众讲述的故事。
+这种方法有几种 [已证实且积极的](https://www.dataplusscience.com/files/Kosara_Computer_2013.pdf) 效果。
+[**绝对要检查这个**](https://www.slideshare.net/kris77chan/edward-segel-interactivestorytelling) ，是我在数据可视化中应用的这个概念中找到的最好的资源。
+[这里](http://www.nickdiakopoulos.com/2013/04/12/storytelling-with-data-what-are-the-impacts-on-the-audience/) 一篇很好的文章来解释 _为什么_。
+[这里](https://www.slideshare.net/kris77chan/edward-segel-interactivestorytelling) 是关于用数据讲故事的精彩演讲。
+[这里](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#202002b852ad) 另一个有趣的读物。
+
+### 常见的可视化错误
+
+从一个古老的中文声明：
+> 前车之鉴，后车之覆。
+
+要知道什么是最常见的错误是掌握技能的基础，所以我在这里为你列出一堆资源，让你了解数据可视化中的 “不要”：
 
 - [1](https://www.anychart.com/blog/2017/08/29/data-visualization-mistakes-avoid/), [2](https://undullify.com/data-visualization-102-common-mistakes-visualizing-data/), [3](https://www.rtinsights.com/what-are-the-5-most-common-data-visualization-mistakes/), [4](https://thenextweb.com/dd/2015/05/15/7-most-common-data-visualization-mistakes/), [5](https://www.reddit.com/r/datascience/comments/8wj1nr/play_your_charts_right_an_illustrated_collection/)
 
-### Additional Resources
-I really love data visualization and during the last years, I've collected a lot of cool websites and "need-to-bookmark" places. I've already given you a lot of them, here I list everything else is remaining.
+### 附加资源
 
-- [Data is Beautiful SubReddit](https://www.reddit.com/r/dataisbeautiful/)
-- [Analytics SubReddit](https://www.reddit.com/r/dataviz/)
+我真的很喜欢数据可视化，在过去的几年里，我收集了很多很酷的网站和 “需要书签” 的地方。我已经给了你很多，在这里我列出了剩下的一切。
+
+- [数据是美丽的 SubReddit](https://www.reddit.com/r/dataisbeautiful/)
+- [分析 SubReddit](https://www.reddit.com/r/dataviz/)
 - [The Pudding](https://pudding.cool/)
 - [Flow Data](https://flowingdata.com/)
 - [Small Multiples](https://smallmultiples.com.au/projects/)
-- [Awesome Interactive Journalism](https://github.com/wbkd/awesome-interactive-journalism)
-- [EdwardTufte Twitter account](https://twitter.com/EdwardTufte)
+- [令人敬畏的互动新闻](https://github.com/wbkd/awesome-interactive-journalism)
+- [EdwardTufte 推特账号](https://twitter.com/EdwardTufte)
 - [Fivethirtyeight](https://fivethirtyeight.com/)
-- [List of super cool websites](https://www.reddit.com/r/dataisbeautiful/comments/435g7b/i_love_live_data_visualizations_heres_every_one/)
-- [Every line of Hamilton](https://pudding.cool/2017/03/hamilton/)
-- [Storytelling with Data blog](http://www.storytellingwithdata.com/)
+- [超酷网站列表](https://www.reddit.com/r/dataisbeautiful/comments/435g7b/i_love_live_data_visualizations_heres_every_one/)
+- [汉密尔顿(Hamilton)的每一行](https://pudding.cool/2017/03/hamilton/)
+- [用数据讲故事](http://www.storytellingwithdata.com/)
 
-### Wrapping up and looking forward
-What I've tried to here is to list a map of the most useful resources about data visualization (I've searched and compared a lot of them), trying to give you a reference point of the subject.\
-As I suggested to you earlier, the only way to become really comfortable with something is to face it in the first person. So the best tip I can give you is "find your project". 
+### 结束并期待
 
-- Choose an argument that interests you in some way. You can find a lot o free public dataset to experiment with. Check your country websites or enter [Kaggle](https://www.kaggle.com/) or  [UCI](https://archive.ics.uci.edu/ml/index.php) to find a lot of them. 
-- Plot the data in every way you can experiment, applying the techniques you have seen.
-- Inspire yourself watching how people visualized similar datasets. Search in Kaggle for "Visualization" and you'll be stunned by the number of examples.
+我在这里尝试的是列出关于数据可视化的最有用资源的地图（我已经搜索并比较了很多这些资源) ，试图给你一个主题的参考点。
+正如我之前向你建议的那样，对某事感到非常舒服的唯一方法就是以第一人称面对它。所以我能给你的最好的建议就是 “找到你的项目”。
 
-It's better to be proficient in one tool and barely know other ones, than being the jack of all trades but masters of none. So, I suggest you choose the tool that inspires you more and diving deep into that. In fact, the tools we've seen overlap with each other in many ways, but they are different in scale and approach.
+- 以某种方式选择一个你感兴趣的论点。你可以找到很多免费的公共数据集进行试验。检查你的国家 / 地区网站或输入 [Kaggle](https://www.kaggle.com/) 或 [UCI](https://archive.ics.uci.edu/ml/index.php) 查找大量网站。
+- 以你可以尝试的各种方式绘制数据，应用你所看到的技术。
+- 激励自己观察人们如何可视化相似的数据集。在 Kaggle 中搜索 “可视化”，你会被示例数量惊呆的。
 
-Happy Learning and good luck with your studies!
+与其成为所有行业的 jack, 但不是一个行业的高手, 不如精通一个工具, 几乎不知道其他工具。所以, 我建议你选择更能激励你的工具, 深入其中。事实上, 我们看到的工具在很多方面都相互重叠，但它们的规模和方法各不相同。
+
+快乐学习，祝你学习愉快！
 
 -------------------------
-Written by _clone 95_
+由_clone 95_撰写

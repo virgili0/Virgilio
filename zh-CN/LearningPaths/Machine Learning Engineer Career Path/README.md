@@ -323,7 +323,7 @@ _其次看：_
 
 ### 机器学习项目
 
-- 数据科学备忘单 [极其庞大的收藏](https://github.com/FavioVazquez/ds-cheatsheets)
+- 数据科学速查表 [极其庞大的收藏](https://github.com/FavioVazquez/ds-cheatsheets)
 - 真实数据科学/ML 项目的 [无限集合](https://docs.google.com/document/d/e/2PACX-1vRRC3ZIcvjFqEYEgnN9pptoWONr2mSGZJ4hSdL8Jpf2IpXdxjTc-d3jrpb98h59xJnZ3h1frUDydoxc/pub)
 - TensorFlow 中的教程和 ML 项目的 [无限集合](https://github.com/jtoy/awesome-tensorflow)
 - [其他 TensorFlow 示例](https://github.com/aymericdamien/TensorFlow-Examples)
