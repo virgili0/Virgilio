@@ -7,7 +7,7 @@ Zotero 工具最初是 [Firefox](https://www.clubic.com/telecharger-fiche11003-m
 #### Windows
 启动已下载的安装程序。
 #### OS
-打开已下载的 `.dmg` 文件后，将 Zotero 拖放到 Applications 文件夹中。然后，你可以从 Spotlight，Launchpad 或 Applications 文件夹启动 Zotero，并像任何其他程序一样将其添加到 Dock 中。
+打开已下载的 `.dmg` 文件后，将 Zotero 拖放到 Applications 文件夹中。然后，你可以从 Spotlight，Launchpad 或 Applications 文件夹启动 Zotero，并像任何其它程序一样将其添加到 Dock 中。
 #### Linux
 要启动 Zotero，请下载 tar 包，解压缩并从库中打开 Zotero。
 

@@ -70,13 +70,13 @@
 
 ### 语境的重要性
 
-与任何其他沟通领域一样，了解你的受众对于了解你需要沟通的内容至关重要。
+与任何其它沟通领域一样，了解你的受众对于了解你需要沟通的内容至关重要。
 [这里](https://www.watershedlrs.com/blog/data-storytelling-know-your-audience) 你会找到一篇文章，其中包含一些了解你的受众的提示。
 基本上，你对自己的受众兴趣，工作和个人情况了解得越多，就越能够拦截他们的业务需求和愿望。
 你对自己的受众群体的具体了解越多，你对成功沟通的立场就越有效。
 避免普通受众，例如 “外部利益相关者” 或 “产品部门中的任何人”，试图同时与不同需求的太多不同个体进行沟通，你可能无法像在缩小范围时那样有效地与任何人沟通你的目标受众。
 如果由于某种原因 _必须_ 保持一般性，请尽量简化，并查看 [这里](https://www.anl.gov/education/writing-a-general-audience-abstract) 获取一些有用的提示。
-[这里](https://www.techchange.org/2015/05/21/audience-matters-in-data-visualization/) 你还有其他原因可以说明你的数据展示应该由目标受众推动。
+[这里](https://www.techchange.org/2015/05/21/audience-matters-in-data-visualization/) 你还有其它原因可以说明你的数据展示应该由目标受众推动。
 一旦清楚了解目标，就可以开始开发想要呈现的内容。
 
 ### 数据墨水比
@@ -98,7 +98,7 @@ Tufte 的书强调这一点，毫不留情地称之为 “信息/墨水比”。
 
 作为战士根据上下文选择他的武器，你必须明智地选择用于表示你想要传达的每个数字的图表。
 [这里](https://chartio.com/learn/dashboards-and-charts/what-are-common-chart-types-and-how-to-use-them/) 是最常见形状的列表，提出数据的想法。
-正如你所看到的，有许多不同的图形和其他类型的视觉信息显示，但少数将满足你的大多数需求（[请不要使用饼状图](https://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T)!)。
+正如你所看到的，有许多不同的图形和其它类型的视觉信息显示，但少数将满足你的大多数需求（[请不要使用饼状图](https://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T)!)。
 
 [这里](https://support.geckoboard.com/hc/en-us/articles/115002929972-How-to-choose-the-right-data-visualization) 和 [这里](https//blog.hubspot .com / marketing / of-graph-for-data-visualization) 一个易于遵循的详细清单，以确定哪种类型的图表最适合你的情况。
 
@@ -161,7 +161,7 @@ Tufte 的书强调这一点，毫不留情地称之为 “信息/墨水比”。
 - **暗示**。尝试在故事中召唤图片，声音和感觉。
 - **有一个伟大的结局**。为你的观众留下一个句子，该句子将是你演示文稿的其余部分，是你主题的最内部核心。在你记住演示文稿时，你希望观众了解的内容。
 
-有关讲故事的其他提示和建议，请查看我的其他 [有效陈述](https://github.com/clone95/Virgilio/blob/master/zh-CN/Specializations/SoftSkills/ImpactfulPresentations.md) 。
+有关讲故事的其它提示和建议，请查看我的其它 [有效陈述](https://github.com/clone95/Virgilio/blob/master/zh-CN/Specializations/SoftSkills/ImpactfulPresentations.md) 。
 
 对不起，我是 [DRY 原则](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1) 无望的粉丝。
 
@@ -182,7 +182,7 @@ Excel 是许多基本数据管理，计算和表示的瑞士军刀。
 
 #### Matplotlib
 
-[Matplotlib](https://matplotlib.org/) 是 Python 中最常用的图形表示库之一，其中许多其他库都是基于它构建的。
+[Matplotlib](https://matplotlib.org/) 是 Python 中最常用的图形表示库之一，其中许多其它库都是基于它构建的。
 
 我个人对此的看法是，理解和实施起来并不容易，但目前仍需掌握互联网上的教程。在 [StackOverflow](https://stackoverflow.com/) 中也有很多示例。
 [官方初学者指南](https://matplotlib.org/users/beginner.html) 非常完整，包含了入门所需的一切，然后精通库。
@@ -211,7 +211,7 @@ Excel 是许多基本数据管理，计算和表示的瑞士军刀。
 
 最佳实践：[1](http://walkerke.github.io/geog30323/slides/data-visualization/), [2](https://mode.com/resources/analytics-dispatch/data-visualization-best-practices/), [3](https://www.datacamp.com/courses/improving-your-data-visualizations-in-python)
 
-其他示例：[1](https://python-graph-gallery.com/category/seaborn/), [2](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html), [3](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850), [4](https://www.kaggle.com/mchirico/plotly-seaborn-examples)
+其它示例：[1](https://python-graph-gallery.com/category/seaborn/), [2](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html), [3](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850), [4](https://www.kaggle.com/mchirico/plotly-seaborn-examples)
 
 #### Bokeh
 
@@ -240,19 +240,19 @@ Bokeh 用于交互式可视化 - 如果你的数据非常复杂（或者你尚�
 
 另一个有用的附加教程列表：[1](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4), [2](https://realpython.com/python-data-visualization-bokeh/), [3](https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-one-getting-started-a11655a467d4)
 
-其他示例：[1](https://www.journaldev.com/19527/bokeh-python-data-visualization), [2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh), [3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/), [4](https://www.geeksforgeeks.org/python-data-visualization-using-bokeh/), [5](https://github.com/bokeh/bokeh/tree/master/examples)
+其它示例：[1](https://www.journaldev.com/19527/bokeh-python-data-visualization), [2](https://programminghistorian.org/en/lessons/visualizing-with-bokeh), [3](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/), [4](https://www.geeksforgeeks.org/python-data-visualization-using-bokeh/), [5](https://github.com/bokeh/bokeh/tree/master/examples)
 
 #### Tableau
 
 [Tableau](https://www.tableau.com/zh-cn) 利用数据实力，释放员工潜能，选择为商业智能领域带来变革的分析平台。
 
-此部分为您提供有关开始使用 Tableau 的基础知识。
+此部分为你提供有关开始使用 Tableau 的基础知识。
 
 - 有关如何开始操作的演练，请参见[构建基本视图以浏览数据](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/getstarted_buildmanual_ex1basic.htm)。
 - 有关如何使用 Tableau 的深入教程，请参见 [Tableau Desktop 入门指南](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/zh-cn/get-started-tutorial-home.html)。
-- 有关基本图表和视图类型的示例，请参见[在数据视图中生成常用图表类型](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/dataview_examples.htm)和[选择适合于您的正确图表](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/what_chart_example.htm)。
+- 有关基本图表和视图类型的示例，请参见[在数据视图中生成常用图表类型](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/dataview_examples.htm)和[选择适合于你的正确图表](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/what_chart_example.htm)。
 - 有关如何构建和使用地图的信息，请参阅[Tableau 中的地图和地理数据分析](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/maps.htm)。
-- 如果您正在使用 Tableau Online 和 Tableau Server 浏览数据并编辑视图，请参见[在 Web 上使用 Tableau](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/web_author_home.htm)。
+- 如果你正在使用 Tableau Online 和 Tableau Server 浏览数据并编辑视图，请参见[在 Web 上使用 Tableau](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/web_author_home.htm)。
 
 #### Power BI
 
@@ -316,7 +316,7 @@ Bokeh 用于交互式可视化 - 如果你的数据非常复杂（或者你尚�
 - 以你可以尝试的各种方式绘制数据，应用你所看到的技术。
 - 激励自己观察人们如何可视化相似的数据集。在 Kaggle 中搜索 “可视化”，你会被示例数量惊呆的。
 
-与其成为所有行业的 jack, 但不是一个行业的高手, 不如精通一个工具, 几乎不知道其他工具。所以, 我建议你选择更能激励你的工具, 深入其中。事实上, 我们看到的工具在很多方面都相互重叠，但它们的规模和方法各不相同。
+与其成为所有行业的 jack, 但不是一个行业的高手, 不如精通一个工具, 几乎不知道其它工具。所以, 我建议你选择更能激励你的工具, 深入其中。事实上, 我们看到的工具在很多方面都相互重叠，但它们的规模和方法各不相同。
 
 快乐学习，祝你学习愉快！
 

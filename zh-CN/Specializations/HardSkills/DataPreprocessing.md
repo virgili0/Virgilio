@@ -52,9 +52,9 @@
 在这次非正式会议期间，询问以下数据问题：
 - 你打算解决哪个业务问题？ (什么是重要的，什么不是)
 - 你是如何被收集的(有噪音，缺失值......) ？
-- 你们有多少朋友在那里，我在哪里可以找到他们？ (数据维度和从存储中检索)
+- 你们有多少朋友在那里，我在哪里可以找到它们？ (数据维度和从存储中检索)
 
-最终，你可能会发现数据太安静了，也许他们只是害羞！
+最终，你可能会发现数据太安静了，也许它们只是害羞！
 无论如何，你将 [向业务用户询问这些问题](https://business-analysis-excellence.com/business-requirements-meeting/) ！
 _最佳实践和练习：_ [1](https://www.iqint.org/idq2013/presentations/downloads/di_loreto_data_profiling_tutorial_monday_am.pdf), [2](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Data-profiling-tutorials-use-cases-and-exercise/td-p/145347)
 
@@ -70,7 +70,7 @@ _最佳实践和练习：_ [1](https://www.iqint.org/idq2013/presentations/downl
 每次要尝试数据准备步骤时，处理 GB 数据都是愚蠢的。只需使用数据的 [小子集](https://sdtimes.com/bi/data-gets-big-best-practices-data-preparation-scale/) (但请注意它们具有代表性，并抓住所有问题) 。请记住，如果你想尝试字符串清理，则无需在 10M 行上启动脚本。
 
 ### - 工具包
-我们将要使用的工具是 Python3 和他的 [Pandas 库](https://pandas.pydata.org/) ，它是操纵数据集的事实上的标准。
+我们将要使用的工具是 Python3 和它的 [Pandas 库](https://pandas.pydata.org/) ，它是操纵数据集的事实上的标准。
 这里繁重的工作是由 [DataFrame 类](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) 完成的，它为你提供了许多有用的功能日常数据任务。
 希望你已经知道 Python，如果不是从那里开始(按照我在 ML 指南要求中建议的步骤) ，然后采取这个 [初学者 Pandas 教程](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)。不要担心，如果现在一些想法不完全清楚，但试图了解常见的 [Pandas 操作](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/)。
 
@@ -80,7 +80,7 @@ _最佳实践和练习：_ [1](https://github.com/guipsamora/pandas_exercises), 
 [数据清理](https://en.wikipedia.org/wiki/Data_cleansing) 是获取数据的一般过程，在你清楚了解它们之后，你需要实现更换字符的实际过程，去掉不完整的行，填充缺失值等等。在接下来的部分中，我们将探讨所有常见的数据清理情况。
 
 ### - 摆脱额外的空格
-你要做的第一件事就是 [删除多余空格](https://stackoverflow.com/questions/43332057/pandas-strip-white-space) 。小心点！有些空格可能携带信息，但在很大程度上取决于具体情况。例如，在“完整名称” 中：“Giacomo Ciarlini” 很高兴有空格，所以我们可以稍后将其分为 "Name": "Giacomo" 和"Surname": "Ciarlini"。我希望你注意到，除了推荐和建议定制系统之外，名称或 ID 等唯一标识符通常可以放弃。通常，他们不携带信息。
+你要做的第一件事就是 [删除多余空格](https://stackoverflow.com/questions/43332057/pandas-strip-white-space) 。小心点！有些空格可能携带信息，但在很大程度上取决于具体情况。例如，在“完整名称” 中：“Giacomo Ciarlini” 很高兴有空格，所以我们可以稍后将其分为 "Name": "Giacomo" 和"Surname": "Ciarlini"。我希望你注意到，除了推荐和建议定制系统之外，名称或 ID 等唯一标识符通常可以放弃。通常，它们不携带信息。
 _额外提示_：学习如何使用 [正则(Regex)](https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/) 进行模式匹配，这是每个数据人需要的强大工具之一主。
 
 _最佳实践和练习：_ [1](https://www.quora.com/How-do-you-remove-all-whitespace-from-a-Python-string), [2](https://towardsdatascience.com/5-methods-to-remove-the-from-your-data-in-python-and-the-fastest-one-281489382455), [3](https://www.tutorialspoint.com/How-to-remove-all-leading-whitespace-in-string-in-Python)

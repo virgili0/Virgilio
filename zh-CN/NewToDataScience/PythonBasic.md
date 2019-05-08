@@ -96,7 +96,7 @@ _挑战自己_：
 - [这里](https://www.w3resource.com/python-exercises/python-conditional-statements-and-loop-exercises.php) 你有大约 20 个关于流程控制的练习。在继续之前一定要解决所有问题。
 
 ## 函数
-函数是完成特定任务的 “自包含” 代码模块。函数通常 “接收” 数据，处理数据并 “返回” 结果。一旦写入函数，就可以反复使用它。可以从其他函数内部 “调用” 函数。
+函数是完成特定任务的 “自包含” 代码模块。函数通常 “接收” 数据，处理数据并 “返回” 结果。一旦写入函数，就可以反复使用它。可以从其它函数内部 “调用” 函数。
 一个好的 **经验法则** 是：如果你意识到你要做 3 次以上的事情，那就写一个函数，并根据你的需要调用它多少次！
 
 你可以写：
@@ -158,7 +158,7 @@ _挑战自己_：
 [练习](https://www.w3resource.com/python-exercises/tuple/) 在这里。
 
 - 字典
-python 字典是无序的项的集合。虽然其他复合数据类型仅具有值作为元素，但字典具有键-值对。
+python 字典是无序的项的集合。虽然其它复合数据类型仅具有值作为元素，但字典具有键-值对。
 字典经过优化，可在密钥已知时检索值。你需要熟练掌握字典方法，因为它们是 Python 编程的基础。
 按照本书的 [**第 5 章**](https://automatetheboringstuff.com/chapter5/) ，它将启动你的词典以及如何随身携带结构化数据。
 [这里](http://openbookproject.net/thinkcs/python/english3e/dictionaries.html) 你有一本关于词典的深入实践指南。

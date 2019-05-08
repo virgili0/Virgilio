@@ -27,6 +27,7 @@
 ## 你能在这里找到什么？
 
 我为你打包了几种类型的指南：
+
 - 职业：完整的学习路径，指导你从头开始掌握新技能。
 - 主题：由子领域组织的特定主题、方法和现实应用的综合指南。
 - 专业化：个人技能的垂直指南。
@@ -76,6 +77,7 @@
 ## 高级主题
 ### [1 - DialogFlow 和 Flask 打造 ChatBot](Topics/DialogFlow.md)
 ### [2 - 机器学习系统简介](Topics/MLSystems.md)
+### [3 - 人工神经网络简介](Topics/ANN.md)
 
 # 研究
 ### [Zotero](Research/Zotero.md)
