@@ -58,7 +58,7 @@
 如果你了解自己的受众，他们的品味和兴趣，你可以以最佳和最有针对性的方式构建你的演示文稿。 [这里](https://www.ethos3.com/2009/10/5-ways-to-get-to-know-your-audience/) 你还可以找到 5 种方法。
 
 ### 开发高质量的内容
-内容是演示文稿的核心。虽然下面的所有其他想法将帮助你提高内容的效率，但精彩的演示文稿会以精彩的内容开始和结束。因此，请不要通过缩短开发内容的工作量来缩短受众群体。如果你想创建一个受众喜爱的演示文稿，你将需要投入大量时间进行研究，撰写和提出反馈。你想要尽可能地改进你的材料，但不要过度准备一切，否则，你会显得过于僵化和人为：我们会看到本指南中的一个关键点是 “真实的”。
+内容是演示文稿的核心。虽然下面的所有其它想法将帮助你提高内容的效率，但精彩的演示文稿会以精彩的内容开始和结束。因此，请不要通过缩短开发内容的工作量来缩短受众群体。如果你想创建一个受众喜爱的演示文稿，你将需要投入大量时间进行研究，撰写和提出反馈。你想要尽可能地改进你的材料，但不要过度准备一切，否则，你会显得过于僵化和人为：我们会看到本指南中的一个关键点是 “真实的”。
 
 ### 构建结构
 我强烈建议你建立一个有机结构，然后在演示文稿中遵循。
@@ -96,7 +96,7 @@
 ### 不读
 真的，不要这样做。阅读幻灯片会让受众感到厌烦，你似乎也不那么自信了。
 [这里](https://www.techwell.com/2013/10/give-better-presentation-don-t-read-your-slides) 为什么。
-[这里](https://academia.stackexchange.com/questions/76370/why-do-most-people-think-its-a-bad-idea-to-read-from-slides) 一个充满其他原因的矿井。
+[这里](https://academia.stackexchange.com/questions/76370/why-do-most-people-think-its-a-bad-idea-to-read-from-slides) 一个充满其它原因的矿井。
 
 ### 有趣
 吸引人们的最佳方式是吸引他们的注意力。这样做并不是那么容易，但通过一些心理技巧，你可以迷惑并说服他们。 [这里](https://www.inc.com/sims-wyeth/how-to-capture-and-hold-audience-attention.html) 你对我所说的内容有一个非常好的解释。

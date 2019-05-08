@@ -1,7 +1,7 @@
 # DialogFlow，Python 和 Flask 打造 ChatBot
 
 ## 我们有 99.94847％ 的死亡概率，卢克(路加)
-简单来说，[Chatbot](https://medium.com/swlh/what-is-a-chatbot-and-how-to-use-it-for-your-business-976ec2e0a99f)是一种模拟人类对话(以文本和音频形式）的计算机程序，我们将其视为智能和有用的。他们最重要的应用是个人或企业虚拟助手。聊天机器人可以挖掘大量数据，为客户挑选最好的金块，无论是故障排除解决方案还是推荐新产品。此外，它们还为你的企业和客户提供了非常直观的界面。根据具体情况，聊天机器人可以从用户所说的内容中了解个性化交互并构建以前的交互，从而提供[令人满意和未来的客户体验](https://mobilemonkey.com/chatbots/chatbot-examples)。
+简单来说，[Chatbot](https://medium.com/swlh/what-is-a-chatbot-and-how-to-use-it-for-your-business-976ec2e0a99f)是一种模拟人类对话(以文本和音频形式）的计算机程序，我们将其视为智能和有用的。它们最重要的应用是个人或企业虚拟助手。聊天机器人可以挖掘大量数据，为客户挑选最好的金块，无论是故障排除解决方案还是推荐新产品。此外，它们还为你的企业和客户提供了非常直观的界面。根据具体情况，聊天机器人可以从用户所说的内容中了解个性化交互并构建以前的交互，从而提供[令人满意和未来的客户体验](https://mobilemonkey.com/chatbots/chatbot-examples)。
 
 ## 为什么选择 Dialogflow
 [DialogFlow](https://dialogflow.com/)是来自谷歌的初学者友好聊天机器人平台，尽管有几个平台([这里](https://chatbotsmagazine.com/choosing-the-best- chatbot-platform-101-a-beginners-guide-e841b41192c7）一个关于选择合适平台的炫酷指南)，DialogFlow 对于初学者来说是最好的权衡。 你找到[这里](https://chatbotsjournal.com/25-chatbot-platforms-a-comparative-table-aeefc932eaff)另一个比较表。
@@ -45,7 +45,7 @@
 如果你已经关注该指南，你现在可以从 GUI 创建一个简单的聊天机器人。
 所以，让我们亲自动手，创造我们的第一个智能体！
 
-- 创建一个新的智能体并从 GUI 开发它，直到他能够重现这个 “我迷失” 的意图与 FollowUpIntents：
+- 创建一个新的智能体并从 GUI 开发它，直到它能够重现这个 “我迷失” 的意图与 FollowUpIntents：
 
 Bot: Hi! I'm Virgilio! How can I help you?\
 Human: Tell me which is the best _Data Science_ project in _Italy_.\
@@ -120,7 +120,7 @@ Dialogflow 的 API 允许你根据会话输入在你自己的系统上执行操�
 ### 我们的智能体，但有 API 调用
 现在是时候让我们的再次动手！
 这次我们将添加后端应用程序，而不是静态答案。
-[这里](https://www.pragnakalp.com/dialogflow-fulfillment-webhook-tutorial/)你有一个关于如何在你的机器上运行 Flask 应用程序的一致而完整的教程(使用 Ngrok 在你的机器上暴露他的 webhook)，到网络。
+[这里](https://www.pragnakalp.com/dialogflow-fulfillment-webhook-tutorial/)你有一个关于如何在你的机器上运行 Flask 应用程序的一致而完整的教程(使用 Ngrok 在你的机器上暴露它的 webhook)，到网络。
 现在你已经完成了整个堆栈，你可以开始创建任何类型的应用程序！
 
 ### 部署我们的聊天机器人

@@ -104,7 +104,7 @@ python -m pip install --upgrade pip
 ### 为什么选择 Scikit-Learn
 [Scikit-Learn](https://scikit-learn.org/stable/) 是机器学习任务中最完整，最成熟，良好文档的库之一。它开箱即用，具有强大而先进的模型，可为数据科学过程提供设施功能。
 
-我们将沿着这条路学习和使用其他模块。要快速使用，请查看他们的官方文档。
+我们将沿着这条路学习和使用其它模块。要快速使用，请查看它们的官方文档。
 
 
 ### 端到端机器学习项目
@@ -184,7 +184,7 @@ _其次看：_
 -------------------------------------------------- ---------------
 
 ## TensorFlow 神经网络
-在本节中，我们将按照斯坦福大学深度学习课程和我通过互联网搜索的一些教程，遵循一条将我们从神经网络的零知识带到完全理解它们的轨道。其中一些来自谷歌，其他来自斯坦福大学或剑桥大学，你将学习利用神经网络 (ANN，CNN，RNN) 进行几种 ML 任务。
+在本节中，我们将按照斯坦福大学深度学习课程和我通过互联网搜索的一些教程，遵循一条将我们从神经网络的零知识带到完全理解它们的轨道。其中一些来自谷歌，其它来自斯坦福大学或剑桥大学，你将学习利用神经网络 (ANN，CNN，RNN) 进行几种 ML 任务。
 这些是使用 TensorFlow 进行 ML 任务的 [某些用例](https://www.digitaldoughnut.com/articles/2017/march/top-5-use-cases-of-tensorflow) 。
 
 乍一看，理解神经网络的理论和应用并不容易。 你需要反复阅读教程才能完全理解该主题。 我花了相当多的时间试图理解它们。 阅读文章，官方论坛，学习路径（如此）和相关的 subreddits 是深入学习概念，公式，权衡的最有效方式......
@@ -326,7 +326,7 @@ _其次看：_
 - 数据科学速查表 [极其庞大的收藏](https://github.com/FavioVazquez/ds-cheatsheets)
 - 真实数据科学/ML 项目的 [无限集合](https://docs.google.com/document/d/e/2PACX-1vRRC3ZIcvjFqEYEgnN9pptoWONr2mSGZJ4hSdL8Jpf2IpXdxjTc-d3jrpb98h59xJnZ3h1frUDydoxc/pub)
 - TensorFlow 中的教程和 ML 项目的 [无限集合](https://github.com/jtoy/awesome-tensorflow)
-- [其他 TensorFlow 示例](https://github.com/aymericdamien/TensorFlow-Examples)
+- [其它 TensorFlow 示例](https://github.com/aymericdamien/TensorFlow-Examples)
 
 ### 工具
 
