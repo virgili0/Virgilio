@@ -1,4 +1,5 @@
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
+# If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
 
 ## What Is This Place?
 
@@ -113,4 +114,4 @@ Single topics will be split by field and they can touch real-world applications,
 The Tools section will host several guides about everything you need to know about a particular technology/language/methodology! They will give you a means of thoroughly exploring and mastering the tool at hand.
 
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
-# If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
+
