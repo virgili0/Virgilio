@@ -1,5 +1,7 @@
 ![图 1-1](map_final.png "1")
 
+# 如果您喜欢 Virgilio，[**填写此表格**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form)，每当有新的免费指南发布时，我会联系你。
+
 ## 这是什么地方？
 
 通过互联网进行学习意味着在无限的混乱信息丛林中游泳，在快速变化的创新领域更是如此。
@@ -75,9 +77,14 @@
 
 # 主题
 ## 高级主题
-### [1 - DialogFlow 和 Flask 打造 ChatBot](Topics/DialogFlow.md)
+### [1 - 揭晓人工智能和机器学习的关键概念](Topics/Demystification.md)
 ### [2 - 机器学习系统简介](Topics/MLSystems.md)
 ### [3 - 人工神经网络简介](Topics/ANN.md)
+## 低级主题
+### [ChatBot - DialogFlow 和 Flask 打造复杂有用的虚拟助手](Topics/DialogFlow.md)
+### [使用 OpenCV 和 Python 的计算机视觉简介](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
+### [云端深度学习](Topics/Deep%20learning%20in%20cloud)
+### [使用 TensorFlow 框架和云 GPU 技术进行对象实例分割](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
 
 # 研究
 ### [Zotero](Research/Zotero.md)
