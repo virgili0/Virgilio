@@ -83,7 +83,7 @@
 ## 低级主题
 ### [ChatBot - DialogFlow 和 Flask 打造复杂有用的虚拟助手](Topics/DialogFlow.md)
 ### [使用 OpenCV 和 Python 的计算机视觉简介](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
-### [云端深度学习](Topics/Deep%20learning%20in%20cloud)
+### [云端深度学习](Topics/Deep%20learning%20in%20cloud/README.md)
 ### [使用 TensorFlow 框架和云 GPU 技术进行对象实例分割](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
 
 # 研究
