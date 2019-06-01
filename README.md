@@ -1,7 +1,7 @@
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
 # If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
 
-## What Is This Place?
+## What Is This Place? 
 
 Studying through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
