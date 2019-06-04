@@ -1,9 +1,17 @@
-Hi, if you're here it means that you want to contribute to this awesome project, and help people anywhere in the world 
-getting started with the subject or tool you love! That is great!
+# Contribute
+Our mission is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this mission!
+
+If you know how to use a tool or a framework, or you faced some business problems and their complications, why not writing a guide about it?
+Several studies and empirical proofs show that to teach something is the fastest and most effective way to learn it.
+Moreover, thousands of people will read it and would be grateful to you! 👍 
+Don't worry about the correctness of your English or the deepness of your knowledge, experienced people at Virgilio will help you to make your guide of the highest quality.
+If you want to contribute to the Virgilio project, join us on Slack and check-out or future guides roadmap, maybe you can find that we already need your help!
+Feel free to suggest new ideas, guides, or entire sections! 
+
 
 ## Easiest way to contribute
 The easiest way to contribute would be by sharing this repository with everyone you know. Send it to everyone who might enjoy leaning something new!
- 
+
 ## Contributing with new guides
 If you want to write a new guide, that would be great! You can contact us if you want to be sure that no one else is already writing about what you had in mind, or to find out if someone else would be interested in helping you write about a particular topic!
 
