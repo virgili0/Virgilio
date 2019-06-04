@@ -3,7 +3,7 @@
 
 
 # Towards the new Virgilio map
-In the image above you can see the roadmap of the new version of Virgilio. 
+In the image above you can see the roadmap of the new version of Virgilio. For now just use the old organization of the project at the end of this page. 
 
 # What is Virgilio?
 Studying and reading through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
@@ -50,9 +50,7 @@ In his journey Dante travel across the different levels of the catholic concepti
 In your journey, you will start from scratch and eventually reach the theoretical knowledge and solid expendable skill.
 The parallelism is natural:
 
-- High level contents				            --->		Paradiso
-- Low level contents for beginners 			---> 		Purgatorio
-- Low level contents for experts		   	---> 		Inferno
+![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/order.png "1") 
 
 _Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
 
@@ -82,6 +80,12 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
+# Paradiso
+- Coming soon!
+# Purgatorio
+- Coming soon!
+# Inferno
+- Coming soon!
 
 ## Old version of Virgilio
 
