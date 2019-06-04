@@ -1,8 +1,11 @@
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
 ![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.png "1") 
-# If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
 
-# Where are we, Virgilio?
+
+# Towards the new Virgilio map
+In the image above you can see the roadmap of the new version of Virgilio. 
+
+# What is Virgilio?
 Studying and reading through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
 Have you ever felt overwhelmed when trying to approach Data Science without a real “path” to follow? 
@@ -79,6 +82,7 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
+
 ## Old version of Virgilio
 
 Virgilio was born as a side project just this April, and at the very beginning it was not meant to become what it is now! Because of that we're holding the old organization of Virgilio too (for a while).
@@ -130,4 +134,4 @@ Virgilio was born as a side project just this April, and at the very beginning i
 
 
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
-
+# If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
