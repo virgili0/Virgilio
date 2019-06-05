@@ -1,3 +1,6 @@
+![](https://img.shields.io/github/forks/virgili0/Virgilio.svg?style=plastic)
+![](https://img.shields.io/github/issues/virgili0/Virgilio.svg?style=plastic)
+![](https://img.shields.io/github/stars/virgili0/Virgilio.svg?style=plastic)
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
 
 # Future Map  
