@@ -38,7 +38,7 @@ Do your best to write clearly and without errors! Provide relevant links wheneve
 In general Virgilio has to be the place that you go there and you can be sure that the next step you're tackling and the approach you do it are the right ones. This means that the ideal guide:
 
 - Introduces you to the what, why and the context in plain English (following the template).
-- Exposes you to practical experience with exercises and hands-on projects. Kaggle is a good place to find them: choose a project and give it as a “final homework”, giving tips and different solutions (if possible).
+- If practice oriented (_Purgatorio and Inferno_), exposes you to practical experience with exercises and hands-on projects. Kaggle is a good place to find them: choose a project and give it as a “final homework”, giving tips and different solutions (if possible).
 - Drives you step-by-step through progressive theory+practice+example for each step. Like a book basically, but concise, with pointers to the right resources and brief suggestions about how to approach them.
 - Don't re-invent the wheel. Probably someone has done a very good job explaining BackPropagation, why not to leverage this? Other authors will be more than happy to have credits and share of their work!
 The thing that matters is that you provide this resource inside a logical path, with reasons for that, introducing it, and "linking" with explanations to the rest of the guide. It can just be 3-4 lines, if they are sufficient. Of course, the more original content you develop, the more you can build and awesome learning place. 
@@ -61,6 +61,9 @@ You have a lot of examples that are the guides that have already been written.
 
 # Title of the guide about X
 
+# Introduction to X
+No more than a dozen lines introducing X.
+
 ## What is X
 **X** is what we will be talking about now!
 
@@ -68,7 +71,7 @@ You have a lot of examples that are the guides that have already been written.
 **X** matters because unicorns are great!
 
 ## Who am I?
-**X** I am definitely not a robot!
+Give you can omit this if you prefer. Here you can give your references and social accounts.
 
 ## Prerequisites
 It would be great if you knew
