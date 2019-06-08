@@ -1,9 +1,10 @@
 # Index
  - [Contribute](#Contribute)
-   - [Subsection A1](#subsection-a1)
-   - [Subsection A2](#subsection-a2)
- - [Section B](#section-b)
- - ...
+ - [Easiest way to contribute](#Easiest-way-to-contribute)
+ - [Contributing with new guides](#Contributing-with-new-guides)
+ - [Guide Template](#Guide-Template)
+ - [Creating a Pull Request](#Creating-a-Pull-Request)
+
  
 # Contribute
 Our mission is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this mission!
@@ -28,6 +29,7 @@ Before writing, you also need check the [**template.md**](template.md) file that
 
 Do your best to write clearly and without errors! Provide relevant links whenever you can and only free resources. You are welcome to leave your contact details in the end of the guide, but you are not forced to do so!
 
+# Guide Template
 
 # Title of the guide about X
 
