@@ -7,9 +7,13 @@
 
  
 # Contribute
-Our mission is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this mission!
+
+> “There is immense power when a group of people with similar interests gets together to work toward the same goals.” 
+
+The mission of Virgilio is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this wonderful and serious game!
 
 If you know how to use a tool or a framework, or you faced some business problems and their complications, why not writing a guide about it?
+ 
 Several studies and empirical proofs show that to teach something is the fastest and most effective way to learn it.
 Moreover, thousands of people will read it and would be grateful to you! 👍 
 Don't worry about the correctness of your English or the deepness of your knowledge, experienced people at Virgilio will help you to make your guide of the highest quality.
@@ -25,7 +29,7 @@ If you want to write a new guide, that would be great! You can contact us if you
 
 If you want to write a guide, please take some time to read a couple of them to get a feel for the style that the guides should follow. You can have a look at the WolframAlpha or GeoGebra guides.
 
-Before writing, you also need check the [**template.md**](template.md) file that accompanies this README.
+Before writing, you also need to check the [Guide Template](#Guide-Template).
 
 Do your best to write clearly and without errors! Provide relevant links whenever you can and only free resources. You are welcome to leave your contact details in the end of the guide, but you are not forced to do so!
 
