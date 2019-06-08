@@ -36,20 +36,25 @@ Do your best to write clearly and without errors! Provide relevant links wheneve
 
 # General Tips
 In general Virgilio has to be the place that you go there and you can be sure that the next step you're tackling and the approach you do it are the right ones. This means that the ideal guide:
-- Introduces you to the what, why and the context in plain English.
-- Tells you which is the “attack plan”, listing the contents and explaining why they are tackled in that way.
+
+- Introduces you to the what, why and the context in plain English (following the template).
 - Exposes you to practical experience with exercises and hands-on projects. Kaggle is a good place to find them: choose a project and give it as a “final homework”, giving tips and different solutions (if possible).
 - Drives you step-by-step through progressive theory+practice+example for each step. Like a book basically, but concise, with pointers to the right resources and brief suggestions about how to approach them.
+- Don't re-invent the wheel. Probably someone has done a very good job explaining BackPropagation, why not to leverage this? Other authors will be more than happy to have credits and share of their work!
+The thing that matters is that you provide this resource inside a logical path, with reasons for that, introducing it, and "linking" with explanations to the rest of the guide. It can just be 3-4 lines, if they are sufficient. Of course, the more original content you develop, the more you can build and awesome learning place. 
+
 - Gives you, for each step, some pointers to resources like "best practices for ____" or repos of examples.
 
-You have a lot of examples that are the guides that have already been written.
-As you can observe in our content, a Virgilio’s founding principle is: 
-If you need to put inside some explanation, resource, or image that has already been done by someone else, don’t reinvent the wheel! 
-Other authors will be more than happy to have credits and share of their work!
-So, starting from these minimum requirements, the author can have total choice on "how much customize and augment the material" with his own production.
-So each guide is a combination of pointers to resources, visualizations, videos and original Virgilio material.
-In brief, the goal of each guide is to craft a end-to-end mentor/recipe list, that can bring you from zero to, at least, complete awareness and enough practice to start using the ____ and have clear which are the “next steps”.
+### **The bottom line** is the following: 
 
+Virgilio wants to be the fluid mentor who "lines up" a series of resources of which the Internet already possesses most. 
+
+It wants to be those _lines that connect the dots_ ok knowledge.
+It wants to be the place in which you go to look for references and useful links, organized in a _logical and progressive way_. 
+It wants to _decrease the cognitive load_ in the approach to complex and interconnected themes such as machine learning and data science in general.
+
+
+You have a lot of examples that are the guides that have already been written.
 
 
 # Guide Template
