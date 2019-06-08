@@ -1,3 +1,10 @@
+# Index
+ - [Contribute](#Contribute)
+   - [Subsection A1](#subsection-a1)
+   - [Subsection A2](#subsection-a2)
+ - [Section B](#section-b)
+ - ...
+ 
 # Contribute
 Our mission is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this mission!
 
@@ -20,6 +27,57 @@ If you want to write a guide, please take some time to read a couple of them to 
 Before writing, you also need check the [**template.md**](template.md) file that accompanies this README.
 
 Do your best to write clearly and without errors! Provide relevant links whenever you can and only free resources. You are welcome to leave your contact details in the end of the guide, but you are not forced to do so!
+
+
+# Title of the guide about X
+
+## What is X
+**X** is what we will be talking about now!
+
+## Why does X matter 
+**X** matters because unicorns are great!
+
+## Who am I?
+**X** I am definitely not a robot!
+
+## Prerequisites
+It would be great if you knew
+  1. this thing
+  2. this other thing
+  3. and this might be useful as well
+
+# Index
+ - [Section A](#section-a)
+   - [Subsection A1](#subsection-a1)
+   - [Subsection A2](#subsection-a2)
+ - [Section B](#section-b)
+ - ...
+ 
+Let's dive right in!
+ 
+### Section A
+Section A is great because it is the first section of them all!
+
+And this would be another very interesting paragrah!
+ 
+#### Subsection A1
+In particular, I just went deeper into subsection A1!
+
+#### Subsection A2
+And of course there is subsection A2...
+
+### Section B
+Which is then followed by Section B.
+
+### Conclusions
+We concluded that _x_, _y_ and _z_.
+
+### Further reading
+You should definitely check this if you liked **x**, or read this if you liked **y**.
+
+----
+Written by _author_
+
 
 ## Creating a Pull Request
 If you are going to create a Pull Request, regardless of the reason, please take the time to give the PR a concise, relevant title (less than 50 characters) and write a descriptive, informative summary in the larger text field. This will let us review your PR faster, instead of having to first interpret what you did, and then decide if the changes are any good (which they probably are!).
