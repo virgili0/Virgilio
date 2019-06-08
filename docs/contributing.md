@@ -2,6 +2,7 @@
  - [You have an immense power](#Contribute)
  - [Easiest way to contribute](#Easiest-way-to-contribute)
  - [Contributing with new guides](#Contributing-with-new-guides)
+ - [General Tips](#General-Tips)
  - [Guide Template](#Guide-Template)
  - [Creating a Pull Request](#Creating-a-Pull-Request)
 
