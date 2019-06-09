@@ -55,7 +55,7 @@ It wants to _decrease the cognitive load_ in the approach to complex and interco
 
 
 You have a lot of examples that are the guides that have already been written.
-
+If the guide is higly pratical consider using a Jupyter Notebook.
 
 # Guide Template
 
@@ -64,14 +64,13 @@ You have a lot of examples that are the guides that have already been written.
 # Introduction to X
 No more than a dozen lines introducing X.
 
-## What is X
-**X** is what we will be talking about now!
-
 ## Why does X matter 
-**X** matters because unicorns are great!
+
+# What you will learn in practice
+Try to be specific.
 
 ## Who am I?
-Give you can omit this if you prefer. Here you can give your references and social accounts.
+You can omit this if you prefer. Here you can give your references and social accounts.
 
 ## Prerequisites
 It would be great if you knew
@@ -79,13 +78,21 @@ It would be great if you knew
   2. this other thing
   3. and this might be useful as well
 
+Link here all prerequisites.
+
+## Time to complete
+Give here an estimation of the time needed to walk through the contents and to tackle the practice part.
+
 # Index
  - [Section A](#section-a)
    - [Subsection A1](#subsection-a1)
    - [Subsection A2](#subsection-a2)
  - [Section B](#section-b)
  - ...
- 
+ - [Practice](#Practice)
+ - [Conclusions](#Conclusions)
+ - [Further reading](#Further-reading)
+
 Let's dive right in!
  
 ### Section A
@@ -101,6 +108,10 @@ And of course there is subsection A2...
 
 ### Section B
 Which is then followed by Section B.
+
+### Practice 
+Here you can give exercises to to in order to access to the nxt step of the path,
+or a project from Kaggle. For the project, give some guidelines and try to give an example solution (you can easily find dozens of solution notebooks on Kaggle)
 
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
