@@ -12,7 +12,7 @@
 In the image above you can see the roadmap of the new version of Virgilio. For now just use the old organization of the project at the end of this page. 
 
 # Contributing to Virgilio
-Do you think that you can help in building the above future map? **Check [here**](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and send and e-mail to giacomo.ciarlini@student.unife.it 
+Do you think that you can help in building the above future map? **Check** [**here**](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and send and e-mail to giacomo.ciarlini@student.unife.it 
 
 # What is Virgilio?
 Studying and reading through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
