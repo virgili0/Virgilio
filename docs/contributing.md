@@ -65,6 +65,7 @@ If the guide is higly pratical consider using a Jupyter Notebook.
 No more than a dozen lines introducing X.
 
 ## Why does X matter 
+Convince your audience that the time is gonna spend is worth it.
 
 # What you will learn in practice
 Try to be specific.
