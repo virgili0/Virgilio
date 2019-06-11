@@ -63,10 +63,7 @@ If the guide you are writing is highly pratical, consider using a Jupyter Notebo
 # Introduction to X
 No more than a dozen lines introducing X.
 
-## Why does X matter 
-Convince your audience that the time is gonna spend is worth it.
-
-# What you will learn in practice
+# What you will learn 
 Try to be specific.
 
 ## Who am I?
@@ -81,7 +78,7 @@ It would be great if you knew
 Link here all prerequisites.
 
 ## Time to complete
-Give here an estimation of the time needed to walk through the contents and to tackle the practice part.
+Give here an estimation of the time needed to walk through the contents and to tackle the practice part (if any).
 
 # Index
  - [Section A](#section-a)
