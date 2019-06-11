@@ -12,9 +12,7 @@ The elements listed in this guide are of 3 types:
  - data
  - computational resources.
 
-**For each element** you'll learn:
-- what you need to practice machine learning first-hand (small scale)
-- what do you need to start machine learning projects to innovate an organization (big scale)
+These elements enable you to practice machine learning first-hand (small scale) or start machine learning projects to innovate an organization (big scale).
 
 
 ## Prerequisites
@@ -28,7 +26,6 @@ Approximately 45 minutes. Less than a Netflix episode!
   - [Data](#Data)
   - [Know-how](#Know-how)
   - [Computational Power](#Computational-Power)
-
 - [Cloudy days](#Cloudy-days)
 - [If you still have to buy a machine](#If-you-still-have-to-buy-a-machine)
 - [Turn down the hype](#Turn-down-the-hype)
@@ -74,7 +71,14 @@ Let's see the main options:
 - [UCI Datasets](https://archive.ics.uci.edu/ml/index.php) is a free and immediate platform for finding thousands of datasets and their metadata. 
 - [U.S. Government open data](https://www.data.gov/)
 - [UK Governement open data](https://data.gov.uk/)
+- [EU open data](http://data.europa.eu/euodp/en/data/)
 - [A very long list from Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/)
+
+##### Collect your own data
+
+
+
+
 
 
 
