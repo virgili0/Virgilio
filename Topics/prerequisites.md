@@ -40,14 +40,32 @@ Approximately 45 minutes. Less than a Netflix episode!
 Virtually every area of science and economics has access to a quantity of data unimaginable even a decade ago. 
 In addition to this, today there is abundant and inexpensive computing capacity available through cloud service providers. 
 It is also important that international research is excited about machine learning topics, and therefore proceeds expeditiously in the development of increasingly effective techniques.
-Parallel to this, the engineering world creates tools by adjusting itself accordingly: Tools to apply ML techniques quickly, more and more user-friendly. Keras, a high-level framework that allows you to train a deep neural network in 15 lines of code, is an example of this phenomenon.
+Parallel to this, the engineering world creates the ML toolbox by adjusting itself accordingly: wonderful frameworks and high-level interfaces to apply ML techniques quickly, going towards more user-friendly "enablers". Keras, a high-level framework that allows you to train a deep neural network in 15 lines of code, is a a perfect example of this phenomenon. In the same way cloud providers offer you the possibility to host on their machines your ML models, with powerful logic that allows you to build a complete AI/ML start-up from your laptop. 
 
 The topics listed above have the following natural consequence:
-Today more than ever (and an enormity compared to 5 years ago) it is immediate and affordable for everyone to start practicing ML in everyday problems, and it is an obligation in the shoes of a company that wants to remain competitive in a market that runs at crazy speed. 
 
-Not all problems can be addressed with ML techniques and another guide will propose a conceptual framework to understand if the ML approach makes sense or not.
+Today, more than ever (and an enormity compared to 5 years ago) it is _easy and affordable_ for everyone to start practicing ML in everyday problems, and it is an _obligation_ in the shoes of a company that wants to remain competitive in a market that runs at crazy speed. 
 
 #### Data
+Data comes from the Latin Datus, which means fact, _happened_. 
+Building ML programs means exploiting something that has already happened in the past (the data) to discover recurring patterns that suggest how to act in the future.
+
+Building traditional programs is a tiring task. It requires that every single piece is built and then these are composed. It's not too different from building a house. Bricks are the modules that make it up and the house is the program in its entirety.
+
+When it comes to Machine Learning applications, however, the matter is different. 
+An ML program is something that we don't write ourselves, but rather something that we understand by observing and processing data. 
+
+A good analogy is the following:
+While building traditional software looks more similar to building a brick house, Machine Learning is similar to food cultivation. Cultivation leverages the earth to do most of the work. The farmer "guides" the land, supervises it and then picks up the fruits. Likewise, thanks to Machine Learning, the programmer tries to make the data do the bulk of the work. Growers combine seeds with land to grow plants while engineers combine data with algorithms to grow programs.
+
+It is therefore trivial to understand that if the data is to do the bulk of the work, the quality (and quantity) of the latter is strictly necessary for a model to make accurate predictions, or in general to extract knowledge effectively from them.
+
+Today there is already a large amount of data available to start practicing machine learning and discover its potential.
+Let's see how we can get the existing ones and how they can be useful in solving our problems.
+
+##### asdfb
+
+
 #### Know-how
 #### Computational Power
 ### Don't buy that
