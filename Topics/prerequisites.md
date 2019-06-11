@@ -63,7 +63,20 @@ It is therefore trivial to understand that if the data is to do the bulk of the 
 Today there is already a large amount of data available to start practicing machine learning and discover its potential.
 Let's see how we can get the existing ones and how they can be useful in solving our problems.
 
-##### asdfb
+There is already a large amount of data available to start practicing machine learning and discover its potential.
+Let's see how we can get the existing ones and how they can be useful in solving our problems.
+
+##### Free available data
+Be happy! A lot of data is free and easy to download!
+Let's see the main options:
+
+- [Kaggle](https://www.kaggle.com/) is the go-to platform for data in general: it's a Machine Learning challenges website, and hosts an enormous quantity of datasets and analysis done by people on them. Subscribe now.
+- [UCI Datasets](https://archive.ics.uci.edu/ml/index.php) is a free and immediate platform for finding thousands of datasets and their metadata. 
+- [U.S. Government open data](https://www.data.gov/)
+- [UK Governement open data](https://data.gov.uk/)
+- [A very long list from Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/)
+
+
 
 
 #### Know-how
