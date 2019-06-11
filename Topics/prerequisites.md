@@ -1,18 +1,22 @@
-# What do you need for Machine Learning?
+# What do you need to do Machine Learning?
 
 # Introduction 
 
 # Why 
 
 # What you will learn 
+In this guide you will learn which elements do you need to get started with Machine Learning, more precisely:
 
+- what you need to practice machine learning first-hand
+- what do you need to start machine learning projects to innovate an organization
 
+The elements listed in this guide are of 3 types: know-how, data and computational resources.
 
 ## Prerequisites
 Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
 
 ## Time to complete
-Give here an estimation of the time needed to walk through the contents and to tackle the practice part.
+Less than an hour.
 
 # Index
  - [Section A](#section-a)
