@@ -24,16 +24,17 @@ Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
 Approximately 45 minutes. Less than a Netflix episode!
 
 # Index
- - [The three elements](#The-three-elements)
-   - [Data](#Data)
-   - [Know-how](#Know-how)
-   - [Computational Power](#Computational-Power)
+- [The three elements](#The-three-elements)
+  - [Data](#Data)
+  - [Know-how](#Know-how)
+  - [Computational Power](#Computational-Power)
 
- - [Section B](#section-b)
- - ...
-
- - [Conclusions](#Conclusions)
- - [Further reading](#Further-reading)
+- [Cloudy days](#Cloudy-days)
+- [If you still have to buy a machine](#If-you-still-have-to-buy-a-machine)
+- [Turn down the hype](#Turn-down-the-hype)
+- [But keep your eyes open](#But-keep-your-eyes-open)
+- [Conclusions](#Conclusions)
+- [Further reading](#Further-reading)
 
 ### The three elements
 Virtually every area of science and economics has access to a quantity of data unimaginable even a decade ago. 
@@ -49,10 +50,17 @@ Not all problems can be addressed with ML techniques and another guide will prop
 #### Data
 #### Know-how
 #### Computational Power
+### Don't buy that
+### Cloudy days
+### If you still have to buy a machine
+### Turn down the hype
+### But keep your eyes open
+### Conclusions
+### Further reading
 
 
 
-### Section B
+
 
 
 ----
