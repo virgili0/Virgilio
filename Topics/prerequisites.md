@@ -75,12 +75,46 @@ Let's see the main options:
 - [A very long list from Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/)
 
 ##### Collect your own data
+Data collection is a huge and critical topic, which technical details go outside the scope of this guide. 
+We'll see in a dedicated Purgatorio's guide how to collect huge quantities of data through scraping and other sources.
+To first taste the awesome free tools that we can use, take a look the ones from [Digital Methods](https://tools.digitalmethods.net)!
 
+##### Look under the bed
+More and more organizations are realizing that they are sitting in a gold mine. Let's see some examples:
 
+First case: speech-to-text processing of a phone call.
 
+In this case, what I want to do is to translate an audio call into text. In the past, this was attempted using preset programs, but only the use of IA has allowed for optimal results.
 
+The service is normally offered by the big players (Google, Microsoft, Amazon etc.) who have trained the model with millions of sentences; they make it available through API, that is through a service. In this case, the company interfaces by providing the audio file and the service responds in real time with a text.
 
+In this case, the company buys the service it uses.
 
+Once you have obtained the text on it you can perform several operations: a semantic or lexical analysis, a translation possibly followed by a speech-to-text in order to hear the phone call in another language; these are evolutions that for now we do not go into.
+
+Second case; recognition of an object in a photo or video.
+
+It is only an evolution of the previous service; this time we provide the purchased service with an image, or a video, receiving in response an on/off when an object is recognized or a classification of the object itself; it depends on the compatibility between the trained model and the request that is made.
+
+Third case: optimization of inbound calls of a call center
+
+In the previous cases the trained model belonged to the external supplier; this does not prohibit, however, that the model is instead built internally. More resources would be needed, both in terms of conversations/images available and in terms of specific knowledge.
+
+In this third case, instead, we hypothesize the internal construction of an artificial intelligence model; the case is much more interesting because it allows the company to maintain the data and the entire process of building the AI internally.
+
+We must assume that the company in question has at its disposal the history of all the calls received, divided into the individual steps made by the operator; with them we must be able to build a chain of events that have led to a final solution. Technically, these are Markov chains, from the late 19th century mathematician who first studied and codified them.
+
+Having a large number of these chains at our disposal, we train a model according to IA algorithms; it is necessary to have specific competence at this point to understand which is the most suitable algorithm and the calibration of the parameters necessary to obtain the best result. It is often at this point that the best intentions collapse; it is not enough to feed the data to any model, it is necessary to identify and calibrate the right model.
+
+Once the model has been trained, it is made available to the call centre; once the call has been received and the first step has been taken, we will probably already have the next step available; after the second step, the probability of 'guessing' the next step will be even higher, and so on, optimising the process.
+
+This example can be applied to all cases where there is a sequence of events:
+- actions of a user on the site to predict whether he will buy a product or not
+- analysis of random movements to predict the next event
+- Fault/defect analysis to recognize the probability of failure from the current operation
+- analysis of behaviour to predict criminal phenomena (Minority report?)
+
+From these examples it can be understood that the AI is a way to process data; there is no limit in the hypothesis of its use, if not in the ability of those who manage the data.
 
 
 #### Know-how
