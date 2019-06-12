@@ -1,4 +1,4 @@
-# What do you need to do Machine Learning?
+# **What** do you need to do Machine Learning?
 
 # Introduction 
 The application of Machine Learning techniques is critical in analysing the data available to (public) organisations and extracting value from them. In order to do that, you need some critical elements.
