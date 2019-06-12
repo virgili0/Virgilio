@@ -82,7 +82,7 @@ To first taste the awesome free tools that we can use, take a look the ones from
 ##### Look under the bed
 More and more organizations are realizing that they are sitting in a gold mine. Let's see some examples:
 
-First case: speech-to-text processing of a phone call.
+**First case**: speech-to-text processing of a phone call.
 
 In this case, what I want to do is to translate an audio call into text. In the past, this was attempted using preset programs, but only the use of IA has allowed for optimal results.
 
@@ -92,11 +92,11 @@ In this case, the company buys the service it uses.
 
 Once you have obtained the text on it you can perform several operations: a semantic or lexical analysis, a translation possibly followed by a speech-to-text in order to hear the phone call in another language; these are evolutions that for now we do not go into.
 
-Second case; recognition of an object in a photo or video.
+**Second case**: recognition of an object in a photo or video.
 
 It is only an evolution of the previous service; this time we provide the purchased service with an image, or a video, receiving in response an on/off when an object is recognized or a classification of the object itself; it depends on the compatibility between the trained model and the request that is made.
 
-Third case: optimization of inbound calls of a call center
+**Third case**: optimization of inbound calls of a call center
 
 In the previous cases the trained model belonged to the external supplier; this does not prohibit, however, that the model is instead built internally. More resources would be needed, both in terms of conversations/images available and in terms of specific knowledge.
 
@@ -109,13 +109,22 @@ Having a large number of these chains at our disposal, we train a model accordin
 Once the model has been trained, it is made available to the call centre; once the call has been received and the first step has been taken, we will probably already have the next step available; after the second step, the probability of 'guessing' the next step will be even higher, and so on, optimising the process.
 
 This example can be applied to all cases where there is a sequence of events:
-- actions of a user on the site to predict whether he will buy a product or not
-- analysis of random movements to predict the next event
+- Actions of a user on the site to predict whether he will buy a product or not
+- Analysis of random movements to predict the next event
 - Fault/defect analysis to recognize the probability of failure from the current operation
-- analysis of behaviour to predict criminal phenomena (Minority report?)
+- Analysis of behaviour to predict criminal phenomena (Minority report?)
 
 From these examples it can be understood that the AI is a way to process data; there is no limit in the hypothesis of its use, if not in the ability of those who manage the data.
 
+Other use cases divided by industry:
+- [Manufactoring](https://medium.com/activewizards-machine-learning-company/top-8-data-science-use-cases-in-manufacturing-749256b8f1ee)
+- [Telecom](https://medium.com/activewizards-machine-learning-company/top-10-data-science-use-cases-in-telecom-e9c334d42616)
+- [Finance](https://towardsdatascience.com/machine-learning-in-finance-why-what-how-d524a2357b56)
+- [Marketing](https://www.forbes.com/sites/louiscolumbus/2018/02/25/10-ways-machine-learning-is-revolutionizing-marketing/#71aff4fa5bb6)
+- [Human Resources](https://emerj.com/ai-sector-overviews/machine-learning-in-human-resources/)
+
+Bonus tip!
+Dig into [AppliedAI](https://appliedai.com/) and search by industry or business application!
 
 #### Know-how
 #### Computational Power
