@@ -49,6 +49,8 @@ The topics listed above have the following natural consequence:
 
 Today, more than ever (and an enormity compared to 5 years ago) it is _easy and affordable_ for everyone to start practicing ML in everyday problems, and it is an _obligation_ in the shoes of a company that wants to remain competitive in a market that runs at crazy speed. 
 
+Let's see which elements do you need to get started.
+
 ### Data
 Data comes from the Latin Datus, which means fact, _happened_. 
 Building ML programs means exploiting something that has already **happened in the past** (the data) to discover recurring patterns that suggest **how to act in the future**.
