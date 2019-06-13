@@ -90,7 +90,7 @@ Doing data science is not simple. It will **never be**, if you want to fully und
 If you are a student or a technician in general who wants to experience these innovative themes at first hand, follow the path that has been prepared for you starting from Purgatory, and with the right time and determination you will get incredible results. 
 If you are just interested in knowing what know-how is needed (for example in order to form a team that can develop large data science projects in your company) here are some tips for you.
 Let's see what stages the process of developing a DS project consists of:
-![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/lifecycle.png "1") 
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/topics/lifecycle.png "1") 
 
 
 ### Computational Power
