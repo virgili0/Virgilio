@@ -8,9 +8,9 @@ In this guide you will learn which elements do you need to get started with Mach
 
 The elements listed in this guide are of 3 types: 
 
- - know-how
- - data
- - computational resources.
+ - **know-how**
+ - **data**
+ - **computational resources**
 
 These elements enable you to practice machine learning first-hand (small scale) or start machine learning projects to innovate an organization (big scale).
 
