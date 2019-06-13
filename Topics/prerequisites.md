@@ -95,7 +95,7 @@ The bottom line is: If you have a lot of data coming from a business process, pr
 Doing data science is not simple. It will **never be**, if you want to fully understand the mathematical processes behind the elegant models offered by high-level interfaces such as Keras. Learn to hate those who say "learn data science in 6 weeks". 
 In one sense it's _totally false_, in the other it's _disrespectful_ to those who study these issues for years, learning new things every day. This does not mean that we should be discouraged, on the contrary! **Virgilio is here to help you in this fascinating process**. 
 
-- If you are a student or a technician in general who wants to experience these innovative themes at first hand, follow the path that has been prepared for you starting from Purgatory, and with the right time and determination you will get incredible results. 
+- If you are a student or a technician in general who wants to experience these innovative themes at first hand, follow the path that has been prepared for you starting from Purgatorio, and with the right time and determination you will get incredible results. 
 
 - If you are just interested in knowing what know-how is needed (for example in order to form a team that can develop large data science projects in your company) here are some tips for you.
 
