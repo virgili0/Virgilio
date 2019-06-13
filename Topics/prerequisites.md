@@ -78,6 +78,7 @@ Let's see the main options:
 Data collection is a huge and critical topic, which technical details go outside the scope of this guide. 
 We'll see in a dedicated Purgatorio's guide how to collect huge quantities of data through scraping and other sources.
 To first taste the awesome free tools that we can use, take a look the ones from [Digital Methods](https://tools.digitalmethods.net)!
+Take also a look to the [Snorkel](https://hazyresearch.github.io/snorkel/blog/snorkel_programming_training_data.html) project from Stanford, seems very promising.
 
 #### Look under the bed
 More and more organizations are realizing that they are sitting in a gold mine. Years and years of historical data, from machines, conversation logs, transactions or sensor measurements are only waiting for you! They _probably_ hide a tremendous value to be unlocked, so why not to take a look at that relational database!
@@ -85,6 +86,13 @@ More and more organizations are realizing that they are sitting in a gold mine. 
 The bottom line is: If you have a lot of data coming from a business process, probably they are worth their bytes in gold (uh, this analogy doesn't seem to fit well).
 
 ### Know-how
+Doing data science is not simple. It will **never be**, if you want to fully understand the mathematical processes behind the elegant models offered by high-level interfaces such as Keras. Learn to hate those who say "learn data science in 6 weeks". In one sense it's totally false, in the other it's disrespectful to those who study these issues for years, learning new things every day. This does not mean that we should be discouraged, on the contrary! **Virgilio is here to help you in this fascinating process**. 
+If you are a student or a technician in general who wants to experience these innovative themes at first hand, follow the path that has been prepared for you starting from Purgatory, and with the right time and determination you will get incredible results. 
+If you are just interested in knowing what know-how is needed (for example in order to form a team that can develop large data science projects in your company) here are some tips for you.
+Let's see what stages the process of developing a DS project consists of:
+![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/lifecycle.png "1") 
+
+
 ### Computational Power
 ## Don't buy that
 ## Cloudy days
