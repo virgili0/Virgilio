@@ -103,6 +103,22 @@ Let's see what stages the process of developing a DS project consists of:
 
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/Topics/lifecycle.png "1") 
 
+Let's have a look.
+
+Once the requirements of the application that you want to develop to solve the problem have been collected, the data science cycle usually consists of experimenting with solutions in an iterative way by collecting data and shaping the problem. 
+
+Data collection consists of putting together data sources, building pipelines to pre-process them, and having a place to put them on hold for analysis. Modeling the problem consists of feature engineering (i.e. combining existing data in a meaningful way), training models and evaluating their performance.
+
+Once a satisfactory model has been obtained, it must be put into production so that it can solve the user's requirement.
+
+Once in production, the model needs to be monitored, and soon it may have to be modified as requirements change.
+As you can easily guess, the data science process involves different figures for its success, even if the web services provided by large technology companies allow anyone to start developing ML solutions without worrying about the integration or management of the underlying systems. 
+
+These figures have blurred boundaries in terms of skills and knowledge, and in general the ideal would be for each individual to _be able to move with agility between the different tasks of the data science process_. If this is possible for small scale projects, it is true that the needs of a company often require the coordinated effort of several people to be successful. 
+
+Names like "data scientist" or "data engineer" are described differently depending on the source. Here at Virgilio we believe that the classification made by [KDNuggets](https://www.kdnuggets.com/) is the most comprehensive and clear.
+
+In this awesome [blog post](https://www.kdnuggets.com/2019/03/building-effective-data-science-teams.html) you can find in detail the differences between these figures. 
 
 ### Computational Power
 ## Don't buy that
