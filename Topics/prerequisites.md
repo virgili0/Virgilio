@@ -120,6 +120,10 @@ Names like "data scientist" or "data engineer" are described differently dependi
 
 In this awesome [blog post](https://www.kdnuggets.com/2019/03/building-effective-data-science-teams.html) you can find in detail the differences between these figures. 
 
+If you're just thinking about learning everything you need by your own, you're in the right place! Starting from Purgatorio our purpose is to educate a "liquid" figure who can move around among the different tasks and parts of the data science process. 
+
+Sooner or later you'll have to choose something to specialize in, maybe data visualization or model architecture, but before then the path we propose here at Virgilio is mixed between these "predefined" figures and contains all the interdisciplinary topics that a member of a data science team should at least be aware of.
+
 ### Computational Power
 ## Don't buy that
 ## Cloudy days
