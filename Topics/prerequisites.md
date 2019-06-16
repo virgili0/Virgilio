@@ -124,7 +124,11 @@ If you're just thinking about learning everything you need by your own, you're i
 
 Sooner or later you'll have to choose something to specialize in, maybe data visualization or model architecture, but before then the path we propose here at Virgilio is mixed between these "predefined" figures and contains all the interdisciplinary topics that a member of a data science team should at least be aware of.
 
+Now that you know what know-how you need for your ML projects, let's take a look at the requirements in terms of computational resources.  
+
 ### Computational Power
+
+Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! In fact nowadays it is almost unthinkable for individuals (or even organizations) to buy hardware devices that allow them to do ML calculations. The best thing to do is to take advantage of the power and flexibility of the cloud.
 ## Don't buy that
 ## Cloudy days
 ## If you still have to buy a machine
