@@ -5,7 +5,7 @@
 
 # Future Map  
 
-![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/c.png "1") 
+![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.png "1") 
 
 
 
