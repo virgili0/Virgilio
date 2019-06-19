@@ -103,7 +103,7 @@ Virgilio was born as a side project just this April, and at the very beginning i
 
 # New To Data Science?
 ### [Basic Python](NewToDataScience/PythonBasic.md)
-### [**Matrix Algebra**](NewToDataScience/Matrix-Algebra.ipynb) 
+### [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
 ### Advanced Python  --  Coming Soon
 ### Advanced Math  --  Coming Soon
 ### [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
