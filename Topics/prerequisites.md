@@ -28,7 +28,7 @@ Approximately 45 minutes. Less than a Netflix episode!
   - [Computational Power](#Computational-Power)
 - [Cloudy days](#Cloudy-days)
 - [If you still have to buy a machine](#If-you-still-have-to-buy-a-machine)
-- [Further reading](#Further-reading)
+- [Conclusions](#Conclusions)
 
 ### The three elements
 Virtually every area of science and economics has access to a **quantity of data** unimaginable even a decade ago.
@@ -170,12 +170,18 @@ Don't believe who tells you that you need to buy a high-performance machine to m
 Suppose you still have to buy a calculator for other needs, let's see which are some good options:
 
 - [**This video**](https://www.youtube.com/watch?v=dtFZrFKMiPI) from Siraj Raval explains you pretty well which components are important and why.
-- [These Quora answers] are straightforward (you can notice that they suggest to leverage the cloud first) .
+- [These Quora answers](https://www.quora.com/What-laptop-computer-should-I-purchase-for-deep-learning-How-much-will-it-cost) are straightforward (you can notice that they suggest to leverage the cloud first) .
 - [This](https://towardsdatascience.com/build-a-deep-learning-rig-for-800-4434e21a424f) Medium article shows you how to build an 800 dollars rig for Machine Learning.
 
+As we have seen the important component for ML calculations is the GPU, in particular the amount of video memory that owns.
+WARNING: You definitely want to have a GPU compatible with [Cuda](https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/), the parallelization platform of Nvidia, the largest GPU manufacturer.
 
-## Further reading
+This article](https://blog.slavv.com/picking-a-gpu-for-deep-learning-3d4795c273b9) explains how to choose a GPU that supports Cuda.
 
+## Conclusions 
+
+We have seen how the three elements (data, know-how and computing power) are strictly necessary to develop ML solutions for everyday problems. 
+If you are a student or just a curious cat you will have an easy time thanks to Google Colab and the free power it offers. If you're part of a team in a company thinking about starting to experiment with ML at scale, consider the ever richer and better ML services offered by the big technology vendors.
 
 
 ----
