@@ -139,7 +139,7 @@ Thanks to the internet connection and cloud providers, nowadays it is much more 
 In the next chapters I will argue why you should not buy an expensive phisical machine, and if you stil have todo that for some reason, I'll give you some tips in order to show you the tradeoffs in terms of price and amount of computational power. 
 
 ## Cloudy Days
-Outsourcing is the main driver of modern technical society. Imagine one of the first farmers in 20,000 B.C. 
+[**Outsourcing is the main driver of the human society progress**](https://necsi.edu/complexity-rising-from-human-beings-to-human-civilization-a-complexity-profile). Imagine one of the first farmers in 20,000 B.C. 
 He is used to carrying out the entire production process on his own: he tames and cultivates the wheat, picks it up and crushes it into small parts. He then uses it to create various products, such as flour, ready-made doughs, or a primitive form of bread.
 
 Nowadays, however, an individual or an organization can only deal with one of the previous sub-processes, and specialize highly in that. For example, by choosing to specialize in the production of bread, they could learn how to produce many forms of bread, look for new ones, improve the flavor and optimize all these processes, forming a specific and specialized know-how with respect to the production of bread. 
@@ -152,7 +152,7 @@ The same trend is being seen today in the use of software. It is more common tha
 
 It is therefore not surprising that cloud computing is becoming a very important part of the software market, thanks to the flexibility and reduced costs that this entails. 
 
-The race towards the monopoly of the cloud market is fierce, particularly between Amazon (with AWS) and Microsoft (Azure). 
+The [**race towards the monopoly**](https://cloudwars.co/worlds-top-5-cloud-vendors-cloud-wars/) of the cloud market is fierce, particularly between Amazon (with AWS) and Microsoft (Azure). 
 
 How does this come in handy for Machine Learning?
 
