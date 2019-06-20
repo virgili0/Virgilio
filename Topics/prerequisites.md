@@ -28,9 +28,6 @@ Approximately 45 minutes. Less than a Netflix episode!
   - [Computational Power](#Computational-Power)
 - [Cloudy days](#Cloudy-days)
 - [If you still have to buy a machine](#If-you-still-have-to-buy-a-machine)
-- [Turn down the hype](#Turn-down-the-hype)
-- [But keep your eyes open](#But-keep-your-eyes-open)
-- [Conclusions](#Conclusions)
 - [Further reading](#Further-reading)
 
 ### The three elements
@@ -170,13 +167,8 @@ we have created [**a fantastic list**](https://github.com/virgili0/Virgilio/tree
 Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! 
 
 ## If you still have to buy a machine
-## Turn down the hype
-## But keep your eyes open
-## Conclusions
+
 ## Further reading
-
-
-
 
 
 
