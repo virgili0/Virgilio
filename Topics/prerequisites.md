@@ -163,6 +163,8 @@ It also allows you to serve solutions quickly, flexibly and without the classic 
 Recently, all large tech companies have started to provide (and invest heavily) in providing services related to AI and ML issues. Emerging (and required) figures such as the data engineer or data scientist are able to achieve incredible levels of productivity and business through end-to-end platforms that cover the entire development cycle of AI and ML solutions. 
 Some examples are [AWS Sagemaker](https://aws.amazon.com/it/sagemaker/) or [Azure Machine Learning Studio](https://azure.microsoft.com/it-it/services/machine-learning-studio/).
 
+
+
 Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! 
 
 ## If you still have to buy a machine
