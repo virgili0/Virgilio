@@ -127,10 +127,44 @@ Sooner or later you'll have to choose something to specialize in, maybe data vis
 Now that you know what know-how you need for your ML projects, let's take a look at the requirements in terms of computational resources.  
 
 ### Computational Power
+The third and final element that you have is computational power.
+The calculations that most of the time you find yourself doing when experimenting with Machine Learning are multiplications between matrices. 
+Then, in the subset of ML techniques called Deep Learning, neural networks are particularly hungry for these calculations. 
+In the past decades such calculations were made directly using the CPU of computers, but they proved insufficient to train the most complex networks.
+Fortunately, we are helped by GPUs (graphical processor units), whose job is exactly to do matrix calculations! In fact, in the world of gaming and video computing in general, these kinds of calculations are what happens daily behind the scenes of video games and 3D graphics in general.
+In particular, the main factor that indicates the usefulness of GPUs in Machine Learning calculations is the amount of video memory (expressed in GigaBytes) that the card has.
+Damn it! We have to buy an extreme gaming PC with 4 GPUs!
+I'm kidding, please don't do that.
+Thanks to the internet connection and cloud providers, nowadays it is much more convenient to use machines prepared and maintained by companies like Amazon or Google, instead of investing money in physical hardware.
+In the next chapters I will argue why you should not buy an expensive phisical machine, and if you stil have todo that for some reason, I'll give you some tips in order to show you the tradeoffs in terms of price and amount of computational power. 
 
-Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! In fact nowadays it is almost unthinkable for individuals (or even organizations) to buy hardware devices that allow them to do ML calculations. The best thing to do is to take advantage of the power and flexibility of the cloud.
-## Don't buy that
-## Cloudy days
+## Cloudy Days
+Outsourcing is the main driver of modern technical society. Imagine one of the first farmers in 20,000 B.C. 
+He is used to carrying out the entire production process on his own: he tames and cultivates the wheat, picks it up and crushes it into small parts. He then uses it to create various products, such as flour, ready-made doughs, or a primitive form of bread.
+
+Nowadays, however, an individual or an organization can only deal with one of the previous sub-processes, and specialize highly in that. For example, by choosing to specialize in the production of bread, they could learn how to produce many forms of bread, look for new ones, improve the flavor and optimize all these processes, forming a specific and specialized know-how with respect to the production of bread. 
+
+This process, the progressive specialization of human activities, is the basis of the technical progress of our species. It is clearly based on outsourcing! If all the sub-processes preceding the production of bread were to disappear, the baker would be destined to close down. How does it grow wheat? How does it prevent insects from ruining it? How does it pay for, manage and maintain the presses that crush it and make it flour?
+
+In the same way, companies today outsource as much as possible all processes that are not essential to the company's know-how: in doing so, everyone can do "what they do best".
+
+The same trend is being seen today in the use of software. It is more common than ever to use services provided through the network to solve sub-problems that companies do not want to worry about, such as the management of physical machines that host their applications, or they want to have their data from anywhere in the world in a safe and reliable way! 
+
+It is therefore not surprising that cloud computing is becoming a very important part of the software market, thanks to the flexibility and reduced costs that this entails. 
+
+The race towards the monopoly of the cloud market is fierce, particularly between Amazon (with AWS) and Microsoft (Azure). 
+
+How does this come in handy for Machine Learning?
+
+With a few clicks you can deploy files and files of high-performance machines, managed in a transparent way, and especially with on-demand capabilities. 
+This fact drastically reduces the costs and complexity of developing complex software and solutions, all from a dedicated web interface or client.
+It also allows you to serve solutions quickly, flexibly and without the classic problems of large-scale computing that today's distributed systems require. Being able to scale from one device to millions simply by turning on hundreds of self-managed and paid-for machines, is an outstanding business and research enabler. 
+
+Recently, all large tech companies have started to provide (and invest heavily) in providing services related to AI and ML issues. Emerging (and required) figures such as the data engineer or data scientist are able to achieve incredible levels of productivity and business through end-to-end platforms that cover the entire development cycle of AI and ML solutions. 
+Some examples are [AWS Sagemaker](https://aws.amazon.com/it/sagemaker/) or [Azure Machine Learning Studio](https://azure.microsoft.com/it-it/services/machine-learning-studio/).
+
+Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! 
+
 ## If you still have to buy a machine
 ## Turn down the hype
 ## But keep your eyes open
