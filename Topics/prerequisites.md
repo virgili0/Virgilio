@@ -163,7 +163,9 @@ It also allows you to serve solutions quickly, flexibly and without the classic 
 Recently, all large tech companies have started to provide (and invest heavily) in providing services related to AI and ML issues. Emerging (and required) figures such as the data engineer or data scientist are able to achieve incredible levels of productivity and business through end-to-end platforms that cover the entire development cycle of AI and ML solutions. 
 Some examples are [AWS Sagemaker](https://aws.amazon.com/it/sagemaker/) or [Azure Machine Learning Studio](https://azure.microsoft.com/it-it/services/machine-learning-studio/).
 
+To start experimenting in a simple way there are even solutions such as [Google Colab](https://colab.research.google.com/), a free Google tool that allows you to use Jupyter notebooks on your machines, without having to worry about installing packages or managing memory. It's also totally free!
 
+we have created [**a fantastic list**](https://github.com/virgili0/Virgilio/tree/master/Topics/Deep%20learning%20in%20cloud) that compares all cloud solutions in terms of cost and performance.
 
 Don't believe who tells you that you need to buy a high-performance machine to make ML. Probably lives in 2010! 
 
