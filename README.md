@@ -134,6 +134,7 @@ Virgilio was born as a side project just this April, and at the very beginning i
 ### [1 - Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
 ### [2 - Introduction to ML systems](Topics/MLSystems.md)
 ### [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
+### [What do I need for ML? **NEW**](Topics/prerequisites.md)
 ## Low Level Topics
 ### [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
 ### [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
