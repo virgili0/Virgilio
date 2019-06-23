@@ -18,8 +18,10 @@
 
 Let's dive right in!
  
-### Section A
-
+### Distinguish Hype from Opportunities
+#### Hype
+#### Opportunities
+#### The Charming Salesman
 ### Do you need Deep Learning?
 #### Subsection A1
 
