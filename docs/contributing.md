@@ -60,9 +60,6 @@ If the guide you are writing is highly pratical, consider using a Jupyter Notebo
 
 # Title of the guide about X
 
-# Introduction to X
-No more than a dozen lines introducing X.
-
 # What you will learn 
 Try to be specific.
 
