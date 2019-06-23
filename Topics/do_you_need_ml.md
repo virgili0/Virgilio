@@ -12,7 +12,7 @@
    - [Hype](#Hype)
    - [Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
- - [Don't start deep](#Don't-start-deep)
+ - [Don't begin from the tail](#Don't-begin-from-the-tail)
  - [Section B](#section-b)
  - [Conclusions](#Conclusions)
 
@@ -22,7 +22,7 @@ Let's dive right in!
 #### Hype
 #### Opportunities
 #### The Charming Salesman
-### Do you need Deep Learning?
+### Don't begin from the tail
 #### Subsection A1
 
 #### Subsection A2
