@@ -12,7 +12,7 @@
    - [Hype](#Hype)
    - [Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
- - [Do you need Deep Learning?](#Do-you-need-Deep-Learning?)
+ - [Don't start deep](#Don't-start-deep)
  - [Section B](#section-b)
  - [Conclusions](#Conclusions)
 
