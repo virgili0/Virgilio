@@ -13,6 +13,7 @@
    - [Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
  - [Don't begin from the tail](#Don't-begin-from-the-tail)
+ - [No free lunch](#No-free-lunch)
  - [Section B](#section-b)
  - [Conclusions](#Conclusions)
 
