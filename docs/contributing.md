@@ -63,9 +63,6 @@ If the guide you are writing is highly pratical, consider using a Jupyter Notebo
 # What you will learn 
 Try to be specific.
 
-## Who am I?
-You can omit this if you prefer. Here you can give your references and social accounts.
-
 ## Prerequisites
 It would be great if you knew
   1. this thing
