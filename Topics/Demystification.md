@@ -13,7 +13,7 @@ None, welcome on board! :-)
 - [Naming](#Naming)
 - [Definition](#Definition) 
 - [Machine Learning, differences from the algorithmic approach](#Machine-Learning-differences-from-the-algorithmic-approach)
-- [Why use Machine Learning techniques?](#Why-use-Machine-Learning-techniques?)
+- [Why use Machine Learning techniques?](#Why-use-Machine-Learning-techniques)
 
 ### Naming
 
@@ -75,7 +75,7 @@ It is not a Machine Learning application:
 - The famous mobile application Akinator, which tries to guess which historical or cinematic character the user is thinking about. Through a series of targeted questions (does he have hair? is he an alien? appears in Star Wars?) he explores a database of characters and by asking questions, by exclusion, he arrives at the answer. This, although it may seem like an "intelligent" program, is not really: it doesn't learn by improving with experience without being programmed to do so and follows a deterministic process easily explained by a human being.
 
 
-## Why use Machine Learning techniques?
+## Why use Machine Learning techniques
 
 Imagine having to create a spam e-mail filter with traditional programming techniques:
 
