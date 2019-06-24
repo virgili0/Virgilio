@@ -13,6 +13,7 @@ None, welcome on board! :-)
 - [Naming](#Naming)
 - [Definition](#Definition) 
 - [Machine Learning, differences from the algorithmic approach](#Machine-Learning-differences-from-the-algorithmic-approach)
+- [Why use Machine Learning techniques?](#Why-use-Machine-Learning-techniques?)
 
 ### Naming
 
