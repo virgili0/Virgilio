@@ -13,7 +13,7 @@ it would be appropriate to have read before:
 
 # Index
  - [Distinguish Hype from Opportunities](#Distinguish-Hype-from-Opportunities)
-   - [Not today, Hype](#Not-today,-Hype)
+   - [Kill the Hype](#Kill-the-Hype)
    - [Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
  - [Don't begin from the tail](#Don't-begin-from-the-tail)
@@ -28,7 +28,7 @@ Let's dive right in!
 ### Distinguish Hype from Opportunities
 Although AI and Machine Learning offer immense business and product opportunities, they are not always the recipe for all evils. Indeed, be wary of those who tell you that with these tools you can solve any kind of problem. In this guide we try to break down the various factors that may suggest the non-feasibility of a Machine Learning project.
 
-#### Not today, Hype
+#### Kill the Hype
 
 [Hype](https://it.wikipedia.org/wiki/Hype) is a clamor around a person or a fact, an insistent and powerful voice that projects it to the top of the headlines and in positive opinions. Often (not always) however, it's a straw fire, a passing fashion that falls as the facts belie expectations.
 
