@@ -12,6 +12,7 @@ None, welcome on board! :-)
 # Index
 - [Naming](#Naming)
 - [Definition](#Definition) 
+- [Machine Learning, differences from the algorithmic approach](#Machine-Learning,-differences-from-the-algorithmic-approach)
 
 ### Naming
 
