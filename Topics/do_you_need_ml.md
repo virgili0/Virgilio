@@ -6,7 +6,7 @@ The purpose of this guide is to warn you that there is not always a need for mac
 
 ## Prerequisites
 it would be appropriate to have read before:
-- [Demystification about DS, AI and ML](Topics/Demystification.md)
+- [Demystification about DS, AI and ML](Demystification.md)
 
 ## Time to complete
 
