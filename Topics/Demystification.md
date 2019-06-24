@@ -12,7 +12,7 @@ None, welcome on board! :-)
 # Index
 - [Naming](#Naming)
 - [Definition](#Definition) 
-- [Machine Learning, differences from the algorithmic approach](#Machine-Learning,-differences-from-the-algorithmic-approach)
+- [Machine Learning, differences from the algorithmic approach](#Machine-Learning-differences-from-the-algorithmic-approach)
 
 ### Naming
 
@@ -36,7 +36,7 @@ In this example, the AI system of the car has a sub-module of Machine Learning t
 This Machine Learning module is then made up of further sub-modules, among which there can be a Deep Learning module that specifically deals with the vision that the car has of the real world, through a neural network trained to recognize the route of the road, the shapes of cars, distinguish them from those of trees and pedestrians, and so on.
 
 
-## Machine Learning, differences from the algorithmic approach
+## Machine Learning differences from the algorithmic approach
 
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism can be identified with the ability to consciously interpret each step of the algorithm and understand what action is taken at each step and why. It is important to note that I do not need examples of input data to produce the output considered correct. 
 
