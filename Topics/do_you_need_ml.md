@@ -49,6 +49,35 @@ Of course, to fully evaluate the feasibility of a project you need experience an
 So we understand how justified hype is, in the sense that Deep Learning opens up incredible possibilities and without previous examples, but it is also a double-edged weapon, which can damage the very economy of technology because it does not meet the (too high) expectations.
 
 #### Opportunities
+The previous premise does not take away the fact that if you have data, know-how and computational power, it is _probable_ that Deep Learning can offer you incredible possibilities. 
+
+How can you find out if the data you have hides hidden pearls? in general you can think that, having the right amount of data (for example, rows of a database), you can use Machine Learning methods to predict the value (continuous) or the class (discrete) associated with a row. In other words, you can try to predict the value of a column!
+Imagine the following (simplified) situation: 
+We have an e-commerce database, which contains for each line the record of purchase of a product. 
+Some columns are: "name", "color", "price", "price range".
+The column "price range" contains a label that identifies if an item has a low price or high, and is provided by the company that produces the product (we have not assigned it).
+ 
+Every now and then, however, the company that supplies the products is careless and forgets to assign a price range to the object. 
+ 
+How can we solve this problem?
+
+The problem consists in a binary classification task that takes as input the price of the object (some features, such as color, do not affect the price in this case) and returns in output the label of the price range ("high" or "low").
+
+- We can try to apply a Deep Learning technique
+- We can try to apply a more general Machine Learning technique
+- We can use a heuristics program that's been created specifically for that.
+
+
+
+Let's analyze the various possibilities:
+
+First of all, it must be said that the simplest solution would perhaps be to change supplier :-)
+Apart from this joke not funny, let's start from the case of application of Deep Learning.
+
+
+Translated with www.DeepL.com/Translator
+
+
 #### The Charming Salesman
 ### Don't begin from the tail
 #### Subsection A1
