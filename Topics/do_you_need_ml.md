@@ -2,8 +2,11 @@
 # Do you need Machine Learning?
 
 # What you will learn 
+The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
 
 ## Prerequisites
+it would be appropriate to have read before:
+- [Demystification about DS, AI and ML](Topics/Demystification.md)
 
 ## Time to complete
 
