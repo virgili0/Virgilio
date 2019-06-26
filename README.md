@@ -67,7 +67,7 @@ _Going from top to bottom increases the level of detail and decreases the level 
 In the **Paradiso** you won’t find a single line of code or a math formula, just plain English. 
 Here’s the place for introductions, simple explanations, demystifications, and meta-guides (for example a guide about the best way to use Virgilio). 
 It’s the best place for the not-techies, beginners and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored into technical details. 
-Do you want to communicate these innovative fields? Pass from the Heaven!
+Do you want to communicate these innovative fields? Pass from the Paradiso!
 
 In the **Purgatorio** you can find technical guides for beginners (in the field or in general IT). 
 For example, you’ll find guides about Python, maths, and statistics. 
