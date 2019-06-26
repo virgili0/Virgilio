@@ -1,15 +1,15 @@
-### What is Artificial Intelligence, Machine Learning and Deep Learning
+# What is Artificial Intelligence, Machine Learning and Deep Learning
 
-### What you will learn 
+# What you will learn 
 This guide wants to clarify ideas about terms that involve terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the [Jargon](https://en.wikipedia.org/wiki/Jargon) of these incredible themes in continuous evolution. You will understand the hierarchy and contexts in which to read any news or fact that mentions AI or Machine Learning.
 
-### Prerequisites
+## Prerequisites
 None, welcome on board! :-)
 
-### Time to complete
+## Time to complete
 30 minutes.
 
-### Index
+# Index
 - [Naming](#Naming)
 - [Definition](#Definition) 
 - [Machine Learning, differences from the algorithmic approach](#Machine-Learning-differences-from-the-algorithmic-approach)
