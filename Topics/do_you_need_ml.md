@@ -16,7 +16,7 @@ it would be appropriate to have read before:
    - [Kill the Hype](#Kill-the-Hype)
    - [Evaluate Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
- - [Don't begin from the tail](#Don't-begin-from-the-tail)
+ - [Start Simple](#Start-Simple)
  - [No free lunch](#No-free-lunch)
  - [Data don't grow from trees](#Data-don't-grow-from-trees)
  - [Becoming a data driven company](#Becoming-a-data-driven-company)
@@ -104,12 +104,10 @@ Most problems in the ML world occur due to [unfulfilled expectations](https://ww
 
 Other reasons for the failure of ML projects can be found [here](https://www.kdnuggets.com/2018/07/why-machine-learning-project-fail.html), reading is strongly recommended.
 
-### Don't begin from the tail
-#### Subsection A1
-
-#### Subsection A2
-
-### Section B
+### Start Simple
+### No free lunch
+### Data don't grow from trees
+### Becoming a data driven company
 
 
 ### Conclusions
