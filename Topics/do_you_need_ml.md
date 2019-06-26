@@ -51,7 +51,9 @@ So we understand how justified hype is, in the sense that Deep Learning opens up
 The previous premise does not take away the fact that if you have data, know-how and computational power, it is _probable_ that Deep Learning can offer you incredible possibilities. 
 
 How can you find out if the data you have hides hidden pearls? in general you can think that, having the right amount of data (for example, rows of a database), you can use Machine Learning methods to predict the value (continuous) or the class (discrete) associated with a row. In other words, you can try to predict the value of a column!
+
 Imagine the following (simplified) situation: 
+
 We have an e-commerce database, which contains for each line the record of purchase of a product. 
 Some columns are: "name", "color", "price", "price range".
 The column "price range" contains a label that identifies if an item has a low price or high, and is provided by the company that produces the product (we have not assigned it).
@@ -72,13 +74,16 @@ First of all, it must be said that the simplest solution would perhaps be to cha
 Apart from this joke not funny, let's start from the case of application of Deep Learning, then a "prmitive" Machine Learning linear model, and then the heuristic.
 
 You could think of developing a neural network that takes in input all the features and returns in output the value of the price range. But it would probably be an overkill! In fact, as we know, the data must be cleaned, prepared to be inserted into the network, the network must be trained and adjusted until it reaches satisfactory evaluation metrics! In addition, if tomorrow the requirements of the forecast change (for example because you add a new label) all this process would be to be done again, and a new network would be to be trained.
+
 Deep learning is an extremely powerful tool, and for this reason you should avoid using it for tasks that are too simple (overengineering is never good).
 
 This problem can be solved much more simply with a simple Machine Learning generic linear model that maps the input to the output without the need to introduce "non-linearity" (main advantage of neural networks). A linear classifier can easily solve the problem, and would probably get even better performance (for reasons that are beyond the scope of this guide, such as lower variance).
 
 Indeed, this problem is so simple that the use of heuristic rules such as "if... then..." could solve it. In fact we could notice that simply all the objects are a certain N value are classified as "cheap" and those above that N as "very expensive". This simple heuristics, expressed with two lines of code in any programming language, solves the problem in the same way. 
 
-This reasoning exercise does not want to "put Deep Learning and Machine Learning in a bad light" at all, on the contrary! But it must be used to understand that they are not always the simplest solution, and sometimes they can be a useless effort (especially in the absence of data, they are worth little).
+This reasoning exercise does not want to "put Deep Learning and Machine Learning in a bad light" at all, on the contrary! 
+
+But it must be used to understand that they are not always the simplest solution, and sometimes they can be a useless effort (especially in the absence of data, they are worth little).
 
 [This](https://medium.com/datadriveninvestor/when-not-to-use-neural-networks-89fb50622429) article has good considerations about this.
 
