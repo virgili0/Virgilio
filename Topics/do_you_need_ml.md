@@ -18,7 +18,6 @@ it would be appropriate to have read before:
    - [The Charming Salesman](#The-Charming-Salesman)
  - [Don't begin from the tail](#Don't-begin-from-the-tail)
  - [No free lunch](#No-free-lunch)
- - [Machine Learning project's ROI](#Machine-Learning-project's-ROI)
  - [Data don't grow from trees](#Data-don't-grow-from-trees)
  - [Becoming a data driven company](#Becoming-a-data-driven-company)
  - [Conclusions](#conclusions)
@@ -67,18 +66,26 @@ The problem consists in a binary classification task that takes as input the pri
 - We can try to apply a more general Machine Learning technique
 - We can use a heuristics program that's been created specifically for that.
 
-
-
 Let's analyze the various possibilities:
 
 First of all, it must be said that the simplest solution would perhaps be to change supplier :-)
-Apart from this joke not funny, let's start from the case of application of Deep Learning.
+Apart from this joke not funny, let's start from the case of application of Deep Learning, then a "prmitive" Machine Learning linear model, and then the heuristic.
 
+You could think of developing a neural network that takes in input all the features and returns in output the value of the price range. But it would probably be an overkill! In fact, as we know, the data must be cleaned, prepared to be inserted into the network, the network must be trained and adjusted until it reaches satisfactory evaluation metrics! In addition, if tomorrow the requirements of the forecast change (for example because you add a new label) all this process would be to be done again, and a new network would be to be trained.
+Deep learning is an extremely powerful tool, and for this reason you should avoid using it for tasks that are too simple (overengineering is never good).
 
-Translated with www.DeepL.com/Translator
+This problem can be solved much more simply with a simple Machine Learning generic linear model that maps the input to the output without the need to introduce "non-linearity" (main advantage of neural networks). A linear classifier can easily solve the problem, and would probably get even better performance (for reasons that are beyond the scope of this guide, such as lower variance).
 
+Indeed, this problem is so simple that the use of heuristic rules such as "if... then..." could solve it. In fact we could notice that simply all the objects are a certain N value are classified as "cheap" and those above that N as "very expensive". This simple heuristics, expressed with two lines of code in any programming language, solves the problem in the same way. 
+
+This reasoning exercise does not want to "put Deep Learning and Machine Learning in a bad light" at all, on the contrary! But it must be used to understand that they are not always the simplest solution, and sometimes they can be a useless effort (especially in the absence of data, they are worth little).
+
+[This](https://medium.com/datadriveninvestor/when-not-to-use-neural-networks-89fb50622429) article has good considerations about this.
+
+So always ask yourself the following question: is my problem quite complex and I have enough data to make useful machine learning techniques or even deep learning?
 
 #### The Charming Salesman
+
 ### Don't begin from the tail
 #### Subsection A1
 
