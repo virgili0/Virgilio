@@ -7,7 +7,7 @@ The purpose of this guide is to warn you that there is not always a need for mac
 ## Prerequisites
 it would be appropriate to have read before:
 - [Demystification about AI and ML](Demystification.md)
-- [What do you need for ML](do_you_need_ml.md)
+- [What do you need for ML](prerequisites.md)
 
 ## Time to complete
 
