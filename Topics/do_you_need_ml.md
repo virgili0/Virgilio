@@ -14,7 +14,7 @@ it would be appropriate to have read before:
 # Index
  - [Distinguish Hype from Opportunities](#Distinguish-Hype-from-Opportunities)
    - [Kill the Hype](#Kill-the-Hype)
-   - [Opportunities](#Opportunities)
+   - [Evaluate Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
  - [Don't begin from the tail](#Don't-begin-from-the-tail)
  - [No free lunch](#No-free-lunch)
@@ -47,7 +47,7 @@ Of course, to fully evaluate the feasibility of a project you need experience an
 
 So we understand how justified hype is, in the sense that Deep Learning opens up incredible possibilities and without previous examples, but it is also a double-edged weapon, which can damage the very economy of technology because it does not meet the (too high) expectations.
 
-#### Opportunities
+#### Evaluate Opportunities
 The previous premise does not take away the fact that if you have data, know-how and computational power, it is _probable_ that Deep Learning can offer you incredible possibilities. 
 
 How can you find out if the data you have hides hidden pearls? in general you can think that, having the right amount of data (for example, rows of a database), you can use Machine Learning methods to predict the value (continuous) or the class (discrete) associated with a row. In other words, you can try to predict the value of a column!
@@ -90,6 +90,19 @@ But it must be used to understand that they are not always the simplest solution
 So always ask yourself the following question: is my problem quite complex and I have enough data to make useful machine learning techniques or even deep learning?
 
 #### The Charming Salesman
+Information technology like any other industry is first and foremost a business.
+
+The techniques and tools of ML and DL are no exception, and their primary task is to solve business problems. That's why they suffer from the same problems as traditional software in the agreement phase between the software developer and the user, and maybe even worse (the hype plays bad tricks)!
+
+Have you ever had someone tell you how they developed a powerful, complicated, aesthetically pleasing application, and all at a low price? Well, would you believe them? If someone told you they could take you to the moon for 1000 euros, would you believe them?
+
+Likewise, be on your guard against those who promise you advanced recommendation engines like NetFlix, or conversational agents that replace psychologists!
+
+In particular, I can't stress more on this, make sure that the data exist, are easily available, are transformable to represent the problem you want to solve! 
+
+Most problems in the ML world occur due to [unfulfilled expectations](https://www.nature.com/articles/d41586-018-07504-9).
+
+Other reasons for the failure of ML projects can be found [here](https://www.kdnuggets.com/2018/07/why-machine-learning-project-fail.html), reading is strongly recommended.
 
 ### Don't begin from the tail
 #### Subsection A1
