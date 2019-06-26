@@ -136,6 +136,12 @@ In a future guide, the issue of "becoming a data-driven company" will be address
 
 ### Conclusions
 
+The purpose of this guide is to provide awareness about the real business possibilities of Machine Learning.
+
+We have seen the risks and possible pitfalls of machine learning projects based on hype and not on solid foundations such as large amounts of data and realistic assessment of the difficulty of solving a problem.
+
+We have also seen how without a radical change of mentality and approach, even the most successful ML project is useless: imagine owning a Ferrari but not knowing how to drive!
+
 
 ----
 
