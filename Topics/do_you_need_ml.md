@@ -17,8 +17,8 @@ it would be appropriate to have read before:
    - [Kill the Hype](#Kill-the-Hype)
    - [Evaluate Opportunities](#Opportunities)
    - [The Charming Salesman](#The-Charming-Salesman)
- - [Data don't grow from trees](#Data-don't-grow-from-trees)
- - [Becoming a data driven company](#Becoming-a-data-driven-company)
+ - [No ML without data](#No-ML-without-data)
+ - [No value without a cultural change](#No-value-without-a-cultural-change)
  - [Conclusions](#conclusions)
 
 Let's dive right in!
