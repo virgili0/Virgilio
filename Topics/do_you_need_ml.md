@@ -1,5 +1,5 @@
 
-# Do you need Machine Learning?
+# Do you really need Machine Learning?
 
 # What you will learn 
 The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
