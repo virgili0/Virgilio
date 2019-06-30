@@ -86,6 +86,9 @@ More and more organizations are realizing that they are sitting in a gold mine. 
 
 The bottom line is: If you have a lot of data coming from a business process, probably they are worth their bytes in gold (uh, this analogy doesn't seem to fit well).
 
+### Ask "why?"
+If we are aware of the [five-whys](https://en.wikipedia.org/wiki/5_Whys), it's one of the key techniques behind critical thinking. With so much data and with the end-results being data-dependent, it's so important to get the data part right. So let's _know-our-data_ before performing any actions or tasks or transformations on it. Let us know everything we need to know about the source and nature of the data we will be learning about, processing, transforming, analysing and training. There is a whole section dedicated about this aspect and perspective about data on this [AI/ML/DL GitHub resource](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#data). Do scavenge through the material, the notebooks, presentations and videos under this section. Unfortunately, we focus much less on critical thinking, which is a highly-potent ingredient needed when working with mathematics and sciences. Another good example would be looking at this online course ["Calling Bullshit"](http://CallingBullshit.org).
+
 ### Know-how
 Doing data science is not simple. It will **never be**, if you want to fully understand the mathematical processes behind the elegant models offered by high-level interfaces such as Keras. Learn to hate those who say "learn data science in 6 weeks". 
 In one sense it's _totally false_, in the other it's _disrespectful_ to those who study these issues for years, learning new things every day. This does not mean that we should be discouraged, on the contrary! **Virgilio is here to help you in this fascinating process**. 

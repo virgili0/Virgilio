@@ -55,9 +55,10 @@ To do this, we got our inspiration from Dante’s amazing masterpiece [“La Div
 
 Dante’s journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
 
-In his journey Dante travel across the different levels of the catholic conception of the divine world at that time, starting from the Inferno (the prison of the damned), passing through the Purgatorio and reaching eventually the Paradiso (you can call it Valhalla or Nirvana, as you prefer :-) ).
+In his journey, Dante travel across the different levels of the catholic conception of the divine world at that time, starting from the Inferno (the prison of the damned), passing through the Purgatorio and reaching eventually the Paradiso (you can call it Valhalla or Nirvana, as you prefer :-) ).
 
 In your journey, you will start from scratch and eventually reach the theoretical knowledge and solid expendable skill.
+
 The parallelism is natural:
 
 ![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/order.png "1") 
@@ -78,8 +79,8 @@ _If you’re a complete beginner_, follow the track we proposed, starting from t
 
 In the **Inferno** you won’t find gentle introductions or generic explanations, but a lot of different detailed guides, topics, hands-on tutorials and more!
 You’ll find an entire section dedicated to research and daily updates from the field! You’ll find guides like “how to train a massive neural network over hundreds of GPUs efficiently” or “How to deal with huge datasets”, or “how to fine-tune a preprocessing pipeline”. Think about Inferno as the place where you will pick up the sub-field you prefer and dive into that. 
-It’s impossible to learn everything at once! One of the Virgilio’s most important learning strategies is “One enemy at time”. 
-The three specializations that we provide are Computer Vision, Natural Language Processing, and Agents and Reinforcement Learning. 
+It’s impossible to learn everything at once! One of the Virgilio’s most important learning strategies is “One enemy at time”, "Divide and conquer!". 
+The three specializations that we provide are Computer Vision, Natural Language Processing, and Agent-based and Reinforcement Learning. 
 These learning paths are the “final bosses” of the Virgilio’s experience: once you’ll have completed them you will hopefully be skilled enough to land an internship or tackle real business problems!
 
 Above these you’ll find a plenty of other useful zones:
