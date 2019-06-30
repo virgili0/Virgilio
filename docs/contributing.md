@@ -1,5 +1,5 @@
 # Index
- - [You have an immense power](#Contribute)
+ - [You have immense power](#Contribute)
  - [Easiest way to contribute](#Easiest-way-to-contribute)
  - [Contributing with new guides](#Contributing-with-new-guides)
  - [General Tips](#General-Tips)
@@ -15,7 +15,8 @@ The mission of Virgilio is to share free and curated knowledge paths and high-qu
 
 If you know how to use a tool or a framework, or you faced some business problems and their complications, why not writing a guide about it?
  
-Several studies and empirical proofs show that to teach something is the fastest and most effective way to learn it.
+> Several studies and empirical proofs show that the fastest and most effective way to learn something, is to teach it.
+
 Moreover, thousands of people will read it and would be grateful to you! 👍 
 Don't worry about the correctness of your English or the depth of your knowledge, experienced people at Virgilio will help you make your guide of the highest quality.
 If you want to contribute to the Virgilio project, [join us on Slack](https://join.slack.com/t/virgilioworkspace/shared_invite/enQtNjM1MDQxNzg1MTQyLWZkZDE1YjFiMmE0ZTQ5NmVlNTIxZmU5YjBjOTQ3ZDU1NzYxMGJhZWU2NzgzYTY3ZTVlZDg4YmNmMjcxYTVmZDI) and check out or future guides roadmap: maybe you can find that we already need your help!
@@ -101,7 +102,8 @@ And of course there is subsection A2...
 Which is then followed by Section B.
 
 ### Practice 
-Here you can give exercises to to in order to access to the nxt step of the path,
+Here you can give exercises too, in order to access to the next step of the path, 
+
 or a project from Kaggle. For the project, give some guidelines and try to give an example solution (you can easily find dozens of solution notebooks on Kaggle)
 
 ### Conclusions
