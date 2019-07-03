@@ -16,7 +16,7 @@ It is recommended to read the guides of Paradiso preceding this one, but it is n
  - [From research to industry](#From-research-to-industry)
  - [Use cases examples](#Use-cases-examples)
  - [Where to find more](#Where-to-find-more)
- - [Sinergy with other technologycal trends](#Sinergy-with-other-technologycal-trends)
+ - [Sinergy with other technological trends](#Sinergy-with-other-technologycal-trends)
 
 Let's dive right in!
  
@@ -24,9 +24,9 @@ Let's dive right in!
 ### From research to industry
 ### Use cases examples
 ### Where to find more
-### Sinergy with other technologycal trends
+### Sinergy with other technological trends
 
 
 ----
-Written by _author_
+Written by _clone95_
 
