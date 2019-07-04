@@ -15,8 +15,8 @@ It is recommended to read the guides of Paradiso preceding this one, but it is n
  - [The big picture](#The-big-picture)
  - [From research to industry](#From-research-to-industry)
  - [Use cases examples](#Use-cases-examples)
- - [Where to find more](#Where-to-find-more)
- - [Sinergy with other technological trends](#Sinergy-with-other-technologycal-trends)
+ - [Sinergy with other technological trends](#Sinergy-with-other-technological-trends)
+ - [Conclusions](#Conclusions)
 
 Let's dive right in!
  
@@ -129,7 +129,15 @@ Accessory calculation - the use of which is offered as a service by a provider. 
 AI can be maintained on local data centers - even individual servers: this phenomenon is opening the door to hybrid scenarios that allow the use of this
 technology even under poor connectivity conditions or other restrictions.
 
+Being able to combine the understanding of different but interconnected trends is essential to have an overview of the next (already started) industrial revolution. 
 
+### Conclusions
+
+In this guide we have seen what are the possible cases of use of Machine Learning nowadays, and we have proposed various sources of information through which we will remain updated on new applications. 
+
+We would also like to remind you that if you are aware of any use cases not included in these lists, the authors will be more than happy to receive a suggestion and add it.
+
+Have an happy exploration!
 
 ----
 Written by _clone95_
