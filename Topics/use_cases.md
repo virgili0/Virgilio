@@ -105,6 +105,31 @@ take various configurations, both centralized (as in the case of supercomputers
 accessible via the cloud) or distributed (so-called on-device AI, supported by the modern
 edge computing technologies).
 
+- AI and 5G connectivity form a disruptive combination. The 5G, that is the network of fifth
+generation, will officially arrive from 2020 and will allow to connect the
+millions of devices worldwide at high speed and with low latency, opening up
+the doors to the creation of new application scenarios, hitherto not feasible, on
+a single global nervous system in different industrial sectors. 5G networks will be able to
+be managed through different techniques of machine learning, which translate into
+self-diagnosis, self-configuration, self-optimisation, self-repair, self-protection2
+. AI and 5G put the network at the service of the user thanks to the edge
+computing and its intrinsic characteristics of hyper-distributed and hyper-connected computational model.
+
+- With the spread of distributed ledger technologies (of which the blockchain is a case of the
+specific) and in particular of smart contracts, the role of Artificial Intelligence
+will become even more relevant. The decentralised nature of these technologies and the
+possibility of validating the data collected by them allows to improve
+The accuracy of AI systems, as well as to distribute the computing power over multiple nodes,
+potentially reducing the costs and therefore the accessibility of the technology. 
+
+- The enabling factor of the AI par excellence is Cloud Computing: it is a
+technology that allows you to take advantage, via remote service, of hardware resources and
+software services - such as mass storage for data storage or power of
+Accessory calculation - the use of which is offered as a service by a provider. Solutions
+AI can be maintained on local data centers - even individual servers: this phenomenon is opening the door to hybrid scenarios that allow the use of this
+technology even under poor connectivity conditions or other restrictions.
+
+
 
 ----
 Written by _clone95_
