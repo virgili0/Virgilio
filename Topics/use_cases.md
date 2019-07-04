@@ -9,7 +9,7 @@ cases of application of ML techniques (and in particular Deep Learning) in the v
 It is recommended to read the guides of Paradiso preceding this one, but it is not necessary.
 
 ## Time to complete
-30 minutes.
+20 minutes.
 
 # Index
  - [The big picture](#The-big-picture)
