@@ -37,7 +37,10 @@ For this guide we will use various enlightening books (famous and not), from whi
 
 For each resource, summaries or "key points" will be provided, but I will never stress enough the importance of reading the books that will be mentioned.
 
-The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun-tzu/dp/1936276011). Here](https://sites.ualberta.ca/~enoch/Readings/The_Art_Of_War.pdf) you have a more consensual version, but I recommend buying the book with the attached analyses.
-Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
+The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun-tzu/dp/1936276011). 
+
+[Here](https://sites.ualberta.ca/~enoch/Readings/The_Art_Of_War.pdf) you have a more consensual version, but I recommend buying the book with the attached analyses.
+
+[Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
 Translated with www.DeepL.com/Translator
