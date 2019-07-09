@@ -43,3 +43,4 @@ The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun
 
 [Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
+The book is a 
