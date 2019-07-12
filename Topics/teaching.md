@@ -43,8 +43,10 @@ The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun
 [Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
 The book is a condensed of the wisdom of various generals and heads of state of the ancient Chinese empire, and is used in many training courses, especially in management and decision making.
+
 I firmly believe that its principles can apply to any human activity, particularly the planning of one's own self-improvement and learning. 
-Today you don't learn a trade that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. [**Who stops is lost!**](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for)
+
+Today you don't learn a job that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. [**Who stops is lost!**](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for)
 
 The two main points of instruction that I would like to emphasise are:
 - Know your enemy
@@ -61,9 +63,11 @@ If you try to do everything, you do nothing! Which brings us to the next point:
 - Face one enemy at a time
 
 How many tutorials have you seen of the type "learn Data Science" in 3 weeks, full of many topics and concepts, techniques and frameworks? This approach is totally unsuccessful (as well as disrespectful for those who take years and years of study), the reason is trivial. 
+
 What we at Virgilio prefer to do is to outline a path that enables you to **take one step at a time**, learn one concept and apply it, preferring _a solid skill_ (developed in the right time) rather than knowing a thousand acronyms or exotic techniques.
 
 This principle is another way of formulating the classic [**Divide et Impera**](https://en.wikipedia.org/wiki/Divide_and_rule_and_rule), a principle of software engineering whose purpose is to try to manage the growing complexity of programs, as well as generally advise to disassemble a problem into smaller pieces and address them separately. 
+
 In a later section we will see how the principles of software engineering, dealing with complexity and logic, can be applied profitably to everyday life, rational thinking, and in general to the planning of our lives (professional and non-professional).
 
 
