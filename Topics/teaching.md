@@ -20,15 +20,15 @@ It is recommended to read all the Paradise guides prior to this one.
 30 minutes.
 
 # Index
-- [The art of War](#The-art-of-War)
-- [Learning to Learn](#Learning-to-Learn)
+- [The Art of War](#The-Art-of-War)
+- [The Art of Learning](#The-Art-of-Learning)
 - [Your Strategy](#Your-Strategy)
 - [Practice for Success](Practice-for-Success)
 - [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
 - [Suggested Readings](#Suggested-Readings)
 
-### The art of War
+### The Art of War
 
 This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio, but it can serve as a general approach to learning any subject, skill or job.
 
@@ -72,4 +72,4 @@ In a later section we will see how the principles of software engineering, deali
 
 We'll help you to develop you "The Art of Learning".
 
-
+### The Art of Learning
