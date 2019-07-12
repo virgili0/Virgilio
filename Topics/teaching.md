@@ -1,5 +1,5 @@
 
-# How to Use Virgilio
+# The Art of Learning
 
 # What you will learn 
 This guide serves various purposes: 
