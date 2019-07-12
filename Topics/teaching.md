@@ -20,11 +20,10 @@ It is recommended to read all the Paradise guides prior to this one.
 30 minutes.
 
 # Index
-- [The art of War](#The-art-of-War)
+- [Principles](#Principles)
 - [Learning to Learn](#Learning-to-Learn)
 - [Your Strategy](#Your-Strategy)
 - [Practice for Success](Practice-for-Success)
-- [Software Engineering Principles](Software-Engineering-Principles)
 - [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
 - [Suggested Readings](#Suggested-Readings)
