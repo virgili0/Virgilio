@@ -70,4 +70,6 @@ This principle is another way of formulating the classic [**Divide et Impera**](
 
 In a later section we will see how the principles of software engineering, dealing with complexity and logic, can be applied profitably to everyday life, rational thinking, and in general to the planning of our lives (professional and non-professional).
 
+We'll help you to develop you "The Art of Learning".
+
 
