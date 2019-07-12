@@ -20,7 +20,7 @@ It is recommended to read all the Paradise guides prior to this one.
 30 minutes.
 
 # Index
-- [Principles](#Principles)
+- [The art of War](#The-art-of-War)
 - [Learning to Learn](#Learning-to-Learn)
 - [Your Strategy](#Your-Strategy)
 - [Practice for Success](Practice-for-Success)
@@ -42,4 +42,15 @@ The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun
 
 [Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
-The book is a 
+The book is a condensed of the wisdom of various generals and heads of state of the ancient Chinese empire, and is used in many training courses, especially in management and decision making. I firmly believe that its principles can apply to any human activity, particularly the planning of one's own self-improvement and learning. 
+Today you don't learn a trade that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. Who stops is lost!](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for).
+
+The two main points of instruction that I would like to emphasise are:
+- Know your enemy
+>“If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.”
+
+This means that whenever you are faced with a problem, be it an enemy soldier, an engineering problem, or a human relationship, the best tactic is to know your enemy as much as possible. 
+
+Continuing the analogy, 
+
+- Face one enemy at a time
