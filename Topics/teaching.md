@@ -43,7 +43,7 @@ The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun
 [Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
 The book is a condensed of the wisdom of various generals and heads of state of the ancient Chinese empire, and is used in many training courses, especially in management and decision making. I firmly believe that its principles can apply to any human activity, particularly the planning of one's own self-improvement and learning. 
-Today you don't learn a trade that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. Who stops is lost!](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for).
+Today you don't learn a trade that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. [**Who stops is lost!**](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for).
 
 The two main points of instruction that I would like to emphasise are:
 - Know your enemy
