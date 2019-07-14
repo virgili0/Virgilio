@@ -119,6 +119,8 @@ It is very important to confront also those who claim that a certain concept is 
 
 - For each topic, Google searches for visualizations of concepts, GIFs, videos, in short, any form of explanation that goes beyond words and code examples.
 
+- To make sure that you understand, in the Check phase, the most effective technique is generally to try to explain the concept. If you can, perhaps getting feedback from someone, you probably learned it. The teaching process works for a simple reason: to explain X, your brain must take X as an input, process it, make it its own, and then output it easily. The only way for this process to be successful is for your brain to be comfortable with X.
+
 - Don't persist too much on a subject, it's natural that after a while you lose interest and motivation (especially if they are difficult or advanced concepts). Relax with some simple new concepts, and maybe come back to this in a few days or weeks. The connections of our brain in fact take time to form and strengthen, do not stress it too much! :)
 
 **These are some of the best practices that are dictated partly by common sense, partly by what international research says and partly by the personal experiences of the author of this guide.**
