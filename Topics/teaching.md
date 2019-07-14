@@ -82,3 +82,24 @@ The good news is that countless scientists for decades have been looking for clu
 
 [Here](https://examinedexistence.com/top-10-learning-techniques-ranking-from-best-to-worst/) is an overview of these techniques.
 
+The bottom line is that each brain is different, according to [the experiences it has lived and how it has formed](https://learn.genetics.utah.edu/content/epigenetics/brain/).
+
+So, understanding which learning strategies work best **for you** is something to discover, more like a trip, than something you can learn from a book or a course.
+
+The latter are extremely useful for not having to reinvent the wheel, and understand what options work, but then you have to experiment and fail to understand what is the most suitable technique in your case.
+
+Before you even start learning, you have to learn to learn! 
+
+Virgil's suggestion is: spend time testing different learning strategies, each for at least a few topics, and evaluate the results! 
+
+If you don't want to and want to focus on the subjects you want to learn right away, we offer you a technique that suits more or less all situations and all brains.
+
+Actually it's nothing particularly innovative, but to be cool we'll call it "The Magic Circle".
+
+The Magic Circle is a **iterative** process that consists of 3 simple steps:
+
+- Theoretical understanding
+- Practical application
+- Check in
+
+![Figure 1-1](./magic_circle.png) 
