@@ -22,7 +22,7 @@ It is recommended to read all the Paradise guides prior to this one.
 # Index
 - [The Art of War](#The-Art-of-War)
 - [The Art of Learning](#The-Art-of-Learning)
-- [Mastering Google](#Mastering-Google)
+- [Mastering Internet](#Mastering-Google)
 - [Practice for Success](Practice-for-Success)
 - [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
@@ -112,9 +112,17 @@ Some advice:
 - The first time you address the topic X, first of all make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case it means **knowing why** I'm learning this, what prerequisites it has, and where it fits in with the neighboring topics. 
 Every Virgil guide provides this kind of information, but it is important to spend time looking for it and understanding alternative points of view. 
 
-- Each different iteration of the cycle tries to change the resources you use to support learning. Virgil's guides often provide more resources for the same topic, just to get more visions of the same concept.
+- Each different iteration of the Magic Circle tries to change the resources you use to support learning. Virgil's guides often provide more resources for the same topic, just to get more visions of the same concept.
 
 - The point just mentioned is fundamental. Knowledge is multifaceted, and there are many different ways of seeing or understanding almost everything. An incredible trick to fully know a topic or concept is to see it under as many different points of view as possible, see alternative interpretations, or alternative methods of visualization. 
 It is very important to confront also those who claim that a certain concept is useless, harmful or outdated! For example, if I'm learning what a neural network is, it's also very useful to look for information like "when not to use a neural network".
 
 - For each topic, Google searches for visualizations of concepts, GIFs, videos, in short, any form of explanation that goes beyond words and code examples.
+
+- Don't persist too much on a subject, it's natural that after a while you lose interest and motivation (especially if they are difficult or advanced concepts). Relax with some simple new concepts, and maybe come back to this in a few days or weeks. The connections of our brain in fact take time to form and strengthen, do not stress it too much! :)
+
+**These are some of the best practices that are dictated partly by common sense, partly by what international research says and partly by the personal experiences of the author of this guide.**
+
+Let's now see how to use the tools you have at your disposal (in addition to your partner Virgil), to enhance your learning and make it unlimited.
+
+### Mastering Internet
