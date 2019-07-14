@@ -22,7 +22,7 @@ It is recommended to read all the Paradise guides prior to this one.
 # Index
 - [The Art of War](#The-Art-of-War)
 - [The Art of Learning](#The-Art-of-Learning)
-- [Mastering Google]
+- [Mastering Google](#Mastering-Google)
 - [Practice for Success](Practice-for-Success)
 - [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
@@ -103,3 +103,18 @@ The Magic Circle is a **iterative** process that consists of 3 simple steps:
 - Check in
 
 ![Figure 1-1](./magic_circle.png) 
+
+The trick is simple. 
+
+**By addressing one topic at a time**, you first aim for a theoretical understanding, then you put it into practice, and finally you evaluate yourself. If you feel confident you can proceed, otherwise you will iterate another round of the circle. 
+
+Some advice: 
+- The first time you address the topic X, first of all make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case it means **knowing why** I'm learning this, what prerequisites it has, and where it fits in with the neighboring topics. 
+Every Virgil guide provides this kind of information, but it is important to spend time looking for it and understanding alternative points of view. 
+
+- Each different iteration of the cycle tries to change the resources you use to support learning. Virgil's guides often provide more resources for the same topic, just to get more visions of the same concept.
+
+- The point just mentioned is fundamental. Knowledge is multifaceted, and there are many different ways of seeing or understanding almost everything. An incredible trick to fully know a topic or concept is to see it under as many different points of view as possible, see alternative interpretations, or alternative methods of visualization. 
+It is very important to confront also those who claim that a certain concept is useless, harmful or outdated! For example, if I'm learning what a neural network is, it's also very useful to look for information like "when not to use a neural network".
+
+- For each topic, Google searches for visualizations of concepts, GIFs, videos, in short, any form of explanation that goes beyond words and code examples.
