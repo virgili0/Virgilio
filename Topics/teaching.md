@@ -22,7 +22,7 @@ It is recommended to read all the Paradise guides prior to this one.
 # Index
 - [The Art of War](#The-Art-of-War)
 - [The Art of Learning](#The-Art-of-Learning)
-- [Your Strategy](#Your-Strategy)
+- [Mastering Google]
 - [Practice for Success](Practice-for-Success)
 - [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
@@ -73,3 +73,12 @@ In a later section we will see how the principles of software engineering, deali
 We'll help you to develop you "The Art of Learning".
 
 ### The Art of Learning
+
+The human brain is currently the most complex device we know of, far more complex and powerful than any result of today's engineering. In addition to this, it is also extremely efficient in terms of the resources required for operation, gives us the feeling of being "living" and protects us from the outside world in an ingenious way. What an incredible thing!
+
+To exploit it to its full potential, however, is very difficult, firstly because [we know very little](https://www.reddit.com/r/MachineLearning/comments/9symfk/d_reverseengineering_a_massive_neural_network/) about its operation, and secondly because we are not taught to do so!
+
+The good news is that countless scientists for decades have been looking for clues on how to learn best, and effective techniques have been developed that work more or less for everyone.
+
+[Here](https://examinedexistence.com/top-10-learning-techniques-ranking-from-best-to-worst/) is an overview of these techniques.
+
