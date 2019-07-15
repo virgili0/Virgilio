@@ -4,11 +4,9 @@
 # What you will learn 
 This guide serves various purposes: 
 
-- To understand broadly how the learning of the human brain works (before teaching machines, we will have to learn to 
-learn ourselves, right?).
+- To understand broadly how the learning of the human brain works (before teaching machines, we will have to learn ourselves, right?).
 - Presenting _how_ Virgilio sees teaching and learning.
-- Give useful tips to make the most of the help Virgilio can give you in starting to explore this fantastic world, 
-and develop solid skills in the world of data through practical projects.
+- Give useful tips to make the most of the help Virgilio can give you in starting to explore this fantastic world and develop solid skills in the world of data through practical projects.
 
 
 The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
@@ -30,23 +28,23 @@ It is recommended to read all the Paradise guides prior to this one.
 
 This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio, but it can serve as a general approach to learning any subject, skill or job.
 
-For this guide we will use various enlightening books (famous and not), from which we will draw various lessons about how human beings learn, create, reason and memorize.
+For this guide, we will use various enlightening books (famous and not), from which we will draw various lessons about how human beings learn, create, reason and memorize.
 
 For each resource, summaries or "key points" will be provided, but I will never stress enough the importance of reading the books that will be mentioned.
 
-The first book we consider is [The art of War](https://www.amazon.it/Art-War-Sun-tzu/dp/1936276011). 
+The first book we consider is [The Art of War](https://www.amazon.it/Art-War-Sun-tzu/dp/1936276011). 
 
 [Here](https://sites.ualberta.ca/~enoch/Readings/The_Art_Of_War.pdf) you have a more consensual version, but I recommend buying the book with the attached analyses.
 
 [Here](http://blog.tutorming.com/expats/life-lessons-from-the-art-of-war) the main key points.
 
-The book is a condensed of the wisdom of various generals and heads of state of the ancient Chinese empire, and is used in many training courses, especially in management and decision making.
+The book is condensed of the wisdom of various generals and heads of state of the ancient Chinese empire and is used in many training courses, especially in management and decision making.
 
 I firmly believe that its principles can apply to any human activity, particularly the planning of one's own self-improvement and learning. 
 
-Today you don't learn a job that you will do all your life, but you will have to re-invent yourself and learn new skills continuously. [**Who stops is lost!**](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for)
+Today you don't learn a job that you will do all your life, but you will have to reinvent yourself and learn new skills continuously. [**Who stops is lost!**](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for)
 
-The two main points of instruction that I would like to emphasise are:
+The two main points of instruction that I would like to emphasize are:
 - Know your enemy
 >“If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.”
 
@@ -66,7 +64,7 @@ What we at Virgilio prefer to do is to outline a path that enables you to **take
 
 This principle is another way of formulating the classic [**Divide et Impera**](https://en.wikipedia.org/wiki/Divide_and_rule_and_rule), a principle of software engineering whose purpose is to try to manage the growing complexity of programs, as well as generally advise to disassemble a problem into smaller pieces and address them separately. 
 
-In a later section we will see how the principles of software engineering, dealing with complexity and logic, can be applied profitably to everyday life, rational thinking, and in general to the planning of our lives (professional and non-professional).
+In a later section, we will see how the principles of software engineering, dealing with complexity and logic, can be applied profitably to everyday life, rational thinking, and in general to the planning of our lives (professional and non-professional).
 
 We'll help you to develop you "The Art of Learning".
 
@@ -84,21 +82,21 @@ The bottom line is that each brain is different, according to [the experiences i
 
 So, understanding which learning strategies work best **for you** is something to discover, more like a trip, than something you can learn from a book or a course.
 
-The latter are extremely useful for not having to reinvent the wheel, and understand what options work, but then you have to experiment and fail to understand what is the most suitable technique in your case.
+These extremely useful for not having to reinvent the wheel, and understand what options work, but then you have to experiment and fail to understand what is the most suitable technique in your case.
 
-Before you even start learning, you have to learn to learn! 
+Before you even start learning, you have to learn "how to learn"! 
 
 Virgil's suggestion is: spend time testing different learning strategies, each for at least a few topics, and evaluate the results! 
 
 If you don't want to and want to focus on the subjects you want to learn right away, we offer you a technique that suits more or less all situations and all brains.
 
-Actually it's nothing particularly innovative, but to be cool we'll call our _learning framework_ "The Magic Circle".
+Actually, it's nothing particularly innovative, but to be cool we'll call our _learning framework_ "The Magic Circle".
 
-The Magic Circle is a **iterative** process that consists of 3 simple steps:
+The Magic Circle is an **iterative** process that consists of 3 simple steps:
 
 - Theoretical understanding
 - Practical application
-- Check in
+- Check 
 
 ![Figure 1-1](./magic_circle.png) 
 
@@ -107,19 +105,19 @@ The trick is simple.
 **By addressing one topic at a time**, you first aim for a theoretical understanding, then you put it into practice, and finally you evaluate yourself. If you feel confident you can proceed, otherwise you will iterate another round of the circle. 
 
 Some advice: 
-- The first time you address the topic X, first of all make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case it means knowing **why** I'm learning this, **what prerequisites** it has, and **where it fits** in with the neighboring topics. 
+- The first time you address the topic X, first of all, make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case, it means knowing **why** I'm learning this, **what prerequisites** it has and **where it fits** in with the neighboring topics. 
 Every Virgilio guide provides this kind of information, but it is important to spend time looking for it and understanding alternative points of view. 
 
 - Each different iteration of the Magic Circle tries to change the resources you use to support learning. Virgilio's guides often provide more resources for the same topic, just to get more visions of the same concept.
 
-- The point just mentioned is fundamental. Knowledge is multifaceted, and there are many different ways of seeing or understanding almost everything. An incredible trick to fully know a topic or concept is to see it under as many different points of view as possible, see alternative interpretations, or alternative methods of visualization. 
+- The point just mentioned is fundamental. Knowledge is multifaceted, and there are many different ways of seeing or understanding almost everything. An incredible trick to fully know a topic or concept is to see it under as many different points of view as possible, see alternative interpretations or alternative methods of visualization. 
 It is very important to confront also those who claim that a certain concept is useless, harmful or outdated! For example, if I'm learning what a neural network is, it's also very useful to look for information like "when not to use a neural network".
 
 - For each topic, Google searches for visualizations of concepts, GIFs, videos, in short, any form of explanation that goes beyond words and code examples.
 
 - To make sure that you understand, in the Check phase, the most effective technique is generally to try to explain the concept. If you can, perhaps getting feedback from someone, you probably learned it. The teaching process works for a simple reason: to explain X, your brain must take X as an input, process it, make it its own, and then output it easily. The only way for this process to be successful is for your brain to be comfortable with X.
 
-- Don't persist too much on a subject, it's natural that after a while you lose interest and motivation (especially if they are difficult or advanced concepts). Relax with some simple new concepts, and maybe come back to this in a few days or weeks. The connections of our brain in fact take time to form and strengthen, do not stress it too much! :)
+- Don't persist too much on a subject, it's natural that after a while you lose interest and motivation (especially if they are difficult or advanced concepts). Relax with some simple new concepts, and maybe come back to this in a few days or weeks. The connections of our brain, in fact, take time to form and strengthen, do not stress it too much! :)
 
 **These are some of the best practices that are dictated partly by common sense, partly by what international research says and partly by the personal experiences of the author of this guide.**
 
@@ -127,7 +125,7 @@ Let's now see how to use the tools you have at your disposal (in addition to you
 
 ### Mastering Internet
 
-Every time I think about the fact that I have Google in my pocket, I think it's an incredible historical moment to live: we have the most powerful tool man has ever created, and for free!
+Every time I think about the fact that I have Google in my pocket, I think it's an incredible historical moment to live: we have the most powerful tool man has ever created and for free!
 
 For a couple of decades now, the Internet has allowed people, wherever they are, to learn any concept or work, to create value for themselves and for others, and countless other possibilities!
 
@@ -157,9 +155,9 @@ Reddit is a content platform where more or less all the information in the world
 
 Reddit is divided into folders, like a file system, and each folder contains a topic where users can post articles, questions, discussions. 
 
-Personally I found it perhaps the biggest source of information because it is specialized and generally the user is an expert, within the various folders. For example, following [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) or [r/LearningMachineLearning](https://www.reddit.com/r/learnmachinelearning/), makes me learn dozens of new things every day, and I see new papers, tools or projects in preview, often being able to speak directly with the author!
+Personally, I found it perhaps the biggest source of information because it is specialized and generally the user is an expert, within the various folders. For example, following [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) or [r/LearningMachineLearning](https://www.reddit.com/r/learnmachinelearning/), makes me learn dozens of new things every day, and I see new papers, tools or projects in preview, often being able to speak directly with the author!
 
-Do you have a question, about any concept or topic? Look for a dedicated subreddit, sign up, and post a well formulated question. You will see that in a couple of days several users have answered in detail!
+Do you have a question, about any concept or topic? Look for a dedicated subreddit, sign up, and post a well-formulated question. You will see that in a couple of days several users have answered in detail!
 
 What an incredible tool is used as a "crowd mentorship"!
 
@@ -169,23 +167,23 @@ Learning is difficult, tiring, and requires commitment without always seeing the
 
 Often one of the main obstacles in learning is poor time management. Not everyone has the opportunity to spend the whole day studying, and often when you want to learn a new skill you have to try to fit it between many professional and social commitments. 
 
-The best advice for this is the good old "Divide et Impera" once again. By dedicating even just one hour a day, or a couple of days a week to learning, with time you can learn any skill. 
+The best advice for this is the good old "Divide et Impera" once again. By dedicating even just one hour a day, or a couple of days a week to learning, with the time you can learn any skill. 
 
-The two enemies of yout time are motivation and constancy.
+The two enemies of your time are motivation and constancy.
 
 For motivation, I recommend using the concept of [visualization](https://www.mindtosucceed.com/Self-Motivation-Techniques.html).
 
-I also think that motivation is something very personal, which can go from the ambitions of pure knowledge, to establishing oneself in a field, to helping others through one's own knowledge. 
+I also think that motivation is something very personal, which can go from the ambitions of pure knowledge to establishing oneself in a field, to helping others through one's own knowledge. 
 
 In order to get to know each other better and to understand what your real goals are, I recommend the application of the mental techniques suggested in ["Focus"](https://www.amazon.it/Focusing-Interrogare-corpo-cambiare-psiche/dp/883401359X/ref=sr_1_1=sr_1_1?adgrpid=58054156452&gclid=Cj0KCQjwyLDpBRCxARIsAEENsrKKCP5IZoBA6V5TOmr2X8Hivx-JvdX6ygZIt9YPjBt8EIOaJPVq6ZoaAqGnEALw_wcB&hvadid=255222382232&hvdev=c&hvlocphy=20550&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=1997028069562624827&hvtargid=kwd-301509732701&hydadcr=4935_1800296&keywords=focusing&qid=1563195460&s=gateway&sr=8-1).
 
 As for constancy, its greatest enemy is [procrastination](https://www.youtube.com/watch?v=arj7oStGLkU&t=36s=arj7oStGLkU&t=36s).
 
-To solve this second issue, I suggest you to use this conceptual framework that personally helped me a lot. 
+To solve this second issue, I suggest you use this conceptual framework that personally helped me a lot. 
 
 The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://nuovoeutile.it/wp-content/uploads/2016/10/PETER-GOLLWITZER_IF_THEN.pdf_IF_THEN.pdf). 
 
-These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning, but also professional and life).
+These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning but also professional and life).
 
 ### Conclusions
 
