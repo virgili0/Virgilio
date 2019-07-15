@@ -194,4 +194,4 @@ But remember that the road is always uphill (if you want it to be so and it is a
 
 ---------------------------------------------------
 
-Written by _Giacomo Ciarlini_
+Written by _clone95_
