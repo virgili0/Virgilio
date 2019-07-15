@@ -170,13 +170,17 @@ Often one of the main obstacles in learning is poor time management. Not everyon
 
 The best advice for this is the good old "Divide et Impera" once again. By dedicating even just one hour a day, or a couple of days a week to learning, with time you can learn any skill. 
 
-You just have to be motivated and constant.
+The two enemies of yout time are motivation and constancy.
 
 For motivation, I recommend using the concept of [visualization](https://www.mindtosucceed.com/Self-Motivation-Techniques.html).
 
+I also think that motivation is something very personal, which can go from the ambitions of pure knowledge, to establishing oneself in a field, to helping others through one's own knowledge. 
+
+In order to get to know each other better and to understand what your real goals are, I recommend the application of the mental techniques suggested in ["Focus"](https://www.amazon.it/Focusing-Interrogare-corpo-cambiare-psiche/dp/883401359X/ref=sr_1_1=sr_1_1?adgrpid=58054156452&gclid=Cj0KCQjwyLDpBRCxARIsAEENsrKKCP5IZoBA6V5TOmr2X8Hivx-JvdX6ygZIt9YPjBt8EIOaJPVq6ZoaAqGnEALw_wcB&hvadid=255222382232&hvdev=c&hvlocphy=20550&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=1997028069562624827&hvtargid=kwd-301509732701&hydadcr=4935_1800296&keywords=focusing&qid=1563195460&s=gateway&sr=8-1).
+
 As for constancy, its greatest enemy is [procrastination](https://www.youtube.com/watch?v=arj7oStGLkU&t=36s=arj7oStGLkU&t=36s).
 
-To solve this second problem, I suggest you to use this conceptual framework that personally helped me a lot. 
+To solve this second issue, I suggest you to use this conceptual framework that personally helped me a lot. 
 
 The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://nuovoeutile.it/wp-content/uploads/2016/10/PETER-GOLLWITZER_IF_THEN.pdf_IF_THEN.pdf). 
 
