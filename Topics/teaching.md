@@ -24,6 +24,7 @@ It is recommended to read all the Paradise guides prior to this one.
 - [The Art of Learning](#The-Art-of-Learning)
 - [Mastering Internet](#Mastering-Google)
 - [Time Management](#Time-Management)
+- [Conclusions](#Conclusions)
 
 ### The Art of War
 
@@ -160,7 +161,7 @@ Personally I found it perhaps the biggest source of information because it is sp
 
 Do you have a question, about any concept or topic? Look for a dedicated subreddit, sign up, and post a well formulated question. You will see that in a couple of days several users have answered in detail!
 
-What an incredible tool!
+What an incredible tool is used as a "crowd mentorship"!
 
 ### Time Management
 
@@ -185,3 +186,12 @@ To solve this second issue, I suggest you to use this conceptual framework that 
 The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://nuovoeutile.it/wp-content/uploads/2016/10/PETER-GOLLWITZER_IF_THEN.pdf_IF_THEN.pdf). 
 
 These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning, but also professional and life).
+
+### Conclusions
+
+After reading the books and articles in this guide, you should be able to gradually improve and become extremely effective and quick to learn. 
+But remember that the road is always uphill (if you want it to be so and it is ambitious), and there will always be something new to learn ... better for us curious, right? :-)
+
+---------------------------------------------------
+
+Written by _Giacomo Ciarlini_
