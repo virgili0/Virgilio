@@ -181,7 +181,7 @@ As for constancy, its greatest enemy is [procrastination](https://www.youtube.co
 
 To solve this second issue, I suggest you use this conceptual framework that personally helped me a lot. 
 
-The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://nuovoeutile.it/wp-content/uploads/2016/10/PETER-GOLLWITZER_IF_THEN.pdf_IF_THEN.pdf). 
+The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://pdfs.semanticscholar.org/4c21/6c0ceeef2e2745d113c77a417133c2084dd9.pdf). 
 
 These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning but also professional and life).
 
