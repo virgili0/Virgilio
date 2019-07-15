@@ -23,10 +23,7 @@ It is recommended to read all the Paradise guides prior to this one.
 - [The Art of War](#The-Art-of-War)
 - [The Art of Learning](#The-Art-of-Learning)
 - [Mastering Internet](#Mastering-Google)
-- [Practice for Success](Practice-for-Success)
-- [The Magic Box](The-Magic-Box) 
 - [Time Management](#Time-Management)
-- [Suggested Readings](#Suggested-Readings)
 
 ### The Art of War
 
@@ -139,7 +136,7 @@ Every time you see a Facebook post like "how do I start studying machine learnin
 
 This section of the guide aims to introduce you to the most advanced features of Google, giving you tips on how to best explore the knowledge tree it contains. 
 
-It also contains some tips on how to use Reddit and StackOverflow.
+It also contains some tips on how to use Reddit.
 
 #### Google
 
@@ -149,7 +146,38 @@ In particular, Google search works by keywords, so often to search for something
 
 The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, use it wisely! 
 
-Here](https://blog.hubspot.com/marketing/google-advanced-search-tips) you find a guide on how to make your Google searches more effective, but like everything, try it and get it wrong, only then will you learn to know Google intimately and guess which keywords give you the results you need.
+[Here](https://blog.hubspot.com/marketing/google-advanced-search-tips) you find a guide on how to make your Google searches more effective, but like everything, try it and get it wrong, only then will you learn to know Google intimately and guess which keywords give you the results you need.
 
 #### Reddit
 
+Another thing that amazes me every day is how few people know how to use [Reddit](https://www.reddit.com/) effectively.  
+
+Reddit is a content platform where more or less all the information in the world goes through, long before newspapers, TV and social media!
+
+Reddit is divided into folders, like a file system, and each folder contains a topic where users can post articles, questions, discussions. 
+
+Personally I found it perhaps the biggest source of information because it is specialized and generally the user is an expert, within the various folders. For example, following [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) or [r/LearningMachineLearning](https://www.reddit.com/r/learnmachinelearning/), makes me learn dozens of new things every day, and I see new papers, tools or projects in preview, often being able to speak directly with the author!
+
+Do you have a question, about any concept or topic? Look for a dedicated subreddit, sign up, and post a well formulated question. You will see that in a couple of days several users have answered in detail!
+
+What an incredible tool!
+
+### Time Management
+
+Learning is difficult, tiring, and requires commitment without always seeing the end of the path. 
+
+Often one of the main obstacles in learning is poor time management. Not everyone has the opportunity to spend the whole day studying, and often when you want to learn a new skill you have to try to fit it between many professional and social commitments. 
+
+The best advice for this is the good old "Divide et Impera" once again. By dedicating even just one hour a day, or a couple of days a week to learning, with time you can learn any skill. 
+
+You just have to be motivated and constant.
+
+For motivation, I recommend using the concept of [visualization](https://www.mindtosucceed.com/Self-Motivation-Techniques.html).
+
+As for constancy, its greatest enemy is [procrastination](https://www.youtube.com/watch?v=arj7oStGLkU&t=36s=arj7oStGLkU&t=36s).
+
+To solve this second problem, I suggest you to use this conceptual framework that personally helped me a lot. 
+
+The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://nuovoeutile.it/wp-content/uploads/2016/10/PETER-GOLLWITZER_IF_THEN.pdf_IF_THEN.pdf). 
+
+These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning, but also professional and life).
