@@ -128,3 +128,28 @@ It is very important to confront also those who claim that a certain concept is 
 Let's now see how to use the tools you have at your disposal (in addition to your partner Virgil), to enhance your learning and make it unlimited.
 
 ### Mastering Internet
+
+Every time I think about the fact that I have Google in my pocket, I think it's an incredible historical moment to live: we have the most powerful tool man has ever created, and for free!
+
+For a couple of decades now, the Internet has allowed people, wherever they are, to learn any concept or work, to create value for themselves and for others, and countless other possibilities!
+
+Despite this, it is clear that its use is often superficial by most people, sometimes even zero! 
+
+Every time you see a Facebook post like "how do I start studying machine learning?" or more generally "how do I do this?" it means that there is a [big problem](https://www.businessinsider.com/millennials-dont-know-how-to-use-google-2015-5?IR=T).
+
+This section of the guide aims to introduce you to the most advanced features of Google, giving you tips on how to best explore the knowledge tree it contains. 
+
+It also contains some tips on how to use Reddit and StackOverflow.
+
+#### Google
+
+Google can almost always answer your questions, whatever they are. Don't be ashamed to ask for articulated things, don't judge yourself! :-) 
+
+In particular, Google search works by keywords, so often to search for something it is effective to try to describe it inaccurately using meaningful keywords, and often Google does the rest! 
+
+The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, use it wisely! 
+
+Here](https://blog.hubspot.com/marketing/google-advanced-search-tips) you find a guide on how to make your Google searches more effective, but like everything, try it and get it wrong, only then will you learn to know Google intimately and guess which keywords give you the results you need.
+
+#### Reddit
+
