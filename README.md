@@ -92,9 +92,17 @@ Above these you’ll find a plenty of other useful zones:
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
 # Paradiso
-- Coming soon!
+### [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+### [What do I need for ML? ](Topics/prerequisites.md)
+### [Do you really need ML?](Topics/do_you_need_ml.md)
+### [ML use cases](Topics/use_cases.md) 
+### Project Management -  Coming soon!
+### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)# Purgatorio
+### [Introduction to ML](Topics/MLSystems.md)
+
 # Purgatorio
 - Coming soon!
+
 # Inferno
 - Coming soon!
 
