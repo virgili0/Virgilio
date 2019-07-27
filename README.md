@@ -97,7 +97,7 @@ Above these you’ll find a plenty of other useful zones:
 ### [Do you really need ML?](Topics/do_you_need_ml.md)
 ### [ML use cases](Topics/use_cases.md) 
 ### Project Management -  Coming soon!
-### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)# Purgatorio
+### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
 ### [Introduction to ML](Topics/MLSystems.md)
 
 # Purgatorio
