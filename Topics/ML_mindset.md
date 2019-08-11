@@ -15,6 +15,7 @@ There are no prerequisites for this guide.
   -[Select a performance measure](#Select-a-performance-measure)
   -[Check the assumptions](#Check-the-assumptions)
 - [Get the data](#Get-the-data)
+
   -[Create the workspace](#Create-the-workspace)
   -[Download the data](#Download-the-data)
   -[Discover data and get domain experts insights](#Discover-data-and-get-domain-experts-insights)
