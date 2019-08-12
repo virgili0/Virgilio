@@ -55,6 +55,7 @@ For now don't worry about the difference between the two, just know for now that
 
 You are now ready for a short tour of the life cycle of the Data Science project, I will try to provide various examples for each phase, so that you can better orient yourself also when reading other sources (linked and not).
 
+## Looking at the big picture
 ### Frame the problem
 
 Each Data Science project starts from a phase called Problem Statement or Problem Shaping, i.e. the process of identifying the problem to be solved and the commercial advantages to be obtained. 
