@@ -103,7 +103,9 @@ In the case of regression problems, this measure of the error corresponds to the
 
 Don't worry if it sounds strange to you for now, we will deal with these concepts in subsequent guides. For now, it is enough to know that every time you start a ML project, it is essential to study the evaluation metrics of the final system.
 
-Here you have a detailed guide that will introduce you to the choice of these metrics. Keep it under your pillow, we'll need it soon!
-Part [1](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-1-regrression-metrics-3606e25beae0), [2](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-2-regression-metrics-d4a1a9ba3d74), [3](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-3-classification-3eac420ec991)
+Here you have a detailed guide that will introduce you to the choice of these metrics.
+Keep it under your pillow, we'll need it soon!
+
+(Parts [1](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-1-regrression-metrics-3606e25beae0), [2](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-2-regression-metrics-d4a1a9ba3d74), [3](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-3-classification-3eac420ec991))
 
 ### Check the assumptions
