@@ -13,6 +13,7 @@ There are no prerequisites for this guide.
 - [How to use this guide](#How-to-use-this-guide)
 - [Looking at the big picture](#Looking-at-the-big-picture)
   - [Frame the problem](#Frame-the-problem)
+  - [Tools that can help in the definition of the problem](#Tools-that-can-help-in-the-definition-of-the-problem)
   - [Select a performance measure](#Select-a-performance-measure)
   - [Check the assumptions](#Check-the-assumptions)
 - [Get the data](#Get-the-data)
@@ -71,7 +72,7 @@ In addition, Problem Shaping is a classic "self-generating" process, similar to 
 Another significant aspect is the ability to transmit the results provided by the data. Human beings, by their very nature, have prejudices that influence the way they perceive the results, so it is necessary to find the most effective way to "tell the story".
 history" of the data, a very important step for the success of a project.
 
-#### Tools that can help in the definition of the problem
+### Tools that can help in the definition of the problem
 
 The definition of the problem is the phase of the Data Science process that more than any other depends on soft skills (compared to technological skills or hard skills), however, since it is based on questions and data, sometimes in large quantities, can be
 A data analysis tool is useful.
@@ -87,3 +88,22 @@ As mentioned above, we must bear in mind that a Data Science project must always
 In this regard, I would like to point out the project concept [S.M.A.R.T.](https://www.getorganizedwizard.com/smart-goals/an-overview-of-smart-project-management/), which helps to frame the problem and encourages wise evaluations during this phase.
 
 Machine learning projects must have short-term objectives and be managed with an agile approach: the recirculation of questions, hypotheses and related data must be continuous, new discoveries must be used to guide and improve subsequent series of projects and results, even partial, must be shared with stakeholders (the business, colleagues, or simply those interested).
+
+### Select a performance measure
+
+Choosing the appropriate metrics to measure the performance of a model is critical to effectively solve a problem through a Machine Learning approach. 
+
+Once the type of problem to be solved has been identified, it will be clear whether what you want to predict is a number (e.g., 4 percent rate) or a class chosen from a set (e.g., give input images, classify them according to the type of subject they portray).
+
+The first type of problem, where the output of the system I want to build is a number, is called **regression**, while the second is called **classification**.
+
+In Machine Learning problems, we are interested in measuring the performance of our system based on "how much is wrong" with respect to the correct output.
+
+In the case of regression problems, this measure of the error corresponds to the distance between the predicted value and the correct value, while in the case of classification problems it corresponds to measuring a concept called entropy between the aforesaid classes. 
+
+Don't worry if it sounds strange to you for now, we will deal with these concepts in subsequent guides. For now, it is enough to know that every time you start a ML project, it is essential to study the evaluation metrics of the final system.
+
+Here you have a detailed guide that will introduce you to the choice of these metrics. Keep it under your pillow, we'll need it soon!
+Part [1](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-1-regrression-metrics-3606e25beae0), [2](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-2-regression-metrics-d4a1a9ba3d74), [3](https://towardsdatascience.com/how-to-select-the-right-evaluation-metric-for-machine-learning-models-part-3-classification-3eac420ec991)
+
+### Check the assumptions
