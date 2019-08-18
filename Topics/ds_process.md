@@ -54,3 +54,24 @@ Each Data Science project starts from a phase called Problem Statement or Proble
 
 How do you do it? We must be ready to ask the right questions. 
 
+Usually the first questions you ask yourself are: 
+- What is the scope of the project? 
+- What is the desired result? 
+- What data do we have available? 
+- Do we have evidence that they contain relevant information?
+
+During this phase, close contact between you (the technician) and the domain expert is vital. 
+If you are developing a project for a company, presumably it will be the source of domain knowledge: learn as much as you can!
+
+If you are developing a project for yourself, look for domain experts to ask questions! 
+
+Studying and practicing you will develop a "data mindset", which will help you a lot in this phase. An entire guide is dedicated to this issue.
+
+When you have framed the type of problem you want to solve, it is time to choose objective metrics to evaluate the result of the project: depending on the type of problem addressed, we will see how different metrics provide indications on the performance of the Machine Learning models that we will develop.
+
+Last but not least, it is necessary to make sure that the assumptions we make are correct, the data we have collected are not corrupted or biased, and how the system will be integrated with existing systems and then used.
+
+### Collect and prepare the data
+
+From Wikipedia:
+> Data collection is the process of gathering and measuring information on targeted variables in an established system, which then enables one to answer relevant questions and evaluate outcomes
