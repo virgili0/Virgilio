@@ -15,7 +15,7 @@ There are no prerequisites for this guide.
 - [Motivation](#Motivation)
 - [Frame the problem](#Frame-the-problem)
 - [Collect and prepare the data](#Collect-and-prepare-the-data)
-- [Select and train an  ML model](#Select-and-train-an-ML-model)
+- [Select and train an ML model](#Select-and-train-an-ML-model)
 - [Evaluate and fine tuning](#Evaluate-and-fine-tuning)
 - [Launch and mantain the system](#Launch-and-mantain-the-system)
 
@@ -73,5 +73,23 @@ Last but not least, it is necessary to make sure that the assumptions we make ar
 
 ### Collect and prepare the data
 
-From Wikipedia:
-> Data collection is the process of gathering and measuring information on targeted variables in an established system, which then enables one to answer relevant questions and evaluate outcomes
+The indispensable raw material for Data Science projects is data (you never would have said so!).
+Collecting, organizing and then cleaning them is often the most _onerous phase_ of the whole process. 
+You need to understand what the data sources are, how they collected them, how the data from various sources relate to each other. 
+Once the data has been obtained, it is necessary to organize it effectively, and to keep original versions of it so that you always have at your disposal the "ground truth" of our project.
+
+In fact, a large part of the work of cleaning and preparing the data consists of steps (called pre-processing) that transform them: from raw data just collected, to clean data and ready to be analyzed by a model in the next macro-phase. 
+
+Maintaining the various versions of the data, to which the pre-processing steps have been applied, is vital to achieve _reproducible results_ and _maintainable systems_.
+
+The information represented by the data is called "features" (in the simple case of tabular data, each attribute is a feature).
+
+Once the raw data has been cleaned, the feature engineering phase often takes place in which existing data is combined to "suggest" to the models the relationships between them.
+
+For example, if my data contains the date of a purchase in a store, I can add the feature "day of the week", indicating with a value from 1 to 7 on which day we are. This could reveal very interesting relationships!
+
+Often the feature engineering phase is vital for traditional models, while we will see that for Deep Learning models it is less important, as they have among their advantages to automatically extract relevant features from the data.
+
+Finally we will see in this section how to automate these "pipelines" of collection, cleaning and preprocessing.
+
+### Select and train an ML model
