@@ -126,7 +126,7 @@ This phase is of vital importance to understand how the model will perform in th
 
 In this section we will also understand how to choose the best parameters to train the models, so as to maximize their performance in the test phase.
 
-Moreover, we will see how to compose together several predictive models to form a more effective one, and you will learn to use one of the most useful techniques in the real application of Deep Learning: Transfer Learning.
+Moreover, we will see how to compose together several predictive models to form a more effective one, and you will learn to use one of the most useful techniques in the real application of Deep Learning: _Transfer Learning_.
 
 This concept consists in applying the knowledge already learned from a problem to a new problem, reducing the amount of data needed and the computational costs for training.
 
