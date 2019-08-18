@@ -18,6 +18,7 @@ There are no prerequisites for this guide.
 - [Select and train an ML model](#Select-and-train-an-ML-model)
 - [Evaluate and fine tuning](#Evaluate-and-fine-tuning)
 - [Launch and mantain the system](#Launch-and-mantain-the-system)
+- [Conclusions](#Conclusions)
 
 Let's dive right in!
  
@@ -153,3 +154,9 @@ Here are some questions you need to ask yourself when you put a model into produ
 - How do I ensure that the performance of the model does not degrade over time?
 
 These and other questions will be covered in this section.
+
+### Conclusions
+
+You've just had a taste of everything we'll see in the next sections of Purgatorio, but remember there will be much more to learn! Alongside these guides you'll be given some to learn how to use libraries and frameworks used by organizations and governments, how to take advantage of the power and flexibility of Cloud vendors, how to read research papers, and much more!
+
+Warm up your fingers and brain and prepare a coffee, the journey is about to begin!  
