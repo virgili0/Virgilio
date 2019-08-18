@@ -93,3 +93,24 @@ Often the feature engineering phase is vital for traditional models, while we wi
 Finally we will see in this section how to automate these "pipelines" of collection, cleaning and preprocessing.
 
 ### Select and train an ML model
+
+Once the data has been cleaned and prepared, it is time to choose an algorithm that must be "trained" on it, and whose output will be a predictive model.
+
+This model can be a statistical model (even if all the models we will see apply statistical concepts) or a Deep Learning model. 
+
+Statistical models have been used for decades to predict the future, such as sales in the next quarter, or the climate in a given region. 
+
+In general, these models:
+- They require statistical knowledge 
+- Require feature engineering
+- They are "simple" in the sense that they are easy to interpret and debug
+
+Deep Learning models (software artifacts called neural networks) are techniques that have been exploding in recent years, providing excellent performance on problems previously impossible to solve, in general:
+- They require empirical and practical knowledge 
+- Do not necessarily require feature engineering (but may benefit from it) 
+- They are "complex" in the sense that they are difficult to interpret and debug.
+- They are the only solutions in case of equally "complex" problems, such as the vision or understanding of natural language.
+
+We will see in detail various types of statistical models and Deep Learning, with a particular focus on the latter, which over the years are proving a revolution and promise to overturn entire industries, as well as drastically improve the processes that characterize them.
+
+Once the model that best solves our problem has been selected, the training phase takes place, where the model is shown many examples (our data) and its parameters are adjusted in order to obtain satisfactory performance.
