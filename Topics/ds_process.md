@@ -106,7 +106,7 @@ In general, these models:
 - They are "simple" in the sense that they are easy to interpret and debug
 
 Deep Learning models (software artifacts called neural networks) are techniques that have been exploding in recent years, providing excellent performance on problems previously impossible to solve, in general:
-- They require empirical and practical knowledge 
+- They require empirical and practical knowledge about training neural networks
 - Do not necessarily require feature engineering (but may benefit from it) 
 - They are "complex" in the sense that they are difficult to interpret and debug.
 - They are the only solutions in case of equally "complex" problems, such as the vision or understanding of natural language.
