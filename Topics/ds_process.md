@@ -123,4 +123,33 @@ Therefore, before training, the data is divided between training data (those tha
 
 This phase is of vital importance to understand how the model will perform in the real world, and to understand if it will actually be useful.
 
-In this section we will also understand how to choose the best parameters to train the models, so as to maximize their performance in the text phase*(
+In this section we will also understand how to choose the best parameters to train the models, so as to maximize their performance in the test phase.
+
+Moreover, we will see how to compose together several predictive models to form a more effective one, and you will learn to use one of the most useful techniques in the real application of Deep Learning: Transfer Learning.
+
+This concept consists in applying the knowledge already learned from a problem to a new problem, reducing the amount of data needed and the computational costs for training.
+
+We'll see how in practice you almost never train a model from scratch, but you take advantage of pre-trained models made available by large companies and researchers.
+
+### Launch and mantain the system
+
+Once the model is sufficiently tested and its performing well it can be used to make predictions. 
+
+In this section you will learn how to build models that can scale to hundreds or thousands of users, leveraging the power of the Cloud and the flexibility of the API Rest concept. 
+
+You will learn how to distribute your models across multiple machines, and monitor them carefully through metrics and alarms.
+
+In fact, one of the biggest costs of Data Science projects (but we could say software in general) is maintenance.
+Here are some questions you need to ask yourself when you put a model into production in the real world:
+
+- **Do users use it**?
+- Is the number of users using it controllable, or is there a slowdown?
+- How certain is the model of predictions it makes?
+- How do I make sure the new input data is appropriate?
+- How do I ensure that they are properly preprocessed (yes, automatic pipelines, I'm looking at you)?
+- Do the real world data reflect the training data?
+- How do real world data change over time?
+- How do I integrate the new knowledge I collect over time (i.e., the new data from the real world)?
+- How do I ensure that the performance of the model does not degrade over time?
+
+These and other questions will be covered in this section.
