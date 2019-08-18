@@ -26,25 +26,31 @@ You can find hundreds of online articles describing the process of developing a 
 In this article Virgilio does not aim to give you the details of each phase, which will be dealt with in more technical guides,
 but rather aims to give you an overview of the various steps, as well as a sort of checklist to keep in mind when starting a project.
 
-I will also provide you, for each phase, with resources to deepen your knowledge, 
-organized in a coherent way and specifically contextualized.
+As you may have noticed, **the structure of Purgatory reflects the entire Data Science process lifecycle**, with each _section_ corresponding to a macro phase, and each _guide_ within it corresponding to a sub-stage of the process. This content organization is designed to provide clarity and clarity to the structure of Purgatorio, to the Data Science process, and to provide an useful checklist to consult whenever you start a new project.
 
-The following guide is inspired by the checklist in the magnificent book 
+This design is inspired by the checklist in the magnificent book 
 [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646), which I would urge you to buy. 
 
 It's worth its weight in bits! 
 
-I remind you what I mean by Data Science project: any project that aims to extract knowledge from data 
+Let's recap what we mean by life cycle of the data science process (from here on, for brevity, we will only call it "process").
+
+A Data Science project is any project that aims to extract knowledge from data 
 (for example, predict the optimal interest rate for a loan, or how many customers will enter the store tomorrow), 
 and in doing so, use Machine Learning techniques.
 
 These techniques can be of two types: 
-- Traditional Machine Learning techniques (addressed in the "Traditional Machine Learning techniques" section of Purgatory)
-- Deep Learning Techniques (covered in the section of the same name)
+- Traditional Machine Learning techniques (statistical models like SVM, decision trees, or clustering)
+- Deep Learning Techniques (neural networks)
 
-For now don't worry about the difference between the two, just know for now that the former have been around for decades, 
+For now don't worry about the difference between the two types, just know for now that the former have been around for decades, 
 while the latter are the subject of active experimental research and have only started to be used in the last 6-7 years.
 
-You are now ready for a short tour of the life cycle of the Data Science project, 
-I will try to provide various examples for each phase, so that you can better orient yourself also when reading other sources 
-(linked and not).
+You are now ready for a short tour of the Data Science process, where I'll give you an overview of what your trip to Purgatorio will be like.
+
+### Frame the problem
+
+Each Data Science project starts from a phase called Problem Statement or Problem Shaping, i.e. the process of identifying the problem to be solved and the commercial advantages to be obtained. 
+
+How do you do it? We must be ready to ask the right questions. 
+
