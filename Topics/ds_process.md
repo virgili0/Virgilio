@@ -114,3 +114,13 @@ Deep Learning models (software artifacts called neural networks) are techniques 
 We will see in detail various types of statistical models and Deep Learning, with a particular focus on the latter, which over the years are proving a revolution and promise to overturn entire industries, as well as drastically improve the processes that characterize them.
 
 Once the model that best solves our problem has been selected, the training phase takes place, where the model is shown many examples (our data) and its parameters are adjusted in order to obtain satisfactory performance.
+
+### Evaluate and fine-tuning
+
+Once we set up the training process and trained the model, we are ready to evaluate it and understand what actual performance it would have in the face of data that it has never seen. 
+
+Therefore, before training, the data is divided between training data (those that the model will see) and test data that it has never seen (those on which it will be tested).
+
+This phase is of vital importance to understand how the model will perform in the real world, and to understand if it will actually be useful.
+
+In this section we will also understand how to choose the best parameters to train the models, so as to maximize their performance in the text phase*(
