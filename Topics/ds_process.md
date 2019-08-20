@@ -27,7 +27,7 @@ You can find hundreds of online articles describing the process of developing a 
 In this article Virgilio does not aim to give you the details of each phase, which will be dealt with in more technical guides,
 but rather aims to give you an overview of the various steps, as well as a sort of checklist to keep in mind when starting a project.
 
-As you may have noticed, **the structure of Purgatory reflects the entire Data Science process lifecycle**, with each _section_ corresponding to a macro phase, and each _guide_ within it corresponding to a sub-stage of the process. This content organization is designed to provide clarity and clarity to the structure of Purgatorio, to the Data Science process, and to provide an useful checklist to consult whenever you start a new project.
+As you may have noticed, **the structure of Purgatory reflects the entire Data Science process lifecycle**, with each _section_ corresponding to a macro phase, and each _guide_ within it corresponding to a sub-stage of the process. This content organization is designed to provide clarity to the structure of Purgatorio, clarity to the Data Science process, and to provide an useful checklist to consult whenever you start a new project.
 
 This design is inspired by the checklist in the magnificent book 
 [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646), which I would urge you to buy. 
