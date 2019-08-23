@@ -1,20 +1,18 @@
 # Frame the problem
 
 # What you will learn 
-
+In this guide we try to figure out how to frame the kind of problem we want to solve and design it. 
+We will do this by learning to ask the right questions. 
 
 ## Prerequisites
-It would be great if you knew
-  1. this thing
-  2. this other thing
-  3. and this might be useful as well
-
-Link here all prerequisites.
+The previous Purgatorio's guides.
 
 ## Time to complete
-Give here an estimation of the time needed to walk through the contents and to tackle the practice part (if any).
+20 minutes.
 
 # Index
- - [Section A](#section-a)
-   - [Subsection A1](#subsection-a1)
-   - [Subsection A2](#subsection-a2)
+- [Understand the data](#Understand-the-data)
+- [Set up an objective](Set-up-an-objective)
+- [SMART project](#SMART-project)
+- [Integration](#Integration)
+- [Real world usage](#Real-world-usage)
