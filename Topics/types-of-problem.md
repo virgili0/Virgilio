@@ -11,8 +11,53 @@ The previous Purgatorio's guides.
 20 minutes.
 
 # Index
+- [Recap of ML systems](#Recap-of-ML-systems)
 - [Understand the data](#Understand-the-data)
 - [Set up an objective](Set-up-an-objective)
 - [SMART project](#SMART-project)
 - [Integration](#Integration)
 - [Real world usage](#Real-world-usage)
+
+Let's dive right in!
+
+### Recap of ML systems
+
+As we saw in the guide [Introduction to ML systems](Topics/MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular the most important classification to frame the problem is as follows: is the problem a supervised or unsupervised learning task?
+
+A supervised problem is a problem in which the data we want to learn from are "labelled": for example, images labelled according to their content, or the data of a loan applicant who knows how many times he managed to repay the debt or not. 
+
+By "showing" a Machine Learning algorithm so many examples, we hope that it will be able to generalize to new cases never seen before and predict the right label (not necessarily a specific class, it could even be a number).
+
+An unsupervised problem is without these labels, and our "learning from data" is usually about finding similarities between the various elements of the dataset and grouping them together (clustering technique).
+
+The type of problem we will focus on in the Purgatory guides is the "supervised" type, which are the most common problems and those faced by neural networks (very powerful and flexible Machine Learning algorithms).
+
+We will see in the section "Train and select an ML model" also some methods to deal with unsupervised problems.
+
+After this brief summary, let's get started!
+
+The first thing to do when dealing with a new problem is to understand what kind of data I have available. Remember, without data you're not going anywhere!
+
+### Understand the data
+
+The first thing to do, whether you are facing a challenge on Kaggle, or you are carrying out a project of corporate scope, is to understand what kind of data you have available: The process then requires you to start from the data to formulate a problem, not the other way around! 
+
+In fact, as widely explained in Paradise, data is the only thing really necessary for the success of the project.
+
+When we look at the data we should ask ourselves the following questions:
+
+- What form do the data take (tables, images, text, audio)?
+- Are the data labelled or not? 
+- If not, are they labelable?
+- How much data do we have?
+- How reliable are they?
+- Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?
+- Is this sensitive data? 
+- If so, can they be anonymised?
+- How much** data is there (number of examples, storage weight)?
+
+If we answer these questions, we should have a clear picture of what data we have available.
+
+We can now proceed to the definition of the problem.
+
+Translated with www.DeepL.com/Translator
