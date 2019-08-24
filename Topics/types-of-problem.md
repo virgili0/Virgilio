@@ -49,15 +49,22 @@ When we look at the data we should ask ourselves the following questions:
 - What form do the data take (tables, images, text, audio)?
 - Are the data labelled or not? 
 - If not, are they labelable?
-- How much data do we have?
-- How reliable are they?
+- How much reliable are the labels?
 - Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?
 - Is this sensitive data? 
 - If so, can they be anonymised?
-- How much** data is there (number of examples, storage weight)?
+- **How much** data is there (number of examples, storage weight)?
 
 If we answer these questions, we should have a clear picture of what data we have available.
 
 We can now proceed to the definition of the problem.
 
-Translated with www.DeepL.com/Translator
+### Set up an objective
+
+Like any other software project, a data science project can not ignore having a clear goal to reach.
+
+Formulating this objective is crucial for various reasons:
+- the success of the project
+- the measurability of the success of the project
+- setting a clear target does not create too high an expectation
+
