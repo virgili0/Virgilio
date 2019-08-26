@@ -74,3 +74,22 @@ I suggest that you use the SMART methodology for projects, which consists of for
 - **A**ttainable
 - **R**elevant
 - **T**ime-framed
+
+In particular, defining the scope of the project is fundamental. The scope is the size of the project, the number of components of which it is composed.
+
+Projects often fail because you don't have a clear scope and you continue to add components and components until you have lost sight of the initial goal.
+
+For example: 
+- "I want to build a user interface that understands the natural language and interacts with the user" is too generic. 
+- "I want to build a user interface that can take orders from the pizzeria and organize them according to the arrival time" is a much more defined scope.
+
+Another example:
+- "This system must help us to classify all the new data that arrives".
+is too generic.
+- "This system must classify the images that users send us according to the color of the object photographed" is specific.
+
+Trying to formulate the problem in a "SMART" way helps you not to lose sight of the objective, not to set yourself unattainable objectives, to reach them in time and above all to realize if you are working well or badly (measurability). We will see in the next guide "Choose the metrics" how this aspect is fundamental.
+
+Highly recommended is reading the [original paper](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf) of the SMART projects.
+
+[This mini-course from **Google**](https://developers.google.com/machine-learning/problem-framing/) will help you framing your problem. Do it.
