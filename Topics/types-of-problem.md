@@ -13,8 +13,7 @@ The previous Purgatorio's guides.
 # Index
 - [Recap of ML systems](#Recap-of-ML-systems)
 - [Understand the data](#Understand-the-data)
-- [Set up an objective](Set-up-an-objective)
-- [SMART project](#SMART-project)
+- [Set objective and scope](#Set-objective-and-scope)
 - [Integration](#Integration)
 - [Real world usage](#Real-world-usage)
 
@@ -59,7 +58,7 @@ If we answer these questions, we should have a clear picture of what data we hav
 
 We can now proceed to the definition of the problem.
 
-### Set up an objective
+### Set objective and scope
 
 Like any other software project, a data science project can not ignore having a clear goal to reach.
 
@@ -68,3 +67,10 @@ Formulating this objective is crucial for various reasons:
 - the measurability of the success of the project
 - setting a clear target does not create too high an expectation
 
+I suggest that you use the SMART methodology for projects, which consists of formulating them in a way:
+
+- **S**pecific
+- **M**easurable
+- **A**ttainable
+- **R**elevant
+- **T**ime-framed
