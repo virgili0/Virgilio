@@ -4,7 +4,7 @@
 In this guide we try to figure out how to frame the kind of problem we want to solve and design it. 
 We will do this by learning to ask the right questions. 
 
-This guide will provide you with many "key questions" of example, which makes sense to ask yourself every time you frame a new data problem. 
+This guide will provide you with many examples of "key questions", which makes sense to ask yourself every time you frame a new data problem. 
 
 These lists of questions are **not exhaustive**, and we welcome Pull Requests that add significantly valid ones.
 
@@ -21,7 +21,7 @@ The previous Purgatorio's guides.
 # Index
 - [Recap of ML systems](#Recap-of-ML-systems)
 - [Understand the data](#Understand-the-data)
-- [Set objective and scope](#Set-objective-and-scope)
+- [Set objectives and scope](#Set-objective-and-scope)
 - [Usage and Integration](#Integration)
 
 Let's dive right in!
@@ -52,22 +52,27 @@ In fact, as widely explained in Paradise, data is the only thing really necessar
 
 When we look at the data we should ask ourselves the following questions:
 
+- What are we supposed to do this with this data?
 - What form do the data take (tables, images, text, audio)?
+- Do we know the data is raw (unclean)?
 - Are the data labelled or not? 
-- If not, are they labelable?
-- How much reliable are the labels?
+- If not, Is it possible to label them?
+- How reliable are the labels?
 - Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?
+- How has the data been collected and put together? Automatic? Manual? Combination?
 - Is this sensitive data? 
 - If so, can they be anonymised?
+- Can we achieve our goal with this data after cleaning and processing it?
+- Is it reasonable and realistic?
 - **How much** data is there (number of examples, storage weight)?
 
 If we answer these questions, we should have a clear picture of what data we have available.
 
 We can now proceed to the definition of the problem.
 
-### Set objective and scope
+### Set objectives and scope
 
-Like any other software project, a data science project can not ignore having a clear goal to reach.
+Like any other software project, a data science project need having a clear goal to reach.
 
 Formulating this objective is crucial for various reasons:
 - the success of the project
@@ -84,20 +89,20 @@ I suggest that you use the SMART methodology for projects, which consists of for
 
 In particular, defining the scope of the project is fundamental. The scope is the size of the project, the number of components of which it is composed.
 
-Projects often fail because you don't have a clear scope and you continue to add components and components until you have lost sight of the initial goal.
+Projects often fail because you don't have a clear scope and you continue to add more components until you have lost sight of the initial goal.
 
 For example: 
 - "I want to build a user interface that understands the natural language and interacts with the user" is too generic. 
 - "I want to build a user interface that can take orders from the pizzeria and organize them according to the arrival time" is a much more defined scope.
 
 Another example:
-- "This system must help us to classify all the new data that arrives".
+- "This system must help us classify all the new data that arrives".
 is too generic.
 - "This system must classify the images that users send us according to the color of the object photographed" is specific.
 
 Trying to formulate the problem in a "SMART" way helps you not to lose sight of the objective, not to set yourself unattainable objectives, to reach them in time and above all to realize if you are working well or badly (measurability). We will see in the next guide "Choose the metrics" how this aspect is fundamental.
 
-Highly recommended is reading the [original paper](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf) of the SMART projects.
+Highly recommended reading the [original paper](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf) of the SMART projects.
 
 [This mini-course from **Google**](https://developers.google.com/machine-learning/problem-framing/) will help you framing your problem. Do it.
 
@@ -144,5 +149,5 @@ In the next guide we will see other key questions to be asked during the framing
 
 --------------------------------------------------
 
-_Written by clone95_ 
+_Written by [clone95](https://github.com/clone95)_ 
 
