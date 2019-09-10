@@ -19,7 +19,7 @@ If you know how to use a tool or a framework, or you faced some business problem
 
 Moreover, thousands of people will read it and would be grateful to you! 👍 
 Don't worry about the correctness of your English or the depth of your knowledge, experienced people at Virgilio will help you make your guide of the highest quality.
-If you want to contribute to the Virgilio project, [join us on Slack](https://join.slack.com/t/virgilioworkspace/shared_invite/enQtNjM1MDQxNzg1MTQyLWZkZDE1YjFiMmE0ZTQ5NmVlNTIxZmU5YjBjOTQ3ZDU1NzYxMGJhZWU2NzgzYTY3ZTVlZDg4YmNmMjcxYTVmZDI) and check out or future guides roadmap: maybe you can find that we already need your help!
+If you want to contribute to the Virgilio project, test to @Clone95 on Telegram and check out our future guides roadmap: maybe you can find that we already need your help!
 Feel free to suggest new ideas, guides, or entire sections! 
 
 
