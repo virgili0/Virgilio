@@ -136,7 +136,7 @@ Below is a figure that represents three different situations where a model must 
 
 Hopefully now you should be more comfortable with high-level ideas of how ML systems are classified and you should have a clear idea of what the classification and regression tasks are.
 
-If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out!
+If you like Virgilio's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out!
 
 
 ------------------
