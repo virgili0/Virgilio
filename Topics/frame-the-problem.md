@@ -61,24 +61,30 @@ In fact, as widely explained in Paradise, data is the only thing really necessar
 
 When we look at the data we should ask ourselves the following questions:
 
-- What are we supposed to do this with this data?
+- **What are we supposed to do this with this data?**
+
   This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
   Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
   Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
 
-- What form do the data take (tables, images, text, audio)?
-- Do we know the data is raw (unclean)?
-- Are the data labelled or not? 
-- If not, Is it possible to label them?
-- How reliable are the labels?
-- Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?
-- How has the data been collected and put together? Automatic? Manual? Combination?
-- Is this sensitive data? 
-- If so, can they be anonymised?
-- Can we achieve our goal with this data after cleaning and processing it?
-- Is it reasonable and realistic?
-- **How much** data is there (number of examples, storage weight)?
-- Can we augment the dataset?
+- **What form do the data take (tables, images, text, audio)?**
+
+  This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
+  Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
+  Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
+
+- **Do we know the data is raw (unclean)?**
+- **Are the data labelled or not? **
+- **If not, Is it possible to label them?**
+- **How reliable are the labels?**
+- **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
+- **How has the data been collected and put together? Automatic? Manual? Combination?**
+- **Is this sensitive data? **
+- **If so, can they be anonymised?**
+- **Can we achieve our goal with this data after cleaning and processing it?**
+- **Is it reasonable and realistic?**
+- **_How much_ data is there (number of examples, storage weight)?**
+- **Can we augment the dataset?**
 
 If we answer these questions, we should have a clear picture of what data we have available.
 
