@@ -28,6 +28,20 @@ Let's dive right in!
 
 ### Recap of ML systems
 
+The process of Data Science, i.e. the extraction of knowledge and decisions from a set of data, is composed of several steps. Simplifying as much as possible, we try to frame the problem we want to solve, then we study the data available, then we create models (Machine Learning models) that are used to make predictions or estimates.
+ 
+The definition of the problem is the first phase and also guides all the choices of design, implementation and integration that will come later during the project.
+
+In particular, it is fundamental to classify the type of forecast you want to obtain once you have built the Machine Learning models: do you want to make sure that the software we are going to build preaches a numerical value, or a label? 
+Or maybe we want to group similar data, or sort them by importance for a user, for example to recommend the next movie to watch!
+
+
+
+
+
+
+Translated with www.DeepL.com/Translator
+
 As we saw in the guide [Introduction to ML systems](MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular the most important classification to frame the problem is as follows: is the problem a supervised or unsupervised learning task?
 
 A supervised problem is a problem in which the data we want to learn from are "labelled": for example, images labelled according to their content, or the data of a loan applicant who knows how many times he managed to repay the debt or not. 
@@ -65,6 +79,7 @@ When we look at the data we should ask ourselves the following questions:
 - Can we achieve our goal with this data after cleaning and processing it?
 - Is it reasonable and realistic?
 - **How much** data is there (number of examples, storage weight)?
+- Can we augment the dataset?
 
 If we answer these questions, we should have a clear picture of what data we have available.
 
