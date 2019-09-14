@@ -62,14 +62,11 @@ In fact, as widely explained in Paradise, data is the only thing really necessar
 When we look at the data we should ask ourselves the following questions:
 
 - What are we supposed to do this with this data?
+  This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
+  Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
+  Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
 
 - What form do the data take (tables, images, text, audio)?
-
-This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
-Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
-Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
-
-Translated with www.DeepL.com/Translator
 - Do we know the data is raw (unclean)?
 - Are the data labelled or not? 
 - If not, Is it possible to label them?
