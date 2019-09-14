@@ -37,8 +37,7 @@ Should it predict a number or a label?
 Or will it have to group a new data together with those most similar to it?
 Or should he predict the next content to be recommended to a user?
 
-
-As we saw in the guide [Introduction to ML systems](MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular the most important classification to frame the problem is as follows: is the problem a supervised or unsupervised learning task?
+As we saw in the guide [Introduction to ML systems](MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular the most important classification to frame the problem is as follows: **is the problem a supervised or unsupervised learning task?**
 
 A supervised problem is a problem in which the data we want to learn from are "labelled": for example, images labelled according to their content, or the data of a loan applicant who knows how many times he managed to repay the debt or not. 
 
@@ -50,20 +49,27 @@ The type of problem we will focus on in the Purgatory guides is the "supervised"
 
 We will see in the section "Train and select an ML model" also some methods to deal with unsupervised problems.
 
-After this brief summary, let's get started!
+After this brief summary, let's see what questions we ask ourselves (and which we ask to the experts of the dominoes) to frame a data problem.
 
 The first thing to do when dealing with a new problem is to understand what kind of data I have available. Remember, without data you're not going anywhere!
 
 ### Understand the data
 
-The first thing to do, whether you are facing a challenge on Kaggle, or you are carrying out a project of corporate scope, is to understand what kind of data you have available: The process then requires you to start from the data to formulate a problem, not the other way around! 
+The first thing to do, whether you are carrying out a project of corporate scope or for yourself, is to understand what kind of data you have available: the process then requires you to start from the data to formulate a problem, not the other way around! 
 
 In fact, as widely explained in Paradise, data is the only thing really necessary for the success of the project.
 
 When we look at the data we should ask ourselves the following questions:
 
 - What are we supposed to do this with this data?
+
 - What form do the data take (tables, images, text, audio)?
+
+This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
+Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
+Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
+
+Translated with www.DeepL.com/Translator
 - Do we know the data is raw (unclean)?
 - Are the data labelled or not? 
 - If not, Is it possible to label them?
