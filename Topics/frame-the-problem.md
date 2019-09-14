@@ -67,11 +67,19 @@ When we look at the data we should ask ourselves the following questions:
   Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
   Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
 
-- **What form do the data take (tables, images, text, audio)?**
+- **What form do the data take?**
 
-  This may sound like a stupid question, but we shouldn't assume that our aim is to cover the whole process of Data Science, from data collection to the creation of predictive models of Machine Learning. 
-  Maybe what we have to do is just a sub-stage of the ones that make up the complete process. For example, we may just have to clean up the data and format it well, or analyze it and report back to other considerations about it. 
-  Or we might just have to do some statistics on them to observe six phenomena, so avoid the part of creating the model. Nobody wants to waste time doing things that are not necessary!
+  The data we have at our disposal can be of a completely different type:
+
+  - text
+  - categorical
+  - numerical
+  - audio
+  - images
+  - tabular data (extracted from databases)
+  - time series
+
+
 
 - **Do we know the data is raw (unclean)?**
 - **Are the data labelled or not? **
