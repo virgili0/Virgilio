@@ -32,15 +32,11 @@ The process of Data Science, i.e. the extraction of knowledge and decisions from
  
 The definition of the problem is the first phase and also guides all the choices of design, implementation and integration that will come later during the project.
 
-In particular, it is fundamental to classify the type of forecast you want to obtain once you have built the Machine Learning models: do you want to make sure that the software we are going to build preaches a numerical value, or a label? 
-Or maybe we want to group similar data, or sort them by importance for a user, for example to recommend the next movie to watch!
+In particular, it is fundamental to classify the type of forecast you want to obtain once you have built the Machine Learning models: what _kind of prediction_ should the system make? 
+Should it predict a number or a label?
+Or will it have to group a new data together with those most similar to it?
+Or should he predict the next content to be recommended to a user?
 
-
-
-
-
-
-Translated with www.DeepL.com/Translator
 
 As we saw in the guide [Introduction to ML systems](MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular the most important classification to frame the problem is as follows: is the problem a supervised or unsupervised learning task?
 
