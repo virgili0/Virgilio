@@ -87,9 +87,15 @@ They can be continuous (e.g. temperature in degrees) or discrete (evaluation of 
 Sometimes, to reduce the computational load and simplify the problem, the concept of [discretization](https://en.wikipedia.org/wiki/Discretization) can be applied to continuous data.
 In the case of discrete data, it is potentially possible to consider them as categorical, in fact they represent a unique value. Attention, however: these discrete data contain the concept of "ordinality", so they are not like saying "Red" and "Green", which are not orderable concepts. It depends on the specific problem whether the discrete numeric data are considered categories or not (attention to ordinality).
 
-
   - **audio:**
+  Audio files can be of [various formats](https://www.makeuseof.com/tag/audio-file-format-right-needs/), which greatly influence the resolution (and therefore the amount of information they contain). They can be phone recorded conversations, for example customer care, or environmental sounds, or even animal sounds. 
+  
   - **images:**
+  Images can be presented in [various formats](https://www.google.com/search?q=images+format&oq=images+format&aqs=chrome..69i57j0l5.1643j1j7&sourceid=chrome&ie=UTF-8), which affect the maximum resolution and number of colors of the image (RGB or B&W). Images have the characteristic of being very rich in information, so often there is the problem of storage, and reading/writing them on disk can be a costly operation. 
+Image data often has the advantage that with some scraping trick (downloading data from the Internet) you can enlarge the datasets and thus improve the performance of Machine Learning models.
+
+  - **videos:**
+  
   - **time series:**
 
 
