@@ -95,6 +95,8 @@ In the case of discrete data, it is potentially possible to consider them as cat
 Image data often has the advantage that with some scraping trick (downloading data from the Internet) you can enlarge the datasets and thus improve the performance of Machine Learning models.
 
   - **videos:**
+  Videos can be classified into two types: streaming (in real time) and recorded (saved on disk). 
+Videos are a fairly complex format to handle and extremely heavy from a storage point of view, so it is recommended not to start from this type of data if you are a beginner. 
   
   - **time series:**
 
