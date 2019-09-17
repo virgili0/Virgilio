@@ -99,11 +99,13 @@ Image data often has the advantage that with some scraping trick (downloading da
 Videos are a fairly complex format to handle and extremely heavy from a storage point of view, so it is recommended not to start from this type of data if you are a beginner. 
   
   - **time series:**
-
+  A very interesting fact is that it consists of historical series, such as the series of surveys of a sensor, or the history of the interactions of a social user. This type of data is useful in order to predict future behavior based on previous observations, such as predict whether a machine is about to break or if a user will buy a certain product.
+Time series have the concept of granularity, which is the amount of time between measurements:
+for example, we can have daily or annual data, or even a relevation every microsecond.
 
 
 - **Do we know the data is raw (unclean)?**
-- **Are the data labelled or not? **
+- **Are the data labelled or not?**
 - **If not, Is it possible to label them?**
 - **How reliable are the labels?**
 - **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
