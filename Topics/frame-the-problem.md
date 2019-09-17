@@ -71,12 +71,18 @@ When we look at the data we should ask ourselves the following questions:
 
   The data we have at our disposal can be of a completely different type:
 
+  - tabular data 
+  As the name indicates, data extracted from database tables (not necessarily relational). They are data organized in rows, have attributes and generally a way to identify them uniquely. The rows are divided into fields, which in turn can contain various types of data (numeric, textual, links to images). This type of data is also called "structured".
+  For example, I could have a database that collects user names, their ages and associated tweets, in which case I would have tabular data that includes both text data (names and tweets) and numerical data (age). 
+  
   - text
+  For example, application logs, tweets, textbooks. We can consider textual data all that is made up of characters. Text data can then be inserted in the context of tabular data, as a separate field.
+  
   - categorical
   - numerical
   - audio
   - images
-  - tabular data (extracted from databases)
+
   - time series
 
 
