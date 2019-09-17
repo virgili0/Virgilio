@@ -106,7 +106,7 @@ Image data often has the advantage that with some scraping trick (downloading da
 - **How reliable are the labels?**
 - **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
 - **How has the data been collected and put together? Automatic? Manual? Combination?**
-- **Is this sensitive data? **
+- **Is this sensitive data?**
 - **If so, can they be anonymised?**
 - **Can we achieve our goal with this data after cleaning and processing it?**
 - **Is it reasonable and realistic?**
