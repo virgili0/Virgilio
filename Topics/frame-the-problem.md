@@ -79,7 +79,17 @@ When we look at the data we should ask ourselves the following questions:
   For example, application logs, tweets, textbooks. We can consider textual data all that is made up of characters. Text data can then be inserted in the context of tabular data, as a separate field.
   
   - **categorical:**
+  Categorical data is a subset of textual data: it does not contain information about the language, as a tweet could do, and often it is not even a sentence. For example, they could be "Red" or "Expired" and are considered _labels_ rather than text data.
+  
   - **numerical:**
+  Numerical data is any type of data [calculated from a computer](https://www.pythonforbeginners.com/code/numeric-types-python): Integers, floats, doubles, etc.
+
+They can be continuous (e.g. temperature in degrees) or discrete (evaluation of a product). In the first case, the accuracy of the data measurement determines the type of numerical data used (usually float). 
+Sometimes, to reduce the computational load and simplify the problem, the concept of [discretization] (https://en.wikipedia.org/wiki/Discretization) can be applied to continuous data.
+In the case of discrete data, it is potentially possible to consider them as categorical, in fact they represent a unique value. Attention, however: these discrete data contain the concept of "ordinality", so they are not like saying "Red" and "Green", which are not orderable concepts. It depends on the specific problem whether the discrete numeric data are considered categories or not (attention to ordinality).
+
+
+Translated with www.DeepL.com/Translator
   - **audio:**
   - **images:**
   - **time series:**
