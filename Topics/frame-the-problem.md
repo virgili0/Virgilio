@@ -104,7 +104,10 @@ Time series have the concept of granularity, which is the amount of time between
 for example, we can have daily or annual data, or even a relevation every microsecond.
 
 
-- **Do we know the data is raw (unclean)?**
+- **Do we know the data is raw?**
+
+In general, the data we are confronted with in the real world are hardly ever clean and tidy. There may be a lack of values, they may be deconstructed, they may be superficially collected! They may be of low quality (e.g. an audio file with noise) or have useless information. So generally you always have to think about the raw form in which we have the data, and what cleaning steps will be needed to make it usable by Machine Learning models. This phase (called data cleaning or data preprocessing) is vital during the Data Science process, and is often spent like this [80 percent of a Data Scientist's time](https://www.reddit.com/r/datascience/comments/bupmyf/data_scientists_spend_up_to_80_of_time_on_data/). In the Purgatorio section "Work with data" there will be an entire guide dedicated to data cleaning.
+
 - **Are the data labelled or not?**
 - **If not, Is it possible to label them?**
 - **How reliable are the labels?**
