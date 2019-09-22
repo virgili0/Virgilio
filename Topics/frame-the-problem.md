@@ -133,13 +133,14 @@ In this [article](https://www.kdnuggets.com/2017/06/acquiring-quality-labeled-tr
  you can find 7 additional ideas to lower the cost of your labeling efforts.
 
 - **How reliable are the labels?**
+
 To obtain high performance Machine Learning systems it is clear that large amounts of data are needed. However, it is equally important that the data is correct, especially in supervised learning applications. Even if you have a lot of examples in your dataset, I could do very little to get acceptable performance from the ML models trained on them. The intrinsic noise of the dataset is impossible to eliminate, and will affect both the training phase of the model, both in the phase of predictions of new examples. Entrusting labeling to working groups distributed through the services of large tech vendors requires two conditions in general. 
 
-The first is that the work of labelling is simple: it is rather simple to distinguish between categories of clearly visible animals, or the colors of a dress or simple sounds (if clear labelling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language.
+The first is that the work of labelling is simple: it is rather simple to distinguish between categories of clearly visible animals, or the colors of a dress or simple sounds (if clear labelling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language (for someone who doesn't know the language).
 
 There are some labeling tasks that are simply not obtainable through "crowd-labeling", such as diagnosing medical images, or classifying complex documents, which require a deep knowledge of the domain, and a lot of practical experience. 
 
-- **Is it possible to the data all together (usually companies keep different data sets in different independent "silos")?**
+- **Is it possible to the data all together?**
 - **How has the data been collected and put together? Automatic? Manual? Combination?**
 - **Is this sensitive data?**
 - **If so, can they be anonymised?**
