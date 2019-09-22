@@ -116,7 +116,19 @@ Typically, unlabeled data consists of samples of natural or human-created artifa
 
 Labeled data typically takes a set of unlabeled data and augments each piece of that unlabeled data with some sort of meaningful "tag," "label," or "class" that is somehow informative or desirable to know. For example, labels for the above types of unlabeled data might be whether this photo contains a horse or a cow, which words were uttered in this audio recording, what type of action is being performed in this video, what the topic of this news article is, what the overall sentiment of this tweet is, whether the dot in this x-ray is a tumor, etc.
 
-- **If not, Is it possible to label them?**
+Making Machine Learning models that learn from labelled data means formulating a "supervised" problem, while with unlabeled data the problem is called an "unsupervised" problem. 
+
+- **If they aren't labeled, is it possible to label them?**
+
+The most powerful results of ML applications (vision, language understanding) require huge amounts of labeled data, and that the labeling issue is known as the biggest bottleneck of modern ML applications. How long does it take to manually classify 100,000 documents, even if you just have to choose between "Type A" and "Type B"?
+Labeling is a tiring and often tedious job, and it takes a lot of time to be done well.
+
+Services like AWS [Amazon Mechanical Turk](https://www.mturk.com/) or the [Google counterpart](https://cloud.google.com/data-labeling/docs/) (like many other tech vendors) provide distributed groups of workers with instructions on how to label a dataset. 
+
+There are also free tools ([Annotorius](https://annotorious.github.io/), [LabelMe](http://labelme.csail.mit.edu/Release3.0/), [LabelBox](https://labelbox.com/)) that allow you to label yourself or work with a team. It's time to call your little brother and promise him 1 cookie for every 10 tagged items.
+
+Often labeling a dataset is a complex and expensive issue, and its qualitative success is crucial to the success of the project. 
+
 - **How reliable are the labels?**
 - **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
 - **How has the data been collected and put together? Automatic? Manual? Combination?**
