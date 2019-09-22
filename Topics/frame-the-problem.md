@@ -123,14 +123,23 @@ Making Machine Learning models that learn from labelled data means formulating a
 The most powerful results of ML applications (vision, language understanding) require huge amounts of labeled data, and that the labeling issue is known as the biggest bottleneck of modern ML applications. How long does it take to manually classify 100,000 documents, even if you just have to choose between "Type A" and "Type B"?
 Labeling is a tiring and often tedious job, and it takes a lot of time to be done well.
 
-Services like AWS [Amazon Mechanical Turk](https://www.mturk.com/) or the [Google counterpart](https://cloud.google.com/data-labeling/docs/) (like many other tech vendors) provide distributed groups of workers with instructions on how to label a dataset. 
+Services like AWS [Amazon Mechanical Turk](https://www.mturk.com/) or the Google [AI Platform Data Labeling Service](https://cloud.google.com/data-labeling/docs/) (like many other tech vendors) provide distributed groups of workers with instructions on how to label a dataset. 
 
-There are also free tools ([Annotorius](https://annotorious.github.io/), [LabelMe](http://labelme.csail.mit.edu/Release3.0/), [LabelBox](https://labelbox.com/)) that allow you to label yourself or work with a team. It's time to call your little brother and promise him 1 cookie for every 10 tagged items.
+There are also free tools ([Annotorius](https://annotorious.github.io/), [LabelMe](http://labelme.csail.mit.edu/Release3.0/), [LabelBox](https://labelbox.com/)) that allow you to label yourself or work with a team. It's time to call your little brother and promise him 1 cookie for every 10 tagged examples.
 
 Often labeling a dataset is a complex and expensive issue, and its qualitative success is crucial to the success of the project. 
 
+In this [article](https://www.kdnuggets.com/2017/06/acquiring-quality-labeled-training-data.html)
+ you can find 7 additional ideas to lower the cost of your labeling efforts.
+
 - **How reliable are the labels?**
-- **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
+To obtain high performance Machine Learning systems it is clear that large amounts of data are needed. However, it is equally important that the data is correct, especially in supervised learning applications. Even if you have a lot of examples in your dataset, I could do very little to get acceptable performance from the ML models trained on them. The intrinsic noise of the dataset is impossible to eliminate, and will affect both the training phase of the model, both in the phase of predictions of new examples. Entrusting labeling to working groups distributed through the services of large tech vendors requires two conditions in general. 
+
+The first is that the work of labelling is simple: it is rather simple to distinguish between categories of clearly visible animals, or the colors of a dress or simple sounds (if clear labelling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language.
+
+There are some labeling tasks that are simply not obtainable through "crowd-labeling", such as diagnosing medical images, or classifying complex documents, which require a deep knowledge of the domain, and a lot of practical experience. 
+
+- **Is it possible to the data all together (usually companies keep different data sets in different independent "silos")?**
 - **How has the data been collected and put together? Automatic? Manual? Combination?**
 - **Is this sensitive data?**
 - **If so, can they be anonymised?**
