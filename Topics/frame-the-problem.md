@@ -30,7 +30,7 @@ Let's dive right in!
 
 The process of Data Science, i.e. the extraction of knowledge and decisions from a set of data, is composed of several steps. Simplifying as much as possible, we try to frame the problem we want to solve, then we study the data available, then we create models (Machine Learning models) that are used to make predictions or estimates.
  
-The definition of the problem is the first phase and also guides all the choices of design, implementation and integration that will come later during the project.
+The definition of the problem is the first phase and also guides all the choices of design, implementation and integration that will come later during the project. 
 
 In particular, it is fundamental to classify the type of forecast you want to obtain once you have built the Machine Learning models: what _kind of prediction_ should the system make? 
 Should it predict a number or a label?
@@ -109,6 +109,13 @@ for example, we can have daily or annual data, or even a relevation every micros
 In general, the data we are confronted with in the real world are hardly ever clean and tidy. There may be a lack of values, they may be deconstructed, they may be superficially collected! They may be of low quality (e.g. an audio file with noise) or have useless information. So generally you always have to think about the raw form in which we have the data, and what cleaning steps will be needed to make it usable by Machine Learning models. This phase (called data cleaning or data preprocessing) is vital during the Data Science process, and is often spent like this [80 percent of a Data Scientist's time](https://www.reddit.com/r/datascience/comments/bupmyf/data_scientists_spend_up_to_80_of_time_on_data/). In the Purgatorio section "Work with data" there will be an entire guide dedicated to data cleaning.
 
 - **Are the data labelled or not?**
+
+From this StackOverflow [thread](https://stackoverflow.com/questions/19170603/what-is-the-difference-between-labeled-and-unlabeled-data):
+
+Typically, unlabeled data consists of samples of natural or human-created artifacts that you can obtain relatively easily from the world. Some examples of unlabeled data might include photos, audio recordings, videos, news articles, tweets, x-rays (if you were working on a medical application), etc. There is no "explanation" for each piece of unlabeled data -- it just contains the data, and nothing else.
+
+Labeled data typically takes a set of unlabeled data and augments each piece of that unlabeled data with some sort of meaningful "tag," "label," or "class" that is somehow informative or desirable to know. For example, labels for the above types of unlabeled data might be whether this photo contains a horse or a cow, which words were uttered in this audio recording, what type of action is being performed in this video, what the topic of this news article is, what the overall sentiment of this tweet is, whether the dot in this x-ray is a tumor, etc.
+
 - **If not, Is it possible to label them?**
 - **How reliable are the labels?**
 - **Is it possible to put them all together (usually companies keep different data sets in different independent "silos")?**
