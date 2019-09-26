@@ -232,7 +232,22 @@ Let's start with "how the system will be used".
 
 The questions we have to ask ourselves are:
 - What kind of user will the system use (technical, not technical, belonging to a certain demographic or social group, etc.)?
+
+Will we ourselves be the users? In this case, well commented code and simple documentation should be sufficient.
+If not, is the type of user who will use the system a technician or a non-technician? In the first case you must produce effective documentation that allows the use of the system, while in the second it is preferable to focus on the ease of use of the system, perhaps by building a simple graphical interface.
+
+The important thing is that the system is easy to use, in any case, and the type of target user should guide the choice of how to expose it to the outside world.
+
 - Which characteristics should be preferred (computational speed, flexibility, reusability, precision)?
+
+
+Other relevant questions may be: do future users belong to a certain demographic or social group? Maybe with different cultural differences and habits? Depending on the answer to these questions, the framing of the problem may change (and must change). 
+
+Remember that if you are developing an ML system for a specific purpose (and not just for the sake of learning) the framing of the problem must lead to the design of a system that is useful and used, otherwise you have misused your time!
+
+If the demographic group that should use the system is not interested in it (due to habit, culture or difficulties in using it) it will simply not use it.
+
+
 - How important is the use of the system by the user (vital, accessory, temporary, perpetual)?
 - How much will the system be used (one-off, a few times a day, thousands of times a second)?
 - How do I evaluate user feedback (written reports, numerical evaluations, usage statistics)?
