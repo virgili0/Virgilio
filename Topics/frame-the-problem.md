@@ -172,13 +172,22 @@ It is vital to understand two things:
 Let's start with "how the system will be used".
 
 The questions we have to ask ourselves are:
-- What kind of user will the system use (technical, not technical, belonging to a certain demographic or social group, etc.)?
-- Which characteristics should be preferred (computational speed, flexibility, reusability, precision)?
-- How important is the use of the system by the user (vital, accessory, temporary, perpetual)?
-- How much will the system be used (one-off, a few times a day, thousands of times a second)?
-- How do I evaluate user feedback (written reports, numerical evaluations, usage statistics)?
-- If the user of the system is another system (machine, service, application), how do I ensure feedback?
-- How long does the system have to be operational?
+- **Which characteristics should be preferred?**
+
+As in any software project, or in general engineering projects, in Data Science projects tradeoffs are extremely common. Depending on the type of requirement that our project has, we should ask ourselves what are its essential characteristics: should the system always remain online? or is it used once in a while? should the system be quick to calculate, or should it be very precise? 
+In other words, we need to make sure that the most important features of the system drive its design and time management on the project. For example, an intelligent surveillance camera is important that it detects and recognizes each subject in its frame, so we will give more importance to its accuracy than to its speed of calculation. On the contrary, for an autonomous trading system that has to make decisions in the order of milliseconds, to buy or sell goods, it is vital that the predictions of the Machine Learning model are very fast, perhaps at the expense of the accuracy of the forecast.
+
+- **How important is the use of the system by the user (vital, accessory, temporary, perpetual)?**
+
+This is a question that is often underestimated by those who develop a system: it is taken for granted that the things we do with our hands are always indispensable. But this is not always the case, especially in a world where requirements change rapidly and prediction models deteriorate quickly. We should always ask ourselves: is the use of the system vital for the user? For example, if it is the system that decides whether to inject medicines into a patient, of course, it is. In this case, we must spend more energy to make the system robust and constantly monitored, in order to avoid disasters. On the contrary, if my favorite application does not succeed in suggesting the best combination of food and drink, it is certainly a minor problem. 
+Another aspect to consider is: will the system be used for a predetermined period of time, or will it be used in a perpetual way? In the first case perhaps it would be better to focus on the development of a well-made application from the beginning, while in the second case you can choose a more incremental approach. 
+In practice, precisely because of the marked experimentation of Data Science, the incremental approach is often recommended.
+
+- **How much will the system be used (one-off, a few times a day, thousands of times a second)?**
+
+- **How do I evaluate user feedback (written reports, numerical evaluations, usage statistics)?**
+- **If the user of the system is another system (machine, service, application), how do I ensure feedback?**
+- **How long does the system have to be operational?**
 
 These kind of questions help us to define the how the system is used in a real world scenario, which is fundamental in the design choices that will be made during all phases of research and development.
 
@@ -186,9 +195,9 @@ Now let's ask ourselves "how the system will be integrated".
 
 The questions to be asked here are the classic ones of systems integration, plus some others:
 
-- Which systems will integrate with the existing system?
-- How is the system served (desktop application, mobile application, API Rest, remote calls)?
-- If offered as a service (as is common practice in microservices architectures), where is it hosted (local machine, Cloud provider)?
+- **Which systems will integrate with the existing system?
+- **How is the system served (desktop application, mobile application, API Rest, remote calls)?
+- **If offered as a service (as is common practice in microservices architectures), where is it hosted (local machine, Cloud provider)?
 - If offered as a service, how do I control the usage of the system  (access tokens, usage limits, permissions at various levels)?
 - How should the system scale (load balancing, data partitioning, distribution of ML models, parameters)?
 - Are there any particular constraints (platform migration, budget constraints, privacy considerations and regulation)?
