@@ -43,7 +43,7 @@ A supervised problem is a problem in which the data we want to learn from are "l
 
 By "showing" a Machine Learning algorithm so many examples, we hope that it will be able to generalize to new cases never seen before and predict the right label (not necessarily a specific class, it could even be a number).
 
-An unsupervised problem is without these labels, and our "learning from data" is usually about finding similarities between the various elements of the dataset and grouping them (clustering technique).
+An unsupervised problem is without these labels, and our "learning from data" is usually about finding similarities between the various elements of the dataset and grouping them (clustering and other unsupervised learning techniques).
 
 The type of problem we will focus on in the Purgatory guides is the "supervised" type, which are the most common problems and those faced by neural networks (very powerful and flexible Machine Learning algorithms).
 
@@ -84,8 +84,6 @@ When we look at the data we should ask ourselves the following questions:
   - **numerical:**
   Numerical data is any type of data [calculated from a computer](https://www.pythonforbeginners.com/code/numeric-types-python): Integers, floats, doubles, etc.
 They can be continuous (e.g. temperature in degrees) or discrete (evaluation of a product). In the first case, the accuracy of the data measurement determines the type of numerical data used (usually float). 
-Sometimes, to reduce the computational load and simplify the problem, the concept of [discretization](https://en.wikipedia.org/wiki/Discretization) can be applied to continuous data.
-In the case of discrete data, it is potentially possible to consider them as categorical, in fact, they represent a unique value. Attention, however: these discrete data contain the concept of "ordinality", so they are not like saying "Red" and "Green", which are not orderable concepts. It depends on the specific problem whether the discrete numeric data are considered categories or not (attention to ordinality).
 
   - **audio:**
   Audio files can be of [various formats](https://www.makeuseof.com/tag/audio-file-format-right-needs/), which greatly influence the resolution (and therefore the amount of information they contain). They can be phone recorded conversations, for example, customer care, or environmental sounds, or even animal sounds. 
@@ -99,13 +97,15 @@ Image data often has the advantage that with some scraping trick (downloading da
 Videos are a fairly complex format to handle and extremely heavy from a storage point of view, so it is recommended not to start from this type of data if you are a beginner. 
   
   - **time series:**
+  Time-series is a collection of data about events in time.
   This kind of data consists of historical series, such as the series of surveys of a sensor, or the history of the interactions of a social user. This type of data is useful to predict future behavior based on previous observations, such as predict whether a machine is about to break or if a user will buy a certain product.
 Time series have the concept of granularity, which is the amount of time between measurements:
 for example, we can have daily or annual data, or even a record every microsecond.
 
 
-- **Do we know the data is raw?**
+- **Do we know the data is raw or unclean?**
 
+By raw we mean the data as we come into possession of it. These can be clean and well-structured, or dirty and to be cleaned. 
 In general, real-world data is hardly ever clean and tidy. There may be a lack of values, they may be unstructured, they may be superficially collected! They may be of low quality (e.g. an audio file with noise) or have useless information. So generally you always have to think about the raw form in which we have the data, and what cleaning steps will be needed to make it usable by Machine Learning models. This phase (called data cleaning or data preprocessing) is vital during the Data Science process, and is often spent like this [80 percent of a Data Scientist's time](https://www.reddit.com/r/datascience/comments/bupmyf/data_scientists_spend_up_to_80_of_time_on_data/). In the Purgatorio section "Work with data" there will be an entire guide dedicated to data cleaning.
 
 - **Are the data labeled or not?**
