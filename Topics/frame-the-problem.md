@@ -218,59 +218,6 @@ Highly recommended reading the [original paper](https://community.mis.temple.edu
 
 [This](https://www.youtube.com/watch?v=Jn8c3oe_GWU) is a very good example of framing an NLP (Natural Language Processing) project. Take a look at the entire Kaggle youtube channel, there's a lot of learning material!
 
-### Usage and Integration
-
-Once you have decided **what** the project will consist of, what the limits of the system will be and what data it will be based on, it is time to think about *how it will be implemented and integrated* into existing systems. 
-
-In fact, it is extremely rare for a Machine Learning system to stand alone, much more likely it is designed to act together with other systems (not necessarily "intelligent", but also more classic as a management system or a mobile application). 
-
-It is vital to understand two things:
-- How the system will be used
-- How the system will be integrated
-
-Let's start with "how the system will be used".
-
-The questions we have to ask ourselves are:
-- What kind of user will the system use (technical, not technical, belonging to a certain demographic or social group, etc.)?
-
-Will we ourselves be the users? In this case, well commented code and simple documentation should be sufficient.
-If not, is the type of user who will use the system a technician or a non-technician? In the first case you must produce effective documentation that allows the use of the system, while in the second it is preferable to focus on the ease of use of the system, perhaps by building a simple graphical interface.
-
-The important thing is that the system is easy to use, in any case, and the type of target user should guide the choice of how to expose it to the outside world.
-
-- Which characteristics should be preferred (computational speed, flexibility, reusability, precision)?
-
-
-Other relevant questions may be: do future users belong to a certain demographic or social group? Maybe with different cultural differences and habits? Depending on the answer to these questions, the framing of the problem may change (and must change). 
-
-Remember that if you are developing an ML system for a specific purpose (and not just for the sake of learning) the framing of the problem must lead to the design of a system that is useful and used, otherwise you have misused your time!
-
-If the demographic group that should use the system is not interested in it (due to habit, culture or difficulties in using it) it will simply not use it.
-
-
-- How important is the use of the system by the user (vital, accessory, temporary, perpetual)?
-- How much will the system be used (one-off, a few times a day, thousands of times a second)?
-- How do I evaluate user feedback (written reports, numerical evaluations, usage statistics)?
-- If the user of the system is another system (machine, service, application), how do I ensure feedback?
-- How long does the system have to be operational?
-
-These kinds of questions help us to define how the system is used in a real-world scenario, which is fundamental in the design choices that will be made during all phases of research and development.
-
-Now let's ask ourselves "how the system will be integrated".
-
-The questions to be asked here are the classic ones of systems integration, plus some others:
-
-- Which systems will integrate with the existing system?
-- How is the system served (desktop application, mobile application, API Rest, remote calls)?
-- If offered as a service (as is common practice in microservices architectures), where is it hosted (local machine, Cloud provider)?
-- If offered as a service, how do I control the usage of the system  (access tokens, usage limits, permissions at various levels)?
-- How should the system scale (load balancing, data partitioning, distribution of ML models, parameters)?
-- Are there any particular constraints (platform migration, budget constraints, privacy considerations, and regulation)?
-- How much automation can be introduced and at what stages (research, development, deployment)?
-
-These are the kind of questions to be answered in order to have a complete picture of the future use and integration of the system. 
-
-In the next guide, we will see other key questions to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
 
 --------------------------------------------------
 
