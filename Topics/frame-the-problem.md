@@ -23,7 +23,7 @@ The previous Purgatorio's guides.
 - [Recap of ML systems](#Recap-of-ML-systems)
 - [Understand the data](#Understand-the-data)
 - [Set objectives and scope](#Set-objectives-and-scope)
-
+- [Conclusions](#Conclusions)
 Let's dive right in!
 
 ### Recap of ML systems
@@ -218,6 +218,9 @@ Highly recommended reading the [original paper](https://community.mis.temple.edu
 
 [This](https://www.youtube.com/watch?v=Jn8c3oe_GWU) is a very good example of framing an NLP (Natural Language Processing) project. Take a look at the entire Kaggle youtube channel, there's a lot of learning material!
 
+---
+
+# Conclusions
 
 In general it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives and the most important characteristics for the system. 
 
@@ -225,7 +228,7 @@ This list is not exhaustive, and as you get a question in your head you feel fre
 
 A Virgilio member will take over your request and enrich this guide with your contribution.
 
-**In the next guide [usage and integration](usage-and-integration.md) we will see other key questions about the usage of the system, its integration, and more!**
+**In the next guide [usage and integration](usage-and-integration.md) we will see other key questions we have to think about, like the usage of the system, its integration, and more!**
 
 --------------------------------------------------
 
