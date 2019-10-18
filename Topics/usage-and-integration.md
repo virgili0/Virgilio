@@ -1,4 +1,22 @@
-### Usage and Integration
+# Usage and Integration
+
+# What you will learn 
+
+
+## Prerequisites
+The previous Purgatorio's guides.
+
+## Time to complete
+10 minutes.
+
+# Index
+- [Usage](#Usage)
+- [Integration](#Integration)
+- [Conclusions](#Conclusions)
+Let's dive right in!
+
+---
+
 
 Once you have decided **what** the project will consist of, what the limits of the system will be and what data it will be based on, it is time to think about *how it will be implemented and integrated* into existing systems. 
 
@@ -9,6 +27,9 @@ It is vital to understand two things:
 - How the system will be integrated 
 
 Let's start with "how the system will be used".
+
+
+### Usage
 
 The questions we have to ask ourselves are:
 
@@ -50,6 +71,8 @@ In any case, these feedbacks are very useful to understand the direction to take
 These kind of questions help us to define the how the system is used in a real world scenario, which is fundamental in the design choices that will be made during all phases of research and development.
 
 Now let's ask ourselves "how the system will be integrated".
+
+### Integration
 
 These questions are not explored in depth, because the role of the Data Scientist is not to integrate systems, or to make them secure, or to monitor the proper functioning of the hardware side.
 
