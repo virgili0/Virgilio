@@ -21,8 +21,7 @@ The previous Purgatorio's guides.
 # Index
 - [Recap of ML systems](#Recap-of-ML-systems)
 - [Understand the data](#Understand-the-data)
-- [Set objectives and scope](#Set-objective-and-scope)
-- [Usage and Integration](#Integration)
+- [Set objectives and scope](#Set-objectives-and-scope)
 
 Let's dive right in!
 
