@@ -2,21 +2,22 @@
 
 # What you will learn 
 In this guide, we try to figure out how to frame the kind of problem we want to solve and design it. 
-We will do this by learning to ask the right questions. 
+
+In particular, we will see what questions to ask ourselves when framing a problem on the basis of the data available to us, and then how to identify the objective.
 
 This guide will provide you with many examples of "key questions", which makes sense to ask yourself every time you frame a new data problem. 
 
 These lists of questions are **not exhaustive**, and we welcome Pull Requests that add significantly valid ones.
 
-Every time you start a new project Virgilio recommends that you write a document with the questions and answers explored in this guide, so you always have *clear objectives and characteristics* of the project, as well as being able to *share it easily* with others.
+**Every time you start a new project Virgilio recommends that you write a document with the questions and answers explored in this guide, so you always have *clear objectives and characteristics* of the project, as well as being able to *share it easily* with others.**
 
-**Do not underestimate this phase at all**, it is perhaps the most important of any project that wants to achieve success!
+_Do not underestimate this phase at all_, it is perhaps the most important of any project that wants to achieve success!
 
 ## Prerequisites
 The previous Purgatorio's guides.
 
 ## Time to complete
-20 minutes.
+10 minutes.
 
 # Index
 - [Recap of ML systems](#Recap-of-ML-systems)
@@ -224,7 +225,8 @@ This list is not exhaustive, and as you get a question in your head you feel fre
 
 A Virgilio member will take over your request and enrich this guide with your contribution.
 
-In the next guide we will see other key questions about the usage of the system, its integration, and more!
+**In the next guide ([usage and integration](Topics/usage-and-integration.md) we will see other key questions about the usage of the system, its integration, and more!**
+
 --------------------------------------------------
 
 _Written by [clone95](https://github.com/clone95)_ 
