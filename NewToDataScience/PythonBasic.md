@@ -170,13 +170,13 @@ Go ahead with the [**Chapter 6**](https://automatetheboringstuff.com/chapter6/) 
 Exercises [here](https://www.w3resource.com/python-exercises/string/).
 
 ## Next Steps
-Hey you! Now, if you followed with attention my guide, you should be comfortable with Python basics, and already able to create a lot of things! But without some more practice with concrete small projects, you'll forget rapidly what you've learned.\
+Hey you! Now, if you followed with attention the guide, you should be comfortable with Python basics, and already able to create a lot of things! But without some more practice with concrete small projects, you'll forget rapidly what you've learned.\
 The thing I suggest you is to realize some small projects.\
 [Here](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/) and [here](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/) you find a lot of project ideas.\
 Another nice way to improve your problem-solving and Python coding skill is to tackle _Coding Challenges_. They put you in a variety of situations, with small problems that require your reasoning about the Python way to solve it. You can find a lot of coding challenges websites, but the most complete, well built and rich of users (and so, comments, solutions, troubleshooting) are [Codefights](https://app.codesignal.com/login?redirect=/challenges/page/1) and [HackerRank](https://www.hackerrank.com/).\
 
 Now that you're an apprentice with Python, you're a real Slytherin!\
- You can take now the Advanced Python guide. 
+ 
 
 
 ----
