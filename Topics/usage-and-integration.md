@@ -1,4 +1,25 @@
-### Usage and Integration
+# Usage and Integration
+
+# What you will learn 
+
+In this guide we see which are the key questions to ask when framing a problem of Data Science, regarding the use of the final system and its integration with existing systems.
+
+These lists of questions are **not exhaustive**, and we welcome Pull Requests that add significantly valid ones.
+
+**Every time you start a new project Virgilio recommends that you write a document with the questions and answers explored in this guide, so you always have *clear objectives and characteristics* of the project, as well as being able to *share it easily* with others.**
+
+_Do not underestimate this phase at all_, it is perhaps the most important of any project that wants to achieve success!
+
+## Prerequisites
+The previous Purgatorio's guides.
+
+## Time to complete
+10 minutes.
+
+# Index
+- [Usage](#Usage)
+- [Integration](#Integration)
+- [Conclusions](#Conclusions)
 
 Once you have decided **what** the project will consist of, what the limits of the system will be and what data it will be based on, it is time to think about *how it will be implemented and integrated* into existing systems. 
 
@@ -9,6 +30,9 @@ It is vital to understand two things:
 - How the system will be integrated 
 
 Let's start with "how the system will be used".
+
+### Usage
+
 
 The questions we have to ask ourselves are:
 
@@ -45,9 +69,9 @@ There are several ways to do this: you can draw up usage statistics, or you can 
 
 In any case, these feedbacks are very useful to understand the direction to take to improve the ML models that make predictions, and to ensure that they continue to work on a regular basis.
 
----
-
 These kind of questions help us to define the how the system is used in a real world scenario, which is fundamental in the design choices that will be made during all phases of research and development.
+
+### Integration
 
 Now let's ask ourselves "how the system will be integrated".
 
@@ -68,7 +92,7 @@ The questions to be asked here are the classic ones of systems integration, plus
 These are the kind of questions to be answered in order to have a complete picture of the future use and integration of the system. 
 In this guide we have listed the key questions to ask each time you start a new Data Science project. 
 
----
+### Conclusions
 
 In general it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives and the most important characteristics for the system. 
 
