@@ -1,7 +1,11 @@
 # Usage and Integration
 
 # What you will learn 
+In this guide you will learn which are the key questions from ports during the framing of the problem, regarding the use that users will make of the system and its integration with existing systems. 
 
+Users are not necessarily consumers, but any human (or other system) who will benefit from the developed system. 
+
+As usual, feel free to contribute further advice by making a Pull Request.
 
 ## Prerequisites
 The previous Purgatorio's guides.
@@ -13,6 +17,7 @@ The previous Purgatorio's guides.
 - [Usage](#Usage)
 - [Integration](#Integration)
 - [Conclusions](#Conclusions)
+
 Let's dive right in!
 
 ---
@@ -95,11 +100,7 @@ In this guide we have listed the key questions to ask each time you start a new 
 
 In general it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives and the most important characteristics for the system. 
 
-This list is not exhaustive, and as you get a question in your head you feel free to pull a request to this file. 
-
-A Virgilio member will take over your request and enrich this guide with your contribution.
-
-In the next guide we will see other key questions (more oriented to understand how we want to build the machine learning model that makes predictions) to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
+In the next guide ([project setup](project-setup.md)) we will see other key questions to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
 
 --------------------------------------------------
 
