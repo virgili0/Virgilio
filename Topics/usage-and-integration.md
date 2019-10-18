@@ -1,27 +1,4 @@
-# Usage and Integration
-
-# What you will learn 
-In this guide you will learn which are the key questions from ports during the framing of the problem, regarding the use that users will make of the system and its integration with existing systems. 
-
-Users are not necessarily consumers, but any human (or other system) who will benefit from the developed system. 
-
-As usual, feel free to contribute further advice by making a Pull Request.
-
-## Prerequisites
-The previous Purgatorio's guides.
-
-## Time to complete
-10 minutes.
-
-# Index
-- [Usage](#Usage)
-- [Integration](#Integration)
-- [Conclusions](#Conclusions)
-
-Let's dive right in!
-
----
-
+### Usage and Integration
 
 Once you have decided **what** the project will consist of, what the limits of the system will be and what data it will be based on, it is time to think about *how it will be implemented and integrated* into existing systems. 
 
@@ -32,9 +9,6 @@ It is vital to understand two things:
 - How the system will be integrated 
 
 Let's start with "how the system will be used".
-
-
-### Usage
 
 The questions we have to ask ourselves are:
 
@@ -77,8 +51,6 @@ These kind of questions help us to define the how the system is used in a real w
 
 Now let's ask ourselves "how the system will be integrated".
 
-### Integration
-
 These questions are not explored in depth, because the role of the Data Scientist is not to integrate systems, or to make them secure, or to monitor the proper functioning of the hardware side.
 
 However, it is useful to have at least one awareness of the challenges that these issues pose during the production of a Machine Learning system. 
@@ -90,7 +62,7 @@ The questions to be asked here are the classic ones of systems integration, plus
 - **If offered as a service (as is common practice in microservices architectures), where is it hosted (local machine, Cloud provider)?**
 - **If offered as a service, how do I control the usage of the system  (access tokens, usage limits, permissions at various levels)?**
 - **How should the system scale (load balancing, data partitioning, distribution of ML models, parameters)?**
-- **Are there any particular constraints (platform migration, budget constraints, privacy considerations and regulation)?**
+- **Are there any particular constraints (platform migration, budget constraints, security, privacy considerations and regulation)?**
 - **How much automation can be introduced and at what stages (research, development, deployment)?**
 
 These are the kind of questions to be answered in order to have a complete picture of the future use and integration of the system. 
@@ -100,7 +72,11 @@ In this guide we have listed the key questions to ask each time you start a new 
 
 In general it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives and the most important characteristics for the system. 
 
-In the next guide ([project setup](project-setup.md)) we will see other key questions to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
+This list is not exhaustive, and as you get a question in your head you feel free to pull a request to this file. 
+
+A Virgilio member will take over your request and enrich this guide with your contribution.
+
+In the next guide we will see other key questions (more oriented to understand how we want to build the machine learning model that makes predictions) to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
 
 --------------------------------------------------
 
