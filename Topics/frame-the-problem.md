@@ -225,7 +225,7 @@ This list is not exhaustive, and as you get a question in your head you feel fre
 
 A Virgilio member will take over your request and enrich this guide with your contribution.
 
-**In the next guide ([usage and integration](Topics/usage-and-integration.md) we will see other key questions about the usage of the system, its integration, and more!**
+**In the next guide [usage and integration](usage-and-integration.md) we will see other key questions about the usage of the system, its integration, and more!**
 
 --------------------------------------------------
 
