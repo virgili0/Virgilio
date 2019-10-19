@@ -10,13 +10,13 @@ All the previous Purgatorio guides.
 10 minutes.
 
 # Index
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Hunting for Information](#Hunting-for-Information)
+- [Building a Knowledge Tree](#Building-a-Knowledge-Tree)
+- [Choosing a Project Structure](#Choosing-a-Project-Structure)
+- [Reproducibility](#Reproducibility)
+- [Versioning](#Versioning)
+- [Documentation](#Documentation)
+- [Prepare to Fail](#Prepare-to-Fail)
 
 Let's dive right in!
  
