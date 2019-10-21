@@ -32,6 +32,9 @@ A vital phase when starting a project is to search for information that can help
 - Research Papers
 - ...
 
+This guide will not teach you how to use [Google](www.google.it), hopefully you will already know if you are reading these lines :-).
+But there are a few tips that can come in handy when you start "amassing" knowledge that will then come in handy.
+
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
 
