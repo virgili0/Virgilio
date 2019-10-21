@@ -1,6 +1,9 @@
 # Starting a Data Project
 
 # What you will learn 
+In this guide you'll learn to prepare yourself to start the project. 
+
+This will consist of building the project structure, looking for sources that can help you solve the problem, build good documentation and more!
 
 
 ## Prerequisites
@@ -20,6 +23,14 @@ All the previous Purgatorio guides.
 
 Let's dive right in!
  
+ 
+### Hunting for Information
+A vital phase when starting a project is to search for information that can help you. These can be of any kind:
+- Tutorials
+- Documentation
+- Existing projects
+- Research Papers
+- ...
 
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
