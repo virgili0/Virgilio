@@ -36,7 +36,7 @@ This guide will not teach you how to use [Google](https://www.google.com/), hope
 But there are a few tips that can come in handy when you start "amassing" knowledge that will then come in handy.
 
 #### Understand what you're looking for
-The first thing to do when dealing with a new problem is to make sure you're looking for the right things. Are you sure the problem is called that for example? Image segmentation is different from image classification! This Google guide](https://developers.google.com/machine-learning/problem-framing/cases) can help you be sure of the name of your problem.
+The first thing to do when dealing with a new problem is to make sure you're looking for the right things. Are you sure the problem is called that for example? Image segmentation is different from image classification! [This Google guide](https://developers.google.com/machine-learning/problem-framing/cases) can help you be sure of the name of your problem.
 
 This may seem trivial, but many useful resources are not found because the correct keywords are not typed into the search engine.
 
@@ -69,6 +69,8 @@ Some subreddits you can subscribe to are:
 - [r/LearnDataScience](https://www.reddit.com/r/learndatascience/)
 
 ### Building a Knowledge Tree
+
+
 ### Choosing a Project Structure
 ### Reproducibility
 ### Versioning
