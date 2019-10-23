@@ -70,6 +70,13 @@ Some subreddits you can subscribe to are:
 
 ### Building a Knowledge Tree
 
+Given the speed of scientific research in the world of data, every day a new approach to your problem could be discovered that proposes a much better solution than the previous one. The only way to get up to date is to read research papers! 
+Reading papers is difficult though, they are often full of mathematical, and statistical concepts, with complex theories. The important thing, however, is to be able to understand the concepts, and maybe try to apply them to your own problem. 
+
+Also often remember that Paper With Code collects the code to implement any paper! Often already after a couple of days from the release there is code in various frameworks, ready to be tried on your problem. 
+
+However, when you are confronted for the first time with a new problem you do not know which paper to start with, also because usually the papers refer to all previous papers that have tried to solve the same problem, or that 
+
 
 ### Choosing a Project Structure
 ### Reproducibility
