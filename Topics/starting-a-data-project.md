@@ -68,15 +68,34 @@ Some subreddits you can subscribe to are:
 - [r/DataScience](https://www.reddit.com/r/datascience/)
 - [r/LearnDataScience](https://www.reddit.com/r/learndatascience/)
 
-### Building a Knowledge Tree
+#### Building a Knowledge Tree
 
 Given the speed of scientific research in the world of data, every day a new approach to your problem could be discovered that proposes a much better solution than the previous one. The only way to get up to date is to read research papers! 
 Reading papers is difficult though, they are often full of mathematical, and statistical concepts, with complex theories. The important thing, however, is to be able to understand the concepts, and maybe try to apply them to your own problem. 
 
-Also often remember that Paper With Code collects the code to implement any paper! Often already after a couple of days from the release there is code in various frameworks, ready to be tried on your problem. 
+Also often remember that Paper With Code collects the code to implement any paper! Often already after a couple of days from the release there is code available in various frameworks, ready to be tried on your problem. 
 
-However, when you are confronted for the first time with a new problem you do not know which paper to start with, also because usually the papers refer to all previous papers that have tried to solve the same problem, or that 
+However, when you are confronted for the first time with a new problem _you do not know which paper to start with_, also because usually the papers refer to all previous papers that have tried to solve the same problem, and assume that the reader has some kind of knowledge about the problem.
 
+So what to do?
+
+Use the **Papers Tree** strategy:
+
+- Find the last survey paper about the sub-field of Data Science you're trying to solve 
+- Read carefully this paper, and understand which are the foundations and try to figure out which are the most important papers the sub-field is based on. Usually the history of the field is covered, citing the most important papers, and this gives you an overview of which were the important steps of the research, up to the state of the art in the approach to the problem.
+
+Following the example above, this paper -> [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032) contains a detailed map of the most important papers on convolutional networks (neural networks that work well with images and videos) and their evolutions, up to the most advanced architectures. 
+
+Now you just have to look for the most important (or interesting) papers mentioned, organized is a time-aware tree!
+
+A good practice is to use [Zotero](https://www.zotero.org/), a document manager that allows you to keep track of all your research.
+
+You can then repeat this process in a more specific way, for example by looking for a survey paper on convolutional networks applied to the diagnosis of medical images. 
+
+#### Warning
+Before reading any paper [**read this!**](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf).
+
+It's a paper that explains how to read a paper. Yes, we at Virgilio like recursion.
 
 ### Choosing a Project Structure
 ### Reproducibility
