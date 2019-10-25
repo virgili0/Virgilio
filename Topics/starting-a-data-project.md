@@ -3,7 +3,7 @@
 # What you will learn 
 In this guide, you'll learn to prepare yourself to start the project. 
 
-This will consist of building the project structure, looking for sources that can help you solve the problem, build good documentation and more!
+This will consist of looking for sources that can help you solve the problem, buildinghe project structure, , build good documentation, secure your code, our data and more!
 
 
 ## Prerequisites
