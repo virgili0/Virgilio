@@ -3,7 +3,7 @@
 # What you will learn 
 In this guide, you'll learn to prepare yourself to start the project. 
 
-This will consist of looking for sources that can help you solve the problem, buildinghe project structure, , build good documentation, secure your code, our data and more!
+This will consist of learning how to look for sources that can help you solve the problem, building the project structure, build good documentation, secure your code, our data and more!
 
 
 ## Prerequisites
@@ -121,14 +121,13 @@ To create the project skeleton just install the package:
 pip install cookiecutter
 ```
 
-
-and then use
+and then use:
 
 ```
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 ```
 
-You can modify the template according to your needs, just clone the repo, modify it and then use
+You can customize the template according to your needs, just clone the repo, modify it and then use:
 
 ```
 cookiecutter https://github.com/...... your repo .....
