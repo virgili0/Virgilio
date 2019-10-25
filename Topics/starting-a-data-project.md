@@ -59,7 +59,7 @@ Join communities of people interested in the topic (e.g. [Reddit](www.reddit.com
 
 Try to form specific, well-written questions, to minimize the time used by the respondent. For example, the question "how do I analyze a time series?" is too general, and a short Google search is all it takes to get the answer. 
 
-Instead, a question like "to analyze a time series and train a model that preaches 2 steps forward in the future, is it better to approach X or approach Y?".
+Instead, a question like "to analyze a time series and train a model that predicts 2 steps forward in the future, is it better to approach X or approach Y?".
 
 If the questions are too general or show laziness they'll likely remain unanswered...
 
