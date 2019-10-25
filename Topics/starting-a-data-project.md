@@ -34,7 +34,7 @@ A vital phase when starting a project is to search for information that can help
 
 This guide will not teach you how to use [Google](https://www.google.com/), because you will already know if you are reading these lines :-). 
 
-By the way, probably not every knows about [**these Google tricks**](https://smallbiztrends.com/2019/03/google-tricks.html)...
+By the way, probably not everyone knows about [**these Google tricks**](https://smallbiztrends.com/2019/03/google-tricks.html)...
 
 But there are a few tips that can come in handy when you start "amassing" knowledge that will then come in handy.
 
@@ -140,6 +140,10 @@ Cookiecutter projects have the following structure:
 
 [Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
+Another important issue with regard to the overall order of the project and the management of its complexity is the management of the data and metadata associated with them. 
+
+[**This awesome cheatsheet**](https://www.axiomdatascience.com/best-practices/DataManagementCheatSheet.html) contains everything you need to know about it: keep it under your pillow!
+
 ### Reproducibility
 
 Why are we talking about [**reproducibility**](https://en.wikipedia.org/wiki/Reproducibility)? 
@@ -164,7 +168,7 @@ Reproducibility has a number of indirect advantages, in addition to being sure t
 - Reproducible design is easier to document
 - Allows you to take over the project after months or years, and be sure to get the most out of it
 
-Here you can find articles and papers that explain you how to ensure an high reproducility across all the phases of the project:
+Here you can find articles and papers that explain to you how to ensure a high reproducibility across all the phases of the project:
 
 - [Reproducibility in Science](https://ropensci.github.io/reproducibility-guide/)
 - [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/ICMLws09.pdf)
@@ -177,11 +181,52 @@ Once you've walked through the above resources, you'll be equipped with best pra
 **Especially, you'll be grateful to yourself!!**
 
 ### Versioning
+
+In order to make reproducible projects, and also for peace in the heart of every programmer, learn to use [**Git**](https://git-scm.com/)!
+
+Git is a versioning system that allows you to always have under control every change in your code, be able to go back, and be sure that your code will never be lost!
+
+Git is defined as **Distributed Version Control System**: What does it mean?
+
+From [this article](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/):
+
+- Control System: This basically means that Git is a content tracker. So Git can be used to store content — it is mostly used to store code due to the other features it provides.
+
+- Version Control System: The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges, which I will be covering later.
+
+- Distributed Version Control System: Git has a remote repository that is stored in a server and a local repository that is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer. I will explain the concept of remote and local repositories later in this article.
+
+_Any existing software project that is not under version control is considered a dead project, and the responsible developers are considered crazy._
+
+Data Science projects (which make heavy use of software) are no different, indeed! 
+
+They also have the _additional problem of data versioning_, which is the raw material on which you work most. 
+
+Always having the versions of the data, from raw (just collected) to clean, keeping every intermediate processing phase, is perhaps the most important [best practice](https://medium.com/thelaunchpad/retracing-your-steps-in-machine-learning-ml-versioning-74d19a66bd08) when doing a Data Science project.
+
+[**Here**](https://rogerdudler.github.io/git-guide/index.html) you can find a simple guide to Git. Learn it, it's freaking worth (and necessary).
+
 ### Documentation
+
+Like any project, documenting the work done is fundamental to the success of the project. 
+
+We don't need to list the benefits that good documentation brings to a project, so we immediately understand what are the best practices to keep in mind when we produce documentation for our projects.
+
+If you still want to learn more, read [this article](https://towardsdatascience.com/why-you-should-document-your-work-as-a-data-scientist-a265af8a373?gi=bc5bae43230e) and [this other](https://hackernoon.com/why-you-should-document-your-self-documenting-code-1105a8a6852e).
+
+[**This guide**](https://managing-qualitative-data.org/modules/2/a/) explains in detail how to document data collection and its organization.
+
+Read also [Ten simple rules for documenting scientific software](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6301674/).
+
+You can choose among different ways to document your project, but Virgilio recommends you to use [Sphinx](http://www.sphinx-doc.org/en/master/), the official Python automated docs library. 
+
+Remember that documenting your code and project steps it's **NEVER wasted time**.
 
 ### Conclusions
 
-### Further reading
+After reading this guide and the resources it contains, you should be equipped with all the necessary best practices when starting a new Data Science project. 
+
+In the next sections of Purgatorio you will begin to put these practices into practice, and you will see how grateful you are to yourself! 
 
 ----
 Written by [_clone95_](https://github.com/clone95)
