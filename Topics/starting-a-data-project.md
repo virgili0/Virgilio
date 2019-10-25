@@ -109,7 +109,21 @@ Well organized code tends to be self-documenting in that the organization itself
 
 But the first person to thank the ordered project structure is you! When we look at the code we wrote months ago, we often don't remember anything! 
 
-> "Mmmm... I don't remember if the good file was analysis.py, analysis_final.py, analysis_1.py"
+> "Mmmm... I don't remember if the good file was analysis.py, analysis_final.py, analysis_1.py" :-)
+
+For these reasons, good people have developed a fantastic project, [**Cookiecutter**](https://drivendata.github.io/cookiecutter-data-science/), which wants to standardize the structure of projects by providing a sensible and flexible template. 
+
+To create the project skeleton just install the package:
+> pip install cookiecutter
+
+and then use
+> cookiecutter https://github.com/drivendata/cookiecutter-data-science
+
+You can modify the template according to your needs, just clone the repo, modify it and then use
+> cookiecutter https://github.com/...... your repo .....
+
+
+![Figure 1-1](cookiecutter.png "1") 
 
 
 ### Reproducibility
