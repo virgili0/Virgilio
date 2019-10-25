@@ -131,9 +131,12 @@ You can modify the template according to your needs, just clone the repo, modify
 cookiecutter https://github.com/...... your repo .....
 ```
 
+Cookiecutter projects have the following structure:
+
 
 ![Figure 1-1](cookiecutter.png "1") 
 
+[Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
 ### Reproducibility
 ### Versioning
