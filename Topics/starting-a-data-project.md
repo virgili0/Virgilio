@@ -153,6 +153,26 @@ If you’re the only person in the world who can achieve a particular result, ot
 
 It is reckless and irresponsible to build a product or theory on a singular unconfirmed anecdote, and if you present anecdote as a reliable phenomenon, it can consume time and resources that would otherwise be spent on actual productive work.
 
+Reproducibility has a number of indirect advantages, in addition to being sure to present good results (analysis or model predictions):
+
+- It saves time in various ways, for example by saving the intermediate steps of data processing and cleaning, so that you don't have to redo all the steps
+- Allows you to automate various parts of the project workflow
+- Allows others to reproduce results
+- Allows others to understand each phase without confusion
+- Reproducible design is easier to document
+- Allows you to take over the project after months or years, and be sure to get the most out of it
+
+Here you can find articles and papers that explain you how to ensure an high reproducility across all the phases of the project:
+
+- [Reproducibility in Science](https://ropensci.github.io/reproducibility-guide/)
+- [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/ICMLws09.pdf)
+- [Ten Simple Rules for Reproducible Research in Jupyter
+Notebooks](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
+- [Best Practices for Reproducible, Collaborative Data Science (Video)](https://www.youtube.com/watch?v=vP9Iup8xhKA)
+
+Once you've walked through the above resources, you'll be equipped with best practices to ensure that your code will be highly reproducible, and again, people will be grateful to you! 
+
+**Especially, you'll be grateful to yourself!!**
 
 ### Versioning
 ### Documentation
