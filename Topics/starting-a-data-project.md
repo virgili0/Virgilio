@@ -114,13 +114,22 @@ But the first person to thank the ordered project structure is you! When we look
 For these reasons, good people have developed a fantastic project, [**Cookiecutter**](https://drivendata.github.io/cookiecutter-data-science/), which wants to standardize the structure of projects by providing a sensible and flexible template. 
 
 To create the project skeleton just install the package:
-> pip install cookiecutter
+```
+pip install cookiecutter
+```
+
 
 and then use
-> cookiecutter https://github.com/drivendata/cookiecutter-data-science
+
+```
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+```
 
 You can modify the template according to your needs, just clone the repo, modify it and then use
-> cookiecutter https://github.com/...... your repo .....
+
+```
+cookiecutter https://github.com/...... your repo .....
+```
 
 
 ![Figure 1-1](cookiecutter.png "1") 
