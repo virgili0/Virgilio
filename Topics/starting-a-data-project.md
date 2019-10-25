@@ -139,6 +139,21 @@ Cookiecutter projects have the following structure:
 [Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
 ### Reproducibility
+
+Why are we talking about [**reproducibility**](https://en.wikipedia.org/wiki/Reproducibility)? 
+
+The field name in the Data **Science** indicates that the work process is scientific (Data Science, even with software as a component, is not pure software, which is reproducible by definition).
+
+From [this article](https://towardsdatascience.com/data-sciences-reproducibility-crisis-b87792d88513):
+> Reproducible experiments are the foundation of every scientific field and, indeed, even the scientific method itself.
+
+ Karl Popper said it best in [The Logic of Scientific Discovery](http://strangebeautiful.com/other-texts/popper-logic-scientific-discovery.pdf): “non-reproducible single occurrences are of no significance to science.” 
+
+If you’re the only person in the world who can achieve a particular result, others may find it difficult to trust you, especially if they have spent time and effort attempting to reproduce your work. 
+
+It is reckless and irresponsible to build a product or theory on a singular unconfirmed anecdote, and if you present anecdote as a reliable phenomenon, it can consume time and resources that would otherwise be spent on actual productive work.
+
+
 ### Versioning
 ### Documentation
 
