@@ -32,7 +32,10 @@ A vital phase when starting a project is to search for information that can help
 - Research Papers
 - ...
 
-This guide will not teach you how to use [Google](https://www.google.com/), because you will already know if you are reading these lines :-).
+This guide will not teach you how to use [Google](https://www.google.com/), because you will already know if you are reading these lines :-). 
+
+By the way, probably not every knows about [**these Google tricks**](https://smallbiztrends.com/2019/03/google-tricks.html)...
+
 But there are a few tips that can come in handy when you start "amassing" knowledge that will then come in handy.
 
 #### Understand what you're looking for
