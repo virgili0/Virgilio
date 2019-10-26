@@ -5,6 +5,13 @@ In this guide, you'll learn to prepare yourself to start the project.
 
 This will consist of learning how to look for sources that can help you solve the problem, building the project structure, build good documentation, secure your code, our data and more!
 
+In this guide we'll make heavy use of an awesome best practices collection from the [PLOS | Public Library of Science](https://www.plos.org/). 
+
+Do you know the happiness when you find a _giant diamond cluster in Minecraft_? 
+
+If yes, you need to know that you've just found a fat one:
+take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
+
 
 ## Prerequisites
 All the previous Purgatorio guides.
@@ -140,8 +147,6 @@ Cookiecutter projects have the following structure:
 
 [Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
-**Bonus Must read:**
-[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 
 #### Metadata and file names
 Another important issue with regard to the overall order of the project and the management of its complexity is the management of the data and metadata associated with them. 
@@ -177,8 +182,6 @@ Here you can find articles and papers that explain to you how to ensure a high r
 
 - [Reproducibility in Science](https://ropensci.github.io/reproducibility-guide/)
 - [Replicability is not Reproducibility: Nor is it Good Science](http://cogprints.org/7691/7/ICMLws09.pdf)
-- [Ten Simple Rules for Reproducible Research in Jupyter
-Notebooks](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
 - [Best Practices for Reproducible, Collaborative Data Science (Video)](https://www.youtube.com/watch?v=vP9Iup8xhKA)
 
 Once you've walked through the above resources, you'll be equipped with best practices to ensure that your code will be highly reproducible, and again, people will be grateful to you! 
@@ -187,7 +190,8 @@ Once you've walked through the above resources, you'll be equipped with best pra
 
 **Must read:**
 [**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
-
+[**Ten Simple Rules for Reproducible Research in Jupyter
+Notebooks**](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
 
 ### Versioning
 
@@ -236,12 +240,15 @@ Remember that documenting your code and project steps it's **NEVER wasted time**
 
 **Must read:**
 [**Ten simple rules for documenting scientific software**](http://dx.plos.org/10.1371/journal.pcbi.1006561)
+[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+
 
 ### Conclusions
 
 After reading this guide and the resources it contains, you should be equipped with all the necessary best practices when starting a new Data Science project. 
 
 In the next sections of Purgatorio you will begin to put these practices into practice, and you will see how grateful you are to yourself! 
+
 
 ----
 Written by [_clone95_](https://github.com/clone95)
