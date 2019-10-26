@@ -103,7 +103,7 @@ A good practice is to use [Zotero](https://www.zotero.org/), a document manager 
 You can then repeat this process in a more specific way, for example by looking for a survey paper on convolutional networks applied to the diagnosis of medical images. 
 
 #### Warning
-Before reading any paper [**read this!**](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf).
+Before reading any paper [**read this!**](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
 
 It's a paper that explains how to read a paper. Yes, we at Virgilio like recursion.
 
