@@ -144,6 +144,10 @@ Another important issue with regard to the overall order of the project and the 
 
 [**This awesome cheatsheet**](https://www.axiomdatascience.com/best-practices/DataManagementCheatSheet.html) contains everything you need to know about it: keep it under your pillow!
 
+**Must read:**
+[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+
+
 ### Reproducibility
 
 Why are we talking about [**reproducibility**](https://en.wikipedia.org/wiki/Reproducibility)? 
@@ -178,7 +182,11 @@ Notebooks](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
 
 Once you've walked through the above resources, you'll be equipped with best practices to ensure that your code will be highly reproducible, and again, people will be grateful to you! 
 
+**Must read:**
+[**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
+
 **Especially, you'll be grateful to yourself!!**
+
 
 ### Versioning
 
@@ -206,6 +214,9 @@ Always having the versions of the data, from raw (just collected) to clean, keep
 
 [**Here**](https://rogerdudler.github.io/git-guide/index.html) you can find a simple guide to Git. Learn it, it's freaking worth (and necessary).
 
+**Must read:**
+[**Ten Simple Rules for Taking Advantage of Git and GitHub**](http://dx.plos.org/10.1371/journal.pcbi.1004947)
+
 ### Documentation
 
 Like any project, documenting the work done is fundamental to the success of the project. 
@@ -221,6 +232,9 @@ Read also [Ten simple rules for documenting scientific software](https://www.ncb
 You can choose among different ways to document your project, but Virgilio recommends you to use [Sphinx](http://www.sphinx-doc.org/en/master/), the official Python automated docs library. 
 
 Remember that documenting your code and project steps it's **NEVER wasted time**.
+
+**Must read:**
+[**Ten simple rules for documenting scientific software**](http://dx.plos.org/10.1371/journal.pcbi.1006561)
 
 ### Conclusions
 
