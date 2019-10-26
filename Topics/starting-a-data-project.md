@@ -140,12 +140,13 @@ Cookiecutter projects have the following structure:
 
 [Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
+**Bonus Must read:**
+[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+
+#### Metadata and file names
 Another important issue with regard to the overall order of the project and the management of its complexity is the management of the data and metadata associated with them. 
 
 [**This awesome cheatsheet**](https://www.axiomdatascience.com/best-practices/DataManagementCheatSheet.html) contains everything you need to know about **data management and file names best practices**: keep it under your pillow!
-
-**Must read:**
-[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 
 
 ### Reproducibility
