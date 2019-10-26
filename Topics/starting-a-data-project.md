@@ -142,7 +142,7 @@ Cookiecutter projects have the following structure:
 
 Another important issue with regard to the overall order of the project and the management of its complexity is the management of the data and metadata associated with them. 
 
-[**This awesome cheatsheet**](https://www.axiomdatascience.com/best-practices/DataManagementCheatSheet.html) contains everything you need to know about it: keep it under your pillow!
+[**This awesome cheatsheet**](https://www.axiomdatascience.com/best-practices/DataManagementCheatSheet.html) contains everything you need to know about **data management and file names best practices**: keep it under your pillow!
 
 **Must read:**
 [**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
@@ -182,10 +182,10 @@ Notebooks](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
 
 Once you've walked through the above resources, you'll be equipped with best practices to ensure that your code will be highly reproducible, and again, people will be grateful to you! 
 
+**Especially, the future yourself will be happy!!**
+
 **Must read:**
 [**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
-
-**Especially, you'll be grateful to yourself!!**
 
 
 ### Versioning
