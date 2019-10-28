@@ -189,9 +189,8 @@ Once you've walked through the above resources, you'll be equipped with best pra
 **Especially, the future yourself will be happy!!**
 
 **Must read:**
-[**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
-[**Ten Simple Rules for Reproducible Research in Jupyter
-Notebooks**](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
+- [**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
+- [**Ten Simple Rules for Reproducible Research in Jupyter Notebooks**](https://arxiv.org/ftp/arxiv/papers/1810/1810.08055.pdf)
 
 ### Versioning
 
@@ -242,7 +241,6 @@ Remember that documenting your code and project steps it's **NEVER wasted time**
 
 **Must read:**
 [**Ten simple rules for documenting scientific software**](http://dx.plos.org/10.1371/journal.pcbi.1006561)
-[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 
 
 ### Conclusions
