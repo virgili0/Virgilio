@@ -219,6 +219,8 @@ Always having the versions of the data, from raw (just collected) to clean, keep
 
 [**Here**](https://rogerdudler.github.io/git-guide/index.html) you can find a simple guide to Git. Learn it, it's freaking worth (and necessary).
 
+Documenting your work with Git is crucial: read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
+
 **Must read:**
 [**Ten Simple Rules for Taking Advantage of Git and GitHub**](http://dx.plos.org/10.1371/journal.pcbi.1004947)
 
