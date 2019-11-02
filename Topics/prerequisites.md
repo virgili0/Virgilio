@@ -186,4 +186,4 @@ If you are a student or just a curious cat you will have an easy time thanks to 
 
 
 ----
-Written by _clone95_
+Written by [_clone95_](https://github.com/clone95)
