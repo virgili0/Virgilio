@@ -143,4 +143,4 @@ the concepts.
 [Here](https://visme.co/blog/visual-storytelling-rules/) you find the rules of thumb of visual storytelling.
 
 ----
-Written by _clone95_
+Written by [_clone95_](https://github.com/clone95)
