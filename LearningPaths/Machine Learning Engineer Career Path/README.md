@@ -399,6 +399,8 @@ During the last few years I collected tons of articles, web apps, reddit threads
 - [10 awesome subreddits related to data science](https://www.analyticsindiamag.com/10-data-science-subreddits-every-tech-enthusiast-should-follow/)
 - [An incredible tool to discover trends and subs](https://anvaka.github.io/sayit/?query=MachineLearning)
 
+---
 
+Written by [_clone95_](https://github.com/clone95)
 
 
