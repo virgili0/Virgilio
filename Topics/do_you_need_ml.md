@@ -145,6 +145,5 @@ We have also seen how without a radical change of mentality and approach, even t
 
 ----
 
-Written by _clone95_
-
+Written by [_clone95_](https://github.com/clone95)
 
