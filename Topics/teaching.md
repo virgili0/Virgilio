@@ -192,4 +192,4 @@ But remember that the road is always uphill (if you want it to be so and it is a
 
 ---------------------------------------------------
 
-Written by _clone95_
+Written by [_clone95_](https://github.com/clone95)
