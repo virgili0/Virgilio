@@ -140,5 +140,4 @@ We would also like to remind you that if you are aware of any use cases not incl
 Have an happy exploration!
 
 ----
-Written by _clone95_
-
+Written by [_clone95_](https://github.com/clone95)
