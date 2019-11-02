@@ -104,4 +104,4 @@ In the next guide we will see other key questions (more oriented to understand h
 
 --------------------------------------------------
 
-_Written by [clone95](https://github.com/clone95)_ 
+Written by [_clone95_](https://github.com/clone95)
