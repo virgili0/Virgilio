@@ -107,5 +107,4 @@ If you like Virgil's content and share our vision of open education accessible t
 
 ------------------
 
-Written by _clone95_
-
+Written by [_clone95_](https://github.com/clone95)
