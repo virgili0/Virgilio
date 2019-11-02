@@ -141,4 +141,4 @@ If you like Virgilio's content and share our vision of open education accessible
 
 ------------------
 
-Written by _clone95_
+Written by [_clone95_](https://github.com/clone95)
