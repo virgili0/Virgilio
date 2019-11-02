@@ -5,9 +5,9 @@ In this guide, you'll learn to prepare yourself to start the project.
 
 This will consist of learning how to look for sources that can help you solve the problem, building the project structure, build good documentation, secure your code, our data and more!
 
-In this guide we'll make heavy use of an awesome best practices collection from the [PLOS | Public Library of Science](https://www.plos.org/). 
+We'll make heavy use of a collection of awesome best practices from the [PLOS | Public Library of Science](https://www.plos.org/). 
 
-Do you know the happiness when you find a _giant diamond cluster in Minecraft_? 
+Do you know the joy when you find a _giant diamond cluster in Minecraft_? 
 
 If yes, you need to know that you've just found a fat one:
 take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
@@ -50,6 +50,8 @@ The first thing to do when dealing with a new problem is to make sure you're loo
 
 This may seem trivial, but many useful resources are not found because the correct keywords are not typed into the search engine.
 
+Consider the use of the [5 Whys technique](https://en.wikipedia.org/wiki/Five_whys) to better understand the problem you're trying to solve.
+
 #### Don't re-invent the wheel
 Are you sure that someone hasn't already solved your problem? In that case, if you needed it to solve a real problem you'd already have the dish ready, while if you're doing it to learn you have a base from which to start! Also, observing the code of others is very effective for learning.
 In the latter case, it is still advisable to try to re-implement the solution.
@@ -78,6 +80,10 @@ Some subreddits you can subscribe to are:
 - [r/DataScience](https://www.reddit.com/r/datascience/)
 - [r/LearnDataScience](https://www.reddit.com/r/learndatascience/)
 
+Two other good places to post (well structured) questions are:
+- [HackerNews](https://news.ycombinator.com/)
+- [Quora](https://www.quora.com/)
+
 #### Building a Knowledge Tree
 
 Given the speed of scientific research in the world of data, every day a new approach to your problem could be discovered that proposes a much better solution than the previous one. The only way to get up to date is to read research papers! 
@@ -89,7 +95,7 @@ However, when you are confronted for the first time with a new problem _you do n
 
 So what to do?
 
-Use the **Papers Tree** strategy:
+Use the **Papers Tree strategy**:
 
 - Find the last survey paper about the sub-field of Data Science you're trying to solve 
 - Read carefully this paper, and understand which are the foundations and try to figure out which are the most important papers the sub-field is based on. Usually, the history of the field is covered, citing the most important papers, and this gives you an overview of which were the important steps of the research, up to the state of the art in the approach to the problem.
@@ -101,6 +107,13 @@ Now you just have to look for the most important (or interesting) papers mention
 A good practice is to use [Zotero](https://www.zotero.org/), a document manager that allows you to keep track of all your research.
 
 You can then repeat this process in a more specific way, for example by looking for a survey paper on convolutional networks applied to the diagnosis of medical images. 
+
+Once you collected the mosst important papers for your research, document your exploration!
+
+Tools like MindMup[https://www.mindmup.com/] can help you in this task. 
+
+Consider the [Rhizomaps](http://spdrdng.com/posts/rhizomapping-rhizomaps-rhizomatic-learning-mindmapping-speed-reading-tip-17-take-notes-with-mindmaps-and-rhizomaps) approach too, it really helps in dumping our thoughts on paper.
+
 
 #### Warning
 Before reading any paper [**read this!**](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
@@ -147,6 +160,8 @@ Cookiecutter projects have the following structure:
 
 [Here](https://drivendata.github.io/cookiecutter-data-science/) you can find how to use it and the motivations behind the structure choices, and [here](https://cookiecutter.readthedocs.io/en/latest/readme.html) you can find the docs.
 
+Take a look at some example project structures, in particular go and check [these cookiecutter project templates](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/Programming-in-Python.md#cookie-cutter-python-project-templates).
+
 
 #### Metadata and file names
 Another important issue with regard to the overall order of the project and the management of its complexity is the management of the data and metadata associated with them. 
@@ -186,7 +201,7 @@ Here you can find articles and papers that explain to you how to ensure a high r
 
 Once you've walked through the above resources, you'll be equipped with best practices to ensure that your code will be highly reproducible, and again, people will be grateful to you! 
 
-**Especially, the future yourself will be happy!!**
+**Especially, the future yourself will be happy in finding reproducible and automated results, months lateror years !!!**
 
 **Must read:**
 - [**Ten Simple Rules for Reproducible Computational Research**](http://dx.plos.org/10.1371/journal.pcbi.1003285)
