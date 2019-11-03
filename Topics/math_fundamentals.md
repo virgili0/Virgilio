@@ -52,7 +52,7 @@ The course we suggest in particular is the following:
 
 There are both the video lessons and the notes of the course.
 
-Once you've taken the full course, watch this awesome playlist from [3Blue1Brown]():
+Once you've taken the full course, watch this awesome playlist from [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw):
 
 [**The Essence of Calculus**](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
