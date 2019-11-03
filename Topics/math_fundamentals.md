@@ -14,11 +14,10 @@ The previous Paradiso guides.
 
 # Index
 - [Why do you need to learn some math](#Why-do-you-need-to-learn-it)
-- [How to estimate you actual level](#How-to-estimate-you-actual-level)
-- [Linear Algebra](#Linear/Algebra)
-- [Geometry](#Geometry)
-- [Matrix](#Matrix)
 - [Calculus](#Calculus)
+- [Linear Algebra](#Linear-Algebra)
+- [Matrix Algebra](#Matrix)
+- [Optimization](#Optimization)
 - [How to practice](#How-to-practice)
 - [Conclusions](#Conclusions)
 
@@ -39,6 +38,33 @@ In general, if you have a degree in a scientific subject (engineering, computer 
 
 Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "holes in knowledge".
 
+### Calculus
+
+It would be impossible to list how many Machine Learning system properties are based on the rules of [Calculus](https://en.wikipedia.org/wiki/Calculus), like many of the scientific fields!
+
+The process of training an ML model you'll find that it's nothing more than some Calculus rules applied to statistical models! 
+
+Luckily you can take advantage of the great free courses offered by the professors of the [MIT](http://www.mit.edu/), through the index page[MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
+
+The course we suggest in particular is the following:
+
+[**Single Variable Calculus**](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/)
+
+There are both the video lessons and the notes of the course.
+
+Once you've taken the full course, watch this awesome playlist from [3Blue1Brown]():
+
+[**The Essence of Calculus**](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
+Thanks to these two resources, you should be able to understand most of the mathematical reasons that underpin today's Machine Learning systems and build them to develop powerful Data Science projects.
+
+#### Check your knowledge
+
+Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/cordero/English/derivatives.pdf) exercises.
+
+Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
+
+### Linear Algebra
 
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
