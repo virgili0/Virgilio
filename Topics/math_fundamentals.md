@@ -13,8 +13,7 @@ The previous Paradiso guides.
 10 minutes.
 
 # Index
-- [The beauty of Mathematics](#The-beauty-of-Mathmatics)
-- [Why do you need to learn it](#Why-do-you-need-to-learn-it)
+- [Why do you need to learn some math](#Why-do-you-need-to-learn-it)
 - [How to estimate you actual level](#How-to-estimate-you-actual-level)
 - [Linear Algebra](#Linear/Algebra)
 - [Geometry](#Geometry)
