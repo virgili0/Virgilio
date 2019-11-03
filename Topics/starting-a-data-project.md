@@ -3,13 +3,13 @@
 # What you will learn 
 In this guide, you'll learn to prepare yourself to start the project. 
 
-This will consist of learning how to look for sources that can help you solve the problem, building the project structure, build good documentation, secure your code, our data and more!
+This will consist of learning how to look for sources that can help you solve the problem, building the project structure, building good documentation, securing your code and our data and others!
 
 We'll make heavy use of a collection of awesome best practices from the [PLOS | Public Library of Science](https://www.plos.org/). 
 
 Do you know the joy when you find a _giant diamond cluster in Minecraft_? 
 
-If yes, you need to know that you've just found a fat one:
+If yes, you need to know that you've just hit a big one:
 take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
 
 
