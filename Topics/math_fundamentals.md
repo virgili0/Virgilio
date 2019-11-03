@@ -24,7 +24,21 @@ The previous Paradiso guides.
 
 Let's dive right in!
  
-###
+### Why do you need to learn some math
+
+Before anything else, watch [**this**](https://www.youtube.com/watch?v=VIbjHIGMjQM
+) awesome Ted Talk :-)
+
+The entire field of data science is based on mathematics and statistics.
+
+This phrase shouldn't frighten you, though, because as you'll find out, you probably have much of the knowledge you need to start experimenting!
+
+In this guide we'll see what specific mathematical knowledge you need, and if you've done a second degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know, and go deeper into those things you may not have seen at school. 
+
+In general, if you have a degree in a scientific subject (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculation courses that are suggested during this guide.
+
+Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "holes in knowledge".
+
 
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
