@@ -1,5 +1,5 @@
 
-# The Art of Learning
+# Virgilio's Learning Strategy - Learning to Learn
 
 # What you will learn 
 This guide serves various purposes: 
