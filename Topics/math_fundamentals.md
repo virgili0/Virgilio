@@ -39,7 +39,7 @@ In general, if you have a scientific degree (engineering, computer science, phys
 
 Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "fundamental knowledge holes".
 
-Rememebr to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](Topics/teaching.md)
+Rememebr to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
 
 ### Calculus
 
