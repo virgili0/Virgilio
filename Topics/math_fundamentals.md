@@ -24,28 +24,35 @@ Let's dive right in!
  
 ### Why do you need to learn some math
 
-Before anything else, watch [**this**](https://www.youtube.com/watch?v=VIbjHIGMjQM
-) awesome Ted Talk :-)
+Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM
+) and [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
 
-The entire field of data science is based on mathematics and statistics.
+**The entire field of Data Science is based on mathematics and statistics.**
 
 This phrase shouldn't frighten you, though, because as you'll find out, you probably have much of the knowledge you need to start experimenting!
 
-In this guide we'll see what specific mathematical knowledge you need, and if you've done a second degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know, and go deeper into those things you may not have seen at school. 
+**In fact:** 
 
-In general, if you have a degree in a scientific subject (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculation courses that are suggested during this guide.
+If you've done a second degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know, and go deeper into some things you may not have seen at school. 
 
-Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "holes in knowledge".
+In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculus, Linear Algebra, and Matrix Algebra courses that are suggested within this guide.
+
+Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "fundamental knowledge holes".
+
+Rememebr to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](Topics/teaching.md)
 
 ### Calculus
 
-The first macro-topic we'll tackle is [Calculus](https://en.wikipedia.org/wiki/Calculus).
+The first macro-topic you need to be confident with is [Calculus](https://en.wikipedia.org/wiki/Calculus).
 
 It would be impossible to list how many Machine Learning system properties are based on its rules, like many of the scientific fields!
 
-The process of training an ML model you'll find that it's nothing more than some Calculus rules applied to statistical models! 
+The process of training an ML model it's nothing more than Calculus rules applied to statistical models! 
 
-Luckily you can take advantage of the great free courses offered by the professors of the [MIT](http://www.mit.edu/), through the index page[MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
+#### Suggested Course
+
+Lucky you! 
+You can fin great free courses offered by the professors of the [MIT](http://www.mit.edu/)(massachusetts institute of technology), through the index page[MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
 
 The course we suggest in particular is the following:
 
