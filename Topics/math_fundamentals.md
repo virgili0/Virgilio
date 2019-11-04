@@ -16,7 +16,6 @@ The previous Paradiso guides.
 - [Why do you need to learn some math](#Why-do-you-need-to-learn-it)
 - [Calculus](#Calculus)
 - [Linear Algebra](#Linear-Algebra)
-- [Matrix Algebra](#Matrix)
 - [Optimization](#Optimization)
 - [How to practice](#How-to-practice)
 - [Conclusions](#Conclusions)
@@ -40,7 +39,9 @@ Whatever your starting level, however, it is still recommended to go through all
 
 ### Calculus
 
-It would be impossible to list how many Machine Learning system properties are based on the rules of [Calculus](https://en.wikipedia.org/wiki/Calculus), like many of the scientific fields!
+The first macro-topic we'll tackle is [Calculus](https://en.wikipedia.org/wiki/Calculus).
+
+It would be impossible to list how many Machine Learning system properties are based on its rules, like many of the scientific fields!
 
 The process of training an ML model you'll find that it's nothing more than some Calculus rules applied to statistical models! 
 
@@ -65,6 +66,45 @@ Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/co
 Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
 
 ### Linear Algebra
+
+The second macro-topic on which Machine Learning systems are based is [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra).
+
+You probably already tasted these topics in high school, but certainly not with the right degree of depth.
+
+So, how do you learn linear algebra in an excellent way?
+
+Virgilio was born to spread knowledge and content, and there are many ways to do it: through text, audio, video... 
+
+But the absolute best way (in terms of effectiveness and speed of understanding) is definitely the visual way!
+
+In fact, our brain uses most of its computing power to process visual data, because when we evolved in the African Savannah the most important thing to do was to be able to see a predator and escape!
+
+It is therefore not surprising that the visual interaction of concepts installs them deep into our minds, almost experientially, rather than conceptually!
+
+Imagine, for example, thinking about the formula of the diagonal of a square... reading it is a very abstract thing, but if we imagine in a _visual_ way the graphical reason that leads to the formula, it will make much more sense!
+
+Now, fortunately there are incredibly skilled and intelligent people in the world, one of whom has created this:
+
+[**Immersive math - Linear Algebra**](http://immersivemath.com/ila/index.html)
+
+Once you click on the link and start exploring this interactive book, you won't believe your eyes for the clarity and effectiveness with which the concepts are explained. 
+
+This book currently contains so much information and so well done that it deserves definitely a front-row seat in Virgilio!
+
+Take your time, explore the book, fall in love with those interactive explanations!
+
+Going thorugh this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, in order to understand most of the papers and code out there!
+
+Note:
+Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but actually we're very proud of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you to use both resources! 
+
+Moreover, the Virgilio's guide to Matrix Algebra is an interactive Jupyter Notebook, with exercises included! 
+
+#### Check your knowledge
+
+Test your knowledge with [**these**](https://web.pdx.edu/~erdman/LINALG/Linalg_pdf.pdf) exercises.
+
+Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
 
 ### Conclusions
 We concluded that _x_, _y_ and _z_.
