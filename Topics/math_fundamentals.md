@@ -15,7 +15,7 @@ The previous Paradiso guides.
 # Index
 - [Why do you need to learn some math](#Why-do-you-need-to-learn-it)
 - [Calculus](#Calculus)
-- [Linear Algebra](#Linear-Algebra)
+- [Linear Algebra and Matrix Algebra](#Linear-Algebra)
 - [Optimization](#Optimization)
 - [How to practice](#How-to-practice)
 - [Conclusions](#Conclusions)
@@ -103,9 +103,11 @@ Take your time, explore the book, fall in love with those interactive explanatio
 Going through this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
 
 Note:
-Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we're very proud of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you to use both resources! 
+Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we're **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you to use both resources! 
 
-Moreover, Virgilio's guide to Matrix Algebra is an interactive Jupyter Notebook, with exercises included! 
+Moreover, Virgilio's guide to Matrix Algebra is an _interactive Jupyter Notebook_, with exercises included!
+
+We suggest to go through this latter resource once (or if) you are alreay practical with the [Python](https://www.python.org/) programming language. 
 
 #### Check your knowledge
 
@@ -113,8 +115,18 @@ Test your knowledge with [**these**](https://web.pdx.edu/~erdman/LINALG/Linalg_p
 
 Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
 
-### Conclusions
-We concluded that _x_, _y_ and _z_.
+### Optimization
+
+Calculus, Linear Algebra and Matrix Algebra are the 3 fundamental pillars you need to be confident with in order to understand most of the mathematical implications of Machine Learning systems.
+
+This is important in Data Science, because developing ML Systems is a big part of the Data Science project, and often the most useful outcome!
+
+Optimization is a bit more advanced array of concepts, so maybe you could not tackle _during the first pass of this guide_, but it's hignly recommended to take the following awesome course of the professor [Geoff Gordon](https://www.youtube.com/channel/UC4XBoaEXuvob0mQraQJ7wNw):
+
+[**Introduction to Convex Optimization**](https://www.youtube.com/playlist?list=PL7y-1rk2cCsDOv91McLOnV4kExFfTB7dU)
+
+
+It is higly recommended to follow this course, because most of the most advanced 
 
 
 ----
