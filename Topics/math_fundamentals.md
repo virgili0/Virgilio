@@ -134,7 +134,7 @@ The **optimization course** is a bit more advanced, so maybe you could not tackl
 
 Moreover, if you want to dive deeper (very deep), you can hold this close to your bed:
 
-[The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)(Advanced Book) 
+[The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) (advanced book.
 
 ### Ask Questions
 A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
