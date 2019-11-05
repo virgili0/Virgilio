@@ -16,18 +16,27 @@ The previous Paradiso guides.
 # Index
 - [Motivation](#Motivation)
 - [Courses](#Courses)
-  - [](#)
-  - [](#)
-  - [](#)
+  - [Descriptive Statistical Reasoning](#)
+  - [Probability Theory](#)
+  - []
 - [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
 
 Let's dive right in!
  
 ### Motivation
+The field of statistics is the **science of learning from data**.
 
+Statistics is a crucial process behind how we make discoveries in science, make decisions based on data, and make predictions. 
 
+Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results. 
 
+Every fancy term you read related to the field of Data Science, or the even more misunderstood Artificial Intelligence, _is nothing more than statistical models trained with some mathematical algorithms_.
+
+That's why **to learn the basics of statistics is fundamental** in order to tackel real-worlds Data Science problems and build powerful predictive models upon them.
+
+### Descriptive Statistical Reasoning
+### Probability Theory
 
 ### Ask Questions
 A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
