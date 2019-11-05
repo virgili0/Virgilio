@@ -34,13 +34,13 @@ This phrase shouldn't frighten you, though, because as you'll find out, you prob
 
 **In fact:** 
 
-If you've done a second degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know, and go deeper into some things you may not have seen at school. 
+If you've done a second-degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know and go deeper into some things you may not have seen at school. 
 
-In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculus, Linear Algebra, and Matrix Algebra courses that are suggested within this guide.
+In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculus, Linear Algebra, and Matrix Algebra courses are suggested within this guide.
 
-Whatever your starting level, however, it is still recommended to go through all the resources organized here, to make sure you do not have "fundamental knowledge holes".
+Whatever your starting level, however, it is still recommended to go through all the resources organized here, _to make sure you do not have "fundamental knowledge holes"._
 
-Rememebr to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
+Remember to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
 
 ## Courses
 ### Calculus
@@ -54,7 +54,7 @@ The process of training an ML model it's nothing more than Calculus rules applie
 #### Suggested Course
 
 Lucky you! 
-You can fin great free courses offered by the professors of the [MIT](http://www.mit.edu/)(massachusetts institute of technology), through the index page[MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
+You can find great free courses offered by the professors of the [MIT](http://www.mit.edu/)(Massachusetts Institute of Technology), through the index page [MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
 
 The course we suggest in particular is the following:
 
@@ -66,7 +66,12 @@ Once you've taken the full course, watch this awesome playlist from [3Blue1Brown
 
 [**The Essence of Calculus**](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
-Thanks to these two resources, you should be able to understand most of the mathematical reasons that underpin today's Machine Learning systems and build them to develop powerful Data Science projects.
+Thanks to these two resources, you should be able to understand most of the mathematical reasons that underpin today's Machine Learning systems and build them to develop powerful Data Science projects
+
+If you want to dive deeper, here you can find a [Multivariable Calculus]() course with notes and videos, again from MIT:
+
+[**Multivariable Calculus**](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
+
 
 #### Check your knowledge
 
@@ -105,11 +110,11 @@ Take your time, explore the book, fall in love with those interactive explanatio
 Going through this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
 
 Note:
-Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we're **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you to use both resources! 
+Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we're **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you use both resources! 
 
 Moreover, Virgilio's guide to Matrix Algebra is an _interactive Jupyter Notebook_, with exercises included!
 
-We suggest to go through this latter resource once (or if) you are alreay practical with the [Python](https://www.python.org/) programming language. 
+We suggest to go through this latter resource once (or if) you are already practicing with the [Python](https://www.python.org/) programming language. 
 
 #### Check your knowledge
 
@@ -119,9 +124,9 @@ Anyway you can find a ton of them online, and remember, that _the more you make 
 
 ### Optimization
 
-Calculus, Linear Algebra and Matrix Algebra are the 3 fundamental pillars you need to be confident with in order to understand most of the mathematical implications of Machine Learning systems.
+Calculus, Linear Algebra, and Matrix Algebra are the 3 fundamental pillars you need to be confident with in order to understand most of the mathematical implications of Machine Learning systems.
 
-This is important in Data Science, because developing Machine Learning predictive models plays a big role during a Data Science project, and these models are often the most useful outcome!
+This is important in Data Science because developing Machine Learning predictive models play a big role during a Data Science project, and these models are often the most useful outcome!
 
 The **optimization course** is a bit more advanced, so maybe you could not tackle _during the first pass of this guide_, but later be sure to take the following lectures, from the professor [Geoff Gordon](https://www.youtube.com/channel/UC4XBoaEXuvob0mQraQJ7wNw):
 
@@ -156,7 +161,7 @@ Two other good places to post (well structured) questions are:
 
 ### Conclusions
 
-If you follow the study plan of the guide, take the time to fully understand the proposed courses, and do exercises, you will be equipped with an excellent basic knowledge of mathematics that is needed to do projects of Data Science, and in particular build predictive models of Machine Learning.
+If you follow the study plan of the guide, take the time to fully understand the proposed courses, and do exercises, you will be equipped with an excellent basic knowledge of mathematics that is needed to do projects of Data Science, and in particular, build predictive models of Machine Learning.
 
 This is because _to implement_ a lot of Machine Learning applications we can often abstract ourselves from low-level details, such as the operations between matrices or the internal functioning of optimization algorithms, even if it is vital to know the principles that govern their functioning.
 
