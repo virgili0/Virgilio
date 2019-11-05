@@ -51,9 +51,7 @@ It would be impossible to list how many Machine Learning system properties are b
 
 The process of training an ML model it's nothing more than Calculus rules applied to statistical models! 
 
-#### Suggested Course
-
-Lucky you! 
+**Lucky you!** 
 You can find great free courses offered by the professors of the [MIT](http://www.mit.edu/)(Massachusetts Institute of Technology), through the index page [MIT OpenCourseWare](https://ocw.mit.edu/index.htm).
 
 The course we suggest in particular is the following:
@@ -72,6 +70,9 @@ If you want to dive deeper, here you can find a [Multivariable Calculus]() cours
 
 [**Multivariable Calculus**](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 
+Once you will feel ready to go deeper inside the mathematics for Machine Learning (definitely not take this at the first pass), here you find your Bible:
+
+[**Mathematics for Machine Learning**](https://mml-book.github.io/)
 
 #### Check your knowledge
 
