@@ -13,16 +13,17 @@ The previous Paradiso guides.
 10 minutes.
 
 # Index
-- [Why do you need to learn some math](#Why-do-you-need-to-learn-it)
-- [Calculus](#Calculus)
-- [Linear Algebra and Matrix Algebra](#Linear-Algebra)
-- [Optimization](#Optimization)
-- [How to practice](#How-to-practice)
+- [Motivation](#Motivation)
+- [Courses](#Courses)
+  - [Calculus](#Calculus)
+  - [Linear Algebra and Matrix Algebra](#Linear-Algebra)
+  - [Optimization](#Optimization)
+- [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
 
 Let's dive right in!
  
-### Why do you need to learn some math
+### Motivation
 
 Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM
 ) and [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
@@ -41,6 +42,7 @@ Whatever your starting level, however, it is still recommended to go through all
 
 Rememebr to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
 
+## Courses
 ### Calculus
 
 The first macro-topic you need to be confident with is [Calculus](https://en.wikipedia.org/wiki/Calculus).
@@ -72,7 +74,7 @@ Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/co
 
 Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
 
-### Linear Algebra
+### Linear Algebra and Matrix Algebra
 
 The second macro-topic on which Machine Learning systems are based is [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra).
 
@@ -119,15 +121,46 @@ Anyway you can find a ton of them online, and remember, that _the more you make 
 
 Calculus, Linear Algebra and Matrix Algebra are the 3 fundamental pillars you need to be confident with in order to understand most of the mathematical implications of Machine Learning systems.
 
-This is important in Data Science, because developing ML Systems is a big part of the Data Science project, and often the most useful outcome!
+This is important in Data Science, because developing Machine Learning predictive models plays a big role during a Data Science project, and these models are often the most useful outcome!
 
-Optimization is a bit more advanced array of concepts, so maybe you could not tackle _during the first pass of this guide_, but it's hignly recommended to take the following awesome course of the professor [Geoff Gordon](https://www.youtube.com/channel/UC4XBoaEXuvob0mQraQJ7wNw):
+The **optimization course** is a bit more advanced, so maybe you could not tackle _during the first pass of this guide_, but later be sure to take the following lectures, from the professor [Geoff Gordon](https://www.youtube.com/channel/UC4XBoaEXuvob0mQraQJ7wNw):
 
 [**Introduction to Convex Optimization**](https://www.youtube.com/playlist?list=PL7y-1rk2cCsDOv91McLOnV4kExFfTB7dU)
 
+Moreover, if you want to dive deeper (very deep), you can hold this close to your bed:
 
-It is higly recommended to follow this course, because most of the most advanced 
+[The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)(Advanced Book) 
 
+### Ask Questions
+A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
+
+Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
+
+Some _tips_ regarding questions:
+
+- Try to form specific, well-written questions, to minimize the time used by the respondent.
+- Do not ask a question whose answer is found with a quick search on google.
+- If the questions are too general or show laziness they'll likely remain unanswered...
+
+Some subreddits you can subscribe to are:
+
+- [r/LearnMath](https://www.reddit.com/r/learnmath/)
+- [r/Math](https://www.reddit.com/r/math/)
+- [r/Calculus](https://www.reddit.com/r/calculus/)
+- [r/Optimization](https://www.reddit.com/r/optimization/)
+
+Two other good places to post (well structured) questions are:
+
+- [HackerNews](http://hn.premii.com/)
+- [Quora](https://www.quora.com/)
+
+### Conclusions
+
+If you follow the study plan of the guide, take the time to fully understand the proposed courses, and do exercises, you will be equipped with an excellent basic knowledge of mathematics that is needed to do projects of Data Science, and in particular build predictive models of Machine Learning.
+
+This is because _to implement_ a lot of Machine Learning applications we can often abstract ourselves from low-level details, such as the operations between matrices or the internal functioning of optimization algorithms, even if it is vital to know the principles that govern their functioning.
+
+The next guide is about the basic statistics you need to fully understand the process of Data Science, and build effective and useful statistical models.
 
 ----
 Written by [_clone95_](https://github.com/clone95)
