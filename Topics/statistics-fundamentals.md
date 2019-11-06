@@ -16,9 +16,9 @@ The previous Paradiso guides.
 # Index
 - [Motivation](#Motivation)
 - [Courses](#Courses)
-  - [Descriptive Statistical Reasoning](#)
+  - [Descriptive Statistics](#)
   - [Probability Theory](#)
-  - []
+  - [Bayesian Statistics](#Bayesian-Statistics)
 - [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
 
@@ -33,11 +33,37 @@ Statistical knowledge helps you use the proper methods to collect the data, empl
 
 Every fancy term you read related to the field of Data Science, or the even more misunderstood Artificial Intelligence, _is nothing more than statistical models trained with some mathematical algorithms_.
 
-That's why **to learn the basics of statistics is fundamental** in order to tackel real-worlds Data Science problems and build powerful predictive models upon them.
+That's why **to learn the basics of statistics is fundamental** in order to tackle real-worlds Data Science problems and build powerful predictive models upon them.
 
-### Descriptive Statistical Reasoning
+The two macro-topics necessary to study the data are the **descriptive statistics** and the **theory of probability**.
+
+### Descriptive Statistics
+
+[Descriptive statistics](https://www.investopedia.com/terms/d/descriptive_statistics.asp) aim to analyse and summarise the data collected in an experiment. 
+
+The set of methods and techniques used in descriptive statistics makes it possible to express the information contained in a set of data by means of graphs and particular numerical indicators.
+
+Moreover, with the techniques of investigation of descriptive statistics it is possible to verify the adaptation of the experimental data to an assigned theoretical model, as well as to carry out comparative analyses between data sets.
+
+Descriptive statistics are widely used in economics, demography, medicine, and in all natural sciences.
+
+To understand the concepts of descriptive statistics, the book Virgilio recommends is the following:
+
+Statistics in Plain English](http://www.pindex.com/uploads/post_docs/statistics%20in%20plain%20english%20(3rd,%202010)(PINDEX-DOC-6952).pdf) - [Timothy C. Urdan](https://www.amazon.com/Timothy-C.-Urdan/e/B001JP8H9Q%3Fref=dbs_a_mng_rwt_scns_share)
+
+This book is fantastic because it focuses more on **the reason behind the concepts** concepts rather than on formulas or calculations, which are easily found elsewhere. 
+
+**The book is mandatory for a full understanding of descriptive statistics** (it is certainly not the only book of statistics out there, but it is the best in terms of clarity of explanation and completeness of the basic concepts.).
+
+Once finished, you can choose whether to go deeper with a more technical manual, like the following:
+
+[**Elements of Statistics**](https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=18263&printable=1)
+
+This book deals in more depth with the various topics, but to start doing small experiments in Data Science is not necessary to address it immediately. 
+
+**Keep it as a reference!
+
 ### Probability Theory
-
 ### Ask Questions
 A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
 
