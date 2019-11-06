@@ -56,7 +56,7 @@ First of all watch these these videos, they are truly inspirational:
 
 To understand the concepts of descriptive statistics, the book Virgilio recommends is the following:
 
-[**Statistics in Plain English**](http://www.pindex.com/uploads/post_docs/statistics%20in%20plain%20english%20(3rd,%202010)(PINDEX-DOC-6952.pdf) - [Timothy C. Urdan](https://www.amazon.com/Timothy-C.-Urdan/e/B001JP8H9Q%3Fref=dbs_a_mng_rwt_scns_share)
+[**Statistics in Plain English**](http://www.pindex.com/uploads/post_docs/statistics%20in%20plain%20english%20(3rd,%202010) - [Timothy C. Urdan](https://www.amazon.com/Timothy-C.-Urdan/e/B001JP8H9Q%3Fref=dbs_a_mng_rwt_scns_share)
 
 This book is fantastic because it focuses more on **the reason behind the concepts** concepts rather than on formulas or calculations, which are easily found elsewhere. 
 
