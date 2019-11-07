@@ -101,9 +101,16 @@ Above these you’ll find a plenty of other useful zones:
 ### [Introduction to ML](Topics/MLSystems.md)
 
 # Purgatorio
-### [The Data Science Process Lifecycle](Topics/ds_process.md)
+#### Fundamentals
+### [The Data Science Process](Topics/ds_process.md)
+#### Define The Scope and Ask Questions
 ### [Frame The Problem](Topics/frame-the-problem.md)
 ### [Usage and Integration](Topics/usage-and-integration.md)
+#### Collect and Prepare Data
+#### Select and Train a Machine Learning Model
+#### Deep Learning
+#### Evaluate and Fine-Tune 
+#### Launch and Mantain the System
 
 - Coming soon!
 
