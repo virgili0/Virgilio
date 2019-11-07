@@ -7,7 +7,7 @@ to build insightful Data Science projects and build machine learning systems upo
 You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
 
 ## Prerequisites
-The previous Paradiso guides.
+The previous Paradiso high-level guides.
 
 ## Time to complete
 10 minutes.
@@ -26,19 +26,19 @@ Let's dive right in!
 ### Motivation
 
 Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM
-) and [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
+) and then [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
 
 **The entire field of Data Science is based on mathematics and statistics.**
 
-This phrase shouldn't frighten you, though, because as you'll find out, you probably have much of the knowledge you need to start experimenting!
+This phrase shouldn't frighten you, although you may find out, that you probably have much of the knowledge you need to start experimenting!
 
 **In fact:** 
 
-If you've done a second-degree school (you know matrices and derivatives, for example), you probably just need to refresh yourself on the things you already know and go deeper into some things you may not have seen at school. 
+If you've done a second-degree school (you know matrices and derivatives, for example), you probably just need to refresh your memory on the things you already know and go deeper into some things you may not have seen at school. 
 
-In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, as it will be the Calculus, Linear Algebra, and Matrix Algebra courses are suggested within this guide.
+In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, because in this guide _you will learn how learn_ the fundamental theory behind Calculus, Linear Algebra, and Matrix Algebra courses are suggested within this guide.
 
-Whatever your starting level, however, it is still recommended to go through all the resources organized here, _to make sure you do not have "fundamental knowledge holes"._
+Whatever your starting level, however, it is still recommended to go through all the resources organized here, _to make sure you do not have "gaps in your knowledge"._
 
 Remember to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
 
@@ -66,7 +66,7 @@ Once you've taken the full course, watch this awesome playlist from [3Blue1Brown
 
 Thanks to these two resources, you should be able to understand most of the mathematical reasons that underpin today's Machine Learning systems and build them to develop powerful Data Science projects
 
-If you want to dive deeper, here you can find a [Multivariable Calculus]() course with notes and videos, again from MIT:
+If you want to dive deeper, here you can find a [Multivariable Calculus](https://en.wikipedia.org/wiki/Multivariable_calculus) course with notes and videos, again from MIT:
 
 [**Multivariable Calculus**](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
 
@@ -78,7 +78,7 @@ Once you will feel ready to go deeper inside the mathematics for Machine Learnin
 
 Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/cordero/English/derivatives.pdf) exercises.
 
-Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
+Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
 
 ### Linear Algebra and Matrix Algebra
 
@@ -111,7 +111,7 @@ Take your time, explore the book, fall in love with those interactive explanatio
 Going through this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
 
 Note:
-Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we're **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you use both resources! 
+Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we are **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you use both resources! 
 
 Moreover, Virgilio's guide to Matrix Algebra is an _interactive Jupyter Notebook_, with exercises included!
 
@@ -121,7 +121,7 @@ We suggest to go through this latter resource once (or if) you are already pract
 
 Test your knowledge with [**these**](https://web.pdx.edu/~erdman/LINALG/Linalg_pdf.pdf) exercises.
 
-Anyway you can find a ton of them online, and remember, that _the more you make exercise, the better!_
+Anyway you can find a ton of them online, and remember, _that the more you practise, the better you will get_!
 
 ### Optimization
 
@@ -135,10 +135,10 @@ The **optimization course** is a bit more advanced, so maybe you could not tackl
 
 Moreover, if you want to dive deeper (very deep), you can hold this close to your bed:
 
-[The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) (advanced book.
+[The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) (advanced book)
 
 ### Ask Questions
-A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
+A rule of thumb to learn fast and effectively is to ask questions and read other's questions and answers.
 
 Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
 
