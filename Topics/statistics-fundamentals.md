@@ -17,7 +17,7 @@ The previous Paradiso guides.
 - [Motivation](#Motivation)
 - [Courses](#Courses)
   - [Descriptive Statistics](#)
-  - [Probability Theory](#)
+  - [Probability Theory](#Probability-Theory)
   - [Bayesian Statistics](#Bayesian-Statistics)
 - [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
@@ -35,7 +35,13 @@ Every fancy term you read related to the field of Data Science, or the even more
 
 That's why **to learn the basics of statistics is fundamental** in order to tackle real-worlds Data Science problems and build powerful predictive models upon them.
 
-The two macro-topics necessary to study the data are the **descriptive statistics** and the **theory of probability**.
+The two fundamental subjects to know in order to dveelop successful Data Science projects are **descriptive statistics** and **theory of probability**.
+
+We'll explore an additional one, Bayesian Statistics, which is pretty powerful but not mandatory for a first pass of the statistics topics.
+
+Play with [this interactive website](https://seeing-theory.brown.edu/) to taste the flavour of the topics that this guide will suggest you.
+
+It's awesome.
 
 ### Descriptive Statistics
 
@@ -62,7 +68,7 @@ This book is fantastic because it focuses more on **the reason behind the concep
 
 **The book is mandatory for a full understanding of descriptive statistics** (it is certainly not the only book of statistics out there, but it is the best in terms of clarity of explanation and completeness of the basic concepts.).
 
-Once finished, you can choose whether to go deeper with a more technical manual, like the following:
+Once finished, you can choose whether to go deeper with a more technical manual, like the following _free book_:
 
 [**Elements of Statistics**](https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=18263&printable=1)
 
@@ -70,11 +76,66 @@ This book deals in more depth with the various topics, but to start doing small 
 
 **Keep it as a reference!**
 
+#### Check your knowledge
+
+Test your knowledge with some of [these exercises](https://www0.gsb.columbia.edu/faculty/pglasserman/B6014/exercises.pdf).
+
+Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
+
+
+
 ### Probability Theory
+
+Probability theory governs every daily event, from microscopic to macroscopic, even if we hardly realize it!
+
+But you may have thought about the odds of winning, for example the game of dice, or when you estimate the probability of having successfully passed an exam!
+
+Probability theory is so interconnected with statistical and mathematical concepts that it _is difficult to explain why it is fundamental_: simply consider it as the basic building blocks of more advanced statistical concepts based on it.
+
+Not to mention that knowledge of probability theory can be very useful in everyday life, since it can suggest us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
+
+Fortunately, you can have the (perhaps) best course on probability theory available to date, offered as usual by MIT. 
+
+It's good to have a first-class education from home for free, huh? 
+
+What an incredible time to be alive!
+
+Take the course at:
+
+[**Introduction to Probability - Video Lectures**](https://www.youtube.com/watch?v=1uW3qMFA9Ho&list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+
+In addition, keep this _free complete book_ as a reference:
+
+[**Introduction to Probability - Book**](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf)
+
+#### Check your knowledge
+
+Test your knowledge with some of [these exercises](https://www.math.kth.se/matstat/gru/sf1901/TCOMK/exercises.pdf).
+
+Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
+
+### Bayesian Statistics
+
+This last topic is not fundamental for a first pass study, but it's highty recommended since some of Machine Learning algorithms are based on it or leverage some concepts from Bayesian Theory.
+
+The Bayesian approach is often distinguished from the "classical" approach, which you have studied in the [Descriptive Statistics](#Descriptive-Statistics) section, and which is called "frequentist" when compared to the "bayesian" approach.
+
+The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which states that the probability of event when a prior evidence or knowledge of conditions is given and that might be related to that event.
+
+For example, if cancer is related to age, then, using Bayes’ theorem, a person’s age can be used to more precisely or accurately assess the probability that they have cancer, in contrast to the assessment of the probability of cancer made without knowledge of the person's age.
+
+You can take this course to understand Bayesian approach to statistics, along with many more concepts, taking the following course:
+
+[**Statistical Rethinking - Video Lectures**](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc)
+
+You find the complete book from the same author at:
+
+[**Statistical Rethinking - Book**](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/1482253445)
+
 ### Ask Questions
 A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
 
-Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
+Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "standard deviation"), and ask questions, with experts who will answer and help you.
 
 Some _tips_ regarding questions:
 
@@ -84,8 +145,10 @@ Some _tips_ regarding questions:
 
 Some subreddits you can subscribe to are:
 
-- [r/LearnMath](https://www.reddit.com/r/learnmath/)
-
+- [r/Statistics](https://www.reddit.com/r/statistics/)
+- [r/AskStatistics](https://www.reddit.com/r/AskStatistics/)
+- [r/ProbabilityTheory](https://www.reddit.com/r/probabilitytheory/)
+- [r/Bayes](https://www.reddit.com/r/Bayes/)
 
 Two other good places to post (well structured) questions are:
 
@@ -94,6 +157,11 @@ Two other good places to post (well structured) questions are:
 
 ### Conclusions
 
+That's all! 
+
+With the above suggested course you should be equipped with most of the statistics knowledge you need to start working on simple Data Science projects. 
+
+The next guide will focus on learning the **Python programming language**, the real tool that will allow you to put into practice the knowledge you've gained with your hard study.
 
 ----
 Written by [_clone95_](https://github.com/clone95)
