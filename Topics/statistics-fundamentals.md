@@ -35,25 +35,25 @@ Every fancy term you read related to the field of Data Science, or the even more
 
 That's why **to learn the basics of statistics is fundamental** in order to tackle real-worlds Data Science problems and build powerful predictive models upon them.
 
-The two fundamental subjects to know in order to dveelop successful Data Science projects are **descriptive statistics** and **theory of probability**.
+The two fundamental subjects to know in order to develop successful Data Science projects are **descriptive statistics** and **theory of probability**.
 
 We'll explore an additional one, Bayesian Statistics, which is pretty powerful but not mandatory for a first pass of the statistics topics.
 
-Play with [this interactive website](https://seeing-theory.brown.edu/) to taste the flavour of the topics that this guide will suggest you.
+Play with [this interactive website](https://seeing-theory.brown.edu/) to taste the flavor of the topics that this guide will suggest to you.
 
 It's awesome.
 
 ### Descriptive Statistics
 
-[Descriptive statistics](https://www.investopedia.com/terms/d/descriptive_statistics.asp) aim to analyse and summarise the data collected in an experiment. 
+[Descriptive statistics](https://www.investopedia.com/terms/d/descriptive_statistics.asp) aim to analyze and summarise the data collected in an experiment. 
 
 The set of methods and techniques used in descriptive statistics makes it possible to express the information contained in a set of data by means of graphs and particular numerical indicators.
 
-Moreover, with the techniques of investigation of descriptive statistics it is possible to verify the adaptation of the experimental data to an assigned theoretical model, as well as to carry out comparative analyses between data sets.
+Moreover, with the techniques of investigation of descriptive statistics, it is possible to verify the adaptation of the experimental data to an assigned theoretical model, as well as to carry out comparative analyses between data sets.
 
-Descriptive statistics are widely used in economics, demography, medicine, and in all natural sciences.
+Descriptive statistics are widely used in economics, demography, medicine, and in all-natural sciences.
 
-First of all watch these these videos, they are truly inspirational:
+First of all watch these videos, they are truly inspirational:
 
 - [Why You Should Love Statistics](https://www.ted.com/talks/alan_smith_why_we_re_so_bad_at_statistics)
 - [The Best Stats You've Ever Seen](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
@@ -80,7 +80,7 @@ This book deals in more depth with the various topics, but to start doing small 
 
 Test your knowledge with some of [these exercises](https://www0.gsb.columbia.edu/faculty/pglasserman/B6014/exercises.pdf).
 
-Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
+Anyway, you can find a ton of them online, and remember, that the more you practice, the better you will get!
 
 
 
@@ -88,11 +88,11 @@ Anyway you can find a ton of them online, and remember, that the more you practi
 
 Probability theory governs every daily event, from microscopic to macroscopic, even if we hardly realize it!
 
-But you may have thought about the odds of winning, for example the game of dice, or when you estimate the probability of having successfully passed an exam!
+But you may have thought about the odds of winning, for example, the game of dice, or when you estimate the probability of having successfully passed an exam!
 
 Probability theory is so interconnected with statistical and mathematical concepts that it _is difficult to explain why it is fundamental_: simply consider it as the basic building blocks of more advanced statistical concepts based on it.
 
-Not to mention that knowledge of probability theory can be very useful in everyday life, since it can suggest us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
+Not to mention that knowledge of probability theory can be very useful in everyday life since it can suggest to us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
 
 Fortunately, you can have the (perhaps) best course on probability theory available to date, offered as usual by MIT. 
 
@@ -112,19 +112,19 @@ In addition, keep this _free complete book_ as a reference:
 
 Test your knowledge with some of [these exercises](https://www.math.kth.se/matstat/gru/sf1901/TCOMK/exercises.pdf).
 
-Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
+Anyway, you can find a ton of them online, and remember, that the more you practice, the better you will get!
 
 ### Bayesian Statistics
 
-This last topic is not fundamental for a first pass study, but it's highty recommended since some of Machine Learning algorithms are based on it or leverage some concepts from Bayesian Theory.
+This last topic is not fundamental for a first pass study, but it's highly recommended since some of Machine Learning algorithms are based on it or leverage some concepts from Bayesian Theory.
 
-The Bayesian approach is often distinguished from the "classical" approach, which you have studied in the [Descriptive Statistics](#Descriptive-Statistics) section, and which is called "frequentist" when compared to the "bayesian" approach.
+The Bayesian approach is often distinguished from the "classical" approach, which you have studied in the [Descriptive Statistics](#Descriptive-Statistics) section, and which is called "frequentist" when compared to the "Bayesian" approach.
 
-The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which states that the probability of event when a prior evidence or knowledge of conditions is given and that might be related to that event.
+The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which states that the probability of an event when prior evidence is given and that might be related to that event.
 
 For example, if cancer is related to age, then, using Bayes’ theorem, a person’s age can be used to more precisely or accurately assess the probability that they have cancer, in contrast to the assessment of the probability of cancer made without knowledge of the person's age.
 
-You can take this course to understand Bayesian approach to statistics, along with many more concepts, taking the following course:
+You can take this course to understand the Bayesian approach to statistics, along with many more concepts, taking the following course:
 
 [**Statistical Rethinking - Video Lectures**](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc)
 
@@ -159,7 +159,7 @@ Two other good places to post (well structured) questions are:
 
 That's all! 
 
-With the above suggested course you should be equipped with most of the statistics knowledge you need to start working on simple Data Science projects. 
+With the above-suggested courses, you should be equipped with most of the statistics knowledge you need to start working on simple Data Science projects. 
 
 The next guide will focus on learning the **Python programming language**, the real tool that will allow you to put into practice the knowledge you've gained with your hard study.
 
