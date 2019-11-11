@@ -106,6 +106,7 @@ Above these you’ll find a plenty of other useful zones:
 #### Define The Scope and Ask Questions
 ### [Frame The Problem](Topics/frame-the-problem.md)
 ### [Usage and Integration](Topics/usage-and-integration.md)
+### [Starting a Data Project](Topics/starting-a-data-project)
 #### Collect and Prepare Data
 #### Select and Train a Machine Learning Model
 #### Deep Learning
