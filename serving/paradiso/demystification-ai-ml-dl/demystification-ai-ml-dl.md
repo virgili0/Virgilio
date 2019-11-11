@@ -24,6 +24,8 @@ None, welcome on board! :-)
   - [Machine Learning differences from the algorithmic approach](#machine-learning-differences-from-the-algorithmic-approach)
         - [Img source: https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning](#img-source-httpsgithubcommahmoudparsiandata-algorithms-booktreemastersrcmainjavaorgdataalgorithmsmachinelearning)
   - [Why use Machine Learning techniques](#why-use-machine-learning-techniques)
+  
+  - [Why use Machine Learning techniques](#why-use-machine-learning-techniques)
 
 ### Naming
 
