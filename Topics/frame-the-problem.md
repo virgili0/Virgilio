@@ -24,6 +24,7 @@ The previous Purgatorio's guides.
 - [Understand the data](#Understand-the-data)
 - [Set objectives and scope](#Set-objectives-and-scope)
 - [Conclusions](#Conclusions)
+
 Let's dive right in!
 
 ### Recap of ML systems
