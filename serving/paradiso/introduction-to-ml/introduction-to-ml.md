@@ -22,13 +22,13 @@ At least, [Demystification of AI, ML, DL](../demystification-ai-ml-dl/demystific
     - [Reinforcement learning](#reinforcement-learning)
       - [Learning modes:](#learning-modes)
       - [Type of inference:](#type-of-inference)
-- [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
-  - [Insufficient amount of data](#insufficient-amount-of-data)
-  - [Low quality and unrepresentative data](#low-quality-and-unrepresentative-data)
-  - [Underfitting](#underfitting)
-  - [Overfitting](#overfitting)
-  - [Underfitting and overfitting tradeoff](#underfitting-and-overfitting-tradeoff)
-- [Conclusion](#conclusion)
+  - [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
+    - [Insufficient amount of data](#insufficient-amount-of-data)
+    - [Low quality and unrepresentative data](#low-quality-and-unrepresentative-data)
+    - [Underfitting](#underfitting)
+    - [Overfitting](#overfitting)
+    - [Underfitting and overfitting tradeoff](#underfitting-and-overfitting-tradeoff)
+  - [Conclusion](#conclusion)
 
 
 
@@ -125,9 +125,9 @@ In our case, we imagine that our model is the straight line that best approximat
 
 A Machine Learning model, here in its simplest version (two parameters), sometimes consists of tens of thousands or even millions of parameters. To train them, and therefore find the "good values" of the parameters, a lot of computing power is needed and the optimization of the process of training the models is a heartfelt and urgent topic of research.
 
-# Main challenges of Machine Learning
+## Main challenges of Machine Learning
 
-## Insufficient amount of data
+### Insufficient amount of data
 
 The key assumption of Machine Learning is that you have the data you need to train models and use them later to solve problems.
 It may happen that in the real world the data you have is not enough to train a model to accurately recognize patterns that might be interesting for the purpose of the problem.
@@ -138,7 +138,7 @@ Various organizations are moving to create open data platforms to share datasets
 
 The issue of labeling (labeling data for supervised learning) is crucial today. Services such as CloudFactory or AWS Mechanical Turk seek to address this need by connecting organizations in need of workforce to label data, and the workforce itself. Services of this type have certain limitations, such as the accuracy of the labeling and the time needed to perform it.
 
-## Low quality and unrepresentative data
+### Low quality and unrepresentative data
 
 Another very common problem with data on which to train models is their poor quality. Missing, poorly formatted, or even incorrect data can be fatal to a Machine Learning project. Ideally, high-quality data should be produced directly, but projects are often started on existing (and low quality) data.
 
@@ -156,7 +156,7 @@ For example, let's consider a dataset of temperatures collected in the various d
 
 Think about the suggestive fact that a random model (for example the generation of a random number within the range [temp. MIN - temp. MAX]) can easily obtain better performance than a model trained on unrepresentative data!
 
-## Underfitting
+### Underfitting
 
 The problem of underfitting occurs when the model we have chosen is too simple (a few parameters) to effectively represent a generalization of the dataset, and therefore fail to capture the patterns that occur in the data. 
 
@@ -164,13 +164,13 @@ For example, if we wanted to use a linear model to classify images of dogs and c
 
 Usually, a solution to underfitting consists in trying to train more complex models (for example a neural network, which can have even millions of parameters), which can "take into account" all the variables that could have a weight in the choice of the output. For example, in a 64 x 64 pixels image, 4096 possible points can influence the result! A model with few parameters can hardly handle this complexity.
 
-## Overfitting
+### Overfitting
 
 The concept of overfitting occurs in the opposite case to what has just been explained, i.e. when a model is "too complex" for the assigned task.
 
 For example, to use a complex higher degree curve resulting from a trained model to predict the price of houses would be ineffective because the network would learn so well to represent the dataset that the resulting model would be mere storage of data! A model that suffers from overfitting is not able to generalize well because it can not "detach" from the only representation of the world it knows, or the dataset on which it was trained.
 
-## Underfitting and overfitting tradeoff
+### Underfitting and overfitting tradeoff
 
 The tradeoff between the complexity of the model (number of parameters that can be modified), the amount of data available and the difficulty of the task are one of the key concepts behind the choice of the model architecture.
 Below is a figure that represents three different situations where a model must classify if a point, given in input its two-dimensional coordinates, is red or blue:
@@ -183,5 +183,5 @@ Below is a figure that represents three different situations where a model must 
 
 Anothet important aspect to consider is the "price" of errors in prediction: classify as spam a regular email is very different from wrongly detecting cancer in an image, so the model performance, deriving from this tradeoff, is a key factor.      
 
-# Conclusion
+## Conclusion
 Hopefully now you should be more comfortable with high-level ideas of how ML systems are classified and you should have a clear idea of what the classification and regression tasks are.
