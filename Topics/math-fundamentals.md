@@ -159,6 +159,7 @@ Two other good places to post (well structured) questions are:
 
 - [HackerNews](http://hn.premii.com/)
 - [Quora](https://www.quora.com/)
+- [Math Stack Exchange](https://maths.stackexchange.com)
 
 ### Conclusions
 
