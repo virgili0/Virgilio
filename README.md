@@ -102,10 +102,12 @@ Above these you’ll find a plenty of other useful zones:
 
 # Purgatorio
 #### Fundamentals
+### [Math Fundamentals](Topics/math-fundamentals.md)
 ### [The Data Science Process](Topics/ds_process.md)
 #### Define The Scope and Ask Questions
 ### [Frame The Problem](Topics/frame-the-problem.md)
 ### [Usage and Integration](Topics/usage-and-integration.md)
+### [Starting a Data Project](Topics/starting-a-data-project.md)
 #### Collect and Prepare Data
 #### Select and Train a Machine Learning Model
 #### Deep Learning
