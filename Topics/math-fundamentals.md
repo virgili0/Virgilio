@@ -36,7 +36,7 @@ This phrase shouldn't frighten you, although you may find out, that you probably
 
 If you've done a second-degree school (you know matrices and derivatives, for example), you probably just need to refresh your memory on the things you already know and go deeper into some things you may not have seen at school. 
 
-In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, because in this guide _you will learn how learn_ the fundamental theory behind Calculus, Linear Algebra, and Matrix Algebra courses are suggested within this guide.
+In general, if you have a scientific degree (engineering, computer science, physics, etc.), it will probably be just a review, because in this guide _you will learn how to learn_ the fundamental theory behind Calculus, Linear Algebra, and Matrix Algebra courses are suggested within this guide.
 
 Whatever your starting level, however, it is still recommended to go through all the resources organized here, _to make sure you do not have "gaps in your knowledge"._
 
