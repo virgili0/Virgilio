@@ -1,7 +1,9 @@
 # Python Fundamentals
 
 # What you will learn 
-In this guide you'll learn the basics concepts Python programming, and you will learn how to develop small projects to practice your programming skill.
+
+In this guide you'll learn the basics concepts computer science and programming, and will take you _from zero coding knowledge_ to a solid Python skill and a complete awareness of the most important concepts in programming. 
+
 
 ## Prerequisites
 None.
@@ -10,7 +12,6 @@ None.
 10 minutes.
 
 # Index
-- [Why Programming](#Why-Programming)
 - [Why Python](#Why-Python)
 - [Computer Science Fundamentals](#Computer-Science-Fundamentals)
 - [Learn Python](#Learn-Python)
@@ -21,7 +22,6 @@ None.
 
 Let's dive right in!
  
-### Why Programming
 ### Why Python
 
 According to Sun Tzu:
@@ -83,7 +83,6 @@ Are you convinced now?
 
 
 
-This guide will take you _from zero coding knowledge_ to a solid Python skill and a complete awareness of the most important concepts in programming. 
 
 After this path, you'll be prepared to tackle the more advanced topics! 
 
