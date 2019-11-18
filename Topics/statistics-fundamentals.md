@@ -8,7 +8,7 @@ to build insightful Data Science projects and build machine learning systems upo
 You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
 
 ## Prerequisites
-The previous Paradiso guides.
+The previous Paradiso guides, plus the [Math Fundamentals](math-fundamentals.md) guide.
 
 ## Time to complete
 10 minutes.
@@ -16,7 +16,7 @@ The previous Paradiso guides.
 # Index
 - [Motivation](#Motivation)
 - [Courses](#Courses)
-  - [Descriptive Statistics](#)
+  - [Descriptive Statistics](#Descriptive-statistics)
   - [Probability Theory](#Probability-Theory)
   - [Bayesian Statistics](#Bayesian-Statistics)
 - [Ask Questions](#Ask-Questions)
@@ -33,7 +33,7 @@ Statistical knowledge helps you use the proper methods to collect the data, empl
 
 Every fancy term you read related to the field of Data Science, or the even more misunderstood Artificial Intelligence, _is nothing more than statistical models trained with some mathematical algorithms_.
 
-That's why **to learn the basics of statistics is fundamental** in order to tackle real-worlds Data Science problems and build powerful predictive models upon them.
+That's why **learning the basics of statistics is fundamental** in order to tackle real-world Data Science problems and build powerful predictive models upon them.
 
 The two fundamental subjects to know in order to develop successful Data Science projects are **descriptive statistics** and **theory of probability**.
 
@@ -49,7 +49,7 @@ It's awesome.
 
 The set of methods and techniques used in descriptive statistics makes it possible to express the information contained in a set of data by means of graphs and particular numerical indicators.
 
-Moreover, with the techniques of investigation of descriptive statistics, it is possible to verify the adaptation of the experimental data to an assigned theoretical model, as well as to carry out comparative analyses between data sets.
+Moreover, with the techniques of investigation of descriptive statistics, it is possible to verify the adaptation of the experimental data to an assigned theoretical model, as well as to carry out comparative analyses between datasets.
 
 Descriptive statistics are widely used in economics, demography, medicine, and in all-natural sciences.
 
@@ -94,7 +94,7 @@ Probability theory is so interconnected with statistical and mathematical concep
 
 Not to mention that knowledge of probability theory can be very useful in everyday life since it can suggest to us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
 
-Fortunately, you can have the (perhaps) best course on probability theory available to date, offered as usual by MIT. 
+Fortunately, you can have the (perhaps) best course on probability theory available to date, offered as usual by [MIT](http://www.mit.edu/). 
 
 It's good to have a first-class education from home for free, huh? 
 
@@ -120,11 +120,15 @@ This last topic is not fundamental for a first pass study, but it's highly recom
 
 The Bayesian approach is often distinguished from the "classical" approach, which you have studied in the [Descriptive Statistics](#Descriptive-Statistics) section, and which is called "frequentist" when compared to the "Bayesian" approach.
 
-The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which states that the probability of an event when prior evidence is given and that might be related to that event.
+Read [the difference between the "frequentist" and "Bayesian" approach](https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-in-plain-english)!
+
+The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
 
 For example, if cancer is related to age, then, using Bayes’ theorem, a person’s age can be used to more precisely or accurately assess the probability that they have cancer, in contrast to the assessment of the probability of cancer made without knowledge of the person's age.
 
-You can take this course to understand the Bayesian approach to statistics, along with many more concepts, taking the following course:
+First, get comfortable with the Bayesian approach with [this simple introduction](https://lavanya.ai/2019/05/16/bayes-theorem/).
+
+Then you can take this course to dive deep into the Bayesian approach to statistics, along with many more concepts, taking the following course:
 
 [**Statistical Rethinking - Video Lectures**](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc)
 
@@ -152,14 +156,20 @@ Some subreddits you can subscribe to are:
 
 Two other good places to post (well structured) questions are:
 
+- [Math - StackExchange](https://math.stackexchange.com/)
 - [HackerNews](http://hn.premii.com/)
 - [Quora](https://www.quora.com/)
+
 
 ### Conclusions
 
 That's all! 
 
 With the above-suggested courses, you should be equipped with most of the statistics knowledge you need to start working on simple Data Science projects. 
+
+A very book we suggest you tu read is ["How To Lie With Statistics"](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics).
+
+The book is a brief, breezy illustrated volume outlining errors when it comes to the interpretation of statistics, and how these errors may create incorrect conclusions. Very suggested!
 
 The next guide will focus on learning the **Python programming language**, the real tool that will allow you to put into practice the knowledge you've gained with your hard study.
 
