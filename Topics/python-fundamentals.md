@@ -14,9 +14,8 @@ None.
 - [Why Python](#Why-Python)
 - [Computer Science Fundamentals](#Computer-Science-Fundamentals)
 - [Learn Python](#Learn-Python)
-- [Practice](#Practice)
 - [Develop Small Projects](#Develop-Small-Projects)
-- [How to become Good at Programming](#How-to-become-Good-at-Programming)
+- [Learn Git and GitHub](#Learn-Git-and-GitHub)
 - [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
 
@@ -161,7 +160,7 @@ If you lack imagination don't worry, here you have a list of + 1000 priject idea
 
 Having a project keeps you motivated, Don't underestimate it!
 
-#### Use Git and GitHub
+### Learn Git and GitHub
 
 Git is a versioning system that allows you to always have under control every change in your code, be able to go back, and be sure that your code will never be lost!
 
