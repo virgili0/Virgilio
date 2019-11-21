@@ -69,13 +69,15 @@ Now, the opinion shared by Virgilio's collaborators is as follows:
 
 **THEN**:
 
-It makes no sense to learn two programming languages at the same time. 
+_It makes no sense to learn two programming languages at the same time._
 
-It's a waste of time and energy, and it just creates confusion. 
+_It's a waste of time and energy, and it just creates confusion._ 
 
-Not to mention that while a Python is the undisputed king of scientific computing in general, and it is not acceptable that a Data Scientist does not know it, R is not as widespread and used and, even remotely, does not have the support that Python has and its amount of useful libraries.
+Not to mention that while a Python is the undisputed king of scientific computing in general, and **it is not acceptable that a Data Scientist does not know it**, R is not as widespread and used and, even remotely, does not have the support that Python has and its amount of useful libraries.
 
-What does this mean? that R is useless? certainly not! Indeed, it is recognized that its data visualization and formatting capabilities are useful and powerful... But really, if you're starting your path in Data Science today, start with Python!
+What does this mean? that R is useless? Certainly not! 
+
+Indeed, it is recognized that its data visualization and statistical capabilities are useful and powerful... But really, if you're starting your path in Data Science today, start with Python!
 
 Are you convinced now?
 
