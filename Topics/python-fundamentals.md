@@ -74,13 +74,11 @@ _It makes no sense to learn two programming languages at the same time._
 
 _It's a waste of time and energy, and it just creates confusion._ 
 
-Not to mention that while a Python is the undisputed king of scientific computing in general, and **it is not acceptable that a Data Scientist does not know it**, R is not as widespread and used and, even remotely, does not have the support that Python has and its amount of useful libraries.
+Not to mention that while a Python is the undisputed king of scientific computing in general, and **it is not acceptable that a Data Scientist does not know it**, R is not as widespread and used does not have the same support that Python has and its amount of useful libraries.
 
 What does this mean? that R is useless? Certainly not! 
 
-Indeed, it is recognized that its data visualization and statistical capabilities are useful and powerful... But really, if you're starting your path in Data Science today, start with Python!
-
-Are you convinced now?
+Indeed, it is recognized that its data visualization and statistical capabilities are useful and powerful... But really, if you're starting your path in Data Science today, start with Python, you can learn R later!
 
 ### Computer Science Fundamentals
 
@@ -96,15 +94,15 @@ If you want a wider curriculum (even like a first-level university) you can have
 
 [Free self-taught Path - Computer Science](https://github.com/ossu/computer-science)
 
-What an incredible resource! And completely free!
-
-That said, at Virgilio, we don't think you need to know all the programming concepts to start getting your hands dirty in Data Science.
+That said, at Virgilio, we don't think you need to know _the whole spectrum of the computer science concepts_ to start getting your hands dirty in Data Science.
 
 But it's true that the more you know, the better! 
 
-On the other hand, we remember that Data Science is at the intersection of mathematics, statistics, and programming (the latter as a "means" to put into practice the first two).
+On the other hand, we remember that Data Science is nothing more than mathematics and statistics, **applied through programming!** 
 
-### Learn Python
+So, it's worth spending time becoming very comfortable with it.
+
+### Learn Python 
 
 But _how can you learn_ Python?
 
@@ -118,11 +116,15 @@ After reading a chapter, **do the exercises**, trying to look for alternative so
 
 Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [Chapter 4 - Lists in Python](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
 
+The first chapter of the book will explain to you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
+
+#### Coding Challenges
+
 We suggest you get into [CodeAcademy](https://www.codecademy.com/), tackling coding challenges daily will improve your coding and problem-solving skills in general!
 
 [Here](https://geekflare.com/coding-challenges-to-sharpen-thinking/) you find a detailed list of similar coding challenges (pick your favorite!).
 
-The first chapter of the book will explain to you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
+#### IDE
 
 Even though the official Python IDLE is great for starting out with Python, we suggest you approach one of the following IDEs, which come with many more functionalities (and are better supported):
 
@@ -141,6 +143,11 @@ Starting walking around inside the documentation as a beginner is a really good 
 
 [Here](http://blog.techtalentsouth.com/8-tips-to-reading-documentation-a-newbies-guide) you have some tips to read documentations effectively.
 
+#### Stack Overflow
+
+You _should_ fall in love with [**StackOverflow**](https://stackoverflow.com/), a question-answer website about programming in general.
+Read [How can I use Stack Overflow effectively as a beginner?](https://www.quora.com/How-can-I-use-Stack-Overflow-effectively-as-a-beginner) and be ready to become grateful to awesome people around the world who answer questions daily on the website.
+
 ### Develop Small Projects
 
 First of all: [**Read this post from r/LearnProgramming**](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/), and stare it in your mind!
@@ -157,7 +164,7 @@ If you lack imagination don't worry, here you have a list of + 1000 project idea
 
 - [1000+ Beginner Programming Projects](https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/)
 
-Having a project keeps you motivated, Don't underestimate it!
+Having a project keeps you motivated, don't underestimate it!
 
 ### Learn Git and GitHub
 
@@ -203,12 +210,12 @@ Some subreddits you can subscribe to are:
 
 - [r/Python](https://www.reddit.com/r/python/)
 - [r/LearnPython](https://www.reddit.com/r/learnpython/)
+- [r/LearnProgramming](https://www.reddit.com/r/learnprogramming/)
 - [r/Programming](https://www.reddit.com/r/programming/)
 - [r/Computer Science](https://www.reddit.com/r/compsci/)
 
-Two other good places to post (well structured) questions are:
+Other good places to post and read (well structured) questions are:
 
-- [**StackOverflow**](https://stackoverflow.com/) and read [How can I use Stack Overflow effectively as a beginner?](https://www.quora.com/How-can-I-use-Stack-Overflow-effectively-as-a-beginner)
 - [HackerNews](http://hn.premii.com/)
 - [Quora](https://www.quora.com/)
 - [Math Stack Exchange](https://maths.stackexchange.com)
@@ -223,7 +230,7 @@ If you follow the advice of this guide you won't have any problem to become prof
 
 This means that to learn another language, the biggest obstacle will be to learn the syntax, but the concepts will remain more or less the same!
 
-In the next guide we will see how to use the Jupyter Notebooks, a Python application designed specifically for Data Science and experimental programming, stay tuned!
+In the next guide we will see how to use the Jupyter Notebooks, a Python application designed specifically for Data Science and experimental programming!
 
 ----
 Written by [_clone95_](https://github.com/clone95)
