@@ -32,10 +32,9 @@ There are hundreds of programming languages, mature as C and C++, or recent as R
 
 Choosing a programming language to learn is difficult. 
 
-There is no language that is the right answer to all possible problems, but Python is a good choice in many cases and is also 
-well positioned for those who learn to program. 
+There is no language that is the right answer to all possible problems, but Python is a good choice in many cases and is also well positioned for those who learn to program. 
 
-Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) thinking "I want a programming language that is as close as possible to plain English". So, most of the times, when you don't know the name of something, just try to think about the plain literal English name of that thing, and probably the Python name will be that one!  
+Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) thinking "I want a programming language that is as close as possible to plain English". So, most of the time, when you don't know the name of something, just try to think about the plain literal English name of that thing, and probably the Python name will be that one!  
 
 Python is used by hundreds of thousands of programmers around the 
 world and their numbers are growing all the time.
@@ -44,7 +43,7 @@ There are many reasons for this success.
 
 - Python works everywhere, whether Windows, Linux/UNIX, Mac or other, from supercomputers to mobile phones. 
 
-- It allows you to develop small applications and fast prototypes, but is structured for creating large programs.
+- It allows you to develop small applications and fast prototypes but is structured for creating large programs.
 
 - It is equipped with an easy to use graphical user interface, libraries for web programming. Best of all, it's free.
 
@@ -58,9 +57,9 @@ are written in Python or have rich Python wrappers.
 
 **Note:** 
 
-In many Internet guides you will find the programming language [**R**](https://www.r-project.org/) recommended for Data Science.
+In many Internet guides, you will find the programming language [**R**](https://www.r-project.org/) recommended for Data Science.
 
-R is a purely statistical programming language (not general purpose / scripting like Python).
+R is a purely statistical programming language (not general purpose/scripting like Python).
 
 Now, the opinion shared by Virgilio's collaborators is as follows:
 
@@ -93,13 +92,13 @@ Python is easy to learn (but the way to master it is long, like all things), and
 
 [**Introduction to Computer Science and Programming**](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm)
 
-If you want a wider curriculum (even like a first level university) you can have a look here:
+If you want a wider curriculum (even like a first-level university) you can have a look here:
 
 [Free self-taught Path - Computer Science](https://github.com/ossu/computer-science)
 
 What an incredible resource! And completely free!
 
-That said, at Virgilio we don't think you need to know all the programming concepts to start getting your hands dirty in Data Science.
+That said, at Virgilio, we don't think you need to know all the programming concepts to start getting your hands dirty in Data Science.
 
 But it's true that the more you know, the better! 
 
@@ -119,13 +118,13 @@ After reading a chapter, **do the exercises**, trying to look for alternative so
 
 Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [Chapter 4 - Lists in Python](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
 
-We suggest you to get into [CodeAcademy](https://www.codecademy.com/), tackling coding challenges daily will improve you coding and problem solving skills in general!
+We suggest you get into [CodeAcademy](https://www.codecademy.com/), tackling coding challenges daily will improve your coding and problem-solving skills in general!
 
-[Here](https://geekflare.com/coding-challenges-to-sharpen-thinking/) you find a detailed lists of similar coding challenges (pick your favorite!).
+[Here](https://geekflare.com/coding-challenges-to-sharpen-thinking/) you find a detailed list of similar coding challenges (pick your favorite!).
 
-The first chapter of the book will explain you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
+The first chapter of the book will explain to you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
 
-Even though the official Python IDLE is great for starting out with Python, we suggest you to approach one of the followign IDEs, which come with many more functionalities (and are better supported):
+Even though the official Python IDLE is great for starting out with Python, we suggest you approach one of the following IDEs, which come with many more functionalities (and are better supported):
 
 - [Pycharm](https://blog.ipswitch.com/getting-started-with-pycharm)
 - [VSCode](https://code.visualstudio.com/docs/python/python-tutorial)
@@ -152,9 +151,9 @@ Of course, to start with it makes sense to follow tutorials and guides (better s
 
 Once you are done with the book "Automate the Boring Stuff", jump in a small project and develop it by yourself! 
 
-The best case is that you find a topic or a task in which you have interest, and tackle it! 
+The best case is that you find a topic or a task in which you have an interest, and tackle it! 
 
-If you lack imagination don't worry, here you have a list of + 1000 priject ideas you can develop in Python :)
+If you lack imagination don't worry, here you have a list of + 1000 project ideas you can develop in Python :)
 
 - [1000+ Beginner Programming Projects](https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/)
 
@@ -218,9 +217,9 @@ Two other good places to post (well structured) questions are:
 
 The path to becoming a good programmer is long and requires commitment and dedication, but it will give you satisfaction (and value) like very few other things in life!
 
-Programming is creativity, problem solving, art! 
+Programming is creativity, problem-solving, art! 
 
-If you follow the advice of this guide you won't have any problem to become proficient with Python, and moreover you will have learned the main concepts of programming:
+If you follow the advice of this guide you won't have any problem to become proficient with Python, and moreover, you will have learned the main concepts of programming:
 
 This means that to learn another language, the biggest obstacle will be to learn the syntax, but the concepts will remain more or less the same!
 
