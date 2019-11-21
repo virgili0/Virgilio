@@ -106,8 +106,6 @@ But it's true that the more you know, the better!
 
 On the other hand, we remember that Data Science is at the intersection of mathematics, statistics, and programming (the latter as a "means" to put into practice the first two).
 
-In the last section, [How to become Good at Programming](#How-to-become-Good-at-Programming), we give you useful advices to enhance your programmer skills and "think like a programmer".
-
 ### Learn Python
 
 But _how can you learn_ Python?
@@ -147,9 +145,21 @@ Starting walking around inside the documentation as a beginner is a really good 
 
 ### Develop Small Projects
 
-The biggest lesson in the world of programming is this: there is no better lesson than getting your hands dirty!
+First of all: [**Read this post from r/LearnProgramming**](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/), and stare it in your mind!
+
+**The biggest lesson in the world of programming is the following: there is no better lesson than getting your hands dirty!**
 
 Of course, to start with it makes sense to follow tutorials and guides (better still a structured book), but you need to experiment, make mistakes, and re-iterate this process to **can really improve** in your coding skills.
+
+Once you are done with the book "Automate the Boring Stuff", jump in a small project and develop it by yourself! 
+
+The best case is that you find a topic or a task in which you have interest, and tackle it! 
+
+If you lack imagination don't worry, here you have a list of + 1000 priject ideas you can develop in Python :)
+
+- [1000+ Beginner Programming Projects](https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/)
+
+Having a project keeps you motivated, Don't underestimate it!
 
 #### Use Git and GitHub
 
@@ -180,8 +190,6 @@ Documenting well your work with Git is crucial: read [How to Write a Git Commit 
 **Must read:**
 [**Ten Simple Rules for Taking Advantage of Git and GitHub**](http://dx.plos.org/10.1371/journal.pcbi.1004947)
 
-### How to become Good at Programming
-
 ### Ask Questions
 A rule of thumb to learn fast and effectively is to ask questions and read other's questions and answers.
 
@@ -209,7 +217,15 @@ Two other good places to post (well structured) questions are:
 
 ### Conclusions
 
-The path towards a 
+The path to becoming a good programmer is long and requires commitment and dedication, but it will give you satisfaction (and value) like very few other things in life!
+
+Programming is creativity, problem solving, art! 
+
+If you follow the advice of this guide you won't have any problem to become proficient with Python, and moreover you will have learned the main concepts of programming:
+
+This means that to learn another language, the biggest obstacle will be to learn the syntax, but the concepts will remain more or less the same!
+
+In the next guide we will see how to use the Jupyter Notebooks, a Python application designed specifically for Data Science and experimental programming, stay tuned!
 
 ----
 Written by [_clone95_](https://github.com/clone95)
