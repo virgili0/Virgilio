@@ -17,6 +17,9 @@ None.
 - [Practice](#Practice)
 - [Develop Small Projects](#Develop-Small-Projects)
 - [How to become Good at Programming](#How-to-become-Good-at-Programming)
+- [Ask Questions](#Ask-Questions)
+- [Conclusions](#Conclusions)
+
 
 
 Let's dive right in!
@@ -117,7 +120,11 @@ This free book is meant for total beginners.
 
 After reading a chapter, **do the exercises**, trying to look for alternative solutions.
 
-Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [chapter 4](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
+Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [Chapter 4 - Lists in Python](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
+
+We suggest you to get into [CodeAcademy](https://www.codecademy.com/), tackling coding challenges daily will improve you coding and problem solving skills in general!
+
+[Here](https://geekflare.com/coding-challenges-to-sharpen-thinking/) you find a detailed lists of similar coding challenges (pick your favorite!).
 
 The first chapter of the book will explain you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
 
@@ -132,7 +139,7 @@ Try both, and read [here](https://www.reddit.com/r/Python/comments/8u0hl6/vs_cod
 
 #### Navigate the Official Docs
 
-In order to become proficient with a programming language, you must become comfortable with the [**official Python documentation**](https://docs.python.org/3.7/).
+In order to become proficient with Python (like every programming language or technology), you must become comfortable with the [**official Python documentation**](https://docs.python.org/3.7/).
 
 Starting walking around inside the documentation as a beginner is a really good practice, even if a lot of things will be unclear. In fact, be able to explore the documentation of something is the key to learn it autonomously.
 
@@ -144,10 +151,65 @@ The biggest lesson in the world of programming is this: there is no better lesso
 
 Of course, to start with it makes sense to follow tutorials and guides (better still a structured book), but you need to experiment, make mistakes, and re-iterate this process to **can really improve** in your coding skills.
 
+#### Use Git and GitHub
+
+Git is a versioning system that allows you to always have under control every change in your code, be able to go back, and be sure that your code will never be lost!
+
+Git is defined as **Distributed Version Control System**: What does it mean?
+
+From [this article](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/):
+
+- Control System: This basically means that Git is a content tracker. So Git can be used to store content — it is mostly used to store code due to the other features it provides.
+
+- Version Control System: The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges, which I will be covering later.
+
+- Distributed Version Control System: Git has a remote repository that is stored in a server and a local repository that is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer. I will explain the concept of remote and local repositories later in this article.
+
+_Any existing software project that is not under version control is considered a dead project, and the responsible developers are considered crazy._
+
+Data Science projects (which make heavy use of software) are no different, indeed! 
+
+They also have the _additional problem of data versioning_, which is the raw material on which you work most. 
+
+[**Here**](https://rogerdudler.github.io/git-guide/index.html) you can find a simple guide to Git.
+
+**Learn it, it's freaking worth (and necessary).**
+
+Documenting well your work with Git is crucial: read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
+
+**Must read:**
+[**Ten Simple Rules for Taking Advantage of Git and GitHub**](http://dx.plos.org/10.1371/journal.pcbi.1004947)
+
 ### How to become Good at Programming
 
+### Ask Questions
+A rule of thumb to learn fast and effectively is to ask questions and read other's questions and answers.
+
+Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
+
+Some _tips_ regarding questions:
+
+- Try to form specific, well-written questions, to minimize the time used by the respondent.
+- Do not ask a question whose answer is found with a quick search on google.
+- If the questions are too general or show laziness they'll likely remain unanswered...
+
+Some subreddits you can subscribe to are:
+
+- [r/Python](https://www.reddit.com/r/python/)
+- [r/LearnPython](https://www.reddit.com/r/learnpython/)
+- [r/Programming](https://www.reddit.com/r/programming/)
+- [r/Computer Science](https://www.reddit.com/r/compsci/)
+
+Two other good places to post (well structured) questions are:
+
+- [**StackOverflow**](https://stackoverflow.com/) and read [How can I use Stack Overflow effectively as a beginner?](https://www.quora.com/How-can-I-use-Stack-Overflow-effectively-as-a-beginner)
+- [HackerNews](http://hn.premii.com/)
+- [Quora](https://www.quora.com/)
+- [Math Stack Exchange](https://maths.stackexchange.com)
+
 ### Conclusions
-We concluded that _x_, _y_ and _z_.
+
+The path towards a 
 
 ----
 Written by [_clone95_](https://github.com/clone95)
