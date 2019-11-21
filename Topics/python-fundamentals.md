@@ -107,11 +107,15 @@ In the last section, [How to become Good at Programming](#How-to-become-Good-at-
 
 ### Learn Python
 
+But _how can you learn_ Python?
+
 Virgilio [hates to re-invent wheels](https://en.wikipedia.org/wiki/Reinventing_the_wheel) and for our purposes, [**THIS**](https://automatetheboringstuff.com/) free book is the perfect track to follow. 
 
 You can [buy](https://nostarch.com/automatestuff) it too.
 
-In this free book, the first chapters of the book are addressed. After reading a chapter, **do the exercises**, trying to look for alternative solutions.
+This free book is meant for total beginners. 
+
+After reading a chapter, **do the exercises**, trying to look for alternative solutions.
 
 Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [chapter 4](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
 
