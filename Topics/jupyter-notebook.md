@@ -13,14 +13,11 @@ It's widely used in the Data Science process, in order to explore data, clean th
 
 
 # Index
- - [Why Jupyter Notebooks](#Why Jupyter Notebooks)
+ - [Why Jupyter Notebooks](#Why-Jupyter-Notebooks)
  - [Learn to use it](#Learn-to-use-it)
  - [Considerations](#Considerations)
  - [Tips and Tricks](#Tips-and-Tricks)
  - [Conclusions](#Conclusions)
-
-
-
 
 
 Let's dive right in!
