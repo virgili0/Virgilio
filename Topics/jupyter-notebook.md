@@ -17,6 +17,7 @@ It's widely used in the Data Science process, in order to explore data, clean th
  - [Learn to use it](#Learn-to-use-it)
  - [Considerations](#Considerations)
  - [Tips and Tricks](#Tips-and-Tricks)
+ - [Notebooks Examples](#Notebooks-Examples)
  - [Conclusions](#Conclusions)
 
 
@@ -77,6 +78,8 @@ You can conclude your learning of Jupyter with this simple read:
 
 You can also find an [Example Repository](https://github.com/jupyter-guide/ten-rules-jupyter) with a coherent and clean Jupyter Notebooks examples. 
 
+See also: [Awesome Jupyter](https://github.com/markusschanta/awesome-jupyter) for a very detailed list of Jupyter projects, libraries and resources.
+
 #### JupyterLab
 
 When you use a Jupyter Notebook you just have the skeleton of an IDE, as it is designed for prototyping and analysis. 
@@ -115,20 +118,37 @@ _In fact, putting models into production in the real world with Notebooks is a t
 
 There are even more extreme opinions, i.e. those who do not recommend their use at all, like Joel Grus in [**I don't like notebooks.**](https://www.youtube.com/watch?v=7jiPeIFXb6U)
 
+See also: [Pitfalls of Jupyter Notebooks](https://scicomp.aalto.fi/scicomp/jupyter-pitfalls.html), it can save you a lot of headache!
+
 We at Virgilio think that _they are not the extreme evil_ as Grus suggests, but they certainly do not encourage the principles of software engineering or code cleaning in general.
 
 That's why **it's crucial to know when to stop using the Notebook and start refactorizing the code into modular Python scripts**, which can then be conveniently used for purposes beyond exploration and experimentation.
 
 Check the [nbconvert](https://nbconvert.readthedocs.io/en/latest/) module, and see also: [How do I convert a IPython Notebook into a Python file via command line?](https://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline)
 
-
-
+Check the [nbdime](https://github.com/jupyter/nbdime), it provides tools for diffing and merging of Jupyter Notebooks.
 
 ### Tips and Tricks
+
+Like any other new tool you learn, there are often little tricks or conveniences hidden in the documentation that can really make life easier if you use the tool in question every day!
+
+The Jupyter Notebooks are no less, so here's to you a very detailed article on the tips and tricks of Jupyter!
+
+See [**Jupyter Notebook Tips, Tricks, and Shortcuts**](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+
+### Notebooks Examples
+
+Spread across the Web you can probably find hundreds of thousands of Jupyter Notebooks, but how do you navigate them all in an organized way?
+
+Luckily someone did this job before Virgil, and created this incredible resource:
+
+[**A gallery of interesting Jupyter Notebooks**](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
+
+Take your time and explore this rich repository, you will surely find something that interests you! 
+
 ### Conclusions
 
 You should now be fully aware of the various options you have to use the Jupyter Notebooks, both in their "basic" version, both within the JupyterLab IDE, and by exploiting the free power of Google thanks to the Colaboratory!
-
 
 ----
 Written by [_clone95_](https://github.com/clone95)
