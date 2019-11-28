@@ -19,13 +19,15 @@ None, welcome on board! :-)
   - [Prerequisites](#prerequisites)
   - [Time to complete](#time-to-complete)
 - [Index](#index)
-    - [Naming](#naming)
-    - [Definition](#definition)
+  - [Naming](#naming)
+  - [Definition](#definition)
   - [Machine Learning differences from the algorithmic approach](#machine-learning-differences-from-the-algorithmic-approach)
-        - [Img source: https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning](#img-source-httpsgithubcommahmoudparsiandata-algorithms-booktreemastersrcmainjavaorgdataalgorithmsmachinelearning)
+  - [Why use Machine Learning techniques](#why-use-machine-learning-techniques)
+  - [Conclusion](#conclusion)
+  
   - [Why use Machine Learning techniques](#why-use-machine-learning-techniques)
 
-### Naming
+## Naming
 
 The term Machine Learning is often confused with the term Artificial Intelligence (AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of Machine Learning (abbreviated to ML). 
 
@@ -44,7 +46,7 @@ More specifically, Virgilio will provide you guides to become experienced in the
 
 ![Figure 1-1](./sets.png) 
 
-### Definition
+## Definition
 
 A more engineering definition of **Machine Learning** is that given by Tom Mitchell:
 "A machine is learning from experience E with respect to task T and a metric of P, if its performance on T, measured with P, improves with experience E."
@@ -64,7 +66,7 @@ Additional sub-modules can have other specific neural networks trained to recogn
 
 ![Figure 1-2](./machine_learning.jpg) 
 
-##### Img source:  https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
+Img source:  https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
 
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism implies the possibility to understand which action is taken at each step and why. 
 It is important to note that there is no need of input data examples to produce the output considered correct.
@@ -137,11 +139,10 @@ In summary, Machine Learning techniques are appropriate for:
 
 - Get information about complex problems and discover patterns through large amounts of data.
 
+## Conclusion
 
 Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it. 
 You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
 If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
 
-------------------
 
-Written by [_clone95_](https://github.com/clone95)

@@ -92,15 +92,16 @@ Above these you’ll find a plenty of other useful zones:
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
 # Paradiso
-### [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
-### [What do I need for ML? ](Topics/prerequisites.md)
-### [Do you really need ML?](Topics/do_you_need_ml.md)
-### [ML use cases](Topics/use_cases.md) 
-### Project Management -  Coming soon!
-### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
-### [Introduction to ML](Topics/MLSystems.md)
+#### [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+#### [What do I need for ML? ](Topics/prerequisites.md)
+#### [Do you really need ML?](Topics/do_you_need_ml.md)
+#### [ML use cases](Topics/use_cases.md) 
+#### Project Management -  Coming soon!
+#### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
+#### [Introduction to ML](Topics/MLSystems.md)
 
 # Purgatorio
+
 #### Fundamentals
 ### [The Data Science Process](Topics/ds_process.md)
 #### Define The Scope and Ask Questions
@@ -112,6 +113,21 @@ Above these you’ll find a plenty of other useful zones:
 #### Deep Learning
 #### Evaluate and Fine-Tune 
 #### Launch and Mantain the System
+=======
+### Fundamentals
+#### [Math Fundamentals](Topics/math-fundamentals.md)
+#### [Statistics Fundamentals](Topics/statistics-fundamentals.md)
+#### [The Data Science Process](Topics/ds_process.md)
+### Define The Scope and Ask Questions
+#### [Frame The Problem](Topics/frame-the-problem.md)
+#### [Usage and Integration](Topics/usage-and-integration.md)
+#### [Starting a Data Project](Topics/starting-a-data-project.md)
+### Collect and Prepare Data
+### Select and Train a Machine Learning Model
+### Deep Learning
+### Evaluate and Fine-Tune 
+### Launch and Mantain the System
+
 
 - Coming soon!
 
