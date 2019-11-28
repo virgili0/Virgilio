@@ -77,6 +77,22 @@ You can conclude your learning of Jupyter with this simple read:
 
 You can also find an [Example Repository](https://github.com/jupyter-guide/ten-rules-jupyter) with a coherent and clean Jupyter Notebooks examples. 
 
+#### JupyterLab
+
+When you use a Jupyter Notebook you just have the skeleton of an IDE, as it is designed for prototyping and analysis. 
+
+But what if you want a full IDE, fully integrated with Jupyter?
+
+_[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) is the natural answer!_
+
+JupyterLab enables you to work with documents and activities such as Jupyter notebooks, text editors, terminals, and custom components in a flexible, integrated, and extensible manner.
+
+You can arrange multiple documents and activities side by side in the work area using tabs and splitters. Documents and activities integrate with each other, enabling new workflows for interactive computing.
+
+Here you have a [**deep tutorial about JupyterLab**](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)!
+
+#### Colaboratory
+
 Remember that the Jupyter Notebook is nothing more than an application that runs on our machine, and therefore has its own computational capabilities.
 
 An alternative possibility is to use [**Google Colaboratory**](https://colab.research.google.com/notebooks/welcome.ipynb).
@@ -91,6 +107,8 @@ With Colaboratory you can write and execute code, save and share your analyses, 
 
 ### Tips and Tricks
 ### Conclusions
+
+You should now be fully aware of the various options you have to use the Jupyter Notebooks, both in their "basic" version, both within the JupyterLab IDE, and by exploiting the free power of Google thanks to the Colaboratory!
 
 
 ----
