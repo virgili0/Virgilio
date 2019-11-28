@@ -91,6 +91,8 @@ You can arrange multiple documents and activities side by side in the work area 
 
 Here you have a [**deep tutorial about JupyterLab**](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)!
 
+If you like [VSCode](https://code.visualstudio.com/), you can [use Jupyter Notebooks inside it!](https://www.google.com/search?q=vscode+and+jupyter&oq=vscode+and+jupyter+&aqs=chrome..69i57j0l7.2617j0j7&sourceid=chrome&ie=UTF-8)
+
 #### Colaboratory
 
 Remember that the Jupyter Notebook is nothing more than an application that runs on our machine, and therefore has its own computational capabilities.
@@ -102,6 +104,23 @@ Colaboratory is a free Jupyter notebook environment that requires no setup and r
 With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser. 
 
 ### Considerations
+
+As we said from the beginning, Jupyter Notebooks are great for exploring data, doing analysis and building small prototypes, so you can quickly try many different approaches to the same problem.
+
+But beware! 
+
+You can't think that the final working system you built (presumably a Machine Learning model that makes predictions) is based entirely on a Jupyter Notebook!
+
+_In fact, putting models into production in the real world with Notebooks is a totally wrong practice_.
+
+There are even more extreme opinions, i.e. those who do not recommend their use at all, like Joel Grus in [**I don't like notebooks.**](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+
+We at Virgilio think that _they are not the extreme evil_ as Grus suggests, but they certainly do not encourage the principles of software engineering or code cleaning in general.
+
+That's why **it's crucial to know when to stop using the Notebook and start refactorizing the code into modular Python scripts**, which can then be conveniently used for purposes beyond exploration and experimentation.
+
+Check the [nbconvert](https://nbconvert.readthedocs.io/en/latest/) module, and see also: [How do I convert a IPython Notebook into a Python file via command line?](https://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline)
+
 
 
 
