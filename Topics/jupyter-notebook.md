@@ -25,7 +25,7 @@ Let's dive right in!
  
 ### Why Jupyter Notebooks
 
-[Jupyter notebooks](https://jupyter.org/) are a way of embedding ready-to-execute python code with markdown documentation, images, and other such things, all in one file, as well as a program for presenting and running them. 
+[Jupyter notebooks](https://jupyter.org/) are a way of embedding ready-to-execute Python, Julia and R code with markdown documentation, images, and other such things, all in one file, as well as a program for presenting and running them. 
 
 They're nice if you want to demonstrate a short script to another person, particularly in a data science context, because of some built-in plotting niceties and the fact that you can run cells of code individually. 
 
