@@ -32,7 +32,7 @@ There are hundreds of programming languages, mature as C and C++, or recent as R
 
 Choosing a programming language to learn is difficult. 
 
-There is no language that is the right answer to all possible problems, but Python is a good choice in many cases and is also well positioned for those who learn to program. 
+There is no language that can solve all the possible problems out there (it's not a one-shirt-fits-all solution), _but Python is a good choice in many cases_ and is also well positioned for those who learn to program. 
 
 Python [was born](https://en.wikipedia.org/wiki/Python_(programming_language)) thinking "I want a programming language that is as close as possible to plain English". So, most of the time, when you don't know the name of something, just try to think about the plain literal English name of that thing, and probably the Python name will be that one!  
 
@@ -41,11 +41,18 @@ world and their numbers are growing all the time.
 
 There are many reasons for this success.
 
+- Python is intuitive, you think of a way to solve a problem and you can express it that way and it works most of the time.
+
 - Python works everywhere, whether Windows, Linux/UNIX, Mac or other, from supercomputers to mobile phones. 
 
 - It allows you to develop small applications and fast prototypes but is structured for creating large programs.
 
 - It is equipped with an easy to use graphical user interface, libraries for web programming. Best of all, it's free.
+
+- There is a large and ever-growing community of Python developers starting from academia, research all the way to business and everyday hobbyists taking up Python.
+
+- You can create and prototype things very quickly due to the ease of the language and availability of free libraries, packages and frameworks.
+
 
 Why do you need to learn Python? 
 
@@ -74,7 +81,7 @@ _It makes no sense to learn two programming languages at the same time._
 
 _It's a waste of time and energy, and it just creates confusion._ 
 
-Not to mention that while a Python is the undisputed king of scientific computing in general, and **it is not acceptable that a Data Scientist does not know it**, R is not as widespread and used does not have the same support that Python has and its amount of useful libraries.
+Not to mention that while Python is the undisputed king of scientific computing in general, and **it is not acceptable that a Data Scientist does not know it**, R is not as widespread or widely used and it does not have the same support that Python has and also due to the large cache of useful libraries.
 
 What does this mean? that R is useless? Certainly not! 
 
@@ -100,7 +107,7 @@ But it's true that the more you know, the better!
 
 On the other hand, we remember that Data Science is nothing more than mathematics and statistics, **applied through programming!** 
 
-So, it's worth spending time becoming very comfortable with it.
+So, it's worth spending time becoming very comfortable with Python.
 
 ### Learn Python 
 
@@ -112,11 +119,13 @@ You can [buy](https://nostarch.com/automatestuff) it too.
 
 This free book is meant for total beginners. 
 
+The first chapter of the book will explain to you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
+
 After reading a chapter, **do the exercises**, trying to look for alternative solutions.
 
-Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve the more exercises you can, depending on the topic you just learned in the book (for example, after [Chapter 4 - Lists in Python](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
+Once you finish a chapter, go to the [W3School](https://www.w3schools.com/python/python_exercises.asp) website and try to solve as many exercises you can, depending on the topic you just learned in the book (for example, after [Chapter 4 - Lists in Python](https://automatetheboringstuff.com/chapter4/), you want to tackle the [Exercises on Lists on W3School](https://www.w3schools.com/python/python_lists.asp)).
 
-The first chapter of the book will explain to you how to install Python (the interpreter of the code you will write) and the Python IDLE (a development environment that will simplify your coding life).
+For additional Python resources, check [this link](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/Programming-in-Python.md#basics--learning)!
 
 #### Coding Challenges
 
@@ -139,7 +148,7 @@ Try both, and read [here](https://www.reddit.com/r/Python/comments/8u0hl6/vs_cod
 
 In order to become proficient with Python (like every programming language or technology), you must become comfortable with the [**official Python documentation**](https://docs.python.org/3.7/).
 
-Starting walking around inside the documentation as a beginner is a really good practice, even if a lot of things will be unclear. In fact, be able to explore the documentation of something is the key to learn it autonomously.
+Working through the documentation as a beginner is a really good practice, even if a lot of things will be unclear. In fact, be able to explore the documentation of something is the key to learn it autonomously.
 
 [Here](http://blog.techtalentsouth.com/8-tips-to-reading-documentation-a-newbies-guide) you have some tips to read documentations effectively.
 
@@ -148,19 +157,25 @@ Starting walking around inside the documentation as a beginner is a really good 
 You _should_ fall in love with [**StackOverflow**](https://stackoverflow.com/), a question-answer website about programming in general.
 Read [How can I use Stack Overflow effectively as a beginner?](https://www.quora.com/How-can-I-use-Stack-Overflow-effectively-as-a-beginner) and be ready to become grateful to awesome people around the world who answer questions daily on the website.
 
+#### Hold your Cheatsheet
+
+Here you can find a very good Python Cheatsheet, hold it with you!
+
+[**Python Cheatsheet**](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_all.pdf)
+
 ### Develop Small Projects
 
-First of all: [**Read this post from r/LearnProgramming**](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/), and stare it in your mind!
+First of all: [**Read this post from r/LearnProgramming**](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/), and let it sink into your mind
 
-**The biggest lesson in the world of programming is the following: there is no better lesson than getting your hands dirty!**
+**The biggest lesson in the world of programming is the following: the best way to learn is getting your hands dirty!**
 
-Of course, to start with it makes sense to follow tutorials and guides (better still a structured book), but you need to experiment, make mistakes, and re-iterate this process to **can really improve** in your coding skills.
+Of course, to start with it makes sense to follow tutorials and guides (better still a structured book), but you need to experiment, make mistakes, and re-iterate this process to **to be really able to improve** your coding skills.
 
-Once you are done with the book "Automate the Boring Stuff", jump in a small project and develop it by yourself! 
+Once you are done with the book [Automate the Boring Stuff](https://automatetheboringstuff.com/), start a small project and develop it by yourself! 
 
 The best case is that you find a topic or a task in which you have an interest, and tackle it! 
 
-If you lack imagination don't worry, here you have a list of + 1000 project ideas you can develop in Python :)
+If you lack imagination don't worry, here you have a list of 1000+ project ideas you can develop in Python :)
 
 - [1000+ Beginner Programming Projects](https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/)
 
@@ -168,7 +183,7 @@ Having a project keeps you motivated, don't underestimate it!
 
 ### Learn Git and GitHub
 
-Git is a versioning system that allows you to always have under control every change in your code, be able to go back, and be sure that your code will never be lost!
+Git is a versioning system that allows you to always have every change in your code under control, be able to go back, and be sure that your code will never be lost!
 
 Git is defined as **Distributed Version Control System**: What does it mean?
 
@@ -178,7 +193,7 @@ From [this article](https://www.freecodecamp.org/news/what-is-git-and-how-to-use
 
 - Version Control System: The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges, which I will be covering later.
 
-- Distributed Version Control System: Git has a remote repository that is stored in a server and a local repository that is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer. I will explain the concept of remote and local repositories later in this article.
+- Distributed Version Control System: Git has a remote repository that is stored in a server and a local repository that is stored on your local machine. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer.
 
 _Any existing software project that is not under version control is considered a dead project, and the responsible developers are considered crazy._
 
