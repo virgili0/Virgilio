@@ -117,7 +117,8 @@ Above these you’ll find a plenty of other useful zones:
 ### Fundamentals
 #### [Math Fundamentals](Topics/math-fundamentals.md)
 #### [Statistics Fundamentals](Topics/statistics-fundamentals.md)
-#### [Python Fundamentals](Topics/python-fundamentals.md	)
+#### [Python Fundamentals](Topics/python-fundamentals.md)
+#### [Jupyter Notebook](Topics/jupyter-notebook.md)
 #### [The Data Science Process](Topics/ds_process.md)
 ### Define The Scope and Ask Questions
 #### [Frame The Problem](Topics/frame-the-problem.md)
