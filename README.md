@@ -25,9 +25,9 @@ Have you ever got confused because of the several and contradicting names for th
 
 I want to address these critical problems for free, for everyone. It’s not a joke.
 
-Hi, I'm [Virgilio](https://it.wikipedia.org/wiki/Publio_Virgilio_Marone).
+Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil).
 
-Like I did with [Dante](https://it.wikipedia.org/wiki/Dante_Alighieri), just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more.
+Like I did with [Dante](https://en.wikipedia.org/wiki/Dante_Alighieri), just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more.
 
 The vision of Virgilio is to give everyone the possibility to get into the incredible world of the Data Science and the business and creative possibilities that it offers, to get self-started as a practitioner, gain new cutting edge practical skills or just learn to discriminate good information from poor information.
 
@@ -51,7 +51,7 @@ There are different scenarios:
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
 
-To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://it.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 d.c.
+To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 d.c.
 
 Dante’s journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
 
