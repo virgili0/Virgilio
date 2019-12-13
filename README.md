@@ -1,6 +1,10 @@
-![](https://img.shields.io/github/forks/virgili0/Virgilio.svg?style=plastic)
-![](https://img.shields.io/github/issues/virgili0/Virgilio.svg?style=plastic)
-![](https://img.shields.io/github/stars/virgili0/Virgilio.svg?style=plastic)
+# *Virgilio*
+#### Your new Mentor for Data Science E-Learning.
+
+Join our community: &nbsp; <img height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/> <img height="24px" src="https://img.shields.io/badge/discord-250%20online%20users-green.svg?style=flat-square"/> <img height="24px" src="https://img.shields.io/badge/newsletter-25K%20subscribers-yellow.svg?style=flat-square" />
+
+<br>
+
 ![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
 
 # Future Map  
@@ -179,4 +183,4 @@ Virgilio was born as a side project just this April, and at the very beginning i
 
 
 # [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
-# If you like Virgilio, [**FILL THIS FORM**](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform?usp=send_form) and I'll contact you whenever a new free guide comes out.
+# If you like Virgilio, [**FILL THIS FORM**]() and I'll contact you whenever a new free guide comes out.
