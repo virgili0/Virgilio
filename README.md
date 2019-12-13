@@ -5,19 +5,29 @@ Join our community: &nbsp; <img height="24px" src="https://img.shields.io/badge/
 
 <br>
 
-![Figure 1-1](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map_final.png "1") 
+> INTRO TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-# Future Map  
+<div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
-![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.PNG "1") 
+<br>
 
+### Table of Contents
 
+- [*What* is Virgilio](#what-is-virgilio)
+  + [Structure](#structure)
+- [Paradiso](#paradiso)
+- [Purgatorio](#purgatorio)
+- [Inferno](#inferno)
+- [New To Data Science?](#new-to-data-science-)
+- [Complete Learning Paths](#complete-learning-paths)
+- [Skills](#skills)
+- [Tools](#tools)
+- [Topics](#topics)
+  * [High Level Topics](#high-level-topics)
+  * [Low Level Topics](#low-level-topics)
+- [Research](#research)
+- [Contribute](#contribute)
 
-# Towards the new Virgilio map
-In the image above you can see the roadmap of the new version of Virgilio. For now just use the old organization of the project at the end of this page. 
-
-# Contributing to Virgilio
-Do you think that you can help in building the above future map? **Check** [**here**](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and send and e-mail to giacomo.ciarlini@student.unife.it or text on Telegram to @Clone95.
 
 # What is Virgilio?
 Studying and reading through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
@@ -51,7 +61,9 @@ There are different scenarios:
 - A businessman who wants to understand if his data are suitable for an ML project, and what could be the real business value.
 - A salesman who needs to stay up-to-date with the latest technologies and Jargon.
 
-## Structure of Virgilio
+## Structure
+
+![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.PNG "1") 
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
 
@@ -95,92 +107,98 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
-# Paradiso
-#### [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
-#### [What do I need for ML? ](Topics/prerequisites.md)
-#### [Do you really need ML?](Topics/do_you_need_ml.md)
-#### [ML use cases](Topics/use_cases.md) 
-#### Project Management -  Coming soon!
-#### [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
-#### [Introduction to ML](Topics/MLSystems.md)
+## Paradiso
 
-# Purgatorio
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+- [What do I need for ML? ](Topics/prerequisites.md)
+- [Do you really need ML?](Topics/do_you_need_ml.md)
+- [ML use cases](Topics/use_cases.md) 
+- Project Management -  Coming soon!
+- [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
+- [Introduction to ML](Topics/MLSystems.md)
 
-### Fundamentals
-#### [Math Fundamentals](Topics/math-fundamentals.md)
-#### [Statistics Fundamentals](Topics/statistics-fundamentals.md)
-#### [Python Fundamentals](Topics/python-fundamentals.md)
-#### [Jupyter Notebook](Topics/jupyter-notebook.md)
-#### [The Data Science Process](Topics/ds_process.md)
-### Define The Scope and Ask Questions
-#### [Frame The Problem](Topics/frame-the-problem.md)
-#### [Usage and Integration](Topics/usage-and-integration.md)
-#### [Starting a Data Project](Topics/starting-a-data-project.md)
-### Collect and Prepare Data
-### Select and Train a Machine Learning Model
-### Deep Learning
-### Evaluate and Fine-Tune 
-### Launch and Mantain the System
+## Purgatorio
+
+- Fundamentals
+  + [Math Fundamentals](Topics/math-fundamentals.md)
+  + [Statistics Fundamentals](Topics/statistics-fundamentals.md)
+  + [Python Fundamentals](Topics/python-fundamentals.md)
+  + [Jupyter Notebook](Topics/jupyter-notebook.md)
+- [The Data Science Process](Topics/ds_process.md)
+  + Define The Scope and Ask Questions
+  + [Frame The Problem](Topics/frame-the-problem.md)
+  + [Usage and Integration](Topics/usage-and-integration.md)
+  +[Starting a Data Project](Topics/starting-a-data-project.md)
+  + Collect and Prepare Data
+  + Select and Train a Machine Learning Model
+  + Deep Learning
+  + Evaluate and Fine-Tune 
+  + Launch and Mantain the System
 
 
 - Coming soon!
 
-# Inferno
+## Inferno
 - Coming soon!
 
-## Old version of Virgilio
 
-Virgilio was born as a side project just this April, and at the very beginning it was not meant to become what it is now! Because of that we're holding the old organization of Virgilio too (for a while).
+## New To Data Science?
 
-# New To Data Science?
-### [Basic Python](NewToDataScience/PythonBasic.md)
-### [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
-### Advanced Python  --  Coming Soon
-### Advanced Math  --  Coming Soon
-### [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
-### Math for Data Science  --  Coming Soon
+- [Basic Python](NewToDataScience/PythonBasic.md)
+- [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
+- Advanced Python  --  Coming Soon
+- Advanced Math  --  Coming Soon
+- [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
+- Math for Data Science  --  Coming Soon
 
-# Complete Learning Paths
-## [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
+## Complete Learning Paths
 
-# Skills
-## [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
-## Data Collection  -- Coming Soon
-## [Data Visualization](Specializations/HardSkills/DataVisualization.md)
+- [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
 
-## Effective Communication -- Coming Soon
-## [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
-## Pragmatic Decision Making  -- Coming Soon
+## Skills
 
-# Tools
-### [Latex](Tools/Latex.md)
-### [Wolfram Alpha](Tools/WolframAlpha.md)
-### [GeoGebra](Tools/GeoGebra.md)
-### [RegeX](Tools/Regex.ipynb)
-### [MLDemos](Tools/MLDemos/README.md)
-### A Lot More Coming Soon!
+- [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
+- Data Collection  -- Coming Soon
+- [Data Visualization](Specializations/HardSkills/DataVisualization.md)
 
-# Topics
-## High Level Topics
-### [1 - Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
-### [2 - Introduction to ML systems](Topics/MLSystems.md)
-### [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
-### [What do I need for ML? ](Topics/prerequisites.md)
-### [Do you really need ML?](Topics/do_you_need_ml.md)
-### [ML use cases](Topics/use_cases.md) 
-### [Learning how to learn](Topics/teaching.md)
+- Effective Communication -- Coming Soon
+- [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
+- Pragmatic Decision Making  -- Coming Soon
 
-## Low Level Topics
-### [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
-### [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
-### [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
-### [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
-### [Object Tracking based on Deep Learning](Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
+## Tools
+- [Latex](Tools/Latex.md)
+- [Wolfram Alpha](Tools/WolframAlpha.md)
+- [GeoGebra](Tools/GeoGebra.md)
+- [RegeX](Tools/Regex.ipynb)
+- [MLDemos](Tools/MLDemos/README.md)
+- A Lot More Coming Soon!
 
-# Research
-### [Zotero](Research/Zotero.md)
-### [State-of-Art Papers Explained](Research/Papers.md)
+## Topics
+
+### High Level Topics
+
+- [1 - Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
+- [2 - Introduction to ML systems](Topics/MLSystems.md)
+- [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
+- [What do I need for ML? ](Topics/prerequisites.md)
+- [Do you really need ML?](Topics/do_you_need_ml.md)
+- [ML use cases](Topics/use_cases.md) 
+- [Learning how to learn](Topics/teaching.md)
+
+### Low Level Topics
+
+- [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
+- [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
+- [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
+- [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
+- [Object Tracking based on Deep Learning](Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
+
+## Research
+
+- [Zotero](Research/Zotero.md)
+-  [State-of-Art Papers Explained](Research/Papers.md)
 
 
-# [SUBSCRIBE TO THIS FACEBOOK GROUP WHERE WE POST NEWS AND UPDATES](https://www.facebook.com/groups/mathfordatascience/)
-# If you like Virgilio, [**FILL THIS FORM**]() and I'll contact you whenever a new free guide comes out.
+## Contribute
+
+That's awesome! Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
