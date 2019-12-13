@@ -1,11 +1,12 @@
 # *Virgilio*
+
 #### Your new Mentor for Data Science E-Learning.
 
-Join our community: &nbsp; <img height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/> <img height="24px" src="https://img.shields.io/badge/discord-250%20online%20users-green.svg?style=flat-square"/> <img height="24px" src="https://img.shields.io/badge/newsletter-25K%20subscribers-yellow.svg?style=flat-square" />
+Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330) [<img height="24px" src="https://img.shields.io/badge/discord-50%20online%20users-green.svg?style=flat-square"/>](https://discord.gg/UpQ8bb7) [<img height="24px" src="https://img.shields.io/badge/newsletter-500%20subscribers-yellow.svg?style=flat-square"/>](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform)
 
 <br>
 
-> INTRO TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
 
 <div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
@@ -26,10 +27,12 @@ Join our community: &nbsp; <img height="24px" src="https://img.shields.io/badge/
   * [High Level Topics](#high-level-topics)
   * [Low Level Topics](#low-level-topics)
 - [Research](#research)
+- [License](#license)
 - [Contribute](#contribute)
 
 
 # What is Virgilio?
+
 Studying and reading through the Internet means swimming in an infinite jungle of chaotic information, even more so in rapidly changing innovative fields. 
 
 Have you ever felt overwhelmed when trying to approach Data Science without a real “path” to follow? 
@@ -62,6 +65,8 @@ There are different scenarios:
 - A salesman who needs to stay up-to-date with the latest technologies and Jargon.
 
 ## Structure
+
+> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. That's why you see other categories after Inferno. Please be patient while we make Virgilio more awesome!
 
 ![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.PNG "1") 
 
@@ -135,12 +140,9 @@ Above these you’ll find a plenty of other useful zones:
   + Evaluate and Fine-Tune 
   + Launch and Mantain the System
 
-
-- Coming soon!
-
 ## Inferno
-- Coming soon!
 
+WIP
 
 ## New To Data Science?
 
@@ -160,12 +162,12 @@ Above these you’ll find a plenty of other useful zones:
 - [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
 - Data Collection  -- Coming Soon
 - [Data Visualization](Specializations/HardSkills/DataVisualization.md)
-
 - Effective Communication -- Coming Soon
 - [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
 - Pragmatic Decision Making  -- Coming Soon
 
 ## Tools
+
 - [Latex](Tools/Latex.md)
 - [Wolfram Alpha](Tools/WolframAlpha.md)
 - [GeoGebra](Tools/GeoGebra.md)
@@ -196,9 +198,14 @@ Above these you’ll find a plenty of other useful zones:
 ## Research
 
 - [Zotero](Research/Zotero.md)
--  [State-of-Art Papers Explained](Research/Papers.md)
+- [State-of-Art Papers Explained](Research/Papers.md)
 
 
-## Contribute
+### License
+
+The project is licensed under the [GPLv3 terms](LICENSE.md).
+
+
+### Contribute
 
 That's awesome! Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
