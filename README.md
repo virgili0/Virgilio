@@ -117,7 +117,7 @@ Above these you’ll find a plenty of other useful zones:
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
 - [What do I need for ML? ](Topics/prerequisites.md)
 - [Do you really need ML?](Topics/do_you_need_ml.md)
-- [ML use cases](Topics/use_cases.md) 
+- [ML use cases](Topics/use-cases.md) 
 - Project Management -  Coming soon!
 - [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
 - [Introduction to ML](Topics/MLSystems.md)
@@ -184,7 +184,7 @@ WIP
 - [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
 - [What do I need for ML? ](Topics/prerequisites.md)
 - [Do you really need ML?](Topics/do_you_need_ml.md)
-- [ML use cases](Topics/use_cases.md) 
+- [ML use cases](Topics/use-cases.md) 
 - [Learning how to learn](Topics/teaching.md)
 
 ### Low Level Topics
