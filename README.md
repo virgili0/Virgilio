@@ -40,13 +40,13 @@ Are you tired of clicking “Run”, “Run”, “Run”.. on a Jupyter Noteboo
 
 Have you ever got confused because of the several and contradicting names for the same algorithm or approach, from different websites and fragmented tutorials? 
 
-I want to address these critical problems for free, for everyone. It’s not a joke.
+We will address these critical issues for free, for everyone.
 
 Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil).
 
-Like I did with [Dante](https://en.wikipedia.org/wiki/Dante_Alighieri), just some centuries ago, I'll be your mentor and reference point during your journey through the Internet, providing you complete and organic learning paths for several fields, tools, skills and more.
+Like I did with *[Dante](https://en.wikipedia.org/wiki/Dante_Alighieri)*, just some centuries ago, I'll be your mentor and reference point during your journey through this *selva oscura*, providing you complete and organic learning paths for several fields, tools, skills and more.
 
-The vision of Virgilio is to give everyone the possibility to get into the incredible world of the Data Science and the business and creative possibilities that it offers, to get self-started as a practitioner, gain new cutting edge practical skills or just learn to discriminate good information from poor information.
+The vision of Virgilio is to give everyone the possibility to get into the incredible world of the Data Science and Machine Learning and the business and creative possibilities that they offer, to get self-started as a practitioner, gain new cutting edge practical skills or just learn to discriminate good information from poor information.
 
 We are doing this by providing only high-quality and coherent content, with clear step-by-step paths and a consistent naming system.
 Imagine Virgilio as an E-Mentor who will tell you what do to get the next step, the next skill, or to apply them in practice to create value.
@@ -57,18 +57,18 @@ In other words, what's the **target** of the Virgilio project?
 
 There are different scenarios:
 
-- A student from a different field who wants to explore the intersections and the possibilities offered by the Machine Learning and Statistical methods.
-- A curious individual who came in touch with one of the buzzwords related to these fields and wants to discriminate between reliable and unreliable information.
-- An experienced practitioner who wants to have a reference point for the latest techniques, papers and best practices.
-- A manager who wants to understand the possibilities of ML applied to their actual problems, like integration with production systems or new solutions from scratch.
-- A businessman who wants to understand if his data are suitable for an ML project, and what could be the real business value.
-- A salesman who needs to stay up-to-date with the latest technologies and Jargon.
+- A *student* from a different field who wants to explore the intersections and the possibilities offered by the Machine Learning and Statistical methods.
+- A *curious individual* who came in touch with one of the buzzwords related to these fields and wants to discriminate between reliable and unreliable information.
+- An *experienced practitioner* who wants to have a reference point for the latest techniques, papers and best practices.
+- A *manager* who wants to understand the possibilities of ML applied to their actual problems, like integration with production systems or new solutions from scratch.
+- A *businessman* who wants to understand if his data are suitable for an ML project, and what could be the real business value.
+- A *salesman* who needs to stay up-to-date with the latest technologies and Jargon.
 
 ## Structure
 
 > WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. That's why you see other categories after Inferno. Please be patient while we make Virgilio more awesome!
 
-![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/map.PNG "1") 
+![Figure 1](map.png "1") 
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
 
@@ -82,7 +82,7 @@ In your journey, you will start from scratch and eventually reach the theoretica
 
 The parallelism is natural:
 
-![Figure 2-2](https://raw.github.com/clone95/Data-Science-Study-Paths-March-2019/master/order.png "1") 
+![Figure 2](order.png "1") 
 
 _Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
 
@@ -118,7 +118,7 @@ Above these you’ll find a plenty of other useful zones:
 - [What do I need for ML? ](Topics/prerequisites.md)
 - [Do you really need ML?](Topics/do_you_need_ml.md)
 - [ML use cases](Topics/use-cases.md) 
-- Project Management -  Coming soon!
+- Project Management
 - [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
 - [Introduction to ML](Topics/MLSystems.md)
 
@@ -148,10 +148,10 @@ WIP
 
 - [Basic Python](NewToDataScience/PythonBasic.md)
 - [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
-- Advanced Python  --  Coming Soon
-- Advanced Math  --  Coming Soon
+- Advanced Python
+- Advanced Math
 - [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
-- Math for Data Science  --  Coming Soon
+- Math for Data Science
 
 ## Complete Learning Paths
 
@@ -160,11 +160,11 @@ WIP
 ## Skills
 
 - [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
-- Data Collection  -- Coming Soon
+- Data Collection
 - [Data Visualization](Specializations/HardSkills/DataVisualization.md)
-- Effective Communication -- Coming Soon
+- Effective Communication
 - [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
-- Pragmatic Decision Making  -- Coming Soon
+- Pragmatic Decision Making
 
 ## Tools
 
@@ -173,7 +173,6 @@ WIP
 - [GeoGebra](Tools/GeoGebra.md)
 - [RegeX](Tools/Regex.ipynb)
 - [MLDemos](Tools/MLDemos/README.md)
-- A Lot More Coming Soon!
 
 ## Topics
 
