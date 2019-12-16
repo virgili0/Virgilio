@@ -14,7 +14,7 @@ it would be appropriate to have read before:
 - [Demystification about AI and ML](Demystification.md)
 - [What do you need for ML](prerequisites.md)
 
-## Time to complete
+## Time to read
 15 minutes.
 
 # Index
