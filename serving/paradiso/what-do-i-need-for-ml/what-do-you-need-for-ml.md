@@ -1,10 +1,10 @@
 ---
-title: **What** do you need to do Machine Learning?
+title: What do I need to do Machine Learning?
 author: clone95
-description: Clarify the jargon and the ideas behind Artificial Intelligence and Machine Learning. Describe what their applications and potential are.
+description: Clarify which elements do you need to get started with Machine Learning
 ---
 
-# **What** do you need to do Machine Learning?
+# **What** do I need to do Machine Learning?
 
 # What you will learn 
 In this guide you will learn which elements do you need to get started with Machine Learning.
