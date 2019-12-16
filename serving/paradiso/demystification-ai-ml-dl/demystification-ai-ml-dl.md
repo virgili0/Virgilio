@@ -14,7 +14,7 @@ You will learn to distinguish hype from reality.
 ## Prerequisites
 None, welcome on board! :-)
 
-## Time to complete
+## Time to read
 20 minutes.
 
 # Index
