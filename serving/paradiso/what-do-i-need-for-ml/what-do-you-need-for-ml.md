@@ -1,5 +1,10 @@
-# **What** do I need to do Machine Learning?
+---
+title: **What** do you need to do Machine Learning?
+author: clone95
+description: Clarify the jargon and the ideas behind Artificial Intelligence and Machine Learning. Describe what their applications and potential are.
+---
 
+# **What** do you need to do Machine Learning?
 
 # What you will learn 
 In this guide you will learn which elements do you need to get started with Machine Learning.
@@ -16,7 +21,7 @@ These elements enable you to practice machine learning first-hand (small scale) 
 ## Prerequisites
 Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
 
-## Time to complete
+## Time to read
 Approximately 45 minutes. Less than a Netflix episode!
 
 # Index
