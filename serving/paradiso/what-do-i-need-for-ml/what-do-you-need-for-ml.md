@@ -22,7 +22,7 @@ These elements enable you to practice machine learning first-hand (small scale) 
 Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
 
 ## Time to read
-Approximately 45 minutes. Less than a Netflix episode!
+10 minutes.
 
 # Index
 - [The three elements](#The-three-elements)
