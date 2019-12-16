@@ -12,7 +12,7 @@ The following paragraphs aim to introduce in more detail how an ML system can pr
 ## Prerequisites
 [Demystification of AI, ML, DL](../demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 
-## Time to complete
+## Time to read
 20 minutes.
 
 # Index
