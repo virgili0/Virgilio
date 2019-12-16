@@ -1,3 +1,9 @@
+---
+title: Demystification of the key concepts of AI and ML
+author: clone95
+description: Clarify the jargon and the ideas behind Artificial Intelligence and Machine Learning. Describe what their applications and potential are.
+---
+
 # What is Artificial Intelligence, Machine Learning and Deep Learning
 
 # What you will learn 
@@ -101,10 +107,6 @@ In summary, Machine Learning techniques are appropriate for:
 - Get information about complex problems and discover patterns through large amounts of data.
 
 
-Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it. 
+Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it.
+
 You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
-If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
-
-------------------
-
-Written by [_clone95_](https://github.com/clone95)

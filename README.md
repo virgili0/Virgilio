@@ -26,7 +26,6 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Topics](#topics)
   * [High Level Topics](#high-level-topics)
   * [Low Level Topics](#low-level-topics)
-- [Research](#research)
 - [License](#license)
 - [Contribute](#contribute)
 
@@ -49,9 +48,10 @@ Like I did with *[Dante](https://en.wikipedia.org/wiki/Dante_Alighieri)*, just s
 The vision of Virgilio is to give everyone the possibility to get into the incredible world of the Data Science and Machine Learning and the business and creative possibilities that they offer, to get self-started as a practitioner, gain new cutting edge practical skills or just learn to discriminate good information from poor information.
 
 We are doing this by providing only high-quality and coherent content, with clear step-by-step paths and a consistent naming system.
+
 Imagine Virgilio as an E-Mentor who will tell you what do to get the next step, the next skill, or to apply them in practice to create value.
 
-But what does it mean in practice? 
+**But what does it mean in practice?**
 
 In other words, what's the **target** of the Virgilio project?
 
@@ -142,7 +142,9 @@ Above these you’ll find a plenty of other useful zones:
 
 ## Inferno
 
-WIP
+- [State-of-Art Papers Explained](Research/Papers.md)
+
+---
 
 ## New To Data Science?
 
@@ -178,13 +180,7 @@ WIP
 
 ### High Level Topics
 
-- [1 - Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
-- [2 - Introduction to ML systems](Topics/MLSystems.md)
-- [3 - Introduction to Artificial Neural Networks](Topics/ANN.md)
-- [What do I need for ML? ](Topics/prerequisites.md)
-- [Do you really need ML?](Topics/do_you_need_ml.md)
-- [ML use cases](Topics/use-cases.md) 
-- [Learning how to learn](Topics/teaching.md)
+- [Introduction to Artificial Neural Networks](Topics/ANN.md)
 
 ### Low Level Topics
 
@@ -194,11 +190,6 @@ WIP
 - [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
 - [Object Tracking based on Deep Learning](Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
 
-## Research
-
-- [Zotero](Research/Zotero.md)
-- [State-of-Art Papers Explained](Research/Papers.md)
-
 
 ### License
 
@@ -207,4 +198,6 @@ The project is licensed under the [GPLv3 terms](LICENSE.md).
 
 ### Contribute
 
-That's awesome! Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
+That's awesome!
+
+Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
