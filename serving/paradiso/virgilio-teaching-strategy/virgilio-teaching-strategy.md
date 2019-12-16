@@ -1,3 +1,8 @@
+---
+title: Learning to Learn
+author: clone95
+description: Give learning advices, best practice in using online resources and time management tips.
+---
 
 # Virgilio's Learning Strategy - Learning to Learn
 
@@ -14,7 +19,7 @@ The guide is built using these relevant materials as well as the personal experi
 ## Prerequisites
 It is recommended to read all the Paradise guides prior to this one.
 
-## Time to complete
+## Time to read
 30 minutes.
 
 # Index
