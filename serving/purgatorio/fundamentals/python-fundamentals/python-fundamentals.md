@@ -1,3 +1,9 @@
+---
+title: Python Fundamentals
+author: clone95
+description: Learn Python, the powerful scientific programming language that is the de fact standard in the field of Data Science.
+---
+
 # Python Fundamentals
 
 # What you will learn 
@@ -7,7 +13,7 @@ In this guide you'll learn the basics concepts computer science and programming,
 ## Prerequisites
 None.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index
