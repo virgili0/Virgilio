@@ -1,3 +1,9 @@
+---
+title: Frame the Problem
+author: clone95
+description: Understand which kind of problem you want to solve and define the scope of the project. 
+---
+
 # Frame the problem
 
 # What you will learn 
@@ -16,7 +22,7 @@ _Do not underestimate this phase at all_, it is perhaps the most important of an
 ## Prerequisites
 The previous Purgatorio's guides.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index
