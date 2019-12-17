@@ -1,3 +1,10 @@
+---
+title: The Data Science Process
+author: clone95
+description: Learn what are the phases of the Data Science process, and how we built the Purgatorio.
+---
+
+
 # The Data Science Process 
 
 # What you will learn 
@@ -8,7 +15,7 @@ steps to perform during your projects.
 ## Prerequisites
 There are no prerequisites for this guide.
 
-## Time to complete
+## Time to read
 20 minutes.
 
 # Index
