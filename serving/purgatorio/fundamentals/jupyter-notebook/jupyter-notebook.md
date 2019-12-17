@@ -1,3 +1,9 @@
+---
+title: Jupyter Notebook
+author: clone95
+description: Learn how to use the Jupyter Notebook, the most popular application for Data Science.
+---
+
 # Jupyter Notebook
 
 # What you will learn 
@@ -8,7 +14,7 @@ It's widely used in the Data Science process, in order to explore data, clean th
 ## Prerequisites
 - [Python Fundamentals](python-fundamentals.md)
 
-## Time to complete
+## Time to read
 5 minutes.
 
 
