@@ -1,5 +1,10 @@
-# **What** do I need to do Machine Learning?
+---
+title: What do I need to do Machine Learning?
+author: clone95
+description: Clarify which elements do you need to get started with Machine Learning
+---
 
+# **What** do I need to do Machine Learning?
 
 # What you will learn 
 In this guide you will learn which elements do you need to get started with Machine Learning.
@@ -16,8 +21,8 @@ These elements enable you to practice machine learning first-hand (small scale) 
 ## Prerequisites
 Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
 
-## Time to complete
-Approximately 45 minutes. Less than a Netflix episode!
+## Time to read
+10 minutes.
 
 # Index
 - [The three elements](#The-three-elements)

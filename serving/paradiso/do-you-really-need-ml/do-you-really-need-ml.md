@@ -1,3 +1,8 @@
+---
+title: Do you really need Machine Learning?
+author: clone95
+description: Understand for which kind of problems it makes sense to use Machine Learning, and which ones can be solved in a simpler way.
+---
 
 # Do you really need Machine Learning?
 
@@ -9,7 +14,7 @@ it would be appropriate to have read before:
 - [Demystification about AI and ML](Demystification.md)
 - [What do you need for ML](prerequisites.md)
 
-## Time to complete
+## Time to read
 15 minutes.
 
 # Index
