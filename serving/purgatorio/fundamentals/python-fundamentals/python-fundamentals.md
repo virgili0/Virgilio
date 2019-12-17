@@ -1,7 +1,7 @@
 ---
 title: Python Fundamentals
 author: clone95
-description: Learn Python, the powerful scientific programming language that is the de fact standard in the field of Data Science.
+description: Learn Python, the powerful scientific programming language that is the _de facto standard_ in the field of Data Science.
 ---
 
 # Python Fundamentals
