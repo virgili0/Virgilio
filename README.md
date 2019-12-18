@@ -165,51 +165,9 @@ Above these you’ll find a plenty of other useful zones:
 - Massive Computation
 - Machine Learning for Business Applications
 
-
-## New To Data Science?
-
-- [Basic Python](NewToDataScience/PythonBasic.md)
-- [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
-- Advanced Python
-- Advanced Math
-- [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
-- Math for Data Science
-
 ## Complete Learning Paths
 
 - [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
-
-## Skills
-
-- [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
-- Data Collection
-- [Data Visualization](Specializations/HardSkills/DataVisualization.md)
-- Effective Communication
-- [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
-- Pragmatic Decision Making
-
-## Tools
-
-- [Latex](Tools/Latex.md)
-- [Wolfram Alpha](Tools/WolframAlpha.md)
-- [GeoGebra](Tools/GeoGebra.md)
-- [RegeX](Tools/Regex.ipynb)
-- [MLDemos](Tools/MLDemos/README.md)
-
-## Topics
-
-### High Level Topics
-
-- [Introduction to Artificial Neural Networks](Topics/ANN.md)
-
-### Low Level Topics
-
-- [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
-- [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
-- [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
-- [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
-- [Object Tracking based on Deep Learning](Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
-
 
 ### License
 
