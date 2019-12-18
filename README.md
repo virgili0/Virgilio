@@ -160,7 +160,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
 - Research
   + [Zotero](serving/research/zotero/zotero.md)
-  + [State-of-Art Papers Explained](serving/research/sota-papers/Papers.md)
+  + [State-of-Art Papers Explained](serving/research/sota-papers/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 
