@@ -140,7 +140,7 @@ Above these you’ll find a plenty of other useful zones:
 ## Inferno
 
 - Computer Vision
-  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
+  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision.ipynb)
   + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
   + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
 - Natural Language Processing

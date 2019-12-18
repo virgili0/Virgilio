@@ -1,3 +1,10 @@
+---
+title: Statistics Fundamentals
+author: clone95
+description: Learn what is the fundamental statistical knowledge you need to have in order
+to build insightful Data Science projects and build machine learning systems upon them.
+---
+
 # Statistics Fundamentals
 
 # What you will learn 
@@ -10,7 +17,7 @@ You'll also learn that not so much is needed to start to apply yourself to real-
 ## Prerequisites
 The previous Paradiso guides, plus the [Math Fundamentals](math-fundamentals.md) guide.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index
