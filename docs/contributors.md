@@ -1,11 +1,16 @@
 # Contributors
 
-Here's the list of Authors and Contributors to the Virgilio project:
+Here's the list of the awesome people making Virgilio possible.
 
-- [clone95](https://github.com/clone95)
+Core team:
+
+- **[clone95](https://github.com/clone95)**
+- **[avivace](https://github.com/avivace)**
+
+Contributors:
+
 - [khaledbay](https://github.com/khaledbay)
 - [jiaxianhua](https://github.com/jiaxianhua)
-- [avivace](https://github.com/avivace)
 - [taotianli](https://github.com/taotianli)
 - [entropizza](https://github.com/entropizza)
 - [adnan7400](https://github.com/adnan7400)
