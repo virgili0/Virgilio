@@ -136,14 +136,31 @@ Above these you’ll find a plenty of other useful zones:
   + [Starting a Data Project](Topics/starting-a-data-project.md)
 - Collect and Prepare Data
   + [Data Preprocessing](serving/purgatorio/collect-and-prepare-data/data-preprocessing.md)
-- Select and Train a Machine Learning Model
-- Deep Learning
+  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
+- Select and Train Machine Learning Models
 - Evaluate and Fine-Tune 
 - Launch and Mantain the System
 
 ## Inferno
 
-WIP
+- Computer Vision
+  + [Introduction to Computer Vision](serving/inferno/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
+  + [Object Instance Segmentation](serving/inferno/object-instance-segmentation/object-instance-segmentation.ipynb)
+  + [Object Tracking](serving/inferno/object-tracking/object-tracking.md)
+- Natural Language Processing
+- Virtual Assistants
+  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
+- Reinforcement Learning
+- Soft Skills
+  + [Impactful Presentations](serving/inferno/soft-skills/impactful-presentations/impactful-presentations.md)
+- Tools
+  + [Geo Gebra](serving/inferno/tools/geo-gebra/geo-gebra.md)
+  + [Latex](serving/inferno/tools/latex/latex.md)
+  + [Regex](serving/inferno/tools/regex/regex.ipynb)
+  + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
+- Research
+- Massive Computation
+- Machine Learning for Business Applications
 
 ## New To Data Science?
 
