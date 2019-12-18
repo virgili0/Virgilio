@@ -133,12 +133,13 @@ Above these you’ll find a plenty of other useful zones:
   + Define The Scope and Ask Questions
   + [Frame The Problem](Topics/frame-the-problem.md)
   + [Usage and Integration](Topics/usage-and-integration.md)
-  +[Starting a Data Project](Topics/starting-a-data-project.md)
-  + Collect and Prepare Data
-  + Select and Train a Machine Learning Model
-  + Deep Learning
-  + Evaluate and Fine-Tune 
-  + Launch and Mantain the System
+  + [Starting a Data Project](Topics/starting-a-data-project.md)
+- Collect and Prepare Data
+  + [Data Preprocessing](serving/purgatorio/collect-and-prepare-data/data-preprocessing.md)
+- Select and Train a Machine Learning Model
+- Deep Learning
+- Evaluate and Fine-Tune 
+- Launch and Mantain the System
 
 ## Inferno
 
