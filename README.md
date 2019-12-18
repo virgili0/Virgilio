@@ -19,15 +19,10 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Paradiso](#paradiso)
 - [Purgatorio](#purgatorio)
 - [Inferno](#inferno)
-- [New To Data Science?](#new-to-data-science-)
 - [Complete Learning Paths](#complete-learning-paths)
-- [Skills](#skills)
-- [Tools](#tools)
-- [Topics](#topics)
-  * [High Level Topics](#high-level-topics)
-  * [Low Level Topics](#low-level-topics)
-- [License](#license)
-- [Contribute](#contribute)
+- [About]
+  * [License](#license)
+  * [Contribute](#contribute)
 
 
 # What is Virgilio?
@@ -66,7 +61,7 @@ There are different scenarios:
 
 ## Structure
 
-> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. That's why you see other categories after Inferno. Please be patient while we make Virgilio more awesome!
+> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. Please be patient while we make Virgilio more awesome!
 
 ![Figure 1](map.png "1") 
 
@@ -115,7 +110,7 @@ Above these you’ll find a plenty of other useful zones:
 ## Paradiso
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
-- [What do I need for ML? ](serving/paradiso/what-do-i-need-for-ml/what-do-i-need-for-ml.md)
+- [What do you need for ML? ](serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
 - [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
 - [ML use cases](serving/paradiso/use-cases/use-cases.md) 
 - Project Management - Coming soon!
@@ -147,7 +142,7 @@ Above these you’ll find a plenty of other useful zones:
 - Computer Vision
   + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision.ipynb)
   + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
-  + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.md)
+  + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
 - Natural Language Processing
 - Virtual Assistants
   + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
@@ -160,64 +155,24 @@ Above these you’ll find a plenty of other useful zones:
   + [Regex](serving/inferno/tools/regex/regex.ipynb)
   + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
 - Research
-  + [Zotero](serving/research/zotero/zotero.md)
-  + [State-of-Art Papers Explained](serving/research/sota-papers/sota-papers.md)
+  + [Zotero](serving/inferno/research/zotero/zotero.md)
+  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
-
-
-## New To Data Science?
-
-- [Basic Python](NewToDataScience/PythonBasic.md)
-- [**Matrix Algebra**](NewToDataScience/MatrixAlgebra.ipynb) 
-- Advanced Python
-- Advanced Math
-- [Python for Data Science](NewToDataScience/PythonDataScience.ipynb)
-- Math for Data Science
 
 ## Complete Learning Paths
 
 - [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
 
-## Skills
+## About
 
-- [Data Preprocessing](Specializations/HardSkills/DataPreprocessing.md)
-- Data Collection
-- [Data Visualization](Specializations/HardSkills/DataVisualization.md)
-- Effective Communication
-- [Impactful Presentations](Specializations/SoftSkills/ImpactfulPresentations.md)
-- Pragmatic Decision Making
+Virgilio is developed and mantained by [these awesome people](docs/contributors.md).
+You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat](https://discord.gg/UpQ8bb7).
 
-## Tools
+### Contribute
 
-- [Latex](Tools/Latex.md)
-- [Wolfram Alpha](Tools/WolframAlpha.md)
-- [GeoGebra](Tools/GeoGebra.md)
-- [RegeX](Tools/Regex.ipynb)
-- [MLDemos](Tools/MLDemos/README.md)
-
-## Topics
-
-### High Level Topics
-
-- [Introduction to Artificial Neural Networks](Topics/ANN.md)
-
-### Low Level Topics
-
-- [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](Topics/DialogFlow.md)
-- [Introduction to Computer Vision using OpenCV and Python](Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
-- [Deep Learning in Cloud](Topics/Deep%20learning%20in%20cloud)
-- [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
-- [Object Tracking based on Deep Learning](Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
-
+That's awesome! Check the [contribution guidelines](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) and get involved in our project!
 
 ### License
 
 The project is licensed under the [GPLv3 terms](LICENSE.md).
-
-
-### Contribute
-
-That's awesome! Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
-
-Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
