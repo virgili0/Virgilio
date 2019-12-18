@@ -1,3 +1,9 @@
+---
+title: Usage and Integration
+author: clone95
+description: Describe the use of the final Machine Learning system and its integration with existing software.
+---
+
 # Usage and Integration
 
 # What you will learn 
@@ -13,7 +19,7 @@ _Do not underestimate this phase at all_, it is perhaps the most important of an
 ## Prerequisites
 The previous Purgatorio's guides.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index

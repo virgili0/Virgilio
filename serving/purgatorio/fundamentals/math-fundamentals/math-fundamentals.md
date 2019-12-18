@@ -1,3 +1,9 @@
+---
+title: Math Fundamentals
+author: clone95
+description: Learn the mathematical concepts you need to work with data and develop powerful Machine Learni models.
+---
+
 # Math Fundamentals
 
 # What you will learn 
@@ -9,7 +15,7 @@ You'll also learn that not so much is needed to start to apply yourself to real-
 ## Prerequisites
 The previous Paradiso high-level guides.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index

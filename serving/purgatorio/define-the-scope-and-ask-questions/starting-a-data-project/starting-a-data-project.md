@@ -1,9 +1,15 @@
+---
+title: Starting a Data Project
+author: clone95
+description: Learn to look for sources that can help you solve the problem, build the project structure, build good documentation, and secure your code.
+---
+
 # Starting a Data Project
 
 # What you will learn 
 In this guide, you'll learn to prepare yourself to start the project. 
 
-This will consist of learning how to look for sources that can help you solve the problem, building the project structure, building good documentation, securing your code and our data and others!
+This will consist of learning how to look for sources that can help you solve the problem, build the project structure, build good documentation, secure your code and data!
 
 We'll make heavy use of a collection of awesome best practices from the [PLOS | Public Library of Science](https://www.plos.org/). 
 
@@ -16,7 +22,7 @@ take your time to explore the [**Ten Rules Collection**](https://collections.plo
 ## Prerequisites
 All the previous Purgatorio guides.
 
-## Time to complete
+## Time to read
 10 minutes.
 
 # Index

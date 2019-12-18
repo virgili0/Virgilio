@@ -1,4 +1,8 @@
-# Demystification of AI, ML, DL
+---
+title: Demystification of the key concepts of AI and ML
+author: clone95
+description: Clarify the jargon and the ideas behind Artificial Intelligence and Machine Learning. Describe what their applications and potential are.
+---
 
 # What you will learn
 This guide wants to clarify ideas about terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the [Jargon](https://en.wikipedia.org/wiki/Jargon) of these incredible themes in continuous evolution. 
@@ -10,7 +14,7 @@ You will learn to distinguish hype from reality.
 ## Prerequisites
 None, welcome on board! :-)
 
-## Time to complete
+## Time to read
 20 minutes.
 
 # Index
