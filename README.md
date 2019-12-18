@@ -114,26 +114,27 @@ Above these you’ll find a plenty of other useful zones:
 
 ## Paradiso
 
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](Topics/Demystification.md)
-- [What do I need for ML? ](Topics/prerequisites.md)
-- [Do you really need ML?](Topics/do_you_need_ml.md)
-- [ML use cases](Topics/use_cases.md) 
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+- [What do I need for ML? ](serving/paradiso/what-do-i-need-for-ml/what-do-i-need-for-ml.md)
+- [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
+- [ML use cases](serving/paradiso/use-cases/use-cases.md) 
 - Project Management - Coming soon!
-- [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
-- [Introduction to ML](Topics/MLSystems.md)
+- [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md)
+- [Introduction to ML](serving/paradiso/introduction-to-ml/introduction-to-ml.md)
 
 ## Purgatorio
 
 - Fundamentals
-  + [Math Fundamentals](Topics/math-fundamentals.md)
-  + [Statistics Fundamentals](Topics/statistics-fundamentals.md)
-  + [Python Fundamentals](Topics/python-fundamentals.md)
-  + [Jupyter Notebook](Topics/jupyter-notebook.md)
+  + [Math Fundamentals](serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
+  + [Statistics Fundamentals](serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
+  + [Python Fundamentals](serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
+  + [Jupyter Notebook](serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)
+  + [The Data Science Process](serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
 - Define The Scope and Ask Questions
-  + [The Data Science Process](Topics/ds_process.md) 
-  + [Frame The Problem](Topics/frame-the-problem.md)
-  + [Usage and Integration](Topics/usage-and-integration.md)
-  + [Starting a Data Project](Topics/starting-a-data-project.md)
+  + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
+  + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
+  + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
+  + [Computation in Cloud](serving/purgatorio/define-the-scope-and-ask-questions/computation-in-cloud/computation-in-cloud.md)
 - Collect and Prepare Data
   + [Data Preprocessing](serving/purgatorio/collect-and-prepare-data/data-preprocessing.md)
   + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
