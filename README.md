@@ -118,7 +118,7 @@ Above these you’ll find a plenty of other useful zones:
 - [What do I need for ML? ](Topics/prerequisites.md)
 - [Do you really need ML?](Topics/do_you_need_ml.md)
 - [ML use cases](Topics/use_cases.md) 
-- Project Management -  Coming soon!
+- Project Management - Coming soon!
 - [Virgilio's Teaching Strategy - Learning to Learn](Topics/teaching.md)
 - [Introduction to ML](Topics/MLSystems.md)
 
@@ -129,8 +129,8 @@ Above these you’ll find a plenty of other useful zones:
   + [Statistics Fundamentals](Topics/statistics-fundamentals.md)
   + [Python Fundamentals](Topics/python-fundamentals.md)
   + [Jupyter Notebook](Topics/jupyter-notebook.md)
-- [The Data Science Process](Topics/ds_process.md)
-  + Define The Scope and Ask Questions
+- Define The Scope and Ask Questions
+  + [The Data Science Process](Topics/ds_process.md) 
   + [Frame The Problem](Topics/frame-the-problem.md)
   + [Usage and Integration](Topics/usage-and-integration.md)
   + [Starting a Data Project](Topics/starting-a-data-project.md)
@@ -159,6 +159,8 @@ Above these you’ll find a plenty of other useful zones:
   + [Regex](serving/inferno/tools/regex/regex.ipynb)
   + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
 - Research
+  + [Zotero](serving/research/zotero/zotero.md)
+  + [State-of-Art Papers Explained](serving/research/sota-papers/Papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 
