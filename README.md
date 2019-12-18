@@ -145,9 +145,9 @@ Above these you’ll find a plenty of other useful zones:
 ## Inferno
 
 - Computer Vision
-  + [Introduction to Computer Vision](serving/inferno/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
-  + [Object Instance Segmentation](serving/inferno/object-instance-segmentation/object-instance-segmentation.ipynb)
-  + [Object Tracking](serving/inferno/object-tracking/object-tracking.md)
+  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
+  + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
+  + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
 - Natural Language Processing
 - Virtual Assistants
   + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
@@ -160,8 +160,8 @@ Above these you’ll find a plenty of other useful zones:
   + [Regex](serving/inferno/tools/regex/regex.ipynb)
   + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
 - Research
-  + [Zotero](serving/research/zotero/zotero.md)
-  + [State-of-Art Papers Explained](serving/research/sota-papers/sota-papers.md)
+  + [Zotero](serving/inferno/research/zotero/zotero.md)
+  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 
