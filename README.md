@@ -19,15 +19,10 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Paradiso](#paradiso)
 - [Purgatorio](#purgatorio)
 - [Inferno](#inferno)
-- [New To Data Science?](#new-to-data-science-)
 - [Complete Learning Paths](#complete-learning-paths)
-- [Skills](#skills)
-- [Tools](#tools)
-- [Topics](#topics)
-  * [High Level Topics](#high-level-topics)
-  * [Low Level Topics](#low-level-topics)
-- [License](#license)
-- [Contribute](#contribute)
+- [About]
+  * [License](#license)
+  * [Contribute](#contribute)
 
 
 # What is Virgilio?
@@ -66,7 +61,7 @@ There are different scenarios:
 
 ## Structure
 
-> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. That's why you see other categories after Inferno. Please be patient while we make Virgilio more awesome!
+> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. Please be patient while we make Virgilio more awesome!
 
 ![Figure 1](map.png "1") 
 
@@ -169,13 +164,15 @@ Above these you’ll find a plenty of other useful zones:
 
 - [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
 
-### License
+## About
 
-The project is licensed under the [GPLv3 terms](LICENSE.md).
-
+Virgilio is developed and mantained by [these awesome people](docs/contributors.md).
+You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat](https://discord.gg/UpQ8bb7).
 
 ### Contribute
 
-That's awesome! Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
+That's awesome! Check the [contribution guidelines](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) and get involved in our project!
 
-Check [here](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) the contribution guidelines and get involved in our project!
+### License
+
+The project is licensed under the [GPLv3 terms](LICENSE.md).
