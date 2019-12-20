@@ -4,8 +4,6 @@ author: clone95
 description: Give learning advices, best practice in using online resources and time management tips.
 ---
 
-# Virgilio's Learning Strategy - Learning to Learn
-
 # What you will learn 
 This guide serves various purposes: 
 
@@ -16,11 +14,6 @@ This guide serves various purposes:
 
 The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
 
-## Prerequisites
-It is recommended to read all the Paradise guides prior to this one.
-
-## Time to read
-30 minutes.
 
 # Index
 - [The Art of War](#The-Art-of-War)

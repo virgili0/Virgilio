@@ -4,7 +4,6 @@ author: clone95
 description: Describe the use of the final Machine Learning system and its integration with existing software.
 ---
 
-# Usage and Integration
 
 # What you will learn 
 
@@ -16,11 +15,6 @@ These lists of questions are **not exhaustive**, and we welcome Pull Requests th
 
 _Do not underestimate this phase at all_, it is perhaps the most important of any project that wants to achieve success!
 
-## Prerequisites
-The previous Purgatorio's guides.
-
-## Time to read
-10 minutes.
 
 # Index
 - [Usage](#Usage)

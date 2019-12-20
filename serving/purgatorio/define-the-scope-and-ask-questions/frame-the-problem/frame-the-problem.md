@@ -4,8 +4,6 @@ author: clone95
 description: Understand which kind of problem you want to solve and define the scope of the project. 
 ---
 
-# Frame the problem
-
 # What you will learn 
 In this guide, we try to figure out how to frame the kind of problem we want to solve and design it. 
 
@@ -19,11 +17,6 @@ These lists of questions are **not exhaustive**, and we welcome Pull Requests th
 
 _Do not underestimate this phase at all_, it is perhaps the most important of any project that wants to achieve success!
 
-## Prerequisites
-The previous Purgatorio's guides.
-
-## Time to read
-10 minutes.
 
 # Index
 - [Recap of ML systems](#Recap-of-ML-systems)

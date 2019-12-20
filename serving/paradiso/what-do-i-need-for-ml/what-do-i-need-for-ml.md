@@ -4,8 +4,6 @@ author: clone95
 description: Clarify which elements do you need to get started with Machine Learning
 ---
 
-# **What** do I need to do Machine Learning?
-
 # What you will learn 
 In this guide you will learn which elements do you need to get started with Machine Learning.
 
@@ -17,12 +15,6 @@ The elements listed in this guide are of 3 types:
 
 These elements enable you to practice machine learning first-hand (small scale) or start machine learning projects to innovate an organization (big scale).
 
-
-## Prerequisites
-Read [Demystification of AI, ML and DS](Demystification.md) before this guide.
-
-## Time to read
-10 minutes.
 
 # Index
 - [The three elements](#The-three-elements)

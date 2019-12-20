@@ -4,19 +4,11 @@ author: clone95
 description: Learn the mathematical concepts you need to work with data and develop powerful Machine Learni models.
 ---
 
-# Math Fundamentals
-
 # What you will learn 
 In this guide, you'll learn what is the fundamental mathematical knowledge you need to have in order
 to build insightful Data Science projects and build machine learning systems upon them.
 
 You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
-
-## Prerequisites
-The previous Paradiso high-level guides.
-
-## Time to read
-10 minutes.
 
 # Index
 - [Motivation](#Motivation)

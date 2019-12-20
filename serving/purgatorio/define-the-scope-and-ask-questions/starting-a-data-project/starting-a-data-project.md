@@ -4,8 +4,6 @@ author: clone95
 description: Learn to look for sources that can help you solve the problem, build the project structure, build good documentation, and secure your code.
 ---
 
-# Starting a Data Project
-
 # What you will learn 
 In this guide, you'll learn to prepare yourself to start the project. 
 
@@ -18,12 +16,6 @@ Do you know the joy when you find a _giant diamond cluster in Minecraft_?
 If yes, you need to know that you've just hit a big one:
 take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
 
-
-## Prerequisites
-All the previous Purgatorio guides.
-
-## Time to read
-10 minutes.
 
 # Index
 - [Collect Information](#Hunting-for-Information)

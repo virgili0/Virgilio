@@ -4,18 +4,10 @@ author: clone95
 description: Learn how to use the Jupyter Notebook, the most popular application for Data Science.
 ---
 
-# Jupyter Notebook
-
 # What you will learn 
 In this guide you'll learn how to use the Jupyter Notebook and the integrated JupyterLab IDE. Jupyter is a free and open-source web application (in the form of a Python module) that allows you to create and share documents that contain code, equations, text and images incorporated.
 
 It's widely used in the Data Science process, in order to explore data, clean them, and experiment problem solutions.
-
-## Prerequisites
-- [Python Fundamentals](python-fundamentals.md)
-
-## Time to read
-5 minutes.
 
 
 # Index

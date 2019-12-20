@@ -4,16 +4,8 @@ author: clone95
 description: Clarify what are Machine Learning systems and what are the main challenges in their development.
 ---
 
-# Introduction to ML
-
 # What you will learn
 The following paragraphs aim to introduce in more detail how an ML system can present itself and what are the main challenges today related to the development of applications in the real world.
-
-## Prerequisites
-[Demystification of AI, ML, DL](../demystification-ai-ml-dl/demystification-ai-ml-dl.md)
-
-## Time to read
-20 minutes.
 
 # Index
 - [Introduction to ML](#introduction-to-ml)

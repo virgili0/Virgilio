@@ -11,11 +11,6 @@ You will understand the hierarchy and contexts in which to read any news or the 
 
 You will learn to distinguish hype from reality.
 
-## Prerequisites
-None, welcome on board! :-)
-
-## Time to read
-20 minutes.
 
 # Index
 - [Demystification of AI, ML, DL](#demystification-of-ai-ml-dl)

@@ -1,5 +1,24 @@
-# Zotero
+---
+title: Zotero
+author: khaledbay
+description: Explain how to use the bibliographic reference management tool Zotero.
+---
+
+
+# What you will learn
+
 [Zotero](https://www.zotero.org) is a bibliographic reference management tool. Used extensively in the field of research (writing studies, theses or articles), it will make it possible to collect the results of its research, keep the details (text and references) and then create a bibliography. This effectively optimizes the management of research results and references as well as their documentation and compilation. 
+
+# Index
+- [Installation](#Installation)
+    - [Windows](#Windows)
+    - [OS](#OS)
+    - [Linux](#Linux)
+- [Features](#Features)
+- [Add reference into your libraries](#Add-reference-into-your-libraries)
+- [Automatic Insertion](#Automatic-insertion)
+- [Manual Insertion](#Manual-insertion)
+- [Tips and Tricks](#Tips-and-tricks)
 
 ## Installation
 Zotero tool was originally an extension for the [Firefox](https://www.clubic.com/telecharger-fiche11003-mozilla-firefox.html) browser which has since been adapted for [Chrome](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc) and [Opera](https://addons.opera.com/en/extensions/details/zotero-connector/?display=en) as well as in a standalone version for [Windows](https://www.zotero.org/download/), [OS](https://www.zotero.org/download/) and [Linux](https://www.zotero.org/download/).
@@ -33,7 +52,7 @@ Once a website is compatible, in order to add a reference in your bibliography, 
 It is possible that you may want to import references into Zotero that are not available on compatible sites. In order to do this, you will have to fill in the various fields yourself and create a record manually.
 Afterwards, you must create an empty record and fill in the fields, then select the type of document among those proposed. Finally, all you have to do is fill in the fields.
 
-## Tricks and tips
+## Tips and Tricks
 A few tips and tricks as well as some small options not developed in this guide.
 
 - If you want to know to which collection(s) a reference belongs, select it in the middle column and press `Crtl` (PC) or `Alt` (Mac). Collections containing this reference are then highlighted in yellow;
@@ -42,7 +61,5 @@ A few tips and tricks as well as some small options not developed in this guide.
 - You can generate a report of one or more references by right-clicking and then `Generate a report`. It is an html page that you can then save, print, convert to pdf and so on.
 
 
-------------
-Created by Khaled Bayoudh. Contacts: [mail](mailto:khaled.isimm@gmail.com) [platform](http://deep-tech.cf)
 
 

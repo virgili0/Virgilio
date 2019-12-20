@@ -4,18 +4,8 @@ author: clone95
 description: Understand for which kind of problems it makes sense to use Machine Learning, and which ones can be solved in a simpler way.
 ---
 
-# Do you really need Machine Learning?
-
 # What you will learn 
 The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
-
-## Prerequisites
-it would be appropriate to have read before:
-- [Demystification about AI and ML](Demystification.md)
-- [What do you need for ML](prerequisites.md)
-
-## Time to read
-15 minutes.
 
 # Index
  - [Distinguish Hype from Opportunities](#Distinguish-Hype-from-Opportunities)

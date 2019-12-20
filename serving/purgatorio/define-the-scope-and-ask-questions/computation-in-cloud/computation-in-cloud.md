@@ -1,4 +1,10 @@
-# Computation in cloud
+---
+title: Computation in cloud
+author: zszazi
+description: Use **Cloud GPUs** to train your model faster and cheaper!
+---
+
+# What you will learn
 
 Ever had a laptop which is not powerful enough to run your models? Forget about it and use **Cloud GPUs** to train your model faster and cheaper!
 
