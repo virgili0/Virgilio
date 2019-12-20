@@ -1,8 +1,7 @@
 ---
 title: Statistics Fundamentals
 author: clone95
-description: Learn what is the fundamental statistical knowledge you need to have in order
-to build insightful Data Science projects and build machine learning systems upon them.
+description: Learn what is the fundamental statistical knowledge you need to have in order to build insightful Data Science projects and build machine learning systems upon them.
 ---
 
 # Statistics Fundamentals
