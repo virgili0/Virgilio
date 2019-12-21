@@ -4,14 +4,6 @@ author: clone95
 description: Learn what is the fundamental statistical knowledge you need to have in order to build insightful Data Science projects and build machine learning systems upon them.
 ---
 
-# What you will learn 
-
-In this guide, you'll learn what is the fundamental statistical knowledge you need to have in order
-to build insightful Data Science projects and build machine learning systems upon them.
-
-You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
-
-
 # Index
 - [Motivation](#Motivation)
 - [Courses](#Courses)
@@ -172,5 +164,3 @@ The book is a brief, breezy illustrated volume outlining errors when it comes to
 
 The next guide will focus on learning the **Python programming language**, the real tool that will allow you to put into practice the knowledge you've gained with your hard study.
 
-----
-Written by [_clone95_](https://github.com/clone95)

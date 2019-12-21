@@ -1,20 +1,8 @@
 ---
 title: What do I need to do Machine Learning?
 author: clone95
-description: Clarify which elements do you need to get started with Machine Learning
+description: In this guide you will learn which elements do you need to get started with Machine Learning. These elements enable you to practice machine learning first-hand (small scale) or start machine learning projects to innovate an organization (big scale).
 ---
-
-# What you will learn 
-In this guide you will learn which elements do you need to get started with Machine Learning.
-
-The elements listed in this guide are of 3 types: 
-
- - **know-how**
- - **data**
- - **computational resources**
-
-These elements enable you to practice machine learning first-hand (small scale) or start machine learning projects to innovate an organization (big scale).
-
 
 # Index
 - [The three elements](#The-three-elements)
@@ -26,7 +14,7 @@ These elements enable you to practice machine learning first-hand (small scale) 
 - [Conclusions](#Conclusions)
 
 ### The three elements
-Virtually every area of science and economics has access to a **quantity of data** unimaginable even a decade ago.
+Today, every areaa of science and economy has access to a **quantity of data** unimaginable even a decade ago.
 
 In addition to this, today there is **abundant and inexpensive computing capacity** available through cloud service providers. 
 
@@ -181,6 +169,3 @@ This article](https://blog.slavv.com/picking-a-gpu-for-deep-learning-3d4795c273b
 We have seen how the three elements (data, know-how and computing power) are strictly necessary to develop ML solutions for everyday problems. 
 If you are a student or just a curious cat you will have an easy time thanks to Google Colab and the free power it offers. If you're part of a team in a company thinking about starting to experiment with ML at scale, consider the ever richer and better ML services offered by the big technology vendors.
 
-
-----
-Written by [_clone95_](https://github.com/clone95)

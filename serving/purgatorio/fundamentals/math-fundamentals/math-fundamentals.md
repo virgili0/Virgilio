@@ -1,14 +1,9 @@
 ---
 title: Math Fundamentals
 author: clone95
-description: Learn the mathematical concepts you need to work with data and develop powerful Machine Learni models.
+description: In this guide, you'll learn what is the fundamental mathematical knowledge you need to have in order
+to build insightful Data Science projects and build machine learning systems upon them. You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
 ---
-
-# What you will learn 
-In this guide, you'll learn what is the fundamental mathematical knowledge you need to have in order
-to build insightful Data Science projects and build machine learning systems upon them.
-
-You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
 
 # Index
 - [Motivation](#Motivation)
@@ -167,5 +162,3 @@ This is because _to implement_ a lot of Machine Learning applications we can oft
 
 The next guide is about the basic statistics you need to fully understand the process of Data Science, and build effective and useful statistical models.
 
-----
-Written by [_clone95_](https://github.com/clone95)

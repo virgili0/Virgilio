@@ -1,4 +1,25 @@
-# Impactful Presentations
+---
+title: Impactful Presentations
+author: clone95
+description: The purpose of this guide is to teach you how to build and present assertive and insightful presentations, impressing your audience and leaving them with food for thoughts.
+---
+
+# Index
+- [Why do you need to impress your audience?](#Why-do-you-need-to-impress-your-audience)
+- [How to build the content](#How-to-build-the-content)
+   - [Know your audience](#Know-your-audience)
+   - [Develop high quality content](#Develop-high-quality-content)
+   - [Build a structure](#Build-a-structure)
+   - [Less is more](#Less-is-more)
+   - [Leverage data power wisely](#Leverage-data-power-wisely)
+   
+- [How to present the content](#How-to-present-the-content)
+   - [Connect with your audience](#Connect-with-your-audience) 
+   - [Don’t read](#Don’t-read)
+   - [Be intriguing](#Be-intriguing)
+   - [Use humor](#Use-humor)
+   - [The Pragmatic Storyteller](#The-Pragmatic-Storyteller)
+ 
 
 ## Why do you need to impress your audience?
 
@@ -33,24 +54,7 @@ get as far away as possible from the success achieved by the haruspex and their 
 
 During this guide, I consider that you're presenting with the tech support of simple slides.
 
-## Prerequisites
-No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMinto/dp/0273710516) if you have time!
 
-# Index
-- [How to build the content](#How-to-build-the-content)
-   - [Know your audience](#Know-your-audience)
-   - [Develop high quality content](#Develop-high-quality-content)
-   - [Build a structure](#Build-a-structure)
-   - [Less is more](#Less-is-more)
-   - [Leverage data power wisely](#Leverage-data-power-wisely)
-   
-- [How to present the content](#How-to-present-the-content)
-   - [Connect with your audience](#Connect-with-your-audience) 
-   - [Don’t read](#Don’t-read)
-   - [Be intriguing](#Be-intriguing)
-   - [Use humor](#Use-humor)
-   - [The Pragmatic Storyteller](#The-Pragmatic-Storyteller)
- 
 Let's dive right in!
 
 ## How to build the content

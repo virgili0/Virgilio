@@ -1,11 +1,9 @@
 ---
-title: Introduction to ML
+title: Introduction to Machine Learning
 author: clone95
-description: Clarify what are Machine Learning systems and what are the main challenges in their development.
+description: This guide aims to introduce you to how an ML system can present itself and what are the main challenges today related to the development of applications in the real world.
 ---
 
-# What you will learn
-The following paragraphs aim to introduce in more detail how an ML system can present itself and what are the main challenges today related to the development of applications in the real world.
 
 # Index
 - [Introduction to ML](#introduction-to-ml)

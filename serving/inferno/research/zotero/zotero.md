@@ -1,13 +1,8 @@
 ---
 title: Zotero
 author: khaledbay
-description: Explain how to use the bibliographic reference management tool Zotero.
+description: Explain how to use the bibliographic reference management tool Zotero. It's used extensively in the field of research (writing studies, theses or articles), it makes possible to collect the results of its research, keep the details (text and references) and then create a bibliography. 
 ---
-
-
-# What you will learn
-
-[Zotero](https://www.zotero.org) is a bibliographic reference management tool. Used extensively in the field of research (writing studies, theses or articles), it will make it possible to collect the results of its research, keep the details (text and references) and then create a bibliography. This effectively optimizes the management of research results and references as well as their documentation and compilation. 
 
 # Index
 - [Installation](#Installation)

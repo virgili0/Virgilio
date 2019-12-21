@@ -1,30 +1,28 @@
 ---
 title: Learning to Learn
 author: clone95
-description: Give learning advices, best practice in using online resources and time management tips.
+description: Give learning advices, best practice in using online resources and time management tips. The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
 ---
 
-# What you will learn 
-This guide serves various purposes: 
-
-- To understand broadly how the learning of the human brain works (before teaching machines, we will have to learn ourselves, right?).
-- Presenting _how_ Virgilio sees teaching and learning.
-- Give useful tips to make the most of the help Virgilio can give you in starting to explore this fantastic world and develop solid skills in the world of data through practical projects.
-
-
-The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
-
-
 # Index
+- [Goals of this guide](#Goals-of-this-guide)
 - [The Art of War](#The-Art-of-War)
 - [The Art of Learning](#The-Art-of-Learning)
 - [Mastering Internet](#Mastering-Google)
 - [Time Management](#Time-Management)
 - [Conclusions](#Conclusions)
 
+## Goals of this guide
+
+This guide serves various purposes: 
+
+- To understand broadly how the learning of the human brain works (before teaching machines, we will have to learn ourselves, right?).
+- Presenting _how_ Virgilio sees teaching and learning.
+- Give useful tips to make the most of the help Virgilio can give you in starting to explore this fantastic world and develop solid skills in the world of data through practical projects.
+
 ### The Art of War
 
-This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio, but it can serve as a general approach to learning any subject, skill or job.
+This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio, but **it can serve as a general approach to learning any subject, skill or job**.
 
 For this guide, we will use various enlightening books (famous and not), from which we will draw various lessons about how human beings learn, create, reason and memorize.
 
@@ -188,6 +186,3 @@ These two readings are **strongly** recommended. I can say that by themselves th
 After reading the books and articles in this guide, you should be able to gradually improve and become extremely effective and quick to learn. 
 But remember that the road is always uphill (if you want it to be so and it is ambitious), and there will always be something new to learn ... better for us curious, right? :-)
 
----------------------------------------------------
-
-Written by [_clone95_](https://github.com/clone95)

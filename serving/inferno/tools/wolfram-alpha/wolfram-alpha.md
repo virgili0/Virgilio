@@ -1,7 +1,7 @@
 ---
 title: Wolfram Alpha
 author: rogerjs
-description: The purpose of this guide is to show you the endless capabilities of the Wolfram Alpha engine and how to use them to perform complex calculations.
+description: The purpose of this guide is to show you the endless capabilities of the Wolfram Alpha engine and how to use it to perform complex calculations.
 ---
 
 # Index

@@ -4,19 +4,6 @@ author: clone95
 description: Learn to look for sources that can help you solve the problem, build the project structure, build good documentation, and secure your code.
 ---
 
-# What you will learn 
-In this guide, you'll learn to prepare yourself to start the project. 
-
-This will consist of learning how to look for sources that can help you solve the problem, build the project structure, build good documentation, secure your code and data!
-
-We'll make heavy use of a collection of awesome best practices from the [PLOS | Public Library of Science](https://www.plos.org/). 
-
-Do you know the joy when you find a _giant diamond cluster in Minecraft_? 
-
-If yes, you need to know that you've just hit a big one:
-take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
-
-
 # Index
 - [Collect Information](#Hunting-for-Information)
 - [Building a Knowledge Tree](#Building-a-Knowledge-Tree)
@@ -42,6 +29,14 @@ This guide will not teach you how to use [Google](https://www.google.com/), beca
 By the way, probably not everyone knows about [**these Google tricks**](https://smallbiztrends.com/2019/03/google-tricks.html)...
 
 But there are a few tips that can come in handy when you start "amassing" knowledge that will then come in handy.
+
+In this guide we'll make heavy use of a collection of awesome best practices from the [PLOS | Public Library of Science](https://www.plos.org/). 
+
+Do you know the joy when you find a _giant diamond cluster in Minecraft_? 
+
+If yes, you need to know that you've just hit a big one:
+take your time to explore the [**Ten Rules Collection**](https://collections.plos.org/ten-simple-rules).
+
 
 #### Understand what you're looking for
 The first thing to do when dealing with a new problem is to make sure you're looking for the right things. Are you sure the problem is called that for example? Image segmentation is different from image classification! [This Google guide](https://developers.google.com/machine-learning/problem-framing/cases) can help you be sure of the name of your problem.
@@ -263,5 +258,3 @@ After reading this guide and the resources it contains, you should be equipped w
 In the next sections of Purgatorio you will begin to put these practices into practice, and you will see how grateful you are to yourself! 
 
 
-----
-Written by [_clone95_](https://github.com/clone95)

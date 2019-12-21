@@ -5,9 +5,6 @@ description: Learn how to use the Jupyter Notebook, the most popular application
 ---
 
 # What you will learn 
-In this guide you'll learn how to use the Jupyter Notebook and the integrated JupyterLab IDE. Jupyter is a free and open-source web application (in the form of a Python module) that allows you to create and share documents that contain code, equations, text and images incorporated.
-
-It's widely used in the Data Science process, in order to explore data, clean them, and experiment problem solutions.
 
 
 # Index
@@ -147,6 +144,3 @@ Take your time and explore this rich repository, you will surely find something 
 ### Conclusions
 
 You should now be fully aware of the various options you have to use the Jupyter Notebooks, both in their "basic" version, both within the JupyterLab IDE, and by exploiting the free power of Google thanks to the Colaboratory!
-
-----
-Written by [_clone95_](https://github.com/clone95)

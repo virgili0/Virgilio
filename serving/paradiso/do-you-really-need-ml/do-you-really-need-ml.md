@@ -1,11 +1,9 @@
 ---
 title: Do you really need Machine Learning?
 author: clone95
-description: Understand for which kind of problems it makes sense to use Machine Learning, and which ones can be solved in a simpler way.
+description: Understand for which kind of problems it makes sense to use Machine Learning, and which ones can be solved in a simpler way. The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
 ---
 
-# What you will learn 
-The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
 
 # Index
  - [Distinguish Hype from Opportunities](#Distinguish-Hype-from-Opportunities)
@@ -138,7 +136,4 @@ We have seen the risks and possible pitfalls of machine learning projects based 
 We have also seen how without a radical change of mentality and approach, even the most successful ML project is useless: imagine owning a Ferrari but not knowing how to drive!
 
 
-----
-
-Written by [_clone95_](https://github.com/clone95)
 

@@ -287,6 +287,3 @@ As I suggested to you earlier, the only way to become really comfortable with so
 It's better to be proficient in one tool and barely know other ones, than being the jack of all trades but masters of none. So, I suggest you choose the tool that inspires you more and diving deep into that. In fact, the tools we've seen overlap with each other in many ways, but they are different in scale and approach.
 
 Happy Learning and good luck with your studies!
-
--------------------------
-Written by [_clone95_](https://github.com/clone95)

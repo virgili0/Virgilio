@@ -4,7 +4,6 @@ author: zszazi
 description: Use **Cloud GPUs** to train your model faster and cheaper!
 ---
 
-# What you will learn
 
 Ever had a laptop which is not powerful enough to run your models? Forget about it and use **Cloud GPUs** to train your model faster and cheaper!
 
@@ -88,5 +87,3 @@ If you are a student or researcher you can get extra credts , contact the provid
 * [license](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/LICENSE)
 
 
-------------------------------------------
-Written by _zszazi_

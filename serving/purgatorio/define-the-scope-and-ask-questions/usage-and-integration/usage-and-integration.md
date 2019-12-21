@@ -1,20 +1,8 @@
 ---
 title: Usage and Integration
 author: clone95
-description: Describe the use of the final Machine Learning system and its integration with existing software.
+description: In this guide we see which are the key questions to ask when framing a problem of Data Science, regarding the use of the final system and its integration with existing systems.
 ---
-
-
-# What you will learn 
-
-In this guide we see which are the key questions to ask when framing a problem of Data Science, regarding the use of the final system and its integration with existing systems.
-
-These lists of questions are **not exhaustive**, and we welcome Pull Requests that add significantly valid ones.
-
-**Every time you start a new project Virgilio recommends that you write a document with the questions and answers explored in this guide, so you always have *clear objectives and characteristics* of the project, as well as being able to *share it easily* with others.**
-
-_Do not underestimate this phase at all_, it is perhaps the most important of any project that wants to achieve success!
-
 
 # Index
 - [Usage](#Usage)
@@ -102,6 +90,3 @@ A Virgilio member will take over your request and enrich this guide with your co
 
 In the next guide we will see other key questions (more oriented to understand how we want to build the machine learning model that makes predictions) to be asked during the framing phase of the problem, which will help us to develop the project successfully. 
 
---------------------------------------------------
-
-Written by [_clone95_](https://github.com/clone95)
