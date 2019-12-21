@@ -1,21 +1,16 @@
-# Data Visualization 
+---
+title: Data Visualization
+author: clone95
+description: The purpose of this guide is to show you the importance of data visualization and why it's so useful when working with data.
+---
 
-It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
-The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
-So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
+# What you will learn 
+The purpose of this guide is to show you the importance of data visualization and why it's so useful when working with data.
+We'll show you best practices and reasons for using them, along with the "storytelling" approach to data science.
 
-The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
+# Index
 
-You can find [here](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) the free PDF. 
-
-Another piece of dense knowledge, with exceptional conciseness and "father" of every data visualization book: [**The Visual Display of Quantitative Information**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142).
-
-I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
-
-Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
-
-The concepts through which we're going are the following:
-
+- [Data Visualization](#data-Visualization)
 - [Legolas, how do your elf eyes see?](#Legolas,-how-do-your-elf-eyes-see?)
 - [The Importance of Context](#The-importance-of-context)
 - [The Data / Ink Ratio](#The-Information-/-Ink-Ratio)
@@ -41,10 +36,21 @@ The concepts through which we're going are the following:
 - [Additional Resources](#Additional-Resources)
 - [Wrapping up and looking forward](#Wrapping-up-and-looking-forward)
 
-#### **Let's Start!**
-------------------------------------------------
+# Data Visualization 
 
+It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
+The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
+So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
 
+The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
+
+You can find [here](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) the free PDF. 
+
+Another piece of dense knowledge, with exceptional conciseness and "father" of every data visualization book: [**The Visual Display of Quantitative Information**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142).
+
+I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
+
+Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
 
 ### Legolas, how do your elf eyes see?
 What do I intend with Data Visualization?\

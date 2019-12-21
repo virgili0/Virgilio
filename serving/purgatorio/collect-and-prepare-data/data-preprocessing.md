@@ -1,19 +1,15 @@
-# Data Preprocessing
+---
+title: Data Preprocessing
+author: clone95
+description: The purpose of this guide is to show you the different preprocessing steps you need to apply to your data before feeding them to Machine Learning models.
+---
 
-Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more like magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics, and machine learning applications.
+# What you will learn 
+Real world data is almost always messy or unstructured, and most of the time of the Data Scientist is spent on data preprocessing (or data cleaning), before visualize them or feeding them to Machine Learning models.   
+The purpose of this guide is to show you the importance of theese steps, mostly about text data, but will be listed guides about cleaning each kind data you can encounter.
 
-[Real-world data](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
-
-It's the [core ability](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) of any data scientist or data engineer, and you must _be able to manipulate, clean, and structure_ your data during the everyday work (besides expecting that this will take the most of your [daily-time](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html)!).
-
-There are a lot of different data types out there, and they deserve [different treatments](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/).
-
-As usual the structure I've planned to get you started consists of having a [general overview](https://searchbusinessanalytics.techtarget.com/definition/data-preparation), and then dive deep into each data processing situation you can encounter. 
-
-[Here](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) you have a gentle end-to-end panoramic view of the entire process.
-
-The concepts through which we're going are the following:
-
+# Index
+- [Data Preprocessing](#Data-Preprocessing)
 - [Don't Joke With Data](#Don't-Joke-With-Data)
 - [Business Questions](#Business-Questions)
 - [Data Profiling](#Data-Profiling)
@@ -36,6 +32,21 @@ The concepts through which we're going are the following:
 - [Merge Data Sets and Integration](#Merge-Data-Sets-and-Integration)
 - [Sanity Check](#Sanity-Check)
 - [Automate These Boring Stuffs!](#Automate-These-Boring-Stuffs!)
+
+
+# Data Preprocessing
+
+Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more like magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and organizing data so it can be analyzed as part of data visualization, analytics, and machine learning applications.
+
+[Real-world data](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
+
+It's the [core ability](https://blogs.sas.com/content/hiddeninsights/2017/11/30/analytical-data-preparation-important/) of any data scientist or data engineer, and you must _be able to manipulate, clean, and structure_ your data during the everyday work (besides expecting that this will take the most of your [daily-time](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html)!).
+
+There are a lot of different data types out there, and they deserve [different treatments](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/).
+
+As usual the structure I've planned to get you started consists of having a [general overview](https://searchbusinessanalytics.techtarget.com/definition/data-preparation), and then dive deep into each data processing situation you can encounter. 
+
+[Here](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) you have a gentle end-to-end panoramic view of the entire process.
 
 **Let's Start!**
 
