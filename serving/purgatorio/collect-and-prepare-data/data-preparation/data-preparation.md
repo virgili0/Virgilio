@@ -1,5 +1,5 @@
 ---
-title: Data Preprocessing
+title: Data Preparation
 author: clone95
 description: The purpose of this guide is to show you the different preprocessing steps you need to apply to your data before feeding them to Machine Learning models.
 ---
