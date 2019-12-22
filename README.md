@@ -20,7 +20,7 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Purgatorio](#purgatorio)
 - [Inferno](#inferno)
 - [Complete Learning Paths](#complete-learning-paths)
-- [About](#about)
+- [About](#About)
   * [License](#license)
   * [Contribute](#contribute)
 
