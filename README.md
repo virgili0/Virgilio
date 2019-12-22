@@ -130,8 +130,8 @@ Above these you’ll find a plenty of other useful zones:
   + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
   + [Computation in Cloud](serving/purgatorio/define-the-scope-and-ask-questions/computation-in-cloud/computation-in-cloud.md)
 - Collect and Prepare Data
-  + [Data Preprocessing](serving/purgatorio/collect-and-prepare-data/data-preprocessing.md)
-  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
+  + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
+  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
 - Select and Train Machine Learning Models
 - Evaluate and Fine-Tune 
 - Launch and Mantain the System
