@@ -128,7 +128,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
   + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
   + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
-  + [Computation in Cloud](serving/purgatorio/define-the-scope-and-ask-questions/computation-in-cloud/computation-in-cloud.md)
+  + [Computation in Cloud](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
 - Collect and Prepare Data
   + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
   + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)

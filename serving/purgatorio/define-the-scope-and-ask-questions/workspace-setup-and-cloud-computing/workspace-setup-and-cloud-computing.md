@@ -1,5 +1,5 @@
 ---
-title: Computation in cloud
+title: Workspace Setup and Cloud Computing
 author: zszazi
 description: Use **Cloud GPUs** to train your model faster and cheaper!
 ---
