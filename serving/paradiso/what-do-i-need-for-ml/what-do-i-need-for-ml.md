@@ -155,7 +155,6 @@ Don't believe who tells you that you need to buy a high-performance machine to m
 ## If you still have to buy a machine
 Suppose you still have to buy a calculator for other needs, let's see which are some good options:
 
-- [**This video**](https://www.youtube.com/watch?v=dtFZrFKMiPI) from Siraj Raval explains you pretty well which components are important and why.
 - [These Quora answers](https://www.quora.com/What-laptop-computer-should-I-purchase-for-deep-learning-How-much-will-it-cost) are straightforward (you can notice that they suggest to leverage the cloud first) .
 - [This](https://towardsdatascience.com/build-a-deep-learning-rig-for-800-4434e21a424f) Medium article shows you how to build an 800 dollars rig for Machine Learning.
 
