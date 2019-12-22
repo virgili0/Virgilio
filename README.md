@@ -63,7 +63,7 @@ There are different scenarios:
 
 > WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. Please be patient while we make Virgilio more awesome!
 
-![Figure 1](map.png "1") 
+![Figure 1](map.PNG "1") 
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
 
