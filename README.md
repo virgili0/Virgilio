@@ -20,7 +20,7 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Purgatorio](#purgatorio)
 - [Inferno](#inferno)
 - [Complete Learning Paths](#complete-learning-paths)
-- [About]
+- [About](#about)
   * [License](#license)
   * [Contribute](#contribute)
 
@@ -113,7 +113,6 @@ Above these you’ll find a plenty of other useful zones:
 - [What do you need for ML? ](serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
 - [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
 - [ML use cases](serving/paradiso/use-cases/use-cases.md) 
-- Project Management - Coming soon!
 - [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md)
 - [Introduction to ML](serving/paradiso/introduction-to-ml/introduction-to-ml.md)
 
