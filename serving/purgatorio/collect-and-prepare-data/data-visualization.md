@@ -34,7 +34,7 @@ We'll show you best practices and reasons for using them, along with the "storyt
 - [Storytelling with Data](#Storytelling-with-Data)
 - [Common Visualization Mistakes](#Common-Visualization-Mistakes)
 - [Additional Resources](#Additional-Resources)
-- [Wrapping up and looking forward](#Wrapping-up-and-looking-forward)
+- [Conclusions](#Conclusions)
 
 # Data Visualization 
 
@@ -276,7 +276,7 @@ I really love data visualization and during the last years, I've collected a lot
 - [Every line of Hamilton](https://pudding.cool/2017/03/hamilton/)
 - [Storytelling with Data blog](http://www.storytellingwithdata.com/)
 
-### Wrapping up and looking forward
+### Conclusions
 What I've tried to here is to list a map of the most useful resources about data visualization (I've searched and compared a lot of them), trying to give you a reference point of the subject.\
 As I suggested to you earlier, the only way to become really comfortable with something is to face it in the first person. So the best tip I can give you is "find your project". 
 
@@ -286,4 +286,3 @@ As I suggested to you earlier, the only way to become really comfortable with so
 
 It's better to be proficient in one tool and barely know other ones, than being the jack of all trades but masters of none. So, I suggest you choose the tool that inspires you more and diving deep into that. In fact, the tools we've seen overlap with each other in many ways, but they are different in scale and approach.
 
-Happy Learning and good luck with your studies!
