@@ -1,7 +1,7 @@
 ---
 title: Workspace Setup and Cloud Computing 
 author: zszazi | clone95
-description: Use **Cloud GPUs** to train your model faster and cheaper!
+description: Setup your workspace locally and use Cloud GPUs to train your model faster and cheaper!
 ---
 
 # Index 
