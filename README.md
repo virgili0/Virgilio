@@ -133,6 +133,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
   + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
 - Select and Train Machine Learning Models
+  + [Machine Learning](serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md)
 - Evaluate and Fine-Tune 
 - Launch and Mantain the System
 
