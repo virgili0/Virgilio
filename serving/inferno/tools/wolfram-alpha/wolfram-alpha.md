@@ -1,12 +1,13 @@
-# WolframAlpha
-[WolframAlpha](https://www.wolframalpha.com) (WA) is a computational knowledge engine, which is a very fancy way of saying that WolframAlpha is a platform that can answer your questions. WolframAlpha is most notable for its capabilities regarding mathematics and it can be a very powerful tool to help you with your computations.
+---
+title: Wolfram Alpha
+author: rogerjs
+description: The purpose of this guide is to show you the endless capabilities of the Wolfram Alpha engine and how to use it to perform complex calculations.
+---
 
-## Accessing WolframAlpha
-WolframAlpha's knowledge engine can be accessed online through [wolframalpha.com](https://www.wolframalpha.com) but if you have access to a license, perhaps through your university/research center/company, you might want to install [Wolfram Mathematica](https://www.wolfram.com/mathematica/), _"a modern technical computing system spanning most areas of technical computing — including neural networks, machine learning, image processing, geometry, data science, visualizations, and others"_.
-
-## WolframAlpha's mathematical capabilities
-This little guide will focus on teaching some of the WA's mathematical capabilities. Please bear in mind that there is much more that it can do! This is what we will be covering:
-
+# Index
+  - [Wolfram Alpha](#wolfram-Alpha)
+  - [Accessing WolframAlpha](#accessing-WolframAlpha)
+  - [A first taste](#A-first-taste)
   - [Basic calculations](#basic-calculations)
   - [Plotting functions](#plotting-functions)
   - [Solving equations](#solving-equations)
@@ -18,6 +19,14 @@ This little guide will focus on teaching some of the WA's mathematical capabilit
   - [Finding limits](#finding-limits)
   - [Miscellaneous](#miscellaneous)
   
+
+# Wolfram Alpha
+[WolframAlpha](https://www.wolframalpha.com) (WA) is a computational knowledge engine, which is a very fancy way of saying that WolframAlpha is a platform that can answer your questions. WolframAlpha is most notable for its capabilities regarding mathematics and it can be a very powerful tool to help you with your computations.
+
+## Accessing WolframAlpha
+WolframAlpha's knowledge engine can be accessed online through [wolframalpha.com](https://www.wolframalpha.com) but if you have access to a license, perhaps through your university/research center/company, you might want to install [Wolfram Mathematica](https://www.wolfram.com/mathematica/), _"a modern technical computing system spanning most areas of technical computing — including neural networks, machine learning, image processing, geometry, data science, visualizations, and others"_.
+
+## A first taste
 Whenever you input something into WA, you get the link of your query, so that you can actually share what you asked and the answer given pretty easily. For example, following [this link](https://www.wolframalpha.com/input/?i=Who+is+the+US+president) you can see what WA told me when I asked him who the US president is. Through this guide, blue letters with a gray background give a link to a WA query. So if you click this -> [`What is the 345th decimal place of pi`](https://www.wolframalpha.com/input/?i=What+is+the+345th+decimal+place+of+pi) you will see what WA answered me when I asked for the 345th decimal place of pi (it's 5, by the way).
 
 Another important thing to notice is that you don't have to follow a strict syntax when asking things to WA, even though the more you can facilitate WA's life, the better.

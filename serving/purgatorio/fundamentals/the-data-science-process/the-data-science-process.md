@@ -1,22 +1,10 @@
 ---
 title: The Data Science Process
 author: clone95
-description: Learn what are the phases of the Data Science process, and how we built the Purgatorio.
----
-
-
-# The Data Science Process 
-
-# What you will learn 
-In this guide you will understand the big picture of the Data Science project lifecycle, why and how to perform each step, 
+description: In this guide you will understand the big picture of the Data Science project lifecycle, why and how to perform each step, 
 from collecting the data to putting predictive models in production. You can then use this guide as a "checklist" of to-do 
 steps to perform during your projects. 
-
-## Prerequisites
-There are no prerequisites for this guide.
-
-## Time to read
-20 minutes.
+---
 
 # Index
 - [Motivation](#Motivation)
@@ -167,7 +155,3 @@ These and other questions will be covered in this section.
 You've just had a taste of everything we'll see in the next sections of Purgatorio, but remember there will be much more to learn! Alongside these guides you'll be given some to learn how to use libraries and frameworks used by organizations and governments, how to take advantage of the power and flexibility of Cloud vendors, how to read research papers, and much more!
 
 Warm up your fingers and brain and prepare a coffee, the journey is about to begin!  
-
----
-
-Written by [_clone95_](https://github.com/clone95)

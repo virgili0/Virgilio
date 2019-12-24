@@ -1,7 +1,28 @@
+---
+title: LaTex
+author: damianoazzolini
+description: The purpose of this guide is to show you the endless capabilities of the the LaTex Engine and how to it to create wonderful papers and presentations.
+---
+
+# Index
+
+- [LaTeX](#LaTeX)
+- [Why LaTeX](#Why-LaTeX)
+- [Installation](#Installation)
+- [Writing a Document](#Writing-a-Document)
+- [Tools to increase productivity](#Tools-to-increase-productivity)
+- [Useful Packages](#Useful-Packages)
+- [Displaying Math](#Displaying-Math)
+- [Code Blocks](#Code-Blocks)
+- [Logic](#Logic)
+- [Automata](#Automata)
+- [This is why you need to learn Machine Learning](#This-is-why-you-need-to-learn-machine-learning)
+
+
 # LaTeX
 LaTeX is a markup language (or, as said in the [official website](https://www.latex-project.org/about/), "a document preparation system for high-quality typesetting") used to create wonderful papers and presentations. Almost all papers you will read during your career are written using LaTeX. So, let's see how it works!
 
-## Why LaTeX?
+## Why LaTeX
 For years now LaTeX has been the go-to tool whenever someone needs to create a document that will contain mathematical formulas. LaTeX is used a lot to write scientific papers and it is also used by bloggers and scientific content creators in the internet. You can even use LaTeX syntax on facebook messenger! (which only renders if you are on your computer)
 
 ## Installation

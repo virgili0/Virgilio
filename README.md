@@ -20,7 +20,7 @@ Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badg
 - [Purgatorio](#purgatorio)
 - [Inferno](#inferno)
 - [Complete Learning Paths](#complete-learning-paths)
-- [About]
+- [About](#About)
   * [License](#license)
   * [Contribute](#contribute)
 
@@ -63,7 +63,7 @@ There are different scenarios:
 
 > WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. Please be patient while we make Virgilio more awesome!
 
-![Figure 1](map.png "1") 
+![Figure 1](map.PNG "1") 
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
 
@@ -113,7 +113,6 @@ Above these you’ll find a plenty of other useful zones:
 - [What do you need for ML? ](serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
 - [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
 - [ML use cases](serving/paradiso/use-cases/use-cases.md) 
-- Project Management - Coming soon!
 - [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md)
 - [Introduction to ML](serving/paradiso/introduction-to-ml/introduction-to-ml.md)
 
@@ -129,11 +128,12 @@ Above these you’ll find a plenty of other useful zones:
   + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
   + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
   + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
-  + [Computation in Cloud](serving/purgatorio/define-the-scope-and-ask-questions/computation-in-cloud/computation-in-cloud.md)
+  + [WorkSpace Setup and Cloud Computing](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
 - Collect and Prepare Data
-  + [Data Preprocessing](serving/purgatorio/collect-and-prepare-data/data-preprocessing.md)
-  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
+  + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
+  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
 - Select and Train Machine Learning Models
+  + [Machine Learning](serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md)
 - Evaluate and Fine-Tune 
 - Launch and Mantain the System
 

@@ -1,21 +1,16 @@
-# Data Visualization 
+---
+title: Data Visualization
+author: clone95
+description: The purpose of this guide is to show you the importance of data visualization and why it's so useful when working with data.
+---
 
-It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
-The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
-So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
+# What you will learn 
+The purpose of this guide is to show you the importance of data visualization and why it's so useful when working with data.
+We'll show you best practices and reasons for using them, along with the "storytelling" approach to data science.
 
-The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
+# Index
 
-You can find [here](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) the free PDF. 
-
-Another piece of dense knowledge, with exceptional conciseness and "father" of every data visualization book: [**The Visual Display of Quantitative Information**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142).
-
-I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
-
-Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
-
-The concepts through which we're going are the following:
-
+- [Data Visualization](#data-Visualization)
 - [Legolas, how do your elf eyes see?](#Legolas,-how-do-your-elf-eyes-see?)
 - [The Importance of Context](#The-importance-of-context)
 - [The Data / Ink Ratio](#The-Information-/-Ink-Ratio)
@@ -39,12 +34,23 @@ The concepts through which we're going are the following:
 - [Storytelling with Data](#Storytelling-with-Data)
 - [Common Visualization Mistakes](#Common-Visualization-Mistakes)
 - [Additional Resources](#Additional-Resources)
-- [Wrapping up and looking forward](#Wrapping-up-and-looking-forward)
+- [Conclusions](#Conclusions)
 
-#### **Let's Start!**
-------------------------------------------------
+# Data Visualization 
 
+It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
+The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
+So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
 
+The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
+
+You can find [here](http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf) the free PDF. 
+
+Another piece of dense knowledge, with exceptional conciseness and "father" of every data visualization book: [**The Visual Display of Quantitative Information**](https://www.amazon.it/Visual-Display-Quantitative-Information/dp/0961392142).
+
+I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
+
+Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
 
 ### Legolas, how do your elf eyes see?
 What do I intend with Data Visualization?\
@@ -270,9 +276,9 @@ I really love data visualization and during the last years, I've collected a lot
 - [Every line of Hamilton](https://pudding.cool/2017/03/hamilton/)
 - [Storytelling with Data blog](http://www.storytellingwithdata.com/)
 
-### Wrapping up and looking forward
-What I've tried to here is to list a map of the most useful resources about data visualization (I've searched and compared a lot of them), trying to give you a reference point of the subject.\
-As I suggested to you earlier, the only way to become really comfortable with something is to face it in the first person. So the best tip I can give you is "find your project". 
+### Conclusions
+In this guide we've tried to list a map of the most useful resources about data visualization (after searching and compared a lot of them), trying to give you a reference point of the subject.\
+You know that the only way to become really comfortable with something is to face it in the first person. So the best tip I can give you is "find your project". 
 
 - Choose an argument that interests you in some way. You can find a lot o free public dataset to experiment with. Check your country websites or enter [Kaggle](https://www.kaggle.com/) or  [UCI](https://archive.ics.uci.edu/ml/index.php) to find a lot of them. 
 - Plot the data in every way you can experiment, applying the techniques you have seen.
@@ -280,7 +286,3 @@ As I suggested to you earlier, the only way to become really comfortable with so
 
 It's better to be proficient in one tool and barely know other ones, than being the jack of all trades but masters of none. So, I suggest you choose the tool that inspires you more and diving deep into that. In fact, the tools we've seen overlap with each other in many ways, but they are different in scale and approach.
 
-Happy Learning and good luck with your studies!
-
--------------------------
-Written by [_clone95_](https://github.com/clone95)

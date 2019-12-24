@@ -1,20 +1,8 @@
 ---
 title: Python Fundamentals
 author: clone95
-description: Learn Python, the powerful scientific programming language that is the _de facto standard_ in the field of Data Science.
+description: In this guide you'll learn the basics concepts computer science and programming, and will take you _from zero coding knowledge_ to a solid Python skill and a complete awareness of the most important concepts in programming. 
 ---
-
-# Python Fundamentals
-
-# What you will learn 
-
-In this guide you'll learn the basics concepts computer science and programming, and will take you _from zero coding knowledge_ to a solid Python skill and a complete awareness of the most important concepts in programming. 
-
-## Prerequisites
-None.
-
-## Time to read
-10 minutes.
 
 # Index
 - [Why Python](#Why-Python)
@@ -24,7 +12,6 @@ None.
 - [Learn Git and GitHub](#Learn-Git-and-GitHub)
 - [Ask Questions](#Ask-Questions)
 - [Conclusions](#Conclusions)
-
 
 
 Let's dive right in!
@@ -253,5 +240,3 @@ This means that to learn another language, the biggest obstacle will be to learn
 
 In the next guide we will see how to use the Jupyter Notebooks, a Python application designed specifically for Data Science and experimental programming!
 
-----
-Written by [_clone95_](https://github.com/clone95)

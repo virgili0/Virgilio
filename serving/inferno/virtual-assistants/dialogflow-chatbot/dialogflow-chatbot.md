@@ -1,7 +1,26 @@
+---
+title: Chatbot with DialogFlo
+author: clone95
+description: The purpose of this guide is to guide you through the creation of a fully interactive and useful chatbot, with endless possibilities for business automation and improving customer experience.  
+---
 
-# ChatBots with DialogFlow, Python, and Flask
+# Index
+- [We have 99.94847 percent probability of death Luke](#We-have-99.94847-percent-probability-of-death-Luke)
+- [Why DialogFlow](#Why-DialogFlow)
+- [Learning DialogFlow](#Learning-DialogFlow)
+  - [The GUI approach](#The-GUI-approach) 
+  - [A deeper approach](#A-deeper-approach)
+  - [Our first agent](#Our-first-agent)
+  - [Experimenting the API](#Experimenting-the-API)
+- [Hands-on Project](#Hands-on-Project)
+  - [Up and running with Flask and webhooks](#Up-and-running-with-Flask-and-webhooks)
+  - [Our agent, but with API calls](#Our-agent,-but-with-API-calls)
+  - [Handling webhooks with Flask](#Handling-webhooks-with-Flask)
+  - [Deploying our chatbot](#Deploying-our-chatbot)
+  - [Chatbot tips and best practices](#Chatbot-tips-and-best-practices)
+  - [Project Ideas](#Project-Ideas)
 
-## We have 99.94847 percent probability of death, Luke
+## We have 99.94847 percent probability of death Luke
 In simple terms, a [Chatbot](https://medium.com/swlh/what-is-a-chatbot-and-how-to-use-it-for-your-business-976ec2e0a99f) is a computer program that simulates human conversation (in the form of texts and audio) 
 which we would perceive as being intelligent and useful. 
 Their most important application is personal or enterprise virtual assistants.
@@ -21,30 +40,16 @@ I've chosen DialogFlow because:
 - Incorporates Google's machine learning expertise and products such as Google Cloud Speech-to-Text.
 - Is a Google service that runs on the Google Cloud Platform, letting you scale to hundreds of millions of users.
 - Is really beginner-friendly, intuitive, and has complete and clear documentation.
-  
-## Prerequisites 
-This guide will use [Python](https://www.python.org/) and his [Flask](http://flask.pocoo.org/) lightweight library to let you build a complete and deployable chatbot application. So, if you don't know Python, make yourself a gift and [learn it!](https://automatetheboringstuff.com/)
 
-
-# Index
-- [Learning DialogFlow](#Learning-DialogFlow)
-  - [The GUI approach](#The-GUI-approach) 
-  - [A deeper approach](#A-deeper-approach)
-  - [Our first agent](#Our-first-agent)
-  - [Experimenting the API](#Experimenting-the-API)
-- [Hands-on Project](#Hands-on-Project)
-  - [Up and running with Flask and webhooks](#Up-and-running-with-Flask-and-webhooks)
-  - [Our agent, but with API calls](#Our-agent,-but-with-API-calls)
-  - [Handling webhooks with Flask](#Handling-webhooks-with-Flask)
-  - [Deploying our chatbot](#Deploying-our-chatbot)
-  - [Chatbot tips and best practices](#Chatbot-tips-and-best-practices)
-  - [Project Ideas](#Project-Ideas)
 
 ## Learning DialogFlow
 The thing I love about DialogFlow is that's beginner friendly. In fact, the approach  we'll follow to learn how to deploy real chat-bots is the following:
 - A first gentle approach through the Graphical User Interface to understand the concepts (intents, entities, context...)
 - A more "coding" approach, using the Python Client for [RESTful](https://it.wikipedia.org/wiki/Representational_State_Transfer) API call to reproduce the same Agent but with code (and not clicks in the GUI).
 - When we're able to build agents with Python API calls, we'll use them to create and End-to-End chatbot project that you'll deploy on several channels (Slack, Facebook, Telegram...)
+
+This guide will use [Python](https://www.python.org/) and his [Flask](http://flask.pocoo.org/) lightweight library to let you build a complete and deployable chatbot application. So, if you don't know Python, make yourself a gift and [learn it!](https://automatetheboringstuff.com/)
+
 Let's start!
 
 ### The GUI approach 

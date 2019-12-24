@@ -1,20 +1,9 @@
 ---
 title: Machine Learning use cases
 author: clone95
-description: Give a high-level overview of the various cases of application of ML techniques (and in particular Deep Learning).
+description: The purpose of this guide is to give a high-level overview of the different cases of application of ML techniques (and in particular Deep Learning) in the various industries and fields.
 ---
 
-# Use Cases
-
-# What you will learn 
-The purpose of this guide is to give a high-level overview of the various
-cases of application of ML techniques (and in particular Deep Learning) in the various industries and fields.
-
-## Prerequisites
-It is recommended to read the guides of Paradiso preceding this one, but it is not necessary.
-
-## Time to read
-20 minutes.
 
 # Index
  - [The big picture](#The-big-picture)
@@ -144,5 +133,3 @@ We would also like to remind you that if you are aware of any use cases not incl
 
 Have an happy exploration!
 
-----
-Written by [_clone95_](https://github.com/clone95)
