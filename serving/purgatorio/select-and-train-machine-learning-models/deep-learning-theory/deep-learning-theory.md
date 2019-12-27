@@ -5,7 +5,7 @@ description: Get started with Deep Learning, the branch of machine learning that
 ---
 
 # Index
-
+- [What is Deep Learning](#What-is-Deep-Learning)
 - [Why Deep Learning](#Why-Deep-Learning)
 - [Neural Networks](#Neural-Networks)
   + [Artificial Neural Networks](#Artificial-Neural-Networks)
@@ -16,15 +16,61 @@ description: Get started with Deep Learning, the branch of machine learning that
 - [Deep Learning Best Practices](#Deep-Learning-Best-Practices)
 - [Conclusions](#Conclusions)
 
+## What is Deep Learning
+**Deep Learning is a subcategory of Machine Learning** and indicates the branch that refers to algorithms inspired by the structure and function of the brain called artificial neural networks.
+
+From a scientific point of view, we could say that Deep Learning is learning by "machines" through data learned through the use of algorithms (mainly statistical computing).
+
+Deep Learning (also known as Deep Structured Learning or Hhierarchical Learning or Representational Learning), in fact, is part of a wider family of Machine Learning methods based on the assimilation of data representations, as opposed to algorithms for the execution of specific tasks.
+
+The Deep Learning architectures (with which today the concept of artificial neural network is also brought to the attention of the general public) have for example been applied in computer vision, automatic recognition of spoken language, natural language processing, audio recognition and bioinformatics (the use of computer tools to describe from a numerical and statistical point of view certain biological phenomena such as gene sequences, protein composition and structure, biochemical processes in cells, etc.).
+
+The _main characteristic_ of Deep Learning are the following:
+
+- Use various levels of cascading non-linear units to perform characteristics extraction and transformation tasks. Each successive level uses the output of the previous level as input. The algorithms can be either supervised or unsupervised 
+
+- Are based on unsupervised learning of multiple hierarchical levels of data features (and representations). Higher-level features are derived from lower-level features to create a hierarchical representation
+
+- Are part of the broader class of algorithms for learning data representation within Machine Learning
+
+- Learn multiple levels of representation corresponding to different levels of abstraction and these levels form a hierarchy of concepts. This is why Deep Learning is also called Representational Learning.
+
+We'll see tha even if Deep Learning is such a powerful approach, this doesn't mean that every problem should be tackled with it. 
+
+Data scarcity and computational requirements often suggest that more traditional Machine Learning algorithms should be considered way before Deep Learning algorithms.
+
 ## Why Deep Learning
 
+In traditional Machine learning techniques, most of the features need to be identified by an domain expert in order to reduce the complexity of the data and make patterns more visible to learning algorithms to work.
+
+For example, in a time-series dataset, traditionally an expert would separate the day from the month and year, giving them different columns in the dataset. Maybe he would build a "season" columns, of flag columns to indicate the Christmas holidays for example. 
+So an expert is helping the ML algorithm "disentangling" the several features it has to deal with. 
+  
+The biggest advantage Deep Learning algorithms is that they try **to learn features from data** in an incremental manner.
+ 
+This eliminates the need of domain expertise and hard core feature extraction.
+
+Although the demand for huge computational capabilities may represent a limit, the scalability of Deep Learning thanks to the increase in available data and algorithms is what differentiates it from Machine Learning: _Deep Learning systems, in fact, improve their performance as the data increases while Machine Learning applications once they reach a certain level of performance are no longer scalable even by adding examples and training data to the neural network._
+
+This is because in Machine Learning systems the characteristics of a given object (in the case of visual recognition systems) are extracted and selected manually and are used to create a model capable of categorizing objects (based on the classification and recognition of those characteristics).
+
+In Deep Learning systems, on the other hand, the extraction of characteristics is done automatically: the neural network learns autonomously how to analyze raw data and how to perform a task (for example, classifying an object by recognizing its characteristics autonomously).
+
+From the point of view of potentiality, if Deep Learning may seem more "fascinating" and useful than Machine Learning, it should be pointed out that the computational calculation required for their operation is really impacting, also from an economic point of view: the most advanced CPUs and top-of-the-range GPUs useful to "hold" the workloads of a Deep Learning system still cost thousands of dollars
+
+The use of computational capabilities via Cloud only partially mitigates the problem because the formation of a deep neural network often requires the processing of large amounts of data using clusters of high-end GPUs for many, many hours (so it is not said that buying "as a service" the necessary computing capacity is cheap).
+
 ## Neural Networks 
-In this section we'll follow a track that will take us from zero knowledge about neural networks to fully understanding them, thanks to the Stanford University Deep Learning course and some tutorials I've searched over the internet. Some of them come from Google, others from Stanford or Cambridge universities, and you will learn to leverage neural networks (ANN, CNN, RNN) for several kinds of ML tasks.
 
-It is not easy to understand the theory and application of Neural Networks at first glance. You will need to go through tutorials repeatedly to fully comprehend the topic. You should expect a good amount of time trying to grasp all the concepts related. 
+So, it's time to understand what Neural Networks are and how you can use them in tackling real world problems.
 
+From now on we'll follow a track that will take us from zero knowledge about Neural Networks to fully understanding them, thanks to the Stanford University Deep Learning course and tutorials. Some of them come from Google, others from Stanford or Cambridge universities, and you will learn to leverage neural networks for several kinds of Deep Learning tasks.
 
-Virgili tries to propose proven learning strategis, but you can tweak it as you prefer, because every brain is different.
+We'll focus on the main 4 types of Neural Networks, even if novel architectures are discovered out on a daily basis (most of the time revisiting the existing ones, or mixing them in more complex ways).
+
+**It is not easy to understand the theory and application of Neural Networks at first glance.** You will need to go through tutorials repeatedly to fully comprehend the topic. You should expect a good amount of time to grasp all the concepts related. 
+
+Virgilio tries to propose the following proven learning strategy, but you can tweak it as you prefer, because every brain is different.
 
 > 3-step iterative cycle:
 
@@ -39,7 +85,9 @@ This iterative process (1-2-2-2-2.....-3) can be repeated as many times as you w
 
 In each section I've put content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3rd step).
 
-The structure follows the track proposed by the awesome Stanford course. You can find the slides [here](http://cs231n.github.io/).
+The structure follows the track proposed by the awesome Stanford course. You can find the slides [here](http://cs231n.github.io/) and the video [here](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
+
+The course slightly pushes more on the Convolutional Neural Network type, but it gives you a good understanding of all the other types.
 
 [This](http://introtodeeplearning.com/) is an alternative course from MIT, it has slightly different contents. 
 
@@ -47,9 +95,12 @@ It's worth watching it to compare and have a different point of view on the thin
 
 This is the [**Book**](https://www.deeplearningbook.org/) we refer to in each section.
 
-
+Now you should have a complete panoramic view of Deep Learning, even if some concepts or passages are not clear, so it's time to dive deep into each Neural Network type to understand them fully. Without this passage you won't be able to use them in an useful way, because as you've already seen they have a lot of parameters and tricky configurations to consider.
 
 ### Artificial Neural Networks
+
+The "Vanilla" (basic) kind of Neural Network. Best suited for classification and regression tasks where the input is a a tabular dataset, or very simple images or text.
+
 _First look (in order):_
 - [3Blue1Brown awesome intro](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
 - [This video](https://www.youtube.com/watch?v=v2tKoymKIuE).
@@ -65,6 +116,9 @@ _Tips & Best practices:_
 [1](https://developers.google.com/machine-learning/crash-course/training-neural-networks/best-practices), [2](https://hackernoon.com/8-deep-learning-best-practices-i-learned-about-in-2017-700f32409512), [3](https://towardsdatascience.com/10-things-to-think-about-before-starting-to-code-your-deep-neural-network-65094a1e7c08), [4](https://towardsdatascience.com/how-to-increase-the-accuracy-of-a-neural-network-9f5d1c6f407d), [5](https://www.reddit.com/r/MachineLearning/comments/abj1mc/d_notes_on_why_deep_neural_networks_are_able_to/), [6](https://www.reddit.com/r/MachineLearning/comments/abj1mc/d_notes_on_why_deep_neural_networks_are_able_to/), [7](http://karpathy.github.io/neuralnets/), [8](https://medium.com/cracking-the-data-science-interview/a-gentle-introduction-to-neural-networks-for-machine-learning-d5f3f8987786).
 
 ### Convolutional Neural Networks
+
+The most used kind of Neural Network to deal with images and videos. They are thought to be less computationally expensive than vanilla Neural Networks (sharing wheight among the layers) and have other useful features that help in dealing with 2D images or videos.
+
 _First look (in order):_
 - [Here](http://cs231n.github.io/convolutional-networks/)'s your reference, love it!
 - [Here](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) is an awesome deep explanation. 
@@ -79,6 +133,9 @@ _Tips & Best practices:_
 [1](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), [2](https://www.topbots.com/14-design-patterns-improve-convolutional-neural-network-cnn-architecture/), [3](https://arxiv.org/abs/1709.02601), [4](https://de.mathworks.com/matlabcentral/answers/362024-convolutional-neural-networks-what-is-the-best-practice-training-approach-using-graphics-cards), [5](http://www.academia.edu/4057996/Best_Practices_for_Convolutional_Neural_Networks_Applied_to_Visual_Document_Analysis), [6](https://www.microsoft.com/en-us/research/publication/best-practices-for-convolutional-neural-networks-applied-to-visual-document-analysis/), [7](https://missinglink.ai/guides/neural-network-concepts/neural-networks-image-recognition-methods-best-practices-applications/), [8](https://machinelearningmastery.com/best-practices-document-classification-deep-learning/).
 
 ### Recurrent Neural Networks
+
+This kind of Neural Network outperforms other ones when dealng with text and time-series data, because it implements the concept of "memory" inside the network.  
+
 _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
 - [Here](https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn) is another interesting explanation.
@@ -93,12 +150,15 @@ _Tips & Best practices:_
 [1](https://danijar.com/tips-for-training-recurrent-neural-networks/), [2](https://svail.github.io/rnn_perf/), [3](https://towardsdatascience.com/rnn-training-tips-and-tricks-2bf687e67527), [4](http://slazebni.cs.illinois.edu/spring17/lec20_rnn.pdf), [5](https://www.quora.com/What-are-the-best-practices-for-choosing-hidden-state-size-in-RNNs), [6](https://www.quora.com/Can-recurrent-neural-networks-with-LSTM-be-used-for-time-series-prediction), [7](https://www.reddit.com/r/MachineLearning/comments/5ogbd5/d_training_lstms_in_practice_tips_and_tricks/).
  
 
-## AutoEncoders
+## AutoEncoders 
+
+Autoencoders are a particular class of Deep Learning algorithms that tries to, given and input, compress it in the internal layers and then reconstruct it as approaching to the output layer, with the final output of the network that should be similar as much as possible to the input. They can be used to a variety of tasks, for example denoising data, compress the data to visualize them, and use some trained layers of an Autoencoder to boostrap the learning process of another Neural Network. 
+
 _First look (in order):_
 - [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
 - [This](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f) is your second recommended read.
 - [This](https://www.youtube.com/watch?v=vfnxKO2rMq4) is a lecture from Andrew NG.
-- I also give you some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html), [5](https://mathspp.blogspot.com/2019/03/generating-natural-looking-digits-with.html)
+- Some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html), [5](https://mathspp.blogspot.com/2019/03/generating-natural-looking-digits-with.html)
 
 _Second pass:_
 [AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
