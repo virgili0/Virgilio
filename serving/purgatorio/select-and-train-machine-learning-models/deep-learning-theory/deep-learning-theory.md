@@ -8,7 +8,7 @@ description: Get started with Deep Learning, the branch of machine learning that
 - [What is Deep Learning](#What-is-Deep-Learning)
 - [Why Deep Learning](#Why-Deep-Learning)
 - [Neural Networks](#Neural-Networks)
-  + [Artificial Neural Networks](#Artificial-Neural-Networks)
+  + [Feedforward Neural Networks](#Feedforward-Neural-Networks)
   + [Convolutional Neural Networks](#Convolutional-Neural-Networks)
   + [Recurrent Neural Networks](#Recurrent-Neural-Networks)
   + [Generative Adversarial Networks](#Generative-Adversarial-Networks)
@@ -133,9 +133,9 @@ Once you're done, you should have a complete panoramic view of Deep Learning, ev
 
 This is the [**Deep Learning Book**](https://www.deeplearningbook.org/) we refer to in each of the next sections.
 
-### Artificial Neural Networks
+## Feedforward Neural Networks
 
-The "Vanilla" (basic) kind of Neural Network. Best suited for classification and regression tasks where the input is a a tabular dataset, or very simple images or text.
+The basic kind of Neural Network. Best suited for classification and regression tasks where the input is a a tabular dataset, or very simple images or text. 
 
 _First look (in order):_
 - [3Blue1Brown awesome intro](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
@@ -148,10 +148,12 @@ _First look (in order):_
 _Second pass:_
 - [ANN Chapter](https://www.deeplearningbook.org/contents/mlp.html).
 
+_Play with a Neural Network_: [Deep Learning Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
 _Tips & Best practices:_
 [1](https://developers.google.com/machine-learning/crash-course/training-neural-networks/best-practices), [2](https://hackernoon.com/8-deep-learning-best-practices-i-learned-about-in-2017-700f32409512), [3](https://towardsdatascience.com/10-things-to-think-about-before-starting-to-code-your-deep-neural-network-65094a1e7c08), [4](https://towardsdatascience.com/how-to-increase-the-accuracy-of-a-neural-network-9f5d1c6f407d), [5](https://www.reddit.com/r/MachineLearning/comments/abj1mc/d_notes_on_why_deep_neural_networks_are_able_to/), [6](https://www.reddit.com/r/MachineLearning/comments/abj1mc/d_notes_on_why_deep_neural_networks_are_able_to/), [7](http://karpathy.github.io/neuralnets/), [8](https://medium.com/cracking-the-data-science-interview/a-gentle-introduction-to-neural-networks-for-machine-learning-d5f3f8987786).
 
-### Convolutional Neural Networks
+## Convolutional Neural Networks
 
 The most used kind of Neural Network to deal with images and videos. They are thought to be less computationally expensive than vanilla Neural Networks (sharing wheight among the layers) and have other useful features that help in dealing with 2D images or videos.
 
@@ -168,9 +170,9 @@ _Second pass:_
 _Tips & Best practices:_
 [1](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), [2](https://www.topbots.com/14-design-patterns-improve-convolutional-neural-network-cnn-architecture/), [3](https://arxiv.org/abs/1709.02601), [4](https://de.mathworks.com/matlabcentral/answers/362024-convolutional-neural-networks-what-is-the-best-practice-training-approach-using-graphics-cards), [5](http://www.academia.edu/4057996/Best_Practices_for_Convolutional_Neural_Networks_Applied_to_Visual_Document_Analysis), [6](https://www.microsoft.com/en-us/research/publication/best-practices-for-convolutional-neural-networks-applied-to-visual-document-analysis/), [7](https://missinglink.ai/guides/neural-network-concepts/neural-networks-image-recognition-methods-best-practices-applications/), [8](https://machinelearningmastery.com/best-practices-document-classification-deep-learning/).
 
-### Recurrent Neural Networks
+## Recurrent Neural Networks
 
-This kind of Neural Network outperforms other ones when dealng with text and time-series data, because it implements the concept of "memory" inside the network.  
+Recurrent Neural Network (RNNs) outperform other kinds when dealing with text and time-series data, because it implements the concept of "memory" inside the network.  
 
 _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
@@ -185,8 +187,21 @@ _Second pass:_
 _Tips & Best practices:_
 [1](https://danijar.com/tips-for-training-recurrent-neural-networks/), [2](https://svail.github.io/rnn_perf/), [3](https://towardsdatascience.com/rnn-training-tips-and-tricks-2bf687e67527), [4](http://slazebni.cs.illinois.edu/spring17/lec20_rnn.pdf), [5](https://www.quora.com/What-are-the-best-practices-for-choosing-hidden-state-size-in-RNNs), [6](https://www.quora.com/Can-recurrent-neural-networks-with-LSTM-be-used-for-time-series-prediction), [7](https://www.reddit.com/r/MachineLearning/comments/5ogbd5/d_training_lstms_in_practice_tips_and_tricks/).
  
-## Generatuve Adversarial Networks
+## Generative Adversarial Networks
 
+Generative adversarial networks (GANs) are a class of neural networks used in unsupervised deep learning, implemented by a system of two neural networks competing with each other.
+
+The two neural network are Inspector and the Generator.
+The Generator tries to create fake data, the other one is the Inspector who tries to understand if it's seeing real data or fake money.
+
+_First look (in order):_
+- [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
+- [This](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f) is your second recommended read.
+- [This](https://www.youtube.com/watch?v=vfnxKO2rMq4) is a lecture from Andrew NG.
+- Some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html), [5](https://mathspp.blogspot.com/2019/03/generating-natural-looking-digits-with.html)
+
+_Second pass:_
+[AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
 
 ## AutoEncoders 
 
@@ -204,7 +219,7 @@ _Second pass:_
  _Tips & Best practices:_
  [1](https://stats.stackexchange.com/questions/257163/architecture-of-autoencoders), [2](https://stats.stackexchange.com/questions/193780/how-much-noise-for-denoising-autoencoder), [3](https://www.reddit.com/r/MachineLearning/comments/6aw8ik/d_reddit_do_you_use_autoencoders_in_practice/), [4](https://www.reddit.com/r/MachineLearning/comments/89f17m/d_current_best_practices_for_vaes/), [5](https://www.reddit.com/r/MachineLearning/comments/5k8h07/p_insights_into_variational_autoencoders_for/)
  
- ## Training Neural Networks Effectively
+## Training Neural Networks Effectively
  
 The Deep Learning field, even if rapidly developing and giving awesome results, often lacks theoretical understanding of the phenomenon that happen under the hood (especially during training). 
 

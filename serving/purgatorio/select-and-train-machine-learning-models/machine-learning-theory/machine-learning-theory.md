@@ -95,6 +95,10 @@ Nevertheless, there are _some algorithms_ which are the foundation of statistica
 
 For example, these algorithms are the ones a recruiter can ask you about!
 
+Another awesome course on Machine Learning is the following:
+
+[Machine Learning Course at Bloomberg](https://www.youtube.com/watch?v=MsD28INtSv8&list=PLnZuxOufsXnvftwTB1HL6mel1V32w0ThI)
+
 ## Must-Know Supervised Learning Algorithms
 The algorithms listed here are of the "Supervised" type, in the sense that you need labeled data in order to make your models work.
 
