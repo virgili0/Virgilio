@@ -15,11 +15,8 @@ description: Get started with Deep Learning, the branch of machine learning that
   + [AutoEncoders](#AutoEncoders)
 - [Training Neural Networks Effectively](#Training-Neural-Networks-Effectively)
   + [Understanding BackPropagation](#Understanding-BackPropagation)
-  + [Overfitting and Underfitting](#Overfitting-and-Underfitting)
-  + [Vanishing and Exploding Gradients](#Vanishing-and-Exploding-gradients)
   + [Transfer Learning](#Transfer-Learning)
-  + [Faster Optimizers](#Faster-Optimizers)
-  + [Avoiding Overfitting Through Regularization](#Avoiding-Overfitting-Through-Regularization)
+  + [Deep Learning Best Practices](#Deep-Learning-Best-Practices)
 - [Conclusions](#Conclusions)
 
 ## What is Deep Learning
@@ -109,7 +106,7 @@ Virgilio tries to propose the following proven learning strategy, but you can tw
 
 >- 1 Get an idea of the main concepts through an **entire pass of this** [Stanford course](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv), don't worry too much about the math explanations, focus on the **what and why**.
 
->- 2 Deeply explore **one topic at a time**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
+>- 2 Deeply explore **one kind of network**, with theory + tutorials + examples (e.g. RNN theory + RNN tutorials + RNN examples)
 >with the links and resources of the topic section of the guide.
 
 >- 3 After iterating the 2nd step for each topic, go through the entire Stanford course again. This time you can fully understand all the formulae, connecting them and catching also the "math flow" of the course.
@@ -127,7 +124,6 @@ The course slightly pushes more on the Convolutional Neural Network type, but it
 Of course you should consider [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from the same course of the [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md) Guide.
 
 It's worth watching all them to compare and have a different point of view on the things you are learning, besides listening to some of the best professors of the world exploring each topic.  
-
 
 Once you're done, you should have a complete panoramic view of Deep Learning, even if some concepts or passages are not clear, so it's time to dive deep into each Neural Network type to understand them fully. Without diving deep in them you won't be able to use them in an useful way, because as you've already seen they have a lot of parameters and tricky configurations to consider.
 
@@ -167,6 +163,9 @@ _First look (in order):_
 _Second pass:_
 - [CNN Chapter](https://www.deeplearningbook.org/contents/convnets.html).
 
+_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+[A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032)
+
 _Tips & Best practices:_
 [1](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), [2](https://www.topbots.com/14-design-patterns-improve-convolutional-neural-network-cnn-architecture/), [3](https://arxiv.org/abs/1709.02601), [4](https://de.mathworks.com/matlabcentral/answers/362024-convolutional-neural-networks-what-is-the-best-practice-training-approach-using-graphics-cards), [5](http://www.academia.edu/4057996/Best_Practices_for_Convolutional_Neural_Networks_Applied_to_Visual_Document_Analysis), [6](https://www.microsoft.com/en-us/research/publication/best-practices-for-convolutional-neural-networks-applied-to-visual-document-analysis/), [7](https://missinglink.ai/guides/neural-network-concepts/neural-networks-image-recognition-methods-best-practices-applications/), [8](https://machinelearningmastery.com/best-practices-document-classification-deep-learning/).
 
@@ -184,24 +183,32 @@ _First look (in order):_
 _Second pass:_
 - [RNN Chapter](https://www.deeplearningbook.org/contents/rnn.html)
 
+_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+[Fundamentals of Recurrent Neural Network and Long Short-Term Memory Network](https://arxiv.org/abs/1901.06032)
+
 _Tips & Best practices:_
 [1](https://danijar.com/tips-for-training-recurrent-neural-networks/), [2](https://svail.github.io/rnn_perf/), [3](https://towardsdatascience.com/rnn-training-tips-and-tricks-2bf687e67527), [4](http://slazebni.cs.illinois.edu/spring17/lec20_rnn.pdf), [5](https://www.quora.com/What-are-the-best-practices-for-choosing-hidden-state-size-in-RNNs), [6](https://www.quora.com/Can-recurrent-neural-networks-with-LSTM-be-used-for-time-series-prediction), [7](https://www.reddit.com/r/MachineLearning/comments/5ogbd5/d_training_lstms_in_practice_tips_and_tricks/).
  
 ## Generative Adversarial Networks
 
-Generative adversarial networks (GANs) are a class of neural networks used in unsupervised deep learning, implemented by a system of two neural networks competing with each other.
+Generative Adversarial Networks, are an approach to generative modeling using deep learning methods, such as convolutional neural networks.
 
-The two neural network are Inspector and the Generator.
-The Generator tries to create fake data, the other one is the Inspector who tries to understand if it's seeing real data or fake money.
+Generative modeling is an [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning) task in machine learning that involves automatically discovering and learning the regularities or patterns in input data in such a way that the model can be used to generate or output new examples that plausibly could have been drawn from the original dataset.
+
+GANs are a smart way of training a generative model by framing the problem as a supervised learning problem with two sub-networks: the generator network that we train to generate new examples, and the discriminator network that tries to classify examples as either real (from the domain) or fake (generated). The two networks are trained together in a [zero-sum game](https://en.wikipedia.org/wiki/Zero-sum_game), "adversarial", until the discriminator model is fooled about half the time, meaning the generator model is generating plausible examples.
 
 _First look (in order):_
-- [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
-- [This](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f) is your second recommended read.
-- [This](https://www.youtube.com/watch?v=vfnxKO2rMq4) is a lecture from Andrew NG.
-- Some examples: [1](https://www.guru99.com/autoencoder-deep-learning.html), [2](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/autoencoder.py), [3](https://towardsdatascience.com/deep-autoencoders-using-tensorflow-c68f075fd1a3), [4](http://machinelearninguru.com/deep_learning/tensorflow/neural_networks/autoencoder/autoencoder.html), [5](https://mathspp.blogspot.com/2019/03/generating-natural-looking-digits-with.html)
+- [Here](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/) you find a gentle introduction to Generative Adversarial Networks.
+- [Play with a GAN!](https://poloclub.github.io/ganlab/)
+- [This](https://developers.google.com/machine-learning/gan) is a tutorial from Google which get you started in trainng GANs in real world scenarios.
+- [Here](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/) you can read which are some example applications of Generative Adversarial Networks.
+- [Here](https://www.youtube.com/watch?v=3-qazNQS2JU&t=1629s) you can find a panoramic overview of GANs "applications explosion" from their inventor (Ian Goodfellow). He's also co-author of the [Deep Learning Book](http://www.deeplearningbook.org/)!
+- [Here](https://www.youtube.com/watch?v=KudkR-fFu_8) you find a detailed Theory and Applications video on GANs.
 
-_Second pass:_
-[AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
+_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+[Generative Adversarial Networks: recent developments](https://arxiv.org/abs/1903.12266)
+
+_Second pass_: [Generative Models Chapter](http://www.deeplearningbook.org/contents/generative_models.html).
 
 ## AutoEncoders 
 
@@ -216,6 +223,9 @@ _First look (in order):_
 _Second pass:_
 [AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
  
+_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+[Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069)
+
  _Tips & Best practices:_
  [1](https://stats.stackexchange.com/questions/257163/architecture-of-autoencoders), [2](https://stats.stackexchange.com/questions/193780/how-much-noise-for-denoising-autoencoder), [3](https://www.reddit.com/r/MachineLearning/comments/6aw8ik/d_reddit_do_you_use_autoencoders_in_practice/), [4](https://www.reddit.com/r/MachineLearning/comments/89f17m/d_current_best_practices_for_vaes/), [5](https://www.reddit.com/r/MachineLearning/comments/5k8h07/p_insights_into_variational_autoencoders_for/)
  
@@ -247,11 +257,12 @@ It's hard to find a list on the internet that includes expert knowledge and best
 
 It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) from Stanford and go through all the Module 1 and 2.
 
-- Overfitting vs Underfitting: [1](https://keeeto.github.io/blog/bias_variance/), [2](https://cran.r-project.org/web/packages/keras/vignettes/tutorial_overfit_underfit.html), [3](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/), [4](https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76), [5](https://elitedatascience.com/overfitting-in-machine-learning). 
-- Vanishing/Exploding Gradient: [1](https://medium.com/learn-love-ai/the-curious-case-of-the-vanishing-exploding-gradient-bf58ec6822eb), [2](https://machinelearningmastery.com/exploding-gradients-in-neural-networks/), [3](https://hackernoon.com/exploding-and-vanishing-gradient-problem-math-behind-the-truth-6bd008df6e25), [4](https://www.jefkine.com/general/2018/05/21/2018-05-21-vanishing-and-exploding-gradient-problems/), [5](https://medium.com/@prateekvishnu/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528).
-- Transfer Learning: [1](https://medium.com/analytics-vidhya/reusing-a-pre-trained-deep-learning-model-on-a-new-task-transfer-learning-1c0a25a92dfb),   th-r-notebooks/notebooks/5.3-using-a-pretrained-convnet.nb.html), [4](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a), [5](https://machinelearningmastery.com/transfer-learning-for-deep-learning/).
-- Faster Optimizers: [1](http://ruder.io/optimizing-gradient-descent/), [2](https://www.jeremyjordan.me/nn-learning-rate/), [3](https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1), [4](https://towardsdatascience.com/learning-rate-scheduler-d8a55747dd90). 
-- Avoiding Overfitting through Regularization: [1](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a), [2](https://codeburst.io/what-is-regularization-in-machine-learning-aed5a1c36590), [3](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/), [4](https://machinelearningmastery.com/weight-regularization-to-reduce-overfitting-of-deep-learning-models/).
+
+### Understanding Backpropagation
+
+### Transfer Learning:
+
+### Deep Learning Best Practices
 
 _Second pass:_
 - [Google best practices](https://developers.google.com/machine-learning/guides/rules-of-ml/).

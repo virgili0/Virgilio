@@ -63,7 +63,9 @@ Plan some weeks of study and prepare to follow:
 
 [**Machine Learning Course from Andrew NG**](https://www.coursera.org/learn/machine-learning)
 
-This course would take you through the basics of Machine Learning algorithms, plus the math theory behind the training process. Concepts like Overfitting, Regularization, and Loss Functions are explained in-depth.
+This course would take you through the basics of Machine Learning algorithms, plus the math theory behind the training process. 
+
+Concepts like _Overfitting, Regularization, and Loss Functions_ are explained in-depth.
 
 The course has a part on Deep Learning, so you're not obliged to take them (even if it's recommended). 
 
@@ -95,9 +97,13 @@ Nevertheless, there are _some algorithms_ which are the foundation of statistica
 
 For example, these algorithms are the ones a recruiter can ask you about!
 
-Another awesome course on Machine Learning is the following:
+A new recent course from Bloomberg is a pearl you don't want to miss:
 
-[Machine Learning Course at Bloomberg](https://www.youtube.com/watch?v=MsD28INtSv8&list=PLnZuxOufsXnvftwTB1HL6mel1V32w0ThI)
+[**Machine Learning Course at Bloomberg**](https://www.youtube.com/watch?v=MsD28INtSv8&list=PLnZuxOufsXnvftwTB1HL6mel1V32w0ThI)
+
+This course is _probably_ the best compromise among quality of the content, of the audio, and the teacher's explaining skills.
+
+Once you're done with one (or more) of these courses, you can choose some algorithms and dive deep into them. Let's see some of the most common ML algorithms.
 
 ## Must-Know Supervised Learning Algorithms
 The algorithms listed here are of the "Supervised" type, in the sense that you need labeled data in order to make your models work.
