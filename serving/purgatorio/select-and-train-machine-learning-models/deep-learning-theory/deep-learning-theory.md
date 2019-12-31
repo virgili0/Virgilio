@@ -139,7 +139,7 @@ _First look (in order):_
 - [This video](https://www.youtube.com/watch?v=v2tKoymKIuE).
 - [This is your bible](http://neuralnetworksanddeeplearning.com/chap1.html), understand it totally.
 - [This is a gem](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.85356&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) and read [this](https://www.guru99.com/artificial-neural-network-tutorial.html) from the authors.
-- [This](https://www.youtube.com/watch?v=o64FV-ez6Gw&t=540s) is a really fast-talking guy implementing a Neural Network library from scratch, super useful to understand how the core of an NN is implemented in Python. You can imagine that each existing framework is just an enormous expansion of this concept-library.
+- [This](https://www.youtube.com/watch?v=o64FV-ez6Gw&t=540s) is a live-coding implementation of a Neural Network basic library from scratch, super useful to understand how the core of an NN is implemented in Python. You can imagine that each existing framework is just an enormous expansion of this concept-library.
 - [This](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) is a step-by-step backpropagation example with calculus.
 
 _Second pass:_
@@ -256,6 +256,8 @@ Training Neural Networks effectively requires experience and even the most exper
 
 It's hard to find a list on the internet that includes expert knowledge and best practices, and that's what Virgilio tries to do in this section.
 
+First things first:
+
 It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) from Stanford and go through all the Module 1 and 2.
 
 
@@ -276,7 +278,33 @@ Additional resources:
 - [Backpropagation Demo](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
 - [Backpropagation by 3Blue1Brown](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 
+_Reinvent the wheel_:
+A good way to understanding backpropagation is to code it from scratch! Try to do it without help, but these tutorial will give you the solution.
+
+- [How to Code a Neural Network with Backpropagation In Python (from scratch)](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
+- [Let's Build a Deep Learning Library](https://www.youtube.com/watch?v=o64FV-ez6Gw)
+
+
 ### Transfer Learning:
+
+This is probably one of the most **useful and beautiful** ideas about the world of machines that _learns_ from data.
+
+Transfer learning is a learning strategy in which a model developed for one task is reused as a starting point for a model on a second task. 
+
+It is a popular approach in deep neural network learning, where preformed models are used as a starting point for computer vision and natural language processing activities, given the vast computing resources and time needed to develop neural models on these problems.
+
+This guide will introduce you to Transfer Learning on images, but you can apply the same concept to every kind of data. 
+
+- [Transfer Learning](https://ruder.io/transfer-learning/index.html)
+
+Transfer Learning brings with it very useful and powerful features:
+
+- Allows you to train models in a fraction of the expected time.
+
+- Requires much less data than "from scratch" training.
+
+- The _diversity_ of the starting dataset (on which the pre-training was done) compared to the dataset on which the fine-tuning is done (the second task) _help the model's generalizing ability_. 
+
 
 ### Deep Learning Best Practices
 
