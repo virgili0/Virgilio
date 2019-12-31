@@ -32,7 +32,7 @@ Neural networks (with which today the concept of Deep Learning is also brought t
 
 The _main characteristics_ of Deep Learning are the following:
 
-- The learning algorithm always involves at least a neural network (more precisely, an acyclic graph) composed by several layers of neurons. These neurons are connected across layers, and these connections are adjustable weights, represented by a floating number. These numbers (the weights, the connections) are randomly initialized and then tweaked through an iterative process (the training phase) showing to the network a big amout of data examples. 
+- The learning algorithm always involves at least a neural network (more precisely, an acyclic graph) composed by several layers of neurons. These neurons are connected across layers, and these connections are adjustable weights, represented by a floating number. These numbers (the weights, the connections) are randomly initialized and then tweaked through an iterative process (the training phase) showing to the network a big amout of data examples. The output of the training phase is the trained model.
 
 - Neural networks are part of the [broader class](https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning) of algorithms for learning data representation within Machine Learning
 
@@ -40,11 +40,6 @@ The _main characteristics_ of Deep Learning are the following:
 
 - Neural networks learn multiple levels of representation corresponding to different levels of abstraction and these levels form a hierarchy of concepts. This is why Deep Learning is also called [Representational Learning](https://www.quora.com/What-is-representation-learning-in-deep-learning).
 
-**BUT!**
-
-We'll see that even if Deep Learning is such a powerful approach, this doesn't mean that every problem should be tackled with it. 
-
-Data scarcity and computational requirements often suggest that more traditional Machine Learning algorithms should be considered way before Deep Learning algorithms.
 
 ## Why Deep Learning
 
@@ -66,6 +61,12 @@ This is because in Machine Learning systems the characteristics of a given objec
 
 In Deep Learning systems, on the other hand, the extraction of characteristics is done automatically: the neural network **learns autonomously** how to analyze raw data and how to perform a task (for example, classifying an object by recognizing its characteristics autonomously).
 
+**BUT!**
+
+We'll see that even if Deep Learning is such a powerful approach, this doesn't mean that every problem should be tackled with it. 
+
+Data scarcity and computational requirements often suggest that more traditional Machine Learning algorithms should be considered way before Deep Learning algorithms.
+
 Basically, you _should avoid Deep Learning_ in the followign cases:
 
 - If there is a simpler approach that provides an adequate solution.
@@ -76,7 +77,7 @@ Basically, you _should avoid Deep Learning_ in the followign cases:
 
 - If you don't have resources to train the network (data or GPU-power).
 
-- If you don't have resources to sort out the hyperparameters / topology.
+- If you don't have resources to tweak out the hyperparameters (i.e. training multiple models with different configurations and choose the best one).
 
 See the discussion and the article:
 
@@ -259,6 +260,21 @@ It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) 
 
 
 ### Understanding Backpropagation
+
+Backpropagation is the mathematical "magical trick" that powers the training of neural networks. Basically, it allows to use the Gradient Descent iterative algorithm to find the optimal wheights of the network (the connections among the neurons).
+
+Understanding backpropagation is simple if you have the necessary math basics (you can find them in the [Math Fundamentals](serving\purgatorio\fundamentals\math-fundamentals\math-fundamentals.md) Guide).
+
+The basic reference you need to understand backpropagation is the following chapter of the book [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/):
+
+[**How the backpropagation works**](http://neuralnetworksanddeeplearning.com/chap2.html)
+
+Once you're done with this reading, you can play with some other different explanations in order to deepen your understanding (remember that visualization is awesome for learning, as stated in the [Virgilio's Teaching Strategy](serving\paradiso\virgilio-teaching-strategy\virgilio-teaching-strategy.md) Guide.
+
+Additional resources:
+
+- [Backpropagation Demo](https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/)
+- [Backpropagation by 3Blue1Brown](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 
 ### Transfer Learning:
 
