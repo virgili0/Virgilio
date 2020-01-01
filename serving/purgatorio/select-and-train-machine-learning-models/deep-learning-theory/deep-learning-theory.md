@@ -16,7 +16,6 @@ description: Get started with Deep Learning, the branch of machine learning that
 - [Training Neural Networks Effectively](#Training-Neural-Networks-Effectively)
   + [Understanding BackPropagation](#Understanding-BackPropagation)
   + [Transfer Learning](#Transfer-Learning)
-  + [Deep Learning Best Practices](#Deep-Learning-Best-Practices)
 - [Conclusions](#Conclusions)
 
 ## What is Deep Learning
@@ -28,11 +27,11 @@ Despite this, neural networks are surprisingly useful in detecting hidden patter
 
 Deep Learning is part of a wider family of Machine Learning methods based on the assimilation of data representations, as opposed to algorithms for the execution of specific tasks (like more traditional ML algorithms).
 
-Neural networks (with which today the concept of Deep Learning is also brought to the attention of the general public) for examples [have been applied](https://deepindex.org/) in computer vision, automatic recognition of spoken language, natural language processing, audio recognition and bioinformatics (the use of computer tools to describe from a numerical and statistical point of view certain biological phenomena such as gene sequences, protein composition and structure, biochemical processes in cells, etc.).
+Neural networks (with which today the concept of Deep Learning is also brought to the attention of the general public) for examples [have been applied](https://deepindex.org/) in computer vision, automatic recognition of spoken language, natural language processing, audio recognition and bioinformatics (the use of computer tools to describe from a numerical and statistical point of view certain biological phenomena such as gene sequences, protein composition, and structure, biochemical processes in cells, etc.).
 
 The _main characteristics_ of Deep Learning are the following:
 
-- The learning algorithm always involves at least a neural network (more precisely, an acyclic graph) composed by several layers of neurons. These neurons are connected across layers, and these connections are adjustable weights, represented by a floating number. These numbers (the weights, the connections) are randomly initialized and then tweaked through an iterative process (the training phase) showing to the network a big amout of data examples. The output of the training phase is the trained model.
+- The learning algorithm always involves at least a neural network (more precisely, an acyclic graph) composed by several layers of neurons. These neurons are connected across layers, and these connections are adjustable weights, represented by a floating number. These numbers (the weights, the connections) are randomly initialized and then tweaked through an iterative process (the training phase) showing to the network a big amount of data examples. The output of the training phase is the trained model.
 
 - Neural networks are part of the [broader class](https://pathmind.com/wiki/ai-vs-machine-learning-vs-deep-learning) of algorithms for learning data representation within Machine Learning
 
@@ -43,15 +42,15 @@ The _main characteristics_ of Deep Learning are the following:
 
 ## Why Deep Learning
 
-In traditional Machine learning techniques, most of the features need to be identified by an domain expert in order to reduce the complexity of the data and make patterns more visible to learning algorithms to work.
+In traditional Machine learning techniques, most of the features need to be identified by a domain expert in order to reduce the complexity of the data and make patterns more visible to learning algorithms to work.
 
 For example, in a time-series dataset, traditionally an expert would separate the day from the month and year, giving them different columns in the dataset. Maybe he would build a "season" columns, of flag columns to indicate the Christmas holidays for example. 
 
 So an expert is helping the ML algorithm "disentangling" the several features it has to deal with. 
 
-One of the biggest advantage Deep Learning algorithms is that they try **to learn features from data** in an incremental manner.
+One of the biggest advantages of Deep Learning algorithms is that they try **to learn features from data** in an incremental manner.
 
-This reduces the need of domain expertise and hard core feature extraction.
+This reduces the need for domain expertise and hardcore feature extraction.
 
 See: [What is the difference between handcrafted and learned features](https://datascience.stackexchange.com/questions/54390/what-is-the-difference-between-handcrafted-and-learned-features) 
 
@@ -67,7 +66,7 @@ We'll see that even if Deep Learning is such a powerful approach, this doesn't m
 
 Data scarcity and computational requirements often suggest that more traditional Machine Learning algorithms should be considered way before Deep Learning algorithms.
 
-Basically, you _should avoid Deep Learning_ in the followign cases:
+Basically, you _should avoid Deep Learning_ in the following cases:
 
 - If there is a simpler approach that provides an adequate solution.
 
@@ -87,13 +86,13 @@ From the point of view of potentiality, if Deep Learning may seem more "fascinat
 
 The use of computational capabilities via Cloud only partially mitigates the problem because the formation of a deep neural network often requires the processing of large amounts of data using clusters of high-end GPUs for many, many hours (so it is not said that buying "as a service" the necessary computing capacity is cheap).
 
-**Of course this is valid for enterprise-level requirements, with a good local GPU you can still experiment and obtain good results with most of the small/medium-sized datasets. These will be enough to learn and be comfortable in training neural networks.**
+**, Of course, this is valid for enterprise-level requirements, with a good local GPU you can still experiment and obtain good results with most of the small/medium-sized datasets. These will be enough to learn and be comfortable in training neural networks.**
 
-See the [**Workspace Setup and Cloud Computing**](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md) Guide for a complete overview of the opportunities that Cloud Computing offers you to train your deep learning models, or how to setup your local workspace.
+See the [**Workspace Setup and Cloud Computing**](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md) Guide for a complete overview of the opportunities that Cloud Computing offers you to train your deep learning models, or how to set up your local workspace.
 
 ## Neural Networks 
 
-So, it's time to understand what Neural Networks are and how you can use them in tackling real world problems.
+So, it's time to understand what Neural Networks are and how you can use them in tackling real-world problems.
 
 From now on we'll follow a track that will take us from zero knowledge about Neural Networks to fully understanding them, thanks to the Stanford University Deep Learning course and tutorials. Some of them come from Google, others from Stanford or Cambridge universities, and you will learn to leverage neural networks for several kinds of Deep Learning tasks.
 
@@ -101,7 +100,7 @@ We'll focus on the main 4 types of Neural Networks, even if novel architectures 
 
 **It is not easy to understand the theory and application of Neural Networks at first glance.** You will need to go through tutorials repeatedly to fully comprehend the topic. You should expect a good amount of time to grasp all the concepts related. 
 
-Virgilio tries to propose the following proven learning strategy, but you can tweak it as you prefer, because every brain is different.
+Virgilio tries to propose the following proven learning strategy, but you can tweak it as you prefer because every brain is different.
 
 > 3-step iterative cycle:
 
@@ -112,9 +111,9 @@ Virgilio tries to propose the following proven learning strategy, but you can tw
 
 >- 3 After iterating the 2nd step for each topic, go through the entire Stanford course again. This time you can fully understand all the formulae, connecting them and catching also the "math flow" of the course.
 
-This iterative process (1-2-2-2-2.....-3) can be repeated as many times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
+This iterative process (1-2-2-2-2.....-3) can be repeated as many times as you want, and will probably construct in your mind a nice **general schema** of the things. In each complete iteration, you can drop one or more topics, and focus on the ones that are more interesting to you or not so clear.
 
-In each section there is content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3rd step).
+In each section, there is content for the first time you arrive there (during the first complete iteration), and some content for next time you arrive there (after the 3rd step).
 
 The structure follows the track proposed by the awesome Stanford course. You can find the slides [here](http://cs231n.github.io/) and the video [here](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv).
 
@@ -122,17 +121,17 @@ The course slightly pushes more on the Convolutional Neural Network type, but it
 
 [This](http://introtodeeplearning.com/) is an alternative course from MIT, it has slightly different contents. 
 
-Of course you should consider [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from the same course of the [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md) Guide.
+Of course, you should consider [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from the same course of the [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md) Guide.
 
-It's worth watching all them to compare and have a different point of view on the things you are learning, besides listening to some of the best professors of the world exploring each topic.  
+It's worth watching all of them, to compare and have a different point of view on the things you are learning, besides listening to some of the best professors of the world exploring each topic.  
 
-Once you're done, you should have a complete panoramic view of Deep Learning, even if some concepts or passages are not clear, so it's time to dive deep into each Neural Network type to understand them fully. Without diving deep in them you won't be able to use them in an useful way, because as you've already seen they have a lot of parameters and tricky configurations to consider.
+Once you're done, you should have a complete panoramic view of Deep Learning, even if some concepts or passages are not clear, so it's time to dive deep into each Neural Network type to understand them fully. Without diving deep in them you won't be able to use them in a useful way, because as you've already seen they have a lot of parameters and tricky configurations to consider.
 
 This is the [**Deep Learning Book**](https://www.deeplearningbook.org/) we refer to in each of the next sections.
 
 ## Feedforward Neural Networks
 
-The basic kind of Neural Network. Best suited for classification and regression tasks where the input is a a tabular dataset, or very simple images or text. 
+The basic kind of Neural Network. Best suited for classification and regression tasks where the input is a tabular dataset, or very simple images or text. 
 
 _First look (in order):_
 - [3Blue1Brown awesome intro](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi).
@@ -152,7 +151,7 @@ _Tips & Best practices:_
 
 ## Convolutional Neural Networks
 
-The most used kind of Neural Network to deal with images and videos. They are thought to be less computationally expensive than vanilla Neural Networks (sharing wheight among the layers) and have other useful features that help in dealing with 2D images or videos.
+The most used kind of Neural Network to deal with images and videos. They are thought to be less computationally expensive than vanilla Neural Networks (sharing weight among the layers) and have other useful features that help in dealing with 2D images or videos.
 
 _First look (in order):_
 - [Here](http://cs231n.github.io/convolutional-networks/)'s your reference, love it!
@@ -164,7 +163,7 @@ _First look (in order):_
 _Second pass:_
 - [CNN Chapter](https://www.deeplearningbook.org/contents/convnets.html).
 
-_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+_Dive Deeper_: Use the latest "survey paper" to choose which papers are worth exploring for your case and have a nice panoramic of the state of the art:
 [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032)
 
 _Tips & Best practices:_
@@ -172,19 +171,19 @@ _Tips & Best practices:_
 
 ## Recurrent Neural Networks
 
-Recurrent Neural Network (RNNs) outperform other kinds when dealing with text and time-series data, because it implements the concept of "memory" inside the network.  
+Recurrent Neural Network (RNNs) outperform other kinds when dealing with text and time-series data because it implements the concept of "memory" inside the network.  
 
 _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
 - [Here](https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn) is another interesting explanation.
 - [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) is a video with a more practical approach.
-- [Here](https://becominghuman.ai/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow-1907a5bbb1fa), a guide to implement RNN in TensorFlow.
+- [Here](https://becominghuman.ai/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow-1907a5bbb1fa), a guide to implementing RNN in TensorFlow.
 - [Here](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767), a 7-page long blog post regarding the TensorFlow implementation.
 
 _Second pass:_
 - [RNN Chapter](https://www.deeplearningbook.org/contents/rnn.html)
 
-_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+_Dive Deeper_: Use the latest "survey paper" to choose which papers are worth exploring for your case and have a nice panoramic of the state of the art:
 [Fundamentals of Recurrent Neural Network and Long Short-Term Memory Network](https://arxiv.org/abs/1901.06032)
 
 _Tips & Best practices:_
@@ -201,19 +200,19 @@ GANs are a smart way of training a generative model by framing the problem as a 
 _First look (in order):_
 - [Here](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/) you find a gentle introduction to Generative Adversarial Networks.
 - [Play with a GAN!](https://poloclub.github.io/ganlab/)
-- [This](https://developers.google.com/machine-learning/gan) is a tutorial from Google which get you started in trainng GANs in real world scenarios.
+- [This](https://developers.google.com/machine-learning/gan) is a tutorial from Google which gets you started in training GANs in real-world scenarios.
 - [Here](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/) you can read which are some example applications of Generative Adversarial Networks.
 - [Here](https://www.youtube.com/watch?v=3-qazNQS2JU&t=1629s) you can find a panoramic overview of GANs "applications explosion" from their inventor (Ian Goodfellow). He's also co-author of the [Deep Learning Book](http://www.deeplearningbook.org/)!
 - [Here](https://www.youtube.com/watch?v=KudkR-fFu_8) you find a detailed Theory and Applications video on GANs.
 
-_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+_Dive Deeper_: Use the latest "survey paper" to choose which papers are worth exploring for your case and have a nice panoramic of the state of the art:
 [Generative Adversarial Networks: recent developments](https://arxiv.org/abs/1903.12266)
 
 _Second pass_: [Generative Models Chapter](http://www.deeplearningbook.org/contents/generative_models.html).
 
 ## AutoEncoders 
 
-Autoencoders are a particular class of Deep Learning algorithms that tries to, given and input, compress it in the internal layers and then reconstruct it as approaching to the output layer, with the final output of the network that should be similar as much as possible to the input. They can be used to a variety of tasks, for example denoising data, compress the data to visualize them, and use some trained layers of an Autoencoder to boostrap the learning process of another Neural Network. 
+Autoencoders are a particular class of Deep Learning algorithms that tries to, given and input, compress it in the internal layers and then reconstruct it as approaching the output layer, with the final output of the network that should be similar as much as possible to the input. They can be used to a variety of tasks, for example, denoising data, compress the data to visualize them, and use some trained layers of an Autoencoder to bootstrap the learning process of another Neural Network. 
 
 _First look (in order):_
 - [Here](https://www.quora.com/What-is-an-auto-encoder-in-machine-learning) you find a first read.
@@ -224,7 +223,7 @@ _First look (in order):_
 _Second pass:_
 [AutoEncoders Chapter](https://www.deeplearningbook.org/contents/autoencoders.html).
  
-_Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exploring for your case and have a nice panoramic of the state of the art:
+_Dive Deeper_: Use the latest "survey paper" to choose which papers are worth exploring for your case and have a nice panoramic of the state of the art:
 [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069)
 
  _Tips & Best practices:_
@@ -232,9 +231,9 @@ _Dive Deeper_: Use the latest "survey paper" to choose which papers ar worth exp
  
 ## Training Neural Networks Effectively
  
-The Deep Learning field, even if rapidly developing and giving awesome results, often lacks theoretical understanding of the phenomenon that happen under the hood (especially during training). 
+The Deep Learning field, even if rapidly developing and giving awesome results, often lacks a theoretical understanding of the phenomenon that happens under the hood (especially during training). 
 
-There are some efforts about understanding the effect of hyperparameters (like the number of neurons per layer, the number of layers, etc..) but unluckily a big number of concepts in Deep Learning are still somewhat a [_magical black-box_](https://towardsdatascience.com/the-black-box-metaphor-in-machine-learning-4e57a3a1d2b0) that we didn't cracked yet.
+There are some efforts about understanding the effect of hyperparameters (like the number of neurons per layer, the number of layers, etc..) but unluckily a big number of concepts in Deep Learning are still somewhat a [_magical black-box_](https://towardsdatascience.com/the-black-box-metaphor-in-machine-learning-4e57a3a1d2b0) that we didn't crack yet.
 
 Some useful papers in understanding Deep Learning theory are listed at the end of this guide.
 
@@ -244,13 +243,13 @@ With experience, you'll develop an insight into which approaches work well and w
 
 You already know that training a Neural Network involves using a training dataset to update the model weights to create a good mapping of inputs to outputs.
 
-This training process is solved using an optimization algorithm that searches through a space of possible values for the neural network model weights for a set of weights that results in good performance on the training dataset.
+This training process is solved using an optimization algorithm that searches through a space of possible values for the neural network model weights for a set of weights that results in a good performance on the training dataset.
 
 [Training Neural Networks can be hard](https://machinelearningmastery.com/why-training-a-neural-network-is-hard/), and some of the reasons are listed here:
 
 [37 Reasons why your Neural Network is not working](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607)
 
-Of course your small CNN is performing well when testing it on a benchmark dataset like MNIST, but how does it work agains a real-life dataset, maybe with million of images? 
+Of course, your small CNN is performing well when testing it on a benchmark dataset like MNIST, but how does it work against a real-life dataset, maybe with millions of images? 
 
 Training Neural Networks effectively requires experience and even the most expert researchers try a lot of different neural architectures before the results they want. 
 
@@ -258,12 +257,12 @@ It's hard to find a list on the internet that includes expert knowledge and best
 
 First things first:
 
-It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) from Stanford and go through all the Module 1 and 2.
+It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) from Stanford and go through all the Modules 1 and 2.
 
 
 ### Understanding Backpropagation
 
-Backpropagation is the mathematical "magical trick" that powers the training of neural networks. Basically, it allows to use the Gradient Descent iterative algorithm to find the optimal wheights of the network (the connections among the neurons).
+Backpropagation is the mathematical "magical trick" that powers the training of neural networks. Basically, it allows using the Gradient Descent iterative algorithm to find the optimal weights of the network (the connections among the neurons).
 
 Understanding backpropagation is simple if you have the necessary math basics (you can find them in the [Math Fundamentals](serving\purgatorio\fundamentals\math-fundamentals\math-fundamentals.md) Guide).
 
@@ -279,7 +278,7 @@ Additional resources:
 - [Backpropagation by 3Blue1Brown](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
 
 _Reinvent the wheel_:
-A good way to understanding backpropagation is to code it from scratch! Try to do it without help, but these tutorial will give you the solution.
+A good way to understanding backpropagation is to code it from scratch! Try to do it without help, but these tutorials will give you the solution.
 
 - [How to Code a Neural Network with Backpropagation In Python (from scratch)](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
 - [Let's Build a Deep Learning Library](https://www.youtube.com/watch?v=o64FV-ez6Gw)
@@ -293,25 +292,33 @@ Transfer learning is a learning strategy in which a model developed for one task
 
 It is a popular approach in deep neural network learning, where preformed models are used as a starting point for computer vision and natural language processing activities, given the vast computing resources and time needed to develop neural models on these problems.
 
-This guide will introduce you to Transfer Learning on images, but you can apply the same concept to every kind of data. 
+Learn the theory behind Transfer Learning in this lecture:
 
-- [Transfer Learning](https://ruder.io/transfer-learning/index.html)
+- [Transfer Learning](https://www.youtube.com/watch?v=MIsSuWsZtKE)
 
 Transfer Learning brings with it very useful and powerful features:
 
-- Allows you to train models in a fraction of the expected time.
+- It allows you to train models in a fraction of the expected time.
 
-- Requires much less data than "from scratch" training.
+- Requires much fewer data than "from scratch" training.
 
 - The _diversity_ of the starting dataset (on which the pre-training was done) compared to the dataset on which the fine-tuning is done (the second task) _help the model's generalizing ability_. 
 
+Once you approach new problems, the first thing you should do is to **look for a similar public dataset**, order to find pre-trained models and fine-tune them on your task. Of course, the dataset and the problem need to be _similar_! 
 
-### Deep Learning Best Practices
+For example, if you want to train a neural network for image classification, you should try to [fine tune a pre-trained model from the Imagenet dataset](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html). Or, if you are trying some text classification, you should try to [fine tune the BERT model](https://arxiv.org/abs/1905.05583)!
 
-_Second pass:_
-- [Google best practices](https://developers.google.com/machine-learning/guides/rules-of-ml/).
-- [Regularization Chapter](https://www.deeplearningbook.org/contents/regularization.html).
-- [Optimization Chapter](https://www.deeplearningbook.org/contents/optimization.html).
-- [Practical Methodology Chapter](https://www.deeplearningbook.org/contents/guidelines.html).
+There are a lot of models you can find at the following links:
+
+- [ModelZoo](https://modelzoo.co/)
+- [TensorFlow Hub](https://www.tensorflow.org/hub)
+- [Papers with Code](https://paperswithcode.com/)
+- [State-of-the-art models](https://github.com/onnx/models)
+
+Never forget to try Transfer Learning on your problem!
 
 ## Conclusions
+
+In this guide, you found a path to a theoretical understanding of Deep Learning, the reasons to use it, the main kinds of neural networks you can find in literature. You have also seen how to forge a solid understanding of the math happening behind a neural network, and you've seen that Transfer Learning is often the go-to tool when facing a new problem. 
+
+In the next guides, you will get your hands dirty and start training models on real-world problems.
