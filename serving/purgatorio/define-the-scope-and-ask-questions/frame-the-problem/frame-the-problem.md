@@ -122,7 +122,7 @@ In this [article](https://www.kdnuggets.com/2017/06/acquiring-quality-labeled-tr
 
 To obtain high-performance Machine Learning systems it is clear that large amounts of data are needed. However, it is equally important that the data is correct, especially in supervised learning applications. Even if you have a lot of examples in your dataset, I could do very little to get acceptable performance from the ML models trained on them.
 
-The intrinsic noise of the dataset is impossible to eliminate and will affect both the training phase of the model, both in the phase of predictions of new examples. Entrusting labeling to working groups distributed through the services of large tech vendors requires two conditions in general. 
+The intrinsic noise of the dataset is impossible to eliminate and will affect both the training phase of the model and in the phase of predictions of new examples as well. Entrusting labeling to working groups distributed through the services of large tech vendors requires two conditions in general. 
 
 The first is that the work of labeling is simple: it is rather simple to distinguish between categories of clearly visible animals or the colors of a dress or simple sounds (if clear labeling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language (for someone who doesn't know the language).
 
