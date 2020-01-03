@@ -64,6 +64,9 @@ If you find tedious manually writing truth tables, [here](http://www.siafoo.net/
 
 To draw finite state machines with LaTeX you can use the `tikz-automata` package, [here](https://www3.nd.edu/~kogge/courses/cse30151-fa17/Public/other/tikz_tutorial.pdf) a quick tutorial. You can also automatically generate the code using [this website](https://notendur.hi.is/aee11/automataLatexGen/).
 
+### This is why you need to learn Machine Learning 
+Oh damn, take a look at [this](https://mathpix.com/).
+
 ------------
 Created by Damiano Azzolini. Contacts: [mail](mailto:damiazz94@gmail.com) [github](https://github.com/damianoazzolini)
 

@@ -1,18 +1,42 @@
-## What is Artificial Intelligence, Machine Learning and Deep Learning
+---
+title: Demystification of the key concepts of AI and ML
+author: clone95
+description: Clarify the jargon and the ideas behind Artificial Intelligence and Machine Learning. Describe what their applications and potential are.
+---
 
-With this high-level guide, I want to clarify ideas about terms that involve terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the [Jargon](https://en.wikipedia.org/wiki/Jargon) of these incredible themes in continuous evolution. You will understand the hierarchy and contexts in which to read any news or fact that mentions AI or Machine Learning.
+# What is Artificial Intelligence, Machine Learning and Deep Learning
+
+# What you will learn 
+This guide wants to clarify ideas about terms such as Artificial Intelligence and Machine Learning and what their applications and potential are. You will also be introduced to the [Jargon](https://en.wikipedia.org/wiki/Jargon) of these incredible themes in continuous evolution. You will understand the hierarchy and contexts in which to read any news or fact that mentions AI or Machine Learning. 
+
+You will learn to distinguish hype from reality.
+
+## Prerequisites
+None, welcome on board! :-)
+
+## Time to complete
+30 minutes.
+
+# Index
+- [Naming](#Naming)
+- [Definition](#Definition) 
+- [Machine Learning, differences from the algorithmic approach](#Machine-Learning-differences-from-the-algorithmic-approach)
+- [Why use Machine Learning techniques?](#Why-use-Machine-Learning-techniques)
+
+### Naming
 
 The term Machine Learning is often confused with the term Artificial Intelligence (AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of Machine Learning (abbreviated to ML). The objective of the AI field is to create "intelligent" agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
 If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears...), the intelligence is that of our brain and the actuators can be the hands, feet or more generally the muscles. 
 However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of programming a machine so that it can learn to perform a task from the data, rather than through programming.
 Deep Learning is a subset of the Machine Learning field a further ensemble of techniques and algorithms that exploit neural networks for the solution of problems such as Computer Vision or Natural Language Understanding. 
+More specifically Virgilio will provide you guides to become experienced in the Machine Learning field, with a strong focus on Deep Learning techniques.
 
 ![Figure 1-1](./sets.png) 
 
-## Definition
+### Definition
 
-A more engineering definition of Machine Learning is that given by Tom Mitchell:
+A more engineering definition of **Machine Learning** is that given by Tom Mitchell:
 "A machine is learning from experience E with respect to task T and a metric of P, if its performance on T, measured with P, improves with experience E."
 
 This theoretical classification may be difficult to distinguish in practice, but it becomes clearer with an example, such as the autonomous driving system of a new generation car.
@@ -21,7 +45,7 @@ In this example, the AI system of the car has a sub-module of Machine Learning t
 This Machine Learning module is then made up of further sub-modules, among which there can be a Deep Learning module that specifically deals with the vision that the car has of the real world, through a neural network trained to recognize the route of the road, the shapes of cars, distinguish them from those of trees and pedestrians, and so on.
 
 
-## Machine Learning, differences from the algorithmic approach
+## Machine Learning differences from the algorithmic approach
 
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism can be identified with the ability to consciously interpret each step of the algorithm and understand what action is taken at each step and why. It is important to note that I do not need examples of input data to produce the output considered correct. 
 
@@ -59,7 +83,7 @@ It is not a Machine Learning application:
 - The famous mobile application Akinator, which tries to guess which historical or cinematic character the user is thinking about. Through a series of targeted questions (does he have hair? is he an alien? appears in Star Wars?) he explores a database of characters and by asking questions, by exclusion, he arrives at the answer. This, although it may seem like an "intelligent" program, is not really: it doesn't learn by improving with experience without being programmed to do so and follows a deterministic process easily explained by a human being.
 
 
-## Why use Machine Learning techniques?
+## Why use Machine Learning techniques
 
 Imagine having to create a spam e-mail filter with traditional programming techniques:
 
@@ -83,11 +107,6 @@ In summary, Machine Learning techniques are appropriate for:
 - Get information about complex problems and discover patterns through large amounts of data.
 
 
-Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it. 
+Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it.
+
 You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
-If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
-
-------------------
-
-Written by _clone95_
-

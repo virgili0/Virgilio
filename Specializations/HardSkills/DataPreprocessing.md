@@ -14,28 +14,28 @@ As usual the structure I've planned to get you started consists of having a [gen
 
 The concepts through which we're going are the following:
 
-- Don't Joke With Data
-- Business Questions
-- Data Profiling
-- Who To Leave Behind
-- Start Small
-- The Toolkit
-- Data Cleaning
-  - Get Rid of Extra Spaces
-  - Select and Treat All Blank Cells
-  - Convert Values Type
-  - Remove Duplicates
-  - Change Text to Lower/Upper Case
-  - Spell Check
-  - Dealing with Special Characters
-  - Normalizing Dates
-  - Verification To Enrich Data
-  - Data Discretization
-  - Feature Scaling
-  - Data Cleaning Tools
-- Merge Data Sets and Integration
-- Sanity Check
-- Automate These Boring Stuffs!
+- [Don't Joke With Data](#Don't-Joke-With-Data)
+- [Business Questions](#Business-Questions)
+- [Data Profiling](#Data-Profiling)
+- [Who To Leave Behind](#Who-To-Leave-Behind)
+- [Start Small](#Start-small)
+- [The Toolkit](#The-Toolkit)
+- [Data Cleaning](#Data-Cleaning)
+  - [Get Rid of Extra Spaces](#Get-Rid-of-Extra-Spaces)
+  - [Select and Treat All Blank Cells](#Select-and-Treat-All-Blank-Cells)
+  - [Convert Values Type](#Convert-Values-Type)
+  - [Remove Duplicates](#Remove-Duplicates)
+  - [Change Text to Lower/Upper Case](#Change-Text-to-Lower/Upper-Case)
+  - [Spell Check](#Spell-Check)
+  - [Dealing with Special Characters](#Dealing-with-Special-Characters)
+  - [Normalizing Dates](#Normalizing-Dates)
+  - [Verification To Enrich Data](#Verification-To-Enrich-Data)
+  - [Data Discretization](#Data-Discretization)
+  - [Feature Scaling](#Feature-Scaling)
+  - [Data Cleaning Tools](#Data-Cleaning-Tools)
+- [Merge Data Sets and Integration](#Merge-Data-Sets-and-Integration)
+- [Sanity Check](#Sanity-Check)
+- [Automate These Boring Stuffs!](#Automate-These-Boring-Stuffs!)
 
 **Let's Start!**
 
@@ -165,5 +165,4 @@ _Best practices and exercises:_ [1](https://blog.panoply.io/5-data-preparation-t
 Now you're ready to take your data and play with them in a variety of ways, and you have a nice panoramic overview of the entire process. You can refer to this page when you clean data, to check if you're not missing some steps. Remember that probably each situation requires a subset of these steps.
 
 -------------------------
-Written by _clone 95_
-
+Written by [_clone95_](https://github.com/clone95)
