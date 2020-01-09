@@ -39,6 +39,9 @@ The _main characteristics_ of Deep Learning are the following:
 
 - Neural networks learn multiple levels of representation corresponding to different levels of abstraction and these levels form a hierarchy of concepts. This is why Deep Learning is also called [Representational Learning](https://www.quora.com/What-is-representation-learning-in-deep-learning).
 
+As the 2010’s draw to a close, it’s worth taking a look back at the monumental progress that has been made in Deep Learning in this decade.
+
+Read: [The Decade of Deep Learning](https://leogao.dev/2019/12/31/The-Decade-of-Deep-Learning/)
 
 ## Why Deep Learning
 
@@ -322,3 +325,4 @@ Never forget to try Transfer Learning on your problem!
 In this guide, you found a path to a theoretical understanding of Deep Learning, the reasons to use it, the main kinds of neural networks you can find in literature. You have also seen how to forge a solid understanding of the math happening behind a neural network, and you've seen that Transfer Learning is often the go-to tool when facing a new problem. 
 
 In the next guides, you will get your hands dirty and start training models on real-world problems.
+
