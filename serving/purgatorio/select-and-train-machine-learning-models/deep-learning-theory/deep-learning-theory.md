@@ -244,11 +244,15 @@ The Deep Learning field, even if rapidly developing and giving awesome results, 
 
 There are some efforts about understanding the effect of hyperparameters (like the number of neurons per layer, the number of layers, etc..) but unluckily a big number of concepts in Deep Learning are still somewhat a [_magical black-box_](https://towardsdatascience.com/the-black-box-metaphor-in-machine-learning-4e57a3a1d2b0) that we didn't crack yet.
 
-Some useful papers in understanding Deep Learning theory are listed at the end of this guide.
-
 Does this mean that you won't be able to train a neural net well? Not really! In fact, you'll probably get better results than you could ever get with any other method, and the hard thing will be understanding **why you get them!** 
 
 With experience, you'll develop an insight into which approaches work well and which don't, how to fix existing architectures to your specific problems, and so on.
+
+Here you have the best interactive explanation on the Internet about **training Neural Networks**:
+
+[Interactive Explanation: **Optimization of Neural Networks**](https://deeplearning.ai/ai-notes/optimization/)
+
+#### Common Issues
 
 You already know that training a Neural Network involves using a training dataset to update the model weights to create a good mapping of inputs to outputs.
 
