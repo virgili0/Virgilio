@@ -89,7 +89,7 @@ From the point of view of potentiality, if Deep Learning may seem more "fascinat
 
 The use of computational capabilities via Cloud only partially mitigates the problem because the formation of a deep neural network often requires the processing of large amounts of data using clusters of high-end GPUs for many, many hours (so it is not said that buying "as a service" the necessary computing capacity is cheap).
 
-**, Of course, this is valid for enterprise-level requirements, with a good local GPU you can still experiment and obtain good results with most of the small/medium-sized datasets. These will be enough to learn and be comfortable in training neural networks.**
+**Of course, this is valid for enterprise-level requirements, with a good local GPU you can still experiment and obtain good results with most of the small/medium-sized datasets. These will be enough to learn and be comfortable in training neural networks.**
 
 See the [**Workspace Setup and Cloud Computing**](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md) Guide for a complete overview of the opportunities that Cloud Computing offers you to train your deep learning models, or how to set up your local workspace.
 
