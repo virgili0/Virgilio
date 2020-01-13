@@ -248,9 +248,11 @@ Does this mean that you won't be able to train a neural net well? Not really! In
 
 With experience, you'll develop an insight into which approaches work well and which don't, how to fix existing architectures to your specific problems, and so on.
 
-Here you have the best interactive explanation on the Internet about **training Neural Networks**:
+Here you have some of the best interactive explanations on the Internet about **training Neural Networks** (Parameter initialization and Optimization):
 
-[Interactive Explanation: **Optimization of Neural Networks**](https://deeplearning.ai/ai-notes/optimization/)
+- [Interactive Explanation: **Initialization of Neural Networks**](https://deeplearning.ai/ai-notes/initialization/)
+
+- [Interactive Explanation: **Optimization of Neural Networks**](https://deeplearning.ai/ai-notes/optimization/)
 
 #### Common Issues
 
