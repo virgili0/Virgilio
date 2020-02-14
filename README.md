@@ -110,7 +110,7 @@ Above these you’ll find a plenty of other useful zones:
 ## Paradiso
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
-- [What do you need for ML? ](serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
+- [What do you need for ML? ](serving/paradiso/what-do-i-need-for-ml/what-do-i-need-for-ml.md)
 - [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
 - [ML use cases](serving/paradiso/use-cases/use-cases.md) 
 - [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md)
