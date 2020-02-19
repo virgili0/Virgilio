@@ -5,9 +5,10 @@ description: Learn to use existing libraries for Machine Learning and Deep Learn
 ---
 
 # Index
-
-- [One Enemy at a Time](#One-Enemy-at-a-Time)
-- [The Data Science Process Toolkit](#Data-Science-Process-Toolkit) 
+- [How this guide is designed](#How-this-guide-is-designed)
+- [Solving the Learning Problem](#Solving-the-Learning-problem)
+- [Navigating the Ocean](#Navigating-the-Ocean)
+- [The Data Science Process Toolkit](#The-Data-Science-Process-Toolkit) 
     + [Data Collection](#Data-Collection)
     + [Data Preparation](#Data-Preparation)
     + [Data Visualization](#Data-Visualization)
@@ -24,35 +25,71 @@ description: Learn to use existing libraries for Machine Learning and Deep Learn
 
 - [Conclusions](#Conclusions)
 
-# Smart Learning
+# How this guide is designed
+
+This guide is designed in the same fashion as the **Purgatorio** structure, so you find a subsection for each phase of the Data Science process.
+
+For _each section_, we list for you different libraries and the best resources to learn them.
+
+We'll give you some general tips to learn effectively and develop rock-solid foundations, that you can rely on to address and solve Data Science problems in the complexity of the real world (which is messy by definition).
+
+In this guide you'll find a ton of different small tools, big libraries and even entire frameworks, but be aware!
 
 As stated in the [Virgilio's Teaching Strategy](serving\paradiso\virgilio-teaching-strategy\virgilio-teaching-strategy.md) Guide, the best way to deal with the learning process is to leverage the "[Divide et Impera](https://en.wikipedia.org/wiki/Divide_and_rule)" principle, which states that every time you're tackling a problem (in this case, the _learning problem_) you should split it in smaller parts, easier to handle and understand. 
 
-In the situation of learning a library it's not different!
+# Solving the Learning Problem 
 
-You shouldn't try to learn all the features of a library in the same run, or you're going to be overheaded and overwhelmed! 
+The process of learning a tool and use it effectively **is actually equal to solving a problem**.
 
-In fact a rich Python library can contain thousands of different functions and utilities, but _you'll need a small subset to get things done!_
+We consider "solved" the problem when you can use the tool comfortably.
 
-**The suggested approach here is the following**:
+So, you shouldn't try to learn all the features of a library in the same run, or you're going to be overwhelmed! 
 
-- Choose a library
-- Get some tutorial about it
-- Get your hands dirty with the library itself
+Every rich Python library contains thousands of different functions and utilities, but _you'll need a small subset to get the things done!_
 
-The process of learning libraries and tools will probably be you life-long companion, so it's very useful to use a smart approach from the beginning!
+**So, Virgilio suggests the following approach**:
 
-#### How this guide is designed
+- Choose a library from the ones that are widely used and feature-rich.
+- Get a general introduction thorugh to the Virgilio's resources listed in this guide.
+- Find a problem (similar but not equal to the introductory ones).
+- Dig into the problem, and get your hands dirty with the chosen library.
+- Learn _on the way to the problem solution_.
+- Solve the problem, trying to do it yourself .
 
-This guide is designed in the same fashion as the _Purgatorio structure_, namely you have a subsection for each phase of the Data Science process. 
+If you follow this approach, you take home the following things:
+- **real problem experience**
+- **move comfortably with a subset of the functions of the tool**
 
-For each section, we list for you different libraries and the best resources to learn them, but be aware!
+Just do it again now, it works like magic! 
 
-You probably want don't want to learn many different libraries for the same task (for example, for Data Visualization), because most of them have partially the same features!
+# Navigating the Ocean
 
-It's way better to learn 1 or 2 libraries for each step of the Data Science process, as a starting point!
+The real time to become a very good programmer and scientist with all the libraries and tools listed in this guide probably exceeds 2 or 3 human lives.
 
-You'll always be capable of learning more libraries when you reach the capabilities limits of the one that you already know (this ins't happening soon).  
+It's very easy to find out there articles, blog posts, and other information sources telling you that "the 20 libraries you need to learn in 2020!". 
+
+Wait.
+What? 
+
+This is ridicolous _and_ impossible, for a beginner!
+
+So what Virgilio suggests you is just old good common sense:
+
+Learning tools and libraries will be a thing the most of your life, if you want to study or work in the Data Science field. 
+
+**But, as a beginner**, is better to start learning very well _some_ tools/libraries, and meanwhile becoming "aware" of the similar ones (and their pro/cons).
+
+For doing that, it's useful to read the homepage of the official documentation (God bless good documentation!). 
+
+It's way better to learn 1 or 2 libraries for each step of the Data Science process, _as a starting point!_
+
+You'll always be capable of learning more libraries when you reach the capabilities limits of the one that you already know or you have different needs.  
+
+The following links expands these points and you should really read them if you are a beginner, some answers are illuminating:
+
+- [What are some tips for a beginning ML/data scientist who feels overwhelmed?](https://www.quora.com/What-are-some-tips-for-a-beginning-ML-data-scientist-who-feels-overwhelmed)
+- [SO MUCH to Learn... Overwhelmed. How to Learn so Much?](https://www.reddit.com/r/learnprogramming/comments/dnujl0/so_much_to_learn_overwhelmed_how_to_learn_so_much/)
+- [Beginner to "data science" but unsure of what I should be doing](https://www.reddit.com/r/datascience/comments/7yg61i/beginner_to_data_science_but_unsure_of_what_i/)
 
 Having that said, let's jump in!
 
