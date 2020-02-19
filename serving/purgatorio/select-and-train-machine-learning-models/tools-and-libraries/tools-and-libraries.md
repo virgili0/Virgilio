@@ -35,7 +35,7 @@ We'll give you some general tips to learn effectively and develop rock-solid fou
 
 In this guide you'll find a ton of different small tools, big libraries and even entire frameworks, but be aware!
 
-As stated in the [Virgilio's Teaching Strategy](serving\paradiso\virgilio-teaching-strategy\virgilio-teaching-strategy.md) Guide, the best way to deal with the learning process is to leverage the "[Divide et Impera](https://en.wikipedia.org/wiki/Divide_and_rule)" principle, which states that every time you're tackling a problem (in this case, the _learning problem_) you should split it in smaller parts, easier to handle and understand. 
+As stated in the [Virgilio's Teaching Strategy](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md) Guide, the best way to deal with the learning process is to leverage the "[Divide et Impera](https://en.wikipedia.org/wiki/Divide_and_rule)" principle, which states that every time you're tackling a problem (in this case, the _learning problem_) you should split it in smaller parts, easier to handle and understand. 
 
 # Solving the Learning Problem 
 
@@ -56,36 +56,41 @@ Every rich Python library contains thousands of different functions and utilitie
 - Learn _on the way to the problem solution_.
 - Solve the problem, trying to do it yourself .
 
-If you follow this approach, you take home the following things:
+If you follow this approach, you take home the following 3 things:
 - **real problem experience**
-- **move comfortably with a subset of the functions of the tool**
+- **you feel comfortable coding with a subset of the functions of the tool**
 
-Just do it again now, it works like magic! 
+Believe it or not, it works like magic!
+
+Know you know how to solve a new _learning problem_.
+
+Now, how to choose from the myriad of tools and libraries available?
 
 # Navigating the Ocean
 
-The real time to become a very good programmer and scientist with all the libraries and tools listed in this guide probably exceeds 2 or 3 human lives.
+It's very easy to find out there articles, blog posts, and YouTube videos telling you "the 20 libraries you need to learn in 2020!". 
 
-It's very easy to find out there articles, blog posts, and other information sources telling you that "the 20 libraries you need to learn in 2020!". 
+What? 20 libraries? 
 
-Wait.
-What? 
+Come on, this is ridicolous _and_ impossible, for a beginner!
 
-This is ridicolous _and_ impossible, for a beginner!
-
-So what Virgilio suggests you is just old good common sense:
+Don't even try to do that, or you will miserably get stuck, because it is impossible to learn 20 programming libraries together, even for an expert.
 
 Learning tools and libraries will be a thing the most of your life, if you want to study or work in the Data Science field. 
 
-**But, as a beginner**, is better to start learning very well _some_ tools/libraries, and meanwhile becoming "aware" of the similar ones (and their pro/cons).
+**But, as a beginner**:
 
-For doing that, it's useful to read the homepage of the official documentation (God bless good documentation!). 
+- is better to start learning very well _some_ tools/libraries, and meanwhile becoming "aware" of the similar ones (and their pro/cons).
 
-It's way better to learn 1 or 2 libraries for each step of the Data Science process, _as a starting point!_
+- For doing that, it's useful to read the homepage of the official documentation (God bless good documentation!). 
 
-You'll always be capable of learning more libraries when you reach the capabilities limits of the one that you already know or you have different needs.  
+- It's way better to learn **one** (max 2) libraries for each step of the Data Science process, _as a starting point!_
 
-The following links expands these points and you should really read them if you are a beginner, some answers are illuminating:
+- You'll always be capable of learning more libraries when you reach the capabilities limits of the one that you already know or you have different needs.  
+
+Now you know what is the best approach to learn tools and libraries and frameworks, and how to do it [using wisely your time](https://waitbutwhy.com/2014/05/life-weeks.html)!
+
+The following links expand these points and you should really read them if you are a beginner, some answers are illuminating:
 
 - [What are some tips for a beginning ML/data scientist who feels overwhelmed?](https://www.quora.com/What-are-some-tips-for-a-beginning-ML-data-scientist-who-feels-overwhelmed)
 - [SO MUCH to Learn... Overwhelmed. How to Learn so Much?](https://www.reddit.com/r/learnprogramming/comments/dnujl0/so_much_to_learn_overwhelmed_how_to_learn_so_much/)
