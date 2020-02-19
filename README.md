@@ -2,7 +2,7 @@
 
 #### Your new Mentor for Data Science E-Learning.
 
-Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330) [<img height="24px" src="https://img.shields.io/badge/discord-50%20online%20users-green.svg?style=flat-square"/>](https://discord.gg/UpQ8bb7) [<img height="24px" src="https://img.shields.io/badge/newsletter-500%20subscribers-yellow.svg?style=flat-square"/>](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform)
+Join our Facebook Group: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330)
 
 <br>
 
