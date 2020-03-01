@@ -128,15 +128,24 @@ Often the right tools in this phase are the programming languages and their libr
 
 The most popular and wide-used librares are:
 
-
-- [Scikit-Learn](https://scikit-learn.org/) offers a lot of pre-made data transformations.
-- [Pandas](https://pandas.pydata.org/) is the go-to library to handle data in the popular DataFrame format.
+- [Scikit-Learn](https://scikit-learn.org/) offers a lot of pre-made data transformations. Get started [here](https://scikit-learn.org/stable/tutorial/basic/tutorial.html).
+- [Pandas](https://pandas.pydata.org/) is the go-to library to handle data in the popular DataFrame format. Get started [here](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/).
 - [Datacleaner](https://github.com/rhiever/datacleaner) saves you a ton of time encoding and cleaning your data once it's already in a format that pandas DataFrames can handle.
 - [Scrubadub](https://scrubadub.readthedocs.io/en/stable/index.html) to remove identifiable information from text.
 - [Ftfy](https://github.com/LuminosoInsight/python-ftfy)  to take in bad Unicode and output good Unicode, for use in your Unicode-aware code.
 - [Arrow](https://arrow.readthedocs.io/en/latest/) to creating, manipulating, formatting and converting dates, times and timestamps.
 
 ## Data Visualization
+As you learned in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md), the The human race evolved in the African savannah through thousands of years, and the sight is most advanced surviving technology that he has developed.
+
+More than 60 % of the actual computation power of our brains is all-time processing visual information, and using it to create an internal representation of the world!
+
+So, it's easy to understand _why_ to visualize data and their relationships it's compelling in order to get rich insights from them. 
+
+Also, remember that data visualizations are **the way** to communicate your results to other people, including non-technical audience.
+
+You can get an overview of the most popular and wide-used data visualization libraries in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md).
+
 ## Machine Learning
 ## Deep Learning
 ## Evaluation and Fine-Tuning
