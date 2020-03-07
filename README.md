@@ -144,6 +144,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
   + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
   + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
+  + [Object Detection](serving/inferno/computer-vision/object-detection/Object_detection_based_on_Deep_Learning.ipynb)
 - Natural Language Processing
 - Virtual Assistants
   + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
