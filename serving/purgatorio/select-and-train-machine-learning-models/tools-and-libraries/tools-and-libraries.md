@@ -147,6 +147,31 @@ Also, remember that data visualizations are **the way** to communicate your resu
 You can get an overview of the most popular and wide-used data visualization libraries in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md).
 
 ## Machine Learning
+
+Fortunately for all aspiring Data Science practitioners, there are now mature frameworks and libraries that implement most of the best algorithms to train models from data. 
+
+Like any branch of computer science, you can find dozens of similar libraries that do more or less the same things, and in the case of Machine Learning model building, it's no different. 
+
+Virgilio suggests you to focus on one particular library in order not to risk wasting your time and especially because it is the most widespread and supported.
+
+[Scikit-Learn](https://scikit-learn.org/stable/) is one of the most complete, mature and well-documented libraries for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models that offers facility functions for the data science process.
+
+Also, they have a [wonderful map](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) to guide you in finding the right ML model for the problem you want to solve.
+
+Scikit-Learn resources:
+
+- [Getting Started](https://scikit-learn.org/stable/getting_started.html)
+- [Tutorials](https://scikit-learn.org/stable/tutorial/index.html)
+- [Examples](https://scikit-learn.org/stable/auto_examples/index.html)
+
+Also, Scikit-Learn is the library chosen by the awesome book [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646/ref=pd_sbs_14_img_0/258-4192675-5285822?_encoding=UTF8&pd_rd_i=1492032646&pd_rd_r=b7c5b3eb-2cd0-4a82-a022-b68cefb4854f&pd_rd_w=I7oG4&pd_rd_wg=OyB1L&pf_rd_p=5b7cecc6-3c99-46e5-b3e1-0370a7bd6b14&pf_rd_r=AYXZXWBE4DBSAA0M723G&psc=1&refRID=AYXZXWBE4DBSAA0M723G), which is highly recommended to have in your pocket as a learning companion.
+
+Additional Machine Learning libraries and tools:
+
+- [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning#python)
+- [A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning models](https://github.com/EthicalML/awesome-production-machine-learning)
+
+
 ## Deep Learning
 ## Evaluation and Fine-Tuning
 ## Serving Models
