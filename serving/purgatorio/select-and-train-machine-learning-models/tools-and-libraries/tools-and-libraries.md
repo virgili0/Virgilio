@@ -173,6 +173,40 @@ Additional Machine Learning libraries and tools:
 
 
 ## Deep Learning
+
+When it comes to Deep Learning it is not easy to decide which framework to recommend to a beginner. 
+
+Out there, on the Internet, at the query "which Deep Learning framework to learn first?", you quickly understand that the two most complete frameworks are [Tensorflow](https://www.tensorflow.org/) (from Google) and [Pytorch](https://pytorch.org/) (from Facebook), both open-source and full of useful features to work with Deep Learning.
+
+After evaluating several factors as:
+
+- completeness and maturity of the framework
+- usability and learning curve 
+- clearness in the official documentation 
+- number of official and unofficial examples, guides and tutorials
+- industry-side diffusion 
+
+Virgilio suggests you to start with learning TensorFlow and try Pytorch later.
+
+Brief argument: Tensorflow, especially from 2.0 version and with the [Keras](https://www.tensorflow.org/guide/keras) Interface (native in TF from 2.0), is a better choice for a beginner. Pytorch has different pros but it's more suitable for research and high flexibility needs.
+TF 2.0 is  the tools chosen in the up-to-date version of the mythical (and _"mandatory"_) book [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646).
+
+Bonus tip:
+
+Don't try to learn the old TF1 version, ha x           vmrg                                                                                                                                           vvvvv't aged well, but Google learnt a lot from that experience: go for 2.0.
+
+- [TensorFlow 2.0: Easier for beginners, and more powerful for experts](https://www.youtube.com/watch?v=5ECD8J3dvDQ)
+
+---
+
+To learn TensorFlow you'll need mostly a lot of practice, starting from toy examples to most complex projects, but Virgilio collected for you the most important resources out there:
+
+- [Here](https://www.youtube.com/watch?v=tYYVSEHq-io&t=2s) you have a gentle and brilliant introduction to what is TensorFlow.
+- [Here](https://www.tensorflow.org/tutorials) you find the official Tutorials.
+- [Here](https://www.tensorflow.org/guide) you find the official Guide, a more detailed guide to each aspet of the framework.
+- [Here](https://github.com/jtoy/awesome-tensorflow) you have an awesome some list of additional resources about Tensorflow.
+- [Here]
+
 ## Evaluation and Fine-Tuning
 ## Serving Models
 ## Miscellaneous
