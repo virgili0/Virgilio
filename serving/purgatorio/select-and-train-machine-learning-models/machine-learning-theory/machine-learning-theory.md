@@ -142,8 +142,9 @@ But **the world is often full of un-labeled data**, and the labeling process is 
 
 So it's important to be aware of unsupervised learning classes of algorithms.
 
-- [Here](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) you have a brief introductory video.
-- [This](https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03) article explains Unsupervised Learning well.
+- [This](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) is a brief introductory video.
+- [This](https://www.coursera.org/lecture/machine-learning/unsupervised-learning-olRZo) are the Unsupervised Learning lectures from Stanford, take these if you want to go deeper.
+- [This](https://www.reddit.com/r/MachineLearning/comments/3pkt1i/why_is_unsupervised_learning_so_important/) is a very good Rreddit post on **Why Unsupervised is so important**. 
 - [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference between Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
 
 The two most important techniques here are [Association Rules Exploration](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining) and [Clustering](https://www.geeksforgeeks.org/clustering-in-machine-learning/). 
