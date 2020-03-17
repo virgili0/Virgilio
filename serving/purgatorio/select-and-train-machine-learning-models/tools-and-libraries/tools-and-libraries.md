@@ -193,7 +193,7 @@ TF 2.0 is  the tools chosen in the up-to-date version of the mythical (and _"man
 
 Bonus tip:
 
-Don't try to learn the old TF1 version, ha x           vmrg                                                                                                                                           vvvvv't aged well, but Google learnt a lot from that experience: go for 2.0.
+Don't try to learn the old TF1 version, hadn't aged well, but Google learnt a lot from that experience: go for 2.0.
 
 - [TensorFlow 2.0: Easier for beginners, and more powerful for experts](https://www.youtube.com/watch?v=5ECD8J3dvDQ)
 
@@ -205,9 +205,21 @@ To learn TensorFlow you'll need mostly a lot of practice, starting from toy exam
 - [Here](https://www.tensorflow.org/tutorials) you find the official Tutorials.
 - [Here](https://www.tensorflow.org/guide) you find the official Guide, a more detailed guide to each aspet of the framework.
 - [Here](https://github.com/jtoy/awesome-tensorflow) you have an awesome some list of additional resources about Tensorflow.
-- [Here]
 
-## Evaluation and Fine-Tuning
+Bonus tip: 
+
+There is a reason why Google engineers decided to go integrate Keras natively in TF 2.0: because it's awesome!
+Most of the time you don't need do dive **so deep** inside a neural network architecture in order to make it work!
+
+- [You should start with Keras](https://www.reddit.com/r/learnmachinelearning/comments/biynuy/difference_between_keras_and_tensorflow/)
+
+You should be able to find different frameworks and dozens of other exotic neural netowrks libraries on the Internet, but as usual _Virgilio highy recommends to use your time wisely_ (one enemy at time). 
+It's not always ture that the most used thing is the best, but for sure you can be certain that Tensorflow is here to stay, and to remain one (ore the most) widely used deep learning framework.  
+
+## Fine-Tuning and Evaluation
+
+If you’ve ever tried to tune hyperparameters for a machine learning model, you know that it can be a very painful process!
+
 ## Serving Models
 ## Miscellaneous
 
