@@ -1,7 +1,7 @@
 ---
 title: Tools and Libraries
 author: clone95
-description: Learn to use existing libraries for Machine Learning and Deep Learning and out-of-the-box tools for productions systems.
+description: Learn to use existing libraries for Machine Learning and Deep Learning and out-of-the-box tools for production systems.
 ---
 
 # Index
@@ -14,7 +14,7 @@ description: Learn to use existing libraries for Machine Learning and Deep Learn
     + [Data Visualization](#Data-Visualization)
     + [Machine Learning](#Machine-Learning)
     + [Deep Learning](#Deep-Learning)
-    + [Evaluation and Fine-Tuning](#Evaluation-and-Fine-Tuning)
+    + [Hyperparameter Tuning](#Hyperparameter-Tuning)
     + [Serving Models](#Serving-Models)
     + [Miscellaneous](#Miscellaneous)
 
@@ -33,13 +33,13 @@ For _each section_, we list for you different libraries and the best resources t
 
 We'll give you some general tips to learn effectively and develop rock-solid foundations, that you can rely on to address and solve Data Science problems in the complexity of the real world (which is messy by definition).
 
-In this guide you'll find a ton of different small tools, big libraries and even entire frameworks, but be aware!
+In this guide, you'll find a ton of different small tools, big libraries, and even entire frameworks, but be aware!
 
-As stated in the [Virgilio's Teaching Strategy](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md) Guide, the best way to deal with the learning process is to leverage the "[Divide et Impera](https://en.wikipedia.org/wiki/Divide_and_rule)" principle, which states that every time you're tackling a problem (in this case, the _learning problem_) you should split it in smaller parts, easier to handle and understand. 
+As stated in the [Virgilio's Teaching Strategy](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md) Guide, the best way to deal with the learning process is to leverage the "[Divide et Impera](https://en.wikipedia.org/wiki/Divide_and_rule)" principle, which states that every time you're tackling a problem (in this case, the _learning problem_) you should split it into smaller parts, easier to handle and understand. 
 
 # Solving the Learning Problem 
 
-The process of learning a tool and use it effectively **is actually equal to solving a problem**.
+The process of learning a tool and use it effectively **is equal to solving a problem**.
 
 We consider "solved" the problem when you can use the tool comfortably.
 
@@ -50,11 +50,11 @@ Every rich Python library contains thousands of different functions and utilitie
 **So, Virgilio suggests the following approach**:
 
 - Choose a library from the ones that are widely used and feature-rich.
-- Get a general introduction thorugh to the Virgilio's resources listed in this guide.
+- Get a general introduction through to Virgilio's resources listed in this guide.
 - Find a problem (similar but not equal to the introductory ones).
 - Dig into the problem, and get your hands dirty with the chosen library.
 - Learn _on the way to the problem solution_.
-- Solve the problem, trying to do it yourself .
+- Solve the problem, trying to do it yourself.
 
 If you follow this approach, you take home the following 3 things:
 - **real problem experience**
@@ -68,15 +68,15 @@ Now, how to choose from the myriad of tools and libraries available?
 
 # Navigating the Ocean
 
-It's very easy to find out there articles, blog posts, and YouTube videos telling you "the 20 libraries you need to learn in 2020!". 
+It's very easy to find out articles, blog posts, and YouTube videos telling you "the 20 libraries you need to learn in 2020!". 
 
 What? 20 libraries? 
 
-Come on, this is ridicolous _and_ impossible, for a beginner!
+Come on, this is ridiculous _and_ impossible, for a beginner!
 
 Don't even try to do that, or you will miserably get stuck, because it is impossible to learn 20 programming libraries together, even for an expert.
 
-Learning tools and libraries will be a thing the most of your life, if you want to study or work in the Data Science field. 
+Learning tools and libraries will be a thing most of your life if you want to study or work in the Data Science field. 
 
 **But, as a beginner**:
 
@@ -90,7 +90,7 @@ Learning tools and libraries will be a thing the most of your life, if you want 
 
 Now you know what is the best approach to learn tools and libraries and frameworks, and how to do it [using wisely your time](https://waitbutwhy.com/2014/05/life-weeks.html)!
 
-The following links expand these points and you should really read them if you are a beginner, some answers are illuminating:
+The following links expand these points and you should read them if you are a beginner, some answers are illuminating:
 
 - [What are some tips for a beginning ML/data scientist who feels overwhelmed?](https://www.quora.com/What-are-some-tips-for-a-beginning-ML-data-scientist-who-feels-overwhelmed)
 - [SO MUCH to Learn... Overwhelmed. How to Learn so Much?](https://www.reddit.com/r/learnprogramming/comments/dnujl0/so_much_to_learn_overwhelmed_how_to_learn_so_much/)
@@ -101,7 +101,7 @@ Having that said, let's jump in!
 # The Data Science Process Toolkit
 ## Data Collection
 
-Data collection is one of the most crucial part of a Data Science project (you don't say?), and often a tedious one if you have to label your data by your own!
+Data collection is one of the most crucial parts of a Data Science project (you don't say?), and often a tedious one if you have to label your data on your own!
 
 Luckily, good researchers and institutions often release their datasets, so you don't have to collect the data (or label it), just download!
 
@@ -113,7 +113,7 @@ Let's see at some tools that can help you in this task:
 
 - [BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/) is a Python library to scrape webpages
 
-- [Selenium](https://www.pluralsight.com/guides/web-scraping-with-selenium) is a Python library meant to automate browser testing, but it can be perfectly used in combination with BeautifulSoup to setup a powerful webscraper
+- [Selenium](https://www.pluralsight.com/guides/web-scraping-with-selenium) is a Python library meant to automate browser testing, but it can be perfectly used in combination with BeautifulSoup to set up a powerful web scraper
 
 See also:
 - [10 Best Web Scraping Tools to Extract Online Data](https://www.hongkiat.com/blog/web-scraping-tools/)
@@ -126,7 +126,7 @@ Data preparation is often the [most time-consuming part of the Data Science proj
 
 Often the right tools in this phase are the programming languages and their libraries.
 
-The most popular and wide-used librares are:
+The most popular and wide-used libraries are:
 
 - [Scikit-Learn](https://scikit-learn.org/) offers a lot of pre-made data transformations. Get started [here](https://scikit-learn.org/stable/tutorial/basic/tutorial.html).
 - [Pandas](https://pandas.pydata.org/) is the go-to library to handle data in the popular DataFrame format. Get started [here](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/).
@@ -136,13 +136,13 @@ The most popular and wide-used librares are:
 - [Arrow](https://arrow.readthedocs.io/en/latest/) to creating, manipulating, formatting and converting dates, times and timestamps.
 
 ## Data Visualization
-As you learned in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md), the The human race evolved in the African savannah through thousands of years, and the sight is most advanced surviving technology that he has developed.
+As you learned in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md), the human race evolved in the African savannah through thousands of years, and the sight is most advanced surviving technology that he has developed.
 
 More than 60 % of the actual computation power of our brains is all-time processing visual information, and using it to create an internal representation of the world!
 
-So, it's easy to understand _why_ to visualize data and their relationships it's compelling in order to get rich insights from them. 
+So, it's easy to understand _why_ to visualize data and their relationships it's compelling to get rich insights from them. 
 
-Also, remember that data visualizations are **the way** to communicate your results to other people, including non-technical audience.
+Also, remember that data visualizations are **the way** to communicate your results to other people, including the non-technical audience.
 
 You can get an overview of the most popular and wide-used data visualization libraries in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md).
 
@@ -152,9 +152,9 @@ Fortunately for all aspiring Data Science practitioners, there are now mature fr
 
 Like any branch of computer science, you can find dozens of similar libraries that do more or less the same things, and in the case of Machine Learning model building, it's no different. 
 
-Virgilio suggests you to focus on one particular library in order not to risk wasting your time and especially because it is the most widespread and supported.
+Virgilio suggests you focus on one particular library in order not to risk wasting your time and especially because it is the most widespread and supported.
 
-[Scikit-Learn](https://scikit-learn.org/stable/) is one of the most complete, mature and well-documented libraries for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models that offers facility functions for the data science process.
+[Scikit-Learn](https://scikit-learn.org/stable/) is one of the most complete, mature and well-documented libraries for Machine Learning tasks. It comes out-of-the-box with powerful and advanced models that offer facility functions for the data science process.
 
 Also, they have a [wonderful map](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) to guide you in finding the right ML model for the problem you want to solve.
 
@@ -168,7 +168,7 @@ Also, Scikit-Learn is the library chosen by the awesome book [Hands-On Machine L
 
 Additional Machine Learning libraries and tools:
 
-- [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning#python)
+- [A curated list of awesome Machine Learning frameworks, libraries, and software](https://github.com/josephmisiti/awesome-machine-learning#python)
 - [A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning models](https://github.com/EthicalML/awesome-production-machine-learning)
 
 
@@ -182,18 +182,18 @@ After evaluating several factors as:
 
 - completeness and maturity of the framework
 - usability and learning curve 
-- clearness in the official documentation 
+- the clearness in the official documentation 
 - number of official and unofficial examples, guides and tutorials
 - industry-side diffusion 
 
-Virgilio suggests you to start with learning TensorFlow and try Pytorch later.
+Virgilio suggests you start with learning TensorFlow and try Pytorch later.
 
 Brief argument: Tensorflow, especially from 2.0 version and with the [Keras](https://www.tensorflow.org/guide/keras) Interface (native in TF from 2.0), is a better choice for a beginner. Pytorch has different pros but it's more suitable for research and high flexibility needs.
-TF 2.0 is  the tools chosen in the up-to-date version of the mythical (and _"mandatory"_) book [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646).
+TF 2.0 is the tools chosen in the up-to-date version of the mythical (and _"mandatory"_) book [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646).
 
 Bonus tip:
 
-Don't try to learn the old TF1 version, hadn't aged well, but Google learnt a lot from that experience: go for 2.0.
+Don't try to learn the old TF1 version, hadn't aged well, but Google learned a lot from that experience: go for 2.0.
 
 - [TensorFlow 2.0: Easier for beginners, and more powerful for experts](https://www.youtube.com/watch?v=5ECD8J3dvDQ)
 
@@ -203,28 +203,119 @@ To learn TensorFlow you'll need mostly a lot of practice, starting from toy exam
 
 - [Here](https://www.youtube.com/watch?v=tYYVSEHq-io&t=2s) you have a gentle and brilliant introduction to what is TensorFlow.
 - [Here](https://www.tensorflow.org/tutorials) you find the official Tutorials.
-- [Here](https://www.tensorflow.org/guide) you find the official Guide, a more detailed guide to each aspet of the framework.
-- [Here](https://github.com/jtoy/awesome-tensorflow) you have an awesome some list of additional resources about Tensorflow.
+- [Here](https://www.tensorflow.org/guide) you find the official Guide, a more detailed guide to each aspect of the framework.
+- [Here](https://github.com/jtoy/awesome-tensorflow) you have an awesome list of additional resources about Tensorflow.
 
 Bonus tip: 
 
 There is a reason why Google engineers decided to go integrate Keras natively in TF 2.0: because it's awesome!
-Most of the time you don't need do dive **so deep** inside a neural network architecture in order to make it work!
+Most of the time you don't need to dive **so deep** inside a neural network architecture to make it work!
 
 - [You should start with Keras](https://www.reddit.com/r/learnmachinelearning/comments/biynuy/difference_between_keras_and_tensorflow/)
 
-You should be able to find different frameworks and dozens of other exotic neural netowrks libraries on the Internet, but as usual _Virgilio highy recommends to use your time wisely_ (one enemy at time). 
-It's not always ture that the most used thing is the best, but for sure you can be certain that Tensorflow is here to stay, and to remain one (ore the most) widely used deep learning framework.  
+You should be able to find different frameworks and dozens of other exotic neural network libraries on the Internet, but as usual, _Virgilio highly recommends to use your time wisely_ (one enemy at the time). 
+It's not always true that the most used thing is the best, but for sure you can be certain that Tensorflow is here to stay and to remain one (ore the most) widely used deep learning framework.  
 
-## Fine-Tuning and Evaluation
+## Hyperparameter Tuning
 
 If you’ve ever tried to tune hyperparameters for a machine learning model, you know that it can be a very painful process!
 
+To fine-tune your models you can check a variety of tools, check this article:
+
+- [A Comprehensive List of Hyperparameter Optimization & Tuning Solutions](https://medium.com/@mikkokotila/a-comprehensive-list-of-hyperparameter-optimization-tuning-solutions-88e067f19d9)
+
+In particular, if you are learning [Keras](https://www.tensorflow.org/guide/keras) as a top-level framework on the top of Tensorflow, Virgilio suggests you check [Hyperas](https://github.com/maxpumperla/hyperas).
+
+A very simple convenience wrapper around [Hyperopt](https://github.com/hyperopt/hyperopt) for fast prototyping with Keras models. Hyperas lets you use the power of hyperopt without having to learn the syntax of it. Instead, just define your Keras model as you are used to, but use a simple template notation to define hyper-parameter ranges to tune.
+
 ## Serving Models
+
+After training Machine Learning models, you may want to make them available as a service, to your users, or to other computer systems that may use them.
+The most general way to serve a trained ML model is to use a library like [Flask](https://github.com/pallets/flask) API.
+
+Here are some resources to get started with this framework:
+
+- [Learn Flask for Python - Full Tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA)
+- [The Mega Flask Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
+Then follow these tutorials to learn how to use Flask to serve your trained models:
+
+- [A Flask API for serving scikit-learn models](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa)
+- [Deploying Keras models using TensorFlow Serving and Flask](https://towardsdatascience.com/deploying-keras-models-using-tensorflow-serving-and-flask-508ba00f1037)
+
+The best way to understand something is _to do it_! So, check your knowledge with this 2-hours guided project from Coursera.
+
+- [Project: Deploy Models with TensorFlow Serving and Flask](https://www.coursera.org/learn/deploy-models-tensorflow-serving-flask)
+
 ## Miscellaneous
 
+Virgilio lists here for you a bunch of incredible good GitHub pages with lists of hundreds of tools and libraries you can find useful when working in the Data Science environment. 
+What is the best way to use these pages? 
+The answer is that every problem has different characteristics and caveats, and you should be able to understand _if you need_ to learn a new tool, or you can get the things done with those that you already know! 
+So, use these pages to compare the pros and cons of the hundreds of tools that exist!
+
+- [Awesome AI-ML-DL](https://github.com/neomatrix369/awesome-ai-ml-dl)
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [Amazing ML OpenSource 2019](https://github.com/Mybridge/amazing-machine-learning-opensource-2019)
+- [Awesome Machine Learning Model Management Frameworks](https://github.com/awoerner92/awesome-ml-tools)
+- [A Curated List of Awesome Machine Learning Frameworks, Libraries and Softwares](https://www.mo-data.com/a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software/)
+
+
 # Production Ready Tools
+In this section, Virgilio listed for you some "Production-Ready" tools that can speed up the process of creating value with data. You can use these tools along with those listed in the previous sections.
+
+For a comprehensive list of production-ready tools, be sure to take a tour at:
+
+- [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning#data-labelling-tools-and-frameworks)
+
+Virgilio has chosen for you the best tools of this type for 3 problem categories:
+
 ## Computer Vision
-## Natural Language
+
+- [OpenCV](https://opencv.org/about/)
+
+OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
+
+Learn how to use OpenCV here:
+
+- [OpenCV Python for Beginners - Full Course in 10 Hours (2020)](https://www.youtube.com/watch?v=N81PCpADwKQ)
+
+Check also Virgilio's tutorials in the Inferno section, They all use OpenCV!
+
+## Natural Language Processing
+
+- [Spacy](https://spacy.io/)
+
+SpaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python.
+
+If you’re working with a lot of text, you’ll eventually want to know more about it. For example, what’s it about? What do the words mean in context? Who is doing what to whom? What companies and products are mentioned? Which texts are similar to each other?
+
+spaCy is designed specifically for production use and helps you build applications that process and “understand” large volumes of text. It can be used to build information extraction or natural language understanding systems or to pre-process text for deep learning.
+
+They offer a free course on their website:
+
+- [Advanced NLP with Spacy](https://course.spacy.io/)
+
+
 ## Time Series Forecasting
+
+- [Prophet](https://facebook.github.io/prophet/)
+
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+
+Prophet is open source software released by Facebook’s Core Data Science team. It is available for download on CRAN and PyPI.
+
+Get the tutorials here:
+
+- [Prophet Quick Start](https://facebook.github.io/prophet/docs/quick_start.html)
+- [A Guide to Time Series Forecasting with Prophet in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3)
+- [Forecasting in Python with Facebook Prophet](https://towardsdatascience.com/forecasting-in-python-with-facebook-prophet-29810eb57e66)
+
 ## Conclusions
+
+In this guide, we listed A LOT of tools, libraries, and a project that can help you be faster and more effective during the Data Science process. 
+
+The amount of tools listed here is enormous, so choose wisely what you _really need_ for your problem! 
+
+And remember, no one is going to ask you to know 10 different Computer Vision tools, but they are going to ask you to know one of them very well!
+
