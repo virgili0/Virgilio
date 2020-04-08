@@ -38,7 +38,45 @@ But luckily you can measure algorithm performance on our problem and discover wh
 
 In order to do that, you need to choose an appropriate metric for the problem at hand. 
 
-## Choose the Right Metric
+
 ## Build a Meaningful Test Set
+## Choose the Right Metric
+
+After you've build your test set, is time to evaluate your trained algorithm against it!
+
+But to do that, tyou should have well clear in mind wich is a valuable metric to measure the performance of your algorithms. 
+
+It turns out that this heavily depends by the problem you are facing, and in particular the type of problem: are you facing a supervised problem or not? If yes, are you solving a classification or regression problem? 
+
+And so on... 
+
+#### Be sure about the type of the problem 
+
+It would be impossible to list all the existing types and sub-types of problems, also because some of them can be classified as classification or regression problems depending on the approach!
+
+The advice that Virgil gives you is therefore the following:
+
+Once you are in front of a problem, understand first **what type** problem you are facing, and _from that_ start to learn, search and understand the metrics that may interest you! 
+
+Be sure to know what problem you're dealing with, even though you should have done this _before start solving the problem_:
+
+- [Common ML Problems](https://developers.google.com/machine-learning/problem-framing/cases)
+
+#### Model Evaluation 
+
+You know, Google is your friend, and with a 99.99% chance someone will already be in the same situation as you...
+
+A good starting point though, can be the following:
+
+- [Selecting Metrics for Machine Learning](https://fayrix.com/machine-learning-metrics)
+
+Even if you can easily find in a lot of literature and good information about each ML metric on Google, be sure to read this presentation about the ML evaluation phase in general: 
+
+- [Performance Evaluation for Learning Algorithms](https://www.icmla-conference.org/icmla11/PE_Tutorial.pdf)
+
+Then you can dive deeper into these more detailed resources:
+
+- [Model Selection and Evaluation](https://frnsys.com/ai_notes/machine_learning/model_selection.html)
+- [Performance Metrics (Error Measures) in Machine Learning Regression](https://arxiv.org/abs/1809.03006)
 ## K Folder Cross Validation
 ## Lost in the Parameter Space 
