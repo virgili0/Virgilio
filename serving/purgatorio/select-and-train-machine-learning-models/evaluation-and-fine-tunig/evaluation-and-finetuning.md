@@ -7,8 +7,10 @@ description: Learn how to evaluate your models after the training process, which
 # Index
 
 - [There Is No One Ring to Rule them All](#There-Is-No-One-Ring-to-Rule-them-All)
-- [Choose the Right Metric](#Choose-the-Right-Metric)
+- [Be Sure About the Type of the Problem](#Be-Sure-About-the-Type-of-the-Problem)
 - [Build a Meaningful Test Set](#Build-a-Meaningful-Test-Set)
+- [Model Evaluation](#Model-Evaluation)
+- [Metric Selection](#Metric-Selection)
 - [K Folder Cross Validation](#K-Folder-Cross-Validation)
 - [Lost in the Parameter Space](#Lost-in-the-Parameter-Space)
 
@@ -36,21 +38,11 @@ Well, in this case the experience plays the master role, and even after years of
 
 But luckily you can measure algorithm performance on our problem and discover what works best!
 
-In order to do that, you need to choose an appropriate metric for the problem at hand. 
+In order to do that, you need to do 2 things:
+- Build a meaningful test set
+- Choose the right metric to measure your model performances against it 
 
-
-## Build a Meaningful Test Set
-## Choose the Right Metric
-
-After you've build your test set, is time to evaluate your trained algorithm against it!
-
-But to do that, tyou should have well clear in mind wich is a valuable metric to measure the performance of your algorithms. 
-
-It turns out that this heavily depends by the problem you are facing, and in particular the type of problem: are you facing a supervised problem or not? If yes, are you solving a classification or regression problem? 
-
-And so on... 
-
-#### Be sure about the type of the problem 
+## Be sure about the type of the problem 
 
 It would be impossible to list all the existing types and sub-types of problems, also because some of them can be classified as classification or regression problems depending on the approach!
 
@@ -62,9 +54,34 @@ Be sure to know what problem you're dealing with, even though you should have do
 
 - [Common ML Problems](https://developers.google.com/machine-learning/problem-framing/cases)
 
-#### Model Evaluation 
+## Build a Meaningful Test Set
 
-You know, Google is your friend, and with a 99.99% chance someone will already be in the same situation as you...
+In order to evaluate your model, you should have a clear picture of what kind of "real-world" it will behave in, that means having a test set representative of the actual problem you want to solve.
+
+Often, if you pick a pre-built dataset, it comes with a ready-to-go test set, but in real problem scenarios you don't have that! 
+
+A techinique to generate a test set from a dataset is to [shuffle and randomly draw a set](https://stackoverflow.com/questions/37114273/how-to-randomly-split-a-dataset-into-training-set-test-set-and-dev-set-in-pyth) from it, and this _can work_ for certain situations, but it's not a general rule. In fact, this approach assumes that your dataset is balanced, is representative of the real-world problem, and some other details.
+
+Luckily for us, [Andrew NG](https://it.wikipedia.org/wiki/Andrew_Ng) collected for us all a very exhaustive list of tips and trick to build a meaningful test set, and you can fine them in the practical book:
+- [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/) 
+
+## Model Evaluation
+
+After you've built your test set, is time to evaluate your trained algorithm against it!
+
+But to do that, tyou should have well clear in mind wich is a valuable metric to measure the performance of your algorithms. 
+
+It turns out that this heavily depends by the problem you are facing, and in particular the type of problem: are you facing a supervised problem or not? If yes, are you solving a classification or regression problem? 
+
+And so on... 
+
+To learn how to evaluate your model after the training phase, get through Champter 6 of the book [Machine Learning Engineering](http://www.mlebook.com/wiki/doku.php) by [Andriy Burkov](https://www.linkedin.com/in/andriyburkov/):
+
+- [Chapter 6 - Model Evaluation](https://www.dropbox.com/s/4ly72ahtz6vsy5n/Chapter6.pdf?dl=0)
+
+## Metric Selection
+
+You know, Google is your friend, and with a 99.99% chance someone will already be in the same situation as you, and probably a simple query like 'ML metric for **type_X** problem' can give you a ton of good answers. 
 
 A good starting point though, can be the following:
 
@@ -78,5 +95,11 @@ Then you can dive deeper into these more detailed resources:
 
 - [Model Selection and Evaluation](https://frnsys.com/ai_notes/machine_learning/model_selection.html)
 - [Performance Metrics (Error Measures) in Machine Learning Regression](https://arxiv.org/abs/1809.03006)
+
+Bonus resources about model evaluation:
+
+- [Practical Model Evaluation: What matters for your model?](https://www.youtube.com/watch?v=7RdKnACscjA&t=2374s)
+- [Applied ML 2020 - Model Evaluation and Metrics](https://www.youtube.com/watch?v=trg3YkCsjqE)
+
 ## K Folder Cross Validation
-## Lost in the Parameter Space 
+## Lost in the Parameter Space
