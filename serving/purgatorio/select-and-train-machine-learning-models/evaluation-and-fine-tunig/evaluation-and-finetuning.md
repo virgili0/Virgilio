@@ -39,9 +39,10 @@ Well, in this case, the experience plays the master role, and even after years o
 
 But luckily you can measure algorithm performance on our problem and discover what works best!
 
-To do that, you need to do 2 things:
+To do that, you need to do 3 things:
 - Build a meaningful test set
 - Choose the right metric to measure your model performances against it 
+- Track the parameters and the associated results with each evaluation 
 
 ## Be sure about the type of problem 
 
@@ -68,6 +69,7 @@ In general, when you build a test set you should make it:
 - Big enough to draw conclusions about the performance of the model
 - Representative of the real-world scenario in which the model will be deployed
 - Representative of the training set (if not, for sure you won't get good performances)
+- It needs to avoid biases introduced by pre-processing transformations or outlier removal
 
 Luckily for us, [Andrew NG](https://it.wikipedia.org/wiki/Andrew_Ng) collected for us all a very exhaustive list of tips and trick to build a meaningful test set, and you can find them in the practical book:
 - [Machine Learning Yearning](https://www.deeplearning.ai/machine-learning-yearning/) 
@@ -93,6 +95,9 @@ Bonus resources about model evaluation:
 
 - [Practical Model Evaluation: What matters for your model?](https://www.youtube.com/watch?v=7RdKnACscjA&t=2374s)
 - [Applied ML 2020 - Model Evaluation and Metrics](https://www.youtube.com/watch?v=trg3YkCsjqE)
+
+Check this library for testing machine learning models, specifically those in scikit-learn:
+- [Drifter_ML](https://github.com/EricSchles/drifter_ml)
 
 ## Evaluate the Model
 
@@ -159,6 +164,10 @@ And more advanced techniques:
 Remember that these techniques are not meant to substitute the Data Scientist knowledge, but to help him in finding the most promising directions! 
 
 With the experience, you'll learn by yourself what are likely good configurations, depending on the problem at hand.
+
+Even though Hyperparameter Tuning can help, remember that can sometimes give a small/marginal gain over the original metric.
+
+The real factors resulting in better metrics/results is always the quality of the dataset.
 
 ## Conclusions
 
