@@ -1,7 +1,7 @@
 ---
 title: Tools and Libraries
 author: clone95
-description: Learn to use existing libraries for Machine Learning and Deep Learning and out-of-the-box tools for production systems.
+description: Learn to use existing libraries, frameworks and out-of-the-box tools, developing Machine Learning and Deep Learning systems to solve real-world problems.
 ---
 
 # Index
@@ -12,6 +12,7 @@ description: Learn to use existing libraries for Machine Learning and Deep Learn
     + [Data Collection](#Data-Collection)
     + [Data Preparation](#Data-Preparation)
     + [Data Visualization](#Data-Visualization)
+    + [Feature Engineering](#Feature-Engineering)
     + [Machine Learning](#Machine-Learning)
     + [Deep Learning](#Deep-Learning)
     + [Hyperparameter Tuning](#Hyperparameter-Tuning)
@@ -41,7 +42,7 @@ As stated in the [Virgilio's Teaching Strategy](https://github.com/virgili0/Virg
 
 The process of learning a tool and use it effectively **is equal to solving a problem**.
 
-We consider "solved" the problem when you can use the tool comfortably.
+We consider "solved" the learning problem when you can use the tool comfortably for the task at hand.
 
 So, you shouldn't try to learn all the features of a library in the same run, or you're going to be overwhelmed! 
 
@@ -63,6 +64,15 @@ If you follow this approach, you take home the following 3 things:
 Believe it or not, it works like magic!
 
 Know you know how to solve a new _learning problem_.
+
+Bonus tip: 
+
+When trying to know about a library or framework or tool, use these two methods:
+
+- search for them on Medium.com
+- search for them on YouTube or another video/learning channel
+
+Both these will show how others are using it or how else it can be used, often better than learning from the documentations initially.
 
 Now, how to choose from the myriad of tools and libraries available?
 
@@ -120,13 +130,17 @@ See also:
 
 Remember that a lot of free access datasets are available for free, for example in the [UCI Dataset](https://archive.ics.uci.edu/ml/datasets.php) website or at the Data science Challenge platform [Kaggle](https://www.kaggle.com/).
 
+Check also this repo:
+
+- [Datasets and sources of raw data](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/datasets.md)
+
 ## Data Preparation
 
 Data preparation is often the [most time-consuming part of the Data Science project](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html), so it's crucial to make sure that the right tools are used from you or your team. 
 
 Often the right tools in this phase are the programming languages and their libraries.
 
-The most popular and wide-used libraries are:
+The most popular and widely-used libraries are:
 
 - [Scikit-Learn](https://scikit-learn.org/) offers a lot of pre-made data transformations. Get started [here](https://scikit-learn.org/stable/tutorial/basic/tutorial.html).
 - [Pandas](https://pandas.pydata.org/) is the go-to library to handle data in the popular DataFrame format. Get started [here](https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/).
@@ -145,6 +159,27 @@ So, it's easy to understand _why_ to visualize data and their relationships it's
 Also, remember that data visualizations are **the way** to communicate your results to other people, including the non-technical audience.
 
 You can get an overview of the most popular and wide-used data visualization libraries in the [Data Visualization Guide](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md).
+
+One thing to note Data Visualization isn't properly a separate step or stage, it is done at every step and stage before and after doing a step.
+
+Check also this repo for a very exhaustive list of Data Visualization tools: 
+
+- [Data visualization libraries and tools](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/things-to-know.md#data-visualization-libraries-or-tools)
+
+## Feature Engineering
+
+The feature engineering is the process of transforming your data into useful features, that can be consumed by ML and DL algorithms during training.
+
+It's [hard to suggest](https://datascience.stackexchange.com/questions/8286/are-there-any-tools-for-feature-engineering) a single tool for feature engineering: currently, feature engineering is still largely a laborious and manual process, and it heavily depends on your data.
+
+By the way, you can consider the way Scikit-Learn applies transformations to data, as a good starting point. 
+
+Scikit-learn provides a library of transformers, which may clean (see Preprocessing data), reduce (see Unsupervised dimensionality reduction), expand (see Kernel Approximation) or generate (see Feature extraction) feature representations.
+
+See: 
+
+- [Data Transformers](https://scikit-learn.org/stable/data_transforms.html)
+- [Pandas, Pipelines and Custom Transformers](https://www.youtube.com/watch?v=BFaadIqWlAg)
 
 ## Machine Learning
 
@@ -182,7 +217,7 @@ After evaluating several factors as:
 
 - completeness and maturity of the framework
 - usability and learning curve 
-- the clearness in the official documentation 
+- how easy to understant is the official documentation 
 - number of official and unofficial examples, guides and tutorials
 - industry-side diffusion 
 
@@ -191,13 +226,24 @@ Virgilio suggests you start with learning TensorFlow and try Pytorch later.
 Brief argument: Tensorflow, especially from 2.0 version and with the [Keras](https://www.tensorflow.org/guide/keras) Interface (native in TF from 2.0), is a better choice for a beginner. Pytorch has different pros but it's more suitable for research and high flexibility needs.
 TF 2.0 is the tools chosen in the up-to-date version of the mythical (and _"mandatory"_) book [Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646).
 
-Bonus tip:
+To learn TensorFlow, start with the Keras wrapper!
 
-Don't try to learn the old TF1 version, hadn't aged well, but Google learned a lot from that experience: go for 2.0.
+- [Why you should start with Keras](https://www.reddit.com/r/learnmachinelearning/comments/biynuy/difference_between_keras_and_tensorflow/)
 
-- [TensorFlow 2.0: Easier for beginners, and more powerful for experts](https://www.youtube.com/watch?v=5ECD8J3dvDQ)
+#### Keras
 
----
+Keras is an Open Source Neural Network library written in Python that runs on top of TensorFlow. 
+
+Easy to use and widely supported, [Keras](https://keras.io/) makes deep learning about as simple as deep learning can be!
+
+There is a reason why Google engineers decided to go integrate Keras natively in TF 2.0: because it's awesome!
+Most of the time you don't need to dive **so deep** inside a neural network architecture to make it work!
+
+Start from the official Keras guide integrated in the TF Docs:
+
+- [Google official Keras guide](https://www.tensorflow.org/guide/keras/overview)
+
+#### Tensorflow 2.0
 
 To learn TensorFlow you'll need mostly a lot of practice, starting from toy examples to most complex projects, but Virgilio collected for you the most important resources out there:
 
@@ -206,15 +252,12 @@ To learn TensorFlow you'll need mostly a lot of practice, starting from toy exam
 - [Here](https://www.tensorflow.org/guide) you find the official Guide, a more detailed guide to each aspect of the framework.
 - [Here](https://github.com/jtoy/awesome-tensorflow) you have an awesome list of additional resources about Tensorflow.
 
-Bonus tip: 
+You should be able to find different frameworks and dozens of other exotic neural network libraries on the Internet, but as usual, _Virgilio highly recommends to use your time wisely_ (one enemy at time). 
+It's not always true that the most used thing is the best, but for sure you can be certain that Tensorflow is here to stay and to remain one (or the most) widely used deep learning framework.  
 
-There is a reason why Google engineers decided to go integrate Keras natively in TF 2.0: because it's awesome!
-Most of the time you don't need to dive **so deep** inside a neural network architecture to make it work!
+Don't try to learn the old TF1 version, hadn't aged well, and Google learned a lot from that experience: go for 2.0.
 
-- [You should start with Keras](https://www.reddit.com/r/learnmachinelearning/comments/biynuy/difference_between_keras_and_tensorflow/)
-
-You should be able to find different frameworks and dozens of other exotic neural network libraries on the Internet, but as usual, _Virgilio highly recommends to use your time wisely_ (one enemy at the time). 
-It's not always true that the most used thing is the best, but for sure you can be certain that Tensorflow is here to stay and to remain one (ore the most) widely used deep learning framework.  
+- [TensorFlow 2.0: Easier for beginners, and more powerful for experts](https://www.youtube.com/watch?v=5ECD8J3dvDQ)
 
 ## Hyperparameter Tuning
 
@@ -246,6 +289,12 @@ Then follow these tutorials to learn how to use Flask to serve your trained mode
 The best way to understand something is _to do it_! So, check your knowledge with this 2-hours guided project from Coursera.
 
 - [Project: Deploy Models with TensorFlow Serving and Flask](https://www.coursera.org/learn/deploy-models-tensorflow-serving-flask)
+
+Also noteworthy is the Streamli project:
+
+- [Awesome Streamlit](https://www.awesome-streamlit.org/)
+
+Streamlit is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science.
 
 ## Miscellaneous
 
@@ -295,7 +344,6 @@ spaCy is designed specifically for production use and helps you build applicatio
 They offer a free course on their website:
 
 - [Advanced NLP with Spacy](https://course.spacy.io/)
-
 
 ## Time Series Forecasting
 
