@@ -135,6 +135,7 @@ Above these you’ll find a plenty of other useful zones:
 - Select and Train Machine Learning Models
   + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
   + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
+  + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning/evaluation-and-finetuning.md)
 - Evaluate and Fine-Tune 
 - Launch and Mantain the System
 
