@@ -6,13 +6,15 @@ Core team:
 
 - **[clone95](https://github.com/clone95)**
 - **[avivace](https://github.com/avivace)**
+- **[entropizza](https://github.com/entropizza)**
+- **[neomatrix369](https://github.com/neomatrix369)**
+- **[khaledbay](https://github.com/khaledbay)**
+- **[RojerGS](https://github.com/RojerGS)**
 
 Contributors:
 
-- [khaledbay](https://github.com/khaledbay)
 - [jiaxianhua](https://github.com/jiaxianhua)
 - [taotianli](https://github.com/taotianli)
-- [entropizza](https://github.com/entropizza)
 - [adnan7400](https://github.com/adnan7400)
 - [Lulzx](https://github.com/Lulzx)
 - [zszazi](https://github.com/zszazi)
@@ -20,7 +22,6 @@ Contributors:
 - [damianoazzolini](https://github.com/damianoazzolini)
 - [wuodland](https://github.com/wuodland)
 - [tdslinden](https://github.com/tdslinden)
-- [neomatrix369](https://github.com/neomatrix369)
 - [mindflayer](https://github.com/mindflayer)
 - [mikeshatch](https://github.com/mikeshatch)
 - [kjaisingh](https://github.com/kjaisingh)

@@ -2,7 +2,7 @@
 
 #### Your new Mentor for Data Science E-Learning.
 
-Join our community: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330) [<img height="24px" src="https://img.shields.io/badge/discord-50%20online%20users-green.svg?style=flat-square"/>](https://discord.gg/UpQ8bb7) [<img height="24px" src="https://img.shields.io/badge/newsletter-500%20subscribers-yellow.svg?style=flat-square"/>](https://docs.google.com/forms/d/e/1FAIpQLSeVJ9N7ae8Wr07tfSuHkP5i_5Fa-4Lp5V4fBevsinWyx6t17g/viewform)
+Join our Facebook Group: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330)
 
 <br>
 
@@ -110,7 +110,7 @@ Above these you’ll find a plenty of other useful zones:
 ## Paradiso
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
-- [What do you need for ML? ](serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
+- [What do you need for ML? ](serving/paradiso/what-do-i-need-for-ml/what-do-i-need-for-ml.md)
 - [Do you really need ML?](serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
 - [ML use cases](serving/paradiso/use-cases/use-cases.md) 
 - [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy/virgilio-teaching-strategy.md)
@@ -133,11 +133,12 @@ Above these you’ll find a plenty of other useful zones:
   + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
   + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
 - Select and Train Machine Learning Models
-  + [Machine Learning](serving/purgatorio/select-and-train-machine-learning-models/machine-learning/machine-learning.md)
+  + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
+  + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
+  + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning/evaluation-and-finetuning.md)
   + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries/tools-and-libraries.md)
-
-- Evaluate and Fine-Tune 
 - Launch and Mantain the System
+- Now Go Build
 
 ## Inferno
 
@@ -145,6 +146,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
   + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
   + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
+  + [Object Detection](serving/inferno/computer-vision/object-detection/Object_detection_based_on_Deep_Learning.ipynb)
 - Natural Language Processing
 - Virtual Assistants
   + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)

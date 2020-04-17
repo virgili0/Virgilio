@@ -60,11 +60,11 @@ Let's see the main options:
 - [EU open data](http://data.europa.eu/euodp/en/data/)
 - [A very long list from Forbes](https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/)
 
-#### Collect your own data
+#### Collect and label your own data
 Data collection is a huge and critical topic, which technical details go outside the scope of this guide. 
 We'll see in a dedicated Purgatorio's guide how to collect huge quantities of data through scraping and other sources.
 To first taste the awesome free tools that we can use, take a look the ones from [Digital Methods](https://tools.digitalmethods.net)!
-Take also a look to the [Snorkel](https://hazyresearch.github.io/snorkel/blog/snorkel_programming_training_data.html) project from Stanford, seems very promising.
+Take also a look to the [Snorkel](https://towardsdatascience.com/introducing-snorkel-27e4b0e6ecff) project from Stanford, seems giving very good results promising.
 
 #### Look under the bed
 More and more organizations are realizing that they are sitting in a gold mine. Years and years of historical data, from machines, conversation logs, transactions or sensor measurements are only waiting for you! They _probably_ hide a tremendous value to be unlocked, so why not to take a look at that relational database!
