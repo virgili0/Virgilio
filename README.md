@@ -138,7 +138,13 @@ Above these you’ll find a plenty of other useful zones:
   + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning/evaluation-and-finetuning.md)
   + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries/tools-and-libraries.md)
 - Launch and Mantain the System
+  + Serving Trained Models
+  + Monitoring Usage and Behavior
+  + Automation and Reproducibility
 - Now Go Build
+  + A Messy Real World
+  + Transfer Learning
+  + Best Practices
 
 ## Inferno
 
