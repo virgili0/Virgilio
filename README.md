@@ -136,6 +136,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
   + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
   + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning/evaluation-and-finetuning.md)
+  + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries/tools-and-libraries.md)
 - Launch and Mantain the System
 - Now Go Build
 
