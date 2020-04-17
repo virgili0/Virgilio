@@ -17,7 +17,9 @@ description: Learn to use existing libraries, frameworks and out-of-the-box tool
     + [Deep Learning](#Deep-Learning)
     + [Hyperparameter Tuning](#Hyperparameter-Tuning)
     + [Serving Models](#Serving-Models)
+    + [Automation Tools](#Automation-Tools)
     + [Miscellaneous](#Miscellaneous)
+
 
 - [Production Ready Tools](#Production-Ready-Tools)
     + [Computer Vision](#Computer-vision)
@@ -296,6 +298,20 @@ Also noteworthy is the Streamli project:
 
 Streamlit is an open-source Python library that makes it easy to build beautiful custom web-apps for machine learning and data science.
 
+## Automation Tools
+
+There's an old rule that says:
+
+> If you have to do a job more than 3 times, it's time to automate it.
+
+Read this intro to Automation in the Data Science process:
+
+- [Automation in Data Science](https://towardsdatascience.com/automation-in-data-science-f11fe389d49b)
+
+Here you can find a very comprehensive list of automation tools, targeting different parts of the Data Science project. 
+
+- [Awesome-AutoML](https://github.com/windmaple/awesome-AutoML)
+
 ## Miscellaneous
 
 Virgilio lists here for you a bunch of incredible good GitHub pages with lists of hundreds of tools and libraries you can find useful when working in the Data Science environment. 
@@ -308,6 +324,7 @@ So, use these pages to compare the pros and cons of the hundreds of tools that e
 - [Amazing ML OpenSource 2019](https://github.com/Mybridge/amazing-machine-learning-opensource-2019)
 - [Awesome Machine Learning Model Management Frameworks](https://github.com/awoerner92/awesome-ml-tools)
 - [A Curated List of Awesome Machine Learning Frameworks, Libraries and Softwares](https://www.mo-data.com/a-curated-list-of-awesome-machine-learning-frameworks-libraries-and-software/)
+
 
 
 # Production Ready Tools
