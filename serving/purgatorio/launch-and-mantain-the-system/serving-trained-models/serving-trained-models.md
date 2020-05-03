@@ -32,7 +32,7 @@ The answers will heavily depend on your use case, and it's impossible to capture
     - Do they have the right permissions to use it?
     - How are you gonna track their usage?
     - Do you need a payment system? 
-    - Can you be sure that the system won't be used in a malicious way?
+    - Can you be sure that the system won't be used maliciously?
 
 - What are the **requirements** needed to use the model as intended?
     - What is the size of the model?
@@ -88,7 +88,7 @@ Some examples:
 - [Face Detection Model](https://modelcards.withgoogle.com/face-detection)
 - [Object Detection Model](https://modelcards.withgoogle.com/object-detection)
 
-As you can see, if you are new to this model, the card can definitely let you understand: 
+As you can see, if you have never seen this model, the model card can definitely let you understand: 
 
 - What the model does 
 - What is the Input/Output
@@ -109,9 +109,9 @@ Having clear documentation will save you a lot of time and headaches.
 
 Once you have answered all the questions in the [Some Important Questions](#Some-Important-Questions) section, it's time to learn what are the best ways to deploy the model in the real world!
 
-Virgilio has set up for you some resources you can refer to, but most of the times [you will encounter real-world caveats](https://towardsdatascience.com/why-is-machine-learning-deployment-hard-443af67493cd) that will require you to choose the best tradeoff for the specific situation.
+Virgilio has set up for you some resources you can refer to, but most of the time [you will encounter real-world caveats](https://towardsdatascience.com/why-is-machine-learning-deployment-hard-443af67493cd) that will require you to choose the best tradeoff for the specific situation.
 
-However, luckily for us do exist best practices and common patterns in order to solve the majority of the most common problems when dealing with model deployment, and Virgilio collected for you the best free resources.
+However, luckily for us do exist best practices and common patterns to solve the majority of the most common problems when dealing with model deployment, and Virgilio collected for you the best free resources.
 
 Start with:
 
@@ -126,9 +126,9 @@ Here you have a full detailed and practical course about how to create several e
 
 - [Machine Learning Web App](https://www.youtube.com/watch?v=tFjeUtFay_Q&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd)
 
-Eventually you can have a look at TensorFlow official way to serve models, Tensorflow Serving.
+Eventually, you can have a look at TensorFlow's official way to serve models, Tensorflow Serving.
 
-TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments. TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs.
+TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments. TensorFlow Serving makes it easy to deploy new algorithms and experiments while keeping the same server architecture and APIs.
 
 - [Tensorflow Serving Official Guide](https://www.tensorflow.org/tfx/guide/serving)
 - [Tensorflow Serving Official Examples](https://github.com/tensorflow/serving/tree/master/tensorflow_serving/example)
@@ -137,7 +137,23 @@ TensorFlow Serving is a flexible, high-performance serving system for machine le
 
 The Virgilio tip here is to not start with Tensorflow Serving because for learning purposes it can be an overkill, because of the number of options and configurations.
 
-In fact, in order to build demonstrations or just try your model through the web, a small and simple Flask app can be enough.
+To build demonstrations or just try your model through the web, a small and simple Flask app can be enough.
+
+#### Cloud providers
+
+Today, most of the real-world Machine Learning problems require scale and flexibility (growing numbers of users, frequent re-training...). 
+
+A good option to deploy ML models is to leverage the most important Cloud providers like [AWS](https://aws.amazon.com/it/), [Azure](https://azure.microsoft.com/it-it/) and [GCP](https://cloud.google.com/).
+
+There's a ton of tutorial and informative videos on Youtube, both from the platform's official channels, and from independent creators, check out them!
+
+All the three Cloud providers have a dedicated Machine Learning / Data Science suite of services, to it's often easy to rely on these for your deployment.
+
+- [Amazon SageMaker](https://aws.amazon.com/it/sagemaker/)
+- [Azure Machine Learning](https://azure.microsoft.com/it-it/services/machine-learning/)
+- [Google Cloud - AI Platform](https://cloud.google.com/ai-platform)
+
+**Just be very careful with the costs associated with the compute resources you ask the provider!**
 
 ## Conclusions 
 
