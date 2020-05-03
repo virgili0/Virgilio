@@ -1,9 +1,7 @@
 ---
 title: The Data Science Process
 author: clone95
-description: In this guide you will understand the big picture of the Data Science project lifecycle, why and how to perform each step, 
-from collecting the data to putting predictive models in production. You can then use this guide as a "checklist" of to-do 
-steps to perform during your projects. 
+description: In this guide you will understand the big picture of the Data Science project lifecycle, why and how to perform each step, from collecting the data to putting predictive models in production. You can then use this guide as a "checklist" of to-do steps to perform during your projects. 
 ---
 
 # Index
