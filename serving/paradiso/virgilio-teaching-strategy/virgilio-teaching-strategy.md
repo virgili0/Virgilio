@@ -94,7 +94,7 @@ The Magic Circle is an **iterative** process that consists of 3 simple steps:
 - Practical application
 - Check 
 
-![Figure 1-1](./magic_circle.png) 
+<!--![Figure 1-1](./magic_circle.png) -->
 
 The trick is simple. 
 
