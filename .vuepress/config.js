@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'Virgilio',
+  description: 'Data Science E-Learning',
   themeConfig: {
     navbar: true
   }
