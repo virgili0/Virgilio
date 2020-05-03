@@ -6,11 +6,11 @@ module.exports = {
   themeConfig: {
     navbar: true,
     nav : [
-          { text: 'Contribute', link: 'https://github.com/gbdev/pandocs' }],
+          { text: 'Contribute', link: 'https://github.com/virgili0/Virgilio' }],
     sidebar : [
     ['/', 'What is Virgilio?'],
     {
-        title: 'Paradise',   // required
+        title: 'Paradiso',   // required
         //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
         collapsable: false, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
@@ -21,7 +21,6 @@ module.exports = {
           '/serving/paradiso/use-cases',
           '/serving/paradiso/virgilio-teaching-strategy',
           '/serving/paradiso/introduction-to-ml'
-
         ]
     },
     ]
