@@ -1,6 +1,10 @@
 .DS_Store
 .vscode/*
 
+# Node things
+node_modules/
+package-lock.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
