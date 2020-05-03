@@ -9,9 +9,7 @@ to be consumed by customers or other systems.
 
 - [Some Important Questions](#Some-Important-Questions)
 - [Produce Good Documentation](#Produce-Good-Documentation)
-- [Model as a Service](#Model-as-a-Service)
-- [Model Runtime](#Model-Runtime)
-- [Deployment Strategies](#Deployment-Strategies)
+- [Model Deployment](#Model-Deployment)
 - [Conclusions](#Conclusions)
 
 
@@ -106,3 +104,41 @@ If you think you will be the only user of the model in the future, _don't undere
 > In 6 months you will look at this code and ask "Who the heck wrote this ***?"
 
 Having clear documentation will save you a lot of time and headaches.
+
+## Model Deployment
+
+Once you have answered all the questions in the [Some Important Questions](#Some-Important-Questions) section, it's time to learn what are the best ways to deploy the model in the real world!
+
+Virgilio has set up for you some resources you can refer to, but most of the times [you will encounter real-world caveats](https://towardsdatascience.com/why-is-machine-learning-deployment-hard-443af67493cd) that will require you to choose the best tradeoff for the specific situation.
+
+However, luckily for us do exist best practices and common patterns in order to solve the majority of the most common problems when dealing with model deployment, and Virgilio collected for you the best free resources.
+
+Start with:
+
+- [Machine Learning Engineering Book - Chapter 7 - Model Deployment](https://www.dropbox.com/s/sslzy9vr4qwarlh/Chapter7.pdf?dl=0)
+
+Then take a look at the following videos, they're really informative:
+
+- [RESTful Machine Learning with Flask and TensorFlow Serving](https://www.youtube.com/watch?v=AVj3G2MbjOM)
+- [REST API with Python and Flask](https://www.youtube.com/watch?v=nfQdqp-0E50&list=PLL2hlSFBmWwzrhahyQscxASc3ZQFh95xl)
+
+Here you have a full detailed and practical course about how to create several examples of machine learning web applications:
+
+- [Machine Learning Web App](https://www.youtube.com/watch?v=tFjeUtFay_Q&list=PLJ39kWiJXSiyAFG2W3CUPWaLhvR5CQmTd)
+
+Eventually you can have a look at TensorFlow official way to serve models, Tensorflow Serving.
+
+TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments. TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs.
+
+- [Tensorflow Serving Official Guide](https://www.tensorflow.org/tfx/guide/serving)
+- [Tensorflow Serving Official Examples](https://github.com/tensorflow/serving/tree/master/tensorflow_serving/example)
+- [More Tensorflow Serving Examples](https://github.com/yu-iskw/tensorflow-serving-example)
+
+
+The Virgilio tip here is to not start with Tensorflow Serving because for learning purposes it can be an overkill, because of the number of options and configurations.
+
+In fact, in order to build demonstrations or just try your model through the web, a small and simple Flask app can be enough.
+
+## Conclusions 
+
+In this guide you have seen most of the important questions you should ask yourself _before_ deciding to put a Machine Learning model in production, making it available for other users or systems. You also have a detailed list of all the resources that can get you from zero to full skill in practical model deployment.
