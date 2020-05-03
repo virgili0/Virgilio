@@ -1,8 +1,7 @@
 ---
 title: Math Fundamentals
 author: clone95
-description: In this guide, you'll learn what is the fundamental mathematical knowledge you need to have in order
-to build insightful Data Science projects and build machine learning systems upon them. You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
+description: In this guide, you'll learn what is the fundamental mathematical knowledge you need to have in order to build insightful Data Science projects and build machine learning systems upon them. You'll also learn that not so much is needed to start to apply yourself to real-world data problems!
 ---
 
 # Index
