@@ -93,25 +93,6 @@ module.exports = {
                     */
                 ]
             },
-            {
-                title: 'Inferno', // required
-                //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
-                collapsable: false, // optional, defaults to true
-                sidebarDepth: 1, // optional, defaults to 1
-                children: [{
-                    title: 'Fundamentals', // required
-                    //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
-                    collapsable: false, // optional, defaults to true
-                    sidebarDepth: 1, // optional, defaults to 1
-                    children: [
-                        ['/serving/purgatorio/fundamentals/math-fundamentals', 'Linear Algebra'],
-                        ['/serving/purgatorio/fundamentals/statistics-fundamentals', 'Statistics'],
-                        ['/serving/purgatorio/fundamentals/python-fundamentals', 'Python'],
-                        '/serving/purgatorio/fundamentals/jupyter-notebook',
-                        '/serving/purgatorio/fundamentals/the-data-science-process'
-                    ]
-                }, ]
-            }
             /*
             {
               title: 'Inferno', // required
