@@ -17,7 +17,7 @@
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+      >{{ $siteTitle }} <span class="site-name2"> Data Science </span> </span>
     </RouterLink>
 
     <div
