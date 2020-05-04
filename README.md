@@ -2,11 +2,7 @@
 
 # <div class="title">*Virgilio*</div>
 
-#### Your new Mentor for Data Science E-Learning.
-
-Join our Facebook Group: &nbsp; [<img  height="24px" src="https://img.shields.io/badge/facebook-45K%20group%20members-blue.svg?style=flat-square"/>](https://www.facebook.com/groups/mathfordatascience/?notif_id=1576071669338330)
-
-<br>
+Your new Mentor for Data Science E-Learning.
 
 > Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
 
