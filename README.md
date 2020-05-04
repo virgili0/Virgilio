@@ -157,7 +157,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Object Detection](serving/inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
 - Natural Language Processing
 - Virtual Assistants
-  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
+  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot.md)
 - Reinforcement Learning
 - Soft Skills
   + [Impactful Presentations](serving/inferno/soft-skills/impactful-presentations.md)
@@ -167,8 +167,8 @@ Above these you’ll find a plenty of other useful zones:
   + [Regex](serving/inferno/tools/regex.ipynb)
   + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha.md)
 - Research
-  + [Zotero](serving/inferno/research/zotero/zotero.md)
-  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers/sota-papers.md)
+  + [Zotero](serving/inferno/research/zotero.md)
+  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 
