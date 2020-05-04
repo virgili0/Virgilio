@@ -11,10 +11,10 @@ Your new Mentor for Data Science E-Learning.
 ### Table of Contents
 
 - [*What* is Virgilio](#what-is-virgilio)
-  + [Structure](#structure)
-- [Paradiso](#paradiso)
-- [Purgatorio](#purgatorio)
-- [Inferno](#inferno)
+- [Structure](#structure)
+  + [Paradiso](#paradiso)
+  + [Purgatorio](#purgatorio)
+  + [Inferno](#inferno)
 - [Complete Learning Paths](#complete-learning-paths)
 - [About](#About)
   * [License](#license)
@@ -57,7 +57,9 @@ There are different scenarios:
 
 ## Structure
 
-> WIP notice: we are in the progress of migrating the content from the old conceptual organisation to the new one. Please be patient while we make Virgilio more awesome!
+::: warning
+We are in the progress of migrating the content from the old conceptual organisation to the new one, while working on the new [web version](https://virgili0.github.io/Virgilio/). Please be patient while we make Virgilio more awesome!
+:::
 
 ![Figure 1](map.PNG "1") 
 
