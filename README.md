@@ -1,5 +1,3 @@
-
-
 # <div class="title">*Virgilio*</div>
 
 Your new Mentor for Data Science E-Learning.
@@ -105,7 +103,7 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
-## Paradiso
+### Paradiso
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl.md)
 - [What do you need for ML? ](serving/paradiso/what-do-i-need-for-ml.md)
@@ -114,7 +112,7 @@ Above these you’ll find a plenty of other useful zones:
 - [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy.md)
 - [Introduction to ML](serving/paradiso/introduction-to-ml.md)
 
-## Purgatorio
+### Purgatorio
 
 - Fundamentals
   + [Math Fundamentals](serving/purgatorio/fundamentals/math-fundamentals.md)
@@ -144,7 +142,7 @@ Above these you’ll find a plenty of other useful zones:
   + Transfer Learning
   + Best Practices
 
-## Inferno
+### Inferno
 
 - Computer Vision
   + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision.ipynb)
@@ -168,9 +166,6 @@ Above these you’ll find a plenty of other useful zones:
 - Massive Computation
 - Machine Learning for Business Applications
 
-## Complete Learning Paths
-
-- [Machine Learning Study Path](LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)  
 
 ## About
 
@@ -183,4 +178,4 @@ That's awesome! Check the [contribution guidelines](https://github.com/virgili0/
 
 ### License
 
-The project is licensed under the [GPLv3 terms](LICENSE.md).
+Contents are released under the Creative Commons BY-NC-SA 4.0 [license](https://github.com/virgili0/Virgilio/blob/dev/LICENSE). Code is released under the [MIT license](https://github.com/virgili0/Virgilio/blob/dev/.vuepress/LICENSE).
