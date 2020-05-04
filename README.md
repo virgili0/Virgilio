@@ -121,26 +121,26 @@ Above these you’ll find a plenty of other useful zones:
 ## Purgatorio
 
 - Fundamentals
-  + [Math Fundamentals](serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
-  + [Statistics Fundamentals](serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
-  + [Python Fundamentals](serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
-  + [Jupyter Notebook](serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)
-  + [The Data Science Process](serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
+  + [Math Fundamentals](serving/purgatorio/fundamentals/math-fundamentals.md)
+  + [Statistics Fundamentals](serving/purgatorio/fundamentals/statistics-fundamentals.md)
+  + [Python Fundamentals](serving/purgatorio/fundamentals/python-fundamentals.md)
+  + [Jupyter Notebook](serving/purgatorio/fundamentals/jupyter-notebook.md)
+  + [The Data Science Process](serving/purgatorio/fundamentals/the-data-science-process.md)
 - Define The Scope and Ask Questions
-  + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
-  + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
-  + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
-  + [WorkSpace Setup and Cloud Computing](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
+  + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem.md)
+  + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration.md)
+  + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project.md)
+  + [WorkSpace Setup and Cloud Computing](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
 - Collect and Prepare Data
-  + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
-  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
+  + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation.md)
+  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
 - Select and Train Machine Learning Models
-  + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
-  + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
-  + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning/evaluation-and-finetuning.md)
-  + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries/tools-and-libraries.md)
+  + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
+  + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
+  + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning.md)
+  + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
 - Launch and Mantain the System
-  + Serving Trained Models
+  + [Serving Trained Models](serving/purgatorio/launch-and-mantain-the-system/serving-trained-models.md)
   + Monitoring Usage and Behavior
   + Automation and Reproducibility
 - Now Go Build
@@ -151,24 +151,24 @@ Above these you’ll find a plenty of other useful zones:
 ## Inferno
 
 - Computer Vision
-  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
-  + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
-  + [Object Tracking](serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
-  + [Object Detection](serving/inferno/computer-vision/object-detection/Object_detection_based_on_Deep_Learning.ipynb)
+  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision.ipynb)
+  + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation.ipynb)
+  + [Object Tracking](serving/inferno/computer-vision/object-tracking.ipynb)
+  + [Object Detection](serving/inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
 - Natural Language Processing
 - Virtual Assistants
-  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot/dialogflow-chatbot.md)
+  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot.md)
 - Reinforcement Learning
 - Soft Skills
-  + [Impactful Presentations](serving/inferno/soft-skills/impactful-presentations/impactful-presentations.md)
+  + [Impactful Presentations](serving/inferno/soft-skills/impactful-presentations.md)
 - Tools
-  + [Geo Gebra](serving/inferno/tools/geo-gebra/geo-gebra.md)
-  + [Latex](serving/inferno/tools/latex/latex.md)
-  + [Regex](serving/inferno/tools/regex/regex.ipynb)
-  + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
+  + [Geo Gebra](serving/inferno/tools/geo-gebra.md)
+  + [Latex](serving/inferno/tools/latex.md)
+  + [Regex](serving/inferno/tools/regex.ipynb)
+  + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha.md)
 - Research
-  + [Zotero](serving/inferno/research/zotero/zotero.md)
-  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers/sota-papers.md)
+  + [Zotero](serving/inferno/research/zotero.md)
+  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 
