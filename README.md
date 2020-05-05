@@ -1,6 +1,6 @@
 # <div class="title">*Virgilio*</div>
 
-![GitHub stars](https://img.shields.io/github/stars/Virgili0/Virgilio?style=social)
+<a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
 
 Your new Mentor for Data Science E-Learning.
 
