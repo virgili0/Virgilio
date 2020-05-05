@@ -1,5 +1,7 @@
 # <div class="title">*Virgilio*</div>
 
+![GitHub stars](https://img.shields.io/github/stars/Virgili0/Virgilio?style=social)
+
 Your new Mentor for Data Science E-Learning.
 
 > Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
