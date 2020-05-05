@@ -22,7 +22,7 @@ description: This guide wants to clarify ideas about terms such as Artificial In
 The term Machine Learning is often confused with the term Artificial Intelligence (AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of Machine Learning (abbreviated to ML). 
 
 The objective of the AI field is to create "intelligent" agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
-If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet or more generally the muscles. 
+If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
 However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 
 
@@ -32,7 +32,7 @@ Machine learning is generally considered as a subset of the AI field. Specifical
 Deep Learning is a subset of the Machine Learning field, a further ensemble of techniques and algorithms that exploit neural networks for the solution of problems such as Computer Vision or Natural Language Understanding. 
 
 
-More specifically, Virgilio will provide you guides to become experienced in the Machine Learning field, with a strong focus on Deep Learning techniques.
+More specifically, Virgilio will provide you with guides to become experienced in the Machine Learning field, with a strong focus on Deep Learning techniques.
 
 ![Figure 1-1](./sets.png) 
 
@@ -59,11 +59,11 @@ Additional sub-modules can have other specific neural networks trained to recogn
 Img source:  https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
 
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism implies the possibility to understand which action is taken at each step and why. 
-It is important to note that there is no need of input data examples to produce the output considered correct.
+It is important to note that there is no need for input data examples to produce the output considered correct.
 
 
 
-The approach of Machine Learning, at an intuitive level, consists instead in "seeing" a lot of input examples, each matched with the output considered correct, and programming the machine to detect the recurring patterns that occur in the data. 
+The approach of Machine Learning, at an intuitive level, consists instead of "seeing" a lot of input examples, each matched with the output considered correct, and programming the machine to detect the recurring patterns that occur in the data. 
 
 These patterns will then be used by the machine as a "knowledge base", to try to return the correct output, if a new input is provided (never seen before). 
 
@@ -71,7 +71,7 @@ The process of feeding with data is called training and its result is a model (a
 
 Once a model is obtained, it can be used to assign the correct output to inputs that it has never "seen". 
 
-For a model, to be effective, it's paramount the ability to generalize starting from the examples on which it has been trained, otherwise it will work only after having being trained on all possible data!
+For a model, to be effective, it's paramount the ability to generalize starting from the examples on which it has been trained, otherwise, it will work only after having being trained on all possible data!
 
 Let's see some practical examples of how Machine Learning is applied in the real world.
 
@@ -119,17 +119,17 @@ Maybe we could notice further patterns in other parts of the mail, for example i
 
 It's easy to see the program would very soon become a vast set of complex "hard-coded" rules, chaotic and complicated to maintain, needed to be added manually as new approaches to fool it will be used.
 
-Instead, a spam filter consisting of a Machine Learning model would automatically learn which sentences, words, and patterns are valid indicators of spam danger, and could be updated every time an email is recognized as new type of spam. The program is much shorter, easy to maintain and accurate in recognition.
+Instead, a spam filter consisting of a Machine Learning model would automatically learn which sentences, words, and patterns are valid indicators of spam danger and could be updated every time an email is recognized as a new type of spam. The program is much shorter, easy to maintain, and accurate in recognition.
 
 In summary, Machine Learning techniques are appropriate for:
 
-- Fluid environments, where the problem constantly changes and in an unpredictable way (a mountain road never "seen" before, an email containing words never encountered, an unknown pattern in the peaks of users in a website).
+- Fluid environments, where the problem constantly changes and in an unpredictable way (a mountain road never "seen" before, an email containing words never encountered, an unknown pattern in the peaks of users on a website).
 
 - Complex problems where the traditional approach would be impracticable or would lead to "Frankenstein" of code with high maintenance cost. The Machine Learning approach can significantly simplify the code and achieve better performance.
 
 - Get information about complex problems and discover patterns through large amounts of data.
 
-## Conclusion
+### Conclusions
 
 Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it. 
 You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
