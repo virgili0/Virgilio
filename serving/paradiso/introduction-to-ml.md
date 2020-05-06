@@ -6,13 +6,9 @@ description: This guide aims to introduce you to how an ML system can present it
 
 
 # Index
-- [Introduction to ML](#introduction-to-ml)
-- [What you will learn](#what-you-will-learn)
-  - [Prerequisites](#prerequisites)
-  - [Time to complete](#time-to-complete)
 - [Index](#index)
   - [Types of ML systems](#types-of-ml-systems)
-  - [Supervision](#supervision)
+  - [Learning Approaches](#Learning-Approaches)
     - [Supervised Learning](#supervised-learning)
     - [Unsupervised Learning](#unsupervised-learning)
     - [Reinforcement learning](#reinforcement-learning)
@@ -27,7 +23,6 @@ description: This guide aims to introduce you to how an ML system can present it
   - [Conclusion](#conclusion)
 
 
-
 ## Types of ML systems
 
 There are three main categories of ML systems:
@@ -40,7 +35,7 @@ There are three main categories of ML systems:
 
 These criteria are not mutually exclusive and can be combined according to the needs of the scenario: a self-driving machine could take advantage of an ML system of supervised learning, which learns through batch learning and which "thinks" thanks to a statistical model that allows it to make short-term predictions ("the machine in front is braking, I will soon have to activate the brakes").
 
-## Supervision
+## Learning Approaches
 
 ### Supervised Learning
 
@@ -53,7 +48,7 @@ The two most common tasks that can be tackled with supervised learning are class
 
 ![Figure 1-1](./classification.png)
 
-A problem of **regression** instead consists in assigning a continuous value to the new data, for example the price of a house given a set of values (the number of rooms for example) so the output will be included in a continuous interval and not a finite set.
+A problem of **regression** instead consists of assigning a continuous value to the new data, for example, the price of a house given a set of values (the number of rooms for example) so the output will be included in a continuous interval and not a finite set.
 
 ![Figure 1-1](./regression.png)
 
@@ -68,17 +63,17 @@ Usually, the classification models foresee a continuous value as the probability
 
 But what if we don't have labeled data or our goal is to find something we don't know about it?
 
-This is where **unsupervised learning** comes into play, because hte input is composed by "raw" data, without the use of labels.
+This is where **unsupervised learning** comes into play because the input is composed of "raw" data, without the use of labels.
 
 For example, let's imagine that we have a supermarket sales dataset containing all the purchases made by customers, cart by cart. You can extract business advice by grouping the items often purchased together and choose to put them on nearby shelves or to discount one if you buy the others.
 
-Unsupervised learning is also used as a complement to supervised learning to explore data (even if already labeled) and find other types of grouping that had not been noticed (and thus increase the amount of knowledge we have on each individual instance of the dataset).
+Unsupervised learning is also used as a complement to supervised learning to explore data (even if already labeled) and find other types of grouping that had not been noticed (and thus increase the amount of knowledge we have on each instance of the dataset).
 
-Another use of this type of learning is for **dimensionality reduction**, having the purpose of reducing the number of features to consider maintaining the "value" of the data, something handy when dataset is vast and sparse.
+Another use of this type of learning is for **dimensionality reduction**, having the purpose of reducing the number of features to consider maintaining the "value" of the data, something handy when the dataset is vast and sparse.
 
 ### Reinforcement learning
 
-**Reinforcement learning** is something totally different. The learning system in this context is called agent and learns to solve the problem by observing the world around it (through some kind of sensor), performing actions and evaluating them (good action / bad action) based on some kind of reward (reward).
+**Reinforcement learning** is something different. The learning system in this context is called agent and learns to solve the problem by observing the world around it (through some kind of sensor), performing actions, and evaluating them (good action / bad action) based on some kind of reward (reward).
 The agent is designed so that it tries to improve itself, adjusting its parameters of action in action and aiming to obtain a greater and greater reward.
 
 Reinforcement learning is used massively in robotics, where for example a robot learns to move in the surrounding environment by learning incrementally from its mistakes (the reward decreases by slamming against a wall, instead it increases while the robot moves without collisions, encouraging it to avoid objects).
@@ -87,14 +82,14 @@ Reinforcement learning is used massively in robotics, where for example a robot 
 
 Another important feature of ML systems is that they can learn either in a one-off (batch learning) mode or in a continuous incremental (online learning) mode.
 
-In the case of batch learning (also called offline learning), the system is trained using all available data: it is usually a long and computationally expensive process, so it is performed only occasionaly. When you want to re-train the model you have to do it again on all the data, so it's best to do it only if I have a considerable amount of new data, which can actually improve the performance of the new model (which will be trained on new and old ones).
+In the case of batch learning (also called offline learning), the system is trained using all available data: it is usually a long and computationally expensive process, so it is performed only occasionally. When you want to re-train the model you have to do it again on all the data, so it's best to do it only if I have a considerable amount of new data, which can improve the performance of the new model (which will be trained on new and old ones).
 
 Fortunately, this method of training can be easily automated so you can decide to train the model, for example, every night or every week. 
 
 However, if you need a faster system to react to changes (for example for the detection of commercial fraud or symptoms of cyber attack) the best solution is online learning.
 In this case (also called live learning) the system is trained sequentially by taking small batches of data, called mini-batches, as input. Learning from new data is cheap (in computational terms) and fast as the system learns from on-the-fly data as it is collected.
 
-Online learning is optimal in cases where you need a reactive system response or you have little computational power. Note that the term "online" does not mean that the system must be connected to a geographical network, but simply be feeded with continuous flow of data.
+Online learning is optimal in cases where you need a reactive system response or you have little computational power. Note that the term "online" does not mean that the system must be connected to a geographical network, but simply be fed with a continuous flow of data.
 
 #### Type of inference:
 
@@ -126,7 +121,7 @@ A Machine Learning model, here in its simplest version (two parameters), sometim
 ### Insufficient amount of data
 
 The key assumption of Machine Learning is that you have the data you need to train models and use them later to solve problems.
-It may happen that in the real world the data you have is not enough to train a model to accurately recognize patterns that might be interesting for the purpose of the problem.
+It may happen that in the real world the data you have is not enough to train a model to accurately recognize patterns that might be interesting for the problem.
 
 Even for simple problems, thousands of examples are needed, and for complex problems such as image recognition or voice recognition, millions of examples may be needed.
 
@@ -140,13 +135,13 @@ Another very common problem with data on which to train models is their poor qua
 
 For this reason, one of the most important (and time-consuming!) steps in developing an ML application is data pre-processing. 
 
-Pre-processing the data consists in cleaning it up and preparing it for the Machine Learning model that we will have to train: we remove the individual damaged examples, we adjust the format of the strings and we manage the missing fields (missing values). The pre-processing phase is totally context-dependent and can take very different forms.
+Pre-processing the data consists of cleaning it up and preparing it for the Machine Learning model that we will have to train: we remove the individual damaged examples, we adjust the format of the strings and we manage the missing fields (missing values). The pre-processing phase is context-dependent and can take very different forms.
 
 In this phase we usually try to increase the size of the dataset we are using: for example, if we have a dataset of images, we can think of adding a copy of each image to the dataset, but in a version rotated by 90°, or blurred by some kind of noise. 
 
 This technique, called **data augmentation**, is particularly useful to increase the robustness of our application (because the model is trained to see also damaged/distorted images and recognize them anyway), but generally does not add "new information", which can only be achieved with additional data.
 
-Often you can also run into unrepresentative data: a model, to generalize effectively, must have seen a variety of cases (data) that covers most situations and that represents reality in a realistic way. 
+Often you can also run into unrepresentative data: a model, to generalize effectively, must have seen a variety of cases (data) that covers most situations, and that represents reality in a realistic way. 
 
 For example, let's consider a dataset of temperatures collected in the various days of the year with the task to predict the temperature of a given day. If we only have the November temperatures, how does the model discover the April temperature pattern? Even worse, if that particular November was particularly hot and therefore not representative, we risk getting a model that makes misleading predictions! 
 
@@ -158,7 +153,7 @@ The problem of underfitting occurs when the model we have chosen is too simple (
 
 For example, if we wanted to use a linear model to classify images of dogs and cats, we would probably get unacceptable performances, because the linear model cannot capture the complexity of the data on which we train it.
 
-Usually, a solution to underfitting consists in trying to train more complex models (for example a neural network, which can have even millions of parameters), which can "take into account" all the variables that could have a weight in the choice of the output. For example, in a 64 x 64 pixels image, 4096 possible points can influence the result! A model with few parameters can hardly handle this complexity.
+Usually, a solution to underfitting consists of trying to train more complex models (for example a neural network, which can have even millions of parameters), which can "take into account" all the variables that could impact the choice of the output. For example, in a 64 x 64 pixels image, 4096 possible points can influence the result! A model with few parameters can hardly handle this complexity.
 
 ### Overfitting
 
@@ -168,7 +163,7 @@ For example, to use a complex higher degree curve resulting from a trained model
 
 ### Underfitting and overfitting tradeoff
 
-The tradeoff between the complexity of the model (number of parameters that can be modified), the amount of data available and the difficulty of the task are one of the key concepts behind the choice of the model architecture.
+The tradeoff between the complexity of the model (number of parameters that can be modified), the amount of data available, and the difficulty of the task are some of the key concepts behind the choice of the model architecture.
 Below is a figure that represents three different situations where a model must classify if a point, given in input its two-dimensional coordinates, is red or blue:
 
 ![Figure 1-1](./overfitting.png)
@@ -177,7 +172,7 @@ Below is a figure that represents three different situations where a model must 
 - Fitting appropriate, the model grasps the general "idea" of how the data is distracted, which does not try to change too much to represent each point
 - Overfitting, the model modifies itself heavily to represent every point, but consequently "memorizes" the data of training, struggling, therefore, to generalize later.
 
-Anothet important aspect to consider is the "price" of errors in prediction: classify as spam a regular email is very different from wrongly detecting cancer in an image, so the model performance, deriving from this tradeoff, is a key factor.      
+Another important aspect to consider is the "price" of errors in prediction: classify as spam a regular email is very different from wrongly detecting cancer in an image, so the model performance, deriving from this tradeoff, is a key factor.      
 
-## Conclusion
-Hopefully now you should be more comfortable with high-level ideas of how ML systems are classified and you should have a clear idea of what the classification and regression tasks are.
+### Conclusions
+Hopefully, now you should be more comfortable with high-level ideas of how ML systems are classified and you should have a clear idea of what the classification and regression tasks are.

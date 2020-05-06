@@ -1,7 +1,7 @@
 ---
 title: Learning to Learn
 author: clone95
-description: Give learning advices, best practice in using online resources and time management tips. The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
+description: Gives learning advice, best practice in using online resources, and time management tips. The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
 ---
 
 # Index
@@ -20,11 +20,11 @@ This guide serves various purposes:
 - Presenting _how_ Virgilio sees teaching and learning.
 - Give useful tips to make the most of the help Virgilio can give you in starting to explore this fantastic world and develop solid skills in the world of data through practical projects.
 
-### The Art of War
+## The Art of War
 
-This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio, but **it can serve as a general approach to learning any subject, skill or job**.
+This guide is aimed at anyone who wants to enter the world of innovative fields such as those covered by Virgilio but **it can serve as a general approach to learning any subject, skill, or job**.
 
-For this guide, we will use various enlightening books (famous and not), from which we will draw various lessons about how human beings learn, create, reason and memorize.
+For this guide, we will use various enlightening books (famous and not), from which we will draw various lessons about how human beings learn, create, reason, and memorize.
 
 For each resource, summaries or "key points" will be provided, but I will never stress enough the importance of reading the books that will be mentioned.
 
@@ -54,7 +54,7 @@ If you try to do everything, you do nothing! Which brings us to the next point:
 
 - Face one enemy at a time
 
-How many tutorials have you seen of the type "learn Data Science" in 3 weeks, full of many topics and concepts, techniques and frameworks? This approach is totally unsuccessful (as well as disrespectful for those who take years and years of study), the reason is trivial. 
+How many tutorials have you seen of the type "learn Data Science" in 3 weeks, full of many topics and concepts, techniques, and frameworks? This approach is totally unsuccessful (as well as disrespectful for those who take years and years of study), the reason is trivial. 
 
 What we at Virgilio prefer to do is to outline a path that enables you to **take one step at a time**, learn one concept and apply it, preferring _a solid skill_ (developed in the right time) rather than knowing a thousand acronyms or exotic techniques.
 
@@ -64,7 +64,7 @@ In a later section, we will see how the principles of software engineering, deal
 
 We'll help you to develop you "The Art of Learning".
 
-### The Art of Learning
+## The Art of Learning
 
 The human brain is currently the most complex device we know of, far more complex and powerful than any result of today's engineering. In addition to this, it is also extremely efficient in terms of the resources required for operation, gives us the feeling of being "living" and protects us from the outside world in an ingenious way. What an incredible thing!
 
@@ -101,13 +101,13 @@ The trick is simple.
 **By addressing one topic at a time**, you first aim for a theoretical understanding, then you put it into practice, and finally you evaluate yourself. If you feel confident you can proceed, otherwise you will iterate another round of the circle. 
 
 Some advice: 
-- The first time you address the topic X, first of all, make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case, it means knowing **why** I'm learning this, **what prerequisites** it has and **where it fits** in with the neighboring topics. 
+- The first time you address the topic X, first of all, make sure you have **framed** X. In Sun Tzu this means knowing how your enemy's army is made up. You don't need to know in detail which men make up its ranks, but you need to have an overview of how many forces it has and how they are divided. In our case, it means knowing **why** I'm learning this, **what prerequisites** it has, and **where it fits** in with the neighboring topics. 
 Every Virgilio guide provides this kind of information, but it is important to spend time looking for it and understanding alternative points of view. 
 
 - Each different iteration of the Magic Circle tries to change the resources you use to support learning. Virgilio's guides often provide more resources for the same topic, just to get more visions of the same concept.
 
 - The point just mentioned is fundamental. Knowledge is multifaceted, and there are many different ways of seeing or understanding almost everything. An incredible trick to fully know a topic or concept is to see it under as many different points of view as possible, see alternative interpretations or alternative methods of visualization. 
-It is very important to confront also those who claim that a certain concept is useless, harmful or outdated! For example, if I'm learning what a neural network is, it's also very useful to look for information like "when not to use a neural network".
+It is very important to confront also those who claim that a certain concept is useless, harmful, or outdated! For example, if I'm learning what a neural network is, it's also very useful to look for information like "when not to use a neural network".
 
 - For each topic, Google searches for visualizations of concepts, GIFs, videos, in short, any form of explanation that goes beyond words and code examples.
 
@@ -119,7 +119,7 @@ It is very important to confront also those who claim that a certain concept is 
 
 Let's now see how to use the tools you have at your disposal (in addition to your partner Virgil), to enhance your learning and make it unlimited.
 
-### Mastering Internet
+## Mastering Internet
 
 Every time I think about the fact that I have Google in my pocket, I think it's an incredible historical moment to live: we have the most powerful tool man has ever created and for free!
 
@@ -133,21 +133,21 @@ This section of the guide aims to introduce you to the most advanced features of
 
 It also contains some tips on how to use Reddit.
 
-#### Google
+### Google
 
 Google can almost always answer your questions, whatever they are. Don't be ashamed to ask for articulated things, don't judge yourself! :-) 
 
 In particular, Google search works by keywords, so often to search for something it is effective to try to describe it inaccurately using meaningful keywords, and often Google does the rest! 
 
-The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, use it wisely! 
+The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, uses it wisely! 
 
 [Here](https://blog.hubspot.com/marketing/google-advanced-search-tips) you find a guide on how to make your Google searches more effective, but like everything, try it and get it wrong, only then will you learn to know Google intimately and guess which keywords give you the results you need.
 
-#### Reddit
+### Reddit
 
 Another thing that amazes me every day is how few people know how to use [Reddit](https://www.reddit.com/) effectively.  
 
-Reddit is a content platform where more or less all the information in the world goes through, long before newspapers, TV and social media!
+Reddit is a content platform where more or less all the information in the world goes through, long before newspapers, TV, and social media!
 
 Reddit is divided into folders, like a file system, and each folder contains a topic where users can post articles, questions, discussions. 
 
@@ -157,7 +157,7 @@ Do you have a question, about any concept or topic? Look for a dedicated subredd
 
 What an incredible tool is used as a "crowd mentorship"!
 
-### Time Management
+## Time Management
 
 Learning is difficult, tiring, and requires commitment without always seeing the end of the path. 
 
@@ -169,7 +169,7 @@ The two enemies of your time are motivation and constancy.
 
 For motivation, I recommend using the concept of [visualization](https://www.mindtosucceed.com/Self-Motivation-Techniques.html).
 
-I also think that motivation is something very personal, which can go from the ambitions of pure knowledge to establishing oneself in a field, to helping others through one's own knowledge. 
+I also think that motivation is something very personal, which can go from the ambitions of pure knowledge to establishing oneself in a field to helping others through one's own knowledge. 
 
 In order to get to know each other better and to understand what your real goals are, I recommend the application of the mental techniques suggested in ["Focus"](https://www.amazon.it/Focusing-Interrogare-corpo-cambiare-psiche/dp/883401359X/ref=sr_1_1=sr_1_1?adgrpid=58054156452&gclid=Cj0KCQjwyLDpBRCxARIsAEENsrKKCP5IZoBA6V5TOmr2X8Hivx-JvdX6ygZIt9YPjBt8EIOaJPVq6ZoaAqGnEALw_wcB&hvadid=255222382232&hvdev=c&hvlocphy=20550&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=1997028069562624827&hvtargid=kwd-301509732701&hydadcr=4935_1800296&keywords=focusing&qid=1563195460&s=gateway&sr=8-1).
 
