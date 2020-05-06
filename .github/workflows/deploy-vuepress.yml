@@ -1,0 +1,41 @@
+name: Build and deploy an updated version of the website
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout virgili0/Virgilio
+      uses: actions/checkout@v2
+      with:
+        repository: virgili0/Virgilio
+        path: folder/repo
+    - name: Checkout virgili0/Virgilio master
+      uses: actions/checkout@v2
+      with:
+        repository: virgili0/Virgilio
+        ref: master
+        path: folder/build
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+
+    - working-directory: folder/
+      run: |
+        cd repo
+        npx vuepress build
+        mkdir dist
+        cp .vuepress/dist/* dist/ -r
+        cd ..
+        cp -a repo/dist/. build/
+        cd build
+        mkdir -m 700 ~/.ssh
+        echo "${{ secrets.SSH_KEY_SECRET }}" > ~/.ssh/id_ed25519
+        chmod 0600 ~/.ssh/id_ed25519
+        git config --local user.name "GitHub Action"
+        git config --global user.email "virgilio.datascience@gmail.com"
+        git add .
+        git commit -m "Update build" && git push || :
