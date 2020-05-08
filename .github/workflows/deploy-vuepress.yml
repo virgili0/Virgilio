@@ -19,6 +19,16 @@ jobs:
         ref: master
         path: folder/build
 
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.5
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python install jupyter
+        
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
@@ -26,6 +36,7 @@ jobs:
     - working-directory: folder/
       run: |
         cd repo
+        find . -type f -name "*.ipynb" -exec jupyter nbconvert --to markdown {} \;
         npx vuepress build
         mkdir dist
         cp .vuepress/dist/* dist/ -r
