@@ -17,7 +17,6 @@ Your new Mentor for Data Science E-Learning.
   + [Paradiso](#paradiso)
   + [Purgatorio](#purgatorio)
   + [Inferno](#inferno)
-- [Complete Learning Paths](#complete-learning-paths)
 - [About](#About)
   * [License](#license)
   * [Contribute](#contribute)
