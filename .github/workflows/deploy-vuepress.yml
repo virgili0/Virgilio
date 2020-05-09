@@ -33,6 +33,11 @@ jobs:
       with:
         node-version: '12'
 
+    - name: Install npm dependencies
+      working-directory: folder/repo/
+      run: |
+        npm install
+        
     - working-directory: folder/
       run: |
         cd repo
