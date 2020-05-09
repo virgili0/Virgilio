@@ -93,6 +93,55 @@ module.exports = {
                     */
                 ]
             },
+            {
+             title: 'Inferno', // required
+                //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                collapsable: false, // optional, defaults to true
+                sidebarDepth: 1, // optional, defaults to 1
+                children: [{
+                        title: 'Computer Vision', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            'inferno/computer-vision/introduction-to-computer-vision',
+                            'inferno/computer-vision/object-instance-segmentation',
+                            'inferno/computer-vision/object-tracking',
+                            ['inferno/computer-vision/Object_detection_based_on_Deep_Learning','Object detection based on Deep Learning'],
+                        ]
+                },
+                {
+                        title: 'Soft Skills', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            'inferno/soft-skills/impactful-presentations'
+                        ]
+                },
+                {
+                        title: 'Tools', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            'inferno/tools/geo-gebra',
+                            'inferno/tools/latex',
+                            'inferno/tools/regex',
+                            'inferno/tools/wolfram-alpha',
+                        ]
+                },
+                {
+                        title: 'Research', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            'inferno/research/zotero',
+                            'inferno/research/sota-papers',
+                        ]
+                }]
+            },
             /*
             {
               title: 'Inferno', // required
