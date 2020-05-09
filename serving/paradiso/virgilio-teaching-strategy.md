@@ -1,7 +1,7 @@
 ---
-title: Learning to Learn
+title: Virgilio's Teaching Strategy
 author: clone95
-description: Gives learning advice, best practice in using online resources, and time management tips. The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
+description: Give learning advices, best practice in using online resources, and time management tips. The guide is built using these relevant materials as well as the personal experiences of the author, who has spent a good amount of time documenting and testing techniques and approaches, both on himself and as a teacher.
 ---
 
 # Index
@@ -58,7 +58,7 @@ How many tutorials have you seen of the type "learn Data Science" in 3 weeks, fu
 
 What we at Virgilio prefer to do is to outline a path that enables you to **take one step at a time**, learn one concept and apply it, preferring _a solid skill_ (developed in the right time) rather than knowing a thousand acronyms or exotic techniques.
 
-This principle is another way of formulating the classic [**Divide et Impera**](https://en.wikipedia.org/wiki/Divide_and_rule_and_rule), a principle of software engineering whose purpose is to try to manage the growing complexity of programs, as well as generally advise to disassemble a problem into smaller pieces and address them separately. 
+This principle is another way of formulating the classic [**Divide et Impera**](https://en.wikipedia.org/wiki/Divide_and_rule), a principle of software engineering whose purpose is to try to manage the growing complexity of programs, as well as generally advise to disassemble a problem into smaller pieces and address them separately. 
 
 In a later section, we will see how the principles of software engineering, dealing with complexity and logic, can be applied profitably to everyday life, rational thinking, and in general to the planning of our lives (professional and non-professional).
 
@@ -177,12 +177,13 @@ As for constancy, its greatest enemy is [procrastination](https://www.youtube.co
 
 To solve this second issue, I suggest you use this conceptual framework that personally helped me a lot. 
 
-The framework is the one proposed by the book ["Getting things done"](https://it.wikipedia.org/wiki/Detto,_fatto,_fatto!) and the study ["Implementation Intentions"](https://pdfs.semanticscholar.org/4c21/6c0ceeef2e2745d113c77a417133c2084dd9.pdf). 
+The framework is the one proposed by the book ["Getting things done"](https://en.wikipedia.org/wiki/Getting_Things_Done) and the study ["Implementation Intentions"](https://pdfs.semanticscholar.org/4c21/6c0ceeef2e2745d113c77a417133c2084dd9.pdf). 
 
 These two readings are **strongly** recommended. I can say that by themselves they can revolutionize the way you approach the realization of your goals (not only learning but also professional and life).
 
-### Conclusions
+## Conclusions
 
 After reading the books and articles in this guide, you should be able to gradually improve and become extremely effective and quick to learn. 
 But remember that the road is always uphill (if you want it to be so and it is ambitious), and there will always be something new to learn ... better for us curious, right? :-)
 
+In the next guide you fill find a gentle introduction to the core Machine Learning concepts and it's main limitations.
