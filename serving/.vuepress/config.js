@@ -16,12 +16,12 @@ module.exports = {
                 collapsable: false, // optional, defaults to true
                 sidebarDepth: 1, // optional, defaults to 1
                 children: [
-                    '/serving/paradiso/demystification-ai-ml-dl',
-                    '/serving/paradiso/what-do-i-need-for-ml',
-                    '/serving/paradiso/do-you-really-need-ml',
-                    '/serving/paradiso/use-cases',
-                    '/serving/paradiso/virgilio-teaching-strategy',
-                    '/serving/paradiso/introduction-to-ml'
+                    '/paradiso/demystification-ai-ml-dl',
+                    '/paradiso/what-do-i-need-for-ml',
+                    '/paradiso/do-you-really-need-ml',
+                    '/paradiso/use-cases',
+                    '/paradiso/virgilio-teaching-strategy',
+                    '/paradiso/introduction-to-ml'
                 ]
             },
             {
@@ -35,11 +35,11 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            ['/serving/purgatorio/fundamentals/math-fundamentals', 'Linear Algebra'],
-                            ['/serving/purgatorio/fundamentals/statistics-fundamentals', 'Statistics'],
-                            ['/serving/purgatorio/fundamentals/python-fundamentals', 'Python'],
-                            '/serving/purgatorio/fundamentals/jupyter-notebook',
-                            '/serving/purgatorio/fundamentals/the-data-science-process'
+                            ['/purgatorio/fundamentals/math-fundamentals', 'Linear Algebra'],
+                            ['/purgatorio/fundamentals/statistics-fundamentals', 'Statistics'],
+                            ['/purgatorio/fundamentals/python-fundamentals', 'Python'],
+                            '/purgatorio/fundamentals/jupyter-notebook',
+                            '/purgatorio/fundamentals/the-data-science-process'
                         ]
                     },
                     {
@@ -48,10 +48,10 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            '/serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem',
-                            '/serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration',
-                            '/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project',
-                            '/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing'
+                            '/purgatorio/define-the-scope-and-ask-questions/frame-the-problem',
+                            '/purgatorio/define-the-scope-and-ask-questions/usage-and-integration',
+                            '/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project',
+                            '/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing'
                         ]
                     },
                     {
@@ -60,8 +60,8 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            '/serving/purgatorio/collect-and-prepare-data/data-preparation',
-                            '/serving/purgatorio/collect-and-prepare-data/data-visualization',
+                            '/purgatorio/collect-and-prepare-data/data-preparation',
+                            '/purgatorio/collect-and-prepare-data/data-visualization',
                         ]
                     },
                     {
@@ -70,10 +70,10 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            '/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory',
-                            '/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory',
-                            '/serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning',
-                            '/serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries'
+                            '/purgatorio/select-and-train-machine-learning-models/machine-learning-theory',
+                            '/purgatorio/select-and-train-machine-learning-models/deep-learning-theory',
+                            '/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning',
+                            '/purgatorio/select-and-train-machine-learning-models/tools-and-libraries'
                         ]
                     },
                     {
@@ -82,7 +82,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            '/serving/purgatorio/launch-and-mantain-the-system/serving-trained-models',
+                            '/purgatorio/launch-and-mantain-the-system/serving-trained-models',
                         ]
                     },
                     /*
@@ -100,12 +100,12 @@ module.exports = {
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
               children: [
-                '/serving/paradiso/demystification-ai-ml-dl',
-                '/serving/paradiso/what-do-i-need-for-ml',
-                '/serving/paradiso/do-you-really-need-ml',
-                '/serving/paradiso/use-cases',
-                '/serving/paradiso/virgilio-teaching-strategy',
-                '/serving/paradiso/introduction-to-ml'
+                '/paradiso/demystification-ai-ml-dl',
+                '/paradiso/what-do-i-need-for-ml',
+                '/paradiso/do-you-really-need-ml',
+                '/paradiso/use-cases',
+                '/paradiso/virgilio-teaching-strategy',
+                '/paradiso/introduction-to-ml'
               ]
             },
             */

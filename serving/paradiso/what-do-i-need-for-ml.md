@@ -79,8 +79,9 @@ So let's _know-our-data_ before performing any actions or tasks or transformatio
 
 Do scavenge through the material, the notebooks, presentations, and videos under this section. Unfortunately, we focus much less on critical thinking, which is a highly-potent ingredient needed when working with mathematics and sciences. Another good example would be looking at this online course [**"Calling Bullshit"**](http://CallingBullshit.org).
 
+
 ### Know-how
-Doing data science is not simple. It will **never be**, if you want to fully understand the mathematical processes behind the elegant models offered by high-level interfaces such as Keras. Learn to hate those who say "learn data science in 6 weeks". 
+Doing data science is not simple. It will **never be** if you want to fully understand the mathematical processes behind the elegant models offered by high-level interfaces such as Keras. Learn to hate those who say "learn data science in 6 weeks". 
 In one sense it's _totally false_, in the other it's _disrespectful_ to those who study these issues for years, learning new things every day. This does not mean that we should be discouraged, on the contrary! **Virgilio is here to help you in this fascinating process**. 
 
 - If you are a student or a technician in general who wants to experience these innovative themes first hand, follow the path that has been prepared for you starting from Purgatorio, and with the right time and determination, you will get incredible results. 
@@ -110,6 +111,7 @@ Once you have a good **Business Understanding** of the application that you want
 After the deployment, you have to monitor the performances of your model and soon it may have to be modified as requirements change.
 
 Because of this, the Data Science process is not **One-Shot**, but it's [highly iterative and incremental](https://towardsdatascience.com/applying-agile-methodology-to-data-science-projects-db50ebbef115).
+
 
 #### The Data Science Team
 
@@ -147,6 +149,7 @@ Damn it! We have to buy an extreme gaming PC with 4 GPUs!
 **Kidding, please don't do that.**
 
 Thanks to the internet connection and cloud providers, nowadays it is much more _convenient_ to use machines prepared and maintained by companies like Amazon or Google, instead of investing money in physical hardware.
+
 
 ## Cloudy Days
 [**Outsourcing is the main driver of the human society progress**](https://necsi.edu/complexity-rising-from-human-beings-to-human-civilization-a-complexity-profile). Imagine one of the first farmers in 20,000 B.C. 
@@ -197,4 +200,5 @@ We have seen how the three elements (data, know-how, and computing power) are st
 If you are a student or just a curious cat you will have an easy time thanks to Google Colab and the free power it offers. If you're part of a team in a company thinking about starting to experiment with ML at scale, consider the ever richer and better ML services offered by the big technology cloud vendors.
 
 In the next guide, we'll ask ourselves: **do we really need Machine Learning?**
+
 

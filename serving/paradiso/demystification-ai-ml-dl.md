@@ -17,6 +17,8 @@ description: This guide wants to clarify ideas about terms such as Artificial In
 The term Machine Learning is often confused with the term **Artificial Intelligence** (abbreviated to AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of **Machine Learning** (abbreviated to ML). 
 
 The objective of the AI field is to create _intelligent_ agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
+If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
+However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 
 If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
 
@@ -55,6 +57,7 @@ Additional sub-modules can use **Deep Learning** techniques such as neural netwo
 [Img source](https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning)
 
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem **in a deterministic fashion**. 
+It is important to note that there is no need for input data examples to produce the output considered correct.
 
 This determinism implies the possibility to understand which action is taken at each step and why. 
 

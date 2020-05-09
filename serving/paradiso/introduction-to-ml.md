@@ -11,16 +11,16 @@ description: This guide aims to introduce you to how an ML system can present it
   - [Supervised Learning](#supervised-learning)
   - [Unsupervised Learning](#unsupervised-learning)
   - [Reinforcement learning](#reinforcement-learning)
-    - [Learning modes:](#learning-modes)
-    - [Type of inference:](#type-of-inference)
-  - [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
-    - [Insufficient amount of data](#insufficient-amount-of-data)
-    - [Low quality and unrepresentative data](#low-quality-and-unrepresentative-data)
-    - [Underfitting](#underfitting)
-    - [Overfitting](#overfitting)
-    - [Underfitting and overfitting tradeoff](#underfitting-and-overfitting-tradeoff)
-  - [Conclusions](#conclusions)
+   - [Learning modes](#learning-modes)
+   - [Type of inference](#type-of-inference)
 
+  - [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
+   - [Insufficient amount of data](#insufficient-amount-of-data)
+   - [Low quality and unrepresentative data](#low-quality-and-unrepresentative-data)
+   - [Underfitting](#underfitting)
+   - [Overfitting](#overfitting)
+   - [Underfitting and overfitting tradeoff](#underfitting-and-overfitting-tradeoff)
+  - [Conclusions](#conclusions)
 
 
 ## Types of ML systems
@@ -34,7 +34,6 @@ There are three main categories of ML systems:
 - Type of inference (instance-based, model-based)
 
 These criteria are not mutually exclusive and can be combined according to the needs of the scenario: a self-driving machine could take advantage of an ML system of supervised learning, which learns through batch learning and which "thinks" thanks to a statistical model that allows it to make short-term predictions ("the machine in front is braking, I will soon have to activate the brakes").
-
 
 ## Supervised Learning
 
@@ -73,6 +72,7 @@ Another use of this type of learning is for **dimensionality reduction**, having
 ## Reinforcement learning
 
 **Reinforcement learning** is something totally different. The learning system in this context is called **agent** and learns to solve the problem by observing the world around it (through some kind of sensor), performing actions, and evaluating them (good action / bad action) based on some kind of reward (reward).
+
 The agent is designed so that it tries to improve itself, adjusting its parameters of action in action and aiming to obtain a greater and greater reward.
 
 Reinforcement learning is used massively in robotics, where for example a robot learns to move in the surrounding environment by learning incrementally from its mistakes (the reward decreases by slamming against a wall, instead it increases while the robot moves without collisions, encouraging it to avoid objects).
@@ -82,6 +82,7 @@ Reinforcement learning is used massively in robotics, where for example a robot 
 Another important feature of ML systems is that they can learn either in a one-off (batch learning) mode or in a continuous incremental (online learning) mode.
 
 In the case of batch learning (also called offline learning), the system is trained using all available data: it is usually a long and computationally expensive process, so it is performed only occasionally. When you want to re-train the model you have to do it again on all the data, so it's best to do it only if I have a considerable amount of new data, which can actually improve the performance of the new model (which will be trained on new and old ones).
+
 
 Fortunately, this method of training can be easily automated so you can decide to train the model, for example, every night or every week. 
 
@@ -154,6 +155,7 @@ For example, if we wanted to use a linear model to classify images of dogs and c
 
 Usually, a solution to underfitting consists of trying to train more complex models (for example a neural network, which can have even millions of parameters), which can "take into account" all the variables that could have an impact on the choice of the output. For example, in a 64 x 64 pixels image, 4096 possible points can influence the result! A model with few parameters can hardly handle this complexity.
 
+
 ### Overfitting
 
 The concept of overfitting occurs in the opposite case to what has just been explained, i.e. when a model is "too complex" for the assigned task.
@@ -177,3 +179,4 @@ Another important aspect to consider is the "price" of errors in prediction: cla
 Hopefully, now you should be more comfortable with high-level ideas of how ML systems are classified and you should have a clear idea of what the classification and regression tasks are.
 
 Now you're ready to start your real Data Science Journey in the Purgatorio! 
+

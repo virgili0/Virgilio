@@ -108,36 +108,36 @@ Above these you’ll find a plenty of other useful zones:
 
 ### Paradiso
 
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](serving/paradiso/demystification-ai-ml-dl.md)
-- [What do you need for ML? ](serving/paradiso/what-do-i-need-for-ml.md)
-- [Do you really need ML?](serving/paradiso/do-you-really-need-ml.md)
-- [ML use cases](serving/paradiso/use-cases.md) 
-- [Virgilio's Teaching Strategy - Learning to Learn](serving/paradiso/virgilio-teaching-strategy.md)
-- [Introduction to ML](serving/paradiso/introduction-to-ml.md)
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](paradiso/demystification-ai-ml-dl.md)
+- [What do you need for ML? ](paradiso/what-do-i-need-for-ml.md)
+- [Do you really need ML?](paradiso/do-you-really-need-ml.md)
+- [ML use cases](paradiso/use-cases.md) 
+- [Virgilio's Teaching Strategy - Learning to Learn](paradiso/virgilio-teaching-strategy.md)
+- [Introduction to ML](paradiso/introduction-to-ml.md)
 
 ### Purgatorio
 
 - Fundamentals
-  + [Math Fundamentals](serving/purgatorio/fundamentals/math-fundamentals.md)
-  + [Statistics Fundamentals](serving/purgatorio/fundamentals/statistics-fundamentals.md)
-  + [Python Fundamentals](serving/purgatorio/fundamentals/python-fundamentals.md)
-  + [Jupyter Notebook](serving/purgatorio/fundamentals/jupyter-notebook.md)
-  + [The Data Science Process](serving/purgatorio/fundamentals/the-data-science-process.md)
+  + [Math Fundamentals](purgatorio/fundamentals/math-fundamentals.md)
+  + [Statistics Fundamentals](purgatorio/fundamentals/statistics-fundamentals.md)
+  + [Python Fundamentals](purgatorio/fundamentals/python-fundamentals.md)
+  + [Jupyter Notebook](purgatorio/fundamentals/jupyter-notebook.md)
+  + [The Data Science Process](purgatorio/fundamentals/the-data-science-process.md)
 - Define The Scope and Ask Questions
-  + [Frame The Problem](serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem.md)
-  + [Usage and Integration](serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration.md)
-  + [Starting a Data Project](serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project.md)
-  + [WorkSpace Setup and Cloud Computing](serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
+  + [Frame The Problem](purgatorio/define-the-scope-and-ask-questions/frame-the-problem.md)
+  + [Usage and Integration](purgatorio/define-the-scope-and-ask-questions/usage-and-integration.md)
+  + [Starting a Data Project](purgatorio/define-the-scope-and-ask-questions/starting-a-data-project.md)
+  + [WorkSpace Setup and Cloud Computing](purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
 - Collect and Prepare Data
-  + [Data Preparation](serving/purgatorio/collect-and-prepare-data/data-preparation.md)
-  + [Data Visualization](serving/purgatorio/collect-and-prepare-data/data-visualization.md)
+  + [Data Preparation](purgatorio/collect-and-prepare-data/data-preparation.md)
+  + [Data Visualization](purgatorio/collect-and-prepare-data/data-visualization.md)
 - Select and Train Machine Learning Models
-  + [Machine Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
-  + [Deep Learning Theory](serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
-  + [Evaluation and Fine Tuning](serving/purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning.md)
-  + [Tools and Libraries](serving/purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
+  + [Machine Learning Theory](purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
+  + [Deep Learning Theory](purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
+  + [Evaluation and Fine Tuning](purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning.md)
+  + [Tools and Libraries](purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
 - Launch and Mantain the System
-  + [Serving Trained Models](serving/purgatorio/launch-and-mantain-the-system/serving-trained-models.md)
+  + [Serving Trained Models](purgatorio/launch-and-mantain-the-system/serving-trained-models.md)
   + Monitoring Usage and Behavior
   + Automation and Reproducibility
 - Now Go Build
@@ -148,24 +148,24 @@ Above these you’ll find a plenty of other useful zones:
 ### Inferno
 
 - Computer Vision
-  + [Introduction to Computer Vision](serving/inferno/computer-vision/introduction-to-computer-vision.ipynb)
-  + [Object Instance Segmentation](serving/inferno/computer-vision/object-instance-segmentation.ipynb)
-  + [Object Tracking](serving/inferno/computer-vision/object-tracking.ipynb)
-  + [Object Detection](serving/inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
+  + [Introduction to Computer Vision](inferno/computer-vision/introduction-to-computer-vision.ipynb)
+  + [Object Instance Segmentation](inferno/computer-vision/object-instance-segmentation.ipynb)
+  + [Object Tracking](inferno/computer-vision/object-tracking.ipynb)
+  + [Object Detection](inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
 - Natural Language Processing
 - Virtual Assistants
-  + [Build a Virtual Assistant with DialogFlow](serving/inferno/virtual-assistants/dialogflow-chatbot.md)
+  + [Build a Virtual Assistant with DialogFlow](inferno/virtual-assistants/dialogflow-chatbot.md)
 - Reinforcement Learning
 - Soft Skills
-  + [Impactful Presentations](serving/inferno/soft-skills/impactful-presentations.md)
+  + [Impactful Presentations](inferno/soft-skills/impactful-presentations.md)
 - Tools
-  + [Geo Gebra](serving/inferno/tools/geo-gebra.md)
-  + [Latex](serving/inferno/tools/latex.md)
-  + [Regex](serving/inferno/tools/regex.ipynb)
-  + [Wolfram Alpha](serving/inferno/tools/wolfram-alpha.md)
+  + [Geo Gebra](inferno/tools/geo-gebra.md)
+  + [Latex](inferno/tools/latex.md)
+  + [Regex](inferno/tools/regex.ipynb)
+  + [Wolfram Alpha](inferno/tools/wolfram-alpha.md)
 - Research
-  + [Zotero](serving/inferno/research/zotero.md)
-  + [State-of-Art Papers Explained](serving/inferno/research/sota-papers.md)
+  + [Zotero](inferno/research/zotero.md)
+  + [State-of-Art Papers Explained](inferno/research/sota-papers.md)
 - Massive Computation
 - Machine Learning for Business Applications
 

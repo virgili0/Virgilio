@@ -17,6 +17,7 @@ Let's dive right in!
 ## The big picture
 Machine Learning systems, and in particular the Deep Learning ones, have made huge evolutionary steps and have improved a lot in the last five years, especially for a large amount of data available but especially for the availability of high-performance infrastructure (CPU and GPU in particular).
 
+
 In the field of Artificial Intelligence research, automatic learning has been very successful in recent years, allowing computers to overcome or approach the corresponding human performance in areas ranging from facial recognition to speech and language recognition. Deep learning, on the other hand, allows computers to take a step forward, in particular, to solve a series of complex problems.
 
 Most of the [Google services](https://blog.aimultiple.com/ai-is-already-at-the-heart-of-google/) running on your device are powered by some Machine Learning system!
@@ -25,9 +26,10 @@ Let's have a look at 3 simple cases:
 
 **First case**: speech-to-text processing of a phone call.
 
-In this case, what I want to do is to translate an audio call into text. In the past, this was attempted using preset programs, but only the use of IA has allowed for optimal results.
+In this case, what I want to do is to translate an audio call into text. In the past, this was attempted using preset programs, but only the use of AI has allowed for optimal results.
 
 The service is normally offered by the big players (Google, Microsoft, Amazon, etc.) who have trained the model with millions of sentences; they make it available through API, which is through service. In this case, the company interfaces by providing the audio file and the service responds in real-time with a text.
+
 
 In this case, the company buys the service it uses.
 
@@ -45,6 +47,7 @@ In this third case, instead, we hypothesize the internal construction of a Machi
 
 We must assume that the company in question has at its disposal the history of all the calls received, divided into the individual steps made by the operator; with them, we must be able to build a chain of events that have led to a final solution.
 
+
 Having a large number of these chains at our disposal, we **train a model** according to Machiene Learning algorithms; it is necessary to have specific competence at this point to understand which is the most suitable algorithm and the calibration of the parameters necessary to obtain the best result. It is often at this point that the best intentions collapse; it is not enough to feed the data to any model, it is necessary to identify and calibrate the right model.
 
 Once the model has been trained, it is made available to the call center; once the call has been received and the first step has been taken, we will probably already have the next step available; after the second step, the probability of 'guessing' the next step will be even higher, and so on, optimizing the process.
@@ -56,6 +59,7 @@ This example can be applied to all cases where **there is a sequence of events**
 - Analysis of behavior to predict criminal phenomena (Minority report?)
 
 From these examples it can be understood that **AI is a way to process data**; there is no limit in the hypothesis of its use, if not in the ability of those who manage the data.
+
 
 ## From research to industry
 
@@ -91,6 +95,7 @@ As you can see, the space of possibilities is really wide. However, thinking abo
 Check the [Deep Learning Index](https://deepindex.org/) for more than 800 examples of applied AI!
 :::
 
+
 ## Sinergy with other technological trends
 
 - There are strong synergies between AI and the **Internet of Things** (IoT). Combine AI with an IoT network (e.g.,
@@ -104,6 +109,7 @@ accessible via the cloud) or distributed (so-called on-device AI, supported by t
 edge computing technologies).
 
 - AI and **5G connectivity** form a disruptive combination. The 5G, that is the network of fifth-generation will officially arrive from 2020 and will allow connecting the
+
 millions of devices worldwide at high speed and with low latency, opening up
 the doors to the creation of new application scenarios, hitherto not feasible, on
 a single global nervous system in different industrial sectors. 5G networks will be able to
@@ -135,3 +141,4 @@ In this guide, we have seen what are the possible cases of use of Machine Learni
 We would also like to remind you that if you are aware of any use cases not included in these lists, the authors will be more than happy to receive a suggestion and add it.
 
 In the next guide we'll start see how Virgilio sees teaching and learning, and he will help you develop solid skills during you Data Science journey!
+

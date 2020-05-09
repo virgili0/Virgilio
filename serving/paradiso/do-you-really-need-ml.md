@@ -4,7 +4,6 @@ author: clone95
 description: Understand for which kind of problems it makes sense to use Machine Learning, and which ones can be solved more easily. The purpose of this guide is to warn you that there is not always a need for machine learning solutions. Don't mistake everything for a nail, just because you know how to use a hammer!
 ---
 
-
 # Index
 
 - [Kill the Hype](#Kill-the-Hype)
@@ -33,6 +32,7 @@ But deep learning requires three elements to function, as we have seen in previo
 - Computational power
 
 Be wary of anyone who proposes a Deep Learning project that lacks one of these three elements, and ask specific questions about each of them. 
+
 You can refer to the previous guide [What Do You Need for Machine Learning](./what-do-i-need-for-ml.md), for guidelines on how to compare responses and understand the feasibility of projects.
 
 Of course, to fully evaluate the feasibility of a project you need experience and knowledge of the domain, but you can rest assured that if one of the three elements is missing, it is likely that what is being proposed is a pure distillate of hype.
@@ -59,6 +59,7 @@ Sometimes, however, the company that supplies the products is careless and forge
 **How can we solve this problem?**
 
 The problem consists of a binary classification task that takes as input the price of the object (some features, such as color, do not affect the price in this case) and returns output the label of the price range ("high" or "low").
+
 
 - We can try to apply a Deep Learning technique
 - We can try to apply a more general Machine Learning technique
@@ -141,6 +142,7 @@ It is therefore clear that without a change of **cultural approach to the issue 
 - If a chatbot is developed within a company, and it is not used, **it's useless**. 
 
 - If recommendation systems are put in place, but then there is no care for the production and care of high-quality data, **it's useless**.
+
 
 The cultural change is the main "soft" requirement of the success of a Machine Learning project, and often also the most underestimated. 
 

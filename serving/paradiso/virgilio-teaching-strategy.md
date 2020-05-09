@@ -133,17 +133,17 @@ This section of the guide aims to introduce you to the most advanced features of
 
 It also contains some tips on how to use Reddit.
 
-#### Google
+### Google
 
 Google can almost always answer your questions, whatever they are. Don't be ashamed to ask for articulated things, don't judge yourself! :-) 
 
 In particular, Google search works by keywords, so often to search for something it is effective to try to describe it inaccurately using meaningful keywords, and often Google does the rest! 
 
-The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, use it wisely! 
+The more keywords you add, the more information Google has to find what you need, but it also narrows the search field, uses it wisely! 
 
 [Here](https://blog.hubspot.com/marketing/google-advanced-search-tips) you find a guide on how to make your Google searches more effective, but like everything, try it and get it wrong, only then will you learn to know Google intimately and guess which keywords give you the results you need.
 
-#### Reddit
+### Reddit
 
 Another thing that amazes me every day is how few people know how to use [Reddit](https://www.reddit.com/) effectively.  
 
