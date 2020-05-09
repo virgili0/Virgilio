@@ -61,8 +61,6 @@ Img source:  https://github.com/mahmoudparsian/data-algorithms-book/tree/master/
 In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism implies the possibility to understand which action is taken at each step and why. 
 It is important to note that there is no need of input data examples to produce the output considered correct.
 
-
-
 The approach of Machine Learning, at an intuitive level, consists instead in "seeing" a lot of input examples, each matched with the output considered correct, and programming the machine to detect the recurring patterns that occur in the data. 
 
 These patterns will then be used by the machine as a "knowledge base", to try to return the correct output, if a new input is provided (never seen before). 
