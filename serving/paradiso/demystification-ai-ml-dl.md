@@ -5,75 +5,76 @@ description: This guide wants to clarify ideas about terms such as Artificial In
 ---
 
 # Index
-- [Demystification of AI, ML, DL](#demystification-of-ai-ml-dl)
-- [What you will learn](#what-you-will-learn)
-  - [Prerequisites](#prerequisites)
-  - [Time to complete](#time-to-complete)
 - [Index](#index)
-  - [Naming](#naming)
-  - [Definition](#definition)
-  - [Machine Learning differences from the algorithmic approach](#machine-learning-differences-from-the-algorithmic-approach)
-  - [Why use Machine Learning techniques](#why-use-machine-learning-techniques)
-  - [Conclusion](#conclusion)
+  - [What are AI, ML, and DL?]()
+  - [Differences from the algorithmic approach](#machine-learning-differences-from-the-algorithmic-approach)
+  - [Why to use Machine Learning techniques](#why-use-machine-learning-techniques)
+  - [Conclusions](#conclusions)
   
 
-## Naming
+## What are Artificial Intelligence, Machine Learning, and Deep Learning?
 
-The term Machine Learning is often confused with the term Artificial Intelligence (AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of Machine Learning (abbreviated to ML). 
+The term Machine Learning is often confused with the term **Artificial Intelligence** (abbreviated to AI), which however refers to a set of techniques, methodologies, and algorithms that includes those of **Machine Learning** (abbreviated to ML). 
 
-The objective of the AI field is to create "intelligent" agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
-If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet or more generally the muscles. 
-However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
+The objective of the AI field is to create _intelligent_ agents, which can have a perception of the real world through sensors, make decisions thanks to their "intelligence", and finally implement them through actuators.
 
+If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
 
-Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of programming a machine so that it can learn to perform a task from the data, rather than through programming.
+However, [the biological analogy is limited](https://www.reddit.com/r/MachineLearning/comments/ayvxvc/d_are_the_connections_between_deep_learning_and/), since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 
+Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of **programming a machine so that it can learn to perform a task from the data, rather than through programming.**
 
-Deep Learning is a subset of the Machine Learning field, a further ensemble of techniques and algorithms that exploit neural networks for the solution of problems such as Computer Vision or Natural Language Understanding. 
+**Deep Learning** is a further subset of the Machine Learning field, more precisely an ensemble of techniques and algorithms that exploit _neural networks_ for the solution of problems such as Computer Vision or Natural Language Understanding. 
 
-
-More specifically, Virgilio will provide you guides to become experienced in the Machine Learning field, with a strong focus on Deep Learning techniques.
+::: tip Virgilio's Mission
+More specifically, Virgilio will provide you with guides to become experienced in the Machine Learning field, with a strong focus on Deep Learning techniques.
+:::
 
 ![Figure 1-1](./sets.png) 
 
-## Definition
+Hierarchical Relationship: Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL)
 
 A more engineering definition of **Machine Learning** is that given by Tom Mitchell:
 "A machine is learning from experience E with respect to task T and a metric of P, if its performance on T, measured with P, improves with experience E."
 
-This theoretical classification may be difficult to distinguish in practice, but it becomes more evident with an example, such as the autonomous driving system of a new generation car.
+#### A practical example: 
+
+This theoretical definition may be difficult to distinguish in practice, but it becomes more evident with an example, such as the autonomous driving system of a new generation car.
+
+An autonomous car, in fact, can be considered as a whole an **Artificial Intelligence** system: it collects data from the real world (road, cars, road signs, speed) through sensors, possesses a set of "rules" of behavior that constitutes its intelligence ("if you are about to collide with an object, brake preventively") and a set of actuators implementing relative decisions (brakes, steering, ABS).
+
+In this example, the AI system of the car has a sub-module of **Machine Learning** that allows it to improve over time, as the car "sees" different roads and situations, and increases its performance compared to some metric (safety, reaction time to braking, consumption).
+
+Additional sub-modules can use **Deep Learning** techniques such as neural networks, trained to recognize the route of the road, the shapes of cars, distinguish them from those of trees and pedestrians, and so on.
 
 
-This can, in fact, be considered as a whole an AI system: it collects data from the real world (road, cars, road signs, speed) through sensors, possesses a set of "rules" of behavior that constitutes its intelligence ("if you are about to collide with an object, brake preventively") and a set of actuators implementing relative decisions (brakes, steering, ABS).
-
-
-In this example, the AI system of the car has a sub-module of Machine Learning that allows it to improve over time, as the car "sees" different roads and situations, and increases its performance compared to some metric (safety, reaction time to braking, consumption).
-
-Additional sub-modules can have other specific neural networks trained to recognize the route of the road, the shapes of cars, distinguish them from those of trees and pedestrians, and so on.
-
-
-## Machine Learning differences from the algorithmic approach
+## Differences from the algorithmic approach
 
 ![Figure 1-2](./machine_learning.jpg) 
 
-Img source:  https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning
+[Img source](https://github.com/mahmoudparsian/data-algorithms-book/tree/master/src/main/java/org/dataalgorithms/machinelearning)
 
-In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem in a deterministic way. This determinism implies the possibility to understand which action is taken at each step and why. 
-It is important to note that there is no need of input data examples to produce the output considered correct.
+In computer science, the classic approach to the problem consists in designing a process (algorithm) that is then realized in a programming language (implementation), thus solving the problem **in a deterministic fashion**. 
 
-The approach of Machine Learning, at an intuitive level, consists instead in "seeing" a lot of input examples, each matched with the output considered correct, and programming the machine to detect the recurring patterns that occur in the data. 
+This determinism implies the possibility to understand which action is taken at each step and why. 
 
-These patterns will then be used by the machine as a "knowledge base", to try to return the correct output, if a new input is provided (never seen before). 
+It is important to note that there is no need for input data examples to produce the output considered correct.
 
-The process of feeding with data is called training and its result is a model (a set of parameters properly "adjusted" so that they recognize the patterns that interest us for the given problem). 
+The approach of Machine Learning, at an intuitive level, **consists instead in "seeing" a lot of input examples, each matched with the output considered correct, and programming the machine to detect the recurring patterns that occur in the data.** 
 
-Once a model is obtained, it can be used to assign the correct output to inputs that it has never "seen". 
+These patterns will then be used by the machine as "knowledge", to try to return the correct output, if a new input is provided (never seen before). 
 
-For a model, to be effective, it's paramount the ability to generalize starting from the examples on which it has been trained, otherwise it will work only after having being trained on all possible data!
+The process of feeding with data is called **training** and its result is a model (a set of parameters properly "adjusted" so that they recognize the patterns that interest us for the given problem). 
+
+Once a model is obtained, it can be used to predict the correct output to inputs that it has never "seen". 
+
+::: warning Generalization Capabilities
+For a model, to be effective, it's crucial the ability to **generalize** to examples that it has never seen, otherwise it will work only after having being trained on all possible data!
+:::
 
 Let's see some practical examples of how Machine Learning is applied in the real world.
 
-It is an application of Machine Learning:
+**It is** an application of Machine Learning:
 
 - An "intelligent" spam email filter, which the more spam emails it processes, the more effective it becomes in recognizing and distinguishing them from useful emails.
 
@@ -88,10 +89,9 @@ For example, you can do a sentimental analysis of the "Donald Trump" concept dur
 
 - A Computer Vision system that recognizes the model and brand of a car by "seeing" it with a sensor (typically a video camera).
 
-
 We also see some counter-examples.
 
-It is not a Machine Learning application:
+**It is not** a Machine Learning application:
 
 - A search engine based on keywords: it does not improve with experience, and to make it more "intelligent" you have to program it explicitly. 
 
@@ -102,9 +102,7 @@ It is not a Machine Learning application:
 - The famous mobile application Akinator, which tries to guess which historical or cinematic character the user is thinking about. Through a series of targeted questions (does he have hair? is he an alien? appears in Star Wars?) it explores a database of characters and by asking questions, by exclusion, it arrives at the answer. This, although it may seem like an "intelligent" program, is not really: it doesn't learn by improving with experience without being programmed to do so and follows a deterministic process easily explained by a human being.
 
 
-## Why use Machine Learning techniques
-
-![Figure 1-3](spam.jpg)
+## Why to use Machine Learning techniques
 
 Imagine having to create a spam email filter with traditional programming techniques:
 
@@ -117,20 +115,21 @@ Maybe we could notice further patterns in other parts of the mail, for example i
 
 It's easy to see the program would very soon become a vast set of complex "hard-coded" rules, chaotic and complicated to maintain, needed to be added manually as new approaches to fool it will be used.
 
-Instead, a spam filter consisting of a Machine Learning model would automatically learn which sentences, words, and patterns are valid indicators of spam danger, and could be updated every time an email is recognized as new type of spam. The program is much shorter, easy to maintain and accurate in recognition.
+Instead, a spam filter consisting of a Machine Learning model would automatically learn which sentences, words, and patterns are valid indicators of spam danger and could be updated every time an email is recognized as a new type of spam. The program is much shorter, easy to maintain, and accurate in recognition.
 
-In summary, Machine Learning techniques are appropriate for:
+In summary, **Machine Learning techniques are appropriate for**:
 
-- Fluid environments, where the problem constantly changes and in an unpredictable way (a mountain road never "seen" before, an email containing words never encountered, an unknown pattern in the peaks of users in a website).
+- Fluid environments, where the problem constantly changes and in an unpredictable way (a mountain road never "seen" before, an email containing words never encountered, an unknown pattern in the peaks of users on a website).
 
 - Complex problems where the traditional approach would be impracticable or would lead to "Frankenstein" of code with high maintenance cost. The Machine Learning approach can significantly simplify the code and achieve better performance.
 
 - Get information about complex problems and discover patterns through large amounts of data.
 
-## Conclusion
+## Conclusions
 
 Now you should be more comfortable with high-level ideas of the concepts of AI and ML, and every time you see a term you'll know how to contextualize it. 
-You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
-If you like Virgil's content and share our vision of open education accessible to all, share and register in the Google Form, you'll be updated every time a new guide comes out! 
 
+You will also see how the terms are crippled and misused, and maybe you could recommend this guide to the next person to clarify his ideas!
+
+In the next guide you will learn **what do you need** in order to start your Machine Learning journey!
 
