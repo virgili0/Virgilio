@@ -39,7 +39,7 @@ jobs:
         find . -type f -name "*.ipynb" -exec jupyter nbconvert --to markdown {} \;
         npx vuepress build serving
         mkdir dist
-        cp .vuepress/dist/* dist/ -r
+        cp serving/.vuepress/dist/* dist/ -r
         cd ..
         cp -a repo/dist/. build/
         cd build
