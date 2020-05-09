@@ -2,7 +2,11 @@ module.exports = {
     title: 'Virgilio',
     base: "/Virgilio/",
     description: 'Data Science E-Learning',
-
+  plugins: {
+    'sitemap': {
+      hostname: 'https://virgili0.github.io/Virgilio/'
+    },
+  },
     themeConfig: {
         navbar: true,
         nav: [

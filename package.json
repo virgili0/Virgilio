@@ -22,5 +22,8 @@
   "homepage": "https://github.com/virgili0/Virgilio#readme",
   "devDependencies": {
     "vuepress": "^1.4.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
