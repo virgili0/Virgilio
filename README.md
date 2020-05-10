@@ -2,11 +2,9 @@
 
 Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning through a series of curated articles, guides and tutorials. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
 
-<div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
-
-<br>
-
 ## [Click here to access the new web version of Virgilio](https://virgili0.github.io/Virgilio/)
+
+<div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
 ### Table of Contents
 
