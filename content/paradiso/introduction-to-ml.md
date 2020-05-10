@@ -7,20 +7,19 @@ description: This guide aims to introduce you to how an ML system can present it
 
 # Index
 - [Index](#index)
-  - [Types of ML systems](#types-of-ml-systems)
-  - [Supervised Learning](#supervised-learning)
-  - [Unsupervised Learning](#unsupervised-learning)
-  - [Reinforcement learning](#reinforcement-learning)
-   - [Learning modes](#learning-modes)
-   - [Type of inference](#type-of-inference)
-
-  - [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
+- [Types of ML systems](#types-of-ml-systems)
+- [Supervised Learning](#supervised-learning)
+- [Unsupervised Learning](#unsupervised-learning)
+- [Reinforcement learning](#reinforcement-learning)
+- [Learning modes](#learning-modes)
+- [Type of inference](#type-of-inference)
+- [Main challenges of Machine Learning](#main-challenges-of-machine-learning)
    - [Insufficient amount of data](#insufficient-amount-of-data)
    - [Low quality and unrepresentative data](#low-quality-and-unrepresentative-data)
    - [Underfitting](#underfitting)
    - [Overfitting](#overfitting)
    - [Underfitting and overfitting tradeoff](#underfitting-and-overfitting-tradeoff)
-  - [Conclusions](#conclusions)
+- [Conclusions](#conclusions)
 
 
 ## Types of ML systems
