@@ -1,7 +1,7 @@
 ---
 title: Monitoring Usage and Behavior
 author: clone95
-description: This guide introduces you to the best practices of monitoring Machine Learning models in production, and ensure that they behave as expected.
+description: This guide introduces you to the best practices of monitoring Machine Learning models in production, and ensuring that they behave as expected.
 ---
 
 # Index 
@@ -55,9 +55,16 @@ Let's see some specific resources for these two challenges.
 
 When monitoring the behavior of the ML model in production, you should consider many aspects:
 
+- **Setting a baseline:**
+    A good idea is to have a baseline model before we start monitoring or measuring. Of course if we are starting monitoring for the first time then that is our baseline.
+    After establishing the baseline model, you can keep that static and make all comparisons and references with regards to this baseline, allowing you to ask the question: "How has the system been behaving since [important milestone/change]?"
+
+    See: 
+    - [What does “baseline” mean in the context of machine learning?](https://datascience.stackexchange.com/questions/30912/what-does-baseline-mean-in-the-context-of-machine-learning)
+    - [How To Get Baseline Results And Why They Matter](https://machinelearningmastery.com/how-to-get-baseline-results-and-why-they-matter/)
+
 
 - **Data in:**
-
     - Monitor whether the data you're processing looks like the data you trained on. ([data drift challenge](https://www.cmswire.com/digital-experience/data-drift-what-it-is-and-how-to-avoid-it/)) E.g., use simple (comparatively interpretable) distributional models to try to track whether data looks "sufficiently" similar.
     
     See:
@@ -70,11 +77,29 @@ When monitoring the behavior of the ML model in production, you should consider 
     - Is your data distribution non-stationary? I.e. are you expecting your model to degrade due to the data changing over time?
 
     - If so you can do anomaly detection on the stream and track the fractions of anomalous data points over time.
-    
+    - You can also find out if the distribution of the live-data or evaluation data matches that of the training set (or even the held-out test/evaluation set), for example with the [Kolmogorov-Smirnov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test) test.
+
     See:
     - [A Gentle Introduction to Concept Drift in Machine Learning](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)
     - [Addressing feature drift in data streams using iterative subset selection](https://dl.acm.org/doi/10.1145/3325061.3325063)
+    - [Drifter_ML - A machine learning testing framework for sklearn and pandas](https://github.com/EricSchles/drifter_ml)
 
+- **Runtime Performance:**
+    When running the inference part of your models, you should consider the specific requirements of the application at hand. Some of them could require faster inference, others could serve better if the accuracy is high, so maybe you can average the predictions of several models (ensemble methods), sacrificing the speed of the computation. 
+
+    Consider both runtime and model-specific performances:
+    - Platform performance
+        - Hardware specific
+        - Environment-specific (OS or software installation, or configuration, Cloud provider)
+    - Model-specific performance
+        - Input data specific
+        - Model algorithm-type specific (model built with Scikitlearn versus Pytorch v/s TF)
+    
+    See:
+
+    - [TensorFlow Performance Guide](https://www.tensorflow.org/tfx/serving/performance)
+    - [Is there are a way to speed up the inference time on CPU?](https://www.reddit.com/r/MachineLearning/comments/ezpl89/d_is_there_are_a_way_to_speed_up_the_inference/)
+    - [Ways to significantly increase inference speed for deployment?](https://www.reddit.com/r/MachineLearning/comments/fd9cz0/d_ways_to_significantly_increase_inference_speed/)
 
 - **Data out:**
 
@@ -86,6 +111,8 @@ When monitoring the behavior of the ML model in production, you should consider 
 
     - Consider whether training a model w/ out-of-domain detector (OOD) makes sense or not.
 
+    - It's also a sign that when we see such changes that our last test/evaluation dataset integrity is failing. You should update the test/evaluation datasets from anomalised production data and retrain the model,either fully or incrementally.
+
     See: 
     - [How to determine the confidence of a neural network prediction?](https://stats.stackexchange.com/questions/247551/how-to-determine-the-confidence-of-a-neural-network-prediction)
 
@@ -93,7 +120,7 @@ When monitoring the behavior of the ML model in production, you should consider 
 
     - Not really going to be avoidable, but you can use a lot of the above to narrow down what people look at. Have people look at the examples which are most alarming, based on the checks you have in place. Over time, we can better calibrate what alerts are of concern.
 
-    - A related option is to use a calibrated model of confidence/estimated error rate to inform what people look at. If you pick up the lowest 1% confidence and the internal estimated error rate is 5%, then if you audit that 1% and see > 5% error rate, that could be a concern. 
+    - A related option is to use a calibrated model of confidence/estimated error rate to inform what people should look at. If you pick up the lowest 1% confidence and the internal estimated error rate is 5%, then if you explore that 1% and see > 5% error rate, that could be a concern. 
 
     See: 
     - [Comparing Automatic and Human Evaluation of Local Explanations for Text Classification](https://www.aclweb.org/anthology/N18-1097.pdf)
@@ -132,6 +159,13 @@ This detailed resources can get you started about the following topics:
 - Explainability + Trust
 - Feedback + Control
 - Errors + Graceful Failure
+
+
+::: tip General Tips
+- None of the above techniques is a silver bullet
+- Use only those things that work for you and are applicable in your use-cases
+- Don't literary follow any of the ideas, try them out and see how they work for you
+:::
 
 ## Conclusions
 
