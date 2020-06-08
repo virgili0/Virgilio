@@ -87,6 +87,7 @@ module.exports = {
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
                             '/purgatorio/launch-and-mantain-the-system/serving-trained-models',
+                            '/purgatorio/launch-and-mantain-the-system/monitoring-usage-and-behavior',
                         ]
                     },
                     /*

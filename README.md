@@ -130,7 +130,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Tools and Libraries](content/purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
 - Launch and Mantain the System
   + [Serving Trained Models](content/purgatorio/launch-and-mantain-the-system/content-trained-models.md)
-  + Monitoring Usage and Behavior
+  + [Monitoring Usage and Behavior](content/purgatorio/launch-and-mantain-the-system/monitoring-usage-and-.md)
   + Automation and Reproducibility
 - Now Go Build
   + A Messy Real World

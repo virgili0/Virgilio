@@ -68,7 +68,10 @@ Once you will feel ready to go deeper inside the mathematics for Machine Learnin
 
 #### Check your knowledge
 
-Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/cordero/English/derivatives.pdf) exercises.
+Test your knowledge with these exercises: 
+
+- [Exercises in Calculus](http://www.math.mcgill.ca/rags/JAC/dobson/dobson.html)
+- [Calculus: practice problems](https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx)
 
 Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
 
@@ -94,20 +97,15 @@ Now, fortunately, there are incredibly skilled and intelligent people in the wor
 
 [**Immersive math - Linear Algebra**](http://immersivemath.com/ila/index.html)
 
-Once you click on the link and start exploring this interactive book, you won't believe your eyes for the clarity and effectiveness with which the concepts are explained. 
+[**Interactive Linear Algebra**](https://textbooks.math.gatech.edu/ila/index.html)
 
-This book currently contains so much information and so well done that it deserves a front-row seat in Virgilio!
+Once you click on the link and start exploring these interactive books, you won't believe your eyes for the clarity and effectiveness with which the concepts are explained. 
 
-Take your time, explore the book, fall in love with those interactive explanations!
+These books currently contains so much information and so well done that it deserves a front-row seat in Virgilio!
 
-Going through this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
+Take your time, explore the books, fall in love with those interactive explanations!
 
-Note:
-Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we are **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you use both resources! 
-
-Moreover, Virgilio's guide to Matrix Algebra is an _interactive Jupyter Notebook_, with exercises included!
-
-We suggest to go through this latter resource once (or if) you are already practicing with the [Python](https://www.python.org/) programming language. 
+Going through these would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
 
 #### Check your knowledge
 
