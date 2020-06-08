@@ -56,7 +56,7 @@ Let's see some specific resources for these two challenges.
 When monitoring the behavior of the ML model in production, you should consider many aspects:
 
 - **Setting a baseline:**
-    A good idea is to have a baseline model before we start monitoring or measuring. Of course if we are starting monitoring for the first time then that is our baseline.
+    A good idea is to have a baseline model before we start monitoring or measuring. Of course, if we are starting monitoring for the first time then that is our baseline.
     After establishing the baseline model, you can keep that static and make all comparisons and references with regards to this baseline, allowing you to ask the question: "How has the system been behaving since [important milestone/change]?"
 
     See: 
@@ -111,7 +111,7 @@ When monitoring the behavior of the ML model in production, you should consider 
 
     - Consider whether training a model w/ out-of-domain detector (OOD) makes sense or not.
 
-    - It's also a sign that when we see such changes that our last test/evaluation dataset integrity is failing. You should update the test/evaluation datasets from anomalised production data and retrain the model,either fully or incrementally.
+    - It's also a sign that when we see such changes that our last test/evaluation dataset integrity is failing. You should update the test/evaluation datasets from production data and retrain the model, either fully or incrementally.
 
     See: 
     - [How to determine the confidence of a neural network prediction?](https://stats.stackexchange.com/questions/247551/how-to-determine-the-confidence-of-a-neural-network-prediction)
