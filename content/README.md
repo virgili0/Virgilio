@@ -1,6 +1,4 @@
-# <div class="title">*Virgilio*</div>
-
-<a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
+# <div class="title">*Virgilio*</div> <a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
 
 Your new Mentor for Data Science E-Learning.
 
@@ -14,9 +12,6 @@ Your new Mentor for Data Science E-Learning.
 
 - [*What* is Virgilio](#what-is-virgilio)
 - [Structure](#structure)
-  + [Paradiso](#paradiso)
-  + [Purgatorio](#purgatorio)
-  + [Inferno](#inferno)
 - [About](#About)
   * [License](#license)
   * [Contribute](#contribute)
@@ -105,70 +100,6 @@ Above these you’ll find a plenty of other useful zones:
 - Research: here you will learn how to find the right papers and digest them. In addition, you’ll discover which teams to follow for your interests.
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
-
-### Paradiso
-
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](paradiso/demystification-ai-ml-dl.md)
-- [What do you need for ML? ](paradiso/what-do-i-need-for-ml.md)
-- [Do you really need ML?](paradiso/do-you-really-need-ml.md)
-- [ML use cases](paradiso/use-cases.md) 
-- [Virgilio's Teaching Strategy - Learning to Learn](paradiso/virgilio-teaching-strategy.md)
-- [Introduction to ML](paradiso/introduction-to-ml.md)
-
-### Purgatorio
-
-- Fundamentals
-  + [Math Fundamentals](purgatorio/fundamentals/math-fundamentals.md)
-  + [Statistics Fundamentals](purgatorio/fundamentals/statistics-fundamentals.md)
-  + [Python Fundamentals](purgatorio/fundamentals/python-fundamentals.md)
-  + [Jupyter Notebook](purgatorio/fundamentals/jupyter-notebook.md)
-  + [The Data Science Process](purgatorio/fundamentals/the-data-science-process.md)
-- Define The Scope and Ask Questions
-  + [Frame The Problem](purgatorio/define-the-scope-and-ask-questions/frame-the-problem.md)
-  + [Usage and Integration](purgatorio/define-the-scope-and-ask-questions/usage-and-integration.md)
-  + [Starting a Data Project](purgatorio/define-the-scope-and-ask-questions/starting-a-data-project.md)
-  + [WorkSpace Setup and Cloud Computing](purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
-- Collect and Prepare Data
-  + [Data Preparation](purgatorio/collect-and-prepare-data/data-preparation.md)
-  + [Data Visualization](purgatorio/collect-and-prepare-data/data-visualization.md)
-- Select and Train Machine Learning Models
-  + [Machine Learning Theory](purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
-  + [Deep Learning Theory](purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
-  + [Evaluation and Fine Tuning](purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning.md)
-  + [Tools and Libraries](purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
-- Launch and Mantain the System
-  + [Serving Trained Models](purgatorio/launch-and-mantain-the-system/serving-trained-models.md)
-  + Monitoring Usage and Behavior
-  + Automation and Reproducibility
-- Now Go Build
-  + A Messy Real World
-  + Transfer Learning
-  + Best Practices
-
-### Inferno
-
-- Computer Vision
-  + [Introduction to Computer Vision](inferno/computer-vision/introduction-to-computer-vision.ipynb)
-  + [Object Instance Segmentation](inferno/computer-vision/object-instance-segmentation.ipynb)
-  + [Object Tracking](inferno/computer-vision/object-tracking.ipynb)
-  + [Object Detection](inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
-- Natural Language Processing
-- Virtual Assistants
-  + [Build a Virtual Assistant with DialogFlow](inferno/virtual-assistants/dialogflow-chatbot.md)
-- Reinforcement Learning
-- Soft Skills
-  + [Impactful Presentations](inferno/soft-skills/impactful-presentations.md)
-- Tools
-  + [Geo Gebra](inferno/tools/geo-gebra.md)
-  + [Latex](inferno/tools/latex.md)
-  + [Regex](inferno/tools/regex.ipynb)
-  + [Wolfram Alpha](inferno/tools/wolfram-alpha.md)
-- Research
-  + [Zotero](inferno/research/zotero.md)
-  + [State-of-Art Papers Explained](inferno/research/sota-papers.md)
-- Massive Computation
-- Machine Learning for Business Applications
-
 
 ## About
 
