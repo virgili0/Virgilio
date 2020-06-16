@@ -61,12 +61,73 @@ So, we can state that Automation is crucial for the Data Science process to beco
 **Data Science, precisely, is a "Science", in the sense that it must be demonstrable and reproducible!**
 
 ::: warning
-Without Reproducibility, without the support of the repeatability of experiments, any result of Data Science is useless (or even harmful, because it reinforces human bias).
+Without **Reproducibility**, without the support of the _repeatability of experiments_, any result of Data Science is useless (or even harmful, because it can reinforce human bias).
 :::
 
 ## Automation and Reproducibility for the Data Science Process
 
+The automation of Data Science steps is advisable at all levels, from the creation of the dataset to the deployment of trained ML models. 
 
-https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285
+Most of the time, a configurable Python script is sufficient to automate most of the steps, which can for example be scheduled to be launched programmatically. 
+
+The following is a list of hints for some automations that can save you a lot of time (and therefore, money).
+
+You can automate:
+
+- **Data collection** 
+
+    Using scheduled scraping, database connections or scheduled API, you can have always fresh data to train your models on. 
+
+- **Data quality control**
+
+    Using scripts that create statistical reports, for example on data distribution, number of classes present, frequency, or other statistical values such as the most frequent data, average value, standard deviation. 
+
+    This way, it is possible to compare in a programmatic way that the distribution of new data reflects previous data, or how much it differs from them.
+
+- **Data backups**
+
+    You can automate data backups, using Cloud Storage solutions (for example, S3 bukcets or Azure Storage).
+    
+    This way you are always sure that your data is safe and replicated, and you can access them from wherever you want.
+    
+    A good idea is to backup regularly a folder from your local machine, where the data is stored and used. 
+
+- **Data transformation steps**
+
+    This one is crucial to obtain _Reproducibility_: In fact, only by automating the preprocessing steps can you be sure that the data always undergo the same transformations. 
+    
+    The worst nightmare that can happen to you is having to deal with manual preprocessing steps, which tomorrow will have to be done again, and you will surely make a mistake (the order in which they are made and possible configurations). 
+
+    This issure often arises when using Jupyter Notebooks to build preprocessing workflows, watch out! Rather consider solid alternatives such as the [SKLearn's Pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+
+    Be sure to check this out:
+
+    - [**Ten Simple Rules for Reproducibile Research**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
+
+
+- **Model training and serving**
+
+    You can create scripts to automatically train ML models at any given time, perhaps using new data you have collected, cleaned and pre-processed. 
+
+    You can automatically check that the performance of the models reflects expectations, and train them again in case they degrade.
+    
+    See:
+    - [Why Machine Learning Models Degrade In Production](https://towardsdatascience.com/why-machine-learning-models-degrade-in-production-d0f2108e9214)
+    - [The Ultimate Guide to Model Retraining](https://mlinproduction.com/model-retraining/)
+
+    Once you've retrained the model, you can automatically deploy it in production. Many Cloud Providers (AWS, Azure, GCP) offer you the possibility to do this in a very simple way.
+    
+### The Automation Golden Rule
+
+As you can see, there's a big room for improvement in your Data Science work if you use automation.
+
+The [Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)) in software development says: 
+
+> It states that two instances of similar code don't require refactoring, but when similar code is used three times, it should be extracted into a new procedure.
+
+_Likewise_, you can think for automation!
+
+**If you should take a step more than twice, it's probably worth taking a moment to automate it!**
+
 ## Automation in Machine Learning
 
