@@ -6,9 +6,10 @@ description: This guide introduces you to the best practices of the Data Science
 
 # Index 
 
-- [Advantages of Automation and The Need for Reproducibility]()
-- [Automation and Reproducibility for the Data Science Process]()
-- [Automation in Machine Learning]()
+- [Advantages of Automation and The Need for Reproducibility](#Advantages-of-Automation-and-The-Need-for-Reproducibility)
+- [Automation and Reproducibility for the Data Science Process](#Automation-and-Reproducibility-for-the-Data-Science-Process)
+- [AutoML](#AutoML)
+- [No Free Lunch and Black Boxes](#No-Free-Lunch-and-Black-Boxes)
 
 ## Advantages of Automation and The Need for Reproducibility
 
@@ -26,18 +27,18 @@ Automation is the best solution to all the problems mentioned above, and also sa
 
 This is true for almost every field (not only Data Science), in fact if we look at the Wikipedia definition it says: 
 
-> _Advantages of Automation_:
->
->- Increased throughput or productivity.
->- Improved quality or increased predictability of quality.
->- Improved robustness (consistency), of processes or product.
->- Increased consistency of output.
->- Reduced direct human labor costs and expenses.
->- Replaces human operators in tasks that involve hard physical or monotonous work (e.g., using 
->- Performs tasks that are beyond human capabilities of size, weight, speed, endurance, etc.
->- Reduces operation time and work handling time significantly.
->- Frees up workers to take on other roles.
->- Provides higher level jobs in the development, deployment, maintenance and running of the automated processes.
+ **_Advantages of Automation_**:
+
+- Increased throughput or productivity.
+- Improved quality or increased predictability of quality.
+- Improved robustness (consistency), of processes or product.
+- Increased consistency of output.
+- Reduced direct human labor costs and expenses.
+- Replaces human operators in tasks that involve hard physical or monotonous work (e.g., using 
+- Performs tasks that are beyond human capabilities of size, weight, speed, endurance, etc.
+- Reduces operation time and work handling time significantly.
+- Frees up workers to take on other roles.
+- Provides higher level jobs in the development, deployment, maintenance and running of the automated processes.
 
 This article explains very well why Automation is crucial for the Data Science world:
 
@@ -94,20 +95,28 @@ You can automate:
 
 - **Data transformation steps**
 
-    This one is crucial to obtain _Reproducibility_: In fact, only by automating the preprocessing steps can you be sure that the data always undergo the same transformations. 
+    This one is crucial to obtain _Reproducibility_.
     
-    The worst nightmare that can happen to you is having to deal with manual preprocessing steps, which tomorrow will have to be done again, and you will surely make a mistake (the order in which they are made and possible configurations). 
+    In fact, only by automating the preprocessing steps can you be sure that the data always undergo the same transformations. 
+    
+    The worst nightmare that can happen to you is having to deal with manual preprocessing steps, which tomorrow will have to be done again, and you will surely make a mistake (the order in which they are made and / or possible configurations). 
 
-    This issure often arises when using Jupyter Notebooks to build preprocessing workflows, watch out! Rather consider solid alternatives such as the [SKLearn's Pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+    This issure often arises when using Jupyter Notebooks to build preprocessing workflows, watch out! Rather consider solid alternatives such as the [SKLearn's Pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html).
 
-    Be sure to check this out:
+    Be sure to check these out (coming from [Ten Simple Rules collection](https://collections.plos.org/ten-simple-rules)):
 
     - [**Ten Simple Rules for Reproducibile Research**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
+    - [**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 
+    Interesting reads on Reproducibility:
+
+    - [Creating Reproducible Data Science Projects](https://towardsdatascience.com/creating-reproducible-data-science-projects-1fa446369386)
+    - [Reproducibility, Replicability, and Data Science](https://www.kdnuggets.com/2019/11/reproducibility-replicability-data-science.html)
+    - [Challenges in irreproducible research](https://www.nature.com/collections/prbfkwmwvz)
 
 - **Model training and serving**
 
-    You can create scripts to automatically train ML models at any given time, perhaps using new data you have collected, cleaned and pre-processed. 
+    You can create scripts to _automatically_ train ML models at any given time, perhaps using new data you have collected, cleaned and pre-processed. 
 
     You can automatically check that the performance of the models reflects expectations, and train them again in case they degrade.
     
@@ -115,9 +124,9 @@ You can automate:
     - [Why Machine Learning Models Degrade In Production](https://towardsdatascience.com/why-machine-learning-models-degrade-in-production-d0f2108e9214)
     - [The Ultimate Guide to Model Retraining](https://mlinproduction.com/model-retraining/)
 
-    Once you've retrained the model, you can automatically deploy it in production. Many Cloud Providers (AWS, Azure, GCP) offer you the possibility to do this in a very simple way.
+    Once you've retrained the model, you can _automatically_ deploy it in production. Many Cloud Providers (AWS, Azure, GCP) offer you the possibility to do this in a very simple way.
     
-### The Automation Golden Rule
+#### The Automation Golden Rule
 
 As you can see, there's a big room for improvement in your Data Science work if you use automation.
 
@@ -129,5 +138,62 @@ _Likewise_, you can think for automation!
 
 **If you should take a step more than twice, it's probably worth taking a moment to automate it!**
 
-## Automation in Machine Learning
+## AutoML
 
+Until now we have seen how automation can fit into the various steps of the Data Science process, speed them up, and how it is vital to obtain reproducible results. 
+
+But there is another aspect of how automation can help us, and it is called [AutoML](https://en.wikipedia.org/wiki/Automated_machine_learning). 
+
+Automated machine learning (AutoML) is the process of automating the process of applying machine learning to real-world problems.
+
+**AutoML covers the complete pipeline from the raw dataset to the deployable machine learning model.**
+
+From Wikipedia:
+
+> In a typical Machine Learning application, practitioners have a set of input data points to train on. The raw data may not be in a form that all algorithms can be applied to it. To make the data amenable for machine learning, an expert may have to apply appropriate data pre-processing, feature engineering, feature extraction, and feature selection methods. After these steps, practitioners must then perform algorithm selection and hyperparameter optimization to maximize the predictive performance of their model. 
+
+> All of these steps induce challenges, accumulating to a significant hurdle to get started with machine learning.
+
+> **AutoML** dramatically simplifies these steps for non-experts. Automation is not perfect because AutoML tools still have hyperparameters, and setting them may require expertise.
+
+Read here to have a detailed overview of the pro/cons of this approach.
+
+- [Automated Machine Learning - An Overview](https://medium.com/thinkgradient/automated-machine-learning-an-overview-5a3595d5c4b5)
+
+#### AutoML Tools
+
+
+## No Free Lunch and Black Boxes
+
+It may seem too good to be true, right? There are actually some aspects to be careful about when choosing an AutoML approach. 
+
+- Not all data types are suitable / supported by the current available frameworks (autoML works best with tabular data). More complex data formats (like images, videos, audio...) aren't often considered in modern AutoML frameworks.
+- However, it is important to know the data well, to know what information (often called signals) it contains, and to know what information we want to derive from it. 
+- There is no such thing (as usual) as a _silver bullet_, so don't expect spectacular results in a magical way, on every problem you approach with AutoML. 
+
+Another **issue** you must consider when applying AutoML techniques, is the **opacity** that you bring to the process.
+
+The concept of "[**Black Box**](https://towardsdatascience.com/the-black-box-metaphor-in-machine-learning-4e57a3a1d2b0)", linked to more complex ML algorithms (such as neural networks) makes the resulting ML models "opaque" and therefore difficult to explain, **should be equally considered for all steps of the Data Science process to which some automatic decision applies**.
+
+For example:
+
+- If some data preprocessing steps are decided from the machine, _why_ are they like that?
+- Is it possible that these choices will affect the models that will then be trained on the data? If yes, _how_?
+- If some features have been dropped and others have been chosen for the training, _why_? 
+- If a certain model was chosen to be trained on data, _why_ that model? And if the data changed over time, would that model be able to _adapt_ to the new situation (after appropriate re-training)?
+
+As you can see, as there are many pros in using AutoML, there are also various issues that can be problematic.
+
+::: tip
+**What does Virgiloo think of AutoML?**
+
+Basically it's a very good set of tools, which when used in a smart way can make Data Scientist's life a lot easier, guiding him in the exploration and transformation of data, in the choice of the most suitable ML models and so on. 
+
+On the other hand, it injects opacity into every step of the Data Science process to which it is applied, so watch your back!
+::: 
+
+## Conclusions
+
+In this guide you have seen how automation can bring enormous benefits to the whole Data Science process, especially in terms of credibility of results (Reproducibility) and time savings. 
+
+You've also seen what AutoML is and what its (great) potential is, but also the potential risks it brings with it in terms of opacity (Black Box concept). 
