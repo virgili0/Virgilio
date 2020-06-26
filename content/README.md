@@ -1,8 +1,7 @@
-# <div class="title">*Virgilio*</div> <a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
+# <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div> 
+ <div class="subtitle">Your new Mentor for Data Science E-Learning.</div>
 
-Your new Mentor for Data Science E-Learning.
-
-> Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
+Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
 
 <div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
@@ -57,7 +56,7 @@ There are different scenarios:
 
 As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of *abstraction*.
 
-To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 AD.
+To do this, we got our inspiration from Dante’s amazing masterpiece [*La Divina Commedia*](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 AD.
 
 Dante's journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
 
@@ -67,7 +66,9 @@ In your journey, you will start from scratch and eventually reach the theoretica
 
 The parallelism is natural:
 
-![Figure 2](order.png "1") 
+- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High level guides
+- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Low level guides for beginners
+- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Low level advanced guides
 
 _Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
 

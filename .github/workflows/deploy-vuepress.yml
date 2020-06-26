@@ -39,7 +39,7 @@ jobs:
         cd content
         npm install
         
-    - name: 
+    - name: Vuepress build and deploy
       working-directory: folder/
       run: |
         cd repo
