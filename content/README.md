@@ -53,17 +53,13 @@ There are different scenarios:
 
 ## Structure
 
-::: warning
-We are in the progress of migrating the content from the old conceptual organisation to the new one, while working on the new [web version](https://virgili0.github.io/Virgilio/). Please be patient while we make Virgilio more awesome!
-:::
-
 ![Figure 1](map.PNG "1") 
 
-As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
+As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of *abstraction*.
 
-To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 d.c.
+To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 AD.
 
-Dante’s journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
+Dante's journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
 
 In his journey, Dante travel across the different levels of the catholic conception of the divine world at that time, starting from the Inferno (the prison of the damned), passing through the Purgatorio and reaching eventually the Paradiso (you can call it Valhalla or Nirvana, as you prefer :-) ).
 
