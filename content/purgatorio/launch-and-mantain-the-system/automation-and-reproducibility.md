@@ -1,7 +1,7 @@
 ---
 title: Automation and Reproducibility
 author: clone95
-description: This guide introduces you to the best practices of the Data Science process automation and research reproducibility.
+description: This guide introduces you to best practices of the Data Science process automation and research reproducibility.
 ---
 
 # Index 
@@ -84,6 +84,11 @@ You can automate:
     Using scripts that create statistical reports, for example on data distribution, the number of classes present, frequency, or other statistical values such as the most frequent data, average value, standard deviation. 
 
     This way, it is possible to compare in a programmatic way that the distribution of new data reflects previous data, or how much it differs from them.
+
+    Check these awesome notebooks: 
+
+    - [An Introduction To EDA and Hypothesis Testing](https://github.com/EricSchles/datascience_book/blob/master/Statistical%20Tests%20-%2001.ipynb)
+    - [Statistical tests, from scratch](https://github.com/EricSchles/datascience_book/blob/master/Statistical%20tests%2C%20from%20scratch.ipynb)
 
 - **Data backups**
 
@@ -179,6 +184,7 @@ After taking a look at the previous resources (take your time) it's time to figu
 Here you find a very recent paper that surveys the AutoML field:
 
 - [**Towards Automated Machine Learning: Evaluation and Comparison of AutoML Approaches and Tools**](https://arxiv.org/abs/1908.05557)
+- [Awesome AutoML Tools](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/things-to-know.md#automated-machine-learning-tools-or-partial-automl-tools)
 
 After you read this paper, you should be able to infer what tool or which platform is best suited to your case.
 
@@ -202,7 +208,7 @@ If you want to get started with the Google's AutoML platform, here you can find 
 Just try it out!
 
 ::: warning
-Often AutoMl jobs consume a lot of computational resources (since it often requires a search in the model architectures space), so watch your back with the billing of the platform that you choose!
+Often AutoML jobs consume a lot of computational resources (since it often requires a search in the model architectures space), so watch your back with the billing of the platform that you choose!
 :::
 
 ## No Free Lunch and Black Boxes
@@ -228,9 +234,9 @@ For example:
 As you can see, as there are many pros in using AutoML, there are also various issues that can be problematic.
 
 ::: tip
-**What does Virgiloo think of AutoML?**
+**What does Virgilio think of AutoML?**
 
-Basically, it's a very good set of tools, which when used in a smart way can make Data Scientist's life a lot easier, guiding him in the exploration and transformation of data, in the choice of the most suitable ML models and so on. 
+Basically, it's a very good set of tools, which when used in a smart way can make Data Scientist's life a lot easier, guiding them in the exploration and transformation of data, in the choice of the most suitable ML models and so on. 
 
 On the other hand, it injects opacity into every step of the Data Science process to which it is applied, so watch your back!
 ::: 
