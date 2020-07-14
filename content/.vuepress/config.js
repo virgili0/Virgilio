@@ -88,6 +88,7 @@ module.exports = {
                         children: [
                             '/purgatorio/launch-and-mantain-the-system/serving-trained-models',
                             '/purgatorio/launch-and-mantain-the-system/monitoring-usage-and-behavior',
+                            '/purgatorio/launch-and-mantain-the-system/automation-and-reproducibility'
                         ]
                     },
                     /*
