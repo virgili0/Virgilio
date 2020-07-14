@@ -91,6 +91,15 @@ module.exports = {
                             '/purgatorio/launch-and-mantain-the-system/automation-and-reproducibility'
                         ]
                     },
+                    {
+                        title: 'Now Go Build ', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            '/purgatorio/now-go-build/a-messy-real-world',
+                        ]
+                    },
                     /*
                     Define The Scope and Ask Questions 
                     Collect and Prepare Data 
