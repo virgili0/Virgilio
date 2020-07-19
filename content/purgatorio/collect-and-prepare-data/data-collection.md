@@ -16,8 +16,9 @@ We will also introduce a flow diagram eventually to show you where in the flow t
 The purpose of this guide is to show you the importance of these steps, but also how important data collection can be in the whole cycle.
 
 # Index
-- [Don't Joke With Data](#Dont-joke-with-data)
-- [Business Questions](#Business-Questions)
+- [How to use this guide?](#How-to-use-this-guide)
+- [The process](#The-process)
+- [Research or business questions](#Research-or-business-questions)
 - [Start Small](#Start-small)
 - [Small steps, check the data out](#Small-steps-check-the-data-out)
 - [The Toolkit and sources](#The-Toolkit-and-sources)
@@ -30,16 +31,45 @@ The purpose of this guide is to show you the importance of these steps, but also
 
 **Let's Start!**
 
-### Don't Joke With Data
-First, [**data is King**](https://www.edq.com/glossary/data-quality-importance/). In the [data-driven epoch](https://www.venturi-group.com/qa-with-helen-mannion/), having [data quality issues](https://www.ringlead.com/blog/7-common-data-quality-issues/) means to lose tremendous amounts of value for a company, in the present and in the future. So, respect your King and care a lot about him. The most immediate way to do this is to plan and [work hard](https://nektardata.com/high-quality-data/) to _produce_ good quality data.
-Your goal is to plan a collecting data infrastructure that fixes problems beforehand. This means to care to a lot about planning well your database schemas (do I need [third-normal form](https://social.technet.microsoft.com/Forums/Lync/en-US/7bf4ca30-a1bc-415d-97e6-ce0ac3137b53/normalized-3nf-vs-denormalizedstar-schema-data-warehouse-?forum=sqldatawarehousing) or not?), how do you collect data from sensors (physical or conceptual) and so on. These are problems if you're building a system up from the ground, but most of the times in you're gonna facing real-world problems that someone wants to solve with [_already available_](https://www.wired.com/insights/2013/05/more-data-more-problems-is-big-data-always-right/) data.  
+### How to use this guide?
+
+We'll give you some general tips to learn effectively and develop rock-solid foundations, that you can rely on to address and solve Data Science problems in the complexity of the real world (which is messy by definition).
+
+In this guide, you'll find a ton of different tips, sub-topics answer these questions:
+- why? (see [Research or business questions](#Research-or-business-questions))
+- how?
+- what?
+
+The last two "how?" and "what?" overlap a bit and expand into these:
+- [Start Small](#Start-small)
+- [Small steps, check the data out](#Small-steps-check-the-data-out)
+- [The Toolkit and sources](#The-Toolkit-and-sources)
+- [Datasets](#Datasets)
+- [Data Generation](#Data-Generation)
+- [Sanity Check, check the data out](#Sanity-Check-check-the-data-out)
+
+Any other section not mentioned are supporting sections to this guide.
+
+As stated in the Virgilio's Teaching Strategy Guide, read more about it [here](https://github.com/virgili0/Virgilio/blob/master/content/purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md#How-this-guide-is-designed).
 
 [Back to the index](#index)
 
-### Business Questions
+### The process
+
+Here's a snapshot of the end-to-end flow (high-level perspective):
+
+![Screen Shot 2020-07-19 at 15 53 42](https://user-images.githubusercontent.com/1570917/87877786-2d660100-c9d8-11ea-9aa9-cb5eb076b6f2.png)
+
+Details are omitted and focus is drawn to the current subject we are talking about.
+
+[Back to the index](#index)
+
+### Research or business questions
 Asking the [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
 
-You data collection process or step is entirely dependent on the business problem you are trying to solve.
+And same goes for asking the right research question. If you intend to establish something based on a hunch or curiosity or other research.
+
+You data collection process or step is entirely dependent on the research or business problem you are trying to solve.
 
 At this point it's also important to understand that the end-model you are on a quest to create, is a direct reflection of two factors:
 
@@ -57,34 +87,33 @@ It's stupid to handle GBs of data each time you want to try a data preparation s
 
 ### Small steps, check the data out
 
-<How to incrementally build, also to find out what data we do really need>
+<TODO: How to incrementally build, also to find out what data we do really need>
 
 [Back to the index](#index)
 
 ### The Toolkit and sources
 
-<what to use to gather data>
+<TODO: What to use to gather data>
 
 [Back to the index](#index)
 
 ### Datasets 
 
-<in what form do we create these datasets>
+<TODO: In what form do we create these datasets>
 
 [Back to the index](#index)
 
 ### Data Generation
-This topic may need a section on it's own but there are many resources and facilities propping up these days that do exactly this.
-https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-generation.md#data-generation
+This topic may need a section on it's own but there are many resources and facilities propping up these days that do exactly this, see this resource on [Data Generation](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-generation.md#data-generation).
 
-Data generation is also a good MVP step/process, and also could be incorporated as one of your steps during the first few iterations - if you discover or know from observation that the data to hand is not sufficient or correct or even not usable for the end-purpose (see [Business Questions](#Business-questions)).
+Data generation is also a good MVP step/process, and also could be incorporated as one of your steps during the first few iterations - if you discover or know from observation that the data to hand is not sufficient or correct or even not usable for the end-purpose (see [Research or business questions](#Research-or-business-questions)).
 
 [Back to the index](#index)
 
 ### Sanity Check, check the data out
 You always want to be sure that your data are _exactly_ how you want them to be, and because of this is a good rule of thumb to apply a sanity check after the completion of this step.
 
-Although we won't know what sanity checks to apply till we have run through the rest of the steps in the process and then come back the next iteration(s) and fine-tune this step so that it catches the important low-hanging fruits that do not hinder the rest of the processes.
+Although we won't know "what sanity checks to apply?" till we have run through the rest of the steps in the process and then come back the next iteration(s) and fine-tune this step so that it catches the important low-hanging fruits that do not hinder the rest of the processes.
 
 [Back to the index](#index)
 

@@ -1,0 +1,10 @@
+# Object And Messages
+[ ... start ] -> Data Collection : research or business goal / question
+Data Collection -> [... intermediary steps ...] : prepare data for model
+[... intermediary steps ...] --> Model creation : training
+Model creation --> [ finish ... ] : predictions from real-world data
+
+# Bottom Description
+[snapshot of the end-to-end process - Data Collection focussed]
+
+# Website: http://echoma.github.io/text_sequence_diagram/
