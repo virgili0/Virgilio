@@ -116,10 +116,45 @@ Read this very good Reddit thread about building real data-driven businesses:
 
 - [How to create a ‘data driven’ business?](https://www.reddit.com/r/datascience/comments/eecg2k/how_to_create_a_data_driven_business/)
 
-- [3 Challenges Companies Face in Becoming Data Driven]()
+- [3 Challenges Companies Face in Becoming Data Driven](https://www.europeanbusinessreview.com/3-challenges-companies-face-in-becoming-data-driven/)
 
+- [The Top 5 Challenges of Creating a Data-Driven Culture (and How to Solve Them)](https://medium.com/@pelatum/the-top-5-challenges-of-creating-a-data-driven-culture-and-how-to-solve-them-9a2b9c1efa71)
+
+There are various reasons why a company struggles to become really data-driven, but perhaps one of the biggest problems is that of the "silos" inside a company.
 
 ## The Problem of Siloed and Segregated Data
+
+[Elon Musk](https://it.wikipedia.org/wiki/Elon_Musk) is unquestionably one of the smartest and most creative company CEOs on the planet, he created highly disruptive companies like [SpaceX](https://www.spacex.com/) and [Tesla](https://www.tesla.com) from scratch, and is one of the founding members of [OpenAI](https://openai.com/). 
+
+In one of the internal communication emails he says to all his employees at Tesla:
+
+> There are two schools of thought about how information should flow within companies. By far the most common way is chain of command, which means that you always flow communication through your manager. The problem with this approach is that, while it serves to enhance the power of the manager, it fails to serve the company.
+
+> Instead of a problem getting solved quickly, where a person in one dept talks to a person in another dept and makes the right thing happen, people are forced to talk to their manager who talks to their manager who talks to the manager in the other dept who talks to someone on his team. Then the info has to flow back the other way again. This is incredibly dumb.
+
+> Anyone at Tesla can and should email/talk to anyone else according to what they think is the fastest way to solve a problem for the benefit of the whole company. You can talk to your manager's manager without his permission, you can talk directly to a VP in another dept, you can talk to me, you can talk to anyone without anyone else's permission. Moreover, you should consider yourself obligated to do so until the right thing happens. The point here is not random chitchat, but rather ensuring that we execute ultra-fast and well. We obviously cannot compete with the big car companies in size, so we must do so with intelligence and agility.
+
+> One final point is that managers **should work hard to ensure that they are not creating silos within the company that create an us vs**.
+
+As you can see from Elon'w words, the problem of siloed companies is a well-known issue, and to fight this problem have been thought best practices. In fact a siloed company this brings with it only disadvantages, of which we are interested in those related to data:
+
+- data is collected, organized and stored in a _non-homogeneous way_. 
+- data can _overlap and create confusion._
+- you can't create truly objective and _comparable business metrics_.
+- to use data in an "intelligent" way and gain insights from it is very difficult, because you have to _unify different data sources_ (one business unit stores everything in Excel files, another in an SQL Database, another in an online platform... and so on).
+
+To learn more about how siloed data (that arise from a "siloed" company) take a read of the following links: 
+
+- [What are Data Silos?](https://www.talend.com/resources/what-are-data-silos/)
+- [What is a Data Silo and Why is It Bad for Your Organization?](https://www.plixer.com/blog/data-silo-what-is-it-why-is-it-bad/) 
+- [Siloed Data is Killing Your Business Analytics](https://www.cyfe.com/blog/siloed-data-is-a-destroyer/)
+
+How to solve the siloed-data situation: 
+
+- [Data Silos: What They Are and How to Get Rid of Them](https://blog.hubspot.com/service/data-silos)
+- [How To Breakdown Data Silos: Problems and Solutions](https://status.net/articles/data-silos-information-silos/)
+
+
 ## Signal and Noise
 ## Managing Expectations
 
