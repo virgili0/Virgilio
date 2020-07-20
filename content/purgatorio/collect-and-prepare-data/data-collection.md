@@ -25,9 +25,9 @@ The purpose of this guide is to show you the importance of these steps, but also
 - [Datasets](#Datasets)
 - [Data Generation](#Data-Generation)
 - [Visualisation](#Visualisation)
-- [Ethics](#Ethics)
-- [Interpretability / Explainability](#interpretability--explainability)
 - [Sanity Check](#Sanity-Check)
+  - [Ethics](#Ethics)
+  - [Interpretability / Explainability](#interpretability--explainability)
 - [Automate These Boring Stuffs!](#Automate-these-boring-stuffs)
 - [Resources](#Resources)
 - [Conclusions](#Conclusions)
@@ -50,8 +50,6 @@ The last two "how?" and "what?" overlap a bit and expand into these:
 - [Datasets](#Datasets)
 - [Data Generation](#Data-Generation)
 - [Visualisation](#Visualisation)
-- [Ethics](#Ethics)
-- [Interpretability / Explainability](#interpretability--explainability)
 - [Sanity Check](#Sanity-Check)
 
 And to keep track of the "big picture", refer to [The end-to-end process](#The-end-to-end-process) section. Any other section(s) not mentioned are supporting sections to this guide.
@@ -154,23 +152,6 @@ But try to visualise as much as possible at every opportunity available, to be a
 
 [Back to the index](#index)
 
-### Ethics
-
-With rising concerns over privacy and bias, you definitely want to be sure that the data you can collected does respect the ethics and standards in the areas as much as possible.
-
-To help with that as the awareness about things are improving, there are a lot of resources available, one such place to start would be [here](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/naster/README-details.md#ethics--altruistic-motives). One of the resources mentioned there is that of a python package called [Deon](https://pypi.org/project/deon/). Interestingly it has a digital checklist you can consult and see if they apply to what you are about to do.
-
-[Back to the index](#index)
-
-### Interpretability / Explainability
-
-Another widely debated but essential topic is the ability for us to interpret or explain our models and what better place to start but during the data collection process. Another [good resource](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/model-analysis-interpretation-explainability.md#post-model-creation-analysis-ml-interpretationexplainability
-) to look into when although it's an ever growing topic and subject to keep track of.
-
-Ensure the features in the dataset which will end up becoming your real-world model are explainable. Another important resource to check here is this [course/tutorial on causality](https://www.callingbullshit.org/).
-
-[Back to the index](#index)
-
 ### Sanity Check
 
 You always want to be sure that your data are _exactly_ how you want them to be, and because of this is a good rule of thumb to apply a sanity check after the completion of this step.
@@ -179,7 +160,20 @@ Although sometimes we won't know "what sanity checks to apply?" till we have run
 
 As we talk about Data Visualisation, the Visualisation step in the previous section itelf is a good enough sanity check about your data - provided you have drawn those charts and have the skills to evaluate them. If not, hopefully the rest of the steps will help you capture those insights. And sometimes with experience and doing multiple iterations and observing various experiments visualisations on older datasets (snapshots) start to make sense.
 
-Then there is also ethics you do not want to miss out on and [the previous section does give an insight into it](#ethics). And also [interpretability/explainability](#interpretability--explainability) which overlap with each other.
+Then there is also ethics you do not want to miss out on and [the section to follow gives you insight into](#ethics). And also [interpretability/explainability](#interpretability--explainability) which overlap with each other.
+
+#### Ethics
+
+With rising concerns over privacy and bias, you definitely want to be sure that the data you can collected does respect the ethics and standards in the areas as much as possible.
+
+To help with that as the awareness about things are improving, there are a lot of resources available, one such place to start would be [here](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/naster/README-details.md#ethics--altruistic-motives). One of the resources mentioned there is that of a python package called [Deon](https://pypi.org/project/deon/). Interestingly it has a digital checklist you can consult and see if they apply to what you are about to do.
+
+#### Interpretability / Explainability
+
+Another widely debated but essential topic is the ability for us to interpret or explain our models and what better place to start but during the data collection process. Another [good resource](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/model-analysis-interpretation-explainability.md#post-model-creation-analysis-ml-interpretationexplainability
+) to look into when although it's an ever growing topic and subject to keep track of.
+
+Ensure the features in the dataset which will end up becoming your real-world model are explainable. Another important resource to check here is this [course/tutorial on causality](https://www.callingbullshit.org/).
 
 [Back to the index](#index)
 
