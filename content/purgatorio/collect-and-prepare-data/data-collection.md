@@ -25,6 +25,8 @@ The purpose of this guide is to show you the importance of these steps, but also
 - [Datasets](#Datasets)
 - [Data Generation](#Data-Generation)
 - [Visualisation](#Visualisation)
+- [Ethics](#Ethics)
+- [Interpretability / Explainability](#interpretability--explainability)
 - [Sanity Check](#Sanity-Check)
 - [Automate These Boring Stuffs!](#Automate-these-boring-stuffs)
 - [Resources](#Resources)
@@ -48,6 +50,8 @@ The last two "how?" and "what?" overlap a bit and expand into these:
 - [Datasets](#Datasets)
 - [Data Generation](#Data-Generation)
 - [Visualisation](#Visualisation)
+- [Ethics](#Ethics)
+- [Interpretability / Explainability](#interpretability--explainability)
 - [Sanity Check](#Sanity-Check)
 
 And to keep track of the "big picture", refer to [The end-to-end process](#The-end-to-end-process) section. Any other section(s) not mentioned are supporting sections to this guide.
@@ -68,7 +72,7 @@ Details are omitted and focus is drawn to the current subject (Data Collection) 
 
 ### Research or business questions
 
-The firs thing before or during the Data Collection process will be asking the right question(s). The [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
+The first thing before or during the Data Collection process will be asking the right question(s). The [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
 
 And same goes for asking the right research question. If you intend to establish something based on a hunch or curiosity or other research then there has to be some good base to start with.
 
@@ -148,6 +152,25 @@ There is a misconception that Data Visualisation takes place towards the end or 
 
 But try to visualise as much as possible at every opportunity available, to be able to understand the changing nature of the data to hand.
 
+[Back to the index](#index)
+
+### Ethics
+
+With rising concerns over privacy and bias, you definitely want to be sure that the data you can collected does respect the ethics and standards in the areas as much as possible.
+
+To help with that as the awareness about things are improving, there are a lot of resources available, one such place to start would be [here](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/naster/README-details.md#ethics--altruistic-motives). One of the resources mentioned there is that of a python package called [Deon](https://pypi.org/project/deon/). Interestingly it has a digital checklist you can consult and see if they apply to what you are about to do.
+
+[Back to the index](#index)
+
+### Interpretability / Explainability
+
+Another widely debated but essential topic is the ability for us to interpret or explain our models and what better place to start but during the data collection process. Another [good resource](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/model-analysis-interpretation-explainability.md#post-model-creation-analysis-ml-interpretationexplainability
+) to look into when although it's an ever growing topic and subject to keep track of.
+
+Ensure the features in the dataset which will end up becoming your real-world model are explainable. Another important resource to check here is this [course/tutorial on causality](https://www.callingbullshit.org/).
+
+[Back to the index](#index)
+
 ### Sanity Check
 
 You always want to be sure that your data are _exactly_ how you want them to be, and because of this is a good rule of thumb to apply a sanity check after the completion of this step.
@@ -155,6 +178,8 @@ You always want to be sure that your data are _exactly_ how you want them to be,
 Although sometimes we won't know "what sanity checks to apply?" till we have run through the rest of the steps in the process and then come back the next iteration(s) and fine-tune this step so that it catches the important low-hanging fruits that do not hinder the rest of the processes. Sometimes you might just have to proceed with the data and the steps to follow i.e. Data Preparation, Data Cleaning, Data Visualisation, etc... will help reveal much about your collected data and decisions to take.
 
 As we talk about Data Visualisation, the Visualisation step in the previous section itelf is a good enough sanity check about your data - provided you have drawn those charts and have the skills to evaluate them. If not, hopefully the rest of the steps will help you capture those insights. And sometimes with experience and doing multiple iterations and observing various experiments visualisations on older datasets (snapshots) start to make sense.
+
+Then there is also ethics you do not want to miss out on and [the previous section does give an insight into it](#ethics). And also [interpretability/explainability](#interpretability--explainability) which overlap with each other.
 
 [Back to the index](#index)
 
