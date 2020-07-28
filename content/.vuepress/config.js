@@ -64,6 +64,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
+                            '/purgatorio/collect-and-prepare-data/data-collection',
                             '/purgatorio/collect-and-prepare-data/data-preparation',
                             '/purgatorio/collect-and-prepare-data/data-visualization',
                         ]
