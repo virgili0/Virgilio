@@ -16,7 +16,7 @@ description: A detailed guide about what is Transfer Learning, how to use it, an
 
 [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning) is a research problem in Machine Learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. 
 
-This is done by _pre-training_ a model on a dataset (usually bigger and with generic content, like [ImageNet](http://www.image-net.org/)), and then _fine-tuning_ the model on a smaller and similar dataset.
+This is done by using an existing model, _pre-trained_ on another dataset (usually bigger and with generic content, like [ImageNet](http://www.image-net.org/)), and then _fine-tuning_ the model on a smaller and similar dataset.
 
 For example, you can fine-tune a pre-trained model from ImageNet on your much smaller dataset of images, in order to benefit the pre-training and obtain a series of almost-magical properties and results.
 
@@ -31,15 +31,29 @@ The theory of Transfer Learning suggests that when using a pre-trained model on 
 
 **You need less**:
 - Data: you need much smaller datasets to obtain the same (or better) model performances
-- Computational Power / Computational Time: empirical results have shown that pre-trained models reach top performances after much fewer epochs of training, that starting the training from scratch
+- Computational Power / Computational Time: empirical results have shown that pre-trained models reach top performances after much fewer epochs of training, than starting the training from scratch
 
 **You improve:**
 - Out-of-sample generalization: when predicting on test data you often obtain better accuracy, thus reducing overfitting (or whatever metric you're using)
 - Robustness: you make the model more "robust" to real-world low-quality data  
 
+
 So, **the first thing to do** every time you frame a new problem, is to ask yourself:
 
 **Can I leverage Transfer Learning in solving this problem?**
+
+If the answer is yes, be sure that the model you're using:
+
+- is robust and produces sounds results
+- it's results are reproducible 
+- it's input it's compatible with your data
+- the source dataset (on which the model has been pre-trained) and the target dataset (your one) are similar enough
+
+See:
+
+- [Finding Similarities in Datasets](https://medium.com/@janetnim401/finding-similarities-in-datasets-350072a78a18)
+- [How to measure similarity or dissimilarity between two data set?](https://www.researchgate.net/post/How_to_measure_similarity_or_dissimilarity_between_two_data_set)
+- [Three Similarity Measures between One-Dimensional Data Sets](https://www.emis.de/journals/RCE/V37/V37n1a06Gonzalez-AbrilEtAl.pdf)
 
 
 ## How Does Transfer Learning Work
@@ -48,18 +62,20 @@ The practice of Transfer Learning allows reusing most of the parameters (weights
 
 This allows us to obtain two key results:
 
-- reuse of the behavior of a network already trained to effectively **extract features** from input data
-- limit processing to a significantly **smaller number of parameters** (corresponding to the last layers)
+- reuse of the behavior of a model already trained to effectively **extract features** from input data
+- limit processing to a significantly **smaller number of parameters**, thus speeding up the training time by a big margin (corresponding to the last layers)
 
 For example, if we were to classify apple varieties from an image, we could start by using a neural network already trained to classify images of planes, cars, dogs, cats, eggs, etc... This is because of the greater variety of training dataset ensures a better ability to extract features of various kinds from images.
 
-Of the _pre-trained neural network_, we would keep only the initial layers, going to redefine only the last layers of classification.
+Of the _pre-trained neural network_, we would keep only the initial layers, because they extract lower-level features (for examples lines and edges, which are common across every existing 2D image), and so we redefine only the last layers of classification.
 
-The reused layers would be labeled as "read-only", in order to calculate only the parameters corresponding to the last layers, speeding up the training time, reducing the processing power required, and generally improving the accuracy.
+The reused layers would be labeled as "read-only" or "frozen", in order to train only the parameters corresponding to the last layers, speeding up the training time, reducing the processing power required, and generally improving the accuracy.
 
 In general, the set of layers that are reused by a pre-trained network is called a backbone or feature-extractor.
 
 The practice of applying Transfer Learning theory to real-world models is called "fine-tuning".
+
+Often where using a pre-trained model it's a good practice to reuse all the layers except the last one, but you can experiment with removing last _N_ layers (usually not more than 3-4).
 
 To learn more about Transfer Learning:
 
