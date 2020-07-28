@@ -48,7 +48,7 @@ Sad and desolate you take the negative comments of your boss, who thinks that yo
 
 What went wrong? Wasn't everything as rosy as you thought?
 
-It's everything fine, you just need some **reality check.** 
+Everything is fine, you just need some **reality check.** 
 
 
 ::: tip
@@ -65,6 +65,7 @@ For sure you've heard that [Data Scientist is The Sexiest Job of the 21st Centur
 - Real-world datasets are rarely complete, clean, well aggregated ([Machine learning isn't Kaggle competitions](http://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions/)).
 - You don't have someone explaining how they were built or what to expect inside them (like a Kaggle "data explanation" section). 
 - Often the datasets you are provided contain a lot of noise, and it is vital to know what to discard. 
+- Someone thinks AI can solve all their problems and they are trying to throw AI at every problem or everything they come across.
 - Everyone is [expecting you to do fancy magic with data](https://www.reddit.com/r/datascience/comments/3m78k1/i_hire_data_scientists_this_is_the_stuff_this/), maybe they expect you to build a super-intelligent AI to fire employees and take over the world.
 
 Okay, maybe the last one's a joke... or not! 
