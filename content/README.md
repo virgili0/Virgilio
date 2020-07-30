@@ -105,7 +105,7 @@ You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat
 
 ### Contribute
 
-That's awesome! Check the [contribution guidelines](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) and get involved in our project!
+That's awesome! Check the [contribution guidelines](docs/contributing.md) and get involved in our project!
 
 ### License
 
