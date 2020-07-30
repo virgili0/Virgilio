@@ -99,6 +99,8 @@ module.exports = {
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
                             '/purgatorio/now-go-build/a-messy-real-world',
+                            '/purgatorio/now-go-build/transfer-learning',
+
                         ]
                     },
                     /*
