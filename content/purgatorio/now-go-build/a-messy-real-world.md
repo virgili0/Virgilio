@@ -111,9 +111,9 @@ Be careful when you talk to a "data-driven" company, do they know what they're t
 - how does data impact the business?
 - is there a dedicated Data Science team?
 - are they aware of the real possibilities of predictive models that exploit data?
-- How much does being data-driven affect the company's marketing? 
+- how much does being data-driven affect the company's marketing? 
 
-Read this very good Reddit thread about building real data-driven businesses:
+Read these very good Reddit threads about building real data-driven businesses:
 
 - [How to create a ‘data-driven’ business?](https://www.reddit.com/r/datascience/comments/eecg2k/how_to_create_a_data_driven_business/)
 
