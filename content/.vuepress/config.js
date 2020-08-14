@@ -100,6 +100,7 @@ module.exports = {
                         children: [
                             '/purgatorio/now-go-build/a-messy-real-world',
                             '/purgatorio/now-go-build/transfer-learning',
+                            '/purgatorio/now-go-build/best-practices'
 
                         ]
                     },
