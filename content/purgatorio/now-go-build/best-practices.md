@@ -100,7 +100,7 @@ And if you can't find anything, about it, just post a question!
 
 This is a **pretty good** but sure **not definitive** list of the best links Virgil has found, listing the best practices currently widespread in the field of Data Science.
  
-Be sure to check the points of the [Automation and Reproducibility](launch-and-mantain-the-system/automation-and-reproducibility) Virgilio Guide!
+Be sure to check the points of the [Automation and Reproducibility](../launch-and-mantain-the-system/automation-and-reproducibility) Virgilio Guide!
 
 ### General Rules
 
