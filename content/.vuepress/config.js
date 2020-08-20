@@ -39,7 +39,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            ['/purgatorio/fundamentals/math-fundamentals', 'Linear Algebra'],
+                            ['/purgatorio/fundamentals/math-fundamentals', 'Mathematics'],
                             ['/purgatorio/fundamentals/statistics-fundamentals', 'Statistics'],
                             ['/purgatorio/fundamentals/python-fundamentals', 'Python'],
                             '/purgatorio/fundamentals/jupyter-notebook',

@@ -9,23 +9,29 @@ description: In this guide you will understand the big picture of the Data Scien
 - [Frame the problem](#Frame-the-problem)
 - [Collect and prepare the data](#Collect-and-prepare-the-data)
 - [Select and train an ML model](#Select-and-train-an-ML-model)
-- [Evaluate and fine tuning](#Evaluate-and-fine-tuning)
+- [Evaluate and fine tune](#Evaluate-and-fine-tune)
 - [Launch and mantain the system](#Launch-and-mantain-the-system)
 - [Conclusions](#Conclusions)
 
 Let's dive right in!
  
-### Motivation
+## Motivation
+
 You can find hundreds of online articles describing the process of developing a Data Science project. 
+
 In this article Virgilio does not aim to give you the details of each phase, which will be dealt with in more technical guides,
 but rather aims to give you an overview of the various steps, as well as a sort of checklist to keep in mind when starting a project.
 
+::: tip
 As you may have noticed, **the structure of Purgatory reflects the entire Data Science process lifecycle**, with each _section_ corresponding to a macro phase, and each _guide_ within it corresponding to a sub-stage of the process. This content organization is designed to provide clarity to the structure of Purgatorio, clarity to the Data Science process, and to provide an useful checklist to consult whenever you start a new project.
+:::
 
-This design is inspired by the checklist in the magnificent book 
+The design of Purgatorio is inspired by the checklist in the magnificent book 
 [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646), which I would urge you to buy. 
 
-It's worth its weight in bits! 
+**It's worth its weight in bits!**
+
+--- 
 
 Let's recap what we mean by life cycle of the data science process (from here on, for brevity, we will only call it "process").
 
@@ -40,9 +46,9 @@ These techniques can be of two types:
 For now don't worry about the difference between the two types, just know for now that the former have been around for decades, 
 while the latter are the subject of active experimental research and have only started to be used in the last 6-7 years.
 
-You are now ready for a short tour of the Data Science process, where I'll give you an overview of what your trip to Purgatorio will be like.
+**You are now ready for a short tour of the Data Science process, where I'll give you an overview of what your trip to Purgatorio will be like.**
 
-### Frame the problem
+## Frame the problem
 
 Each Data Science project starts from a phase called Problem Statement or Problem Shaping, i.e. the process of identifying the problem to be solved and the commercial advantages to be obtained. 
 
@@ -65,7 +71,7 @@ When you have framed the type of problem you want to solve, it is time to choose
 
 Last but not least, it is necessary to make sure that the assumptions we make are correct, the data we have collected are not corrupted or biased, and how the system will be integrated with existing systems and then used.
 
-### Collect and prepare the data
+## Collect and prepare the data
 
 The indispensable raw material for Data Science projects is data (you never would have said so!).
 Collecting, organizing and then cleaning them is often the most _onerous phase_ of the whole process. 
@@ -86,7 +92,7 @@ Often the feature engineering phase is vital for traditional models, while we wi
 
 Finally we will see in this section how to automate these "pipelines" of collection, cleaning and preprocessing.
 
-### Select and train an ML model
+## Select and train an ML model
 
 Once the data has been cleaned and prepared, it is time to choose an algorithm that must be "trained" on it, and whose output will be a predictive model.
 
@@ -109,7 +115,7 @@ We will see in detail various types of statistical models and Deep Learning, wit
 
 Once the model that best solves our problem has been selected, the training phase takes place, where the model is shown many examples (our data) and its parameters are adjusted in order to obtain satisfactory performance.
 
-### Evaluate and fine-tuning
+## Evaluate and fine-tune
 
 Once we set up the training process and trained the model, we are ready to evaluate it and understand what actual performance it would have in the face of data that it has never seen. 
 
@@ -125,7 +131,7 @@ This concept consists in applying the knowledge already learned from a problem t
 
 We'll see how in practice you almost never train a model from scratch, but you take advantage of pre-trained models made available by large companies and researchers.
 
-### Launch and mantain the system
+## Launch and mantain the system
 
 Once the model is sufficiently tested and its performing well it can be used to make predictions. 
 
@@ -148,8 +154,10 @@ Here are some questions you need to ask yourself when you put a model into produ
 
 These and other questions will be covered in this section.
 
-### Conclusions
+## Conclusions
 
-You've just had a taste of everything we'll see in the next sections of Purgatorio, but remember there will be much more to learn! Alongside these guides you'll be given some to learn how to use libraries and frameworks used by organizations and governments, how to take advantage of the power and flexibility of Cloud vendors, how to read research papers, and much more!
+You've just had a taste of everything we'll see in the next sections of Purgatorio, but remember there will be much more to learn! 
+
+Alongside these guides you'll be given some to learn how to use libraries and frameworks used by organizations and governments, how to take advantage of the power and flexibility of Cloud vendors, how to read research papers, and much more!
 
 Warm up your fingers and brain and prepare a coffee, the journey is about to begin!  

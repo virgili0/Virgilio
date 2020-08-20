@@ -15,12 +15,12 @@ description: Learn what is the fundamental statistical knowledge you need to hav
 
 Let's dive right in!
  
-### Motivation
+## Motivation
 The field of statistics is the **science of learning from data**.
 
-Statistics is a crucial process behind how we make discoveries in science, make decisions based on data, and make predictions. 
+- Statistics is a crucial process behind how we make discoveries in science, make decisions based on data, and make predictions. 
 
-Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results. 
+- Statistical knowledge helps you use the proper methods to collect the data, employ the correct analyses, and effectively present the results. 
 
 Every fancy term you read related to the field of Data Science, or the even more misunderstood Artificial Intelligence, _is nothing more than statistical models trained with some mathematical algorithms_.
 
@@ -34,9 +34,9 @@ Play with [this interactive website](https://seeing-theory.brown.edu/) to taste 
 
 It's awesome.
 
-### Descriptive Statistics
+## Descriptive Statistics
 
-[Descriptive statistics](https://www.investopedia.com/terms/d/descriptive_statistics.asp) aim to analyze and summarise the data collected in an experiment. 
+[Descriptive statistics](https://www.investopedia.com/terms/d/descriptive_statistics.asp) aim to analyze and summarize the data collected during an experiment. 
 
 The set of methods and techniques used in descriptive statistics makes it possible to express the information contained in a set of data by means of graphs and particular numerical indicators.
 
@@ -74,16 +74,15 @@ Test your knowledge with some of [these exercises](https://www0.gsb.columbia.edu
 Anyway, you can find a ton of them online, and remember, that the more you practice, the better you will get!
 
 
+## Probability Theory
 
-### Probability Theory
-
-Probability theory governs every daily event, from microscopic to macroscopic, even if we hardly realize it!
+Probability theory governs _every daily event_, from microscopic to macroscopic, even if we hardly realize it!
 
 But you may have thought about the odds of winning, for example, the game of dice, or when you estimate the probability of having successfully passed an exam!
 
 Probability theory is so interconnected with statistical and mathematical concepts that it _is difficult to explain why it is fundamental_: simply consider it as the basic building blocks of more advanced statistical concepts based on it.
 
-Not to mention that knowledge of probability theory can be very useful in everyday life since it can suggest to us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
+Not to mention that knowledge of probability theory **can be very useful in everyday life** since it can suggest to us how to behave on certain occasions, to make the best choices, or involving the least risk of failure.
 
 Fortunately, you can have the (perhaps) best course on probability theory available to date, offered as usual by [MIT](http://www.mit.edu/). 
 
@@ -105,19 +104,21 @@ Test your knowledge with some of [these exercises](https://www.math.kth.se/matst
 
 Anyway, you can find a ton of them online, and remember, that the more you practice, the better you will get!
 
-### Bayesian Statistics
+## Bayesian Statistics
 
 This last topic is not fundamental for a first pass study, but it's highly recommended since some of Machine Learning algorithms are based on it or leverage some concepts from Bayesian Theory.
 
 The Bayesian approach is often distinguished from the "classical" approach, which you have studied in the [Descriptive Statistics](#Descriptive-Statistics) section, and which is called "frequentist" when compared to the "Bayesian" approach.
 
-Read [the difference between the "frequentist" and "Bayesian" approach](https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-in-plain-english)!
+Read:
+- [The difference between the "Frequentist" and "Bayesian" approach](https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-in-plain-english)
 
 The Bayesian approach to statistics is based upon the famous [Bayes Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem), which describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
 
 For example, if cancer is related to age, then, using Bayes’ theorem, a person’s age can be used to more precisely or accurately assess the probability that they have cancer, in contrast to the assessment of the probability of cancer made without knowledge of the person's age.
 
-First, get comfortable with the Bayesian approach with [this simple introduction](https://lavanya.ai/2019/05/16/bayes-theorem/).
+First, get comfortable with the Bayesian approach with:
+- [Bayes Theorem: A Primer](https://lavanya.ai/2019/05/16/bayes-theorem/)
 
 Then you can take this course to dive deep into the Bayesian approach to statistics, along with many more concepts, taking the following course:
 
@@ -127,7 +128,7 @@ You find the complete book from the same author at:
 
 [**Statistical Rethinking - Book**](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/1482253445)
 
-### Ask Questions
+## Ask Questions
 A rule of thumb rule to learn fast and effectively is to ask questions and read other's questions and answers.
 
 Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "standard deviation"), and ask questions, with experts who will answer and help you.
@@ -152,13 +153,11 @@ Two other good places to post (well structured) questions are:
 - [Quora](https://www.quora.com/)
 
 
-### Conclusions
-
-That's all! 
+## Conclusions
 
 With the above-suggested courses, you should be equipped with most of the statistics knowledge you need to start working on simple Data Science projects. 
 
-A very book we suggest you tu read is ["How To Lie With Statistics"](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics).
+A very good book we suggest you to read is ["How To Lie With Statistics"](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics).
 
 The book is a brief, breezy illustrated volume outlining errors when it comes to the interpretation of statistics, and how these errors may create incorrect conclusions. Very suggested!
 

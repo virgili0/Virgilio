@@ -4,12 +4,10 @@ author: clone95
 description: Learn how to use the Jupyter Notebook, the most popular application for Data Science.
 ---
 
-# What you will learn 
-
 
 # Index
  - [Why Jupyter Notebooks](#Why-Jupyter-Notebooks)
- - [Learn to use it](#Learn-to-use-it)
+ - [Learn to use Jupyter Notebooks](#Learn-to-use-Jupyter-Notebooks)
  - [Considerations](#Considerations)
  - [Tips and Tricks](#Tips-and-Tricks)
  - [Notebooks Examples](#Notebooks-Examples)
@@ -18,7 +16,7 @@ description: Learn how to use the Jupyter Notebook, the most popular application
 
 Let's dive right in!
  
-### Why Jupyter Notebooks
+## Why Jupyter Notebooks
 
 [Jupyter notebooks](https://jupyter.org/) are a way of embedding ready-to-execute Python, Julia and R code with markdown documentation, images, and other such things, all in one file, as well as a program for presenting and running them. 
 
@@ -36,11 +34,12 @@ There are several reasons to choose Jupyter Notebook for the first phases of the
 
 - you can install it on some more powerful machine and interact with it in your browser, so works for you if you're not super friendly with terminal stuff
 
-- you can export run results as html page. a run of a notebook is effectively a static thing. notebook consists of code + results of running the code.
 
-_Curiosity:_ Project Jupyter's name is a reference to the three core programming languages supported by Jupyter, which are Julia, Python and R, and also a homage to Galileo's notebooks recording the discovery of the moons of Jupiter.
+::: tip Curiosity
+Project Jupyter's name is a reference to the three core programming languages supported by Jupyter, which are Julia, Python and R, and also a homage to Galileo's notebooks recording the discovery of the moons of Jupiter.
+:::
 
-### Learn to use it
+## Learn to use Jupyter Notebooks
 
 Now that you understand why it is important to use Jupyter Notebooks, let's see how to actually learn how to use them.
 
@@ -52,7 +51,7 @@ You will:
 
 - Cover the basics of installing Jupyter and creating your first notebook
 - Delve deeper and learn all the important terminology
-- Explore how easily notebooks can be shared and published online. Indeed, the tutorial _is a Jupyter Notebook!_ Everything here was written in the Jupyter Notebook environment, though you are viewing it in a read-only form.
+- Explore how easily notebooks can be shared and published online. Indeed, the tutorial _is a Jupyter Notebook!_ Everything here was written in the Jupyter Notebook environment, though you are viewing it in a read-only form
 
 Once you're done with this tutorial, you _have the option_ to dive deeper and follow this one:
 
@@ -60,16 +59,16 @@ Once you're done with this tutorial, you _have the option_ to dive deeper and fo
 
 This advanced (optional) tutorial will involve:
 
-- Warming up with the basics of shell commands and some handy magics, including a look at debugging, timing, and executing multiple languages.
-- Exploring topics like logging, macros, running external code, and Jupyter extensions.
-- Seeing how to enhance charts with [Seaborn](https://seaborn.pydata.org/), beautify notebooks with themes and CSS, and customise notebook output.
-- Finishing off with a deep look at topics like scripted execution, automated reporting pipelines, and working with databases.
+- Warming up with the basics of shell commands and some handy magics, including a look at debugging, timing, and executing multiple languages
+- Exploring topics like logging, macros, running external code, and Jupyter extensions
+- Seeing how to enhance charts with [Seaborn](https://seaborn.pydata.org/), beautify notebooks with themes and CSS, and customise notebook output
+- Finishing off with a deep look at topics like scripted execution, automated reporting pipelines, and working with databases
 
 After these two tutorials you should be ready to use Jupyter Notebook in a pretty advanced way, leveraging all its useful capabilities.
 
 You can conclude your learning of Jupyter with this simple read:
 
-[**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
+- [**Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007)
 
 You can also find an [Example Repository](https://github.com/jupyter-guide/ten-rules-jupyter) with a coherent and clean Jupyter Notebooks examples. 
 
@@ -101,13 +100,15 @@ Colaboratory is a free Jupyter notebook environment that requires no setup and r
 
 With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser. 
 
-### Considerations
+## Considerations
 
 As we said from the beginning, Jupyter Notebooks are great for exploring data, doing analysis and building small prototypes, so you can quickly try many different approaches to the same problem.
 
 But beware! 
 
+::: warning
 You can't think that the final working system you built (presumably a Machine Learning model that makes predictions) is based entirely on a Jupyter Notebook!
+:::
 
 _In fact, putting models into production in the real world with Notebooks is a totally wrong practice_.
 
@@ -123,7 +124,7 @@ Check the [nbconvert](https://nbconvert.readthedocs.io/en/latest/) module, and s
 
 Check the [nbdime](https://github.com/jupyter/nbdime), it provides tools for diffing and merging of Jupyter Notebooks.
 
-### Tips and Tricks
+## Tips and Tricks
 
 Like any other new tool you learn, there are often little tricks or conveniences hidden in the documentation that can really make life easier if you use the tool in question every day!
 
@@ -131,16 +132,16 @@ The Jupyter Notebooks are no less, so here's to you a very detailed article on t
 
 See [**Jupyter Notebook Tips, Tricks, and Shortcuts**](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 
-### Notebooks Examples
+## Notebooks Examples
 
 Spread across the Web you can probably find hundreds of thousands of Jupyter Notebooks, but how do you navigate them all in an organized way?
 
-Luckily someone did this job before Virgil, and created this incredible resource:
+Luckily someone did this job before Virgilio, and created this incredible resource:
 
 [**A gallery of interesting Jupyter Notebooks**](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
 Take your time and explore this rich repository, you will surely find something that interests you! 
 
-### Conclusions
+## Conclusions
 
 You should now be fully aware of the various options you have to use the Jupyter Notebooks, both in their "basic" version, both within the JupyterLab IDE, and by exploiting the free power of Google thanks to the Colaboratory!
