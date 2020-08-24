@@ -50,7 +50,7 @@ while the latter are the subject of active experimental research and have only s
 
 ## Frame the problem
 
-Each Data Science project starts from a phase called Problem Statement or Problem Shaping, i.e. the process of identifying the problem to be solved and the commercial advantages to be obtained. 
+Each Data Science project starts from a phase called Problem Statement or Problem Shaping, i.e. **the process of identifying the problem to be solved and the real-world advantages to be obtained.**
 
 How do you do it? We must be ready to ask the right questions. 
 
@@ -73,10 +73,19 @@ Last but not least, it is necessary to make sure that the assumptions we make ar
 
 ## Collect and prepare the data
 
-The indispensable raw material for Data Science projects is data (you never would have said so!).
-Collecting, organizing and then cleaning them is often the most _onerous phase_ of the whole process. 
-You need to understand what the data sources are, how they collected them, how the data from various sources relate to each other. 
-Once the data has been obtained, it is necessary to organize it effectively, and to keep original versions of it so that you always have at your disposal the "ground truth" of our project.
+The indispensable raw material for Data Science projects is data (you never would have said so :D ).
+
+::: warning
+Collecting, organizing and then cleaning them is often [the most _onerous phase_](https://fundersclub.com/blog/2017/06/29/hardest-part-ai-cleaning-your-data/) of the whole process.
+:::
+
+You need to understand:
+- what data is sensitive and what is not
+- what the data sources are
+- how data have been collected
+- how the data from various sources relate to each other 
+
+Once the data has been obtained, it is necessary to organize it effectively, and **to keep raw version** of it so that you always have at your disposal the "ground truth" of our project.
 
 In fact, a large part of the work of cleaning and preparing the data consists of steps (called pre-processing) that transform them: from raw data just collected, to clean data and ready to be analyzed by a model in the next macro-phase. 
 
@@ -88,7 +97,7 @@ Once the raw data has been cleaned, the feature engineering phase often takes pl
 
 For example, if my data contains the date of a purchase in a store, I can add the feature "day of the week", indicating with a value from 1 to 7 on which day we are. This could reveal very interesting relationships!
 
-Often the feature engineering phase is vital for traditional models, while we will see that for Deep Learning models it is less important, as they have among their advantages to automatically extract relevant features from the data.
+Often _the feature engineering phase is vital for traditional models_, while we will see that for Deep Learning models it is less important, as they have among their advantages to automatically extract relevant features from the data.
 
 Finally we will see in this section how to automate these "pipelines" of collection, cleaning and preprocessing.
 
@@ -105,7 +114,7 @@ In general, these models:
 - Require feature engineering
 - They are "simple" in the sense that they are easy to interpret and debug
 
-Deep Learning models (software artifacts called neural networks) are techniques that have been exploding in recent years, providing excellent performance on problems previously impossible to solve, in general:
+Deep Learning models (software programs called neural networks) are techniques that have been exploding in recent years, providing excellent performance on problems previously impossible to solve, in general:
 - They require empirical and practical knowledge about training neural networks
 - Do not necessarily require feature engineering (but may benefit from it) 
 - They are "complex" in the sense that they are difficult to interpret and debug.
@@ -121,7 +130,7 @@ Once we set up the training process and trained the model, we are ready to evalu
 
 Therefore, before training, the data is divided between training data (those that the model will see) and test data that it has never seen (those on which it will be tested).
 
-This phase is of vital importance to understand how the model will perform in the real world, and to understand if it will actually be useful.
+This phase is of vital importance to understand **how the model will perform in the real world**, and to understand _if it will actually be useful._
 
 In this section we will also understand how to choose the best parameters to train the models, so as to maximize their performance in the test phase.
 
@@ -160,4 +169,4 @@ You've just had a taste of everything we'll see in the next sections of Purgator
 
 Alongside these guides you'll be given some to learn how to use libraries and frameworks used by organizations and governments, how to take advantage of the power and flexibility of Cloud vendors, how to read research papers, and much more!
 
-Warm up your fingers and brain and prepare a coffee, the journey is about to begin!  
+Warm up your fingers and brain and prepare a coffee (or some thousands...), the journey is about to begin!  
