@@ -181,7 +181,7 @@ Recurrent Neural Network (RNNs) outperform other kinds when dealing with text an
 
 _First look (in order):_
 - [Here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), a gentle but detailed explanation.
-- [Here](https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn) is another interesting explanation.
+- [Here](https://www.niklasschmidinger.com/posts/2020-09-09-lstm-tricks/) is another super-suggested explanation.
 - [Here](https://www.youtube.com/watch?v=9zhrxE5PQgY) is a video with a more practical approach.
 - [Here](https://becominghuman.ai/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow-1907a5bbb1fa), a guide to implementing RNN in TensorFlow.
 - [Here](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767), a 7-page long blog post regarding the TensorFlow implementation.
@@ -254,6 +254,11 @@ Here you have some of the best interactive explanations on the Internet about **
 
 - [Interactive Explanation: **Optimization of Neural Networks**](https://deeplearning.ai/ai-notes/optimization/)
 
+Some other super-useful resources:
+
+- [Stanford Deep Learning Lectures - Training Neural Networks](https://www.youtube.com/watch?v=wEoyxE0GP2M)
+- [Common Practices in Training Neural Networks](https://www.youtube.com/watch?v=Hb6ISunEJcI&list=PLpOGQvPCDQzvgpD3S0vTy7bJe2pf_yJFj&index=22&ab_channel=AndreasMaier)
+
 #### Common Issues
 
 You already know that training a Neural Network involves using a training dataset to update the model weights to create a good mapping of inputs to outputs.
@@ -271,6 +276,10 @@ Training Neural Networks effectively requires experience and even the most exper
 It's hard to find a list on the internet that includes expert knowledge and best practices, and that's what Virgilio tries to do in this section.
 
 First things first:
+
+**Must read:**
+
+- [My Neural Network isn't working! What should I do?](http://theorangeduck.com/page/neural-network-not-working)
 
 It's **strongly recommended** to refer to [this page](http://cs231n.github.io/) from Stanford and go through all the Modules 1 and 2.
 
@@ -339,6 +348,14 @@ There are a lot of models you can find at the following links:
 - [State-of-the-art models](https://github.com/onnx/models)
 
 Never forget to try Transfer Learning on your problem!
+
+
+### Full Stack Deep Learning Course 
+
+This is the most useful set of resources about Deep Learning in production you can find over the Internet, be **sure** to take it!
+
+- [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/)
+
 
 ## Conclusions
 

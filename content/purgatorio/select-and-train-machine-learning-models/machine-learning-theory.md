@@ -20,7 +20,9 @@ Virgilio **strongly recommend** you to buy this phenomenal book: [**Hands-On Mac
 
 The book has inspired the birth of Virgilio and has driven most of the organization and hierarchy of the content listed below.
 
-**Be sure to but the 2nd edition of the book, which comes with TensorFlow 2.0 and many of the chapters updated.**
+::: warning
+**Be sure to buy the 2nd edition of the book, which comes with TensorFlow 2.0 and many of the chapters updated.**
+:::
 
 Apart from this, **everything** listed here is open source and free, from world-renowned universities and open source associations, in pure Virgilio's spirit. 
 
@@ -130,7 +132,7 @@ Here you have some end-to-end examples with Scikit-Learn:
 - [Example 4](https://mathspp.blogspot.com/2018/08/teaching-robot-how-to-vacuum-clean-with.html) couples decision trees with genetic algorithms.
 
 #### Ensemble Learning and Random Forest 
-The idea of Ensemble Learning is to leverage all the different features, pros and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
+The idea of Ensemble Learning is to leverage all the different features, pros, and cons of several ML models to obtain a group of "voters" that, for each prediction, gives you the most likely outcome, voted by different classifiers (SVM, ID3, maybe Logistic Regression). 
 [Here](https://www.youtube.com/watch?v=9VmKYwX_U7s) you get the basics of ensemble learning model, and [here](https://www.youtube.com/watch?v=3kYujfDgmNk) you find the most classic of them, the Random Forest. Although the idea is simple, this ensemble model turned out to be effective in tackling even some "hard" classification problems, or with a lot of data.
 
 [Here](https://scikit-learn.org/stable/modules/ensemble.html) you get a complete overview of the best practices for ensemble learning, and [here](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0) you find an example of Random Forest with Scikit-Learn. Both links come with a bunch of useful techniques to use in practice. 
@@ -144,7 +146,7 @@ So it's important to be aware of unsupervised learning classes of algorithms.
 
 - [This](https://www.youtube.com/watch?v=8dqdDEyzkFA&t=14s) is a brief introductory video.
 - [This](https://www.coursera.org/lecture/machine-learning/unsupervised-learning-olRZo) are the Unsupervised Learning lectures from Stanford, take these if you want to go deeper.
-- [This](https://www.reddit.com/r/MachineLearning/comments/3pkt1i/why_is_unsupervised_learning_so_important/) is a very good Rreddit post on **Why Unsupervised is so important**. 
+- [This](https://www.reddit.com/r/MachineLearning/comments/3pkt1i/why_is_unsupervised_learning_so_important/) is a very good Reddit post on **Why Unsupervised is so important**. 
 - [Here](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/) is an interesting read about the difference between Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
 
 The two most important techniques here are [Association Rules Exploration](https://searchbusinessanalytics.techtarget.com/definition/association-rules-in-data-mining) and [Clustering](https://www.geeksforgeeks.org/clustering-in-machine-learning/). 
