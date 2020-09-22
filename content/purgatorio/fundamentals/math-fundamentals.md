@@ -17,8 +17,7 @@ Let's dive right in!
  
 ## Motivation
 
-Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM
-) and then [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
+Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM) and then [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
 
 **The entire field of Data Science is based on mathematics and statistics.**
 
