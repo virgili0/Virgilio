@@ -106,10 +106,16 @@ Be sure to check the points of the [Automation and Reproducibility](../launch-an
 
 - [Data scientists, the only useful code is production code](https://thuijskens.github.io/2018/11/13/useful-code-is-production-code/)
 - [Development Workflows for Data Scientists](https://resources.github.com/downloads/development-workflows-data-scientists.pdf)
+- [Deep Learning: Common Practices](https://www.youtube.com/watch?v=Hb6ISunEJcI&list=PLpOGQvPCDQzvgpD3S0vTy7bJe2pf_yJFj&index=22&ab_channel=AndreasMaier)
 - [Good Enough Practices for Scientific Computing](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/)
 - [Andrew NG - Deep Learning best practices book](https://www.deeplearning.ai/machine-learning-yearning/)
 - [Machine Learning Engineering by Andriy Burkov](http://www.mlebook.com/wiki/doku.php)
 - [Google: Rules of Machine Learning](ttps://developers.google.com/machine-learning/guides/rules-of-ml)
+
+### Deep Learning Best Practices
+This is the most useful set of resources about Deep Learning in production you can find over the Internet, be **sure** to take it!
+
+- [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/)
 
 ### Deliver Successful Projects
 - [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects)

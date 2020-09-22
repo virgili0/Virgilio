@@ -18,19 +18,19 @@ Once you're done with the framing phase of the project, as explored in the previ
 
 There are two ways to set up your workspace: either in your local machine or in the cloud.
 
-To setup a local workspace is a must-have skill for a data scientist practitioner, so we recommend you to try to go through a [Local Setup](#Local-Setup) at least once (unless you have a very old/weak computer). 
+To set up a local workspace is a must-have skill for a data science practitioner, so we recommend you to try to go through a [Local Setup](#Local-Setup) at least once (unless you have a very old/weak computer). 
 
-Probably in the future you'll need to train bigger models which require more memory, costly cpu operations on raw data, and GPU acceleration for the training phase. In the [Cloud Computing](#Cloud-Computing) section we give you an overview of the several options you can consider to overcome the limitations of your local machine. 
+Probably in the future, you'll need to train bigger models that require more memory, costly CPU operations on raw data, and GPU acceleration for the training phase. In the [Cloud Computing](#Cloud-Computing) section we give you an overview of the several options you can consider to overcome the limitations of your local machine. 
 
 ## Local Setup
 
-After you've installed [Python](https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html) on your machine, in the guide [Installing Packages with Pip](https://packaging.python.org/tutorials/installing-packages/) you understand how to use the default Package Installation manager (Pip) to download the modules that you will need. However, even if you feel that more control over the environemnt could be good, you should consider using Anaconda as a preferred package manager for Data Science. 
+After you've installed [Python](https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html) on your machine, in the guide [Installing Packages with Pip](https://packaging.python.org/tutorials/installing-packages/) you understand how to use the default Package Installation manager (Pip) to download the modules that you will need. However, even if you feel that more control over the environment could be good, you should consider using Anaconda as a preferred package manager for Data Science. 
 
 ## Anaconda
 
-The recommended way to setup you local workspace is through the use of [Anaconda](https://anaconda.org/anaconda/conda).
+The recommended way to set up your local workspace is through the use of [Anaconda](https://anaconda.org/anaconda/conda).
 
-Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.
+Conda is an open-source package management system and environment management system that runs on Windows, macOS, and Linux. Conda quickly installs, runs, and updates packages and their dependencies. Conda easily creates, saves, loads, and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.
 
 Use the following tutorial to setup Anaconda on your local machine:
 
@@ -40,13 +40,13 @@ Anaconda brings with it the most used Python modules when working with data, and
 
 ## Cloud Computing
 
-One day you will find that in order to traing that model on 50 GB of images it takes too long for your computer to compute, so you start wondering if you should use Cloud Computing to host your calculations somewhere else!
+One day you will find that in order to train that model on 50 GB of images it takes too long for your computer to compute, so you start wondering if you should use Cloud Computing to host your calculations somewhere else!
 
 Ever had a thought like "I should buy a more powerful pc"? Forget about it and use **Cloud GPUs** to train your model faster and cheaper!
 
 * Also get to know where you can [**deploy**](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/README.md#deploy-your-model-as-a-web-app) your model to serve millions of people.
 
-* Check out the **free credits** and [**Perks/offer**](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/README.md#perks-and-offers) section to get some free gpu hours.
+* Check out the **free credits** and [**Perks/offer**](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/README.md#perks-and-offers) section to get some free GPU hours.
 
 Last updated : 20 April 2019
 
@@ -124,7 +124,7 @@ If you are a student or researcher you can get extra credts , contact the provid
 * [license](https://github.com/zszazi/Deep-learning-in-cloud/blob/master/LICENSE)
 
 ## Conclusions
-You have been given a panoramic of options to setup your workspace, either on your local machine or in the cloud. Often, to start practicing and experimenting you don't need a powerful GPU machine, and you can try things locally. 
+You have been given a panoramic of options to set up your workspace, either on your local machine or in the cloud. Often, to start practicing and experimenting you don't need a powerful GPU machine, and you can try things locally. 
 
 Then, when you need to experiment with the training of several Machine Learning models and pick the best one, you can choose a cloud provider like the ones listed here to massively scale! 
 
