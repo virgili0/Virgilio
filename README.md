@@ -52,6 +52,8 @@ There are different scenarios:
 - A *businessman* who wants to understand if his data are suitable for an ML project, and what could be the real business value.
 - A *salesman* who needs to stay up-to-date with the latest technologies and Jargon.
 
+## [Click here to access the new web version of Virgilio](https://virgili0.github.io/Virgilio/)
+
 ## Structure
 
 ![Figure 1](map.PNG "1") 
@@ -97,6 +99,8 @@ Above these you’ll find a plenty of other useful zones:
 - Research: here you will learn how to find the right papers and digest them. In addition, you’ll discover which teams to follow for your interests.
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
+
+## [Click here to access the new web version of Virgilio](https://virgili0.github.io/Virgilio/)
 
 ### Paradiso
 
