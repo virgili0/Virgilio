@@ -1,7 +1,24 @@
 # <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div> 
  <div class="subtitle">Your new Mentor for Data Science E-Learning.</div>
 
-Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
+<a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
+
+
+<!-- 
+     Responsive Image Map 
+     https://www.zaneray.com/responsive-image-map/
+-->
+
+<div style="position: relative;">
+  <img src="paradiso_basic.png">
+  <a href="paradiso/demystification-ai-ml-dl" title="Demystification AI ML DL" style="position: absolute; left: 16.95%; top: 53.59%; width: 5.55%; height: 3.13%; z-index: 2;"></a>
+</div>
+
+Your new Mentor for Data Science E-Learning.
+
+Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning.
+Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
+
 
 <div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
