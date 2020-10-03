@@ -39,7 +39,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
-                            ['/purgatorio/fundamentals/math-fundamentals', 'Linear Algebra'],
+                            ['/purgatorio/fundamentals/math-fundamentals', 'Mathematics'],
                             ['/purgatorio/fundamentals/statistics-fundamentals', 'Statistics'],
                             ['/purgatorio/fundamentals/python-fundamentals', 'Python'],
                             '/purgatorio/fundamentals/jupyter-notebook',
@@ -64,6 +64,7 @@ module.exports = {
                         collapsable: false, // optional, defaults to true
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
+                            '/purgatorio/collect-and-prepare-data/data-collection',
                             '/purgatorio/collect-and-prepare-data/data-preparation',
                             '/purgatorio/collect-and-prepare-data/data-visualization',
                         ]
@@ -87,6 +88,20 @@ module.exports = {
                         sidebarDepth: 1, // optional, defaults to 1
                         children: [
                             '/purgatorio/launch-and-mantain-the-system/serving-trained-models',
+                            '/purgatorio/launch-and-mantain-the-system/monitoring-usage-and-behavior',
+                            '/purgatorio/launch-and-mantain-the-system/automation-and-reproducibility'
+                        ]
+                    },
+                    {
+                        title: 'Now Go Build ', // required
+                        //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                        collapsable: false, // optional, defaults to true
+                        sidebarDepth: 1, // optional, defaults to 1
+                        children: [
+                            '/purgatorio/now-go-build/a-messy-real-world',
+                            '/purgatorio/now-go-build/transfer-learning',
+                            '/purgatorio/now-go-build/best-practices'
+
                         ]
                     },
                     /*

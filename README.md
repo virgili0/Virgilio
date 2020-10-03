@@ -52,6 +52,8 @@ There are different scenarios:
 - A *businessman* who wants to understand if his data are suitable for an ML project, and what could be the real business value.
 - A *salesman* who needs to stay up-to-date with the latest technologies and Jargon.
 
+## [Click here to access the new web version of Virgilio](https://virgili0.github.io/Virgilio/)
+
 ## Structure
 
 ![Figure 1](map.PNG "1") 
@@ -98,6 +100,8 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
+## [Click here to access the new web version of Virgilio](https://virgili0.github.io/Virgilio/)
+
 ### Paradiso
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](content/paradiso/demystification-ai-ml-dl.md)
@@ -130,7 +134,7 @@ Above these you’ll find a plenty of other useful zones:
   + [Tools and Libraries](content/purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
 - Launch and Mantain the System
   + [Serving Trained Models](content/purgatorio/launch-and-mantain-the-system/content-trained-models.md)
-  + Monitoring Usage and Behavior
+  + [Monitoring Usage and Behavior](content/purgatorio/launch-and-mantain-the-system/monitoring-usage-and-.md)
   + Automation and Reproducibility
 - Now Go Build
   + A Messy Real World
@@ -169,7 +173,7 @@ You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat
 
 ### Contribute
 
-That's awesome! Check the [contribution guidelines](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) and get involved in our project!
+That's awesome! Check the [contribution guidelines](docs/contributing.md) and get involved in our project!
 
 ### License
 

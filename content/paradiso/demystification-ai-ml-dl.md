@@ -20,8 +20,6 @@ The objective of the AI field is to create _intelligent_ agents, which can have 
 If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
 However, the biological analogy is limited, since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 
-If you want to make an analogy with a human being, you can think of sensors as the sense organs (eyes, ears,...), the intelligence is that of our brain and the actuators can be the hands, feet, or more generally the muscles. 
-
 However, [the biological analogy is limited](https://www.reddit.com/r/MachineLearning/comments/ayvxvc/d_are_the_connections_between_deep_learning_and/), since it is not necessary for the sensors of an agent to detect physical phenomena, such as temperature or time, but it could detect data, relations, or inputs of any other kind.
 
 Machine learning is generally considered as a subset of the AI field. Specifically, the term Machine Learning means the science of **programming a machine so that it can learn to perform a task from the data, rather than through programming.**

@@ -1,4 +1,5 @@
-# <div class="title">*Virgilio*</div>
+# <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div> 
+ <div class="subtitle">Your new Mentor for Data Science E-Learning.</div>
 
 <a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
 
@@ -15,7 +16,9 @@
 
 Your new Mentor for Data Science E-Learning.
 
-> Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning. Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
+Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning.
+Our vision is to give *everyone* the chance to get involved in this field, get self-started as a practitioner, gain new cutting edge practical skills and learn to navigate through the infinite web of resources and find the ones useful for *you*.
+
 
 <div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
@@ -25,9 +28,6 @@ Your new Mentor for Data Science E-Learning.
 
 - [*What* is Virgilio](#what-is-virgilio)
 - [Structure](#structure)
-  + [Paradiso](#paradiso)
-  + [Purgatorio](#purgatorio)
-  + [Inferno](#inferno)
 - [About](#About)
   * [License](#license)
   * [Contribute](#contribute)
@@ -69,17 +69,13 @@ There are different scenarios:
 
 ## Structure
 
-::: warning
-We are in the progress of migrating the content from the old conceptual organisation to the new one, while working on the new [web version](https://virgili0.github.io/Virgilio/). Please be patient while we make Virgilio more awesome!
-:::
-
 ![Figure 1](map.PNG "1") 
 
-As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of abstraction.
+As you can imagine it’s not easy to intercept all these different needs, so our solution ended up in a hierarchical structure which distinguish the content based on different levels of *abstraction*.
 
-To do this, we got our inspiration from Dante’s amazing masterpiece [“La Divina Commedia”](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 d.c.
+To do this, we got our inspiration from Dante’s amazing masterpiece [*La Divina Commedia*](https://en.wikipedia.org/wiki/Divina_Commedia), written in over 20 years of work and published for the first time in 1323 AD.
 
-Dante’s journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
+Dante's journey wouldn’t have been possible without his companion and guide, Virgilio, a roman famous poet (70 a.c.) who inspired generations of artists since the Roman hegemony in Europe.
 
 In his journey, Dante travel across the different levels of the catholic conception of the divine world at that time, starting from the Inferno (the prison of the damned), passing through the Purgatorio and reaching eventually the Paradiso (you can call it Valhalla or Nirvana, as you prefer :-) ).
 
@@ -87,7 +83,9 @@ In your journey, you will start from scratch and eventually reach the theoretica
 
 The parallelism is natural:
 
-![Figure 2](order.png "1") 
+- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High level guides
+- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Low level guides for beginners
+- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Low level advanced guides
 
 _Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
 
@@ -117,70 +115,6 @@ Above these you’ll find a plenty of other useful zones:
 - Massive computation: here you’ll find hints and resources for computing on clusters, optimize your system and other advanced topics.
 - ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
 
-### Paradiso
-
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](paradiso/demystification-ai-ml-dl.md)
-- [What do you need for ML? ](paradiso/what-do-i-need-for-ml.md)
-- [Do you really need ML?](paradiso/do-you-really-need-ml.md)
-- [ML use cases](paradiso/use-cases.md) 
-- [Virgilio's Teaching Strategy - Learning to Learn](paradiso/virgilio-teaching-strategy.md)
-- [Introduction to ML](paradiso/introduction-to-ml.md)
-
-### Purgatorio
-
-- Fundamentals
-  + [Math Fundamentals](purgatorio/fundamentals/math-fundamentals.md)
-  + [Statistics Fundamentals](purgatorio/fundamentals/statistics-fundamentals.md)
-  + [Python Fundamentals](purgatorio/fundamentals/python-fundamentals.md)
-  + [Jupyter Notebook](purgatorio/fundamentals/jupyter-notebook.md)
-  + [The Data Science Process](purgatorio/fundamentals/the-data-science-process.md)
-- Define The Scope and Ask Questions
-  + [Frame The Problem](purgatorio/define-the-scope-and-ask-questions/frame-the-problem.md)
-  + [Usage and Integration](purgatorio/define-the-scope-and-ask-questions/usage-and-integration.md)
-  + [Starting a Data Project](purgatorio/define-the-scope-and-ask-questions/starting-a-data-project.md)
-  + [WorkSpace Setup and Cloud Computing](purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
-- Collect and Prepare Data
-  + [Data Preparation](purgatorio/collect-and-prepare-data/data-preparation.md)
-  + [Data Visualization](purgatorio/collect-and-prepare-data/data-visualization.md)
-- Select and Train Machine Learning Models
-  + [Machine Learning Theory](purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
-  + [Deep Learning Theory](purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
-  + [Evaluation and Fine Tuning](purgatorio/select-and-train-machine-learning-models/evaluation-and-finetuning.md)
-  + [Tools and Libraries](purgatorio/select-and-train-machine-learning-models/tools-and-libraries.md)
-- Launch and Mantain the System
-  + [Serving Trained Models](purgatorio/launch-and-mantain-the-system/serving-trained-models.md)
-  + Monitoring Usage and Behavior
-  + Automation and Reproducibility
-- Now Go Build
-  + A Messy Real World
-  + Transfer Learning
-  + Best Practices
-
-### Inferno
-
-- Computer Vision
-  + [Introduction to Computer Vision](inferno/computer-vision/introduction-to-computer-vision.ipynb)
-  + [Object Instance Segmentation](inferno/computer-vision/object-instance-segmentation.ipynb)
-  + [Object Tracking](inferno/computer-vision/object-tracking.ipynb)
-  + [Object Detection](inferno/computer-vision/Object_detection_based_on_Deep_Learning.ipynb)
-- Natural Language Processing
-- Virtual Assistants
-  + [Build a Virtual Assistant with DialogFlow](inferno/virtual-assistants/dialogflow-chatbot.md)
-- Reinforcement Learning
-- Soft Skills
-  + [Impactful Presentations](inferno/soft-skills/impactful-presentations.md)
-- Tools
-  + [Geo Gebra](inferno/tools/geo-gebra.md)
-  + [Latex](inferno/tools/latex.md)
-  + [Regex](inferno/tools/regex.ipynb)
-  + [Wolfram Alpha](inferno/tools/wolfram-alpha.md)
-- Research
-  + [Zotero](inferno/research/zotero.md)
-  + [State-of-Art Papers Explained](inferno/research/sota-papers.md)
-- Massive Computation
-- Machine Learning for Business Applications
-
-
 ## About
 
 Virgilio is developed and mantained by [these awesome people](docs/contributors.md).
@@ -188,7 +122,7 @@ You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat
 
 ### Contribute
 
-That's awesome! Check the [contribution guidelines](https://github.com/virgili0/Virgilio/blob/master/docs/contributing.md) and get involved in our project!
+That's awesome! Check the [contribution guidelines](docs/contributing.md) and get involved in our project!
 
 ### License
 

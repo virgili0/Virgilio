@@ -12,18 +12,18 @@ description: Understand which kind of problem you want to solve and define the s
 
 Let's dive right in!
 
-### Recap of ML systems
+## Recap of ML systems
 
 The process of Data Science, i.e. the extraction of knowledge and decisions from a set of data, is composed of several steps. Simplifying as much as possible, we try to frame the problem we want to solve, then we study the data available, then we create models (Machine Learning models) that are used to make predictions or estimates.
  
-The definition of the problem is the first phase and also guides all the choices of design, implementation and integration that will come later during the project. 
+The definition of the problem is the first phase and also guides all the choices of design, implementation, and integration that will come later during the project. 
 
 In particular, it is fundamental to classify the type of forecast you want to obtain once you have built the Machine Learning models: what _kind of prediction_ should the system make? 
 Should it predict a number or a label?
 Or will it have to group new data with those most similar to it?
 Or should he predict the next content to be recommended to a user?
 
-As we saw in the guide [Introduction to ML systems](MLSystems.md), there are various ways to classify a problem related to data and learning from them, and in particular, the most important classification to frame the problem is as follows: **is the problem a supervised or unsupervised learning task?**
+As we saw in the guide [Introduction to ML systems](../../paradiso/introduction-to-ml.md), there are various ways to classify a problem related to data and learning from them, and in particular, the most important classification to frame the problem is as follows: **is the problem a supervised or unsupervised learning task?**
 
 A supervised problem is a problem in which the data we want to learn from are "labeled": for example, images labeled according to their content, or the data of a loan applicant who knows how many times he managed to repay the debt or not. 
 
@@ -33,17 +33,17 @@ An unsupervised problem is without these labels, and our "learning from data" is
 
 The type of problem we will focus on in the Purgatory guides is the "supervised" type, which are the most common problems and those faced by neural networks (very powerful and flexible Machine Learning algorithms).
 
-We will see in the section "Train and select an ML model" also some methods to deal with unsupervised problems.
+We will see in the [Machine Learning Theory](../select-and-train-machine-learning-models/machine-learning-theory.md) guide also some methods to deal with unsupervised problems.
 
 After this summary, let's see what questions we ask ourselves (and which we ask the experts of the domain) to frame a data problem.
 
 The first thing to do when dealing with a new problem is to understand what kind of data I have available. Remember, without data you're not going anywhere!
 
-### Understand the data
+## Understand the data
 
 The first thing to do, whether you are carrying out a project of corporate scope or for yourself, is to understand what kind of data you have available: the process then requires you to start from the data to formulate a problem, not the other way around! 
 
-As widely explained in Paradise, data is the only thing really necessary for the success of the project.
+As widely explained in Paradise, good-quality data is the only thing really necessary for quality of the Machine Learning system you want to train.
 
 When we look at the data we should ask ourselves the following questions:
 
@@ -58,7 +58,7 @@ When we look at the data we should ask ourselves the following questions:
   The data we have at our disposal can be of a completely different type:
 
   - **tabular data:** 
-  As the name indicates, data extracted from database tables (not necessarily relational). They are data organized in rows, have attributes and generally a way to identify them uniquely. The rows are divided into fields, which in turn can contain various types of data (numeric, textual, links to images). This type of data is also called "structured".
+  As the name indicates, data extracted from database tables (not necessarily relational). They are data organized in rows, have attributes, and generally a way to identify them uniquely. The rows are divided into fields, which in turn can contain various types of data (numeric, textual, links to images). This type of data is also called "structured".
   For example, I could have a database that collects user names, their ages, and associated tweets, in which case I would have tabular data that includes both text data (names and tweets) and numerical data (age). 
   
   - **text:** 
@@ -86,13 +86,16 @@ Videos are a fairly complex format to handle and extremely heavy from a storage 
   Time-series is a collection of data about events in time.
   This kind of data consists of historical series, such as the series of surveys of a sensor, or the history of the interactions of a social user. This type of data is useful to predict future behavior based on previous observations, such as predict whether a machine is about to break or if a user will buy a certain product.
 Time series have the concept of granularity, which is the amount of time between measurements:
-for example, we can have daily or annual data, or even a record every microsecond.
+for example, we can have daily or annual data, or even a new example recorded every microsecond.
 
 
 - **Do we know the data is raw or unclean?**
 
-By raw we mean the data as we come into possession of it. These can be clean and well-structured, or dirty and to be cleaned. 
-In general, real-world data is hardly ever clean and tidy. There may be a lack of values, they may be unstructured, they may be superficially collected! They may be of low quality (e.g. an audio file with noise) or have useless information. So generally you always have to think about the raw form in which we have the data, and what cleaning steps will be needed to make it usable by Machine Learning models. This phase (called data cleaning or data preprocessing) is vital during the Data Science process, and is often spent like this [80 percent of a Data Scientist's time](https://www.reddit.com/r/datascience/comments/bupmyf/data_scientists_spend_up_to_80_of_time_on_data/). In the Purgatorio section "Work with data" there will be an entire guide dedicated to data cleaning.
+By _raw_ we mean the data as we come into possession of it. These can be clean and well-structured, or dirty and to be cleaned. 
+
+In general, real-world data is hardly ever clean and tidy. 
+
+There may be a lack of values, they may be unstructured, they may be superficially collected! They may be of low quality (e.g. an audio file with noise) or have useless information. So generally you always have to think about the raw form in which we have the data, and what cleaning steps will be needed to make it usable by Machine Learning models. This phase (called data cleaning or data preprocessing) is vital during the Data Science process, and is often spent like this [80 percent of a Data Scientist's time](https://www.reddit.com/r/datascience/comments/bupmyf/data_scientists_spend_up_to_80_of_time_on_data/). In the Purgatorio section "Work with data" there is an entire guide dedicated to data cleaning.
 
 - **Are the data labeled or not?**
 
@@ -111,7 +114,7 @@ Labeling is a tiring and often tedious job, and it takes a lot of time to be don
 
 Services like AWS [Amazon Mechanical Turk](https://www.mturk.com/) or the Google [AI Platform Data Labeling Service](https://cloud.google.com/data-labeling/docs/) (like many other tech vendors) provide distributed groups of workers with instructions on how to label a dataset. 
 
-There are also free tools ([Annotorius](https://annotorious.github.io/), [LabelMe](http://labelme.csail.mit.edu/Release3.0/), [LabelBox](https://labelbox.com/)) that allow you to label yourself or work with a team. It's time to call your little brother and promise him 1 cookie for every 10 tagged examples.
+There are also free tools ([Annotorius](https://recogito.github.io/annotorious/), [LabelMe](http://labelme.csail.mit.edu/Release3.0/), [LabelBox](https://labelbox.com/)) that allow you to label yourself or work with a team. It's time to call your little brother and promise him 1 cookie for every 10 tagged examples.
 
 Often labeling a dataset is a complex and expensive issue, and its qualitative success is crucial to the success of the project. 
 
@@ -120,11 +123,13 @@ In this [article](https://www.kdnuggets.com/2017/06/acquiring-quality-labeled-tr
 
 - **How reliable are the labels?**
 
-To obtain high-performance Machine Learning systems it is clear that large amounts of data are needed. However, it is equally important that the data is correct, especially in supervised learning applications. Even if you have a lot of examples in your dataset, I could do very little to get acceptable performance from the ML models trained on them.
+To obtain high-performance Machine Learning systems it is clear that large amounts of data are needed. However, it is equally important that **the data is correct**, especially in supervised learning applications. Even if you have a lot of examples in your dataset, you could do very little to get acceptable performance from the ML models trained on them, if the data quality is low.
 
-The intrinsic noise of the dataset is impossible to eliminate and will affect both the training phase of the model and in the phase of predictions of new examples as well. Entrusting labeling to working groups distributed through the services of large tech vendors requires two conditions in general. 
+The intrinsic noise of the dataset _is impossible to eliminate_ and will affect both the training phase of the model and in the phase of predictions of new examples as well. 
 
-The first is that the work of labeling is simple: it is rather simple to distinguish between categories of clearly visible animals or the colors of a dress or simple sounds (if clear labeling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language (for someone who doesn't know the language).
+_Entrusting labeling to working groups distributed through the services of large tech vendors requires that the labeling task must be simple._
+
+It is rather simple to distinguish between categories of clearly visible animals or the colors of a dress or simple sounds (if clear labeling instructions are provided), it is very difficult to distinguish for example various different species of birds, or the words of a specific language (for someone who doesn't know the language).
 
 Some labeling tasks are simply not obtainable through "crowd-labeling", such as diagnosing medical images or classifying complex documents, which require a deep knowledge of the domain, and a lot of practical experience. 
 
@@ -149,7 +154,7 @@ So it means that it will happen many times that maybe we work on the data and cl
 
 But don't despair! Every time you make this kind of "mistake" (inability to assess a-priori the feasibility of an ML application) you learn a lot, and soon you'll be able to assess in advance if your efforts will be well rewarded, before spending whole nights labeling examples! 
 
-- **_How much_ data is there (number of examples, storage weight)?**
+- **_How much_ data is there (number of examples, storage requirements)?**
 
 The more data you have, the better. How many times have we already repeated it? 
 Knowing how much data you have available is crucial, and understanding how much data you need (about) to make an ML algorithm learn satisfactorily is even more important. Often the examples have to be in the tens of thousands range to get enough satisfying results, but the state of the art can usually only be achieved with hundreds of thousands of examples.
@@ -166,9 +171,9 @@ If we answer these questions, we should have a clear picture of what data we hav
 
 We can now proceed to the definition of the problem.
 
-### Set objectives and scope
+## Set objectives and scope
 
-Like any other software project, a data science project needs having a clear goal to reach.
+Like any other software project, a data science project needs to have a clear goal to reach.
 
 Formulating this objective is crucial for various reasons:
 - the success of the project
@@ -192,7 +197,7 @@ For example:
 - "I want to build a user interface that can take orders from the pizzeria and organize them according to the arrival time" is a much more defined scope.
 
 Another example:
-- "This system must help us classify all the new data that arrives".
+- "This system must help us classify all the new data that arrives"
 is too generic.
 - "This system must classify the images that users send us according to the color of the object photographed" is specific.
 
@@ -208,10 +213,10 @@ Highly recommended reading the [original paper](https://community.mis.temple.edu
 
 # Conclusions
 
-In general it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives and the most important characteristics for the system. 
+In general, it is extremely useful to produce a document summarising all the answers to the questions, so as to provide a clear view of the project as a whole, what are the final objectives, and the most important characteristics for the system. 
 
 This list is not exhaustive, and as you get a question in your head you feel free to pull a request to this file. 
 
 A Virgilio member will take over your request and enrich this guide with your contribution.
 
-**In the next guide [usage and integration](serving/purgatorio/frame-the-problem/usage-and-integration/usage-and-integration.md) we will see other key questions we have to think about, like the usage of the system, its integration, and more!**
+In the next guide [usage and integration](usage-and-integration.md) we will see other key questions we have to think about, like the usage of the system, its integration, and more!

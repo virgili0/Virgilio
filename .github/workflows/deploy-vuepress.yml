@@ -36,13 +36,17 @@ jobs:
     - name: Install npm dependencies
       working-directory: folder/repo/
       run: |
+        cd content
         npm install
         
-    - working-directory: folder/
+    - name: Vuepress build and deploy
+      working-directory: folder/
       run: |
         cd repo
         find . -type f -name "*.ipynb" -exec jupyter nbconvert --to markdown {} \;
-        npx vuepress build content
+        cd content
+        npm run build
+        cd ..
         mkdir dist
         cp content/.vuepress/dist/* dist/ -r
         cd ..

@@ -16,7 +16,7 @@ description: In this guide you'll learn the basics concepts computer science and
 
 Let's dive right in!
  
-### Why Python
+## Why Python
 
 According to Sun Tzu:
 > If you don't know Python, learn it yesterday!
@@ -46,16 +46,17 @@ There are many reasons for this success.
 
 - You can create and prototype things very quickly due to the ease of the language and availability of free libraries, packages and frameworks.
 
+**Why do you need to learn Python for doing Data Science?** 
 
-Why do you need to learn Python? 
+- Python is _necessary **and** sufficient_ for doing Data Science.
 
-Python is simple to understand, is simple to read, is powerful and flexible, can help you in everyday tasks 
+- Python is simple to understand, is simple to read, is powerful and flexible, can help you in everyday tasks 
 (even if you're not a programmer!) and automatize a lot of boring stuff.
 
-Moreover, is the core Data Science tool, and most of the frameworks we'll need in the next guides
+- Moreover, is the core Data Science tool, and most of the frameworks we'll need in the next guides
 are written in Python or have rich Python wrappers.
 
-**Note:** 
+Note on the **R programming language:** 
 
 In many Internet guides, you will find the programming language [**R**](https://www.r-project.org/) recommended for Data Science.
 
@@ -80,7 +81,7 @@ What does this mean? that R is useless? Certainly not!
 
 Indeed, it is recognized that its data visualization and statistical capabilities are useful and powerful... But really, if you're starting your path in Data Science today, start with Python, you can learn R later!
 
-### Computer Science Fundamentals
+## Computer Science Fundamentals
 
 Virgilio targets mainly those who have programming basics but have never touched the field of Data Science.
 
@@ -102,7 +103,7 @@ On the other hand, we remember that Data Science is nothing more than mathematic
 
 So, it's worth spending time becoming very comfortable with Python.
 
-### Learn Python 
+## Learn Python 
 
 But _how can you learn_ Python?
 
@@ -156,11 +157,14 @@ Here you can find a very good Python Cheatsheet, hold it with you!
 
 [**Python Cheatsheet**](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_all.pdf)
 
-### Develop Small Projects
+## Develop Small Projects
 
-First of all: [**Read this post from r/LearnProgramming**](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/), and let it sink into your mind
+First of all, read this post from r/LearnProgramming:
+- [The Best Way To Learn How To Code](https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/)
 
+::: tip
 **The biggest lesson in the world of programming is the following: the best way to learn is getting your hands dirty!**
+:::
 
 Of course, to start with it makes sense to follow tutorials and guides (better still a structured book), but you need to experiment, make mistakes, and re-iterate this process to **to be really able to improve** your coding skills.
 
@@ -174,7 +178,7 @@ If you lack imagination don't worry, here you have a list of 1000+ project ideas
 
 Having a project keeps you motivated, don't underestimate it!
 
-### Learn Git and GitHub
+## Learn Git and GitHub
 
 Git is a versioning system that allows you to always have every change in your code under control, be able to go back, and be sure that your code will never be lost!
 
@@ -203,7 +207,7 @@ Documenting well your work with Git is crucial: read [How to Write a Git Commit 
 **Must read:**
 [**Ten Simple Rules for Taking Advantage of Git and GitHub**](http://dx.plos.org/10.1371/journal.pcbi.1004947)
 
-### Ask Questions
+## Ask Questions
 A rule of thumb to learn fast and effectively is to ask questions and read other's questions and answers.
 
 Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
@@ -228,15 +232,15 @@ Other good places to post and read (well structured) questions are:
 - [Quora](https://www.quora.com/)
 - [Math Stack Exchange](https://maths.stackexchange.com)
 
-### Conclusions
+## Conclusions
 
 The path to becoming a good programmer is long and requires commitment and dedication, but it will give you satisfaction (and value) like very few other things in life!
 
-Programming is creativity, problem-solving, art! 
+_Programming is creativity, problem-solving, art!_ 
 
-If you follow the advice of this guide you won't have any problem to become proficient with Python, and moreover, you will have learned the main concepts of programming:
+If you follow the advice of this guide you won't have any problem to become proficient with Python, and moreover, you will have learned the main concepts of programming!
 
-This means that to learn another language, the biggest obstacle will be to learn the syntax, but the concepts will remain more or less the same!
+This means that **to learn another language, the biggest obstacle will be to learn the syntax**, but the concepts will remain more or less the same!
 
-In the next guide we will see how to use the Jupyter Notebooks, a Python application designed specifically for Data Science and experimental programming!
+In the next guide we will see how to use the **Jupyter Notebooks**, a Python application designed specifically for Data Science and experimental programming!
 

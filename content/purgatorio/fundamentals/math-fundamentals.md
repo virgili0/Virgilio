@@ -15,14 +15,15 @@ description: In this guide, you'll learn what is the fundamental mathematical kn
 
 Let's dive right in!
  
-### Motivation
+## Motivation
 
-Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM
-) and then [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
+Before anything else, watch [this](https://www.youtube.com/watch?v=VIbjHIGMjQM) and then [this](https://www.youtube.com/watch?v=8CX-Q0gtSp8) awesome Ted Talks :-)
 
 **The entire field of Data Science is based on mathematics and statistics.**
 
+::: warning
 This phrase shouldn't frighten you, although you may find out, that you probably have much of the knowledge you need to start experimenting!
+:::
 
 **In fact:** 
 
@@ -32,7 +33,7 @@ In general, if you have a scientific degree (engineering, computer science, phys
 
 Whatever your starting level, however, it is still recommended to go through all the resources organized here, _to make sure you do not have "gaps in your knowledge"._
 
-Remember to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](teaching.md)
+Remember to read and try to implement some ideas of the [**Virgilio's Learning Strategy - Learning to Learn**](../../paradiso/virgilio-teaching-strategy.md)
 
 ## Courses
 ### Calculus
@@ -68,11 +69,14 @@ Once you will feel ready to go deeper inside the mathematics for Machine Learnin
 
 #### Check your knowledge
 
-Test your knowledge with [**these**](http://webmath2.unito.it/paginepersonali/cordero/English/derivatives.pdf) exercises.
+Test your knowledge with these exercises: 
 
-Anyway you can find a ton of them online, and remember, that the more you practise, the better you will get!
+- [Exercises in Calculus](http://www.math.mcgill.ca/rags/JAC/dobson/dobson.html)
+- [Calculus: practice problems](https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx)
 
-### Linear Algebra and Matrix Algebra
+Anyway, you can find a ton of them online, and remember, that the more you practice, the better you will get!
+
+## Linear Algebra and Matrix Algebra
 
 The second macro-topic on which Machine Learning systems are based is [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra).
 
@@ -94,28 +98,23 @@ Now, fortunately, there are incredibly skilled and intelligent people in the wor
 
 [**Immersive math - Linear Algebra**](http://immersivemath.com/ila/index.html)
 
-Once you click on the link and start exploring this interactive book, you won't believe your eyes for the clarity and effectiveness with which the concepts are explained. 
+[**Interactive Linear Algebra**](https://textbooks.math.gatech.edu/ila/index.html)
 
-This book currently contains so much information and so well done that it deserves a front-row seat in Virgilio!
+Once you click on the link and start exploring these interactive books, you won't believe your eyes for the clarity and effectiveness with which the concepts are explained. 
 
-Take your time, explore the book, fall in love with those interactive explanations!
+These books currently contain so much information and so well done that it deserves a front-row seat in Virgilio!
 
-Going through this would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
+Take your time, explore the books, fall in love with those interactive explanations!
 
-Note:
-Chapter 6 is about Matrix Algebra, and it's indeed very good (like the rest of the book), but we are **very proud** of [**_Virgilio's official Matrix Algebra guide_**](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb), and we suggest you use both resources! 
-
-Moreover, Virgilio's guide to Matrix Algebra is an _interactive Jupyter Notebook_, with exercises included!
-
-We suggest to go through this latter resource once (or if) you are already practicing with the [Python](https://www.python.org/) programming language. 
+Going through these would be sufficient to get all the remaining knowledge you need from a mathematical perspective, to understand most of the papers and code out there!
 
 #### Check your knowledge
 
 Test your knowledge with [**these**](https://web.pdx.edu/~erdman/LINALG/Linalg_pdf.pdf) exercises.
 
-Anyway you can find a ton of them online, and remember, _that the more you practise, the better you will get_!
+Anyway, you can find a ton of them online, and remember, _that the more you practice, the better you will get_!
 
-### Optimization
+## Optimization
 
 Calculus, Linear Algebra, and Matrix Algebra are the 3 fundamental pillars you need to be confident with in order to understand most of the mathematical implications of Machine Learning systems.
 
@@ -129,7 +128,7 @@ Moreover, if you want to dive deeper (very deep), you can hold this close to you
 
 [The Convex Optimization Book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) (advanced book)
 
-### Ask Questions
+## Ask Questions
 A rule of thumb to learn fast and effectively is to ask questions and read other's questions and answers.
 
 Join communities of people interested in the topic (e.g. Reddit): here you can find discussions, search by keywords (e.g. "matrix multiplication"), and ask questions, with experts who will answer and help you.
@@ -153,9 +152,9 @@ Two other good places to post (well structured) questions are:
 - [Quora](https://www.quora.com/)
 - [Math Stack Exchange](https://maths.stackexchange.com)
 
-### Conclusions
+## Conclusions
 
-If you follow the study plan of the guide, take the time to fully understand the proposed courses, and do exercises, you will be equipped with an excellent basic knowledge of mathematics that is needed to do projects of Data Science, and in particular, build predictive models of Machine Learning.
+If you follow the study plan of the guide, take the time to fully understand the proposed courses, and do exercises, you will be equipped with an **excellent basic knowledge of mathematics** that is needed to do projects of Data Science, and in particular, build predictive models of Machine Learning.
 
 This is because _to implement_ a lot of Machine Learning applications we can often abstract ourselves from low-level details, such as the operations between matrices or the internal functioning of optimization algorithms, even if it is vital to know the principles that govern their functioning.
 
