@@ -14,6 +14,13 @@
   <a href="paradiso/demystification-ai-ml-dl" title="Demystification AI ML DL" style="position: absolute; left: 16.95%; top: 53.59%; width: 5.55%; height: 3.13%; z-index: 2;"></a>
 </div>
 
+<div style="position: relative;">
+  <img src="inferno_basic.png">
+  <a href="inferno/computer-vision/introduction-to-computer-vision" title="Introduction to CV" style="position: absolute; left: 27.58%; top: 46.41%; width: 7.73%; height: 6.72%; z-index: 2;"></a>
+</div>
+
+
+
 Your new Mentor for Data Science E-Learning.
 
 Virgilio is an open source initiative, aiming to mentor and guide anyone in the world of Data Science and Machine Learning.
