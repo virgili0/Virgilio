@@ -120,19 +120,3 @@ Written by _author_
 If you are going to create a Pull Request, regardless of the reason, please take the time to give the PR a concise, relevant title (less than 50 characters) and write a descriptive, informative summary in the larger text field. This will let us review your PR faster, instead of having to first interpret what you did, and then decide if the changes are any good (which they probably are!).
 
 We are very interested in having people help us! That is the point of a community! But we would rather not spend hours trying to decipher the changes you made.
-
-## Frontend
-
-To contribute and develop on the frontend:
-
-- Install NodeJS and npm
-- Clone the repository and cd into it
-
-```
-npm install
-npx vuepress dev
-```
-
-Sidebar is configured in `.vuepress/config.js`.
-
-Your local version of the website is live at `localhost:8080`. To deploy the build on the master branch: `npm run deploy`.
