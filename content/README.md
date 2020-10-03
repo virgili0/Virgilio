@@ -1,9 +1,6 @@
 # <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div> 
  <div class="subtitle">Your new Mentor for Data Science E-Learning.</div>
 
-<a href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a>
-
-
 <!-- 
      Responsive Image Map 
      https://www.zaneray.com/responsive-image-map/
