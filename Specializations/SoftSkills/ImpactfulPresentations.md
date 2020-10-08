@@ -49,6 +49,8 @@ No one! But read [this book](https://www.amazon.it/Pyramid-Principle-BarbaraMint
    - [Don’t read](#Don’t-read)
    - [Be intriguing](#Be-intriguing)
    - [Use humor](#Use-humor)
+   - [Do not tell lies](#Do not tell lies)
+   - [Take care with contradictions](#Take care with contradictions)
    - [The Pragmatic Storyteller](#The-Pragmatic-Storyteller)
  
 Let's dive right in!
@@ -107,6 +109,12 @@ The best way to attract people is to grab their attention. Doing this it's not s
 ### Use humor
 If you're here, it's mostly because I've been intrigued and caught your attention. A big part of this game has been played by humor.
 [Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speeches.
+
+### Do not tell lies.
+Nowadays is very easy check a lot of information. Always be sure your information is true. When the audience know or figure out your information is false, they disconnect from you and you lose your credibility.
+
+### Take care with contradictions.
+Check before start all your speech is connect and have not contradictions. Say something and a few minutes later say the opposite is very bad for your credibility. Always take care with that.
 
 ### The Pragmatic Storyteller
 A sunny morning, in the 44 B.C.
