@@ -1,6 +1,6 @@
 ---
 title: Data Visualization
-author: clone95
+author: clone95, neomatrix369
 description: The purpose of this guide is to show you the importance of data visualization and why it's so useful when working with data.
 ---
 
@@ -51,6 +51,12 @@ Another piece of dense knowledge, with exceptional conciseness and "father" of e
 I assume you know [basic Python](https://github.com/clone95/Virgilio/blob/master/NewToDataScience/PythonBasic.md).
 
 Each content listed here **is not** tool-specific (apart from "tools", did you ever imagine that?).
+
+Data visualisation is NOT a step, in fact it is a part of every data and machine learning related step, we start with it, we do it at every step, before and after and we finish with it. See other visualisation steps across the Data science process (pipelines):
+- [Visualisations during Data Collection](https://github.com/virgili0/Virgilio/blob/dev/content/purgatorio/collect-and-prepare-data/data-collection.md#visualization)
+- [Visualisations during Data Preparation](https://github.com/virgili0/Virgilio/blob/dev/content/purgatorio/collect-and-prepare-data/data-preparation.md#visualization)
+- [Visualisations during Exploratory Data Analysis](https://github.com/virgili0/Virgilio/blob/dev/content/purgatorio/collect-and-prepare-data/exploratory-data-analysis.md#visualization)
+- [Visualisations during Feature Engineering](https://github.com/virgili0/Virgilio/blob/dev/content/purgatorio/collect-and-prepare-data/feature-engineering.md#visualization)
 
 ### Legolas, how do your elf eyes see?
 What do I intend with Data Visualization?\
