@@ -1,6 +1,6 @@
 ---
 title: Data Preparation
-author: clone95
+author: clone95, neomatrix369
 description: The purpose of this guide is to show you the different preprocessing steps you need to apply to your data before feeding them to Machine Learning models.
 ---
 
@@ -29,6 +29,7 @@ The purpose of this guide is to show you the importance of theese steps, mostly 
   - [Data Discretization](#Data-Discretization)
   - [Feature Scaling](#Feature-Scaling)
   - [Data Cleaning Tools](#Data-Cleaning-Tools)
+- [Visualization](#Visualization)
 - [Merge Data Sets and Integration](#Merge-Data-Sets-and-Integration)
 - [Sanity Check](#Sanity-Check)
 - [Automate These Boring Stuffs!](#Automate-These-Boring-Stuffs!)
@@ -155,6 +156,13 @@ _Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleani
 
 ### Data Cleaning Tools
 You're not going to hunt tigers without a rifle! You have a ton of tools out there that will help you during the data cleaning process, the one I want to suggest you is [this](https://www.analyticsindiamag.com/10-best-data-cleaning-tools-get-data/) open source tool from Google. Check [here](https://www.quora.com/What-are-the-best-open-source-data-cleansing-tools-software-available) for more.  
+
+### Visualization
+
+(visualization during data preparation process: before, during and after)
+.
+.
+.
 
 ### Merge Data Sets and Integration
 Now that you hopefully have been successful in your data cleaning process, you can merge data from different source to create big [de-normalized](https://www.researchgate.net/post/When_and_why_do_we_need_data_normalization_in_data_mining_algorithms) data tables, ready to be explored and consumed. [This](https://www.quora.com/Is-data-warehouse-normalized-or-denormalized-Why) is why.
