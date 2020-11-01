@@ -39,6 +39,7 @@ We will see these additional complexities in the section [Time Series Addtional 
 Now that you know why it's important to know how to work with time series, it's time to start seeing them in practice! 
 
 ## Introduction To Time Series
+#### Know the Time Series Data Structure
 
 The first resources Virgilio recommends to get you started are the following:
 
@@ -51,9 +52,37 @@ After you've gone through them, you should understand how to write **"idiomatic 
 
 - [Modern Pandas](https://tomaugspurger.github.io/modern-7-timeseries)
 
+#### Machine Learning with Time Series Data
 
+Learning to manipulate time data with Pandas is mandatory, and the Pandas DataFrame structure is the natural landing place for this type of data. However, due to the "sequential" nature of the data type, the DataFrame has some structural limitations, because it is designed for more classic tabular data. 
+
+To overcome these limitations, the [Alan Turing Institute](https://www.turing.ac.uk/) has developed a special version of Scikit-Learn, [Sktime](https://github.com/alan-turing-institute/sktime), using a specific .ts format to load time series data into Pandas DataFrames. 
+
+From the docs: 
+> sktime is a Python machine learning toolbox for time series with a unified interface for multiple learning tasks. 
+>sktime provides dedicated time series algorithms and scikit-learn compatible tools for building, tuning, and evaluating composite models. 
+>
+>We currently support:
+>- Forecasting
+>- Time series classification
+>- Time series regression
+>
+>For deep learning methods, see our companion package: [sktime-dl](https://github.com/sktime/sktime-dl).
+
+To get started with SKtime get through the following resourse:
+
+- [SKTime - How to get started](https://www.sktime.org/en/latest/how_to_get_started.html)
+- [Loading data in SKTime](https://www.sktime.org/en/latest/examples/loading_data.html)
+- [SKTime - Examples](https://github.com/alan-turing-institute/sktime/tree/master/examples)
+
+These are the basic tools you need to know in order to work with time series in Python. 
+
+In the last section of the guide we'll see some other useful Python libraries which integrate well with SKTime and the .ts data type, but before that, let's have a look at what type of problem you can solve within the time series domain.
 
 ## Time Series Tasks Overview
+
+
+
 ### Time Series Analysis
 http://people.duke.edu/~rnau/411home.htm
 ### Time Series Forecasting
