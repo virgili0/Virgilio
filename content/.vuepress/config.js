@@ -153,6 +153,15 @@ module.exports = {
                         ]
                 },
                 {
+                    title: 'Soft Skills', // required
+                    //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                    collapsable: false, // optional, defaults to true
+                    sidebarDepth: 1, // optional, defaults to 1
+                    children: [
+                        'inferno/soft-skills/impactful-presentations',
+                    ]
+            },
+                {
                         title: 'Research', // required
                         //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
                         collapsable: false, // optional, defaults to true

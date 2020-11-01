@@ -12,7 +12,7 @@ description: This guide aims to show you the Data Science applications you can b
     - [Time Series Analysis](#Time-Series-Analysis)
     - [Time Series Forecasting](#Time-Series-Forecasting)
     - [Time Series Classification](#Time-Series-Classification)
-    - [Anomaly Detection](#Anomaly-Detection)
+    - [Detecting Anomalies in Time Series](#Detecting-Anomalies-in-Time-Series)
 - [Some Useful Techniques](#Some-Useful-Techniques)
 - [Time Series Addtional Challenges](#Time-Series-Addtional-Challenges)
 
@@ -37,3 +37,27 @@ It is also considered one of the most "difficult" types of data to manage, since
 We will see these additional complexities in the section [Time Series Addtional Challenges](#Time-Series-Addtional-Challenges).
 
 Now that you know why it's important to know how to work with time series, it's time to start seeing them in practice! 
+
+## Introduction To Time Series
+
+The first resources Virgilio recommends to get you started are the following:
+
+- [Tutorial: Time Series Analysis with Pandas](https://www.dataquest.io/blog/tutorial-time-series-analysis-with-pandas/)
+- [Working with Time Series](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+
+These are an exhaustive introduction to the type of "time" data, how it is manipulated with Pandas (indexing, transformation, visualization).
+
+After you've gone through them, you should understand how to write **"idiomatic Pandas"** for time series, and you can find a tutorial (section 7 of [Modern Pandas](https://tomaugspurger.github.io/modern-1-intro)) here: 
+
+- [Modern Pandas](https://tomaugspurger.github.io/modern-7-timeseries)
+
+
+
+## Time Series Tasks Overview
+### Time Series Analysis
+http://people.duke.edu/~rnau/411home.htm
+### Time Series Forecasting
+
+https://otexts.com/fpp2/
+### Time Series Classification
+## Detecting Anomalies in Time Series
