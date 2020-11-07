@@ -14,15 +14,15 @@ The purpose of this guide is to show you the importance of theese steps, mostly 
   - [Select and Treat All Blank Cells](#Select-and-Treat-All-Blank-Cells)
   - [Convert Values Type](#Convert-Values-Type)
   - [Remove Duplicates](#Remove-Duplicates)
-  - [Change Text to Lower/Upper Case](#Change-Text-to-Lower/Upper-Case)
   - [Spell Check](#Spell-Check)
   - [Dealing with Special Characters](#Dealing-with-Special-Characters)
-  - [Normalizing Dates](#Normalizing-Dates)
   - [Verification To Enrich Data](#Verification-To-Enrich-Data)
   - [Data Discretization](#Data-Discretization)
-  - [Feature Scaling](#Feature-Scaling)
   - [Data Cleaning Tools](#Data-Cleaning-Tools)
 - [Data Preprocessing / Data wrangling / Data manipulation](#Data-Preprocessing)
+  - [Change Text to Lower/Upper Case](#Change-Text-to-Lower/Upper-Case)
+  - [Normalizing Dates](#Normalizing-Dates)
+  - [Feature Scaling](#Feature-Scaling)
 - [Data Profiling](#Data-Profiling)
 - [Don't Joke With Data](#Don't-Joke-With-Data)
 - [Business Questions](#Business-Questions)
@@ -60,9 +60,6 @@ _Best practices and exercises:_ [1](https://www.kaggle.com/nirmal51194/data-clea
 ###  Remove Duplicates
 You don't want to duplicate data, they both are noise and occupy space! Learn [how to handle them simply](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) with Pandas.
 
-###  Change Text to Lower/Upper Case
-You want to _Capitalize_ names, or maybe make them uniform (some people can enter data with or without capital letters!). Check [here](https://www.geeksforgeeks.org/python-pandas-series-str-lower-upper-and-title/) for the Pandas way to do it.
-
 ###  Spell Check
 You want to correct wrong words, for the sake of evenness. Check [here](https://www.tutorialspoint.com/python/python_spelling_check.htm) for a good Python module to do it. Also, this is a good starting point to [implement it](https://stackoverflow.com/questions/46409475/spell-checker-in-pandas). 
 
@@ -78,11 +75,6 @@ UTF-encoding is the standard to follow, but remember that not everyone follows t
 
 _Best practices and exercises:_ [1](https://www.w3resource.com/python-exercises/python-basic-exercise-92.php), [2](https://stackoverflow.com/questions/22518703/escape-sequences-exercise-in-python?rq=1), [3](https://learnpythonthehardway.org/book/ex2.html)
 
-###  Normalizing Dates
-I think there could be one hundred ways to write down a date. You need to decide your format and make them uniform across your dataset, and [here](https://medium.com/jbennetcodes/dealing-with-datetimes-like-a-pro-in-pandas-b80d3d808a7f) you learn how to do it.
-
-_Best practices and exercises:_ [1](https://www.w3resource.com/python-exercises/python-conditional-exercise-41.php), [2](https://www.w3resource.com/python-exercises/date-time-exercise/), [3](https://www.kaggle.com/anezka/data-cleaning-challenge-parsing-dates)
-
 ###  Verification to enrich data
 Sometimes can be useful to engineer some data, for example: suppose you're dealing with [e-commerce data](https://www.edataindia.com/why-data-cleansing-is-important/), and you have the prices of each object sold. You may want to add a new column in your dataset, with a label carrying handy information like a Price_level [low, medium, high] based on upper and lower bounds you can decide. This is really simple in Pandas, check [here](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column). Another example is to add a Gender column (M, F) to easily explore data and gain insights in a customers dataset.
 
@@ -92,12 +84,6 @@ _Best practices and exercises:_ [1](http://www.inweb.org.br/w3c/dataenrichment/)
 Many Machine Learning and Data Analysis methods cannot handle continuous data, and dealing with them can be computationally prohibitive. [Here](https://www.youtube.com/watch?v=TF3_6lwITQg) you find a good video explaining why and how you need to discretize data.
 
 _Best practices and exercises:_ [1](https://www.researchgate.net/post/What_are_the_best_methods_for_discretization_of_continuous_features), [2](https://towardsdatascience.com/discretisation-using-decision-trees-21910483fa4b), [3](https://docs.microsoft.com/en-us/sql/analysis-services/data-mining/discretization-methods-data-mining)
-
-### Feature Scaling
-Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
-[Here](Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.) you find a serious tutorial about this fundamental step.
-
-_Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleaning-challenge-scale-and-normalize-data), [2](https://www.quora.com/When-should-you-perform-feature-scaling-and-mean-normalization-on-the-given-data-What-are-the-advantages-of-these-techniques), [3](https://www.quora.com/When-do-I-have-to-do-feature-scaling-in-machine-learning)
 
 ### Data Cleaning Tools
 You're not going to hunt tigers without a rifle! You have a ton of tools out there that will help you during the data cleaning process, the one I want to suggest you is [this](https://www.analyticsindiamag.com/10-best-data-cleaning-tools-get-data/) open source tool from Google. Check [here](https://www.quora.com/What-are-the-best-open-source-data-cleansing-tools-software-available) for more.  
@@ -116,7 +102,21 @@ As usual the structure I've planned to get you started consists of having a [gen
 
 [Here](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) you have a gentle end-to-end panoramic view of the entire process.
 
-### Data Profiling
+###  Change Text to Lower/Upper Case
+You want to _Capitalize_ names, or maybe make them uniform (some people can enter data with or without capital letters!). Check [here](https://www.geeksforgeeks.org/python-pandas-series-str-lower-upper-and-title/) for the Pandas way to do it.
+
+###  Normalizing Dates
+I think there could be one hundred ways to write down a date. You need to decide your format and make them uniform across your dataset, and [here](https://medium.com/jbennetcodes/dealing-with-datetimes-like-a-pro-in-pandas-b80d3d808a7f) you learn how to do it.
+
+_Best practices and exercises:_ [1](https://www.w3resource.com/python-exercises/python-conditional-exercise-41.php), [2](https://www.w3resource.com/python-exercises/date-time-exercise/), [3](https://www.kaggle.com/anezka/data-cleaning-challenge-parsing-dates)
+
+### Feature Scaling
+Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
+[Here](Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.) you find a serious tutorial about this fundamental step.
+
+_Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleaning-challenge-scale-and-normalize-data), [2](https://www.quora.com/When-should-you-perform-feature-scaling-and-mean-normalization-on-the-given-data-What-are-the-advantages-of-these-techniques), [3](https://www.quora.com/When-do-I-have-to-do-feature-scaling-in-machine-learning)
+
+# Data Profiling
 According to the (cold as ice) [Wikipedia definition](https://en.wikipedia.org/wiki/Data_profiling): "Data profiling is the process of examining the data available from an existing information source (e.g. a database or a file) and collecting statistics and informative data summaries."\
 So Wikipedia is subtly suggesting us to take a coffee with the data. 
 
