@@ -170,7 +170,7 @@ Then there is also ethics you do not want to miss out on and [the section to fol
 
 With rising concerns over _privacy_ and _bias_, you want to be sure that the data collected does respect the ethics and standards in this field as much as possible.
 
-To help with that as the awareness about things are improving, there are a lot of resources available, one such place to start would be [here](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/naster/README-details.md#ethics--altruistic-motives). One of the resources mentioned there is that of a python package called [Deon](https://pypi.org/project/deon/). Interestingly it has a _digital checklist_ you can consult and see if they apply to what you are about to do.
+To help with that as the awareness about things are improving, there are a lot of resources available, one such place to start would be [here](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#ethics--altruistic-motives). One of the resources mentioned there is that of a python package called [Deon](https://pypi.org/project/deon/). Interestingly it has a _digital checklist_ you can consult and see if they apply to what you are about to do.
 
 #### Interpretability / Explainability
 
