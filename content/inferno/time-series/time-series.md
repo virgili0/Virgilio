@@ -8,10 +8,14 @@ description: This guide aims to show you the Data Science applications you can b
 
 - [Time Is Money](#Time-Is-Money)
 - [Introduction To Time Series](#Introduction-To-Time-Series)
-- [Time Series Tasks Overview](#Time-Series-Tasks-Overview)
+- [Time Series Problems Overview](#Time-Series-Problems-Overview)
     - [Time Series Analysis](#Time-Series-Analysis)
     - [Time Series Forecasting](#Time-Series-Forecasting)
     - [Time Series Classification](#Time-Series-Classification)
+    - [Time Series Forecasting as a Classification Problem](#Treating-Time-Series-Forecasting-as-a-Classification-Problem)
+    - [Time Series Classification as Image Classification](#Time-Series-Classification-as-Image-Classification)
+    - [The Matrix Profile](#The-Matrix-Profile)
+
 
 **Disclaimer!**
 
@@ -49,7 +53,7 @@ After you've gone through them, you should understand how to write **"idiomatic 
 
 - [Modern Pandas](https://tomaugspurger.github.io/modern-7-timeseries)
 
-## Time Series Tasks Overview
+## Time Series Problems Overview
 
 In the next sections we see what are the main problems that can be solved with time series data.
 
@@ -86,7 +90,7 @@ These are the basic tools you need to know in order to work with time series in 
 
 In the last section of the guide we'll see some other useful Python libraries which integrate well with SKTime and the .ts data type, but before that, let's have a look at what type of problem you can solve within the time series domain.
 
-### Time Series Analysis
+## Time Series Analysis
 
 Imagine you are working as Data Scientist, and you are asked to do _"something useful"_ not better specified. Your first intuition must be, as with any type of data, to understand the dataset and the type of information it brings with it.
 
@@ -108,6 +112,12 @@ Eventually, you can use this _very deep_ book as reference:
 
 - [Time Series Analysis and Its Applications](https://www.stat.pitt.edu/stoffer/tsa4/tsa4.pdf)
 
+::: tip
+Be sure to check the [The Matrix Profile](#The-Matrix-Profile) section, you won't be disappointed! 
+
+In fact this **extremely useful** method gives you invaluable insights about patterns in your times series data!
+:::
+
 Virgilio is _pretty sure_ that these 3 resources and the book can give you a **very detailed** preparation on the topic, so be sure to take the time that's needed to digest them very well! 
 
 Some educational videos can be found:
@@ -122,7 +132,8 @@ Some other links that can help you are the following:
 - [Time Series Analysis in Python - Getting Started](https://www.kaggle.com/getting-started/54280)
 - [Learning Time Series Analysis](https://www.reddit.com/r/datascience/comments/9k9xct/learning_time_series_analysis/)
 
-### Time Series Forecasting
+
+## Time Series Forecasting
 
 The most classic of the problems related to time series is that of predicting the future values of the series.
 
@@ -167,7 +178,28 @@ It works best with time series that have strong seasonal effects and several sea
 
 Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
-### Time Series Classification
+
+## Time Series Forecasting as a Classification Problem
+
+A very useful approach to keep in mind when working with time series forecasting is to _treat the problem of forecasting as a classification problem._
+
+In fact, if treated in this way, it can be "simplified at will" and so be faced with a simpler problem to solve! 
+
+For example, **preventing the exact price** of Apple shares tomorrow could be a very difficult challenge, but fortunately it is a problem that can be _"simplified"_!
+
+An effective way to simplify this problem is to divide the space of tomorrow's possible prices (in terms of % variation) into bins! 
+
+For example with 20 bins, the classes would be: [-100%, -90%], [-90%,-80%]....the other bins...[+80%, +90%], [+90%,+100%].
+
+**This type of multiclass classification can be simplified "at will" **, even going so far as to classify whether tomorrow the price will be higher or lower than today (binary classification, 2 bins).
+
+If you think about it, if you can hardly get a performance model for the simplest (binary) classification, you don't have much hope to predict the _exact value_ of the shares the next day!
+
+This brings us to the next section of the guide, where you will learn how to deal with time series classification problems.
 
 
-### Conclusions
+## Time Series Classification
+
+## The Matrix Profile
+
+## Conclusions
