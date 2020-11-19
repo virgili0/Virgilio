@@ -12,14 +12,15 @@ description: This guide aims to show you the Data Science applications you can b
     - [Time Series Analysis](#Time-Series-Analysis)
     - [Time Series Forecasting](#Time-Series-Forecasting)
     - [Time Series Classification](#Time-Series-Classification)
-    - [Time Series Forecasting as a Classification Problem](#Treating-Time-Series-Forecasting-as-a-Classification-Problem)
-    - [Time Series Classification as Image Classification](#Time-Series-Classification-as-Image-Classification)
+    - [Time Series Forecasting as a Classification Problem](#Time-Series-Forecasting-as-a-Classification-Problem)
     - [The Matrix Profile](#The-Matrix-Profile)
+    - [Automatic Time Series Feature Extraction](#Automatic-Time-Series-Feature-Extraction)
+- [Conclusions](#Conclusions)
 
 
 **Disclaimer!**
 
-This guide is not intended to be exhaustive of everything you can do with time series data, but to offer you a good overview of the possible approaches you can take or things you should check when dealing them. 
+This guide is not intended to be exhaustive of everything you can do with time series data, but to offer you a good overview of the possible approaches you can take or things you should check when dealing with them. 
 
 Having that said, let's begin!
 
@@ -27,15 +28,15 @@ Having that said, let's begin!
 
 Whether it is the sale of products, the estimated production of an agricultural field, or the forecast of any activity of a company, time series are an indispensable type of data, which has been used for thousands of years to inform the activities to be done **today**, based on what will happen **tomorrow**. 
 
-In fact, a good estimate in the future of any interest factor, can bring a great saving of time (and money)! 
+A good estimate of the future, for a company, can bring a great saving of time (and money)! 
 
 If you ask any manager will tell you that _time is even more important than money_, because you can convert time into money, _but the opposite is not possible!_ 
 
 Learning to work with time series is a very valuable skill in the real world, and applicable to many situations and problems. 
 
-It is also considered one of the most "difficult" types of data to manage, since _it has additional complexities_ compared to more traditional data such as tabular data or text.
+It is also considered one of the most "difficult" types of data to manage since _it has additional complexities_ compared to more traditional data such as tabular data or text.
 
-We will see these additional complexities in the section [Time Series Addtional Challenges](#Time-Series-Addtional-Challenges).
+We will see these additional complexities in the section [Time Series Additional Challenges](#Time-Series-Addtional-Challenges).
 
 Now that you know why it's important to know how to work with time series, it's time to start seeing them in practice! 
 
@@ -55,15 +56,15 @@ After you've gone through them, you should understand how to write **"idiomatic 
 
 ## Time Series Problems Overview
 
-In the next sections we see what are the main problems that can be solved with time series data.
+In the next sections, we see what are the main problems that can be solved with time series data.
 
 ::: warning
 Be aware that this is not an exhaustive list, and you should consider it only _a starting point!_ 
 :::
 
-Once you have identified a problem that you are really interested in solving, you need to find papers that talk about the state of the art of that problem and go deeper!
+Once you have identified a problem that you are interested in solving, you need to find papers that talk about the state of the art of that problem and go deeper!
 
-In fact it is always true that there is not a silver bullet that solves every problem, remember the [No Free Lunch Theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).
+It is always true that there is not a silver bullet that solves every problem, remember the [No Free Lunch Theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).
 
 Learning to manipulate time data with Pandas is mandatory, and the Pandas DataFrame structure is the natural landing place for this type of data. However, due to the "sequential" nature of the data type, the DataFrame has some structural limitations, because it is designed for more classic tabular data. 
 
@@ -86,36 +87,36 @@ To get started with SKtime get through the following resourse:
 - [Loading data in SKTime](https://www.sktime.org/en/latest/examples/loading_data.html)
 - [SKTime - Examples](https://github.com/alan-turing-institute/sktime/tree/master/examples)
 
-These are the basic tools you need to know in order to work with time series in Python. 
+These are the basic tools you need to know to work with time series in Python. 
 
 In the last section of the guide we'll see some other useful Python libraries which integrate well with SKTime and the .ts data type, but before that, let's have a look at what type of problem you can solve within the time series domain.
 
 ## Time Series Analysis
 
-Imagine you are working as Data Scientist, and you are asked to do _"something useful"_ not better specified. Your first intuition must be, as with any type of data, to understand the dataset and the type of information it brings with it.
+Imagine you are working as a Data Scientist, and you are asked to do _"something useful"_ not better specified. Your first intuition must be, as with any type of data, to understand the dataset and the type of information it brings with it.
 
 This process, often called *"analysis"*, is fundamental before any other, for example before trying to make predictions about future values.
 
-The path Virglio suggests is as follows: 
+The path Virgilio suggests is as follows: 
 
 First of all, take this free and extremely complete course that introduces you to time series analysis:
 
 - [**Introduction to Time Series Analysis**](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm)
 
-Once you're done with this, you can expand your knowledge with these following (extremely detailed) resources. 
+Once you're done with this, you can expand your knowledge with the following (extremely detailed) resources. 
 
 - [Eberly College of Science - Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
-- [Statistical forecasting: notes on regression and time series analysis](http://people.duke.edu/~rnau/411home.htm)
+- [Statistical forecasting: Notes on regression and time series analysis](http://people.duke.edu/~rnau/411home.htm)
 - [Modern Time Series Analysis](https://www.youtube.com/watch?v=v5ijNXvlC5A&t=9627s&ab_channel=Enthought)
 
-Eventually, you can use this _very deep_ book as reference:
+Eventually, you can use this _very deep_ book as a reference:
 
 - [Time Series Analysis and Its Applications](https://www.stat.pitt.edu/stoffer/tsa4/tsa4.pdf)
 
 ::: tip
 Be sure to check the [The Matrix Profile](#The-Matrix-Profile) section, you won't be disappointed! 
 
-In fact this **extremely useful** method gives you invaluable insights about patterns in your times series data!
+This **extremely useful** method gives you invaluable insights about patterns in your times series data!
 :::
 
 Virgilio is _pretty sure_ that these 3 resources and the book can give you a **very detailed** preparation on the topic, so be sure to take the time that's needed to digest them very well! 
@@ -152,11 +153,11 @@ The first and most important resource in time series forecasting is the followin
 
 - [**Forecasting: Principles And Practice**](https://otexts.com/fpp2/)
 
-The textbook uses R examples throught the lessons, but it's not mandatory to learn R in order to use it! 
+The textbook uses R examples throughout the lessons, but it's not mandatory to learn R to use it! 
 
-In fact, the advice Virgilio gives you is to try to follow the lessons **translating** the R code to Python code, obviously helping you with Google and all the resources at your disposal!
+The advice Virgilio gives you is to try to follow the lessons **translating** the R code to Python code, obviously helping you with Google and all the resources at your disposal!
 
-In this way you'll learn a lot about how to use Python for time series forecasting, and you'll have a lot of **reusable code** for your future projects!
+In this way, you'll learn a lot about how to use Python for time series forecasting, and you'll have a lot of **reusable code** for your future projects!
 
 Some other useful resources are:
 
@@ -165,7 +166,7 @@ Some other useful resources are:
 - [Reliably forecasting time-series in real-time ](https://www.youtube.com/watch?v=0zpg9ODE6Ww&ab_channel=PyData)
 
 ::: tip
-It's important to understand that no-one-method will always outperform others, and that time series forecasting is an hot research topic, and you should always try to be aware of new techniques or approaches! 
+It's important to understand that no-one-method will always outperform others, and that time series forecasting is a hot research topic, and you should always try to be aware of new techniques or approaches! 
 
 Be sure to read some survey papers, once a while, like [**this one**](https://arxiv.org/abs/2004.13408)!
 :::
@@ -183,23 +184,124 @@ Prophet is robust to missing data and shifts in the trend, and typically handles
 
 A very useful approach to keep in mind when working with time series forecasting is to _treat the problem of forecasting as a classification problem._
 
-In fact, if treated in this way, it can be "simplified at will" and so be faced with a simpler problem to solve! 
+If treated in this way, the problem can be "simplified" and so be faced with a simpler problem to solve.
 
-For example, **preventing the exact price** of Apple shares tomorrow could be a very difficult challenge, but fortunately it is a problem that can be _"simplified"_!
+For example, **preventing the exact price** of Apple shares tomorrow could be a very difficult challenge, but fortunately, it is a problem that can be _"simplified"_!
 
 An effective way to simplify this problem is to divide the space of tomorrow's possible prices (in terms of % variation) into bins! 
 
 For example with 20 bins, the classes would be: [-100%, -90%], [-90%,-80%]....the other bins...[+80%, +90%], [+90%,+100%].
 
-**This type of multiclass classification can be simplified "at will" **, even going so far as to classify whether tomorrow the price will be higher or lower than today (binary classification, 2 bins).
+**This type of multiclass classification can be simplified "at-will"**, even going so far as to classify whether tomorrow the price will be higher or lower than today (binary classification, _higher_ or _lower_).
 
-If you think about it, if you can hardly get a performance model for the simplest (binary) classification, you don't have much hope to predict the _exact value_ of the shares the next day!
+If you think about it, if you struggle to get a decent model for the simplest (binary) classification, you don't have much hope to predict the _exact value_ of the shares the next day!
 
 This brings us to the next section of the guide, where you will learn how to deal with time series classification problems.
 
+To read more about this approach:
+
+- [Forecasting vs Classification](https://stats.stackexchange.com/questions/178413/forecasting-vs-classification)
+- [Forecasting to Classification: Predicting the direction of stock market price](https://www.researchgate.net/publication/309492895_Forecasting_to_Classification_Predicting_the_direction_of_stock_market_price_using_Xtreme_Gradient_Boosting)
 
 ## Time Series Classification
 
+The problem of time series classification is of _primary importance_ in the world of data mining, and over the last two decades, countless methods have been proposed to solve it. 
+
+Knowing how to predict the best choices in the near future is even vital in a variety of industrial scenarios or even _critical_ scenarios such as aircraft safety systems!
+
+Some examples of time series classification problems are:
+
+- Predict whether a machine might break or not
+- predict whether a customer will leave a service or not
+- classify the type of disease of a patient by the time series of his heartbeat
+- classify an animal according to the sound it makes
+- predict anomalies and trend changes in quantities measured by the sensors 
+- and many more...
+
+In this section of the guide, you can find a logical collection of all the resources that can be useful to take advantage of **the power of modern time series classification methods**.
+
+First of all, the site you must ** refer to** to find all the latest _datasets, techniques, papers, and code_ that you can use to solve your time series classification problems:
+
+> This website is an ongoing project to develop a comprehensive repository for research into time series classification. 
+
+- [**Time Series Classification Website**](http://www.timeseriesclassification.com/)
+
+For a complete comparison of all available useful methods and their tradeoffs, read:
+
+- [The Great Time Series Classification Bakeoff: An Experimental Evaluation](https://www.researchgate.net/profile/Anthony_Bagnall/publication/301856632_The_Great_Time_Series_Classification_Bake_Off_An_Experimental_Evaluation_of_Recently_Proposed_Algorithms_Extended_Version/links/579b580e08ae80bf6ea33d12.pdf)
+- [Deep learning for time series classification: a review](https://arxiv.org/pdf/1809.04356.pdf)
+
+A very hot (and very recent) method that has been proposed and you should be aware of:
+
+- [ROCKET: Exceptionally fast and accurate time series classification using random convolutional kernels](https://arxiv.org/abs/1910.13051)
+
+Another extremely effective method that is always worth trying is that of the [matrix profile](#The-Matrix-Profile) (next section).
+
+::: tip
+Some methods are more precise, others more computationally performing, others can find complex relationships in the data (neural networks). 
+**A fundamental point** is that _rarely_ it is worth choosing complex methods (such as a complicated recurrent neural network) over more "simple" ones, such as BOSS or DTW.
+:::
+
+Equipped with the methods considered here, it's almost guaranteed that you will find the perfect fit for the requirements of your problems.
+
 ## The Matrix Profile
 
+From the [The UCR Matrix Profile Page](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) website:
+
+The Matrix Profile (and the algorithms to compute it: STAMP, STAMPI, STOMP, SCRIMP, SCRIMP++, SWAMP, and GPU-STOMP), has the potential to **revolutionize time series data mining** because of its **generality, versatility, simplicity, and scalability**.  In particular, it has implications for:
+
+- time series motif discovery
+- time series joins
+- shapelet discovery (classification)
+- density estimation
+- semantic segmentation
+- visualization
+- rule discovery
+- clustering 
+
+To learn how to use the Matrix Profile for your times series classification problems go through these _invaluable_ resources:
+
+- [Time Series Data Mining Using the Matrix Profile: A Complete Tutorial](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf)
+- [100 Time Series Data Mining Questions and Answers](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf)
+
+The recommended Python package that Virgilio suggests you to work with the Matrix Profile is [**Stumpy**](https://seanlaw.github.io/2019/05/13/stumpy/) (docs [here](https://stumpy.readthedocs.io/en/latest/Tutorial_STUMPY_Basics.html)), which implements the latest and most efficient methods to calculate the Matrix Profile for your time series. 
+
+> The Author of the package ([Sean Law](https://github.com/seanlaw)) contributed to this guide too, reviewing it on GitHub and helping Virgilio collecting all the resources. You can find a lot of detailed tutorials about using Stumpy for the matrix profile on his [Medium Page](https://medium.com/@seanmylaw).
+
+Other useful links are:
+
+- [The Matrix Profile Foundation](https://matrixprofile.org/posts/)
+- [The Matrix Profile Foundation - Libraries](https://matrixprofile.org/libraries/)
+
+One of the (very many) advantages of the Matrix Profile is that you can calculate it _to feed it_ to a more traditional method of supervised classification. 
+
+In this sense, the Matrix Profile is also a method of automatic features extraction!
+
+## Automatic Time Series Feature Extraction
+
+The extraction and engineering of features from data is _fundamental_ in the Data Science process, and time series are no different.
+
+On the contrary, historically they offer additional challenges and require some knowledge of [_signal theory_](https://zone.ni.com/reference/en-XX/help/372656C-01/lvasptconcepts/tsa_intro/) in order to be fully understood and exploited!
+
+Luckily there are **extremely intelligent methods** to help you in this and extract the most important features automatically!
+
+Say thanks to the creators of [**Tsfresh**](https://github.com/blue-yonder/tsfresh):
+
+>**TSFRESH automatically extracts 100s of features from time series**. Those features describe basic characteristics of the time series such as the number of peaks, the average or maximal value, or more complex features such as the time-reversal symmetry statistic.
+
+>The set of features can then be used to construct **machine learning models on the time series** to be used for example in regression or classification tasks.
+>To avoid extracting irrelevant features, the TSFRESH package has a built-in filtering procedure. This filtering procedure **evaluates the explaining power and importance of each feature** for the regression or classification tasks at hand.
+
+Important links:
+
+- [Docs](https://tsfresh.readthedocs.io/en/latest/)
+- [Gitter Community for Q&A](https://gitter.im/tsfresh/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 ## Conclusions
+
+This guide is long and detailed, and you can use it as a clear path in becoming **very proficient** when working with time series, or as a **reference** for important resource links to keep in mind. 
+
+To become comfortable with the time series type of data will take commitment and dedication, in particular, it is highly recommended _to experiment with the methods_ proposed on datasets that you can find online, as well as _compose your dataset_ and work with it. 
+
+Remember that only by facing _small real projects_ will you fix your theoretical knowledge acquired with the resources Virgilio provides you!
+
