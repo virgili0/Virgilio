@@ -87,9 +87,9 @@ To get started with SKtime get through the following resourse:
 - [Loading data in SKTime](https://www.sktime.org/en/latest/examples/loading_data.html)
 - [SKTime - Examples](https://github.com/alan-turing-institute/sktime/tree/master/examples)
 
-These are the basic tools you need to know to work with time series in Python. 
+Also, be aware of [TSLearn](https://github.com/tslearn-team/tslearn), a very good machine learning toolkit for time series analysis in Python.
 
-In the last section of the guide we'll see some other useful Python libraries which integrate well with SKTime and the .ts data type, but before that, let's have a look at what type of problem you can solve within the time series domain.
+These are the basic tools you need to know to work with time series in Python, let's now have a look at _what type of problem_ you can solve with time series data.
 
 ## Time Series Analysis
 
@@ -164,6 +164,7 @@ Some other useful resources are:
 - [Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs&t=6s&ab_channel=PyData)
 - [A Worked Example of Using Neural Networks for Time Series Prediction](https://www.youtube.com/watch?v=hAlGqT3Xpus&ab_channel=PyData)
 - [Reliably forecasting time-series in real-time ](https://www.youtube.com/watch?v=0zpg9ODE6Ww&ab_channel=PyData)
+- [Time Series Forecasting using Statistical and Machine Learning Models](https://www.youtube.com/watch?v=_vQ0W_qXMxk&ab_channel=PyData)
 
 ::: tip
 It's important to understand that no-one-method will always outperform others, and that time series forecasting is a hot research topic, and you should always try to be aware of new techniques or approaches! 
@@ -266,16 +267,17 @@ To learn how to use the Matrix Profile for your times series classification prob
 
 The recommended Python package that Virgilio suggests you to work with the Matrix Profile is [**Stumpy**](https://seanlaw.github.io/2019/05/13/stumpy/) (docs [here](https://stumpy.readthedocs.io/en/latest/Tutorial_STUMPY_Basics.html)), which implements the latest and most efficient methods to calculate the Matrix Profile for your time series. 
 
-> The Author of the package ([Sean Law](https://github.com/seanlaw)) contributed to this guide too, reviewing it on GitHub and helping Virgilio collecting all the resources. You can find a lot of detailed tutorials about using Stumpy for the matrix profile on his [Medium Page](https://medium.com/@seanmylaw).
-
-Other useful links are:
-
-- [The Matrix Profile Foundation](https://matrixprofile.org/posts/)
-- [The Matrix Profile Foundation - Libraries](https://matrixprofile.org/libraries/)
+> The Author of the package ([Sean Law](@seanmylaw)) contributed to this guide too, reviewing it on GitHub and helping Virgilio collecting all the resources. You can find a lot of detailed tutorials about using Stumpy for the matrix profile on his [Medium Page](https://medium.com/@seanmylaw/stumpy-fdb9f8f1f261) or get in touch with him at his [LinkedIn Page](https://www.linkedin.com/in/seanlawphd/). In addition, he's very active in answering questions and giving tips about Tumpy in the ["Issues" section](https://github.com/TDAmeritrade/stumpy/issues?q=) of the GitHub project!
 
 One of the (very many) advantages of the Matrix Profile is that you can calculate it _to feed it_ to a more traditional method of supervised classification. 
 
 In this sense, the Matrix Profile is also a method of automatic features extraction!
+
+Other useful links are:
+
+- [Modern Time Series Analysis With STUMPY](https://www.youtube.com/watch?v=xLbPP5xNIJs&ab_channel=StitchFixMultithreaded)
+- [Stumpy Tutorials on Binder](https://mybinder.org/v2/gh/TDAmeritrade/stumpy/master?filepath=notebooks)
+- [Stumpy: unleashing the power of the matrix profile for time series analysis](https://notamonadtutorial.com/stumpy-unleashing-the-power-of-the-matrix-profile-for-time-series-analysis-7c46af040adb)
 
 ## Automatic Time Series Feature Extraction
 
