@@ -82,7 +82,15 @@ _Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/
 > ++ - beware that this resource contains one or more premium or commercial (paid) product, if you are aware of an alternative solution to them please do share it with us
 
 ## Data Cleaning
-[Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. In the next sections, we'll explore all the common data cleaning situations. Also see [Data Cleaning on awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-preparation.md#data-cleaning) section to learn more about this topic.
+[Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of ensuring that the quality of your data would be enough to satisfy the requirements of the problem you want to solve.
+
+For example, it can consists of replacing characters in strings, dropping incomplete rows, fill missing values and so forth. In the next sections, we'll explore all the common data cleaning situations.
+
+While it's hard to state that some steps are strictly required and others aren't, it's clever to know and try a as many apporaches as possible.
+
+Also see [Data Cleaning on awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-preparation.md#data-cleaning) section to learn more about this topic.
+
+We will assume the data it's tabular, to see more about other types of data, check the related sections of the Inferno.
 
 ### Get Rid of Extra Spaces
 One of the first things you want to do is [remove extra spaces](https://stackoverflow.com/questions/43332057/pandas-strip-white-space). Take care! Some space can carry information, but it heavily depends on the situation. For example, in "Complete Name": "Giacomo Ciarlini" in nice to have space so we can later split this into "Name": "Giacomo" and "Surname": "Ciarlini". Virgilio wants you to notice that in general, apart from recommending and suggestion customization systems, unique identifiers like names or IDs are something you can generally drop. Often, they do not carry information. 
