@@ -12,7 +12,7 @@ The purpose of this guide is to show you the importance of these steps, mostly a
 # Index
 - [Start Small](#Start-small)
 - [Business Questions](#Business-Questions)
-- [Data Preprocessing](#Data-Preprocessing)
+- [Data Preprocessing (Data wrangling / Data manipulation)](#data-preprocessing-data-wrangling--data-manipulation)
 - [Data Profiling](#Data-Profiling)
 - [Data Cleaning](#Data-Cleaning)
   - [Get Rid of Extra Spaces](#Get-Rid-of-Extra-Spaces)
@@ -27,7 +27,6 @@ The purpose of this guide is to show you the importance of these steps, mostly a
   - [Verification To Enrich Data](#Verification-To-Enrich-Data)
   - [Data Discretization](#Data-Discretization)
   - [Data Cleaning Tools](#Data-Cleaning-Tools)
-- [Data Preprocessing / Data wrangling / Data manipulation](#Data-Preprocessing)
   - [Change Text to Lower/Upper Case](#Change-Text-to-Lower/Upper-Case)
   - [Normalizing Dates](#Normalizing-Dates)
   - [Feature Scaling](#Feature-Scaling)
@@ -53,7 +52,7 @@ It's stupid to handle GBs of data each time you want to try a data preparation s
 ## Business Questions
 Asking the [right business questions](https://www.datapine.com/blog/data-analysis-questions/) is hard, but it has the [biggest impact](https://towardsdatascience.com/start-your-data-exploration-with-questions-2f1d42cff29e) on your performance of solving a particular problem. Remember, you want to [solve a problem](http://www.informit.com/articles/article.aspx?p=2271188&seqNum=2), not to create new ones! 
 
-## Data Preprocessing
+## Data Preprocessing (Data wrangling / Data manipulation)
 Data preprocessing (also known as Data Preparation, but "Preprocessing" sounds more like magic) is the [iterative process](http://www.jsoftware.us/vol12/306-JSW15277.pdf) of gathering, combining, structuring and (re)organizing data so it can be analyzed as part of data visualization, analytics, and machine learning processes.
 
 [Real-world data](https://www.quanticate.com/blog/real-world-data-analysis-in-clinical-trials) is often incomplete, inconsistent, and/or lacking in certain behaviors or trends, and is likely to contain many errors. Data preprocessing is a proven method of resolving such issues.
