@@ -34,7 +34,7 @@ The purpose of this guide is to show you the importance of these steps, mostly a
   - [Data Cleaning Tools](#Data-Cleaning-Tools)
 - [Visualization](#Visualization)
 - [Merge Data Sets and Integration](#Merge-Data-Sets-and-Integration)
-- [Aggregating data (centralising)](#Aggregating-data-centralising)
+- [Aggregating data (centralizing)](#Aggregating-data-centralizing)
 - [Bias and balance/imbalance](#Bias-and-balance-imbalance)
 - [Sanity Check](#Sanity-Check)
 - [Automate These Boring Stuffs!](#Automate-These-Boring-Stuffs!)
@@ -161,8 +161,8 @@ The specifics of what kinds of visualisations to use is to be made available in 
 ## Merge Data Sets and Integration
 Now that you hopefully have been successful in your data cleaning process, you can merge data from different source to create big [de-normalized](https://www.researchgate.net/post/When_and_why_do_we_need_data_normalization_in_data_mining_algorithms) data tables, ready to be explored and consumed. [This](https://www.quora.com/Is-data-warehouse-normalized-or-denormalized-Why) is why.
 
-## Aggregating data (centralising)
-Aggregating data or centralising data (or sometimes called normalising data) - even though this topic overlaps with the [Data Collection](https://virgili0.github.io/Virgilio/purgatorio/collect-and-prepare-data/data-collection.html) topic covered in the respective guide. It's good to touch on the topic and be reminded of it briefly. As covered in the [Business Questions](#Business-Questions) when we ask questions about the data, one of them is to find it's source. But it also could give rise to other related data or sources of data that could be relevant to the current task and then be brought in. Which throws light on the data aggregation process - how to bring the different sources of data and convert it into one form before performing any preprocessing or transformations on it. This process itself is sort of a preprocessing or transformations step on its own.
+## Aggregating data (centralizing)
+Aggregating data or centralizing data (or sometimes called normalising data) - even though this topic overlaps with the [Data Collection](https://virgili0.github.io/Virgilio/purgatorio/collect-and-prepare-data/data-collection.html) topic covered in the respective guide. It's good to touch on the topic and be reminded of it briefly. As covered in the [Business Questions](#Business-Questions) when we ask questions about the data, one of them is to find it's source. But it also could give rise to other related data or sources of data that could be relevant to the current task and then be brought in. Which throws light on the data aggregation process - how to bring the different sources of data and convert it into one form before performing any preprocessing or transformations on it. This process itself is sort of a preprocessing or transformations step on its own.
 
 On the other hand, this question could throw light on the sources of data the current raw-data is made up of (and make us aware of the aggregatation process it underwent) before taking it's current form.
 
@@ -181,7 +181,7 @@ _Best practices and exercises:_ [1](https://blog.socialcops.com/academy/resource
 As I told you at the very beginning, the data preprocessing process can take a long time and be very tedious. Because of this, you want to [automate](https://www.youtube.com/watch?v=UZUoH7_mYx4) the most you can. Also, **automation is married with iteration**, so this is the way you need to plan your data preprocessing pipelines. [Here](https://github.com/mdkearns/automated-data-preprocessing) you find a good command line tool for doing that, but I'm almost sure you'll need to build your own (remember, each problem is unique!), but this is a good starting point.
 
 ## Doing it in real-time
-Fully connected to the [previous section](#Automate-These-Boring-Stuffs!), automating redundant or repeated tasks makes the workflow repeatable, consistent, efficient and reliable. And given these qualities, it's not far away from being given the task of handling real-world raw data directly from the source or the various sources (centralising or aggregation of data). This takes away the whole manual step from the process and keeps things real and practical -- production ready all the time. In this way you can see all the flavours of data/input and the nuances and edge-cases to handle each time a step fails or gives false positives or false negatives.
+Fully connected to the [previous section](#Automate-These-Boring-Stuffs!), automating redundant or repeated tasks makes the workflow repeatable, consistent, efficient and reliable. And given these qualities, it's not far away from being given the task of handling real-world raw data directly from the source or the various sources (centralizing or aggregation of data). This takes away the whole manual step from the process and keeps things real and practical -- production ready all the time. In this way you can see all the flavours of data/input and the nuances and edge-cases to handle each time a step fails or gives false positives or false negatives.
 
 ## Don't Joke With Data
 First, [**data is King**](https://www.edq.com/glossary/data-quality-importance/). In the [data-driven epoch](https://www.venturi-group.com/qa-with-helen-mannion/), having [data quality issues](https://www.ringlead.com/blog/7-common-data-quality-issues/) means to lose tremendous amounts of value for a company, in the present and in the future. So, respect your King and care a lot about him. The most immediate way to do this is to plan and [work hard](https://web.archive.org/web/20190708202946/https://nektardata.com/high-quality-data/) to _produce_ good quality data.
