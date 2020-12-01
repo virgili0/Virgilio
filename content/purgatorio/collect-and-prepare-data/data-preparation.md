@@ -30,7 +30,7 @@ The purpose of this guide is to show you the importance of these steps, mostly a
   - [Change Text to Lower/Upper Case](#Change-Text-to-Lower/Upper-Case)
   - [Normalizing Dates](#Normalizing-Dates)
   - [Feature Scaling](#Feature-Scaling)
-  - [Text data](#Text-data)
+  - [Types of data](#types-of-data)
   - [Data Cleaning Tools](#Data-Cleaning-Tools)
 - [Visualization](#Visualization)
 - [Merge Data Sets and Integration](#Merge-Data-Sets-and-Integration)
@@ -161,8 +161,23 @@ Normalization is also called min-max approach, see another [example](https://tow
 
 _Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleaning-challenge-scale-and-normalize-data), [2](https://www.quora.com/When-should-you-perform-feature-scaling-and-mean-normalization-on-the-given-data-What-are-the-advantages-of-these-techniques), [3](https://www.quora.com/When-do-I-have-to-do-feature-scaling-in-machine-learning)
 
-### Text data
-Just like the above, transformations or preprocessings can be performed on numeric, date or categorical data, similarly text data can also be processed in such a fashion. Although text data would undergo regex and string transformation processes deemed necessary for the NLP tasks they would be used for thereafter.
+### Types of data
+
+**Tabular data**
+
+Also known as columnar or spreadsheet-like data where each column may be a different data type like string, numeric, date, etc. This includes most kinds of data commonly stored in a relational database or tab, or .csv files.
+
+Such data can then represent categorical, numeric/continuous, time-series data or a mix of all of these in different proportions -- this is the next level of abstraction of such types of data.
+
+**Text data**
+
+Just as transformations or preprocessings can be performed on numeric, date or categorical data, similarly text data can also be processed in such a fashion. Although text data would undergo regex and string transformation processes deemed necessary for the NLP tasks they would be used for thereafter. The end result of such processing could be one or or more tabular datasets which could then further be processed like any other tabular dataset (see above section).
+
+**Image/Video/Audio/Signal data**
+
+Unlike Tabular or Text data, such data is made up of mostly continuous values. The original data would be in binary format in the form of directories of files. These files would then be processed and transformed into rows and columns of continuous data with a minority number of categorical or other data types to represent such data, eventually they maybe represented in the tabular format for analysis, processing and training purposes. And so these final datasets would go through the same preprocessing like any other tabular data would.
+
+**Note:** _Not to confuse with the term Time-series data. The concept of time-series is the next level of abstraction of this type of data. Each of these data type above can be covered in more detail in futher guides at the **Inferno** or **Paradiso** levels and outside the current scope to keep the brevity in understanding of these concepts. To catch a glimpse of some of the specific preprocessing or transformation steps that we can do per type of data, see this [resource](https://www.linkedin.com/posts/shivan-kumar_datascience-machinelearning-deeplearning-activity-6732600618751442944-kNRY)._
 
 ### Data Cleaning Tools
 You're not going to hunt tigers without a rifle! You have a ton of tools out there that will help you during the data cleaning process, the one Virgilio wants to suggest you is [this](https://www.analyticsindiamag.com/10-best-data-cleaning-tools-get-data/) open source tool from Google. Check [here](https://www.quora.com/What-are-the-best-open-source-data-cleansing-tools-software-available) for more.  
