@@ -61,7 +61,7 @@ It's the [core ability](https://blogs.sas.com/content/hiddeninsights/2017/11/30/
 
 There are a lot of different data types out there, and they deserve [different treatments](http://blog.appliedinformaticsinc.com/data-mining-challenges-in-data-cleaning/).
 
-As usual the structure I've planned to get you started consists of having a [general overview](https://searchbusinessanalytics.techtarget.com/definition/data-preparation), and then dive deep into each data processing situation you can encounter. 
+As usual the structure Virgilio has  planned to get you started consists of having a [general overview](https://searchbusinessanalytics.techtarget.com/definition/data-preparation), and then dive deep into each data processing situation you can encounter. 
 
 [Here](https://towardsdatascience.com/data-pre-processing-techniques-you-should-know-8954662716d6) you have a gentle end-to-end panoramic view of the entire process.
 
@@ -83,7 +83,7 @@ _Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/
 [Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. In the next sections, we'll explore all the common data cleaning situations. Also see [Data Cleaning on awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-preparation.md#data-cleaning) section to learn more about this topic.
 
 ### Get Rid of Extra Spaces
-One of the first things you want to do is [remove extra spaces](https://stackoverflow.com/questions/43332057/pandas-strip-white-space). Take care! Some space can carry information, but it heavily depends on the situation. For example, in "Complete Name": "Giacomo Ciarlini" in nice to have space so we can later split this into "Name": "Giacomo" and "Surname": "Ciarlini". I want you to notice that in general, apart from recommending and suggestion customization systems, unique identifiers like names or IDs are something you can generally drop. Often, they do not carry information. 
+One of the first things you want to do is [remove extra spaces](https://stackoverflow.com/questions/43332057/pandas-strip-white-space). Take care! Some space can carry information, but it heavily depends on the situation. For example, in "Complete Name": "Giacomo Ciarlini" in nice to have space so we can later split this into "Name": "Giacomo" and "Surname": "Ciarlini". Virgilio wants you to notice that in general, apart from recommending and suggestion customization systems, unique identifiers like names or IDs are something you can generally drop. Often, they do not carry information. 
 _Bonus tip_: learn how to use [Regex](https://www.analyticsvidhya.com/blog/2015/06/regular-expression-python/) for pattern matching, this is one of the powerful tools each data guy need to master.
 
 _Best practices and exercises:_ [1](https://www.quora.com/How-do-you-remove-all-whitespace-from-a-Python-string), [2](https://towardsdatascience.com/5-methods-to-remove-the-from-your-data-in-python-and-the-fastest-one-281489382455), [3](https://www.tutorialspoint.com/How-to-remove-all-leading-whitespace-in-string-in-Python)
@@ -99,7 +99,7 @@ _Best practices and exercises:_ [1](https://www.kaggle.com/nirmal51194/data-clea
 
 ###  Convert Value Types
 [Different data types](https://pbpython.com/pandas_dtypes.html) carry different kinds of information, and you need to care about this.
-[Here](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) is a good tutorial on how to convert value types. Remember that Python has some shortcut for doing this (executing `str(3)` will give you back the "3" string) but I recommend you to learn how to do it with Pandas.
+[Here](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) is a good tutorial on how to convert value types. Remember that Python has some shortcut for doing this (executing `str(3)` will give you back the "3" string) but Virgilio recommends you to learn how to do it with Pandas.
 
 ###  Remove Duplicates
 You don't want to duplicate data, they are noise and occupy space! Learn [how to handle them simply](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) with Pandas.
@@ -151,7 +151,7 @@ _Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleani
 Just like the above, transformations or preprocessings can be performed on numeric, date or categorical data, similarly text data can also be processed in such a fashion. Although text data would undergo regex and string transformation processes deemed necessary for the NLP tasks they would be used for thereafter.
 
 ### Data Cleaning Tools
-You're not going to hunt tigers without a rifle! You have a ton of tools out there that will help you during the data cleaning process, the one I want to suggest you is [this](https://www.analyticsindiamag.com/10-best-data-cleaning-tools-get-data/) open source tool from Google. Check [here](https://www.quora.com/What-are-the-best-open-source-data-cleansing-tools-software-available) for more.  
+You're not going to hunt tigers without a rifle! You have a ton of tools out there that will help you during the data cleaning process, the one Virgilio wants to suggest you is [this](https://www.analyticsindiamag.com/10-best-data-cleaning-tools-get-data/) open source tool from Google. Check [here](https://www.quora.com/What-are-the-best-open-source-data-cleansing-tools-software-available) for more.  
 
 ## Visualization
 Visualization of data before and after many of the above steps is vital, to ensure the balance, bias and shape of the data is maintained. And the transformed or preprocessed data is representative of it's original form. Even if we can't control the way such data is going to evolve, we can atleast see the before and after effects of a transormation/preprocessing step before proceeding with it. Or if we even do proceed with it, we know from the visuals what the outcome stands to be from it (more or less).
@@ -178,7 +178,7 @@ Look [here](https://www.trifacta.com/blog/4-key-steps-to-sanity-checking-your-da
 _Best practices and exercises:_ [1](https://blog.socialcops.com/academy/resources/4-data-checks-clean-data/), [2](https://www.r-bloggers.com/data-sanity-checks-data-proofer-and-r-analogues/), [3](https://www.quora.com/What-is-the-example-of-Sanity-testing-and-smoke-testing)
 
 ## Automate These Boring Stuffs!
-As I told you at the very beginning, the data preprocessing process can take a long time and be very tedious. Because of this, you want to [automate](https://www.youtube.com/watch?v=UZUoH7_mYx4) the most you can. Also, **automation is married with iteration**, so this is the way you need to plan your data preprocessing pipelines. [Here](https://github.com/mdkearns/automated-data-preprocessing) you find a good command line tool for doing that, but I'm almost sure you'll need to build your own (remember, each problem is unique!), but this is a good starting point.
+As Virgilio told you at the very beginning, the data preprocessing process can take a long time and be very tedious. Because of this, you want to [automate](https://www.youtube.com/watch?v=UZUoH7_mYx4) the most you can. Also, **automation is married with iteration**, so this is the way you need to plan your data preprocessing pipelines. [Here](https://github.com/mdkearns/automated-data-preprocessing) you find a good command line tool for doing that, but Virgilio is almost sure you'll need to build your own (remember, each problem is unique!), but this is a good starting point.
 
 ## Doing it in real-time
 Fully connected to the [previous section](#Automate-These-Boring-Stuffs!), automating redundant or repeated tasks makes the workflow repeatable, consistent, efficient and reliable. And given these qualities, it's not far away from being given the task of handling real-world raw data directly from the source or the various sources (centralizing or aggregation of data). This takes away the whole manual step from the process and keeps things real and practical -- production ready all the time. In this way you can see all the flavours of data/input and the nuances and edge-cases to handle each time a step fails or gives false positives or false negatives.
@@ -201,7 +201,7 @@ Each time you're facing a data related problem, try to understand what data you 
 The tools we're gonna use are Python3 and his [Pandas library](https://pandas.pydata.org/), the de-facto standard to manipulate datasets. There are a whole lot of other tools that have come out which are either built on top of Pandas or Numpy or independently, see [Data Preparation on awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-preparation.md) for more details.
 
 The heavy lifting here is done by the [DataFrame class](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), which comes with a bunch of useful functions for your daily data tasks.
-Hopefully, you already know Python, if not start from there (do the steps I suggest you in the ML guide requirements), and then take this [Beginner Pandas tutorial](https://web.archive.org/web/20200719131732/https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html). Don't worry if by now some ideas are not totally clear, but try to get the big picture of the common [Pandas operations](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/). 
+Hopefully, you already know Python, if not start from there (do the steps Virgilio suggested to you in the ML guide requirements), and then take this [Beginner Pandas tutorial](https://web.archive.org/web/20200719131732/https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html). Don't worry if by now some ideas are not totally clear, but try to get the big picture of the common [Pandas operations](https://www.analyticsvidhya.com/blog/2016/01/12-pandas-techniques-python-data-manipulation/). 
 
 _Best practices and exercises:_ [1](https://github.com/guipsamora/pandas_exercises), [2](https://www.w3resource.com/python-exercises/pandas/index.php), [3](https://www.machinelearningplus.com/python/101-pandas-exercises-python/), [4](https://www.kaggle.com/pistak/pandas-tutorial-with-interactive-exercises), [5](http://disi.unitn.it/~teso/courses/sciprog/python_pandas_exercises.html)
 
