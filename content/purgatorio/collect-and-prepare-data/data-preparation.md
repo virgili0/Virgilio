@@ -102,7 +102,7 @@ _Best practices and exercises:_ [1](https://www.kaggle.com/nirmal51194/data-clea
 [Here](https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/) is a good tutorial on how to convert value types. Remember that Python has some shortcut for doing this (executing `str(3)` will give you back the "3" string) but Virgilio recommends you to learn how to do it with Pandas.
 
 ###  Remove Duplicates
-You don't want to duplicate data, they are noise and occupy space! Learn [how to handle them simply](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) with Pandas.
+You don't want duplicate data, they may be noisy, redundant and occupy more space! Learn [how to handle them simply](https://www.geeksforgeeks.org/python-pandas-dataframe-drop_duplicates/) with Pandas.
 
 ###  Spell Check
 You want to correct wrong words, for the sake of evenness. Check [here](https://www.tutorialspoint.com/python_text_processing/python_spelling_check.htm) for a good Python module to do it. Also, this is a good starting point to [implement it](https://stackoverflow.com/questions/46409475/spell-checker-in-pandas). 
