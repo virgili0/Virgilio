@@ -143,7 +143,11 @@ _Best practices and exercises:_ [1](https://www.researchgate.net/post/What_are_t
 
 ###  Feature Scaling
 Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
-[Here](Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.) you find a serious tutorial about this fundamental step. Also known as Normalizing (bring value of numeric column between 0 and 1) or Standardizing (bring value of numeric column between -1 and 1) data, see [Normalization vs Standardization](https://towardsdatascience.com/normalization-vs-standardization-cb8fe15082eb). Normalization is also called min-max approach, see another [example](https://towardsdatascience.com/data-normalization-with-pandas-and-scikit-learn-7c1cc6ed6475).
+[Here](Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.) you find a serious tutorial about this fundamental step. 
+
+Also known as Normalizing (bring the values of a numeric column between 0 and 1) or Standardizing (bring the values of a numeric column between -1 and 1) data, see [Normalization vs Standardization](https://towardsdatascience.com/normalization-vs-standardization-cb8fe15082eb). 
+
+Normalization is also called min-max approach, see another [example](https://towardsdatascience.com/data-normalization-with-pandas-and-scikit-learn-7c1cc6ed6475).
 
 _Best practices and exercises:_ [1](https://www.kaggle.com/jfeng1023/data-cleaning-challenge-scale-and-normalize-data), [2](https://www.quora.com/When-should-you-perform-feature-scaling-and-mean-normalization-on-the-given-data-What-are-the-advantages-of-these-techniques), [3](https://www.quora.com/When-do-I-have-to-do-feature-scaling-in-machine-learning)
 
