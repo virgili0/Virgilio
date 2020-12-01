@@ -77,7 +77,9 @@ During this informal meeting, ask the data questions like:
 Eventually, you may find the data to be too quiet, maybe it's just shy! \
 Anyway, you're going to [ask these questions to the business user](https://business-analysis-excellence.com/business-requirements-meeting/)!
 
-_Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/downloads/di_loreto_data_profiling_tutorial_monday_am.pdf), [2](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Data-profiling-tutorials-use-cases-and-exercise/td-p/145347)
+_Best practices and exercises:_ [1](https://www.iqint.org/idq2013/presentations/downloads/di_loreto_data_profiling_tutorial_monday_am.pdf)++, [2](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Data-profiling-tutorials-use-cases-and-exercise/td-p/145347)++
+
+> ++ - beware that this resource contains one or more premium or commercial (paid) product, if you are aware of an alternative solution to them please do share it with us
 
 ## Data Cleaning
 [Data cleaning](https://en.wikipedia.org/wiki/Data_cleansing) is the general process of taking data, after you have a clear big picture of them, and you need to realize the actual process of replacing characters, dropping incomplete rows, fill missing values and so forth. In the next sections, we'll explore all the common data cleaning situations. Also see [Data Cleaning on awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/data/data-preparation.md#data-cleaning) section to learn more about this topic.
