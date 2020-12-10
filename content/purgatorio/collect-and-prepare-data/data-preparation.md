@@ -155,7 +155,7 @@ _Best practices and exercises:_ [1](https://www.researchgate.net/post/What_are_t
 Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
 [Here](Feature scaling is a method used to standardize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.) you find a serious tutorial about this fundamental step. 
 
-Also known as Normalizing (bring the values of a numeric column between 0 and 1) or Standardizing (bring the values of a numeric column between -1 and 1) data, see [Normalization vs Standardization](https://towardsdatascience.com/normalization-vs-standardization-cb8fe15082eb). 
+Also known as Normalizing data (bring the values of a numeric column between 0 and 1) or Standardizing data (bring the values of a numeric column between -n and m -- there is a notion that they can between -1 and 1, but in reality n and m are dependent on the minimum and maximum values of the original distribution, respectively), see [Normalization vs Standardization](https://towardsdatascience.com/normalization-vs-standardization-cb8fe15082eb). 
 
 Normalization is also called min-max approach, see another [example](https://towardsdatascience.com/data-normalization-with-pandas-and-scikit-learn-7c1cc6ed6475).
 
