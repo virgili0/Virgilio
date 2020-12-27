@@ -183,8 +183,7 @@ You can notice several things:
 
 Read here to learn to do [StoryTelling](https://blog.hubspot.com/marketing/storytelling) in a coherent fashion.
 
-**The more authentic, visceral, and suggestive you are, the more your audience will trust you and remember
-the concepts.**
+**The more authentic, visceral, and suggestive you are, the more your audience will trust you and remember the concepts.**
 
 Some resources to become a better Storyteller:
 
