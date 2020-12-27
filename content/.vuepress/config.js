@@ -129,7 +129,7 @@ module.exports = {
                             ['inferno/computer-vision/Object_detection_based_on_Deep_Learning','Object detection based on Deep Learning'],
                         ]
                 },
-                /*
+                
                 {
                         title: 'Soft Skills', // required
                         //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
@@ -139,7 +139,7 @@ module.exports = {
                             'inferno/soft-skills/impactful-presentations'
                         ]
                 },
-                */
+                
                 {
                         title: 'Tools', // required
                         //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
