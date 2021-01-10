@@ -15,6 +15,7 @@ description: This guide aims to show you the Data Science applications you can b
     - [Time Series Forecasting as a Classification Problem](#Time-Series-Forecasting-as-a-Classification-Problem)
     - [The Matrix Profile](#The-Matrix-Profile)
     - [Automatic Time Series Feature Extraction](#Automatic-Time-Series-Feature-Extraction)
+    - [Additional Resources](#Additional-Resources)
 - [Conclusions](#Conclusions)
 
 
@@ -28,7 +29,7 @@ Having that said, let's begin!
 
 Whether it is the sale of products, the estimated production of an agricultural field, or the forecast of any activity of a company, time series are an indispensable type of data, which has been used for thousands of years to inform the activities to be done **today**, based on what will happen **tomorrow**. 
 
-A good estimate of the future, for a company, can bring a great saving of time (and money)! 
+A good estimate of the future data, for a company, can bring a great saving of time (and money)! 
 
 If you ask any manager will tell you that _time is even more important than money_, because you can convert time into money, _but the opposite is not possible!_ 
 
@@ -54,19 +55,29 @@ After you've gone through them, you should understand how to write **"idiomatic 
 
 - [Modern Pandas](https://tomaugspurger.github.io/modern-7-timeseries)
 
+Common time-series data manipulation steps:
+
+- [Train-Test Split](https://medium.com/keita-starts-data-science/time-series-split-with-scikit-learn-74f5be38489e)
+- [Resampling](https://machinelearningmastery.com/resample-interpolate-time-series-data-python/#:~:text=Resampling%20involves%20changing%20the%20frequency,as%20from%20days%20to%20months.)
+- [Shift](https://towardsdatascience.com/time-series-analysis-resampling-shifting-and-rolling-f5664ddef77e)
+- [Lag](https://math.stackexchange.com/questions/2548314/what-is-lag-in-a-time-series)
+- [Autocorrelation](https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/#:~:text=Because%20the%20correlation%20of%20the,Function%2C%20or%20the%20acronym%20ACF.)
+
+After learning these resources, you will have a better understanding of what "time-series" mean and what time-series data is about!
+
 ## Time Series Problems Overview
 
 In the next sections, we see what are the main problems that can be solved with time series data.
 
 ::: warning
-Be aware that this is not an exhaustive list, and you should consider it only _a starting point!_ 
+Be aware that this is not an exhaustive list, and you should consider it only _a guideline!_ 
 :::
 
 Once you have identified a problem that you are interested in solving, you need to find papers that talk about the state of the art of that problem and go deeper!
 
-It is always true that there is not a silver bullet that solves every problem, remember the [No Free Lunch Theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).
+It is always true that **there is no silver bullet that solves every problem**, remember the [No Free Lunch Theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem).
 
-Learning to manipulate time data with Pandas is mandatory, and the Pandas DataFrame structure is the natural landing place for this type of data. However, due to the "sequential" nature of the data type, the DataFrame has some structural limitations, because it is designed for more classic tabular data. 
+Learning to manipulate time-series data with Pandas is mandatory, and the Pandas DataFrame structure is the natural landing place for this type of data. However, due to the "sequential" nature of the data type, the DataFrame has some structural limitations, because it is designed for more classic tabular data. 
 
 To overcome these limitations, the [Alan Turing Institute](https://www.turing.ac.uk/) has developed a special version of Scikit-Learn, [Sktime](https://github.com/alan-turing-institute/sktime), using a specific .ts format to load time series data into Pandas DataFrames. 
 
@@ -97,11 +108,12 @@ Imagine you are working as a Data Scientist, and you are asked to do _"something
 
 This process, often called *"analysis"*, is fundamental before any other, for example before trying to make predictions about future values.
 
-The path Virgilio suggests is as follows: 
+The path Virgilio suggests is the following: 
 
 First of all, take this free and extremely complete course that introduces you to time series analysis:
 
 - [**Introduction to Time Series Analysis**](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm)
+- [https://www.youtube.com/playlist?list=PL3N9eeOlCrP5cK0QRQxeJd6GrQvhAtpBK](https://www.youtube.com/playlist?list=PL3N9eeOlCrP5cK0QRQxeJd6GrQvhAtpBK)
 
 Once you're done with this, you can expand your knowledge with the following (extremely detailed) resources. 
 
@@ -180,6 +192,9 @@ It works best with time series that have strong seasonal effects and several sea
 
 Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 
+::: tip
+Check also [NeuralProphet](https://github.com/ourownstory/neural_prophet), Neural Network based Time-Series model, inspired by Facebook Prophet and AR-Net, built on PyTorch.
+:::
 
 ## Time Series Forecasting as a Classification Problem
 
@@ -239,7 +254,7 @@ A very hot (and very recent) method that has been proposed and you should be awa
 Another extremely effective method that is always worth trying is that of the [matrix profile](#The-Matrix-Profile) (next section).
 
 ::: tip
-Some methods are more precise, others more computationally performing, others can find complex relationships in the data (neural networks). 
+Some methods are more precise, others are faster, others require less data, others can find complex relationships in the data (neural networks). 
 **A fundamental point** is that _rarely_ it is worth choosing complex methods (such as a complicated recurrent neural network) over more "simple" ones, such as BOSS or DTW.
 :::
 
@@ -264,6 +279,7 @@ To learn how to use the Matrix Profile for your times series classification prob
 
 - [Time Series Data Mining Using the Matrix Profile: A Complete Tutorial](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf)
 - [100 Time Series Data Mining Questions and Answers](https://www.cs.ucr.edu/~eamonn/100_Time_Series_Data_Mining_Questions__with_Answers.pdf)
+- [The Matrix Profile - How Does It Work?](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part2.pdf)
 
 The recommended Python package that Virgilio suggests you to work with the Matrix Profile is [**Stumpy**](https://seanlaw.github.io/2019/05/13/stumpy/) (docs [here](https://stumpy.readthedocs.io/en/latest/Tutorial_STUMPY_Basics.html)), which implements the latest and most efficient methods to calculate the Matrix Profile for your time series. 
 
@@ -298,6 +314,17 @@ Important links:
 
 - [Docs](https://tsfresh.readthedocs.io/en/latest/)
 - [Gitter Community for Q&A](https://gitter.im/tsfresh/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
+
+## Additional Resources
+
+Check out these additional resources:
+
+- [Time Series Topic - awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/time-series_anomaly-detection/time-series.md#gaussian-process)
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Visualizing memorization in RNNs](https://distill.pub/2019/memorization-in-rnns/)
+- [Attention and Augmented Recurrent Neural Networks](https://distill.pub/2016/augmented-rnns/)
+
 
 ## Conclusions
 
