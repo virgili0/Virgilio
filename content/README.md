@@ -18,15 +18,24 @@
 
 
 -->
-Virgilio is an **open-source initiative**, aiming to **mentor and guide** anyone in the world of the **Data Science**.
-Our vision is to give *everyone* the chance to get involved in this field, **get self-started** as a practitioner, **gain new skills** and **learn to navigate** through the infinite web of resources and find the ones useful for *you*.
-
-
 <div style="text-align:center"><img style="text-align:center" width="480px" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Virgil_.jpg"/></div>
 
 <br>
+Virgilio is an **open-source initiative**, aiming to **mentor and guide** anyone in the world of **Data Science**.
 
-### Table of Contents
+**The Vision of Virgilio** is to give *everyone* the chance to get involved in this field, **get self-started** as a practitioner, **gain new skills** and **learn to navigate** through the infinite web of available resources and find the ones useful for *you*.
+
+Virgilio comes in form of _Guides_ and it's organized in three levels to offer you a **clear learning path**: 
+
+- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High Level Guides - For Everyone
+- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Entry Level Technical Guides - For Beginners
+- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Advanced Technical Guide - For Experienced Practitioners
+
+::: tip
+If you want to contribute to the Virgilio, welcome! :-)
+You will find information about contribution guidelines in the [Contribute](#contribute) section.
+:::
+## Table of Contents
 
 - [*What* is Virgilio](#what-is-virgilio)
 - [Structure](#structure)
@@ -53,19 +62,19 @@ Hi, I'm [Virgilio](https://en.wikipedia.org/wiki/Virgil).
 
 Like I did with *[Dante](https://en.wikipedia.org/wiki/Dante_Alighieri)*, just some centuries ago, I'll be your mentor and reference point during your journey through this *selva oscura*, providing you complete and organic learning paths for several _data-related_ fields, tools, skills and more.
 
-**The vision of Virgilio** is to give everyone the possibility to **get into the world of the Data Science and Machine Learning** and the business and creative possibilities that they offer, to get self-started as a practitioner, gain new cutting edge practical skills, or just learn to discriminate good information from poor information.
+**The vision of Virgilio** is to give everyone the possibility to **get into the world of Data Science and Machine Learning** and the business and creative possibilities that they offer, to get self-started as a practitioner, gain new cutting edge practical skills, or just learn to discriminate good information from poor information.
 
 Virgilio is doing this by providing only _high-quality_ and _coherent_ content, with clear step-by-step paths and a consistent naming system.
 
-Imagine Virgilio as your E-Mentor, who will tell you what do to **get the next step**, the next skill, or to apply them in practice to create value!
+Imagine Virgilio as your E-Mentor, who will tell you what to do to **get the next step**, the next skill, or to apply them in practice to create value!
 
 **But what does it mean in practice?**
 
-In other words, what's the **target** of the Virgilio project?
+In other words, who is the **target** of the Virgilio project?
 
-There are different scenarios, in fact, you may be:
+Depending on your background and interests, you may be:
 
-- A *student* from a different field who wants to explore the intersections and the possibilities offered by the Machine Learning and Statistical Methods.
+- A *student* from a different field who wants to explore the intersections and the possibilities offered by Machine Learning and Statistical Methods.
 - A *curious individual* who came in touch with one of the buzzwords related to these fields and wants to discriminate between reliable and unreliable information.
 - An *experienced practitioner* who wants to have a reference point for the latest techniques, papers, and best practices.
 - A *manager* who wants to understand the possibilities of ML applied to their actual problems, like integration with production systems or new solutions from scratch.
@@ -92,19 +101,19 @@ In your journey, you will start from scratch and eventually reach the theoretica
 
 The parallelism is natural:
 
-- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High level guides
-- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Low level guides for beginners
-- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Low level advanced guides
+- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High Level Guides - For Everyone
+- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Entry Level Technical Guides - For Beginners
+- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Advanced Technical Guide - For Experienced Practitioners
 
-_Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
+_Going from Paradiso to Inferno increases the level of detail of the guides and decreases the level of abstraction of the topics involved_. 
 
 ---
 In the <span style="font-weight: bold; color: #2565AE">Paradiso</span> you won’t find a single line of code or a math formula, just plain English. 
 Here’s the place for introductions, simple explanations, demystifications, and meta-guides (for example a guide about the best way to use Virgilio). 
 
-It’s the best place for the not-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored into technical details. 
+It’s the best place for the not-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored with technical details. 
 
-Do you want to be able to understand and talk about these innovative fields?
+Do you want to be able to **understand and talk about** these innovative fields?
 
 Start from the <span style="font-weight: bold; color: #2565AE">Paradiso</span>!
 
@@ -139,7 +148,7 @@ Above these, in the <span style="font-weight: bold; color: #D22C2C">Inferno</spa
 
 - Tools: here you find guides about useful tools for programming, or scientific computing in general. 
 - Research: here you will learn how to find the right papers and digest them. In addition, you’ll discover which teams to follow for your interests.
-- ML for Business applications: here we provide additional resources to select a sector and see what are the today’s available techniques for the problems of your interest.
+- ML for Business applications: here we provide additional resources to select a sector and see what are today’s available techniques for the problems of your interest.
 
 ## About
 

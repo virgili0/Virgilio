@@ -13,9 +13,9 @@ description: This guide explains how the Inferno section of Virgilio is organize
 
 As you know, Virgil is divided into 3 sections:
 
-- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High level guides
-- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Low level guides for beginners
-- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Low level advanced guides
+- <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High Level Guides - For Everyone
+- <span style="font-weight: bold; color: #009967">Purgatorio</span>: Entry Level Technical Guides - For Beginners
+- <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Advanced Technical Guide - For Experienced Practitioners
 
 _Going from top to bottom increases the level of detail and decreases the level of abstraction_. 
 
