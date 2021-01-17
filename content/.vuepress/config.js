@@ -118,12 +118,20 @@ module.exports = {
                 collapsable: false, // optional, defaults to true
                 sidebarDepth: 1, // optional, defaults to 1
                 children: [{
+                    title: 'Welcome to Inferno', // required
+                    //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
+                    collapsable: false, // optional, defaults to true
+                    sidebarDepth: 1, // optional, defaults to 1
+                    children: [
+                        ['inferno/welcome-to-inferno/welcome-to-inferno','Welcome to Inferno'],
+                    ]
+            },{
                     title: 'Time Series', // required
                     //path: '/foo/',      // optional, link of the title, which should be an absolute path and must exist
                     collapsable: false, // optional, defaults to true
                     sidebarDepth: 1, // optional, defaults to 1
                     children: [
-                        ['inferno/time-series/time-series','Time Series Master Guide'],
+                        ['inferno/time-series/introduction-to-time-series','Introduction to Time Series'],
                     ]
             },
             {

@@ -1,5 +1,5 @@
 ---
-title: Time Series Master Guide
+title: Introduction to Time Series
 author: clone95
 description: This guide aims to show you the Data Science applications you can build for dealing with time series data.
 ---
