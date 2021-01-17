@@ -34,29 +34,23 @@ Now it's time to _dive deeper_ in some of the most important aspects of many rea
 
 ## The Structure of Inferno
 
-Is structured to make _two facts_ possible:
+The Inferno is structured to serve **two needs**:
 
-**The first fact** is to provide a framework for Data Science applications with respect to the various generally recognized subfields.
+**The first need** is to provide a clear picture of the main Data Science applications with respect to the various widely recognized subfields.
 
-This fact is achieved by the division of the guides into 3 main areas:
+This fact is achieved by the division of the guides into 3 main areas (more to come...):
 
 - Computer Vision 
 - Time Series 
 - Natural Language Processing 
 
 ::: tip
-Each of the 3 subfields sections:
-
-- Time Series
-- Computer Vision
-- Natural Language Processing
-
-has and "Introductory guide" to get you started in the related field!
+Each of the 3 areas has and "Introductory guide" to get you started in the related area!
 :::
 
-**The second fact** is to serve as an "extensible container" for all future practical guides that are created by the Virgilio community and contributors. 
+**The second need** is to serve as an "extensible container" for all future practical guides that are created by the Virgilio community and contributors. 
 
-This fact is achieved by adding some sections (which will grow with time):
+This fact is achieved by some additional sections (which will grow with time):
 
 - Tools (tool or library-specific guides)
 - Soft Skills 
@@ -67,4 +61,4 @@ This fact is achieved by adding some sections (which will grow with time):
 
 ### Let's start
 
-So, now that you know the structure of the Inferno, have a good time esploring all the guides that Virgilio has prepared for you!
+Now that you know the structure of the Inferno, have a good time esploring all the guides that Virgilio has prepared for you!
