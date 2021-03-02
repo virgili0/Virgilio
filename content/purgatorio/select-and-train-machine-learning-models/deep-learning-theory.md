@@ -5,6 +5,7 @@ description: Get started with Deep Learning, the branch of machine learning that
 ---
 
 # Index
+- [Take your Bible with You](#Take-your-Bible-with-You)
 - [What is Deep Learning](#What-is-Deep-Learning)
 - [Why Deep Learning](#Why-Deep-Learning)
 - [Neural Networks](#Neural-Networks)
@@ -17,6 +18,23 @@ description: Get started with Deep Learning, the branch of machine learning that
   + [Understanding BackPropagation](#Understanding-BackPropagation)
   + [Transfer Learning](#Transfer-Learning)
 - [Conclusions](#Conclusions)
+
+
+## Take your Bible with You
+
+In this guide you will **learn how to learn** the theory about Deep Learning, its most recent applications and challenges, and how you can develop soldi DL skills. 
+
+Virgilio has arranged for you a comprehensive list of link and resources, but he strongly recommends you to be use the following awesome book along the way:
+
+- [**Dive into Deep Learning**](http://d2l.ai/)
+
+This book represents our attempt to make Deep Learning approachable, teaching you the concepts, the context, and the code (both in Pytorch, Tensorflow and MXNET).
+
+A more theoretical book is the following, and Virgilio used it to structure the content of this guide. 
+
+- [**Deep Learning Book**](https://www.deeplearningbook.org/)
+
+*Armed with these 2 books, you should have no problem during your learning journey about Deep Learning!*
 
 ## What is Deep Learning
 **[Deep Learning](https://en.wikipedia.org/wiki/Deep_learning) is a subcategory of Machine Learning** and indicates the branch that refers to algorithms called artificial neural networks. These algorithms are inspired by the structure and function of the [biological brain](https://dzone.com/articles/deep-learning-and-the-human-brain-inspiration-not).
