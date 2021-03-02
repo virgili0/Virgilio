@@ -28,7 +28,7 @@ Interesting read:
 
 Exploring the Purgatorio, you've encountered a lot of links and websites that list good practices for Data Science, but it happens that those lists can be either contradictory or incomplete.
 
-Why is it so difficult to build good and consistent practices for Data Science?
+Why is it so difficult to build _good and consistent_ practices for Data Science?
 
 - Knowledge is fragmented among the many researchers, professors, and practitioners
 - Data Science development best practices are often hidden in skillful teams at top companies and are hardly shared 
@@ -55,13 +55,14 @@ Now, software design, coding, and maintenance offer challenges widely faced by s
 
 To learn software development best practices, check these links:
 
+- [**Software Engineering at Google - Best Practices from Google**](https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf)
 - [Best Coding Practices](https://en.wikipedia.org/wiki/Best_coding_practices)
 - [30 best practices for software development and testing](https://opensource.com/article/17/5/30-best-practices-software-development-and-testing)
 - [Coding Best Practices - UTexas](https://www.cs.utexas.edu/~mitra/csSummer2014/cs312/lectures/bestPractices.html)
 
 These Reddit threads:
 
-- [Best practices in software development workflow](https://www.reddit.com/r/software/comments/24406h/best_practices_in_software_development_workflow/)
+- [**Best practices in software development workflow**](https://www.reddit.com/r/software/comments/24406h/best_practices_in_software_development_workflow/)
 - [What are "good coding practices?"](https://www.reddit.com/r/webdev/comments/8gkzat/what_are_good_coding_practices/)
 - [How do I get better at software engineering and software design?](https://www.reddit.com/r/compsci/comments/2mhwcx/how_do_i_get_better_at_software_engineering_and/)
 - [Senior programmers and developers, what are some best practices / advice every junior programmer should know?](https://www.reddit.com/r/learnprogramming/comments/8bt1j4/senior_programmers_and_developers_what_are_some/)
