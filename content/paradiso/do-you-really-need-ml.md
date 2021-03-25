@@ -99,7 +99,7 @@ But it must be used to understand that they are not always the simplest solution
 
 [This](https://medium.com/datadriveninvestor/when-not-to-use-neural-networks-89fb50622429) article has good considerations about this.
 
-So always ask yourself the following question: is my problem quite complex and I have enough data to make useful machine learning techniques or even deep learning?
+So always ask yourself the following question: is my problem quite complex AND do I have enough data to make useful machine learning techniques or even deep learning?
 
 ## The Charming Salesman
 Information technology like any other industry is first and foremost a business.
