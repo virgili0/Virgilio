@@ -22,7 +22,7 @@ description: Get started with Deep Learning, the branch of machine learning that
 
 ## Take your Bible with You
 
-In this guide you will **learn how to learn** the theory about Deep Learning, its most recent applications and challenges, and how you can develop soldi DL skills. 
+In this guide you will **learn how to learn** the theory about Deep Learning, its most recent applications and challenges, and how you can develop solid DL skills. 
 
 Virgilio has arranged for you a comprehensive list of link and resources, but he strongly recommends you to be use the following awesome book along the way:
 

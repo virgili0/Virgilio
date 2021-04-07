@@ -77,13 +77,13 @@ Let's see explore now the use cases more in-depth.
 
 ## Use cases examples
 
-As we argued, it is essential to have a framework of things you can do nowadays with certain tools, and understand if it is convenient in terms of ROI for a company (you manager, I talk to you)
+As we argued, it is essential to have a framework of things you can do nowadays with certain tools, and understand if it is convenient in terms of ROI for a company ("you manager, I talk to you").
 
 We here at Virgilio are pleased to tell you that we are in close collaboration with [Firm.ai](https://github.com/firmai), a spectacular OpenSource project that tries to solve the problem of providing an overview of all possible use cases, divided by industry.
 
 [**In this project**](https://github.com/firmai/industry-machine-learning), you can find a wide variety of applied use cases, with code! What an incredible resource!
 
-I recommend, leave a star to the Firm.ai project and follow it, it's a work in progress that will be continuously updated.
+Leave a star to the Firm.ai project and follow it, it's a work in progress that will be continuously updated.
 
 Don't you find what you're looking for in the previous link? Try [here](https://appliedai.com/). You can enter the business you are looking for, and also see which companies provide services that might be useful to you!
 
