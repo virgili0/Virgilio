@@ -145,10 +145,10 @@ Reading slides will bore your audience and you'll seem less confident.
 ## Be intriguing
 The best way to attract people is to grab their attention. 
 
-Doing this it's not so easy, but with some psychological tricks, you can bewitch and convince them. [Here](https://www.inc.com/sims-wyeth/how-to-capture-and-hold-audience-attention.html) you have a really good explanation of what I'm saying.
+Doing this it's not so easy, but with some psychological tricks, you can bewitch and convince them. [Here](https://www.inc.com/sims-wyeth/how-to-capture-and-hold-audience-attention.html) you have a really good explanation of how to hold the attention of your audience.
 
 ## Use humor
-If you're here, it's mostly because I've been intrigued and caught your attention.
+If you're here, it's mostly because this guide is intriguing and it caught your attention.
 
  A big part of this game has been played by humor.
 [Here](https://www.writersdigest.com/online-editor/how-to-mix-humor-into-your-writing) you can learn how to embed humor in your writings, and [here](https://www.fastcompany.com/3068891/how-to-incorporate-humor-into-presentations-in-the-most-un-cringeworthy-way) you can learn how to do it in your speeches.

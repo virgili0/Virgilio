@@ -27,7 +27,7 @@ As you may have noticed, **the structure of Purgatory reflects the entire Data S
 :::
 
 The design of Purgatorio is inspired by the checklist in the magnificent book 
-[Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646), which I would urge you to buy. 
+[Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/Hands-Machine-Learning-Scikit-learn-Tensorflow/dp/1492032646), which Virgilio would urges you to buy. 
 
 **It's worth its weight in bits!**
 
@@ -46,7 +46,7 @@ These techniques can be of two types:
 For now don't worry about the difference between the two types, just know for now that the former has been around for decades, 
 while the latter is the subject of active experimental research and have only started to be used in the last 6-7 years.
 
-**You are now ready for a short tour of the Data Science process, where I'll give you an overview of what your trip to Purgatorio will be like.**
+**You are now ready for a short tour of the Data Science process, where Virgilio will give you an overview of what your trip to Purgatorio will be like.**
 
 ## Frame the problem
 
@@ -95,7 +95,7 @@ The information represented by the data is called "features" (in the simple case
 
 Once the raw data has been cleaned, the feature engineering phase often takes place in which existing data is combined to "suggest" to the models the relationships between them.
 
-For example, if my data contains the date of purchase in a store, I can add the feature "day of the week", indicating with a value from 1 to 7 on which day we are. This could reveal very interesting relationships!
+For example, if your data contains the date of purchase in a store, you can add the feature "day of the week", indicating with a value from 1 to 7 on which day we are. This could reveal very interesting relationships!
 
 Often _the feature engineering phase is vital for traditional models_, while we will see that for Deep Learning models it is less important, as they have among their advantages to automatically extract relevant features from the data.
 

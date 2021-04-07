@@ -37,7 +37,7 @@ We will see in the [Machine Learning Theory](../select-and-train-machine-learnin
 
 After this summary, let's see what questions we ask ourselves (and which we ask the experts of the domain) to frame a data problem.
 
-The first thing to do when dealing with a new problem is to understand what kind of data I have available. Remember, without data you're not going anywhere!
+The first thing to do when dealing with a new problem is to understand what kind of data you have available. Remember, without data you're not going anywhere!
 
 ## Understand the data
 
@@ -59,7 +59,7 @@ When we look at the data we should ask ourselves the following questions:
 
   - **tabular data:** 
   As the name indicates, data extracted from database tables (not necessarily relational). They are data organized in rows, have attributes, and generally a way to identify them uniquely. The rows are divided into fields, which in turn can contain various types of data (numeric, textual, links to images). This type of data is also called "structured".
-  For example, I could have a database that collects user names, their ages, and associated tweets, in which case I would have tabular data that includes both text data (names and tweets) and numerical data (age). 
+  For example, you could have a database that collects user names, their ages, and associated tweets, in which case you would have tabular data that includes both text data (names and tweets) and numerical data (age). 
   
   - **text:** 
   For example, application logs, tweets, textbooks. We can consider textual data all that is made up of characters. Text data can then be inserted in the context of tabular data, as a separate field.
@@ -144,7 +144,7 @@ Often the public datasets that are used for ML applications do not contain sensi
 
 For example, you can "make anonymous" a dataset of medical records (or X-ray images) by deleting the names and details of patients.
 
-If I want to train a bone fracture classifier, I don't need to know who the skeleton in question belongs to! (Or rather, it could be useful and additional information, but it is not essential).
+If you want to train a bone fracture classifier, you don't need to know who the skeleton in question belongs to! (Or rather, it could be useful and additional information, but it is not essential).
 
 - **Can we achieve our goal with this data after cleaning and processing it?**
 
@@ -180,7 +180,7 @@ Formulating this objective is crucial for various reasons:
 - the measurability of the success of the project
 - setting a clear target does not create too high an expectation
 
-I suggest that you use the SMART methodology for projects, which consists of formulating them in a way:
+Virgilio suggests that you use the SMART methodology for projects, which consists of formulating them in a way:
 
 - **S**pecific
 - **M**easurable

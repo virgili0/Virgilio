@@ -105,7 +105,7 @@ When monitoring the behavior of the ML model in production, you should consider 
 
     - Distribution of predictions by the label. If you see this shifting a lot, another flag that inference data is shifting, which could be a point of concern.
 
-    - Distribution of predictions by confidence/probability. There is a pretty rich (& ongoing) field of research here, but, as a starter, I'd also expect the distribution of raw probabilities (logits) to look similar.
+    - Distribution of predictions by confidence/probability. There is a pretty rich (& ongoing) field of research here, but, as a starter, you can also expect the distribution of raw probabilities (logits) to look similar.
 
     - As a corollary, looking at overall change in the confidence of outputs. E.g., a drop in confidence values is possibly a concerning sign. (Of course, vanilla NNs are also prone to be highly overconfident on new/OOD data, so you need to be cautious; if this is really critical, could look at different NN variants that generate better confidence assessments.)
 

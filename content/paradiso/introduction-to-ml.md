@@ -106,7 +106,7 @@ However, this approach is very simplistic and is based on the strong assumption 
 
 The system learns its knowledge "by heart" and applies it blindly to new cases, applying some measure of similarity (in this case, the distance relative to the dimension X) concerning those stored.
 
-The other approach that can be used to generalize new cases starting from the old ones, could be to create a "representation" or "idea" of how the data I have been made (the grey dots in figure) and use this "idea" (the model) to produce the Y of the new points.
+The other approach that can be used to generalize new cases starting from the old ones, could be to create a "representation" or "idea" of how the data have been made (the grey dots in figure) and use this "idea" (the model) to produce the Y of the new points.
 A model is, therefore, a set of parameters that, when properly adjusted, can provide a reasonable estimate of Y, given the X of a new point. 
 
 In our case, we imagine that our model is the straight line that best approximates the series of gray points. Our parameters are the slope and the intercept of the line, and the training process of the model consists in understanding what the numerical values of these two parameters are.
