@@ -48,7 +48,7 @@ In this third case, instead, we hypothesize the internal construction of a Machi
 We must assume that the company in question has at its disposal the history of all the calls received, divided into the individual steps made by the operator; with them, we must be able to build a chain of events that have led to a final solution.
 
 
-Having a large number of these chains at our disposal, we **train a model** according to Machiene Learning algorithms; it is necessary to have specific competence at this point to understand which is the most suitable algorithm and the calibration of the parameters necessary to obtain the best result. It is often at this point that the best intentions collapse; it is not enough to feed the data to any model, it is necessary to identify and calibrate the right model.
+Having a large number of these chains at our disposal, we **train a model** according to Machine Learning algorithms; it is necessary to have specific competence at this point to understand which is the most suitable algorithm and the calibration of the parameters necessary to obtain the best result. It is often at this point that the best intentions collapse; it is not enough to feed the data to any model, it is necessary to identify and calibrate the right model.
 
 Once the model has been trained, it is made available to the call center; once the call has been received and the first step has been taken, we will probably already have the next step available; after the second step, the probability of 'guessing' the next step will be even higher, and so on, optimizing the process.
 
