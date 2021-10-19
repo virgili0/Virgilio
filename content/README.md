@@ -112,7 +112,7 @@ _Going from Paradiso to Inferno increases the level of detail of the guides and 
 In the <span style="font-weight: bold; color: #2565AE">Paradiso</span> you won’t find a single line of code or a math formula, just plain English. 
 Here’s the place for introductions, simple explanations, demystifications, and meta-guides (for example a guide about the best way to use Virgilio). 
 
-It’s the best place for the not-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored with technical details. 
+It’s the best place for the non-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored with technical details. 
 
 Do you want to be able to **understand and talk about** these innovative fields?
 
