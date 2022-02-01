@@ -178,7 +178,7 @@ Some examples are [AWS Sagemaker](https://aws.amazon.com/it/sagemaker/) or [Azur
 
 To start experimenting in a simple way there are even solutions such as [Google Colab](https://colab.research.google.com/), a free Google tool that allows you to use Jupyter notebooks on your machines, without having to worry about installing packages or managing memory. It's also totally free!
 
-We have created [**a fantastic list**](https://github.com/virgili0/Virgilio/tree/master/Topics/Deep%20learning%20in%20cloud) that compares all cloud solutions in terms of cost and performance.
+We have created [**a fantastic list**](https://github.com/virgili0/Virgilio/tree/dev/Topics/Deep%20learning%20in%20cloud) that compares all cloud solutions in terms of cost and performance.
 
 Don't believe who tells you that you need to buy a high-performance machine to make ML. He probably lives in 2010! 
 
