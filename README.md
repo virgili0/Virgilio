@@ -34,7 +34,7 @@ Have you ever got confused because of the several and contradicting names for th
 ## About
 
 Virgilio is developed and maintained by [these awesome people](docs/contributors.md).
-You can email us `virgilio.datascience (at) gmail.com` or join the [Discord chat](https://discord.gg/UpQ8bb7).
+[Find me](https://twitter.com/giac290595) on Twitter to have a chat!
 
 ### Contribute
 
