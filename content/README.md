@@ -36,6 +36,10 @@ Virgilio comes in form of _Guides_ and it's organized in three levels to offer y
 If you want to contribute to the Virgilio, welcome! :-)
 You will find information about contribution guidelines in the [Contribute](#contribute) section.
 :::
+
+::: tip
+[Find me](https://twitter.com/giac290595) on Twitter to have a chat!
+:::
 ## Table of Contents
 
 - [*What* is Virgilio](#what-is-virgilio)
