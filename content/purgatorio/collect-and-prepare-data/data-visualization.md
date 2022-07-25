@@ -40,7 +40,7 @@ We'll show you best practices and reasons for using them, along with the "storyt
 
 It was hard for the Homo Sapiens to survive in the African savannah: a human or animal could kill you at any time.
 The human brain has evolved in this wild and unpredictable context, and evolution has "coincidentally" chosen to devote a great deal of computing power to capturing and understanding the world through **sight** ([more than 60 %](https://www.quora.com/How-much-of-the-brain-is-involved-with-vision-What-about-hearing-touch-etc)).\
-So, it' trivial that a clear and effective data visualization it's one of your best weapons in the Data Science world.
+So, it' trivial that a clear and effective [data visualization](https://www.scaler.com/topics/data-visualization-in-python/) it's one of your best weapons in the Data Science world.
 
 The track which inspired me for this guide is one of the must-buy book [**Storytelling with Data**](https://www.amazon.it/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257/ref=sr_1_1?adgrpid=52005426669&gclid=CjwKCAjwndvlBRANEiwABrR32EhKMtGs8M5mBgl5lQJZCf9fglkx87ujqYVZk6gHsMDxKOd9yQa7uRoCin8QAvD_BwE&hvadid=255222968297&hvdev=c&hvlocphy=1008297&hvnetw=g&hvpos=1t3&hvqmt=e&hvrand=3841532584099296285&hvtargid=kwd-297573901809&keywords=storytelling+with+data&qid=1555538994&s=gateway&sr=8-1). By far is the best data visualization book I've ever read.
 
