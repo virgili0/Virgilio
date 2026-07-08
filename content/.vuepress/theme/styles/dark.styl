@@ -1,0 +1,145 @@
+// Dark mode — applied whenever <html> carries the `dark` class.
+// Toggled by DarkModeToggle.vue and pre-applied by the head script in config.js.
+
+$darkBg = #1b1b1f
+$darkBgElevated = #202127
+$darkText = #c9ccd1
+$darkMuted = #9aa0a6
+$darkBorder = #2c2d33
+$darkBorderStrong = #3a3b42
+$darkAccent = #58a6ff
+
+html.dark
+  background-color $darkBg
+
+  body
+    background-color $darkBg
+    color $darkText
+
+  .navbar
+    background-color $darkBgElevated
+    border-bottom-color $darkBorder
+
+  // logo — has a hard-coded dark color in the light theme
+  .site-name
+    color $darkText
+  .site-name2
+    color $darkMuted
+
+  // nav links container ships with a hard-coded white background (the
+  // "white pill" behind the search box) — clear it in dark mode
+  .links
+    background-color transparent
+
+  .sidebar
+    background-color $darkBgElevated
+    border-right-color $darkBorder
+
+  // sidebar entries are neutral text (like the light theme); only the
+  // active/hovered one turns accent — keeps the hierarchy readable
+  a.sidebar-link
+    color $darkText
+    &:hover
+      color $darkAccent
+
+  // links & accents
+  a
+    color $darkAccent
+  a:hover
+    color lighten($darkAccent, 12%) !important
+  a.sidebar-link.active
+    color $darkAccent !important
+    border-left-color $darkAccent !important
+  p a code
+    color $darkAccent
+
+  // headings & dividers
+  h1, h2, h3, h4, h5, h6
+    color $darkText
+  h2
+    border-bottom-color $darkBorder
+  hr
+    border-top-color $darkBorder
+
+  // blockquotes
+  blockquote
+    color $darkMuted
+    border-left-color $darkBorderStrong
+
+  // inline code
+  {$contentClass} code
+    color lighten($darkText, 12%)
+    background-color rgba(255,255,255,0.08)
+
+  // keyboard keys
+  kbd
+    background #30363d
+    border-color #444c56
+
+  // tables
+  tr
+    border-top-color $darkBorder
+    &:nth-child(2n)
+      background-color rgba(255,255,255,0.03)
+  th, td
+    border-color $darkBorder
+
+  // custom blocks — the light theme hard-codes near-black text tuned for
+  // pale backgrounds, which is unreadable on a dark block. Re-tune each.
+  .custom-block.tip
+    background-color #16261c
+    color $darkText
+  .custom-block.warning
+    background-color rgba(255, 229, 100, 0.08)
+    border-color #d9b400
+    color $darkText
+    .custom-block-title
+      color #ffd557
+    a
+      color $darkAccent
+  .custom-block.danger
+    background-color rgba(255, 80, 80, 0.09)
+    border-color #d64545
+    color $darkText
+    .custom-block-title
+      color #ff6b6b
+    a
+      color $darkAccent
+  .custom-block.details
+    background-color $darkBgElevated
+
+  // figures: PNG diagrams have white backgrounds — dim slightly so they
+  // don't glare, and reveal true colors on hover.
+  {$contentClass} img
+    filter brightness(0.88)
+    border-radius 4px
+    transition filter .2s ease
+    &:hover
+      filter none
+
+  // search box (@vuepress/search)
+  .search-box input
+    background-color $darkBgElevated
+    border-color $darkBorderStrong
+    color $darkText
+  .search-box input:focus
+    border-color $darkAccent
+  .search-box .suggestions
+    background-color $darkBgElevated
+    border-color $darkBorder
+    box-shadow 0 2px 10px rgba(0,0,0,0.55)
+  .search-box .suggestion
+    color $darkMuted
+    a
+      color $darkText
+    &.focused
+      background-color rgba(255,255,255,0.06)
+      a
+        color $darkAccent
+
+  // the floating toggle button — brighten so it stands out on the dark page
+  .dark-toggle
+    background $darkBgElevated
+    border-color $darkBorderStrong
+    color $darkAccent
+    box-shadow 0 2px 12px rgba(0,0,0,0.6)

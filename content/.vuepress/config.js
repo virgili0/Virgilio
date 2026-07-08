@@ -2,6 +2,10 @@ module.exports = {
     title: 'Virgilio',
     base: "/Virgilio/",
     description: 'Data Science E-Learning',
+    head: [
+      // Apply the saved dark-mode preference before first paint (no flash).
+      ['script', {}, "(function(){try{if(localStorage.getItem('virgilio-dark')==='1'){document.documentElement.classList.add('dark');}}catch(e){}})();"]
+    ],
   plugins: {
     'sitemap': {
       hostname: 'https://virgili0.github.io/Virgilio/'
