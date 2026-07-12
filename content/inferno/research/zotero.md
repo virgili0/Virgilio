@@ -1,7 +1,7 @@
 ---
 title: Zotero
 author: khaledbay
-description: Explain how to use the bibliographic reference management tool Zotero. It's used extensively in the field of research (writing studies, theses or articles), it makes possible to collect the results of its research, keep the details (text and references) and then create a bibliography. 
+description: Explain how to use the bibliographic reference management tool Zotero. It's used extensively in the field of research (writing studies, theses or articles), it makes possible to collect the results of its research, keep the details (text and references) and then create a bibliography.
 ---
 
 # Index
@@ -41,7 +41,7 @@ In practical terms, there are several ways and options for adding bibliographic 
 ### Automatic insertion
 Once a website is compatible, in order to add a reference in your bibliography, you just have to click on the icon in the address bar:
 - If you are on the page dedicated to the resource notice: Zotero will then import this notice into your bibliography;
-- If you are on a page that displays a list of resources (menu, search result, etc.), Zotero will then suggest that you select, from all the resources listed on the page, the one(s) you want to import into your bibliography 
+- If you are on a page that displays a list of resources (menu, search result, etc.), Zotero will then suggest that you select, from all the resources listed on the page, the one(s) you want to import into your bibliography
 
 ### Manual insertion
 It is possible that you may want to import references into Zotero that are not available on compatible sites. In order to do this, you will have to fill in the various fields yourself and create a record manually.

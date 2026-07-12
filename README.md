@@ -11,7 +11,7 @@ Our vision is to give *everyone* the chance to get involved in this field, **get
 [Find me](https://twitter.com/giac290595) on Twitter to have a chat!
 
 ## -----> [**Meet Virgilio now!**](https://virgili0.github.io/Virgilio/)
-![Figure 1](virgilio.PNG "1") 
+![Figure 1](virgilio.PNG "1")
 
 
 ### Table of Contents
@@ -24,13 +24,13 @@ Our vision is to give *everyone* the chance to get involved in this field, **get
 
 # What is Virgilio?
 
-Studying and reading through the Internet means swimming in an **infinite jungle of chaotic information**, even more so in rapidly changing innovative fields. 
+Studying and reading through the Internet means swimming in an **infinite jungle of chaotic information**, even more so in rapidly changing innovative fields.
 
-_Have you ever felt overwhelmed_ when trying to approach **Data Science** without a real “path” to follow? 
+_Have you ever felt overwhelmed_ when trying to approach **Data Science** without a real “path” to follow?
 
 Are you tired of clicking “Run”, “Run”, “Run”.. on a Jupyter Notebook, with that false sense of confidence given by the comfort zone of the work of others?
 
-Have you ever got confused because of the several and contradicting names for the same algorithm or approach, from different websites and fragmented tutorials? 
+Have you ever got confused because of the several and contradicting names for the same algorithm or approach, from different websites and fragmented tutorials?
 
 **Virgilio addresses these critical issues for free, for everyone.**
 

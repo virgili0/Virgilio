@@ -6,21 +6,21 @@
  - [Guide Template](#Guide-Template)
  - [Creating a Pull Request](#Creating-a-Pull-Request)
 
- 
+
 # Contribute
 
-> “There is immense power when a group of people with similar interests gets together to work toward the same goals.” 
+> “There is immense power when a group of people with similar interests gets together to work toward the same goals.”
 
 The mission of Virgilio is to share free and curated knowledge paths and high-quality content, and we think that everyone can put his hands in this wonderful and serious game!
 
 If you know how to use a tool or a framework, or you faced some business problems and their complications, why not writing a guide about it?
- 
+
 > Several studies and empirical proofs show that the fastest and most effective way to learn something, is to teach it.
 
-Moreover, thousands of people will read it and would be grateful to you! 👍 
+Moreover, thousands of people will read it and would be grateful to you! 👍
 Don't worry about the correctness of your English or the depth of your knowledge, experienced people at Virgilio will help you make your guide of the highest quality.
 If you want to contribute to the Virgilio project, test to @Clone95 on Telegram and check out our future guides roadmap: maybe you can find that we already need your help!
-Feel free to suggest new ideas, guides, or entire sections! 
+Feel free to suggest new ideas, guides, or entire sections!
 
 
 ## Easiest way to contribute
@@ -42,15 +42,15 @@ In general, Virgilio has to be the place that you go to and ensures you that the
 - If practice oriented (_Purgatorio and Inferno_), exposes you to practical experience with exercises and hands-on projects. Kaggle is a good place to find them: choose a project and give it as a “final homework”, giving tips and different solutions (if possible).
 - Drives you step-by-step through progressive theory+practice+example for each step. Like a book basically, but concise, with pointers to the right resources and brief suggestions about how to approach them.
 - Don't re-invent the wheel. Probably someone has done a very good job explaining Back Propagation, why not to leverage this? Other authors will be more than happy to have credits and share their work!
-The thing that matters is that you provide this resource inside a logical path, with reasons for that, introducing it, and "linking" with explanations to the rest of the guide. It can just be 3-4 lines, if they are sufficient. Of course, the more original content you develop, the more you can build an awesome learning place. 
+The thing that matters is that you provide this resource inside a logical path, with reasons for that, introducing it, and "linking" with explanations to the rest of the guide. It can just be 3-4 lines, if they are sufficient. Of course, the more original content you develop, the more you can build an awesome learning place.
 - Gives you, for each step, some pointers to resources like "best practices for ____" or repos of examples.
 
-### **The bottom line** is the following: 
+### **The bottom line** is the following:
 
-Virgilio wants to be the mentor who "lines up" a series of resources of which the Internet already possesses most. 
+Virgilio wants to be the mentor who "lines up" a series of resources of which the Internet already possesses most.
 
 It wants to be those _lines that connect the dots_ of knowledge.
-It wants to be the place in which you go to, to look for references and useful links, organized in a _logical and progressive way_. 
+It wants to be the place in which you go to, to look for references and useful links, organized in a _logical and progressive way_.
 It wants to _decrease the cognitive load_ in the approach to complex and interconnected themes such as machine learning and data science in general.
 
 
@@ -61,7 +61,7 @@ If the guide you are writing is highly pratical, consider using a Jupyter Notebo
 
 # Title of the guide about X
 
-# What you will learn 
+# What you will learn
 Try to be specific.
 
 ## Prerequisites
@@ -86,12 +86,12 @@ Give here an estimation of the time needed to walk through the contents and to t
  - [Further reading](#Further-reading)
 
 Let's dive right in!
- 
+
 ### Section A
 Section A is great because it is the first section of them all!
 
 And this would be another very interesting paragrah!
- 
+
 #### Subsection A1
 In particular, I just went deeper into subsection A1!
 
@@ -101,8 +101,8 @@ And of course there is subsection A2...
 ### Section B
 Which is then followed by Section B.
 
-### Practice 
-Here you can give exercises too, in order to access to the next step of the path, 
+### Practice
+Here you can give exercises too, in order to access to the next step of the path,
 
 or a project from Kaggle. For the project, give some guidelines and try to give an example solution (you can easily find dozens of solution notebooks on Kaggle)
 

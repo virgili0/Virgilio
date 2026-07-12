@@ -1,8 +1,8 @@
-# <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div> 
+# <div class="title">*Virgilio* <a style="display:inline" href="https://github.com/Virgili0/Virgilio"><img alt="GitHub stars" style="display:inline" src="https://img.shields.io/github/stars/Virgili0/Virgilio?style=social" height="25px"></a></div>
  <div class="subtitle">Your new Mentor for Data Science E-Learning.</div>
 
-<!-- 
-     Responsive Image Map 
+<!--
+     Responsive Image Map
      https://www.zaneray.com/responsive-image-map/
 
 
@@ -26,7 +26,7 @@ Virgilio is an **open-source initiative**, aiming to **mentor and guide** anyone
 
 **The Vision of Virgilio** is to give *everyone* the chance to get involved in this field, **get self-started** as a practitioner, **gain new skills** and **learn to navigate** through the infinite web of available resources and find the ones useful for *you*.
 
-Virgilio comes in form of _Guides_ and it's organized in three levels to offer you a **clear learning path**: 
+Virgilio comes in form of _Guides_ and it's organized in three levels to offer you a **clear learning path**:
 
 - <span style="font-weight: bold; color: #2565AE">Paradiso</span>: High Level Guides - For Everyone
 - <span style="font-weight: bold; color: #009967">Purgatorio</span>: Entry Level Technical Guides - For Beginners
@@ -51,13 +51,13 @@ You will find information about contribution guidelines in the [Contribute](#con
 
 # What is Virgilio?
 
-Studying and reading through the Internet means swimming in an **infinite jungle of chaotic information**, even more so in rapidly changing innovative fields. 
+Studying and reading through the Internet means swimming in an **infinite jungle of chaotic information**, even more so in rapidly changing innovative fields.
 
-_Have you ever felt overwhelmed_ when trying to approach **Data Science** without a real “path” to follow? 
+_Have you ever felt overwhelmed_ when trying to approach **Data Science** without a real “path” to follow?
 
 Are you tired of clicking “Run”, “Run”, “Run”.. on a Jupyter Notebook, with that false sense of confidence given by the comfort zone of the work of others?
 
-Have you ever got confused because of the several and contradicting names for the same algorithm or approach, from different websites and fragmented tutorials? 
+Have you ever got confused because of the several and contradicting names for the same algorithm or approach, from different websites and fragmented tutorials?
 
 **Virgilio addresses these critical issues for free, for everyone.**
 
@@ -90,7 +90,7 @@ For all of these scenarios, Virgilio gives you **the resources** and **the guida
 
 ## Structure
 
-![Figure 1](map.PNG "1") 
+![Figure 1](map.PNG "1")
 
 As you can imagine it’s not easy to intercept all these different needs, but Virgilio solves this problem with a hierarchical project structure that distinguishes the content based on different levels of *abstraction*.
 
@@ -110,13 +110,13 @@ The parallelism is natural:
 - <span style="font-weight: bold; color: #009967">Purgatorio</span>: Entry Level Technical Guides - For Beginners
 - <span style="font-weight: bold; color: #D22C2C">Inferno</span>: Advanced Technical Guide - For Experienced Practitioners
 
-_Going from Paradiso to Inferno increases the level of detail of the guides and decreases the level of abstraction of the topics involved_. 
+_Going from Paradiso to Inferno increases the level of detail of the guides and decreases the level of abstraction of the topics involved_.
 
 ---
-In the <span style="font-weight: bold; color: #2565AE">Paradiso</span> you won’t find a single line of code or a math formula, just plain English. 
-Here’s the place for introductions, simple explanations, demystifications, and meta-guides (for example a guide about the best way to use Virgilio). 
+In the <span style="font-weight: bold; color: #2565AE">Paradiso</span> you won’t find a single line of code or a math formula, just plain English.
+Here’s the place for introductions, simple explanations, demystifications, and meta-guides (for example a guide about the best way to use Virgilio).
 
-It’s the best place for the non-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored with technical details. 
+It’s the best place for the non-techies, beginners, and literally everyone who wants to get in touch with Data Science and Machine Learning without getting bored with technical details.
 
 Do you want to be able to **understand and talk about** these innovative fields?
 
@@ -124,13 +124,13 @@ Start from the <span style="font-weight: bold; color: #2565AE">Paradiso</span>!
 
 ---
 
-In the <span style="font-weight: bold; color: #009967">Purgatorio</span> you can find technical guides for beginners (in the field or in general IT). 
+In the <span style="font-weight: bold; color: #009967">Purgatorio</span> you can find technical guides for beginners (in the field or in general IT).
 
-For example, you’ll find guides about Python, maths, statistical modeling, building production-ready Machine Learning systems, and more. 
+For example, you’ll find guides about Python, maths, statistical modeling, building production-ready Machine Learning systems, and more.
 
-The whole <span style="font-weight: bold; color: #009967">Purgatorio</span>'s structure is built on the end-to-end Data Science process, where each section corresponds to a macro-phase of the Data Science process: **It’s an obliged step before the Inferno.** 
+The whole <span style="font-weight: bold; color: #009967">Purgatorio</span>'s structure is built on the end-to-end Data Science process, where each section corresponds to a macro-phase of the Data Science process: **It’s an obliged step before the Inferno.**
 
-Depending on your starting skill, you’ll probably spend here most of the time, learning to code, understand math concepts, and more! 
+Depending on your starting skill, you’ll probably spend here most of the time, learning to code, understand math concepts, and more!
 
 _If you’re a complete beginner_, follow the track we proposed, starting from the Fundamentals.
 
@@ -138,20 +138,20 @@ _If you’re a complete beginner_, follow the track we proposed, starting from t
 
 In the <span style="font-weight: bold; color: #D22C2C">Inferno</span> you won’t find gentle introductions or generic explanations, but a lot of different detailed guides, topics, hands-on tutorials and more!
 
-Think about <span style="font-weight: bold; color: #D22C2C">Inferno</span> as the place where you will pick up the sub-field you prefer and dive into that. 
+Think about <span style="font-weight: bold; color: #D22C2C">Inferno</span> as the place where you will pick up the sub-field you prefer and dive into that.
 
 The three "deep-dive" guides in the <span style="font-weight: bold; color: #D22C2C">Inferno</span> are:
 
-- Time Series 
-- Natural Language 
+- Time Series
+- Natural Language
 - Computer Vision
 
-These learning paths are the **“final bosses”** of the Virgilio project: 
+These learning paths are the **“final bosses”** of the Virgilio project:
 once you’ll have completed them you will hopefully be skilled enough to land an internship or tackle real business problems!
 
 Above these, in the <span style="font-weight: bold; color: #D22C2C">Inferno</span> you’ll find a plenty of other useful zones:
 
-- Tools: here you find guides about useful tools for programming, or scientific computing in general. 
+- Tools: here you find guides about useful tools for programming, or scientific computing in general.
 - Research: here you will learn how to find the right papers and digest them. In addition, you’ll discover which teams to follow for your interests.
 - ML for Business applications: here we provide additional resources to select a sector and see what are today’s available techniques for the problems of your interest.
 
